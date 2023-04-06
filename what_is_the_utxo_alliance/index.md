@@ -1,13 +1,9 @@
-<h1>
+---
+title: 'What Is the UTXO Alliance?'
+coverImage: 'images/image1.png'
+---
 
-
-![alt_text](images/image1.png "image_tooltip")
-What Is the UTXO Alliance?</h1>
-
-
-
-![alt_text](images/image2.png "image_tooltip")
-
+![alt_text](images/image2.png 'image_tooltip')
 
 The UTXO Alliance is a collaborative initiative that brings together individuals and organizations working towards making the UTXO (Unspent Transaction Output) model more scalable, secure, and interoperable. The UTXO model is a fundamental concept in blockchain technology used by many established networks, including Bitcoin, Nervos, Cardano, Ergo, and Fuel.
 
