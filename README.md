@@ -11,14 +11,10 @@ Learn more information about Markdown [here](https://www.markdownguide.org/getti
 
 Google docs to Markdown conversion tool [here](https://workspace.google.com/marketplace/app/docs_to_markdown/700168918607) <br>
 <br>
-<br>
-Article header format <br>
-
+Article header format
 --- <br>
 title: 'Example Title' <br>
 coverImage: 'images/image##.png' <br>
 category: popular <br>
 date: '2023-04-09T16:00:00.000Z' <br>
 --- <br>
-
-
