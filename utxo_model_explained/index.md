@@ -2,6 +2,7 @@
 title: 'The UTXO Model Explained'
 coverImage: 'images/image1.png'
 category: popular
+date: '2023-04-09T16:00:00.000Z'
 ---
 
 ![alt_text](images/image2.png 'image_tooltip')
