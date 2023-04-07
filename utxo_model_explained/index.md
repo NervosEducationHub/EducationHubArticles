@@ -1,15 +1,14 @@
-<h1>
-![alt_text](images/image1.png "image_tooltip")
-The UTXO Model Explained</h1>
+---
+title: 'The UTXO Model Explained'
+coverImage: 'images/image1.png'
+category: popular
+---
 
-
-
-![alt_text](images/image2.png "image_tooltip")
-
+![alt_text](images/image2.png 'image_tooltip')
 
 The Unspent Transaction Output (UTXO) accounting model plays a critical role in the functioning of Bitcoin and other UTXO-based cryptocurrencies. It ensures the accurate tracking of coin ownership changes and supports the security and integrity of blockchain networks.
 
-<h2>How Does the UTXO Transaction Model Work</h2>
+## How Does the UTXO Transaction Model Work
 
 In UTXO-based blockchains, the ledger's state is represented by a set of unspent transaction outputs, which are the indivisible units of cryptocurrency that can be spent in future transactions. Each UTXO is associated with a specific owner's public key and can only be spent by providing a valid signature corresponding to that public key.
 
@@ -19,15 +18,15 @@ The UTXO model is essential for maintaining the security and integrity of blockc
 
 When a block is mined and added to the blockchain, nodes update their UTXO set by removing the spent inputs and adding the newly created outputs. In the case of chain reorganizations, nodes must also update their UTXO set to reflect the changes introduced by the new chain.
 
-<h2>Comparisons to Other Transaction Models</h2>
+## Comparisons to Other Transaction Models
 
 While the UTXO model is widely employed in cryptocurrencies like Bitcoin and Litecoin, other transaction models exist. Ethereum, for example, uses an account-based model, which operates more like a traditional bank account. In the account-based model, the ledger's state is represented by account balances rather than UTXOs. Transactions directly update the sender's and recipient's account balances, and no new outputs are created.
 
 The UTXO and account-based models each have their advantages and drawbacks. The UTXO model offers enhanced privacy and scalability, while the account-based model provides simplicity and ease of use. The transaction model choice depends on a specific cryptocurrency project's unique requirements and goals.
 
-<h2>The Advantages and Disadvantages of the UTXO Model</h2>
+## The Advantages and Disadvantages of the UTXO Model
 
-As already mentioned, the advantages of the UTXO over the account model include greater scalability and better privacy. 
+As already mentioned, the advantages of the UTXO over the account model include greater scalability and better privacy.
 
 Specifically, UTXO-based blockchains are more scalable because they can process transactions in parallel, i.e., miners can validate every transaction independently and process different transactions simultaneously. This is in contrast to account-based blockchains that can only process transactions sequentially or one after another in a linear manner, which can often lead to network congestion in times of high user demand.
 
