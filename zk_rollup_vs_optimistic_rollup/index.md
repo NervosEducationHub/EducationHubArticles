@@ -89,7 +89,7 @@ The benefits of Optimistic rollups are their lesser complexity and lower transac
 
 _A comparison table between Optimistic and ZK-rollups._
 
-## What Type of Rollup Does Nervos Use? \
+## What Type of Rollup Does Nervos Use? 
 
 Nervos utilizes a custom Optimistic rollup solution for its first Layer 2 chain, Godwoken. Godwoken’s dispute period is only five days, which is shorter than most rollup solutions on Ethereum, but still long enough to ensure adequate security.
 
