@@ -12,7 +12,7 @@ Learn more information about Markdown [here](https://www.markdownguide.org/getti
 Google docs to Markdown conversion tool [here](https://workspace.google.com/marketplace/app/docs_to_markdown/700168918607) <br>
 <br>
 <br>
-**Format for the header information for each article** <br>
+Article header format <br>
 
 --- <br>
 title: 'Example Title' <br>
