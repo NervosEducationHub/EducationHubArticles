@@ -1,6 +1,8 @@
 ---
 title: 'What Is Nakamoto Consensus?'
 coverImage: 'images/image1.png'
+category: popular
+date: '2023-04-09T16:00:00.000Z'
 ---
 
 Nakamoto Consensus, named after the pseudonymous creator of Bitcoin, Satoshi Nakamoto, is a Byzantine Fault Tolerant (BFT) consensus mechanism that combines Proof-of-Work with the "longest chain" rule to create a consensus protocol that adequately maintains the authenticity of decentralized blockchain networks.
