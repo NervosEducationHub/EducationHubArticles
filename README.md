@@ -4,16 +4,17 @@ Repository storing all articles on the Common Knowledge Base (Education Hub) <br
 
 Find it at [https://nervos.org/KnowledgeBase](https://nervos.org/KnowledgeBase) <br>
 
-**Contributing**
+**Contributing**<br>
 All articles must be in Markdown (md) format <br>
 <br>
 
-You can learn more information about Markdown [here](https://www.markdownguide.org/getting-started/) <br>
+Learn more information about Markdown [here](https://www.markdownguide.org/getting-started/) <br>
 <br>
 
-Here's also a Google docs to Markdown conversion tool [here] (https://workspace.google.com/marketplace/app/docs_to_markdown/700168918607) <br>
+Google docs to Markdown conversion tool [here] (https://workspace.google.com/marketplace/app/docs_to_markdown/700168918607) <br>
 <br>
-Here's the format for the header information for each article <br>
+<br>
+Format for the header information for each article <br>
 
 --- <br>
 title: 'Example Title' <br>
