@@ -11,7 +11,8 @@ All articles must be in Markdown (md) format <br>
 
 -Google docs to Markdown conversion tool [here](https://workspace.google.com/marketplace/app/docs_to_markdown/700168918607) <br>
 <br>
-Each article should be in its own folder, no spaces or special characters should be used in folder name (use underscores, letters and numbers)<br>
+Each article should be in its own folder, no spaces or special characters should be used in folder name <br>
+-Use underscores, letters and numbers<br>
 <br>
 The text should be in a file "index.md" with all images in a /images sub-folder<br>
 <br>
