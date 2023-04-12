@@ -58,6 +58,6 @@ Our low time preference thinking also led us to choose the Proof-of-Work consens
 
 ## Conclusion
 
-Today more than ever, our ethos and approach to building blockchains appear fundamentally different than everyone else's, with the key differentiator being our significantly lower time preference. We're unapologetically sticking to crypto's original goal of creating a robust, open, accessible, and permissionless financial system. And the only way to get there is by forgoing some of the needs of the present and focusing on the needs of the future. 
+Today more than ever, our ethos and approach to building blockchains appear fundamentally different, with the key differentiator being our significantly lower time preference. We're unapologetically sticking to crypto's original goal of creating a robust, open, accessible, and permissionless financial system. And the only way to get there is by forgoing some of the needs of the present and focusing on the needs of the future. 
 
 While much more work remains to be done, we're among the few on the right track. By lowering our time preference, we were able to get the fundamentals right and create the ideal, future-proof base layer for a modular blockchain network. Now, it's time to build on top.
