@@ -1,15 +1,16 @@
 ---
-title: 'ASIC Resistance- Is it possible?'
+title: 'ASIC-Resistance, is it possible?'
 coverImage: 'images/image1.png'
 category: popular
 
 date: '2023-04-11T16:00:00.000Z'
 ---
 
+
+
+ASIC-Resistance describes the ability of a blockchain's mining algorithm to resist implementation of specialized hardware called ASICs (Application-Specific Integrated Circuits). ASICs are specifically designed to perform a single task, in this case mining cryptocurrency, and are orders of magnitude more efficient than general-purpose hardware like CPUs or GPUs.
+
 ## What is ASIC-Resistance?
-
-ASIC resistance is a term used to describe the ability of a blockchain's mining algorithm to resist the use of specialized hardware called ASICs (Application-Specific Integrated Circuits). ASICs are specifically designed to perform a single task, and are orders of magnitude more efficient at this task than general-purpose hardware like CPUs or GPUs.
-
 The concept of ASIC resistance emerged as a way to maintain a level playing field in mining, where smaller players with consumer-grade hardware could still participate and be rewarded for their contributions to the network. The theory was- by designing a mining algorithm that was difficult to implement in ASICs, the network would be made more decentralized and resistant to centralization by well capitalized, large miners.
 
 One approach to achieving ASIC-resistance is through the use of memory hard functions. These functions require large amounts of memory to be available to the mining hardware in order to perform the calculations required to mine a block. This significantly increases the R&D and manufacturing costs of an ASIC, compared to one that has a purely computational task (like a hash function).
