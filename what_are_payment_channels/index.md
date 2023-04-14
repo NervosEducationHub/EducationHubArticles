@@ -7,7 +7,7 @@ date: '2023-04-11T16:00:00.000Z'
 ---
 
 
-Payment channels are a solution to the scalability problems decentralized blockchains face; they allow for faster and more efficient transactions.
+Payment channels are a unique solution to the scalability problems decentralized blockchains face; they allow for faster and more efficient transactions.
 
 ## What are Payment Channels?
 
