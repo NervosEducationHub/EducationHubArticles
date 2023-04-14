@@ -13,6 +13,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           repository: Magickbase/nervos-official-website
+          submodules: recursive
       - name: Install Vercel CLI
         run: npm install --global vercel@latest
       - name: Pull Vercel Environment Information
