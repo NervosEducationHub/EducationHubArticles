@@ -23,7 +23,7 @@ In UTXO-based blockchains, the $20 bill and the $10 change would be represented 
 
 In UTXO-based blockchains like Bitcoin, for example, there's no notion of identity. There are only UTXOs or unspent coins designated to different wallet addresses. The critical point is that the Bitcoin protocol doesn't track users' balances but rather individual coins represented as UTXOs which are attributed to different addresses.
 
-Check the [UTXO model explained](https://docs.google.com/document/d/1kr1BhaQhJLywOXkLyL6vIuo_czdgmW184ND01qvpHmA/edit?usp=sharing) article to learn more about this.
+Check the [UTXO model explained](https://www.nervos.org/knowledge-base/utxo_model_explained) article to learn more about this.
 
 ## How Does the Account-Based Model Work?
 
