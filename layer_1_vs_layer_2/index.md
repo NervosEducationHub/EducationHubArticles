@@ -31,7 +31,7 @@ Multiple types of Layer 2 solutions exist, including Optimistic rollups, ZK-roll
 
 ### Optimistic Rollups
 
-[Optimistic rollups](https://docs.google.com/document/d/15PnCnrqHtnHlRPHP43qdHI7wnHAdZi5Y-2mRZqzsoMk/edit?usp=sharing) are a Layer 2 scaling solution for blockchains. They work by bundling up many transactions into a single transaction and then processing them outside the main blockchain. The processing of these transactions happens "optimistically" or under the assumption that all the transactions in the bundle are valid. This speeds up the processing time and reduces the computational load on the main blockchain.
+[Optimistic rollups](https://www.nervos.org/knowledge-base/what_are_optimistic_rollups) are a Layer 2 scaling solution for blockchains. They work by bundling up many transactions into a single transaction and then processing them outside the main blockchain. The processing of these transactions happens "optimistically" or under the assumption that all the transactions in the bundle are valid. This speeds up the processing time and reduces the computational load on the main blockchain.
 
 To use an optimistic rollup, users must lock their original assets on Layer 1 through a smart bridging contract. The smart contract on Layer 2 then creates identical assets, known as wrapped tokens, with a 1-to-1 valuation to the original assets previously locked on Layer 1. When a user makes a transaction on Layer 2 with these wrapped tokens, the transactions are bundled into large batches, and only the transaction data is posted back on Layer 1 as call data.
 
