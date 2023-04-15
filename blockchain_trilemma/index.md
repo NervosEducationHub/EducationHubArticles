@@ -37,7 +37,7 @@ Blockchain security is directly and proportionally tied to decentralization. The
 
 Security in this context refers to the blockchain’s ability to resist different types of attacks without experiencing any downtime. In Proof-of-Work blockchains, security is typically measured by the network’s cumulative hash rate, where a higher and more equally distributed hash rate implies greater security. On the other hand, the security of Proof-of-Stake-based blockchains is typically measured (among other thighs) by the cumulative staked amount and its distribution. 
 
-For example, suppose a single miner or a validator controls more than half of a network’s hash rate or staked amount. In that case, they can relatively easily compromise the blockchain by executing a [51% attack](https://docs.google.com/document/d/115KQEYxFwQw9yKlcdpxVTQh7aEdju3PHUp_98nIxjFY/edit?usp=sharing) or attempting to censor transactions.
+For example, suppose a single miner or a validator controls more than half of a network’s hash rate or staked amount. In that case, they can relatively easily compromise the blockchain by executing a 51% attack or attempting to censor transactions.
 
 Another essential security feature of blockchains is the underlying cryptography used to secure them. Every blockchain network utilizes cryptographic functions to encrypt and secure data. If the underlying cryptographic primitives or encryption mechanisms are easy to break, so will the blockchain. For example, Bitcoin heavily relies on the SHA256 hashing algorithm for its encryption. If one day someone manages to break this algorithm, either by finding its key or brute forcing the algorithm using a quantum computer, then Bitcoin’s security will be destroyed.
 
@@ -63,7 +63,7 @@ For example, instead of allowing unlimited nodes to validate transactions, they 
 
 Other popular solutions include the previously mentioned Layer 2 networks like state channels and rollups. These solutions allow blockchains to offload a significant portion of the transaction processing to separate networks built on top of them. Since Layer 2 networks are fully dependent on the underlying Layer 1 blockchain for their security and decentralization, they're often seen as one of the most promising solutions to the Blockchain Trilemma.
 
-Read the detailed explanation on [Layer 1 vs. Layer 2](https://docs.google.com/document/u/3/d/152fZsM4iez33AYC6Xczvg0vGfhPfVQWE09nKZhek-X4/edit?usp=sharing) to understand how both of them work.
+Read the detailed explanation on [Layer 1 vs. Layer 2](https://www.nervos.org/knowledge-base/layer_1_vs_layer_2) to understand how both of them work.
 
 
 ## How Nervos Solved the Blockchain Trilemma
