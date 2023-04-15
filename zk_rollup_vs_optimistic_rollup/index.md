@@ -17,7 +17,7 @@ For this reason, many Layer 1 blockchains have recently begun utilizing differen
 
 In simple terms, rollups are separate, high-throughput transaction execution networks built on top and borrow the security of Layer 1 blockchains. Rollups allow blockchains to scale to tens of thousands of transactions per second without compromising security and decentralization. Rollups provide users with a superior experience by significantly lowering transaction costs and increasing settlement times. For comparison, depending on the current network congestion, transactions on Ethereum can cost users anywhere between a few to a couple of hundred dollars. On the other hand, the current transaction fees on Ethereum-based rollups range from $0.01 to $0.1. \
  \
-\*Before continuing further, also check out the [Layer 1 vs. Layer 2 blockchain](https://docs.google.com/document/d/152fZsM4iez33AYC6Xczvg0vGfhPfVQWE09nKZhek-X4/edit?usp=sharing) explanation to fully understand the terms being used here.
+\*Before continuing further, also check out the [Layer 1 vs. Layer 2 blockchain](https://www.nervos.org/knowledge-base/layer_1_vs_layer_2) explanation to fully understand the terms being used here.
 
 ## The Difference Between ZK-Rollups and Optimistic Rollups
 
