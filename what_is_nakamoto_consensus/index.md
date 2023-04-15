@@ -31,7 +31,6 @@ Finding the Proof-of-Work solution, however, requires significant computing powe
 
 Colloquially, this is also known as the "carrot and stick" approach, where the stick is the electrical energy required for computing complex problems that every mining node must do to participate in the mining process (i.e., the process of validating transactions), and the carrot is the block rewards in the form of newly minted bitcoin. In other words, the mining nodes that follow the rules of the Proof-of-Work protocol get rewarded with newly minted bitcoins, while cheating nodes are left with nothing but a hefty electrical bill for doing useless work. This is how Proof-of-Work-based blockchains can achieve real-time consensus between all participating nodes on the ledger's true state.
 
-Read also: [Different Types of Blockchain Nodes](https://docs.google.com/document/d/1vb6Z6OEN_cN9n8t0HChsj-HXciNvkZ9vo9GlRrP26vU/edit?usp=sharing)
 
 ### Nakamoto Consensus: Longest Chain Rule
 
