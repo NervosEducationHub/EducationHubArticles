@@ -11,7 +11,7 @@ All articles must be in Markdown (md) format <br>
 
 -Google docs to Markdown conversion tool [here](https://workspace.google.com/marketplace/app/docs_to_markdown/700168918607) <br>
 <br>
--Word to Markdown conversion tool here [here](https://word2md.com/) <br>
+-Microsoft Word to Markdown conversion tool here [here](https://word2md.com/) <br>
 <br>
 Each article should be in its own folder, no spaces or special characters should be used in folder name <br>
 -Use underscores, letters and numbers<br>
