@@ -2,7 +2,7 @@
 title: 'Redes Blockchain de Capa 1 vs de Capa 2: ¿Cuál es la Diferencia?'
 coverImage: 'images/image2_es.png'
 category: popular
-date: '2023-04-09T16:00:00.000Z'
+date: '2023-04-19T16:00:00.000Z'
 ---
 
 ![alt_text](images/image1_es.png 'image_tooltip')
