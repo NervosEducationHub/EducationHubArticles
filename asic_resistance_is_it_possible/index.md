@@ -37,4 +37,4 @@ It's important to note that while memory hard functions can make it more difficu
 
 As a result, hard forks are required to keep ASIC's off the network. These hard forks create concentrations of power (in the decision making process) and require immense coordination in the ecosystem to implement. 
 
-This kind of hard fork can also undermine important stakeholders in a blockchain's community, as miners and mining hardware manufacturers invest signficant sums in equipment that can not be re-purposed to mine another chain. A hard fork may be in the interest of some community members, but creating a large sunk cost for key stakeholders may not be in the interest of the chain overall. 
+This kind of hard fork can also undermine important stakeholders in a blockchain's community, as miners and mining hardware manufacturers invest signficant sums in equipment that can not be re-purposed to mine another chain. A hard fork may be in the interest of some community members, but creating a large sunk cost for key stakeholders may not be in the interest of the chain overall.
