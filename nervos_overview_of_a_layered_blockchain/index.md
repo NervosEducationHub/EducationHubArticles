@@ -65,16 +65,16 @@ On the other hand, Proof-of-Stake mechanisms leverage the same logic but impleme
 ![alt_text](images/pow_pos.png "image_tooltip")
 
 
-                                                               \
-<p style="text-align: center;">Proof-of-Work vs. Proof-of-Stake</p>
+                                                               
+_Proof-of-Work vs. Proof-of-Stake_
 
 Proof-of-Stake’s underlying incentive structure inherently leads to greater centralization, negatively affecting the networks’ security and censorship resistance. Proof of this is that, in the five months since Ethereum moved to Proof-of-Stake, roughly [52%](https://dune.com/hildobby/eth2-staking) of the validating power has concentrated in the hands of only four entities: Lido (a decentralized liquid staking protocol), Coinbase, Kraken, and Binance. This is qualitatively different from the centralization of hashing power in mining pools. Mining pools allow individual miners (who can leave the pools whenever they want) to combine their computing power and split the mining rewards. In Ethereum, institutional validators control or custody the ETH delegated to them by individual stakers directly, meaning they can relatively easily be captured or influenced by regulators and forced to comply with rules potentially damaging to the network.
 
 
 
 ![alt_text](images/staked_eth.png "image_tooltip")
- \
-<p style="text-align: center;">Ethereum staking breakdown (Source: [Dune](https://dune.com/hildobby/eth2-staking))</p>
+ 
+_Ethereum staking breakdown (Source: [Dune](https://dune.com/hildobby/eth2-staking))_
 
 Consequently, we have seen [censorship in Ethereum blocks](https://www.mevwatch.info/) to exclude transactions which interact with the OFAC-sanctioned privacy protocol [Tornado Cash](https://www.coincenter.org/how-does-tornado-cash-actually-work/), meaning the networks’ much-desired consensus-layer neutrality has been degraded. To make things worse, the deterministic way in which Proof-of-Stake systems distribute staking rewards is set to grow the top validators’ power even more, leading to even greater network centralization. In Proof-of-Stake systems, the top validators’ power advantage is effectively locked in because no natural market force is challenging it.
 
@@ -87,7 +87,7 @@ For these reasons, Nervos opted for the most robust and battle-tested consensus 
 
 Beyond decentralization and security, the ideal base layer for an adequately designed modular blockchain must be highly flexible and interoperable. In this context, flexibility implies a highly generalized or “abstract” blockchain architecture that allows developers to build more comprehensive system and application primitives by default or without requiring core protocol updates or hard forks. Interoperability refers to the blockchain’s ability to communicate and connect with other heterogeneous blockchains, Layer 2 networks, or even Web2 systems. These two features combined ensure that the modular blockchain’s Layer 1 remains future-proof, which—due to the challenges of hard forking—is among the most desirable properties any blockchain network can have.
 
-To the point, the Nervos CKB is the most flexible and interoperable blockchain in the space. Because it supports all current and future cryptographic primitives, CKB can serve as a robust foundation that lends security to a diverse set of Layer 2 networks that leverage different consensus mechanisms, programming languages, execution environments, and data availability storage methods. It can also serve as a central hub or a cross-chain bridge, allowing various heterogeneous blockchains to communicate. This unprecedented level of flexibility and interoperability is made possible by Nervos’ unique accounting model and the RISC-V instruction set-based virtual machine. \
+To the point, the Nervos CKB is the most flexible and interoperable blockchain in the space. Because it supports all current and future cryptographic primitives, CKB can serve as a robust foundation that lends security to a diverse set of Layer 2 networks that leverage different consensus mechanisms, programming languages, execution environments, and data availability storage methods. It can also serve as a central hub or a cross-chain bridge, allowing various heterogeneous blockchains to communicate. This unprecedented level of flexibility and interoperability is made possible by Nervos’ unique accounting model and the RISC-V instruction set-based virtual machine.
  
 
 
@@ -115,8 +115,7 @@ From a functional perspective, both bookkeeping models have their own benefits a
 
 Nervos is unique in that it uses a novel accounting model, dubbed the Cell model, that leverages the best of the two worlds. It combines the programmability of the account model with the scalability and flexibility of the UTXO model. In simple terms, the cell model is a more generalized or abstract accounting model that instills fewer limits on system and application contract developers. While this paradigm shift admittedly does place an additional burden on developers to build friendly abstractions (often imposed by other chains), the gains in security, flexibility, and interoperability greatly outweigh any arbitrary losses in accessibility.
 
-<p style="text-align: right;">
-<em>“The cell model is abstract where a cell is simply storage without any internal structure, and its layout is completely left to developers.”</em></p>
+_“The cell model is abstract where a cell is simply storage without any internal structure, and its layout is completely left to developers.”_
 
 
 The cell model perfectly complements Nervos’ modular design because it allows the CKB base layer to evolve without requiring disruptive hard forks. Almost all algorithms, cryptographic primitives, and data structures can be implemented on CKB as scripts stored within cells—instead of being hardcoded or baked into the virtual machine like in all other blockchains—making the network more agile and future-proof. Suppose a quantum computer comes out that breaks the cryptography most blockchains rely on today. Then, Nervos is the only blockchain capable of upgrading its basic cryptographic primitives with new quantum-resistant ones without undergoing a hard fork—a contentious process that could take many months or years and wreak havoc on the network.
@@ -136,7 +135,8 @@ By being built using RISC-V, the CKB-VM also offers a more stable and predictabl
 ![alt_text](images/features.png "image_tooltip")
 
 
-<br>
+
+
 ## Scalability
 
 
@@ -191,8 +191,8 @@ Simultaneously, the blockchain’s native token, CKB, is not merely used to pay 
 
 
 ![alt_text](images/issuance.png "image_tooltip")
- \
-<p style="text-align: right;">Combined CKB token [issuance](https://explorer.nervos.org/nervosdao)</p>
+ 
+_Combined CKB token [issuance](https://explorer.nervos.org/nervosdao)_
 
 The secondary issuance ensures that state occupants or users that store assets on the blockchain keep paying for the blockchain’s long-term security through the recurring state rent or “inflation tax” given to miners. However, to ensure that protocol doesn’t unjustly tax CKB coins that aren’t used to store state, these coins can be locked into a particular contract, dubbed [NervosDAO](https://dao.ckb.pw/#/), to receive secondary issuance to compensate for the otherwise unfair dilution.
 
