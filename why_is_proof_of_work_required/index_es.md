@@ -1,5 +1,5 @@
 ---
-title: '¿Por qué se requiere prueba de trabajo en Bitcoin?'
+title: '¿Por qué se requiere Prueba de Trabajo en Bitcoin?'
 coverImage: 'images/image2.png'
 category: popular
 date: '2023-04-27T16:00:00.000Z'
