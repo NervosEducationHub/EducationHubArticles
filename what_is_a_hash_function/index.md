@@ -65,7 +65,7 @@ Secure Hash Algorithm 1 (SHA-1) is a hash function that takes a random-length in
 
 SHA-1 transforms the user’s data by breaking the input into an ‘n’ number of parts; each size is 448 bits, then it adds 64 bits of padding to get a total of 512 bits. These 512 bits are sent through a compression function that outputs a final 160-bit hash value.
 
- \
+
 
 ![alt_text](images/image4.png "image_tooltip")
 
@@ -105,7 +105,7 @@ While hash functions are generally secure and widely used in cryptography, they'
 
 * **Collision attacks:** This type of attack occurs when an attacker can generate two inputs that produce the same hash output. This can allow an attacker to substitute one input for another, potentially leading to security vulnerabilities.
 * **Length extension attacks:** In this type of attack, an attacker can append additional data to the end of a message without knowing the original message's contents. This can allow an attacker to create a fake message with a valid hash, making it appear as though the message is legitimate.
-* **Preimage attacks: **A preimage attack occurs when an attacker can find an input that generates a specific hash output. This can allow an attacker to create a message that hashes to a known value, potentially leading to security vulnerabilities.
+* **Preimage attacks:** A preimage attack occurs when an attacker can find an input that generates a specific hash output. This can allow an attacker to create a message that hashes to a known value, potentially leading to security vulnerabilities.
 * **Birthday attacks:** In a birthday attack, an attacker exploits the birthday paradox to find two messages that hash to the same value. This type of attack is particularly effective against hash functions with smaller output sizes, such as MD5.
 * **Side-channel attacks:** These do not directly target the hash function but instead exploit weaknesses in the implementation or environment in which the hash function is used. Side-channel attacks can include timing, power analysis, or electromagnetic attacks.
 
