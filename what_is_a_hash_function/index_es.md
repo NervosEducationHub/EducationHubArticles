@@ -1,5 +1,5 @@
 ---
-title: '¿Qué es una función hash?'
+title: '¿Qué es una Función Hash?'
 coverImage: 'images/image1.png'
 category: popular
 date: '2023-04-27T16:00:00.000Z'
