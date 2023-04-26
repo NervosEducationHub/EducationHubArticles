@@ -1,5 +1,5 @@
 ---
-title: '¿Qué son los canales de pago?'
+title: '¿Qué son los Canales de Pago?'
 coverImage: 'images/image1.png'
 category: popular
 
