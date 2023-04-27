@@ -61,7 +61,7 @@ MD5 se considera una función hash relativamente rápida y eficiente, pero tambi
 
 ### Secure Hash Algorithm 1 (SHA-1)
 
-Secure Hash Algorithm 1 (SHA-1) es una función hash que toma una entrada de longitud aleatoria y produce un valor hash de 160 bits (20 bytes) llamado resumen de mensaje, normalmente representado como 40 dígitos hexadecimales. La Agencia de Seguridad Nacional de EE. UU. diseñó el algoritmo en 1995, pero desde entonces la función hash se rompió y se reemplazó por protocolos más seguros.
+Secure Hash Algorithm 1 (SHA-1) es una función hash que toma una entrada de longitud aleatoria y produce un valor hash de 160 bits (20 bytes) llamado resumen de mensaje, normalmente representado como 40 dígitos hexadecimales. La [Agencia de Seguridad Nacional de EE. UU.](https://en.wikipedia.org/wiki/National_Security_Agency) diseñó el algoritmo en 1995, pero desde entonces la función hash se rompió y se reemplazó por protocolos más seguros.
 
 SHA-1 transforma los datos del usuario dividiendo la entrada en un número 'n' de partes; cada tamaño es de 448 bits, luego agrega 64 bits de relleno para obtener un total de 512 bits. Estos 512 bits se envían a través de una función de compresión que genera un valor hash final de 160 bits.
 
@@ -94,7 +94,7 @@ La construcción de esponja se basa en una función de permutación, un mapeo bi
 
 Una de las principales ventajas de SHA-3 sobre SHA-2 es que es resistente a los ataques de extensión de longitud, un tipo de ataque en el que un atacante puede agregar datos adicionales a un hash sin conocer la entrada original. SHA-3 también tiene un diseño más simple que SHA-2, lo que facilita su implementación en hardware y software.
 
-En general, SHA-3 se considera una función hash criptográfica segura y eficiente, y se recomienda su uso en aplicaciones como firmas digitales, derivación de claves e integridad de datos. Por esta razón, una función hash popular de la familia SHA-3, conocida como keccak-256, se usa en varias cadenas de bloques establecidas en la actualidad, incluido Ethereum. La cadena de bloques de capa 1 de Nervos, Common Knowledge Base (CKB), utiliza un novedoso algoritmo hash inspirado en SHA-3 llamado Eaglesong.
+En general, SHA-3 se considera una función hash criptográfica segura y eficiente, y se recomienda su uso en aplicaciones como firmas digitales, derivación de claves e integridad de datos. Por esta razón, una función hash popular de la familia SHA-3, conocida como keccak-256, se usa en varias cadenas de bloques establecidas en la actualidad, incluido Ethereum. La cadena de bloques de capa 1 de Nervos, [Common Knowledge Base (CKB)](https://medium.com/@AlejandroR.bit/nervos-ckb-en-pocas-palabras-c0146f3e6b20), utiliza un novedoso algoritmo hash inspirado en SHA-3 llamado [Eaglesong](https://medium.com/nervosnetwork/the-proof-of-work-function-of-nervos-ckb-3cc8364464d9).
 
 
 ## Vulnerabilidades potenciales vinculadas a funciones hash
