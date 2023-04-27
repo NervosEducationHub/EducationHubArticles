@@ -2,7 +2,7 @@
 title: 'ZK-Rollups vs Optimistic Rollups: ¿Cuál es la diferencia?'
 coverImage: 'images/image1.png'
 category: popular
-date: '2023-04-09T16:00:00.000Z'
+date: '2023-04-27T16:00:00.000Z'
 ---
 
 Los rollups son poderosas soluciones de escalado de blockchain que se han vuelto muy populares en los últimos dos años. Hay dos tipos de resúmenes, resúmenes de conocimiento cero (resúmenes ZK) y resúmenes optimistas, que tienen el mismo propósito pero funcionan de manera diferente.
