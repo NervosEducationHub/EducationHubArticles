@@ -47,7 +47,7 @@ Imagine a scenario where everybody in a store can buy 20 shirts with the same $1
 The attackers will keep re-spending the same cryptocurrencies and dump them for other cryptocurrencies as fast as possible, and move them to fiat through some shady cryptocurrency money laundering practices. 
 
 
-## How Does the Hash Rate of a Blockchain Network Affect Its Security and Performance? \
+## How Does the Hash Rate of a Blockchain Network Affect Its Security and Performance?
 
 
 Speaking about blockchain hash rate and security, everything depends on factors like mining difficulty, blockchain adoption, the blockchain’s cryptocurrency price, and how many miners are competing in the same blockchain.
