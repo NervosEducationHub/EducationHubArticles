@@ -1,7 +1,7 @@
 ---
 title: 'UTXO vs. Account-Based Blockchains - Benefits and Drawbacks'
 coverImage: 'images/image3.png'
-category: popular
+category: 'UTXO, Blockchain'
 date: '2023-04-09T16:00:00.000Z'
 ---
 
