@@ -1,7 +1,7 @@
 ---
 title: 'Common Knowledge Base: Understanding Our Ethos'
 coverImage: 'images/image1.png'
-category: popular
+category: Nervos
 
 date: '2023-04-09T16:00:00.000Z'
 ---
