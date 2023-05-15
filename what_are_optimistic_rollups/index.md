@@ -1,7 +1,7 @@
 ---
 title: 'What Are Optimistic Rollups? Everything You Need to Know'
 coverImage: 'images/image3.png'
-category: Scaling
+category: 'Scaling'
 date: '2023-04-09T16:00:00.000Z'
 ---
 
