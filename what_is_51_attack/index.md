@@ -1,8 +1,7 @@
 ---
 title: 'What is a 51% Attack in Cryptocurrency?'
 coverImage: 'images/image1.png'
-category: Blockchain
-
+category: 'Blockchain'
 date: '2023-04-09T16:00:00.000Z'
 ---
 
