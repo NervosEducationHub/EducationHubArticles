@@ -77,4 +77,4 @@ Nervos utiliza un modelo de cadena de bloques de múltiples capas. La cadena de 
 
 Mediante el uso de un modelo multicapa como este, la idea es mejorar la escalabilidad en el ecosistema de Nervos sin dejar de mantener un buen nivel de seguridad y descentralización de blockchain.
 
-Lee más sobre [cómo el modelo multicapa de Nervos está diseñado desde cero para resolver el trilema de blockchain](https://medium.com/nervosnetwork/how-to-move-beyond-blockchains-trilemma-6a10ae034e9f)**.**
+Lee más sobre [cómo el modelo multicapa de Nervos está diseñado desde cero para resolver el trilema de blockchain](https://medium.com/@AlejandroR.bit/c%C3%B3mo-ir-m%C3%A1s-all%C3%A1-del-trilema-de-blockchain-por-jan-xie-7ea72d11d016)**.**
