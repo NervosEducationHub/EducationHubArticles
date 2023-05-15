@@ -1,7 +1,7 @@
 ---
 title: 'What Are Optimistic Rollups? Everything You Need to Know'
 coverImage: 'images/image3.png'
-category: popular
+category: Scaling
 date: '2023-04-09T16:00:00.000Z'
 ---
 
@@ -79,3 +79,4 @@ Arbitrum and Optimism are similar. Arbitrum deploys multi-round fraud proofs for
 Arbitrum’s multi-round fraud-proof allows validators to challenge only a particular transaction instead of an entire batch of transactions. There is a tradeoff in having multi-round fraud proofs because multi-round slows down the transaction finality on Layer 1. But at the same time, multi-round fraud proofs also have arguably lower transaction fees than single-round fraud proofs.
 
 Nervos also has its own Layer 2 Optimistic rollup called **Godwoken**, built on its Layer 1 blockchain called Common Knowledge Base. To learn more about how Godwoken works, visit its official [webpage](https://godwoken.com/).
+
