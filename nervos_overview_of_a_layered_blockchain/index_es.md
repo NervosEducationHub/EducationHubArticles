@@ -3,7 +3,7 @@ title: 'Nervos: una descripción detallada de una red Blockchain construida para
 coverImage: 'images/header.png'
 category: popular
 
-date: '2023-05-1T16:00:00.000Z'
+date: '2023-05-01T16:00:00.000Z'
 ---
 
 
