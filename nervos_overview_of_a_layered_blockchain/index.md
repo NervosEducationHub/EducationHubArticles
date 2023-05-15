@@ -177,7 +177,7 @@ This incentive misalignment becomes even more pronounced in smart contract-enabl
 
 Competitive transactional platforms must prioritize low transaction costs because their users are willing to accept less-optimal security due to their limited-in-time exposure to security risk. On the other hand, competitive preservation platforms must prioritize security—which inherently implies higher transaction costs—because their users have long-term exposure to their security risks.
 
-The issue is that all current Layer 1 blockchains that increasingly serve as preservation platforms employ tokenomic designs that are better optimized for transactional platforms. In contrast, CKB is the only blockchain that leverages a tokenomic design optimized to ensure the long-term preservation of state and value.blockchains that increasingly serve as preservation platforms employ tokenomic designs that are better optimized for transactional platforms. In contrast, CKB is the only blockchain that leverages a tokenomic design optimized to ensure the long-term preservation of state and value.
+The issue is that all current Layer 1 blockchains that increasingly serve as preservation platforms employ tokenomic designs that are better optimized for transactional platforms. In contrast, CKB is the only blockchain that leverages a tokenomic design optimized to ensure the long-term preservation of state and value. Blockchains that increasingly serve as preservation platforms employ tokenomic designs that are better optimized for transactional platforms.
 
 
 ### CKB’s Tokenomic Design

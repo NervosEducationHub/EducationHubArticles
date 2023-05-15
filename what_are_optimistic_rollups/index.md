@@ -20,7 +20,7 @@ Layer 2 is a general term used for scaling solutions that process transactions o
 
 Blockchains utilize Layer 2 networks to scale because they have very limited transaction throughput, meaning they get congested in times of high demand, leading to very high transaction fees for users. Monolithic blockchains that seek to scale on-chain must sacrifice either decentralization, security, or both, which for many is oftentimes an unacceptable trade-off. For this reason, many Layer 1 blockchains have recently begun adopting a more layered approach to scaling, which implies leveraging either rollups in the case of Nervos or Ethereum, for example, or state channels like the Lightning Network in the case of Bitcoin.
 
- \
+
 
 
 ## How do Optimistic Rollups Work?
@@ -43,7 +43,7 @@ Finally, users must submit a withdrawal request to the rollup contract to withdr
 
 
 
-1. Entering the Rollup \
+1. Entering the Rollup
 
 
 To transfer a digital asset to an Optimistic rollup, users must lock their funds into a bridge smart contract. This smart contract transfers the deposit information from Layer 1 to Layer 2, subsequently creating a corresponding representation of the digital asset on Layer 2. For example, if a user wants to transfer 1 ETH from Ethereum to Arbitrum, they'll lock 1 ETH into the bridge smart contract on Ethereum and receive 10 newly-minted wrapped ETH tokens on Layer 2.
@@ -78,4 +78,4 @@ Arbitrum and Optimism are similar. Arbitrum deploys multi-round fraud proofs for
 
 Arbitrum’s multi-round fraud-proof allows validators to challenge only a particular transaction instead of an entire batch of transactions. There is a tradeoff in having multi-round fraud proofs because multi-round slows down the transaction finality on Layer 1. But at the same time, multi-round fraud proofs also have arguably lower transaction fees than single-round fraud proofs.
 
-Nervos also has its own Layer 2 Optimistic rollup called** **Godwoken, built on its Layer 1 blockchain called Common Knowledge Base. To learn more about how Godwoken works, visit its official [webpage](https://godwoken.com/).|?
+Nervos also has its own Layer 2 Optimistic rollup called **Godwoken**, built on its Layer 1 blockchain called Common Knowledge Base. To learn more about how Godwoken works, visit its official [webpage](https://godwoken.com/).
