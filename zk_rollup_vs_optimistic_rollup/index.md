@@ -1,7 +1,7 @@
 ---
 title: 'ZK-Rollups vs. Optimistic Rollups: What’s The Difference?'
 coverImage: 'images/image1.png'
-category: Scaling
+category: 'Scaling'
 date: '2023-04-09T16:00:00.000Z'
 ---
 
