@@ -1,7 +1,7 @@
 ---
 title: 'What Is the UTXO Alliance?'
 coverImage: 'images/image1.png'
-category: UTXO
+category: 'UTXO'
 date: '2023-04-09T16:00:00.000Z'
 ---
 
