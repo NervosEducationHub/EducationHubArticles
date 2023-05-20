@@ -91,7 +91,7 @@ _Una tabla de comparación entre Optimistic Rollups y ZK-Rollups._
 
 ## ¿Qué tipo de rollup utiliza Nervos?
 
-Nervos utiliza una solución Optimistic Rollup personalizada para su primera cadena de Capa 2, Godwoken. El período de disputa de Godwoken es de solo cinco días, que es más corto que la mayoría de las soluciones rollup en Ethereum, pero lo suficientemente largo como para garantizar una seguridad adecuada.
+Nervos utiliza una solución Optimistic Rollup personalizada para su primera cadena de Capa 2, Godwoken. El período de disputa de Godwoken es de siete días aproximadamente, que es similar a otras soluciones rollup en Ethereum, siendo lo suficientemente largo como para garantizar una seguridad adecuada.
 
 [Godwoken](https://www.nervos.org/godwoken) es una red de capa 2 de alto rendimiento centrada en GameFi construida sobre la prueba de trabajo de capa 1 altamente segura de Nervos, Common Knowledge Base. Es totalmente compatible con EVM, lo que significa que los desarrolladores pueden portar sus aplicaciones descentralizadas desde Ethereum con relativa facilidad y solo modificaciones menores.
 
