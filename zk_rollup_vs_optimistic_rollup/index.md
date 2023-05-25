@@ -5,7 +5,7 @@ category: 'Scaling'
 date: '2023-04-09T16:00:00.000Z'
 ---
 
-Rollups are powerful blockchain scaling solutions that have become very popular over the last two years. There are two types of rollups, zero-knowledge rollups (ZK-rollups) and Optimistic rollups, which serve the same purpose but function differently.
+Rollups are powerful blockchain scaling solutions that have become very popular over the last two years. There are two types of rollups: zero-knowledge rollups (ZK-rollups) and Optimistic rollups, which serve the same purpose but function differently.
 
 Transactions in Optimistic rollups are automatically assumed valid until proven otherwise, while ZK-rollups utilize zero-knowledge proofs (will be explained below) to prove transaction validities. Both rollup types have their own benefits and drawbacks, which will be explained in detail below.
 
