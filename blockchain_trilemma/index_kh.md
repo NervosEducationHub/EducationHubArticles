@@ -75,4 +75,4 @@ Nervos ប្រើប្រាស់គំរូ blockchain ពហុស្រ�
 
 ដោយប្រើគំរូពហុស្រទាប់ដូចនេះ គំនិតនេះគឺដើម្បីកែលម្អទំហំនៅក្នុងប្រព័ន្ធអេកូ Nervos ខណៈពេលដែលនៅតែអាចរក្សាបាននូវកម្រិតដ៏ល្អនៃវិមជ្ឈការ និងសុវត្ថិភាព blockchain ។
 
-អានបន្ថែមអំពី [how Nervos multi-layer model is designed from the ground up to solve blockchain trilemma](https://medium.com/nervosnetwork/how-to-move-beyond-blockchains-trilemma-6a10ae034e9f)**.**
+អានបន្ថែមអំពី [how Nervos multi-layer model is designed from the ground up to solve blockchain trilemma](https://medium.com/nervosnetwork/how-to-move-beyond-blockchains-trilemma-6a10ae034e9f)**.** 
