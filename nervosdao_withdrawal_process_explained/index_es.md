@@ -15,7 +15,7 @@ Este ciclo se representa en la interfaz de [Neuron](https://docs.nervos.org/docs
 
 <div>
 <p align="center">
-<img src="images/image2.png "image_tooltip" alt="image2" width="1000px">
+<img src="https://github.com/NervosEducationHub/EducationHubArticles/assets/7271329/9389827b-b090-4c8d-abae-dd308c903319" "image_tooltip" alt="image2" width="1000px">
 </p>
 <div>
 
@@ -28,7 +28,7 @@ Puedes enviar esta transacción en cualquier momento a Nervos DAO para indicar t
 
 <div>
 <p align="center">
-<img src="images/image4.png "image_tooltip" alt="image4" width="700px">
+<img src="https://github.com/NervosEducationHub/EducationHubArticles/assets/7271329/ac5dd92d-8b95-49ad-a503-31bc01854b20" "image_tooltip" alt="image4" width="700px">
 </p>
 </div>
 
@@ -41,7 +41,7 @@ Si no realizas la solicitud de retiro durante el ciclo actual, el depósito se e
 
 <div>
 <p align="center">
-<img src="images/image3_es.png "image_tooltip" alt="image3" width="800px">
+<img src="https://github.com/NervosEducationHub/EducationHubArticles/assets/7271329/21dbd4ee-fd17-4afe-a991-56bdc429d7f7" "image_tooltip" alt="image3" width="800px">
 </p>
 </div>
 
@@ -51,7 +51,7 @@ Esta es la transacción que retira tu depósito inicial de CKBytes junto con las
 
 <div>
 <p align="center">
-<img src="images/image5.png "image_tooltip" alt="image5" width="700px">
+<img src="https://github.com/NervosEducationHub/EducationHubArticles/assets/7271329/c0134ca7-62e6-4da6-94ea-74c018bd0636" "image_tooltip" alt="image5" width="700px">
 </p>
 </div>
 
@@ -69,7 +69,7 @@ Ten en cuenta que por motivos didácticos damos por hecho que todos los meses so
 
 Aquí tienes otro ejemplo:
 
-![alt_text](images/image6.gif "image_tooltip")
+![alt_text](https://github.com/NervosEducationHub/EducationHubArticles/assets/7271329/3643941e-080d-47c5-af17-cf46d63a8a87)
 
 ### Preguntas Frecuentes
 
@@ -95,7 +95,7 @@ Si. Uno de los propósitos de Nervos DAO es crear un límite máximo similar a B
 
 <div>
 <p align="center">
-<img src="images/image7.png "image_tooltip" alt="image7" width="1000px">
+<img src="https://github.com/NervosEducationHub/EducationHubArticles/assets/7271329/3b6c8729-33ca-4e61-8dc3-d89a97ef149f" "image_tooltip" alt="image7" width="1000px">
 </p>
 </div>
 
