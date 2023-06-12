@@ -30,8 +30,9 @@ Puedes enviar esta transacción en cualquier momento a Nervos DAO para indicar t
 </div>
 
 
-Si no realizas la solicitud de retiro durante el ciclo actual, el depósito se extenderá automáticamente al siguiente ciclo.
+Si no realizas la solicitud de retiro durante el ciclo actual, el depósito se extenderá automáticamente al siguiente ciclo.  
 <br>  
+
 
   
 
