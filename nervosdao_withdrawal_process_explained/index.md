@@ -15,7 +15,7 @@ This cycle is represented on the [Neuron](https://docs.nervos.org/docs/basics/gu
 
 <div>
 <p align="center">
-<img src="images/image2.png "image_tooltip" alt="image2" width="1000px">
+<img src="images/image2.png" alt="image2" width="1000px">
 </p>
 </div>
 
@@ -28,7 +28,7 @@ You can send this transaction at any time to Nervos DAO to indicate your withdra
 
 <div>
 <p align="center">
-<img src="images/image4.png "image_tooltip" alt="image4" width="700px">
+<img src="images/image4.png" alt="image4" width="700px">
 </p>
 </div>
 
@@ -40,7 +40,7 @@ If you do not make the withdrawal request during the current cycle, the deposit 
 
 <div>
 <p align="center">
-<img src="images/image3.png "image_tooltip" alt="image3" width="800px">
+<img src="images/image3.png" alt="image3" width="800px">
 </p>
 </div>
 
@@ -50,7 +50,7 @@ This is the transaction that withdraws your initial CKByte deposit along with an
 
 <div>
 <p align="center">
-<img src="images/image5.png "image_tooltip" alt="image5" width="700px">
+<img src="images/image5.png" alt="image5" width="700px">
 </p>
 </div>
 
@@ -94,7 +94,7 @@ Yes. One of the purposes of the Nervos DAO is to create a Bitcoin-like hard cap 
 
 <div>
 <p align="center">
-<img src="images/image7.png "image_tooltip" alt="image7" width="1000px">
+<img src="images/image7.png" alt="image7" width="1000px">
 </p>
 </div>
 

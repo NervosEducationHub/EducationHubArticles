@@ -15,7 +15,7 @@ Este ciclo se representa en la interfaz de [Neuron](https://docs.nervos.org/docs
 
 <div>
 <p align="center">
-<img src="images/image2.png "image_tooltip" alt="image2" width="1000px">
+<img src="images/image2.png" alt="image2" width="1000px">
 </p>
 <div>
 
@@ -28,7 +28,7 @@ Puedes enviar esta transacción en cualquier momento a Nervos DAO para indicar t
 
 <div>
 <p align="center">
-<img src="images/image4.png "image_tooltip" alt="image4" width="700px">
+<img src="images/image4.png" alt="image4" width="700px">
 </p>
 </div>
 
@@ -41,7 +41,7 @@ Si no realizas la solicitud de retiro durante el ciclo actual, el depósito se e
 
 <div>
 <p align="center">
-<img src="images/image3_es.png "image_tooltip" alt="image3" width="800px">
+<img src="images/image3_es.png" alt="image3" width="800px">
 </p>
 </div>
 
@@ -51,7 +51,7 @@ Esta es la transacción que retira tu depósito inicial de CKBytes junto con las
 
 <div>
 <p align="center">
-<img src="images/image5.png "image_tooltip" alt="image5" width="700px">
+<img src="images/image5.png" alt="image5" width="700px">
 </p>
 </div>
 
@@ -95,7 +95,7 @@ Si. Uno de los propósitos de Nervos DAO es crear un límite máximo similar a B
 
 <div>
 <p align="center">
-<img src="images/image7.png "image_tooltip" alt="image7" width="1000px">
+<img src="images/image7.png" alt="image7" width="1000px">
 </p>
 </div>
 
