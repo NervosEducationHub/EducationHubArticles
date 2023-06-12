@@ -12,7 +12,7 @@ This cycle is represented on the [Neuron](https://docs.nervos.org/docs/basics/gu
 
 <div>
 <p align="center">
-<img src="images/image2.png "image_tooltip" alt="image2" width="900px">
+<img src="images/image2.png "image_tooltip" alt="image2" width="1000px">
 </p>
 </div>
 
@@ -91,7 +91,7 @@ Yes. One of the purposes of the Nervos DAO is to create a Bitcoin-like hard cap 
 
 <div>
 <p align="center">
-<img src="images/image7.png "image_tooltip" alt="image7" width="900px">
+<img src="images/image7.png "image_tooltip" alt="image7" width="1000px">
 </p>
 </div>
 
