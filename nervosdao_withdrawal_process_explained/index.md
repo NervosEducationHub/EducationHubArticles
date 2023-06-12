@@ -8,7 +8,7 @@ date: '2023-06-12T16:00:00.000Z'
 
 To understand how Nervos DAO works, you must first know that it works through cycles, and that each of these cycles are 180 epochs. On the Nervos network, each epoch has an estimated time of 4 hours. Therefore we can calculate that each cycle lasts approximately 30 days. This means that if you deposit in the DAO, the minimum possible deposit is 30 days; it means, one cycle.
 
-This cycle is represented on the Neuron interface with an indicator bar, which is shown on the image below:
+This cycle is represented on the [Neuron](https://docs.nervos.org/docs/basics/guides/crypto%20wallets/neuron/) interface with an indicator bar, which is shown on the image below:
 
 <div>
 <p align="center">
@@ -89,8 +89,11 @@ It is a variable interest, since it decreases over time. This means that even if
 
 Yes. One of the purposes of the Nervos DAO is to create a Bitcoin-like hard cap for DAO depositors. As a long-term holder, you always get the same part of the new supply, but the rate of new supply itself is decreasing. This is why the APC rate actually decreases as time goes by and means that the total supply of CKBytes increases more and more slowly, approaching zero.
 
-
-![alt_text](images/image7.png "image_tooltip")
+<div>
+<p align="center">
+<img src="images/image7.png "image_tooltip" alt="image7" width="900px">
+</p>
+</div>
 
 
 
