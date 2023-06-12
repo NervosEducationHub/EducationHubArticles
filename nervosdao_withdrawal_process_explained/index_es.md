@@ -3,6 +3,9 @@ title: 'Nervos DAO — Explicación del proceso de retiro'
 coverImage: 'images/image1_es.png'
 category: popular
 date: '2023-06-12T16:00:00.000Z'
+author: 
+ -Github:alejandroRbit
+ -Github:ChemaESP
 ---
 
 
