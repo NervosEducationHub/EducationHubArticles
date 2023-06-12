@@ -15,7 +15,7 @@ This cycle is represented on the [Neuron](https://docs.nervos.org/docs/basics/gu
 
 <div>
 <p align="center">
-<img src="images/image2.png "image_tooltip" alt="image2" width="1000px">
+<img src="https://github.com/NervosEducationHub/EducationHubArticles/assets/7271329/9389827b-b090-4c8d-abae-dd308c903319" "image_tooltip" alt="image2" width="1000px">
 </p>
 </div>
 
@@ -28,7 +28,7 @@ You can send this transaction at any time to Nervos DAO to indicate your withdra
 
 <div>
 <p align="center">
-<img src="images/image4.png "image_tooltip" alt="image4" width="700px">
+<img src="https://github.com/NervosEducationHub/EducationHubArticles/assets/7271329/ac5dd92d-8b95-49ad-a503-31bc01854b20" "image_tooltip" alt="image4" width="700px">
 </p>
 </div>
 
@@ -40,7 +40,7 @@ If you do not make the withdrawal request during the current cycle, the deposit 
 
 <div>
 <p align="center">
-<img src="images/image3.png "image_tooltip" alt="image3" width="800px">
+<img src="https://github.com/NervosEducationHub/EducationHubArticles/assets/7271329/21dbd4ee-fd17-4afe-a991-56bdc429d7f7" "image_tooltip" alt="image3" width="800px">
 </p>
 </div>
 
@@ -48,9 +48,10 @@ If you do not make the withdrawal request during the current cycle, the deposit 
 
 This is the transaction that withdraws your initial CKByte deposit along with any accumulated Nervos DAO rewards. You can do this second step at the end of the cycle, that is, when the arrow reaches the end of the indicator bar, only if you have previously done the first step or withdrawal request.
 
+
 <div>
 <p align="center">
-<img src="images/image5.png "image_tooltip" alt="image5" width="700px">
+<img src="https://github.com/NervosEducationHub/EducationHubArticles/assets/7271329/c0134ca7-62e6-4da6-94ea-74c018bd0636" "image_tooltip" alt="image5" width="700px">
 </p>
 </div>
 
@@ -68,7 +69,7 @@ Keep in mind that for didactic reasons we assume that every month has 30 days, w
 
 Here’s another example:
 
-![alt_text](images/image6.gif "image_tooltip")
+![alt_text](https://github.com/NervosEducationHub/EducationHubArticles/assets/7271329/3643941e-080d-47c5-af17-cf46d63a8a87)
 
 ### FAQ
 
@@ -94,7 +95,7 @@ Yes. One of the purposes of the Nervos DAO is to create a Bitcoin-like hard cap 
 
 <div>
 <p align="center">
-<img src="images/image7.png "image_tooltip" alt="image7" width="1000px">
+<img src="https://github.com/NervosEducationHub/EducationHubArticles/assets/7271329/3b6c8729-33ca-4e61-8dc3-d89a97ef149f" "image_tooltip" alt="image7" width="1000px">
 </p>
 </div>
 
