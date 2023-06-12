@@ -3,7 +3,7 @@ title: 'Resistencia Cuántica en Cadenas de Bloques: Preparación para un Mundo 
 coverImage: 'images/image2.png'
 category: popular
 excerpt: 'Una exploración en profundidad de la resistencia cuántica en las cadenas de bloques, abordando las posibles amenazas que plantean los avances en computación cuántica y las medidas que se están tomando para asegurar las redes de cadenas de bloques para el futuro.'
-date: '2023-08-05T16:00:00.000Z'
+date: '2023-06-05T16:00:00.000Z'
 ---
 
 
