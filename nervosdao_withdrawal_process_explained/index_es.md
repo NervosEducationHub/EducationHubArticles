@@ -12,7 +12,7 @@ Este ciclo se representa en la interfaz de [Neuron](https://docs.nervos.org/docs
 
 <div>
 <p align="center">
-<img src="images/image2.png "image_tooltip" alt="image2" width="900px">
+<img src="images/image2.png "image_tooltip" alt="image2" width="1000px">
 </p>
 <div>
 
@@ -92,7 +92,7 @@ Si. Uno de los propósitos de Nervos DAO es crear un límite máximo similar a B
 
 <div>
 <p align="center">
-<img src="images/image7.png "image_tooltip" alt="image7" width="900px">
+<img src="images/image7.png "image_tooltip" alt="image7" width="1000px">
 </p>
 </div>
 
