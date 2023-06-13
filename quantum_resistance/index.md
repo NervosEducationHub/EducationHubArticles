@@ -2,20 +2,17 @@
 title: 'Quantum Resistance in Blockchains: Preparing for a Post-Quantum Computing World'
 coverImage: 'images/image2.png'
 category: popular
-excerpt: 'An in-depth exploration of quantum resistance in blockchains, addressing the potential threats posed by quantum computing advancements and the measures being taken to secure blockchain networks for the future.'
+subtitle: 'An in-depth exploration of quantum resistance in blockchains, addressing the potential threats posed by quantum computing advancements and the measures being taken to secure blockchain networks for the future.'
 date: '2023-06-05T16:00:00.000Z'
 ---
 
-
 As the field of quantum computing rapidly advances, concerns are growing about the potential impact of these powerful machines on the security of blockchain networks. Quantum computers, with their ability to solve complex problems at an unprecedented speed, could undermine the cryptographic foundations of current blockchain technologies. This article examines the concept of quantum resistance in blockchains and the measures being taken to ensure the security and integrity of these networks in a post-quantum computing world.
-
 
 ## Understanding the Quantum Computing Threat
 
 Quantum computers leverage the principles of quantum mechanics to perform computations that classical computers cannot efficiently solve. They use quantum bits, or qubits, instead of the traditional binary bits used by classical computers. Qubits can exist in multiple states simultaneously, allowing quantum computers to perform numerous calculations in parallel. This capability, known as quantum parallelism, could enable quantum computers to solve complex problems, such as breaking cryptographic schemes, at speeds many orders of magnitude faster than classical computers.
 
 The cryptographic algorithms that secure today's blockchain networks, like the widely-used elliptic curve cryptography (ECC), rely on the assumption that certain mathematical problems are too computationally intensive for classical computers to solve within a reasonable timeframe. However, with the advent of powerful quantum computers, this assumption may no longer hold true. For instance, Shor's algorithm, a quantum algorithm, can factor large integers and solve discrete logarithm problems much more efficiently than any known classical algorithm, potentially rendering ECC-based public-key cryptography vulnerable.
-
 
 ## Preparing Blockchains for a Quantum Computing Future
 
@@ -25,13 +22,9 @@ One approach to achieving quantum resistance in blockchains is to implement post
 
 Blockchain projects are already incorporating post-quantum cryptographic schemes to prepare for a quantum computing future. One of the earliest blockchain projects to tackle this problem was the QRL (Quantum Resistant Ledger) project, launched in 2018, with a blockchain that utilizing the eXtended Merkle Signature Scheme (XMSS), a hash-based digital signature scheme considered to be quantum-resistant.
 
-
-
-![alt_text](images/image1.png "image_tooltip")
-
+![alt_text](images/image1.png 'image_tooltip')
 
 In addition to employing post-quantum cryptography, hybrid cryptographic schemes can also be used to enhance the quantum resistance of blockchains. These schemes combine classical cryptographic algorithms with post-quantum algorithms, aiming to provide robust security while maintaining compatibility with existing systems. Hybrid schemes can serve as a transitional approach for blockchain networks, allowing them to migrate towards fully quantum-resistant solutions gradually.
-
 
 ## Incorporating Quantum-Resistant Cryptography in Nervos' Layer 1: Common Knowledge Base (CKB)
 
@@ -42,7 +35,6 @@ The CKB's unique accounting model, known as the Cell model, combines the best as
 Additionally, the CKB's transaction execution environment, the CKB-VM, is a virtual machine based on the RISC-V computer instruction set, providing raw instructions directly to CPUs. This low-level design leads to unprecedented flexibility and enables developers to use any programming language or cryptographic primitive when building smart contracts on CKB. This crypto-agnosticism allows for the easy incorporation of quantum-resistant cryptographic algorithms when the need arises, ensuring that the Nervos Network remains secure in a post-quantum computing world.
 
 In summary, the innovative design of Nervos' Layer 1, the Common Knowledge Base, with its Cell model and RISC-V-based virtual machine, allows for the seamless incorporation of quantum-resistant cryptographic primitives. As the threat of quantum computing looms on the horizon, CKB's flexibility and adaptability ensure that the Nervos Network remains secure and resilient in a post-quantum computing world.
-
 
 ## Conclusion
 
