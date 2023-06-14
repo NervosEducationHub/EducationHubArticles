@@ -4,8 +4,8 @@ coverImage: 'images/image1_es.png'
 category: popular
 date: '2023-06-12T16:00:00.000Z'
 author: 
-  -github:alejandroRbit
-  -github:ChemaESP
+  - github:alejandroRbit
+  - github:ChemaESP
 ---
 
 
