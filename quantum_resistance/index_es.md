@@ -3,7 +3,7 @@ title: 'Resistencia Cuántica en Cadenas de Bloques: Preparación para un Mundo 
 coverImage: 'images/image2.png'
 category: popular
 subtitle: 'Una exploración en profundidad de la resistencia cuántica en las cadenas de bloques, abordando las posibles amenazas que plantean los avances en computación cuántica y las medidas que se están tomando para asegurar las redes de cadenas de bloques para el futuro.'
-date: '2023-08-05T16:00:00.000Z'
+date: '2023-06-05T16:00:00.000Z'
 ---
 
 A medida que el campo de la computación cuántica avanza rápidamente, aumentan las preocupaciones sobre el impacto potencial de estas poderosas máquinas en la seguridad de las redes blockchain. Las computadoras cuánticas, con su capacidad para resolver problemas complejos a una velocidad sin precedentes, podrían socavar los cimientos criptográficos de las tecnologías blockchain actuales. Este artículo examina el concepto de resistencia cuántica en las cadenas de bloques y las medidas que se están tomando para garantizar la seguridad y la integridad de estas redes en un mundo informático poscuántico.
