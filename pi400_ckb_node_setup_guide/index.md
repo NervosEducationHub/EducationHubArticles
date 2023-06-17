@@ -39,37 +39,37 @@ Easiest way is by using the Raspberry Pi Imager, Go to:
 
 [https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/)
 
-![](images/1.png) download and install the imager for your operating system (Windows, Mac or Linux[ubuntu])
+![](images/image1.png) download and install the imager for your operating system (Windows, Mac or Linux[ubuntu])
 
 If you haven't plugged in and or inserted the micro SD to your PC yet, do that now.
 
-![](images/2.png)
+![](images/image2.png)
 
 Open the Raspberry Pi Imager you just installed
 
 Select "CHOOSE OS".
 
-![](images/3.png)
+![](images/image3.png)
 
 Scroll down to "Misc Utility Images"
 
-![](images/4.png)
+![](images/image4.png)
 
 in the next menu choose "Bootloader"
 
-![](images/5.png)
+![](images/image5.png)
 
 then "USB Boot"
 
-![](images/6.png)
+![](images/image6.png)
 
 Select "CHOOSE STORAGE" and select your micro SD card.
 
-![](images/7.png)
+![](images/image7.png)
 
 Click Write, you'll get a warning popup about erasing the card, stop and back up the card if you need to now, then a progress bar will appear.
 
-![](images/8.png)
+![](images/image8.png)
 
 Success!
 
@@ -79,19 +79,19 @@ If you haven't plugged in the external HDD to your PC yet, do that now.
 
 Again select the "CHOOSE OS" button (Which now says USB BOOT, you might have to click back a couple times to reach the root menu).
 
-![](images/9.png)
+![](images/image9.png)
 
 select "Other General Purpose OS"
 
-![](images/10.png)
+![](images/image10.png)
 
 choose "Ubuntu"
 
-![](images/11.png)
+![](images/image11.png)
 
 then "Ubuntu Desktop 22.04.2 LTS (64 Bit)"
 
-![](images/12.png)
+![](images/image12.png)
 
 Select "CHOOSE STORAGE" and select your HDD.
 
@@ -105,7 +105,7 @@ Ubuntu 22.04.2LTS Desktop is an open source, fully functional, Graphical Operati
 
  
 ## Connecting the pi
-![](images/13.png)
+![](images/image13.png)
 
 Plug your HDD into a blue USB3.0 port on the Pi, use the a white 2.0 port for the mouse. Connect the micro HDMI cable to a HDMI enabled display/TV. For the first run put the bootloader micro sd card in the slot. Connect the USBA-C cable between the usb C power port on the Pi and the power supply. The pi will power on and should load the bootloader from the micro sd card let this run until the green indicator light begins to flash steadily, this needs to be done once to tell the Pi to check the USB bus first (the external HDD)for a bootable image. After the sequence has finished turn off the pi and remove the SD card, now restart the Pi and it should start to display the boot/initialisation sequence from the external HDD. You'll now need to set up the operating system details, WiFi connection details, timezone, keyboard layout. You also be asked to create a default user for logging into the operating system. All very straight forward.
 
@@ -117,20 +117,20 @@ https://github.com/nervosnetwork/ckb/releases/tag/v0.110.0
 
 Click "tarball" and download the binary
 
-![](images/14.png)
+![](images/image14.png)
 
 Once the download is finished click open file, choose archive manager to open the tarball.
 
-![](images/15.png)
+![](images/image15.png)
 
 Extract to a new folder called "ckb"
 
-![](images/16.png)
+![](images/image16.png)
 
 This is the part where we need to do some command line work, it's pretty straightforward, you can copy and paste the below where needed.
 
 To bring up a terminal window press: "Ctrl" + "Alt" + "T"
-![](images/17.png)
+![](images/image17.png)
 
 First update and upgrade the existing libraries: 
 
@@ -139,11 +139,11 @@ sudo apt-get update
 sudo apt-get upgrade
 
 
-![](images/18.png)
+![](images/image18.png)
 
 Once Ubuntu determines how many upgrades need to be installed it'll prompt you to confirm installing them, hit "Y" and press enter. There should be about 200 things to upgrade as it's a fresh install, go walk your dog or grab a bite to eat, it'll take about 30-60 minutes depending on your connection. It'll look like this when upgrading.
 
-![](images/19.png)
+![](images/image19.png)
 
 Next install the following applications which are essential for linux life. Make and Curl
 
@@ -151,22 +151,22 @@ sudo apt-get install make
 
 sudo apt-get install curl
 
-![](images/20.png)
+![](images/image20.png)
 
 Next install Rustup, which maintains and updates Rust on your OS.
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-![](images/21.png)
+![](images/image21.png)
 
 You'll be prompted to confirm the installation type "1" then enter to install to in the default method. The install will take a few minutes.
 
-![](images/22.png)
+![](images/image22.png)
 
 Now install the C++ toolchain and clang
 
 sudo apt-get install -y git gcc libc6-dev pkg-config libssl-dev libclang-dev clang
-![](images/23.png)
+![](images/image23.png)
 
 Next install the required Openssl libraries
 
@@ -180,15 +180,13 @@ sudo dpkg -i openssl\_1.1.1f-1ubuntu2\_arm6d ![](images/24.png)![](images/25.png
 
 ## Overclocking and Over Volting
 
-Overclocking isn't necessary and does come with some risk but offers significant performance upgrades, I am personally running my pi400 at 2Ghz instead of the default 1.8Ghz and am running an over voltage setting of 6. From everything I've read running the pi400 at 2Ghz is reasonably safe and stable, the reason for the over volting is to provide enough power for the Pi and SSD to interface this also carries risks it is not recommended to set over voltage settings above 6 according to manufactures specifications, I ran into freezing issues at default voltage settings, I found others online with the same issue runnind an SSD and Pi in concert. I recommend looking into the risks involved before over volting but it is an option. It brings the power consumption up from approximately 1.2 amps to 1.6a. In relative terms thats an additional 2w of power consumption. From the terminal (Ctrl + Alt +T), in the root (default) directory. Enter the following to access config file you need to overclock/over volt your pi.
+Overclocking isn't necessary and does come with some risk but offers significant performance upgrades, I am personally running my pi400 at 2Ghz instead of the default 1.8Ghz. From everything I've read running the pi400 at 2Ghz is reasonably safe and stable. From the terminal (Ctrl + Alt +T), in the root (default) directory. Enter the following to access config file you need to overclock your pi.
 
 sudo nano /boot/firmware/config.txt
 
-![](images/26.png)
+![](images/image26.png)
 
-Scroll to the bottom and add the following two lines
-
-over\_voltage=8
+Scroll to the bottom and add the following line
 
 arm\_freq=2000
 
