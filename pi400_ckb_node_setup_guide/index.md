@@ -183,7 +183,7 @@ Overclocking isn't necessary and does come with some risk but offers significant
 
 sudo nano /boot/firmware/config.txt
 
-![](images/25.png)
+![](images/25.png)![](images/26.png)
 
 Scroll to the bottom and add the following two lines
 
@@ -197,13 +197,13 @@ Now restart the Pi.
 
 ## RUN CKB
 
-That's all the intensive stuff done. Now all that's left is to initialise the node and let it sync. You can navigate your way around the command line directories by using "dir" and "cd" to list directory contents and change directory respectively but given we have a graphical user interface with Ubuntu desktop you can navigate there through the file manager and open a terminal from that directory. Go to home → ckb → [ckb\_v0.110.0\_aarch64-unknown-linux-gnu](https://github.com/nervosnetwork/ckb/releases/download/v0.110.0/ckb_v0.110.0_aarch64-unknown-linux-gnu.tar.gz) (if that's still the current version when you read this) then right click and choose "Open in Terminal" ![](images/26.png)
+That's all the intensive stuff done. Now all that's left is to initialise the node and let it sync. You can navigate your way around the command line directories by using "dir" and "cd" to list directory contents and change directory respectively but given we have a graphical user interface with Ubuntu desktop you can navigate there through the file manager and open a terminal from that directory. Go to home → ckb → [ckb\_v0.110.0\_aarch64-unknown-linux-gnu](https://github.com/nervosnetwork/ckb/releases/download/v0.110.0/ckb_v0.110.0_aarch64-unknown-linux-gnu.tar.gz) (if that's still the current version when you read this) then right click and choose "Open in Terminal" 
 
 In the terminal type
 
 ./ckb init --chain mainnet
-
 ![](images/27.png)
+
 
 then
 
