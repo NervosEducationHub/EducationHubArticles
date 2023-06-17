@@ -176,7 +176,7 @@ sudo dpkg -i libssl1.1\_1.1.0g-2ubuntu4\_arm64.deb
 
 wget http://ports.ubuntu.com/pool/main/o/openssl/openssl\_1.1.1f-1ubuntu2\_arm64.deb
 
-sudo dpkg -i openssl\_1.1.1f-1ubuntu2\_arm6d ![](images/24.png)![](images/25.png)
+sudo dpkg -i openssl\_1.1.1f-1ubuntu2\_arm6d ![](images/image24.png)![](images/image25.png)
 
 ## Overclocking and Over Volting
 
