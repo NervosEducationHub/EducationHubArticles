@@ -201,12 +201,12 @@ That's all the intensive stuff done. Now all that's left is to initialise the no
 In the terminal type
 
 ./ckb init --chain mainnet
-![](images/27.png)
+![](images/image27.png)
 
 
 then
 
 ./ckb run
-![](images/28.png)
+![](images/image28.png)
 
 ## Congratulations! You now have a node running on a Raspberry Pi. In a few days you be synced and contributing the decentralisation of the Nervos Network.
