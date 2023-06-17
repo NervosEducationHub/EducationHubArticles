@@ -210,4 +210,4 @@ then
 
 ![](images/image28.png)
 
-## Congratulations! You now have a node running on a Raspberry Pi. In a few days you be synced and contributing the decentralisation of the Nervos Network.
+## Congratulations! You now have a node running on a Raspberry Pi. In a few days you be synced and contributing to the decentralisation of the Nervos Network.
