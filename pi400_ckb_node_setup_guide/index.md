@@ -40,7 +40,7 @@ Easiest way is by using the Raspberry Pi Imager, Go to:
 
 ![](images/1.png) download and install the imager for your operating system (Windows, Mac or Linux[ubuntu])
 
-If you haven't plugged in and or inserted the micro SD to your PC yet do that now.
+If you haven't plugged in and or inserted the micro SD to your PC yet, do that now.
 
 ![](images/2.png)
 
