@@ -207,6 +207,7 @@ In the terminal type
 then
 
 ./ckb run
+
 ![](images/image28.png)
 
 ## Congratulations! You now have a node running on a Raspberry Pi. In a few days you be synced and contributing the decentralisation of the Nervos Network.
