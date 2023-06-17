@@ -147,6 +147,7 @@ Once Ubuntu determines how many upgrades need to be installed it'll prompt you t
 Next install the following applications which are essential for linux life. Make and Curl
 
 sudo apt-get install make
+
 sudo apt-get install curl
 
 ![](images/20.png)
