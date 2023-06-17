@@ -129,11 +129,14 @@ Extract to a new folder called "ckb"
 This is the part where we need to do some command line work, it's pretty straightforward, you can copy and paste the below where needed.
 
 To bring up a terminal window press: "Ctrl" + "Alt" + "T"
+![](images/17.png)
 
-First update and upgrade the existing libraries: ![](images/17.png)
+First update and upgrade the existing libraries: 
 
 sudo apt-get update
+
 sudo apt-get upgrade
+
 
 ![](images/18.png)
 
