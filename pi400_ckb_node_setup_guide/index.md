@@ -104,6 +104,7 @@ Ubuntu 22.04.2LTS Desktop is an open source, fully functional, Graphical Operati
 
  
 ## Connecting the pi
+![](images/13.png)
 
 Plug your HDD into a blue USB3.0 port on the Pi, use the a white 2.0 port for the mouse. Connect the micro HDMI cable to a HDMI enabled display/TV. For the first run put the bootloader micro sd card in the slot. Connect the USBA-C cable between the usb C power port on the Pi and the power supply. The pi will power on and should load the bootloader from the micro sd card let this run until the green indicator light begins to flash steadily, this needs to be done once to tell the Pi to check the USB bus first (the external HDD)for a bootable image. After the sequence has finished turn off the pi and remove the SD card, now restart the Pi and it should start to display the boot/initialisation sequence from the external HDD. You'll now need to set up the operating system details, WiFi connection details, timezone, keyboard layout. You also be asked to create a default user for logging into the operating system. All very straight forward.
 
@@ -112,8 +113,6 @@ Plug your HDD into a blue USB3.0 port on the Pi, use the a white 2.0 port for th
 First we can download the latest CKB Binaries for the ARM64 CPU. Open up firefox and go to:
 
 https://github.com/nervosnetwork/ckb/releases/tag/v0.110.0
-
-![](images/13.png)
 
 Click "tarball" and download the binary
 
