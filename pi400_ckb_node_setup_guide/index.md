@@ -4,6 +4,7 @@ coverImage: 'images/cover.png'
 category: 'Guides, Node'
 
 date: '2023-06-17T19:00:00.000Z'
+author: 'github:toastmanAu'
 ---
 
 # **How to run a CKB node on a RaspberryPi 400 with Ubuntu desktop 22.04**
