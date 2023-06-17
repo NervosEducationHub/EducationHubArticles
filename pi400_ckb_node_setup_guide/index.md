@@ -2,7 +2,7 @@
 title: 'Pi400 Ubuntu Node Setup Guide'
 coverImage: 'images/image29.png'
 category: popular, node
-date: '2023-06-17T19:00:00.000Z'
+date: '2023-06-18T00:12:00.000Z'
 author: 
 - github:toastmanAu
 ---
