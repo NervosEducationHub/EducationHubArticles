@@ -32,13 +32,13 @@ What you'll need
 
 \* Internet Connection, Ethernet better but WiFi works
 
-Flashing the Bootloader to the micro SD and Ubuntu to HDD
+## Flashing the Bootloader to the Micro SD and Ubuntu to HDD
 
 Easiest way is by using the Raspberry Pi Imager, Go to:
 
 [https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/)
 
-D ![](images/1.png) download and install the imager for your operating system (Windows, Mac or Linux[ubuntu])
+![](images/1.png) download and install the imager for your operating system (Windows, Mac or Linux[ubuntu])
 
 If you haven't plugged in and or inserted the micro SD to your PC yet do that now.
 
