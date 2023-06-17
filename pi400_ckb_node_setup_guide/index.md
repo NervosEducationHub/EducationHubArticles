@@ -166,7 +166,7 @@ Now install the C++ toolchain and clang
 
 sudo apt-get install -y git gcc libc6-dev pkg-config libssl-dev libclang-dev clang
 
-Next install the required penssl libraries
+Next install the required Openssl libraries
 
 wget http://ports.ubuntu.com/pool/main/o/openssl/libssl1.1\_1.1.0g-2ubuntu4\_arm64.deb
 
@@ -176,9 +176,9 @@ wget http://ports.ubuntu.com/pool/main/o/openssl/openssl\_1.1.1f-1ubuntu2\_arm64
 
 sudo dpkg -i openssl\_1.1.1f-1ubuntu2\_arm6d ![](images/23.png) ![](images/24.png) pkg -i
 
-Overclocking and Over Volting
+## Overclocking and Over Volting
 
-Overclocking isn't necessary and does come with some risk, I am personally running my pi400 at 2Ghz instead of the default 1.8Ghz and am running an over voltage setting of 8. From everything I've read running the pi400 at 2Ghz is quite safe and very stable, the reason for the over volting is to provide enough power for the Pi and SSD to interface, I ran into freezing issues at default voltage settings, I found others online with the same issue runnind an SSD and Pi in concert. I highly recommend the over volting, it brings the power consumption up from approximately 1.2 amps to 1.6a. In relative terms thats an additional 2w of power consumption to solve a somewhat debilitating problem IMO. From the terminal (Ctrl + Alt +T), in the root (default) directory. Enter the following to access config file you need to overclock/over volt your pi.
+Overclocking isn't necessary and does come with some risk but offers significant performance upgrades, I am personally running my pi400 at 2Ghz instead of the default 1.8Ghz and am running an over voltage setting of 8. From everything I've read running the pi400 at 2Ghz is quite safe and very stable, the reason for the over volting is to provide enough power for the Pi and SSD to interface, I ran into freezing issues at default voltage settings, I found others online with the same issue runnind an SSD and Pi in concert. I highly recommend the over volting, it brings the power consumption up from approximately 1.2 amps to 1.6a. In relative terms thats an additional 2w of power consumption to solve a somewhat debilitating problem IMO. From the terminal (Ctrl + Alt +T), in the root (default) directory. Enter the following to access config file you need to overclock/over volt your pi.
 
 sudo nano /boot/firmware/config.txt
 
