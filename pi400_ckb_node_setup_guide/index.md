@@ -175,7 +175,7 @@ sudo dpkg -i libssl1.1\_1.1.0g-2ubuntu4\_arm64.deb
 
 wget http://ports.ubuntu.com/pool/main/o/openssl/openssl\_1.1.1f-1ubuntu2\_arm64.deb
 
-sudo dpkg -i openssl\_1.1.1f-1ubuntu2\_arm6d ![](images/24.png)
+sudo dpkg -i openssl\_1.1.1f-1ubuntu2\_arm6d ![](images/24.png)![](images/25.png)
 
 ## Overclocking and Over Volting
 
@@ -183,7 +183,7 @@ Overclocking isn't necessary and does come with some risk but offers significant
 
 sudo nano /boot/firmware/config.txt
 
-![](images/25.png)![](images/26.png)
+![](images/26.png)
 
 Scroll to the bottom and add the following two lines
 
@@ -208,5 +208,6 @@ In the terminal type
 then
 
 ./ckb run
+![](images/28.png)
 
 ## Congratulations! You now have a node running on a Raspberry Pi. In a few days you be synced and contributing the decentralisation of the Nervos Network.
