@@ -6,7 +6,7 @@ category: 'Guides, Node'
 date: '2023-06-17T19:00:00.000Z'
 ---
 
-# **How to run a CKB node on a RaspberryPi 400 with ubuntu desktop 22.04**
+# **How to run a CKB node on a RaspberryPi 400 with Ubuntu desktop 22.04**
 
 Running a node on a RaspberryPi can be a fun, efficient way of helping to decentralise the Nervos Network. Old pro's have probably already got this all up and running but for those inexperienced with Pi's or Linux running your own full node like this can be quite daunting. With a decent internet connection you can have everything up and syncing in an hour or so (there's a bit of waiting for stuff to download on a fresh install). The initial sync will take several days and the pi may need restarting from time to time as they can be prone to freezing under heavy load from my experience. The "hard work" is over fairly quickly though. This guide will walk you through the process from flashing ubuntu on to a hdd to "ckb run".
 
