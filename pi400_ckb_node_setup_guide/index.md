@@ -125,9 +125,9 @@ Once the download is finished click open file, choose archive manager to open th
 
 Extract to a new folder called "ckb"
 
-This is the part where we need to do some command line work, it's pretty straightforward, you can copy and paste the below where needed.
-
 ![](images/16.png)
+
+This is the part where we need to do some command line work, it's pretty straightforward, you can copy and paste the below where needed.
 
 To bring up a terminal window press: "Ctrl" + "Alt" + "T"
 
