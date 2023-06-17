@@ -90,20 +90,20 @@ choose "Ubuntu"
 
 then "Ubuntu Desktop 22.04.2 LTS (64 Bit)"
 
+![](images/12.png)
+
 Select "CHOOSE STORAGE" and select your HDD.
 
 Click Write. And Wait.
 
 Now you're already ready to get started setting up Ubuntu on the Pi.
 
-Setting Up the Pi
+## Setting Up the Pi
 
 Ubuntu 22.04.2LTS Desktop is an open source, fully functional, Graphical Operating System. Often people will run ubuntu server, the command line client version of ubuntu, to run a dedicated task such as a blockchain node. While Server edition is superior as far as overhead usage is concerned, the lack of a Graphical User Interface makes operation for "Novice" linux users a all round unpleasant experience. Ubuntu Desktop looks and feels like a traditional OS a regular user is acustomed to. And makes other operations on the system straigtforward and familiar. With that said some command line operations are required but they're fairly simple and can be copy and pasted from this guide. (Pro tip – view this guide on the pi iteself via the pre-installed firefox browser). There are a couple requisite library installs to get your CKB node up and running. They're all things that you should install on any linux distro anyway with the 1 exception. CKB on ARM64 currently depends on an older OpenSSL library that Ubuntu 22.04.02 no longer ships with (needs 1.1.1 has 3.0.0) you'll need to downgrade two libraries to get it happening.
 
  
 ## Connecting the pi
-
-![](images/12.png)
 
 Plug your HDD into a blue USB3.0 port on the Pi, use the a white 2.0 port for the mouse. Connect the micro HDMI cable to a HDMI enabled display/TV. For the first run put the bootloader micro sd card in the slot. Connect the USBA-C cable between the usb C power port on the Pi and the power supply. The pi will power on and should load the bootloader from the micro sd card let this run until the green indicator light begins to flash steadily, this needs to be done once to tell the Pi to check the USB bus first (the external HDD)for a bootable image. After the sequence has finished turn off the pi and remove the SD card, now restart the Pi and it should start to display the boot/initialisation sequence from the external HDD. You'll now need to set up the operating system details, WiFi connection details, timezone, keyboard layout. You also be asked to create a default user for logging into the operating system. All very straight forward.
 
