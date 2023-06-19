@@ -5,9 +5,6 @@ category: 'Developers, Popular'
 subtitle: 'Nervos’ Layer 1 blockchain, Common Knowledge Base, allows developers to bring their own cryptography and build decentralized applications with superior UX and financial primitives that aren’t possible on any other chain.''
 date: '2023-06-19T16:00:00.000Z'
 ---
-
-
-
 Any prospective blockchain developer that has tried building decentralized applications has quickly realized that the current blockchains offer rather inflexible development environments. Building applications or financial primitives with superior user experience comparable to that of Web 2 applications is nearly impossible today, and largely due to two main reasons. The first reason is the social inflexibility of specific blockchain communities, which often stigmatize potential unorthodox builders, while the second involves the inherent technical limitations burdening most blockchains.
 
 For these reasons, experimenting with or building on Bitcoin today is practically unthinkable. Its technical limitations or lack of smart contracting capabilities make developing more complex decentralized applications impossible. Beyond that, and perhaps more importantly, its core developer and broader investor community view the protocol as very close to ossified, leaving little room for experimentation for prospective systems developers. On the other hand, Ethereum's community is exceptionally welcoming to developers, but its—and, for that matter, all other Layer 1s’—technical limitations significantly limit the scope of applications that developers can build.
