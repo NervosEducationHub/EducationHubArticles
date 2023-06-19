@@ -8,7 +8,7 @@ date: '2023-04-09T16:00:00.000Z'
 ![alt_text](images/image1.png "image_tooltip")
 
 
-Proof-of-Work (Proof-of-Work) is a consensus mechanism employed by blockchain networks, most notably Bitcoin, to validate transactions and create new blocks. It requires participants, called miners, to solve complex mathematical problems, thereby expanding computational resources. The first miner to solve the problem earns the right to add the new block to the blockchain and receives a reward, ensuring the network's security and integrity.
+Proof-of-Work (PoW) is a consensus mechanism employed by blockchain networks, most notably Bitcoin, to validate transactions and create new blocks. It requires participants, called miners, to solve complex mathematical problems, thereby expanding computational resources. The first miner to solve the problem earns the right to add the new block to the blockchain and receives a reward, ensuring the network's security and integrity.
 
 
 ## Proof-of-Work in a Nutshell
