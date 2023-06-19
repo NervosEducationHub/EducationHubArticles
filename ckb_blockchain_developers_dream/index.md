@@ -1,8 +1,8 @@
 ---
 title: 'Common Knowledge Base (CKB): a Blockchain Developer’s Dream'
 coverImage: 'images/image1.png'
-category: 'Developers, Popular'
-subtitle: 'Nervos’ Layer 1 blockchain, Common Knowledge Base, allows developers to bring their own cryptography and build decentralized applications with superior UX and financial primitives that aren’t possible on any other chain.''
+category: Popular
+subtitle: 'Nervos’ Layer 1 blockchain, Common Knowledge Base, allows developers to bring their own cryptography and build decentralized applications with superior UX and financial primitives that aren’t possible on any other chain.'
 date: '2023-06-19T16:00:00.000Z'
 ---
 Any prospective blockchain developer that has tried building decentralized applications has quickly realized that the current blockchains offer rather inflexible development environments. Building applications or financial primitives with superior user experience comparable to that of Web 2 applications is nearly impossible today, and largely due to two main reasons. The first reason is the social inflexibility of specific blockchain communities, which often stigmatize potential unorthodox builders, while the second involves the inherent technical limitations burdening most blockchains.
