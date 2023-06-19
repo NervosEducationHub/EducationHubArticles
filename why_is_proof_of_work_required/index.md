@@ -16,7 +16,7 @@ Proof-of-Work (PoW) is a consensus mechanism employed by blockchain networks, mo
 
 ### **The Mining Process**
 
-To comprehend the intricacies of Proof-of-Work, one must delve into the mining process. When transactions occur within the Bitcoin network, they are bundled into a memory pool (mempool). Miners then select a set of transactions from the mempool and attempt to form a new block. To do so, they must solve a cryptographic puzzle, which demands substantial computational Proof-of-Worker.
+To comprehend the intricacies of Proof-of-Work, one must delve into the mining process. When transactions occur within the Bitcoin network, they are bundled into a memory pool (mempool). Miners then select a set of transactions from the mempool and attempt to form a new block. To do so, they must solve a cryptographic puzzle, which demands substantial computational Proof-of-Work.
 
 The puzzle, based on the SHA-256 hashing algorithm, involves discovering a unique value known as a nonce. The miner combines this nonce with the block's data, generating a hash that meets the network's difficulty target. The difficulty target is a dynamic value that adjusts every 2016 blocks (roughly every two weeks) to maintain a consistent block creation time of approximately 10 minutes.
 
@@ -28,7 +28,7 @@ The search for the nonce is a trial-and-error process, making it highly competit
 
 ### **Adjusting the Mining Difficulty Target**
 
-As mentioned, the network's mining difficulty target adjusts every 2016 blocks, ensuring that block creation remains stable over time. If the computational Proof-of-Worker in the network increases, the difficulty target decreases, making it harder to find the correct nonce. Conversely, if the computational Proof-of-Worker decreases, the difficulty target increases, making it easier to solve the puzzle. This self-regulating mechanism preserves the network's stability and security.
+As mentioned, the network's mining difficulty target adjusts every 2016 blocks, ensuring that block creation remains stable over time. If the computational Proof-of-Work in the network increases, the difficulty target decreases, making it harder to find the correct nonce. Conversely, if the computational Proof-of-Work decreases, the difficulty target increases, making it easier to solve the puzzle. This self-regulating mechanism preserves the network's stability and security.
 
 
 ## Why Bitcoin Uses Proof-of-Work
@@ -41,7 +41,7 @@ Proof-of-Work is integral to Bitcoin's decentralized nature. As a trustless, per
 
 ### **Preventing Double Spending and Ensuring Security**
 
-The Proof-of-Work mechanism effectively prevents double spending, a fraudulent act where someone attempts to use the same digital currency more than once. The significant computational Proof-of-Worker required to solve the Proof-of-Work puzzle makes it nearly impossible for a malicious actor to rewrite the blockchain, as doing so would necessitate controlling more than 50% of the network's total mining Proof-of-Worker.
+The Proof-of-Work mechanism effectively prevents double spending, a fraudulent act where someone attempts to use the same digital currency more than once. The significant computational Proof-of-Work required to solve the Proof-of-Work puzzle makes it nearly impossible for a malicious actor to rewrite the blockchain, as doing so would necessitate controlling more than 50% of the network's total mining Proof-of-Work.
 
 Furthermore, Proof-of-Work helps maintain the network's security by making it economically infeasible to attack the system. The considerable energy and hardware costs associated with mining make it more lucrative for miners to contribute positively to the network rather than engage in malicious activities.
 
