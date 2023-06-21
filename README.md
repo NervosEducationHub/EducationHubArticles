@@ -18,7 +18,7 @@ Each article should be in its own folder, no spaces or special characters should
 <br>
 English text should be in a file "index.md" with all images in a /images sub-folder.<br>
 
-Translations should be in the same folder with language extension added to the end of the file name. For example "index-es.md" for Spanish<br>
+Translations should be in the same folder with language extension added to the end of the file name. For example "index-es.md" for Spanish<br><br>
 **Language extensions:**<br>
 -Spanish: es<br>
 -Chinese: zh<br>
