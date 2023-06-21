@@ -16,7 +16,9 @@ All articles must be in Markdown (md) format <br>
 Each article should be in its own folder, no spaces or special characters should be used in folder name <br>
 -Use underscores, letters and numbers<br>
 <br>
-English text should be in a file "index.md" with all images in a /images sub-folder, with translations in the same folder with language extension added to the end of the file name. For example "index-es.md" for Spanish<br>
+English text should be in a file "index.md" with all images in a /images sub-folder.<br>
+
+Translations should be in the same folder with language extension added to the end of the file name. For example "index-es.md" for Spanish<br>
 **Language extensions:**<br>
 -Spanish: es<br>
 -Chinese: zh<br>
