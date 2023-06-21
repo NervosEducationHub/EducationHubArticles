@@ -31,7 +31,7 @@ category: popular <br>
 date: '2023-04-09T16:00:00.000Z' <br>
 subtitle: 'This awesome article will explain the Education Hub'<br>
 author: <br>
-`- github:authorHandle <br>
+\- github:authorHandle <br>
 --- <br>
 <br>
 Creating a pull request guide [here](https://www.youtube.com/watch?v=f8sKlxQd1Bs) <br>
