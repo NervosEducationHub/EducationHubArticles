@@ -661,7 +661,7 @@ In the following chart you can see the number of CKBytes in circulation over the
 
 ![alt_text](images/image11.png 'image_tooltip')
 
-_Note: both the 25,200,000,000 CKBytes of genesis block and the unlock dates are taken into account in the chart. All 1,344,000,000,000 annual CKBytes of the secondary issuance are also counted without considering the burned CKBytes belonging to the treasury. If you want to know how many CKBytes of the secondary issuance have been burned so far you can see it [here](https://explorer.nervos.org/nervosdao)._
+_Note: both the 25,200,000,000 CKBytes of genesis block and the unlock dates are taken into account in the chart and in the table below. All 1,344,000,000,000 annual CKBytes of the secondary issuance are also counted without considering the burned CKBytes belonging to the treasury. If you want to know how many CKBytes of the secondary issuance have been burned so far you can see it [here](https://explorer.nervos.org/nervosdao)._
 
  <table border="1" align="center"> 
     <tr bgcolor="edf2f2">
