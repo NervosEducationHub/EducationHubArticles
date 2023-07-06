@@ -1013,7 +1013,7 @@ Let’s see an example to understand it better, imagine that 50% of all existing
 
 The Nervos CKB issuance model, although somewhat more complex, is very similar to the Bitcoin model and strengthens its value proposition, a fixed and predictable issuance. The biggest difference between the two models is the inclusion of a tail emission, the secondary issuance, to maintain the security of the network in the long term and not rely on transaction fees to compensate miners. This secondary issuance does not affect all members of the network, as Nervos DAO depositors protect themselves from its inflationary effect, converting their CKBytes into Bitcoin-style hard cap tokens.
 
-### Links of Interest
+### Related Links
 
 * [Crypto-Economics of the Nervos Common Knowledge Base](https://github.com/nervosnetwork/rfcs/blob/master/rfcs/0015-ckb-cryptoeconomics/0015-ckb-cryptoeconomics.md)
 * [The CKByte Issuance Model of Nervos](https://talk.nervos.org/t/the-ckbyte-issuance-model-of-nervos/5321)
