@@ -89,6 +89,10 @@ Si. Es un interés anual y compuesto. Por lo tanto, no necesitas retirar y volve
 
 Es un interés variable, ya que disminuye a lo largo del tiempo. Esto significa que aunque bloquees tus CKB en un porcentaje determinado, no se mantiene siempre en ese porcentaje, irá disminuyendo paulatinamente.
 
+* **¿Cuando recibiré las recompensas de compensación de Nervos DAO?** 
+
+Las recompensas de Nervos DAO se distribuyen por bloque a tu deposito. Una vez desbloqueas el depósito, que es el segundo paso en el proceso de retiro, desbloquearás tú depósito inicial de CKBytes junto con las recompensas acumuladas de Nervos DAO.
+
 * **¿Las recompensas de Nervos DAO disminuyen con el tiempo?** 
 
 Si. Uno de los propósitos de Nervos DAO es crear un límite máximo similar a Bitcoin para los depositantes de la DAO. Cómo holder a largo plazo, siempre obtienes la misma parte del nuevo suministro, pero la tasa de nuevo suministro en sí misma está disminuyendo. Es por eso que la tasa de APC en realidad disminuye a medida que pasa el tiempo y significa que el suministro total de CKBytes aumenta cada vez más lentamente, aproximándose a cero.
