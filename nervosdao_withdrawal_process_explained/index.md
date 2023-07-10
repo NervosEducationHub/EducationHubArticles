@@ -88,6 +88,10 @@ Yes. It is an annual and compound interest. Therefore, you do not need to withdr
 
 It is a variable interest, since it decreases over time. This means that even if you block your CKB at a certain percentage, it does not always stay at that percentage, it will gradually decrease.
 
+* **When will I receive the Nervos DAO compensation rewards?** 
+
+Rewards from Nervos DAO are distributed per block to your deposit. Once you unlock the deposit, which is the second step in the withdrawal process, you will unlock your initial deposit of CKBytes along with the accumulated Nervos DAO rewards.
+
 * **Do Nervos DAO rewards decrease over time?** 
 
 Yes. One of the purposes of the Nervos DAO is to create a Bitcoin-like hard cap for DAO depositors. As a long-term holder, you always get the same part of the new supply, but the rate of new supply itself is decreasing. This is why the APC rate actually decreases as time goes by and means that the total supply of CKBytes increases more and more slowly, approaching zero.
