@@ -661,7 +661,7 @@ En el siguiente gráfico puedes ver la cantidad de CKBytes en circulación a lo 
 
 ![alt_text](images/image11.png 'image_tooltip')
 
-_Nota: en el gráfico y en la tabla de abajo se tienen en cuenta los 25.200.000.000 CKBytes del bloque de génesis y las fechas de desbloqueo. También se cuentan todos los 1.344.000.000.000 CKBytes anuales de la emisión secundaria sin considerar los CKBytes quemados pertenecientes a la tesorería. Si quieres saber cuantos CKBytes de la emisión secundaria se han quemado hasta ahora puedes verlo [aquí](https://explorer.nervos.org/nervosdao)._
+_Nota: en el gráfico y en la tabla de abajo se tienen en cuenta los 25.200.000.000 CKBytes del bloque de génesis y las fechas de desbloqueo. También se cuentan todos los 1.344.000.000 CKBytes anuales de la emisión secundaria sin considerar los CKBytes quemados pertenecientes a la tesorería. Si quieres saber cuantos CKBytes de la emisión secundaria se han quemado hasta ahora puedes verlo [aquí](https://explorer.nervos.org/nervosdao)._
 
  <table border="1" align="center"> 
     <tr bgcolor="edf2f2">
