@@ -21,7 +21,7 @@ Nervos 与比特币有着相同的理念和价值主张，因为 CKB 的一级�
 
 ### 创世区块
 
-在创世区块中，CKB 的初始发行量为 336 亿，其中的 25%，即 84 亿 CKB，被[立即销毁](https://explorer.nervos.org/address/ckb1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqrzayrmzh9lyl25y5 uea0m0p76sawug7xqdksjqr)，永远不会进入流通。因此，创世区块中 CKB 的流通量为 252 亿。
+在创世区块中，CKB 的初始发行量为 336 亿，其中的 25%，即 84 亿 CKB，被[立即销毁](https://explorer.nervos.org/address/ckb1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqrzayrmzh9lyl25y5)，永远不会进入流通。因此，创世区块中 CKB 的流通量为 252 亿。
 
 ![alt_text](images/image2.png 'image_tooltip')
 
