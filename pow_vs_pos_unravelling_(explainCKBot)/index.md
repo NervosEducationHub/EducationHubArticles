@@ -55,9 +55,7 @@ The most significant advantage of Proof-of-Stake over other consensus algorithms
 
 Additionally, Proof-of-Stake networks can provide more predictable rewards for validators, as the selection process is based on a deterministic algorithm that accounts for the amount of cryptocurrency staked. This contrasts with the competitive mining process in Proof-of-Work networks, where rewards are less predictable due to the inherent randomness involved in finding valid hashes.
 
-Finally, Proof-of-Stake can lead to faster transaction processing and higher throughput, as the validation process relies less on intensive computational work. This can result in a more scalable and efficient blockchain network that handles more transactions than some Proof-of-Work systems. - poisson distribution
-
-(add finality)
+Finally, Proof-of-Stake can lead to faster transaction processing and higher throughput, as the validation process relies less on intensive computational work. This can result in a more scalable and efficient blockchain network that handles more transactions than some Proof-of-Work systems.
 
 
 ### Proof-of-Stake Downsides
