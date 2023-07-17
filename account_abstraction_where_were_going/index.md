@@ -1,5 +1,5 @@
 ---
-title: 'Where we`'re going, we don't need Accounts: the Future of Onboarding'
+title: 'Where we are going, we don't need Accounts: the Future of Onboarding'
 coverImage: 'images/image3.png'
 category: Popular
 subtitle: 'Account abstraction is a key milestone that blockchains are striving to achieve in order to bring their user experience on par with traditional Internet applications and onboard the next billion users. CKB is uniquely positioned to welcome them.'
