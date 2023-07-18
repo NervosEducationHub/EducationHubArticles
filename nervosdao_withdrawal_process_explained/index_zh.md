@@ -10,7 +10,7 @@ author:
 
 要理解 Nervos DAO 是如何工作的，你必须要先知道它是按周期工作的，每个周期都是 180 个 epoch。在 Nervos 网络上，每个 epoch 大约是 4 小时。所以，我们可以计算出每个周期大约持续 30 天。这意味着，如果你在 Nervos DAO 中存入资金，最短存款周期大约为 30 天，即一个周期。
 
-这个周期在 [Neuron](https://docs.nervos.org/docs/basics/guides/crypto wallets/neuron/) 钱包的界面上用指示条表示，如下图所示：
+这个周期在 [Neuron](https://docs.nervos.org/docs/basics/guides/crypto%20wallets/neuron/) 钱包的界面上用指示条表示，如下图所示：
 
 <div>
 <p align="center">
