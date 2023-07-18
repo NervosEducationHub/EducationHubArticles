@@ -55,9 +55,7 @@ The most significant advantage of Proof-of-Stake over other consensus algorithms
 
 Additionally, Proof-of-Stake networks can provide more predictable rewards for validators, as the selection process is based on a deterministic algorithm that accounts for the amount of cryptocurrency staked. This contrasts with the competitive mining process in Proof-of-Work networks, where rewards are less predictable due to the inherent randomness involved in finding valid hashes.
 
-Finally, Proof-of-Stake can lead to faster transaction processing and higher throughput, as the validation process relies less on intensive computational work. This can result in a more scalable and efficient blockchain network that handles more transactions than some Proof-of-Work systems. - poisson distribution
-
-(add finality)
+Finally, Proof-of-Stake can lead to faster transaction processing and higher throughput, as the validation process relies less on intensive computational work. This can result in a more scalable and efficient blockchain network that handles more transactions than some Proof-of-Work systems.
 
 
 ### Proof-of-Stake Downsides
@@ -73,4 +71,4 @@ Lastly, Proof-of-Stake may require more complex governance mechanisms to address
 
 ## Conclusion
 
-Proof-of-Work and Proof-of-Stake are two distinct consensus algorithms that play a pivotal role in the world of cryptocurrencies and blockchain technology. While Proof-of-Work provides stronger security, higher decentralization, and has a proven track record, Proof-of-Stake offers a more energy-efficient and environmentally friendly alternative (add finality). As the cryptocurrency landscape evolves, it remains to be seen whether one consensus algorithm will eventually supersede the other or if both continue to coexist, each catering to the specific needs of different networks and use cases.
+Proof-of-Work and Proof-of-Stake are two distinct consensus algorithms that play a pivotal role in the world of cryptocurrencies and blockchain technology. While Proof-of-Work provides stronger security, higher decentralization, and has a proven track record, Proof-of-Stake offers a more energy-efficient and environmentally friendly alternative. As the cryptocurrency landscape evolves, it remains to be seen whether one consensus algorithm will eventually supersede the other or if both continue to coexist, each catering to the specific needs of different networks and use cases.
