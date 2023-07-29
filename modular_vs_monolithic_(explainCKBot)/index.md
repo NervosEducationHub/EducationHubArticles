@@ -20,8 +20,8 @@ Monolithic blockchains are networks that operate on a single layer, handling all
 
 
 
-* **Simplicity: **The single-layer design of monolithic blockchains allows for a straightforward implementation of the network, making it easier for developers to build and maintain the system. This simplicity can also make it easier for new users to understand the technology and its functions.
-* **Proven Track Record: **Monolithic blockchains such as Bitcoin and Ethereum have demonstrated their ability to operate securely and reliably since their inception. This success has established a strong foundation of trust and credibility for these networks.
+* **Simplicity:** The single-layer design of monolithic blockchains allows for a straightforward implementation of the network, making it easier for developers to build and maintain the system. This simplicity can also make it easier for new users to understand the technology and its functions.
+* **Proven Track Record:** Monolithic blockchains such as Bitcoin and Ethereum have demonstrated their ability to operate securely and reliably since their inception. This success has established a strong foundation of trust and credibility for these networks.
 
 
 ### Disadvantages of Monolithic Blockchains
@@ -44,9 +44,9 @@ In a modular blockchain, the base layer focuses on security, decentralization, a
 
 
 * **Scalability**: Modular blockchains can achieve greater scalability by offloading transaction processing and other resource-intensive tasks to Layer 2 networks. This allows them to handle a higher volume of transactions without compromising security or decentralization.
-* **Security and Decentralization: **The base layer in a modular blockchain is designed to be exceptionally secure and decentralized. By focusing on these aspects at the base layer, modular blockchains maintain a strong foundation for the network.
+* **Security and Decentralization:** The base layer in a modular blockchain is designed to be exceptionally secure and decentralized. By focusing on these aspects at the base layer, modular blockchains maintain a strong foundation for the network.
 * **Flexibility and Interoperability:** Modular blockchains, such as Nervos, have a highly flexible base layer that supports various cryptographic primitives, making them more interoperable with other Layer 1 and Layer 2 networks and even established internet protocols. This flexibility allows developers to run different virtual machines, like Ethereum's Virtual Machine (EVM), directly inside the base layer's virtual machine (e.g., CKB-VM for Nervos).
-* **Enhanced User Experience: **The modular design and increased interoperability enable developers to create universal applications accessible by various types of blockchain users, wallets, and even standard authentication protocols. This leads to a more seamless user experience, lowering the barrier to entry for newcomers and simplifying interactions for existing blockchain users.
+* **Enhanced User Experience:** The modular design and increased interoperability enable developers to create universal applications accessible by various types of blockchain users, wallets, and even standard authentication protocols. This leads to a more seamless user experience, lowering the barrier to entry for newcomers and simplifying interactions for existing blockchain users.
 * **Future-Proofing:** Modular blockchains are designed to be more adaptable to changes and improvements in technology. By separating functions into different layers, these networks can be more easily updated or upgraded without affecting the entire system. This makes modular blockchains more resilient to evolving needs and requirements in the blockchain industry.
 
 
@@ -54,8 +54,8 @@ In a modular blockchain, the base layer focuses on security, decentralization, a
 
 
 
-* **Complexity: **The multi-layered architecture of modular blockchains can be more complex and challenging to develop and maintain compared to monolithic blockchains. This complexity can also make it harder for new users to grasp the technology.
-* **Shorter Track Record: **As a newer approach to blockchain design, modular blockchains have not been tested as extensively as their monolithic counterparts.
+* **Complexity:** The multi-layered architecture of modular blockchains can be more complex and challenging to develop and maintain compared to monolithic blockchains. This complexity can also make it harder for new users to grasp the technology.
+* **Shorter Track Record:** As a newer approach to blockchain design, modular blockchains have not been tested as extensively as their monolithic counterparts.
 
 
 ## Conclusion
