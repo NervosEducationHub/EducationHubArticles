@@ -2,9 +2,11 @@
 title: 'A Deep Dive Into the Tokenomics of Nervos Network'
 coverImage: 'images/image7.png'
 category: popular
-excerpt: 'Nervos is a modular blockchain network built from the ground up to ensure outstanding security, decentralization, flexibility, and interoperability on the base layer and unparalleled scalability on the upper layers.' 
+excerpt: 'The unique tokenomics of Nervos have been specially designed to ensure platform sustainability' 
 date: '2023-07-31T16:00:00.000Z'
 ---
+
+Nervos is a modular blockchain network built from the ground up to ensure outstanding security, decentralization, flexibility, and interoperability on the base layer and unparalleled scalability on the upper layers.
 
 This means that unlike most monolithic blockchains that have transaction execution, consensus, and data availability all happen on the same layer, Nervos separates these functions into two different layers: the Layer 1, comprising the Common Knowledge Base (CKB), a secure and decentralized preservation platform, and the Layer 2, made up of different high-throughput networks optimized for scaling.
 
