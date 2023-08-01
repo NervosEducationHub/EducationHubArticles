@@ -26,7 +26,7 @@ Algunas situaciones que pueden llevar a que las monedas emitidas queden fuera de
 
 Con el tiempo, todos estos factores reducen continuamente el suministro de monedas disponibles. Por tanto, podemos deducir que el suministro total gastable siempre es inferior al numero de CKBytes emitidos, por tanto:
 
-CKBytes emitidos -  CKBytes perdidos y no gastables = Suministro total de CKBytes gastables
+<code>CKBytes emitidos -  CKBytes perdidos y no gastables = Suministro total de CKBytes gastables</code>
 
 ### Calculando la Tasa de CKBytes Perdidos y no Gastables
 
