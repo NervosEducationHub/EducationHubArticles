@@ -26,7 +26,7 @@ Some situations that can lead to issued coins being out of circulation, becoming
 
 Over time, all these factors continuously reduce the supply of available coins. We can deduce that the total spendable supply is always less than the number of CKBytes issued. Therefore:
 
-CKBytes issued - CKBytes lost and non-spendable = Total supply of spendable CKBytes
+<code>CKBytes issued - CKBytes lost and non-spendable = Total supply of spendable CKBytes</code>
 
 ### Calculating the Rate of Lost and Unspendable CKBytes
 
