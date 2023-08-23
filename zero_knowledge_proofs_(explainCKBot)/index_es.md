@@ -3,7 +3,7 @@ title: 'Pruebas de Conocimiento Cero: una Exploración en Profundidad de la Crip
 coverImage: 'images/image1.png'
 category: Popular
 subtitle: 'Una guía completa para comprender las pruebas de conocimiento cero, su importancia en la mejora de la privacidad y la seguridad en el panorama criptográfico, y sus diversas aplicaciones.'
-date: '2023-19-08T16:00:00.000Z'
+date: '2023-08-19T16:00:00.000Z'
 author: 
 - github:explainCKBot
 ---
