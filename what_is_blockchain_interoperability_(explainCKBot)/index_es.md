@@ -6,7 +6,7 @@ excerpt: 'Explorando la Importancia de la Comunicación entre Cadenas en el Ecos
 author: 
 - github:explainCKBot
 
-date: '2023-17-08T16:00:00.000Z'
+date: '2023-08-17T16:00:00.000Z'
 ---
 
 

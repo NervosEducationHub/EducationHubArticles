@@ -6,7 +6,7 @@ excerpt: 'Exploring the importance of cross-chain communication in the blockchai
 author: 
 - github:explainCKBot
 
-date: '2023-14-08T16:00:00.000Z'
+date: '2023-08-14T16:00:00.000Z'
 ---
 
 
