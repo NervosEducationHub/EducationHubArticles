@@ -17,7 +17,7 @@ An elliptic curve is a set of points in a two-dimensional space that satisfy a s
 
 **y² = x³ + 7 (mod p)**
 
-Where **p **is a large prime number that defines the finite field over which the curve is defined, the **'mod p'** operation ensures that all calculations are performed within this finite field, which is crucial for the cryptographic security of the curve.
+Where **p** is a large prime number that defines the finite field over which the curve is defined, the **'mod p'** operation ensures that all calculations are performed within this finite field, which is crucial for the cryptographic security of the curve.
 
 The name secp256k1 is derived from the curve's properties: "sec" stands for "Standards for Efficient Cryptography," "p" represents the prime field, "256" signifies the bit length of the prime field, and "k1" indicates that it is the first curve of its kind recommended by SECG.
 
@@ -30,10 +30,10 @@ There are several reasons why secp256k1 is a popular choice for cryptocurrencies
 
 
 
-* **Security**: The security of secp256k1 is rooted in the elliptic curve discrete logarithm problem (ECDLP), which is considered computationally infeasible for well-chosen curves and large enough key sizes. The 256-bit key size used in secp256k1 offers a high level of security, making it resistant to known attacks.
-* **Efficiency**: Secp256k1 is a Koblitz curve, a special class of elliptic curves that enables efficient computation. This property makes it attractive for use in cryptocurrencies, where computational efficiency is essential for practical implementation on a large scale.
-* **Compact keys**: The 256-bit key size used in secp256k1 results in relatively small public keys and signatures, which is beneficial for storage and transmission efficiency, especially on the blockchain.
-* **Widespread adoption**: The fact that Bitcoin and other major cryptocurrencies have adopted secp256k1 has led to a substantial ecosystem of tools, libraries, and community support, making it an attractive choice for new cryptocurrency projects.
+* **Security:** The security of secp256k1 is rooted in the elliptic curve discrete logarithm problem (ECDLP), which is considered computationally infeasible for well-chosen curves and large enough key sizes. The 256-bit key size used in secp256k1 offers a high level of security, making it resistant to known attacks.
+* **Efficiency:** Secp256k1 is a Koblitz curve, a special class of elliptic curves that enables efficient computation. This property makes it attractive for use in cryptocurrencies, where computational efficiency is essential for practical implementation on a large scale.
+* **Compact keys:** The 256-bit key size used in secp256k1 results in relatively small public keys and signatures, which is beneficial for storage and transmission efficiency, especially on the blockchain.
+* **Widespread adoption:** The fact that Bitcoin and other major cryptocurrencies have adopted secp256k1 has led to a substantial ecosystem of tools, libraries, and community support, making it an attractive choice for new cryptocurrency projects.
 
 
 ### Usage of Secp256k1 in Cryptocurrencies
