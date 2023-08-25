@@ -37,7 +37,7 @@ Thus, smart contract platforms solve this issue by introducing transaction fees 
 
 Smart contract platforms like Ethereum face another fundamental issue called concurrency. Concurrency refers to a system's ability to process different tasks out-of-order or in partial order without affecting the outcome. In the context of blockchains, a network with good concurrency can process many transactions in parallel, leading to great benefits in scalability.
 
-![alt_text](images/image3.png "image_tooltip")
+![alt_text](images/image7.png "image_tooltip")
 
 However, smart contracts have a challenge when it comes to concurrency, because they need access to the global state (information stored on the other contracts on the blockchain) to function properly. This means that if two smart contracts are executing simultaneously, and they both try to modify the same piece of data, a conflict can occur. This issue is known as a race condition, and to solve it, smart contract platforms must execute transactions one at a time, in a specific order. This serial execution (opposite of concurrent execution) ensures that all transactions are processed correctly and in the same way and order by all nodes, but it also significantly slows down the blockchain because the network can't process multiple transactions at the same time (this also increases the amount of time it takes for a new user to sync a node).
 
