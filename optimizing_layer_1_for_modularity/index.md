@@ -118,7 +118,7 @@ Beyond relying on inflation, the current Layer 1 blockchains’ long-term securi
 
 More off-chain transactions mean higher throughput but also lower fees for miners and validators, and therefore less overall security on Layer 1, which ironically is the primary security-providing module in the stack. With anyone being able to create a Layer 2 execution engine at any time, the base layer no longer needs to worry about computation or transaction execution but instead about decentralizing verification, providing security, and storing value.
 
-This means that_ Layer 1 blockchains should specialize in being preservational instead of transactional platforms_, as that is their primary purpose when additional execution layers are introduced on top. Economically, this means that the miners or validators on the Layer 1 should be incentivized and compensated for the long-term preservation of value, not for the one-time processing of transactions. 
+This means that _Layer 1 blockchains should specialize in being preservational instead of transactional platforms_, as that is their primary purpose when additional execution layers are introduced on top. Economically, this means that the miners or validators on the Layer 1 should be incentivized and compensated for the long-term preservation of value, not for the one-time processing of transactions. 
 
 To that point, CKB is the only Layer 1 that has been designed from the bottom up with a preservation-first goal in mind. 
 
