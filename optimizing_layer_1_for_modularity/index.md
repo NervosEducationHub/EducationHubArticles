@@ -102,7 +102,7 @@ For developers, the Nervos CKB offers a versatile settlement engine that [suppor
 
 Moreover, the fact that cryptographic primitives like [hash algorithms](https://www.nervos.org/knowledge-base/what_is_a_hash_function) and signing schemes can be imported by dApp developers as if they were mere plug-ins means that CKB will forever be able to support all types of Layer 2 solutions without needing to undergo hard forks for updates to stay relevant.
 
- \
+
 CKB optimizes for decentralization and security by sticking to the most battle-tested consensus mechanism, [Proof-of-Work](https://www.nervos.org/knowledge-base/why_is_proof_of_work_required), and by solving the state explosion issue by introducing state rent and pegging the right to expand the global state to the platform’s native token CKB, where one CKB equals one byte of space on the blockchain. The latter ensures that the resource requirements for running full nodes remain low in the long term, ensuring lasting decentralization of the validation layer. 
 
 Perhaps most importantly, CKB’s protocol economics were designed from the ground up to align with the platform’s preservational nature, which brings us to our next point.
