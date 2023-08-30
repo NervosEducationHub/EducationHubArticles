@@ -1,4 +1,3 @@
-```
 ---
 title: 'Understanding ECDSA: The Backbone of Digital Signature Security'
 coverImage: 'images/image1.png'
@@ -75,4 +74,3 @@ Finally, ECDSA is also used by certificate authorities (CAs) to sign digital cer
 ## Conclusion
 
 ECDSA is a powerful cryptographic algorithm that leverages the advantages of elliptic curve cryptography to provide secure and efficient digital signatures. With its robust security and wide range of applications, ECDSA has become an essential component of modern cryptography, playing a critical role in securing digital communications and transactions. As the need for secure digital signatures grows in our increasingly connected world, ECDSA will continue to be a vital tool in protecting the integrity and authenticity of digital information.
-```
