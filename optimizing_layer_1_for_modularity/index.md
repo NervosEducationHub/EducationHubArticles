@@ -41,7 +41,7 @@ Smart contract platforms like Ethereum face another fundamental issue called con
 
 However, smart contracts have a challenge when it comes to concurrency, because they need access to the global state (information stored on the other contracts on the blockchain) to function properly. This means that if two smart contracts are executing simultaneously, and they both try to modify the same piece of data, a conflict can occur. This issue is known as a race condition, and to solve it, smart contract platforms must execute transactions one at a time, in a specific order. This serial execution (opposite of concurrent execution) ensures that all transactions are processed correctly and in the same way and order by all nodes, but it also significantly slows down the blockchain because the network can't process multiple transactions at the same time (this also increases the amount of time it takes for a new user to sync a node).
 
-These issues point to a simple fact that has been well understood in Bitcoin's highly technical community for years: blockchains are terrible for computation. The reason for this is simple and determined by the very nature of blockchains, which are designed to provide a decentralized, trustless system for _verifying _transactions, and not for handling large-scale _computation _or data storage tasks.
+These issues point to a simple fact that has been well understood in Bitcoin's highly technical community for years: blockchains are terrible for computation. The reason for this is simple and determined by the very nature of blockchains, which are designed to provide a decentralized, trustless system for _verifying_ transactions, and not for handling large-scale _computation_ or data storage tasks.
 
 
 ### **The Difference Between Computation and Verification**
@@ -102,7 +102,7 @@ For developers, the Nervos CKB offers a versatile settlement engine that [suppor
 
 Moreover, the fact that cryptographic primitives like [hash algorithms](https://www.nervos.org/knowledge-base/what_is_a_hash_function) and signing schemes can be imported by dApp developers as if they were mere plug-ins means that CKB will forever be able to support all types of Layer 2 solutions without needing to undergo hard forks for updates to stay relevant.
 
- \
+
 CKB optimizes for decentralization and security by sticking to the most battle-tested consensus mechanism, [Proof-of-Work](https://www.nervos.org/knowledge-base/why_is_proof_of_work_required), and by solving the state explosion issue by introducing state rent and pegging the right to expand the global state to the platform’s native token CKB, where one CKB equals one byte of space on the blockchain. The latter ensures that the resource requirements for running full nodes remain low in the long term, ensuring lasting decentralization of the validation layer. 
 
 Perhaps most importantly, CKB’s protocol economics were designed from the ground up to align with the platform’s preservational nature, which brings us to our next point.
@@ -118,7 +118,7 @@ Beyond relying on inflation, the current Layer 1 blockchains’ long-term securi
 
 More off-chain transactions mean higher throughput but also lower fees for miners and validators, and therefore less overall security on Layer 1, which ironically is the primary security-providing module in the stack. With anyone being able to create a Layer 2 execution engine at any time, the base layer no longer needs to worry about computation or transaction execution but instead about decentralizing verification, providing security, and storing value.
 
-This means that_ Layer 1 blockchains should specialize in being preservational instead of transactional platforms_, as that is their primary purpose when additional execution layers are introduced on top. Economically, this means that the miners or validators on the Layer 1 should be incentivized and compensated for the long-term preservation of value, not for the one-time processing of transactions. 
+This means that _Layer 1 blockchains should specialize in being preservational instead of transactional platforms_, as that is their primary purpose when additional execution layers are introduced on top. Economically, this means that the miners or validators on the Layer 1 should be incentivized and compensated for the long-term preservation of value, not for the one-time processing of transactions. 
 
 To that point, CKB is the only Layer 1 that has been designed from the bottom up with a preservation-first goal in mind. 
 
