@@ -26,7 +26,7 @@ Cryptographic hash functions play a vital role in securing digital information. 
 
 * **Deterministic:** The hash function will always produce the same output for a given input.
 * **Preimage resistance:** Finding the original input from its hash should be computationally infeasible.
-* **Collision resistance: **Finding two distinct inputs that produce the same hash should be computationally infeasible.
+* **Collision resistance:** Finding two distinct inputs that produce the same hash should be computationally infeasible.
 * **Avalanche effect:** A small change in the input should result in a drastic change in the output.
 
 
