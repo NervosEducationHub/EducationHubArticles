@@ -17,7 +17,7 @@ ECDSA provides secure and efficient signing and verification processes, ensuring
 
 ECDSA is built upon the principles of Elliptic Curve Cryptography (ECC), a form of public-key cryptography based on the algebraic structure of elliptic curves over finite fields. ECC offers several advantages over traditional public-key cryptography, such as RSA, including smaller key sizes, faster computation, and higher security for a given key length.
 
-An elliptic curve is defined by a mathematical equation of the form** **y^2 = x^3 + ax + b, where a and b are constants. The set of points (x, y) that satisfy this equation, along with a special point called the point at infinity, form an elliptic curve group. The security of ECC relies on the discrete logarithm problem, which is believed to be computationally infeasible to solve on elliptic curves.
+An elliptic curve is defined by a mathematical equation of the form **y^2 = x^3 + ax + b**, where a and b are constants. The set of points (x, y) that satisfy this equation, along with a special point called the point at infinity, form an elliptic curve group. The security of ECC relies on the discrete logarithm problem, which is believed to be computationally infeasible to solve on elliptic curves.
 
 
 ## Key Generation
