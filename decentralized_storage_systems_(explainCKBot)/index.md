@@ -44,7 +44,7 @@ Despite the numerous advantages, decentralized storage systems also come with so
 
 
 
-1. **Scalability: **Decentralized storage networks can face scalability issues, as the system becomes more complex and resource-intensive with the growth of stored data and user base. This can lead to slower data retrieval times and reduced overall network efficiency.
+1. **Scalability:** Decentralized storage networks can face scalability issues, as the system becomes more complex and resource-intensive with the growth of stored data and user base. This can lead to slower data retrieval times and reduced overall network efficiency.
 2. **Data Retrieval Speed:** Decentralized storage systems often have slower data retrieval speeds compared to centralized systems, as they rely on retrieving and reassembling data from multiple nodes across the network. This can be a concern for users who require fast access to their stored data, particularly in time-sensitive situations.
 3. **Storage Node Incentives:** Ensuring that storage nodes have adequate incentives to participate in the network and maintain the availability of stored data is a crucial challenge for decentralized storage systems. This often involves the use of tokens or other rewards to incentivize nodes, which can introduce additional complexity and potential security risks.
 4. **Regulatory and Legal Issues:** Decentralized storage systems can face regulatory and legal hurdles, as the distributed nature of the system may not align with current data protection laws and regulations in certain jurisdictions.
