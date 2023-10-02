@@ -11,7 +11,7 @@ author:
 
 Las criptomonedas, una forma de moneda digital o virtual, operan independientemente de un banco central y utilizan técnicas de cifrado para regular la generación de unidades y verificar transacciones. Esta innovadora forma de moneda tiene sus raíces en la creación de Bitcoin en 2009, que marcó el comienzo de una nueva era en el mundo financiero.
 
-Una parte integral del ecosistema de las criptomonedas es el concepto de "billetera". Una billetera de criptomonedas es una herramienta digital que permite a los usuarios almacenar, enviar y recibir monedas digitales de forma segura. Al igual que una billetera física, guarda el dinero, pero en este caso el dinero está en forma de tokens digitales o "monedas". Estas billeteras están protegidas por medidas de seguridad criptográficas que garantizan la seguridad de los activos digitales que contienen.
+Una parte integral del ecosistema de las criptomonedas es el concepto de billetera. Una billetera de criptomonedas es una herramienta digital que permite a los usuarios almacenar, enviar y recibir monedas digitales de forma segura. Al igual que una billetera física, guarda el dinero, pero en este caso el dinero está en forma de tokens digitales o "monedas". Estas billeteras están protegidas por medidas de seguridad criptográficas que garantizan la seguridad de los activos digitales que contienen.
 
 
 ## Entendiendo las Billeteras Frías
@@ -27,7 +27,7 @@ No se puede subestimar la importancia de las billeteras frías en el mundo de la
 
 La seguridad es una preocupación primordial en el mundo de las criptomonedas. Dada la naturaleza digital de estas monedas, son susceptibles a diversas amenazas en línea, incluyendo la piratería y el robo. Aquí es donde entran en juego las billeteras frías, que ofrecen una solución sólida a estos problemas de seguridad.
 
-Las billeteras frías mejoran la seguridad de las criptomonedas al almacenar las claves privadas de un usuario fuera de línea, lejos del alcance de las amenazas en línea. Esto contrasta con las 'billeteras calientes', que se encuentran en un ordenador con acceso a Internet y son, por tanto, vulnerables a muchos riesgos. Si bien las billeteras calientes ofrecen comodidad, especialmente para transacciones frecuentes, no pueden igualar el nivel de seguridad que brindan las billeteras frías.
+Las billeteras frías mejoran la seguridad de las criptomonedas al almacenar las claves privadas de un usuario fuera de línea, lejos del alcance de las amenazas en línea. Esto contrasta con las "billeteras calientes", que se encuentran en un ordenador con acceso a Internet y son, por tanto, vulnerables a muchos riesgos. Si bien las billeteras calientes ofrecen comodidad, especialmente para transacciones frecuentes, no pueden igualar el nivel de seguridad que brindan las billeteras frías.
 
 La comparación entre billeteras frías y billeteras calientes desde una perspectiva de seguridad es similar a comparar una cámara acorazada física con una billetera de bolsillo. Mientras que la billetera de bolsillo ofrece comodidad, la cámara acorazada brinda seguridad superior. De manera similar, si bien las billeteras calientes son adecuadas para las transacciones diarias, las billeteras frías son la opción más segura para almacenar grandes cantidades de criptomonedas.
 
