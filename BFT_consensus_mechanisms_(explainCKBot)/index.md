@@ -42,7 +42,7 @@ There are several types of BFT consensus mechanisms, each with its unique featur
 
 
 
-* **Practical Byzantine Fault Tolerance (PBFT): **PBFT is a consensus algorithm that was designed to handle Byzantine faults in a system. It works by requiring a two-thirds majority of nodes to agree on a transaction before it is added to the blockchain. PBFT is known for its efficiency and low resource consumption, making it a popular choice for many blockchain networks.
+* **Practical Byzantine Fault Tolerance (PBFT):** PBFT is a consensus algorithm that was designed to handle Byzantine faults in a system. It works by requiring a two-thirds majority of nodes to agree on a transaction before it is added to the blockchain. PBFT is known for its efficiency and low resource consumption, making it a popular choice for many blockchain networks.
 * **Federated Byzantine Agreement (FBA):** FBA is a type of BFT consensus mechanism that allows each node in the network to choose a set of other nodes that it trusts, and consensus is reached when enough of these trusted nodes agree on a transaction.
 * **Simplified Byzantine Fault Tolerance (SBFT):** SBFT is a simplified version of the BFT consensus mechanism that aims to improve efficiency and scalability. It works by electing a leader node that proposes a block to be added to the blockchain, and the other nodes vote on whether to accept the block.
 
