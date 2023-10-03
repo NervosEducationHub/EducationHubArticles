@@ -1,12 +1,10 @@
 ---
-title: 'A Primer on BFT Consensus Mechanisms in Blockchain'
+title: 'The Ultimate Guide to Blockchain Light Clients'
 coverImage: 'images/cover.png'
 category: Popular
 subtitle: 'Light Clients offer a trust-minimized way for users to easily and conveniently access the blockchain, without any reliance on third parties.'
 date: '2023-10-02T16:00:00.000Z'
 ---
-
-# The Ultimate Guide to Blockchain Light Clients
 
 While decentralization may be _the_ fundamental property of blockchains, it isn't an end goal in itself. Instead, it's pursued—often at the expense of other desirable properties like scalability—for the emergent properties it begets: trustlessness, permissionlessness, and censorship resistance. These combined properties grant crypto users self-sovereign ownership and access to their wealth and data—that is, at least, in theory. 
 
