@@ -1,5 +1,5 @@
 ---
-title: 'What's the difference between blockchain computation and verification?'
+title: "What's the difference between blockchain computation and verification?"
 coverImage: 'images/image1.png'
 category: Popular
 subtitle: 'Blockchain technology, underpinning cryptocurrencies like Bitcoin and Ethereum, is a complex system that relies on a myriad of processes to function effectively. Two of these key processes are computation and verification. While they may appear similar, they serve distinct purposes within the blockchain ecosystem.'
