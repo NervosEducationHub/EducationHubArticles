@@ -1,7 +1,7 @@
 ---
 title: 'What is a Light Client in Blockchain Technology?'
 coverImage: 'images/image1.png'
-category: Popular
+category: Popular, node, light client
 subtitle: 'Blockchain technology has revolutionized the way we perceive and interact with digital transactions.'
 date: '2023-09-13T16:00:00.000Z'
 author: 
