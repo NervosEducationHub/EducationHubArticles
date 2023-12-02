@@ -1,7 +1,7 @@
 ---
 title: 'Quantum Resistance in Blockchains: Preparing for a Post-Quantum Computing World'
 coverImage: 'images/image2.png'
-category: popular
+category: popular, cryptography
 subtitle: 'An in-depth exploration of quantum resistance in blockchains, addressing the potential threats posed by quantum computing advancements and the measures being taken to secure blockchain networks for the future.'
 date: '2023-06-05T16:00:00.000Z'
 ---
