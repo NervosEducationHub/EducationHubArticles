@@ -1,7 +1,7 @@
 ---
 title: 'ASIC-Resistance, is it possible?'
 coverImage: 'images/image1.png'
-category: 'PoW, Popular, mining'
+category: 'PoW, Popular, mining, ASIC'
 
 date: '2023-04-11T16:00:00.000Z'
 ---
