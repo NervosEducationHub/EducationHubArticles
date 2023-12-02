@@ -1,7 +1,7 @@
 ---
 title: 'Proof-of-Work vs. Proof-of-Stake: Unraveling the Key Differences '
 coverImage: 'images/image1.png'
-category: Popular
+category: PoW, consensus
 subtitle: 'A comprehensive analysis of the Proof-of-Work and Proof-of-Stake cryptocurrency consensus mechanisms, highlighting their advantages, drawbacks, and distinct features.'
 date: '2023-07-17T16:00:00.000Z'
 author: 
