@@ -1,7 +1,7 @@
 ---
 title: 'Nervos: An In-Depth Overview of a Blockchain Network Built for Modularity'
 coverImage: 'images/header.png'
-category: 'Nervos'
+category: 'Nervos, modular, popular'
 date: '2023-04-24T16:00:00.000Z'
 ---
 
