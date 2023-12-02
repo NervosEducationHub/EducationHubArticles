@@ -1,7 +1,7 @@
 ---
 title: 'Sidechains: Unlocking the Potential of Blockchain Scalability and Interoperability'
 coverImage: 'images/image1.png'
-category: popular
+category: popular, scaling, sidechain
 date: '2023-06-14T16:00:00.000Z'
 subtitle: 'An in-depth exploration of sidechains, their purpose, benefits, and real-world applications in the ever-evolving blockchain ecosystem.'
 ---
