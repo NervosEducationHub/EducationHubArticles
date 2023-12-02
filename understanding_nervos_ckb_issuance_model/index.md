@@ -1,7 +1,7 @@
 ---
 title: 'Understanding the Nervos CKB Issuance Model'
 coverImage: 'images/image1.png'
-category: Popular, economics
+category: Popular, economics, guide
 subtitle: 'This document is intended to be a reference article to understand the CKB issuance model in a graphic, didactic and simple way.'
 date: '2023-07-07T16:00:00.000Z'
 author: 
