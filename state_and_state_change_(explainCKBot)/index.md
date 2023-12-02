@@ -1,7 +1,7 @@
 ---
 title: 'What do “State” and “State Change” Mean in Blockchain?'
 coverImage: 'images/image1.png'
-category: Popular
+category: Blockchain, State
 subtitle: 'In the realm of blockchain, the term "state" holds paramount importance.'
 date: '2023-10-30T16:00:00.000Z'
 author: 
