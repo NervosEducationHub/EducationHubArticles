@@ -1,7 +1,7 @@
 ---
 title: 'Surprisingly, Secondary Issuance is not Inflationary'
 coverImage: 'images/image1.png'
-category: popular, economics, guide
+category: popular, economics
 subtitle: 'The purpose of this article is to present in a graphic and intuitive way the approach outlined by Peter Todd, Bitcoin Core developer, in his article entitled [Surprisingly, tail emission is not inflationary](https://petertodd.org/2022/surprisingly-tail-emission-is-not-inflationary). To illustrate this, we will use the CKB issuance model as an example, providing the community with a complementary perspective that allows a more complete understanding of the article [Understanding the Nervos CKB Issuance Model](https://www.nervos.org/knowledge-base/understanding_nervos_ckb_issuance_model).'
 date: '2023-08-02T16:00:00.000Z'
 author: 
