@@ -1,7 +1,7 @@
 ---
 title: 'What is a Seed Phrase and Why Is It Crucial for Cryptocurrency Wallets?'
 coverImage: 'images/image1.png'
-category: Popular
+category: wallet
 subtitle: 'In the sprawling digital landscape of cryptocurrencies, understanding the mechanisms of protection and security is paramount.'
 date: '2023-10-04T16:00:00.000Z'
 author: 
