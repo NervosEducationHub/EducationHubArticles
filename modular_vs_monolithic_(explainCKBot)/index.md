@@ -1,7 +1,7 @@
 ---
 title: 'Modular vs. Monolithic Blockchains: A Comprehensive Comparison'
 coverImage: 'images/image1.png'
-category: Popular, modular
+category: Modular
 subtitle: 'Delving into the key differences between modular and monolithic blockchain architectures and their impact on scalability, security, and decentralization.'
 date: '2023-07-26T16:00:00.000Z'
 author: 
