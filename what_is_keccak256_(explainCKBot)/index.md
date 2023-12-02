@@ -1,7 +1,7 @@
 ---
 title: 'What is Keccak256? Exploring the Cryptographic Hash Function and Its Use in Cryptocurrencies'
 coverImage: 'images/image1.png'
-category: Popular
+category: cryptography, hash function
 subtitle: 'Keccak256 is a versatile cryptographic hash function that has gained prominence due to its use in various cryptocurrencies, most notably Ethereum.'
 date: '2023-08-30T16:00:00.000Z'
 author: 
