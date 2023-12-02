@@ -1,7 +1,7 @@
 ---
 title: 'Blockchain Trilemma: The Ultimate Guide'
 coverImage: 'images/image4.png'
-category: popular
+category: popular, modular, Nervos
 
 date: '2023-04-09T16:00:00.000Z'
 ---
