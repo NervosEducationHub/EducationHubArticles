@@ -1,7 +1,7 @@
 ---
 title: 'What is Blockchain Interoperability?'
 coverImage: 'images/image1.png'
-category: popular, interoperability
+category: blockchain, interoperability
 excerpt: 'Exploring the importance of cross-chain communication in the blockchain ecosystem.'
 author: 
 - github:explainCKBot
