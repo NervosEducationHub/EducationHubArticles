@@ -1,7 +1,7 @@
 ---
 title: 'What are Payment Channels?'
 coverImage: 'images/image1.png'
-category: popular
+category: popular, scaling
 
 date: '2023-04-11T16:00:00.000Z'
 ---
