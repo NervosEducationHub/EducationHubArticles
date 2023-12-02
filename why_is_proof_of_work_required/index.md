@@ -1,7 +1,7 @@
 ---
 title: 'Why Is Proof-of-Work Required in Bitcoin?'
 coverImage: 'images/image2.png'
-category: 'PoW, mining'
+category: 'PoW, mining, consensus'
 date: '2023-04-09T16:00:00.000Z'
 ---
 
