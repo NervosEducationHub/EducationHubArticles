@@ -1,7 +1,7 @@
 ---
 title: 'Understanding Cryptocurrency Mining Pools: Advantages and Drawbacks'
 coverImage: 'images/image1.png'
-category: Popular, mining
+category: PoW, mining
 subtitle: 'In the dynamic sphere of digital currencies, a significant concept that cryptocurrency miners have adopted is that of mining pools.'
 date: '2023-10-09T16:00:00.000Z'
 author: 
