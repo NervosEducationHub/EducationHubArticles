@@ -1,7 +1,7 @@
 ---
 title: 'The Ultimate Guide to Blockchain Light Clients'
 coverImage: 'images/cover.png'
-category: Popular
+category: Popular, node, light client, guide
 subtitle: 'Light Clients offer a trust-minimized way for users to easily and conveniently access the blockchain, without any reliance on third parties.'
 date: '2023-10-02T16:00:00.000Z'
 ---
