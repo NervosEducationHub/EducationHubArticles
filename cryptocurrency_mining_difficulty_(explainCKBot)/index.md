@@ -1,7 +1,7 @@
 ---
 title: 'What is Cryptocurrency Mining Difficulty and How Is It Adjusted?'
 coverImage: 'images/image1.png'
-category: Popular, mining
+category: Popular, mining, ASIC
 subtitle: 'Cryptocurrency mining has become a topic of interest for individuals and businesses worldwide.'
 date: '2023-10-02T16:00:00.000Z'
 author: 
