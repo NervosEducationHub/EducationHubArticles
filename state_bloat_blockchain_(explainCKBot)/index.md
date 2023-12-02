@@ -1,7 +1,7 @@
 ---
 title: 'What is State Bloat in Blockchains?'
 coverImage: 'images/image1.png'
-category: Popular
+category: Blockchain, State
 subtitle: 'In the world of blockchain technology, a long-standing issue is state bloat.'
 date: '2023-11-14T16:00:00.000Z'
 author: 
