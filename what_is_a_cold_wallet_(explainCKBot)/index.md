@@ -1,7 +1,7 @@
 ---
 title: 'What is a Cold Wallet and Why is It Important for Cryptocurrency Security?'
 coverImage: 'images/image1.png'
-category: Popular
+category: Wallet
 subtitle: 'In the world of digital finance, cryptocurrency has emerged as a revolutionary concept that has reshaped our understanding of monetary transactions.'
 date: '2023-09-18T16:00:00.000Z'
 author: 
