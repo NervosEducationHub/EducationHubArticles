@@ -1,7 +1,7 @@
 ---
 title: 'Decentralized Identifiers (DIDs): Creating User-Friendly, Secure, and Interoperable Blockchain Identities'
 coverImage: 'images/image1.png'
-category: Popular
+category: Popular, DID
 subtitle: 'Decentralized identifiers (DIDs) are a revolutionary approach to digital identity management within blockchain technology.'
 date: '2023-08-21T16:00:00.000Z'
 author: 
