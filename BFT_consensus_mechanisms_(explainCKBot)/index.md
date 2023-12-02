@@ -1,7 +1,7 @@
 ---
 title: 'A Primer on BFT Consensus Mechanisms in Blockchain'
 coverImage: 'images/image1.png'
-category: Popular
+category: Popular, consensus
 subtitle: 'Blockchain technology, a groundbreaking innovation in the realm of digital transactions, has been the subject of increasing attention over the past decade.'
 date: '2023-09-13T16:00:00.000Z'
 author: 
