@@ -1,7 +1,7 @@
 ---
 title: 'What Is Nakamoto Consensus?'
 coverImage: 'images/image1.png'
-category: 'PoW'
+category: 'PoW, consensus'
 date: '2023-04-09T16:00:00.000Z'
 ---
 
