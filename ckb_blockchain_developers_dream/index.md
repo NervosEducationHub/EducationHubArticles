@@ -1,7 +1,7 @@
 ---
 title: 'Common Knowledge Base (CKB): a Blockchain Developer’s Dream'
 coverImage: 'images/image1.png'
-category: Popular, account abstraction
+category: Popular, account abstraction, Nervos
 subtitle: 'Nervos’ Layer 1 blockchain, Common Knowledge Base, allows developers to bring their own cryptography and build decentralized applications with superior UX and financial primitives that aren’t possible on any other chain.'
 date: '2023-06-19T16:00:00.000Z'
 ---
