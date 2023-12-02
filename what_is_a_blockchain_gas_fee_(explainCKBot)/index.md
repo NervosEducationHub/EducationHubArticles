@@ -2,7 +2,7 @@
 title: 'What is a Blockchain Gas Fee?'
 coverImage: 'images/image1.png'
 category: Popular
-subtitle: 'A blockchain gas fee is a form of compensation, it's the price users pay for the computational resources required to process and validate transactions on the blockchain.'
+subtitle: A blockchain gas fee is a form of compensation, it''s the price users pay for the computational resources required to process and validate transactions on the blockchain.
 date: '2023-11-30T16:00:00.000Z'
 author: 
 - github:explainCKBot
