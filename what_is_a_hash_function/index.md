@@ -1,7 +1,7 @@
 ---
 title: 'What Is a Hash Function?'
 coverImage: 'images/image1.png'
-category: popular
+category: popular, hash function
 date: '2023-04-09T16:00:00.000Z'
 ---
 
