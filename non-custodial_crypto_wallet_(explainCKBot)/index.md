@@ -1,7 +1,7 @@
 ---
 title: 'What is a Non-Custodial Crypto Wallet?'
 coverImage: 'images/image1.png'
-category: Popular
+category: wallet, guide
 subtitle: 'Cryptocurrency wallets come in various forms, each with unique features and benefits.'
 date: '2023-09-11T16:00:00.000Z'
 author: 
