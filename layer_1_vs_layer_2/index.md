@@ -1,7 +1,7 @@
 ---
 title: 'Layer 1 vs. Layer 2 Blockchain Networks: What is the Difference?'
 coverImage: 'images/image2.png'
-category: 'Blockchain, Nervos'
+category: 'Blockchain, Nervos, Popular, Modular'
 date: '2023-04-09T16:00:00.000Z'
 ---
 
