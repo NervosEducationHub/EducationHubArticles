@@ -1,7 +1,7 @@
 ---
 title: 'SHA256: The Most Used Hash Function in Cryptocurrencies'
 coverImage: 'images/image1.png'
-category: Popular
+category: Popular, cryptography
 subtitle: 'SHA256, or Secure Hash Algorithm 256-bit, is a cryptographic hash function that has become a cornerstone of modern digital security.'
 date: '2023-09-04T16:00:00.000Z'
 author: 
