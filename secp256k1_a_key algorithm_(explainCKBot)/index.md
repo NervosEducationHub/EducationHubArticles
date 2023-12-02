@@ -1,7 +1,7 @@
 ---
 title: 'Secp256k1: A Key Algorithm in Cryptocurrencies'
 coverImage: 'images/image1.png'
-category: Popular
+category: cryptography
 subtitle: 'Secp256k1 is an elliptic curve used primarily in the context of cryptographic algorithms and is most famously associated with Bitcoin and other cryptocurrencies.'
 date: '2023-08-22T16:00:00.000Z'
 author: 
