@@ -1,7 +1,7 @@
 ---
 title: 'A Deep Dive into Decentralized Storage Systems'
 coverImage: 'images/image1.png'
-category: Popular
+category: Blockchain
 subtitle: 'Unveiling the Future of Data Storage: How Decentralized Storage Systems are Transforming the Way We Store and Share Data.'
 date: '2023-09-06T16:00:00.000Z'
 author: 
