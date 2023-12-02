@@ -1,7 +1,7 @@
 ---
 title: 'What is RISC-V? A Revolution in Processor Architecture'
 coverImage: 'images/image1.png'
-category: Popular
+category: Popular, RISC-V, CKB-VM
 subtitle: 'In the realm of computer architecture, a new player has emerged that is set to revolutionize the industry: RISC-V.'
 date: '2023-10-23T16:00:00.000Z'
 author: 
