@@ -1,7 +1,7 @@
 ---
 title: 'What is a Multi-Signature (Multisig) Wallet in Cryptocurrency?'
 coverImage: 'images/image1.png'
-category: Popular
+category: wallet
 subtitle: 'In the dynamic landscape of cryptocurrencies, the concept of security holds a pivotal role.'
 date: '2023-09-27T16:00:00.000Z'
 author: 
