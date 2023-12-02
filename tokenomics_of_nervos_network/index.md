@@ -1,7 +1,7 @@
 ---
 title: 'A Deep Dive Into the Tokenomics of Nervos Network'
 coverImage: 'images/image7.png'
-category: popular, economics, guide
+category: popular, economics, guide, state
 excerpt: 'The unique tokenomics of Nervos have been specially designed to ensure platform sustainability' 
 date: '2023-07-31T16:00:00.000Z'
 ---
