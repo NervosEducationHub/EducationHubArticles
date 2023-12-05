@@ -4,8 +4,6 @@ coverImage: 'images/image7.png'
 category: Popular
 subtitle: 'Bitcoin’s security model design has served as both an inspiration and a reference point for subsequent cryptocurrencies. Therefore, its long-term success or failure is undeniably relevant for the entire industry.'
 date: '2023-12-05T16:00:00.000Z'
-author: 
-- github:explainCKBot
 ---
 
 Every four years, typically in the six months preceding the halving, the debate around the sustainability of Bitcoin's security model gets reignited. 
