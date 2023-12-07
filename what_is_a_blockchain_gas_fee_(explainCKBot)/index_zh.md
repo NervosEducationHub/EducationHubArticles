@@ -67,7 +67,7 @@ Layer 2 解决方案是建立在区块链基础层之上的协议，旨在通过
 
 ## 管理和减少 Gas 费用的策略
 
-对于希望减少 Gas 费用的用户，可以采取以下几种策略：使用 [Gas Tracker]([gas trackers](https://etherscan.io/gastracker)) 等工具实时监控 Gas 费用，选择在非高峰时段进行交易；设置最高 Gas 费用限额；以及采用 Layer 2 解决方案。
+对于希望减少 Gas 费用的用户，可以采取以下几种策略：使用 [Gas Tracker](https://etherscan.io/gastracker) 等工具实时监控 Gas 费用，选择在非高峰时段进行交易；设置最高 Gas 费用限额；以及采用 Layer 2 解决方案。
 
 
 
