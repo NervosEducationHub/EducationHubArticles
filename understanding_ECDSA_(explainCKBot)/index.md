@@ -1,7 +1,7 @@
 ---
 title: 'Understanding ECDSA: The Backbone of Digital Signature Security'
 coverImage: 'images/image1.png'
-category: Popular
+category: Hash Function, cryptography
 subtitle: 'Elliptic Curve Digital Signature Algorithm (ECDSA) is a cryptographic algorithm used to generate digital signatures in various applications, including cryptocurrencies like Bitcoin and Ethereum.'
 date: '2023-08-28T16:00:00.000Z'
 author: 

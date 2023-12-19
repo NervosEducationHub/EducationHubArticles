@@ -1,7 +1,7 @@
 ---
 title: 'What is a Hard Fork and a Soft Fork in Cryptocurrencies?'
 coverImage: 'images/image1.png'
-category: Popular
+category: Blockchain
 subtitle: 'The world of cryptocurrencies is a complex one, filled with opaque terminologies that define its landscape. Among these terms are "hard fork" and "soft fork," which play a pivotal role in the evolution of cryptocurrencies.'
 date: '2023-10-15T16:00:00.000Z'
 author: 

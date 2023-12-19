@@ -1,7 +1,7 @@
 ---
 title: "How to Optimize Layer 1 Blockchains for Modularity"
 coverImage: 'images/image1.png'
-category: Popular
+category: Popular, Nervos, Modular, guide, state, utxo, scaling
 subtitle: 'Modularity in blockchains has been discussed at length. In a layered architecture, what are the ideal qualities of a Layer 1 blockchain?'
 date: '2023-08-25T16:00:00.000Z'
 ---

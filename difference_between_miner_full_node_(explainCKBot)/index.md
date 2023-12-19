@@ -1,7 +1,7 @@
 ---
 title: 'What is the Difference Between a Miner and a Full Node?'
 coverImage: 'images/image1.png'
-category: Popular
+category: mining, node
 subtitle: 'In the world of cryptocurrencies, two key entities play crucial roles in maintaining the integrity, security, and functionality of blockchain networks: miners and full nodes. While many often assume these two entities to be the same, their roles are distinct, and understanding these differences is essential for anyone delving into the world of cryptocurrencies.'
 date: '2023-10-18T16:00:00.000Z'
 author: 

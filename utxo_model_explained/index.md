@@ -1,7 +1,7 @@
 ---
 title: 'The UTXO Model Explained'
 coverImage: 'images/image1.png'
-category: 'UTXO'
+category: 'UTXO, Blockchain'
 date: '2023-04-09T16:00:00.000Z'
 ---
 

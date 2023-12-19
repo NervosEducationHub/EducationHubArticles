@@ -1,7 +1,7 @@
 ---
 title: 'What are Blockchain/Cross-Chain Bridges?'
 coverImage: 'images/image1.png'
-category: Popular
+category: interoperability, blockchain
 subtitle: 'As the blockchain ecosystem continues to expand, many independent, decentralized networks have emerged, each with distinct protocols, consensus mechanisms, and use cases.'
 date: '2023-09-20T16:00:00.000Z'
 author: 

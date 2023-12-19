@@ -1,7 +1,7 @@
 ---
 title: 'Zero-Knowledge Proofs: An In-Depth Exploration in Cryptography'
 coverImage: 'images/image1.png'
-category: Popular
+category: Popular, scaling
 subtitle: 'A comprehensive guide to understanding zero-knowledge proofs, their significance in enhancing privacy and security in the crypto landscape, and their diverse applications.'
 date: '2023-08-16T16:00:00.000Z'
 author: 

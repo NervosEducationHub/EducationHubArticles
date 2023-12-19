@@ -1,7 +1,7 @@
 ---
 title: 'Crypto Mining Hardware: Exploring CPU’s, GPU’s, and ASIC’s'
 coverImage: 'images/image1.png'
-category: Popular
+category: Mining, ASIC, PoW
 subtitle: 'In the cryptocurrency industry, mining emerged early on as a pivotal process, with an underlying significance that cannot be overstated. But what exactly is crypto mining, and why does it command such importance?'
 date: '2023-10-11T16:00:00.000Z'
 author: 
