@@ -94,7 +94,7 @@ Payment channels can be closed under three circumstances: (i) both parties agree
 
 ##### **Mutual Closure**
 
-In the first case, one channel partner informs the other of their intention to close the channel. Since both parties have mutually agreed on the closure, their LN nodes will start working on it together. The first order of business is to either settle or remove (after they time out) all ongoing _payment routing _attempts (to be explained later) and stop accepting any new attempts from either channel partner. 
+In the first case, one channel partner informs the other of their intention to close the channel. Since both parties have mutually agreed on the closure, their LN nodes will start working on it together. The first order of business is to either settle or remove (after they time out) all ongoing _payment routing_ attempts (to be explained later) and stop accepting any new attempts from either channel partner. 
 
 After this has been finalized (which takes time, meaning a mutual close also takes some time to complete), the nodes will prepare a closing transaction. This is a commitment transaction, similar to all previous ones that encode the last balance of the channel but not encumbered with a timelock. Once this transaction is broadcasted and confirmed by the Bitcoin network, the channel is effectively closed, and each channel partner receives their share of the final channel balance. 
 
