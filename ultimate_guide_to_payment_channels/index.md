@@ -123,7 +123,7 @@ While simple bidirectional payment channels are a solid blockchain scaling solut
 
 Payment channel networks allow two parties, say, Alice and David, to transact with each other without having a direct payment channel open between them. For example, David may have a channel open with Claire, an avid gamer who also has a channel open with the online Fortnite gaming coach Bob.
 
-Because Alice and Bob have already established a payment channel, and Bob has one with Claire, who has one with David, Alice could _route _her payment to David via Bob and Claire’s respective channels using a Hashed Timelock Contract (HTLC).
+Because Alice and Bob have already established a payment channel, and Bob has one with Claire, who has one with David, Alice could _route_ her payment to David via Bob and Claire’s respective channels using a Hashed Timelock Contract (HTLC).
 
 For Alice and David, routing the payment using an HTLC is a better solution than simply opening a direct payment channel for two reasons. One, the payment is much cheaper, as it remains entirely off-chain and isn't subject to channel opening and closing transaction fees, and two, individual connections don't scale well. Namely, to connect three nodes, one needs three connections or edges (as they're called in graph theory); to connect five nodes, it's ten edges, and to connect 5,000 nodes, it's 12,497,500 edges. In other words, forming a peer-to-peer network based on direct connections is way more complex than creating one based on routing or indirect connections.
 
