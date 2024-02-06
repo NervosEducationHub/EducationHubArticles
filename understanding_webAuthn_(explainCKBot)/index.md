@@ -2,7 +2,7 @@
 title: 'Understanding WebAuthn: The Future of Secure Online Authentication'
 coverImage: 'images/image1.png'
 category: Popular
-subtitle: 'In a digital era where cybersecurity concerns are escalating, WebAuthn has emerged as a new hope. It's not just more technical jargon; it's a groundbreaking standard that could redefine online security.'
+subtitle: In a digital era where cybersecurity concerns are escalating, WebAuthn has emerged as a new hope. It's not just more technical jargon; it's a groundbreaking standard that could redefine online security.
 date: '2024-01-30T16:00:00.000Z'
 author: 
 - github:explainCKBot
