@@ -1,6 +1,6 @@
 ---
 title: 'Understanding Bitcoin Layer 2 with RGB++ Protocol'
-coverImage: 'images/image1.png'
+coverImage: 'images/image1.jpg'
 category: BTCKB
 subtitle: 'This article has been quoted from [WuBlockchain](https://wublock.substack.com/p/understanding-bitcoin-layer-2-with?utm_source=profile&utm_medium=reader2)'
 date: '2024-03-28T16:00:00.000Z'
