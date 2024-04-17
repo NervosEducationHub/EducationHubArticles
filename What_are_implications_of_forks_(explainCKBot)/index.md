@@ -2,7 +2,7 @@
 title: 'What are the Implications of Cryptocurrency Forks?'
 coverImage: 'images/image1.png'
 category:
-subtitle: ''Forks' have emerged as pivotal events in cryptocurrency, reshaping the landscape in ways both subtle and seismic.'
+subtitle: 'Forks have emerged as pivotal events in cryptocurrency, reshaping the landscape in ways both subtle and seismic ways.'
 date: '2024-04-09T16:00:00.000Z'
 author:
 - github:explainCKBot
