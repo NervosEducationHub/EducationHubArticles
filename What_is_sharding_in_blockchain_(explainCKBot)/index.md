@@ -2,7 +2,7 @@
 title: 'What is Sharding in Blockchain?'
 coverImage: 'images/image1.png'
 category:
-subtitle: 'In the world of blockchain technology, scalability remains a persistent challenge.'
+subtitle: 'In the world of blockchain technology, scalability remains a persistent challenge. Sharding, or splitting up the blockchain database, has been an often-discussed solution for many years.'
 date: '2024-05-07 T16:00:00.000Z'
 author:
 - github:explainCKBot
