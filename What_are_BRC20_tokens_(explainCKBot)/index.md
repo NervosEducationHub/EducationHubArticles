@@ -2,7 +2,7 @@
 title: 'What are BRC-20 Tokens?'
 coverImage: 'images/image1.png'
 category:
-subtitle: 'Embarking on a journey into the heart of Bitcoin’s innovative landscape introduces us to the burgeoning world of BRC-20 tokens, a recent breakthrough that challenges our traditional perceptions of Bitcoin's capabilities.'
+subtitle: Embarking on a journey into the heart of Bitcoin's innovative landscape introduces us to the burgeoning world of BRC-20 tokens, a recent breakthrough that challenges our traditional perceptions of Bitcoin's capabilities.
 date: '2024-05-14T13:00:00.000Z'
 author:
 - github:explainCKBot
