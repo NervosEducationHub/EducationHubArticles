@@ -11,7 +11,7 @@ Time and time again, when developers building on account-based blockchains hit a
 The latest in a series of such rediscoveries is the concept of “intents,” which, in simple terms, are a special type of instruction that allows users to directly express a deterministic outcome for their transaction.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Many intent-centric protocols today emerge from Ethereum (on chain execution) ecosystem. Thus, things like off-chain state transition generation + on-chain verification seem like novel ideas.<br><br>But those who come from UTXO world know that this is how things began, and extended…</p>&mdash; Tak Boglantane (@TannrAllard) <a href="https://twitter.com/TannrAllard/status/1775728744453357778?ref_src=twsrc%5Etfw">April 4, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-While Bitcoin already functions this way, the typical peer-to-contract transaction today only allows for specifying the _inputs _to a transaction, while the_ outcome _is impossible to control. This is referred to as an “imperative” programming paradigm, in which a user specifies exactly the steps the virtual machine must take but can not control the outcome of the transaction. 
+While Bitcoin already functions this way, the typical peer-to-contract transaction today only allows for specifying the _inputs_ to a transaction, while the _outcome_ is impossible to control. This is referred to as an “imperative” programming paradigm, in which a user specifies exactly the steps the virtual machine must take but can not control the outcome of the transaction. 
 
 Considering that users only care about the outcomes of their transactions, it would be reasonable to assume that most blockchains are designed with this reality in mind. Unfortunately, however, this is far from the case. With the exception of UTXO-based blockchains like Bitcoin, CKB, Cardano, Ergo, and others, a majority of our world’s actual blockchain transactions only specify inputs rather than outcomes.
 
@@ -105,7 +105,7 @@ Intent-based projects typically fall into two categories: permissioned and permi
 
 On the other hand, projects in the permissionless category outsource intents to a competitive market of solvers, which lessens the trust assumptions and may temporarily avoid centralization. However, in the long term, as solvers specialize in serving specific market niches, there’s a tangible risk they may still end up monopolizing them. 
 
-Early research has even shown that the role being played by solvers may be [conducive to centralization, to maximize user benefit](https://arxiv.org/pdf/2403.02525).
+Early research has even shown that the role being played by solvers may be [conducive to centralization to maximize user benefit](https://arxiv.org/pdf/2403.02525).
 
 
 ## UTXO: Declarative Supremacy
@@ -128,7 +128,7 @@ In this scenario, the quote messages express the users' desire for a specific ou
 
 This is because a Bitcoin transaction, or for that matter, a transaction on any UTXO-based chain, is nothing more than two lists of state changes and authorization information. Once it's mined, it can't revert or fail, as the network doesn't compute implicit instructions to arrive at an explicit state like imperative blockchains do, but merely verifies an explicit transaction to arrive at an implicit state.
 
-[https://twitter.com/_prestwich/status/927950141620854784](https://twitter.com/_prestwich/status/927950141620854784)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Explicit is better than implicit</p>&mdash; James Prestwich (@_prestwich) <a href="https://twitter.com/_prestwich/status/927950141620854784?ref_src=twsrc%5Etfw">November 7, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 In other words, in account-based blockchains, transactions only state the action or a function call with parameters. This is essentially a computation request, where the actual state is computed (in sequential order) and inferred from the blockchain. On the other hand, in UTXO-based chains, all the states are included in the transaction. The blockchain only verifies (which can be done in parallel, allowing for better scaling) the transaction to ensure submitted data are in the correct format. 
 
