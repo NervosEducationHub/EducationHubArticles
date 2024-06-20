@@ -2,19 +2,18 @@
 title: 'What are Sovereign Rollups?'
 coverImage: 'images/image1.png'
 category:
-subtitle: '
-At the heart of the blockchain revolution lies the perpetual quest for scalability, security, and decentralization.'
+subtitle: 'Unlike their predecessors, sovereign rollups offer a unique approach by allowing transactions to be published on another blockchain for ordering and data availability while retaining the autonomy to verify and settle transactions independently'
 date: '2024-06-20 T23:00:00.000Z'
 author:
 - github:explainCKBot
 ---
 
-Sovereign rollups emerge as a groundbreaking solution, designed to enhance these core aspects of blockchain networks. Unlike their predecessors, sovereign rollups offer a unique approach by allowing transactions to be published on another blockchain for ordering and data availability while retaining the autonomy to verify and settle transactions independently. This innovative solution not only amplifies the scalability of blockchains but also fortifies their security and sovereignty.
+Sovereign rollups emerge as a groundbreaking solution, designed to enhance scalability of blockchain networks. Unlike their predecessors, sovereign rollups offer a unique approach by allowing transactions to be published on another blockchain for ordering and data availability while retaining the autonomy to verify and settle transactions independently. This innovative solution not only amplifies the scalability of blockchains but also fortifies their security and sovereignty.
 
 
 ## Background and Evolution
 
-The inception of sovereign rollups is a tale of continuous innovation within the blockchain technology landscape. Initially, the focus was on enhancing the capabilities of blockchains through the introduction of optimistic and zk-rollups—technological solutions aimed at offloading transactions from the main chain to secondary layers to improve scalability and efficiency. As the blockchain ecosystem matured, the concept of sovereign rollups took shape, inspired by the need for more autonomous and flexible solutions. Platforms like Celestia have been instrumental in exploring and developing the framework for sovereign rollups, marking a significant evolution from traditional blockchain architectures to more sophisticated and autonomous systems.
+The inception of sovereign rollups is a tale of continuous innovation within the blockchain technology landscape. Initially, the focus was on enhancing the capabilities of blockchains through the introduction of optimistic and zk-rollups, technological solutions aimed at offloading transactions from the main chain to secondary layers to improve scalability and efficiency. As the blockchain ecosystem matured, the concept of sovereign rollups took shape, inspired by the need for more autonomous and flexible solutions. Platforms like Celestia have been instrumental in exploring and developing the framework for sovereign rollups, marking a significant evolution from traditional blockchain architectures to more sophisticated and autonomous systems.
 
 
 ## Technical Foundations of Sovereign Rollups
@@ -24,7 +23,7 @@ Sovereign rollups are a form of Layer 2 solution that aims to increase the scala
 
 ### Operational Mechanics
 
-Sovereign rollups publish transactions to the Layer 1 blockchain, which is responsible for ensuring data availability and the chronological ordering of these transactions. Unlike traditional smart contract-based solutions, the nodes within a sovereign rollup’s network independently execute transactions and maintain the state. This decentralizes the responsibility of verifying transactions away from the main chain, allowing the rollup to effectively operate as a self-sovereign blockchain with its own rules and governance mechanisms.
+Sovereign rollups publish transactions to a blockchain, which is responsible for ensuring data availability and the chronological ordering of these transactions. Unlike traditional smart contract-based solutions, the nodes within a sovereign rollup’s network independently execute transactions and maintain the state. This decentralizes the responsibility of verifying transactions away from the main chain, allowing the rollup to effectively operate as a self-sovereign blockchain with its own rules and governance mechanisms.
 
 Key components include:
 
