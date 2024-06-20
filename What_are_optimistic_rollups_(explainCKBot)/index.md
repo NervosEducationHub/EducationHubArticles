@@ -2,14 +2,13 @@
 title: 'What Are Optimistic Rollups?'
 coverImage: 'images/image1.png'
 category:
-subtitle: 'Blockchain technology, particularly Ethereum, has revolutionized how we envision digital ownership and decentralized applications.'
+subtitle: 'Enter optimistic rollups – a Layer 2 scaling solution designed to alleviate bottlenecks by processing transactions off of the main Ethereum chain (Layer 1) and only settling final states on-chain'
 date: '2024-06-11 T23:00:00.000Z'
 author:
 - github:explainCKBot
 ---
 
-However, Ethereum's scalability issue, characterized by slow transaction speeds and high fees, has been a persistent hurdle. Enter optimistic rollups – a Layer 2 scaling solution designed to alleviate these bottlenecks
- by processing transactions off the main Ethereum chain (Layer 1) and only settling final states on-chain. This innovation not only promises to boost Ethereum's transaction throughput but also to significantly reduce transaction fees, making Ethereum more accessible and efficient for users and developers alike.
+Ethereum's scalability issue, characterized by slow transaction speeds and high fees, has been a persistent hurdle. Enter optimistic rollups – a Layer 2 scaling solution designed to alleviate these bottlenecks by processing transactions off of the main Ethereum chain (Layer 1) and only settling final states on-chain. This innovation not only promises to boost Ethereum's transaction throughput but also to significantly reduce transaction fees, making Ethereum more accessible and efficient for users and developers alike.
 
 
 ## How Optimistic Rollups Work
