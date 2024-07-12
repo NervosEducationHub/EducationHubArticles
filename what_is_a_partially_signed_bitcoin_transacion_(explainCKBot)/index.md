@@ -25,7 +25,7 @@ To understand how a PSBT works, it’s best to use a practical example, like one
 
 Let’s assume that Alice, Bob, and Charlie have decided to create a multi-signature wallet with a 2-of-3 signing requirement. This means that at least two of them must approve any spending transaction from their shared wallet. 
 
-Alice needs to send 1 BTC from their multi-sig wallet to a vendor. She starts by using her Bitcoin wallet to create the transaction. She selects the UTXOs from their multi-sig wallet that will be used as inputs for the transaction and specifies the vendor’s Bitcoin address as the output, with the amount set to 1 BTC.
+Alice needs to send 1 BTC from her multi-sig wallet to a vendor. She starts by using her Bitcoin wallet to create the transaction. She selects the UTXOs from her multi-sig wallet that will be used as inputs for the transaction and specifies the vendor’s Bitcoin address as the output, with the amount set to 1 BTC.
 
 Next, Alice’s wallet adds additional information to the PSBT. This step involves including any relevant metadata, such as the UTXO details, redeem scripts and BIP 32 derivation paths. Once this is done, the PSBT is ready to be signed by the required parties. 
 
@@ -38,7 +38,9 @@ The partially signed PSBT, now containing Bob’s signature, is sent back to Ali
 
 BIP 174 also specifies how proprietary data can be included in PSBTs, allowing organizations to attach additional information necessary for their internal processes without affecting the overall standardization. This feature is particularly useful for businesses or services needing to include custom metadata in their transactions.
 
-Consider a Bitcoin exchange that needs to include transaction metadata for internal auditing purposes. The exchange might need to track which customer initiated a transaction, the purpose of the transaction, and other relevant information for compliance and record-keeping. To do this, an exchange can create a PSBT for a withdrawal request that, along with the standard transaction details, contains proprietary data fields that include the customer’s ID, the withdrawal request ID, and other relevant audit information. These fields are tagged with a proprietary key type (0xFC) specified in BIP 174, which might look like this within the PSBT: 0xFC &lt;length of identifier> &lt;identifier> &lt;subtype> &lt;key data>. For instance, the customer ID might be added as a proprietary key, enabling the exchange to track this specific withdrawal in its internal systems.
+Consider a Bitcoin exchange that needs to include transaction metadata for internal auditing purposes. The exchange might need to track which customer initiated a transaction, the purpose of the transaction, and other relevant information for compliance and record-keeping. 
+
+To do this, an exchange can create a PSBT for a withdrawal request which, along with the standard transaction details, contains proprietary data fields that include the customer’s ID, the withdrawal request ID, and other relevant audit information. These fields are tagged with a proprietary key type (0xFC) specified in BIP 174, which might look like this within the PSBT: 0xFC &lt;length of identifier> &lt;identifier> &lt;subtype> &lt;key data>. For instance, the customer ID might be added as a proprietary key, enabling the exchange to track this specific withdrawal in its internal systems.
 
 The PSBT, with the proprietary data included, is then sent to a cold storage wallet for signing. The cold wallet verifies the transaction details and adds the necessary signatures without needing to understand or process the proprietary data. Once the transaction is fully signed and broadcast, the proprietary data helps the exchange reconcile its internal records with on-chain transactions, ensuring that every withdrawal is correctly logged and traceable within its system.
 
@@ -55,7 +57,7 @@ One of the primary benefits of PSBTs is the enhancement of security. By separati
 
 ### Improved Interoperability
 
-PSBTs standardize how unsigned and partially signed transactions are handled, promoting greater interoperability between Bitcoin wallet software and hardware. This standardization ensures that transactions can be created on one wallet, signed on another, and broadcast from yet another without compatibility issues. This interoperability is crucial for integrating various Bitcoin services and tools, making it easier for users to switch between different wallets and platforms​​.
+PSBTs standardize how unsigned and partially signed transactions are handled, promoting greater interoperability between Bitcoin wallet software and hardware. This standardization ensures that transactions can be created by one wallet, signed on another, and broadcast from yet another without compatibility issues. This interoperability is crucial for integrating various Bitcoin services and tools, making it easier for users to switch between different wallets and platforms​​.
 
 
 ### Facilitating Complex Transactions
@@ -72,12 +74,10 @@ PSBTs support offline signing, which is essential for maintaining high-security 
 
 PSBTs improve the overall user experience by simplifying the process of creating, signing, and broadcasting transactions. Users can confidently create transactions, knowing that their private keys remain secure. The standardized format of PSBTs also means that users can rely on consistent processes and interfaces across different wallets and services, reducing confusion and potential errors​​.
 
-
-### Proprietary Data and Custom Metadata
-
-PSBTs allow for the inclusion of proprietary data, enabling organizations to attach additional information necessary for their internal processes without compromising standardization. This feature is useful for businesses that need to include transaction metadata for auditing, compliance, or other internal purposes. For example, a Bitcoin exchange can include customer IDs and transaction purposes within the PSBT, facilitating better internal tracking and record-keeping​​.
-
-
 ## Conclusion
 
-Partially Signed Bitcoin Transactions (PSBTs) significantly enhance the management and security of Bitcoin transactions by introducing a standardized format that supports complex transaction types like multi-signature and CoinJoin. By separating transaction creation and signing, PSBTs ensure that private keys remain offline, boosting security for hardware wallets and cold storage. This standardization also promotes better interoperability across different wallets and platforms, simplifying user experience and reducing compatibility issues. Additionally, the ability to include proprietary data makes PSBTs valuable for businesses needing detailed transaction metadata for auditing and compliance purposes, thereby improving internal processes without compromising standardization. Overall, PSBTs are a powerful tool that enhances Bitcoin transactions' flexibility, security, and efficiency.
+Partially Signed Bitcoin Transactions (PSBTs) significantly enhance the management and security of Bitcoin transactions by introducing a standardized format that supports complex transaction types like multi-signature and CoinJoin.
+
+By separating transaction creation and signing, PSBTs ensure that private keys remain offline, boosting security for hardware wallets and cold storage. This standardization also promotes better interoperability across different wallets and platforms, simplifying user experience and reducing compatibility issues. 
+
+Overall, PSBTs are a powerful tool that enhances Bitcoin transactions' flexibility, security, and efficiency.
