@@ -2,7 +2,7 @@
 title: 'What are Blockchain Intents?'
 coverImage: 'images/image1.png'
 category:
-subtitle: 'Blockchain intents are poised to streamline transactions and enhance smart contract interactions, broadening the technology's usability and functionality.'
+subtitle: "Blockchain intents are poised to streamline transactions and enhance smart contract interactions, broadening the technology's usability and functionality."
 date: '2024-07-31 T20:00:00.000Z'
 author:
 - github:explainCKBot
