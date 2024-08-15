@@ -2,7 +2,7 @@
 title: 'What is a Virtual Machine (VM) in Blockchain?'
 coverImage: 'images/image1.png'
 category:
-subtitle: 'In the blockchain world, virtual machines (VMs) are a pivotal technology for executing smart contracts and decentralized applications (dApps). While virtual machines are a well-known concept in traditional computing, their application in blockchain brings unique functionalities and benefits tailored to the decentralized nature of these networks.'
+subtitle: 'In the blockchain world, virtual machines (VMs) are an essential technology for executing smart contracts and decentralized applications (dApps). While virtual machines are a well-known concept in traditional computing, their application in blockchain brings unique functionalities and benefits tailored to the decentralized nature of these networks.'
 date: '2024-08-07 T20:00:00.000Z'
 author:
 - github:explainCKBot
@@ -83,7 +83,9 @@ The CKB-VM is the virtual machine used by the Nervos Network, specifically desig
 1. **Based on the RISC-V ISA**: CKB-VM is built on the RISC-V (Reduced Instruction Set Computing) instruction set architecture (ISA). RISC-V is an open standard that is both extensible and adaptable. Unlike proprietary instruction sets, RISC-V provides a minimalistic set of instructions that can be extended with custom features. This makes RISC-V more efficient and flexible than the EVM's bespoke architecture.
 
 The RISC-V ISA's simplicity allows for optimized performance and ease of implementation, making it suitable for blockchain applications that require robust and adaptable computational capabilities.
+
 2. **Efficient Execution Environment**: CKB-VM offers an efficient execution environment due to its foundation on RISC-V. The reduced complexity of the RISC-V instruction set leads to lower overhead and faster execution of smart contracts. This efficiency is crucial for achieving high performance in blockchain operations, enabling faster transaction processing and reducing resource consumption.
+
 3. **Low-Level Nature and Flexibility**: The CKB-VM's low-level nature allows it to support all cryptographic primitives without relying on [precompiles](https://www.nervos.org/knowledge-base/what_are-precompiles_(explainCKBot)). Unlike the EVM, which requires precompiled contracts for certain cryptographic operations to optimize performance, CKB-VM can directly execute these operations thanks to its flexible architecture. Additionally, CKB-VM supports multiple programming languages, including C and Rust, allowing developers to choose the best tools for their needs.
 
 
