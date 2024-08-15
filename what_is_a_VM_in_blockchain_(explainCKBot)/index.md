@@ -61,8 +61,11 @@ The Ethereum Virtual Machine (EVM) is the most widely known and utilized blockch
 
 
 1. **Turing-Complete**: The EVM's ability to perform any computation makes it versatile for various applications, from simple token transfers to complex decentralized applications (dApps).
+
 2. **Bytecode Execution**: Smart contracts written in high-level languages like Solidity are compiled into EVM bytecode, which the EVM then executes. This bytecode is consistent across all Ethereum nodes, ensuring smart contracts run uniformly throughout the network.
+
 3. **Gas Mechanism**: The EVM uses a gas system to meter the computational work required to execute transactions and smart contracts. Gas fees prevent infinite loops and excessive resource consumption, maintaining network stability and security.
+
 4. **Security and Isolation**: The EVM isolates smart contract execution from the Ethereum blockchain, ensuring malicious or faulty contracts do not affect the entire network.
 
 
@@ -80,9 +83,7 @@ The CKB-VM is the virtual machine used by the Nervos Network, specifically desig
 
 
 
-1. **Based on the RISC-V ISA**: CKB-VM is built on the RISC-V (Reduced Instruction Set Computing) instruction set architecture (ISA). RISC-V is an open standard that is both extensible and adaptable. Unlike proprietary instruction sets, RISC-V provides a minimalistic set of instructions that can be extended with custom features. This makes RISC-V more efficient and flexible than the EVM's bespoke architecture.
-
-The RISC-V ISA's simplicity allows for optimized performance and ease of implementation, making it suitable for blockchain applications that require robust and adaptable computational capabilities.
+1. **Based on the RISC-V ISA**: CKB-VM is built on the RISC-V (Reduced Instruction Set Computing) instruction set architecture (ISA). RISC-V is an open standard that is both extensible and adaptable. Unlike proprietary instruction sets, RISC-V provides a minimalistic set of instructions that can be extended with custom features. This makes RISC-V more efficient and flexible than the EVM's bespoke architecture. The RISC-V ISA's simplicity allows for optimized performance and ease of implementation, making it suitable for blockchain applications that require robust and adaptable computational capabilities.
 
 2. **Efficient Execution Environment**: CKB-VM offers an efficient execution environment due to its foundation on RISC-V. The reduced complexity of the RISC-V instruction set leads to lower overhead and faster execution of smart contracts. This efficiency is crucial for achieving high performance in blockchain operations, enabling faster transaction processing and reducing resource consumption.
 
@@ -104,7 +105,9 @@ The Solana virtual machine (SVM) is integral to the Solana blockchain, renowned 
 
 
 1. **Berkeley Packet Filter (BPF):** The SVM uses the [Berkeley Packet Filter](https://en.wikipedia.org/wiki/Berkeley_Packet_Filter) (BPF) bytecode format. BPF was originally designed for filtering network packets in Unix-like operating systems, but its simplicity, efficiency, and security make it well-suited for executing smart contracts on Solana. Smart contracts and programs written for Solana are typically written in high-level programming languages like Rust and C. These high-level programs are then compiled into BPF bytecode, which is executed by the Solana VM. The use of Rust and C leverages their powerful features and performance optimizations, contributing to the overall efficiency of the Solana network.
+
 2. **High Performance**: The SVM leverages the Solana blockchain’s unique architecture, including [Proof of History](https://medium.com/solana-labs/proof-of-history-explained-by-a-water-clock-e682183417b8) (PoH) and [Tower BFT](https://medium.com/solana-labs/tower-bft-solanas-high-performance-implementation-of-pbft-464725911e79) (Byzantine Fault Tolerance), to achieve high transaction throughput. It can handle thousands of transactions per second, making it one of the fastest blockchains.
+
 3. **Sealevel Runtime**: Solana’s runtime, [Sealevel](https://medium.com/solana-labs/sealevel-parallel-processing-thousands-of-smart-contracts-d814b378192), enables the parallel execution of smart contracts, unlike the serial execution model of the EVM. This design choice enhances the efficiency and speed of smart contract processing.
 
 
