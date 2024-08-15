@@ -18,6 +18,7 @@ The core component of VMs is the hypervisor, a software responsible for creating
 
 
 1. **Type 1 (Bare-Metal) Hypervisors** run directly on the physical hardware and manage the guest operating systems. Examples include VMware ESXi, Microsoft Hyper-V, and Xen.
+
 2. **Type 2 (Hosted) Hypervisors**: These run on top of an existing operating system and provide virtualization services to guest operating systems. Examples include VMware Workstation, Oracle VirtualBox, and Parallels Desktop.
 
 Each VM emulates hardware components like CPU, memory, network interfaces, and storage devices. This virtual hardware is presented to the guest OS, which interacts with it as if it were physical hardware. To that point, the guest OS is the OS installed on the VM, such as Windows, Linux, or macOS. The guest OS runs applications and services as it would on a physical machine, unaware that it operates in a virtual environment. The host OS, on the other hand, is the OS that runs directly on the physical hardware and hosts the VM.
