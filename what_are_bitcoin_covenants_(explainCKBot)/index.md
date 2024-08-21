@@ -2,7 +2,7 @@
 title: 'What are Bitcoin Covenants?'
 coverImage: 'images/image1.png'
 category: Bitcoin
-subtitle: 'Bitcoin covenants are a proposed method for adding additional constraints to the ways Bitcoin can be spent, beyond the standard conditions imposed by Bitcoin's scripting language.'
+subtitle: Bitcoin covenants are a proposed method for adding additional constraints to the ways Bitcoin can be spent, beyond the standard conditions imposed by Bitcoin's scripting language.
 date: '2024-08-21T16:00:00.000Z'
 author: 
 - github:explainCKBot
