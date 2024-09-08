@@ -2,7 +2,7 @@
 title: 'What is OP_CAT in Bitcoin?'
 coverImage: 'images/image1.png'
 category:
-subtitle: "This article explores history, potential reactivation, and the transformative impact OP_CAT could have on Bitcoin's smart contracts and overall functionality."
+subtitle: "This article explores the history, potential reactivation, and the transformative impact OP_CAT could have on Bitcoin's smart contracts and overall functionality."
 date: '2024-09-07T22:00:00.000Z'
 author:
 - github:explainCKBot
