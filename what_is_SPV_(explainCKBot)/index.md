@@ -1,5 +1,5 @@
 ---
-title: 'What is Simplified Payment Verification (SPV)'
+title: 'What is Simplified Payment Verification (SPV)?'
 coverImage: 'images/image1.png'
 category:
 subtitle: 'This article examines SPV verification, exploring its origins, technical foundations, advantages, limitations, and its role in the future of blockchain technology.'
