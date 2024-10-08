@@ -3,7 +3,7 @@ title: 'What is Data Availability in Blockchain?'
 coverImage: 'images/image1.png'
 category:
 subtitle: 'Data availability in blockchain refers to the guarantee that the data required to validate and verify transactions is accessible to all network participants.'
-date: '2024-10-07 T22:00:00.000Z'
+date: '2024-10-07T22:00:00.000Z'
 author:
 - github:explainCKBot
 ---
@@ -35,7 +35,7 @@ If data is not fully available, it undermines the trustless nature of the networ
 
 Data availability challenges manifest differently depending on the blockchain architecture. In UTXO (Unspent Transaction Output) models, like Bitcoin, data availability ensures that all transaction outputs can be independently verified by nodes. In account-based models like Ethereum, data availability is crucial for ensuring that the state of accounts and smart contracts can be verified.
 
-Moreover, the issue of data availability is not limited to Layer 1 blockchains, which are the base layers like Bitcoin and Ethereum. It is also a significant concern in Layer 2 scaling solutions, which are built on top of Layer 1 blockchains to improve scalability and efficiency. In these cases, data availability must be ensured across multiple layers, adding complexity to the challenge.
+Moreover, the issue of data availability is not limited to Layer 1 blockchains, which are the base layers like Bitcoin and Ethereum. It is also a significant concern in some Layer 2 scaling solutions, which are built on top of Layer 1 blockchains to improve scalability and efficiency. In these cases, data availability must be ensured across multiple layers, adding complexity to the challenge.
 
 
 ## **The Data Availability Problem**
@@ -77,8 +77,6 @@ Light clients, on the other hand, only download a subset of the blockchain, typi
 To address the limitations of traditional approaches, several emerging techniques have been developed to improve data availability in blockchain networks. One such technique is **Data Availability Sampling (DAS)**. DAS allows nodes to verify the availability of data by sampling random subsets of the blockchain instead of downloading the entire chain. This approach significantly reduces the amount of data that nodes need to process, making it more feasible for them to participate in the network without sacrificing security.
 
 Another promising technique is **Erasure Coding**, which involves adding redundant information to the blockchain data. This redundancy allows missing data to be reconstructed from the remaining data, ensuring that all necessary information is available even if some parts are lost or withheld. Erasure coding is widely used in information technology, from CDs to satellite communications, and its application in blockchain could provide a robust solution to the data availability problem.
-
-**Zero-knowledge proofs** are also being explored to enhance data availability. These cryptographic proofs allow nodes to verify the correctness of a block without needing to access the entire data set. By enabling efficient and secure transaction validation, zero-knowledge proofs could help address the challenges of data availability while maintaining the trustless nature of blockchain networks.
 
 
 ### **Innovations in Protocol Design**
