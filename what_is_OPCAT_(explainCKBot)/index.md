@@ -24,10 +24,10 @@ More specifically, opcodes are single-byte instructions that specify a particula
 
 
 
-    * **Stack Operations:** These include basic manipulations of the stack, like duplicating (`OP_DUP`), dropping (`OP_DROP`), and swapping (`OP_SWAP`) items.
-    * **Arithmetic Operations:** Opcodes like `OP_ADD` and `OP_SUB` perform basic arithmetic on the stack items.
-    * **Cryptographic Operations:** These include operations for cryptographic functions such as `OP_CHECKSIG`, which verifies digital signatures, and `OP_SHA256`, which applies the SHA-256 hash function.
-    * **Control Flow Operations:** Opcodes like `OP_IF` and `OP_ELSE` control the script's execution flow, allowing for conditional execution of code blocks.
+- **Stack Operations:** These include basic manipulations of the stack, like duplicating (`OP_DUP`), dropping (`OP_DROP`), and swapping (`OP_SWAP`) items.
+- **Arithmetic Operations:** Opcodes like `OP_ADD` and `OP_SUB` perform basic arithmetic on the stack items.
+- **Cryptographic Operations:** These include operations for cryptographic functions such as `OP_CHECKSIG`, which verifies digital signatures, and `OP_SHA256`, which applies the SHA-256 hash function.
+- **Control Flow Operations:** Opcodes like `OP_IF` and `OP_ELSE` control the script's execution flow, allowing for conditional execution of code blocks.
 
 Opcodes enable the creation of various transaction types and smart contracts on the Bitcoin network. For instance, multi-signature transactions utilize `OP_CHECKMULTISIG` to require multiple signatures for validation. Conditional payments and atomic swaps are also facilitated by specific combinations of opcodes, allowing for more complex financial transactions and interoperability between different blockchains.
 
