@@ -156,7 +156,7 @@ More specifically, RGB++ maps Bitcoin UTXOs to CKB cells via isomorphic bindings
 
 
 1. **Mapping Bitcoin UTXOs to CKB Cells:** Each Bitcoin UTXO in RGB++ is mapped to a corresponding cell on the CKB blockchain via cryptographic commitments that include the UTXO’s details and their intended operations (e.g., state change or asset transfer)
-2. **Transaction Verification: **When a UTXO is spent on Bitcoin, a commitment to this transaction is included within another transaction's output. This commitment links the Bitcoin transaction to a specific state change or operation on the CKB blockchain.
+2. **Transaction Verification:** When a UTXO is spent on Bitcoin, a commitment to this transaction is included within another transaction's output. This commitment links the Bitcoin transaction to a specific state change or operation on the CKB blockchain.
 3. **Cross-Chain Verification**: The spending of the associated Bitcoin UTXO is verified via a Bitcoin light client running on CKB. The light client imports and verifies the proof of work of Bitcoin block headers, allowing it to confirm the inclusion of the Bitcoin transaction that spends the UTXO and carries the commitment.
 4. **State Update on CKB:** After the Bitcoin transaction is verified on CKB, the corresponding cell is updated to reflect the intended state change or asset transfer, completing the isomorphic binding process.
 
