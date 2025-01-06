@@ -8,7 +8,7 @@ author:
 - github:explainCKBot
 ---
 
-As blockchains grow more intricate and their applications more diverse, the need for robust verification mechanisms has become paramount. Validity proofs, leveraging advanced cryptographic techniques, offer a solution to ensure that blockchain transactions and data are handled correctly and securely. This article delves into the intricacies of validity proofs, their operation, and their significance in modern blockchain ecosystems.
+As blockchains grow more intricate and their applications more diverse, the need for robust verification mechanisms has become paramount. Validity proofs, leveraging advanced cryptographic techniques, offer a solution to ensure that blockchain transactions and data are handled correctly and securely. This article examines the intricacies of validity proofs, their operation, and their significance in modern blockchain ecosystems.
 
 
 ## **Background and Core Concepts**
@@ -16,7 +16,7 @@ As blockchains grow more intricate and their applications more diverse, the need
 
 ### **Cryptographic Foundations**
 
-At the heart of validity proofs lies a deep understanding of cryptographic principles. The concept of Zero-Knowledge Proofs (ZKPs) forms the foundation of validity proofs. A ZKP allows one party to prove to another that a statement is true without revealing any additional information. In blockchain, this means that a transaction can be validated without disclosing the details of the transaction itself—an essential feature for preserving privacy in public blockchains.
+At the heart of validity proofs lies a deep understanding of cryptographic principles. The concept of Zero-Knowledge Proofs (ZKPs) forms the foundation of validity proofs. A ZKP allows one party to prove to another that a statement is true without revealing any additional information. In the context of a blockchain, this means that a transaction can be validated without disclosing the details of the transaction itself—an essential feature for preserving privacy in public blockchains.
 
 The cryptographic proof systems that enable these proofs, such as SNARKs (Succinct Non-Interactive Arguments of Knowledge) and STARKs (Scalable Transparent Arguments of Knowledge), are designed to create proofs that are both efficient to verify and secure. SNARKs, in particular, are renowned for their ability to produce very short proofs that can be verified quickly, which is essential in high-throughput blockchain environments. STARKs, on the other hand, prioritize transparency and scalability, making them a robust option for systems that require a high level of security without relying on trusted setups.
 
@@ -37,7 +37,7 @@ The two most commonly discussed cryptographic proofs are fraud proofs and validi
 
 Fraud proofs are used in systems like Optimistic Rollups, where transactions are assumed to be valid unless proven otherwise. This system works by allowing transactions to be processed without immediate verification under the assumption that they are correct. If a network participant believes a transaction is fraudulent, they can submit a fraud proof during a challenge period, which prompts the network to roll back the transaction if the proof is validated.
 
-Validity proofs, however, take a more proactive approach. Instead of assuming transactions are valid by default, each transaction or state transition must be accompanied by a cryptographic proof of its validity before it is accepted by the network. This method eliminates the need for a challenge period and significantly reduces the risk of fraudulent transactions being processed. As a result, networks using validity proofs are generally considered more secure, as they guarantee that only valid transactions are included on the blockchain.
+Validity proofs, however, take a more proactive approach. Instead of assuming transactions are valid by default, each transaction or state transition must be accompanied by cryptographic proof of its validity before it is accepted by the network. This method eliminates the need for a challenge period and significantly reduces the risk of fraudulent transactions being processed. As a result, networks using validity proofs are generally considered more secure, as they guarantee that only valid transactions are included on the blockchain.
 
 
 ### **Comparison and Use Cases**
@@ -52,7 +52,7 @@ Moreover, validity proofs are increasingly being adopted in Layer 2 scaling solu
 
 ### **How Validity Proofs Work**
 
-The operation of validity proofs revolves around the generation and verification of cryptographic proofs during transaction processing. When a transaction is initiated on a blockchain, the system generates a validity proof, which is a piece of cryptographic evidence that the transaction adheres to the network's rules. This proof is then attached to the transaction data.
+The operation of validity proofs revolves around the generation and verification of cryptographic proofs during transaction processing. When a transaction is initiated on a L2 blockchain, the L2 system generates a validity proof, which is a piece of cryptographic evidence that the transaction adheres to the blockchain network's rules. This proof is then attached to the transaction data.
 
 Once the proof is generated, it is sent along with the transaction to the network's validators. The validators use a verification algorithm to check the validity of the proof without needing to see the underlying transaction data. If the proof is valid, the transaction is processed and added to the blockchain. If the proof is invalid, the transaction is rejected. This method ensures that only transactions with valid proofs are accepted, thereby maintaining the integrity of the blockchain.
 
@@ -90,7 +90,7 @@ One of the most compelling advantages of validity proofs is the security they pr
 
 **Capital Efficiency**
 
-Another significant benefit of validity proofs is their impact on capital efficiency, particularly in Layer 2 solutions. Because validity proofs allow transactions to be verified almost instantly, they enable much faster withdrawals from Layer 2 networks to the main chain. This contrasts with systems that rely on fraud proofs, where withdrawals can take up to a week due to the need for a challenge period.
+Another significant benefit of validity proofs is their impact on capital efficiency, particularly in Layer 2 solutions. Because validity proofs allow transactions to be verified almost instantly, they enable much faster withdrawals from Layer 2 networks to the main chain. This contrasts with systems that rely on fraud proofs, where withdrawals typically take up to a week due to the need for a challenge period.
 
 The ability to withdraw funds quickly reduces the amount of capital that needs to be locked up in Layer 2 networks, freeing up resources for other uses. This increased capital efficiency is particularly important in financial applications, where liquidity and the ability to move funds quickly are crucial.
 
