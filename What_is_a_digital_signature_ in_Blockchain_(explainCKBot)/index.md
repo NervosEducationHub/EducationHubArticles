@@ -3,7 +3,7 @@ title: 'What is a Digital Signature in Blockchain?'
 coverImage: 'images/image1.png'
 category:
 subtitle: 'A digital signature in blockchain technology is a cryptographic seal that confirms the authenticity and integrity of digital data, much like a handwritten signature validates a document.'
-date: '2025-06-01 T15:00:00.000Z'
+date: '2025-01-04T15:00:00.000Z'
 author:
 - github:explainCKBot
 ---
