@@ -2,13 +2,13 @@
 title: 'What is Proposer-Builder Separation (PBS) in Ethereum?'
 coverImage: 'images/image1.png'
 category:
-subtitle: 'One of the most researched and discussed concepts in the Ethereum ecosystem today is Proposer-Builder Separation (PBS)'
-date: '2025-15-01 T15:00:00.000Z'
+subtitle: 'The premise behind PBS is simple but profound: instead of having a single actor—currently, a validator—both build and propose new blocks to the network, the process is split into two discrete roles, each performed by different specialized participants'
+date: '2025-01-15T15:00:00.000Z'
 author:
 - github:explainCKBot
 ---
 
-Since Ethereum’s earliest days, the design and operation of the network’s consensus layer have centered on the notion of producing blocks—bundles of transactions that form the canonical chain. Over time, this process has evolved from Proof-of-Work (PoW) mining to Proof-of-Stake (PoS) validation, reducing the network’s energy consumption and enhancing its economic security. Yet, even in the post-Merge era, challenges remain around how blocks are constructed, who assembles them, and how best to mitigate centralizing forces driven by transaction ordering and value extraction from the mempool.
+Since Ethereum’s earliest days, the design and operation of the network’s consensus layer have centered on the notion of producing blocks—bundles of transactions that form the canonical chain. Over time, this process has evolved from Proof-of-Work (PoW) mining to Proof-of-Stake (PoS) validation, drastically reducing the network’s energy consumption. Yet, even in the post-Merge era, challenges remain around how blocks are constructed, who assembles them, and how best to mitigate centralizing forces driven by transaction ordering and value extraction from the mempool.
 
 One of the most researched and discussed concepts in the Ethereum ecosystem today is **Proposer-Builder Separation (PBS)**. The premise behind PBS is simple but profound: instead of having a single actor—currently, a validator—both build and propose new blocks to the network, the process is split into two discrete roles, each performed by different specialized participants. This structural adjustment promises better decentralization, improved censorship resistance, enhanced fairness, and more robust protection against centralizing pressures such as Maximum Extractable Value (MEV).
 
@@ -20,12 +20,12 @@ In this article, we will explore what PBS is, why it matters, how it might be im
 
 ### From Mining to Validating
 
-Under Ethereum’s original Proof-of-Work consensus, miners competed to find solutions to cryptographic puzzles, and the winner constructed the new block. The composition of that block—determining transaction order, which transactions to include, and how to maximize fees—lay solely in the miner’s hands. With the network’s transition to Proof-of-Stake in September 2022 (the Merge), the role of proposing new blocks shifted from energy-intensive miners to validators, a set of users who stake ETH to secure the network. Validators are randomly selected to propose blocks, with honest participation enforced economically via slashing conditions on misbehavior.
+Under Ethereum’s original Proof-of-Work consensus, miners competed to find solutions to cryptographic puzzles, and the winner constructed the new block. The composition of that block—determining transaction order, which transactions to include, and how to maximize fees—was solely in the miner’s hands. With the network’s transition to Proof-of-Stake in September 2022 (the Merge), the role of proposing new blocks shifted from energy-intensive miners to validators, a set of users who stake ETH to secure the network. Validators are randomly selected to propose blocks, with honest participation enforced economically via slashing conditions on misbehavior.
 
 
 ### Increasing Complexity in Block Building
 
-While the act of proposing a block can be straightforward (selecting transactions from the mempool and signing off on the block), complexity arises when optimizing the ordering and selection of transactions to maximize the validator’s revenue. This optimization can involve capturing MEV—value extracted by strategically ordering or censoring transactions. Sophisticated block-building and MEV extraction strategies are often beyond the capabilities of smaller, less-resourced validators. Consequently, specialized block builders and services emerged, aggregating MEV opportunities and redistributing them to validators through out-of-protocol arrangements like MEV-Boost relays.
+While the act of proposing a block can be straightforward (selecting transactions from the mempool and signing off on the block), complexity arises when optimizing the ordering and selection of transactions to maximize the validator’s revenue. This optimization can involve capturing MEV—value extracted by strategically ordering or censoring transactions. Sophisticated block-building and MEV extraction strategies are often beyond the capabilities of smaller, less-resourced validators. Consequently, specialized block builders and services emerged, aggregating MEV opportunities and redistributing them to validators through out-of-protocol arrangements or "relays" like [MEV-Boost](https://boost.flashbots.net/).
 
 
 ## What Is Proposer-Builder Separation?
@@ -37,7 +37,7 @@ Proposer-builder separation aims to divide the block production pipeline into tw
 * **Proposers (Validators):** Responsible for *selecting* a pre-built block to finalize on-chain. They present the network with the chosen block’s header, ensuring it becomes part of the canonical chain.
 * **Builders:** Specialist entities that *construct* candidate blocks from a pool of available transactions. Builders optimize for maximum value—factoring in fees, MEV, and possibly compliance or censorship resistance—and then offer these fully assembled block proposals, along with a bid, to proposers.
 
-Under PBS, validators no longer need to delve into complex MEV extraction techniques. Instead, they can simply choose from among multiple builder-supplied blocks the one that is most profitable, beneficial, or meets certain policy criteria. A competitive marketplace of builders emerges, each striving to offer proposers the most attractive deals.
+Under PBS, validators no longer need to be concerned with complex MEV extraction techniques. Instead, they can simply choose from among multiple builder-supplied blocks the one that is most profitable, beneficial, or meets certain policy criteria. A competitive marketplace of builders emerges, each striving to offer proposers the most attractive deals.
 
 
 ### Achieving Separation
@@ -62,7 +62,7 @@ Censorship at the block-building level can occur if the party assembling blocks 
 
 ### Enhanced Network Resilience
 
-A resilient Ethereum network should not rely on any single point of sophistication. The current paradigm, which encourages validators to engage in complex MEV strategies, risks concentrating expertise and infrastructure into a small number of operators. By offloading complexity to builders, PBS ensures that validators can remain simpler while builders—competing in a free market—can explore various strategies. If one builder fails or attempts censorship, another can quickly replace them. This dynamic fosters a more robust, failure-tolerant ecosystem.
+A resilient Ethereum network should not rely on any single point of sophistication. The current paradigm, which encourages validators to engage in complex MEV strategies, risks concentrating expertise and infrastructure into a small number of operators. By offloading complexity to builders, PBS ensures that validators can remain simpler while builders—competing in a free market—can explore various strategies. If one builder fails, or attempts censorship, another can quickly replace them. This dynamic fosters a more robust, failure-tolerant ecosystem.
 
 
 ## Real-world Analogies and Precedents
@@ -109,4 +109,8 @@ If successful, proposer-builder separation will not only make Ethereum more secu
 
 Determinism is the silent, unobtrusive force enabling blockchains to function as trusted, decentralized systems. By ensuring that all participants reach the same conclusions from the same inputs, it establishes the unwavering consistency that justifies blockchain’s transformative claims. At the execution level, determinism enables verifiable smart contracts and tamper-proof digital records. At the economic and governance levels, it frames debates around PoW and PoS systems, exposing how subtle design choices shape the fairness, resilience, and decentralization of the network.
 
-As blockchains evolve, determinism remains a non-negotiable foundation. It does not preclude growth, innovation, or adaptation. Instead, it guides these processes, offering a reliable compass that keeps development aligned with the core promise of trustlessness. By acknowledging its importance and refining our methods, we ensure that the future of blockchain technology remains bright, stable, and universally verifiable. In the interplay between determinism and innovation, we find the key to sustaining trust and unlocking the full potential of decentralized computational systems.
+In the case of Ethereum and other blockchains which utilize PoS, the block proposer is selected deterministically, providing that actor full discretion over the block's contents, and thus any MEV opportunities.
+
+As blockchains evolve, determinism remains a non-negotiable foundation. It does not preclude growth, innovation, or adaptation. Instead, it guides these processes, offering a reliable compass that keeps development aligned with the core promise of trustlessness.
+
+By acknowledging its importance and refining our methods, we ensure that the future of blockchain technology remains bright, stable, and universally verifiable. In the interplay between determinism and innovation, we find the key to sustaining trust and unlocking the full potential of decentralized computational systems.
