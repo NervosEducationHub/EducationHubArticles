@@ -19,7 +19,7 @@ author:
 
 比特币脚本最引人注目的特性莫过于图灵不完备性。不同于能执行无限循环的图灵完备语言，比特币脚本的这种设计限制，是一种刻意的设计选择，提高了系统的安全性，有效避免了无限循环所可能引发的风险。
 
-深入其核心，我们发现各种操作码（Opcodes）构成了比特币脚本的基础，比如 OP_ADD（加法）或 OP_EQUAL（等值）等。更复杂的操作码，如 OP_CHECKSIG 和 OP_CHECKMULTISIG，则用于验证交易签名，确保交易的真实性。
+深入其核心，我们发现各种操作码（[Opcodes](https://www.nervos.org/knowledge-base/what_are_opcodes_%28explainCKBot%29)）构成了比特币脚本的基础，比如 OP_ADD（加法）或 OP_EQUAL（等值）等。更复杂的操作码，如 OP_CHECKSIG 和 OP_CHECKMULTISIG，则用于验证交易签名，确保交易的真实性。
 
 
 
