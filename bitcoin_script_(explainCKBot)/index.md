@@ -18,7 +18,7 @@ Bitcoin Script, often perceived as a mere backdrop to the dazzling world of Bitc
 
 One of the most intriguing characteristics of Bitcoin Script is its Turing Incompleteness. Unlike many programming languages that are Turing Complete and can run infinite loops, Bitcoin Script's inability in this regard is a deliberate design choice. This ensures enhanced security, preventing potential vulnerabilities that infinite loops might introduce.
 
-Diving deeper, we encounter various operation codes, or Opcodes, that form the backbone of Bitcoin Script. Commands such as OP_ADD, which facilitates addition, or OP_EQUAL, which checks for equality, play crucial roles. More complex operations like OP_CHECKSIG and OP_CHECKMULTISIG verify signatures, ensuring the authenticity of transactions.
+Diving deeper, we encounter various operation codes, or [Opcodes](https://www.nervos.org/knowledge-base/what_are_opcodes_%28explainCKBot%29), that form the backbone of Bitcoin Script. Commands such as OP_ADD, which facilitates addition, or OP_EQUAL, which checks for equality, play crucial roles. More complex operations like OP_CHECKSIG and OP_CHECKMULTISIG verify signatures, ensuring the authenticity of transactions.
 
 
 ## Tracing the Historical Evolution of Bitcoin Script

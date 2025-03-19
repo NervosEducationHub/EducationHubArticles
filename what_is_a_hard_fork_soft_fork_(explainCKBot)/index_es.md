@@ -21,7 +21,7 @@ Las bifurcaciones se utilizan para implementar cambios fundamentales o crear un 
 
 ### ¿Por Qué son Importantes las Bifurcaciones en las Criptomonedas?
 
-Las bifurcaciones desempeñan un papel fundamental en la evolución y el crecimiento de la tecnología blockchain. Actúan como catalizadores del cambio, permitiendo la implementación de nuevas características, mejoras y ajustes en el protocolo. Las bifurcaciones son a menudo el resultado de desacuerdos sobre características integradas dentro de la comunidad criptográfica, que pueden conducir a cambios sustanciales en el curso de la criptomoneda.
+[Las bifurcaciones desempeñan un papel fundamental en la evolución y el crecimiento de la tecnología blockchain](https://www.nervos.org/zh/knowledge-base/What_are_implications_of_forks_(explainCKBot)). Actúan como catalizadores del cambio, permitiendo la implementación de nuevas características, mejoras y ajustes en el protocolo. Las bifurcaciones son a menudo el resultado de desacuerdos sobre características integradas dentro de la comunidad criptográfica, que pueden conducir a cambios sustanciales en el curso de la criptomoneda.
 
 Las bifurcaciones también tienen el potencial de generar nuevas criptomonedas. Al crear una divergencia en la cadena de bloques, es posible que una bifurcación cree una nueva criptomoneda, con un libro de contabilidad diferente después de la bifurcación, pero que comparte una historia común de la cadena de bloques original antes de la bifurcación.
 

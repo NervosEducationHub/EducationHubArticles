@@ -109,9 +109,9 @@ Web5 建立在真正去中心化、点对点拓扑结构的网络之上，这是
 
 相同假设下，仅 Layer 1 成本就达 2.5 万美元，而使用 [Celestia](https://x.com/celestia) 或 [EigenDA](https://x.com/eigen_da) 等替代 DA 层的成本要便宜几个数量级。遗憾的是，对许多 Layer 2 而言，用户支付的手续费不足以覆盖基础设施成本，这意味着 “服务器” 运营者需自行承担费用。这种财务负担抬高了新参与者门槛，使资金雄厚的实体占据优势，进一步加剧中心化。  
 
-相比之下，PoW+UTXO 链通过纵向扩展（在基础层之上添加支付通道或状态通道）实现扩容。验证保持低成本且易于访问，用户可在普通硬件上运行全节点或轻节点客户端，确保网络的广泛参与。通过 UTXO 管理状态，用户仅需验证与自身相关的交易，无需依赖中心化中间商。  
+相比之下，PoW+UTXO 链通过纵向扩展（在基础层之上添加[支付通道](https://www.nervos.org/knowledge-base/ultimate_guide_to_payment_channels)或状态通道）实现扩容。验证保持低成本且易于访问，用户可在普通硬件上运行全节点或轻节点客户端，确保网络的广泛参与。通过 UTXO 管理状态，用户仅需验证与自身相关的交易，无需依赖中心化中间商。  
 
-[闪电网络](https://lightning.network/)、[Ark](https://x.com/ArkLabsHQ) 和 [RGB++](https://www.rgbppfans.com/) 等协议是这一路径的典范。用户可直接建立支付通道，其安全性锚定于基础层的 PoW 共识。无需跨链桥，无需可能成为故障点的中心化排序器，这维持了网络的点对点拓扑结构，确保了真正的去中心化与抗审查性。  
+[闪电网络](https://lightning.network/)、[Ark](https://x.com/ArkLabsHQ) 和 [RGB++](https://www.rgbppfans.com/) 等协议是这一路径的典范。用户可直接建立[支付通道](https://www.nervos.org/knowledge-base/what_are_payment_channels)，其安全性锚定于基础层的 PoW 共识。无需跨链桥，无需可能成为故障点的中心化排序器，这维持了网络的点对点拓扑结构，确保了真正的去中心化与抗审查性。  
 
 
 
@@ -138,7 +138,7 @@ Web5 建立在真正去中心化、点对点拓扑结构的网络之上，这是
 
 ### 以太坊的第二个错误 
 
-然而，这一转向未能建立点对点网络，根源在于以太坊的第二个架构错误：放弃比特币的 UTXO 模型，采用 Account 模型。  
+然而，这一转向未能建立点对点网络，根源在于以太坊的第二个架构错误：放弃比特币的 [UTXO 模型](https://www.nervos.org/knowledge-base/utxo_model_explained)，采用 Account 模型。  
 
 当时，Vitalik [提出了两个论点](https://medium.com/@Consensys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53)来证明这一转变的合理性：1）*“UTXO 在理论上复杂，实现中更甚”*；2）*“UTXO 无状态，难以支持需状态管理的复杂应用（如各类智能合约）”。*  
 

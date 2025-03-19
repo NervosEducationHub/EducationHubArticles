@@ -14,7 +14,7 @@ Mass adoption of the internet was reached because billions of dollars over the c
 
 For industry outsiders accustomed to this level of smoothness, entering Web3 feels almost like traveling back into the past, before UX considerations were even a thing. Nothing about the experience feels intuitive, from creating wallets to waiting for transaction confirmations, dealing with pending and failed transactions, or managing assets across different chains.
 
-Being fully aware of these issues for years, many industry constituents have recently started working on chain abstraction—the process of “abstracting away” or hiding the complexities of dealing with Web3 applications in the multi-chain era. Some focus on specific chain abstraction verticals, like building account abstraction wallets or cross-chain asset management dApps, while others take a more holistic approach, targeting every UX pain point simultaneously. 
+Being fully aware of these issues for years, many industry constituents have recently started working on [chain abstraction](https://www.nervos.org/knowledge-base/what_is_abstraction_%28explainCKBot%29)—the process of “abstracting away” or hiding the complexities of dealing with Web3 applications in the multi-chain era. Some focus on specific chain abstraction verticals, like building account abstraction wallets or cross-chain asset management dApps, while others take a more holistic approach, targeting every UX pain point simultaneously. 
 
 However, to understand the state of play in chain abstraction, it’s first necessary to examine what this initiative is trying to solve, and what precisely these UX pain points are.
 

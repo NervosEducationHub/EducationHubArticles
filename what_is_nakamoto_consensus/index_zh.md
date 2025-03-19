@@ -5,7 +5,7 @@ category: 'PoW'
 date: '2023-05-25T16:00:00.000Z'
 ---
 
-中本聪共识（Nakamoto Consensus）以比特币的匿名创造者 Satoshi Nakamoto 的名字命名，是一种拜占庭容错（BFT）共识机制，它将 PoW（工作量证明）与 “最长链” 原则相结合，创建和维护了去中心化区块链网络协议的真实性。
+中本聪共识（Nakamoto Consensus）以比特币的匿名创造者 Satoshi Nakamoto 的名字命名，是一种[拜占庭容错（BFT）](https://www.nervos.org/knowledge-base/BFT_consensus_mechanisms_%28explainCKBot%29)共识机制，它将 PoW（工作量证明）与 “最长链” 原则相结合，创建和维护了去中心化区块链网络协议的真实性。
 
 中本聪共识首先在比特币中实施，后来被许多其他加密货币所采用。中本聪共识是一项关键性创新，它让比特币成为第一个可以持续发展而不会出现停机的拜占庭容错系统。值得指出的是，虽然中本聪共识经常与 PoW 相混淆，但它们是不同的。中本聪共识是一种更广泛的共识协议，它结合了 PoW 以及其他使其独一无二的创新理念。
 
@@ -46,7 +46,7 @@ PoW（工作量证明）是区块链网络中用于验证交易和维护网络�
 
 通过 PoW 和最长链原则，中本聪共识确保了区块链保持安全并能抵御攻击。虽然它有局限性，但这种共识机制已被证明是维护区块链网络完整性的一个强大、可靠的工具。
 
-出于这个原因，除比特币之外的许多加密货币也在其协议中使用了中本聪共识的不同实现。例如，Nervos 的 Layer 1，即 CKB（Common Knowledge Base），采用了 NC-Max（Nakamoto Consensus Max），NC-Max 是中本聪共识的改进版本，提供了更好的安全性和性能。
+出于这个原因，除比特币之外的许多加密货币也在其协议中使用了中本聪共识的不同实现。例如，Nervos 的 Layer 1，即 [CKB（Common Knowledge Base）](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain)，采用了 NC-Max（Nakamoto Consensus Max），NC-Max 是中本聪共识的改进版本，提供了更好的安全性和性能。
 
 \
 [点此](https://nervosbook.github.io/book/en/nc-max.html)查看 NC-Max 的更多介绍。

@@ -5,7 +5,7 @@ category: 'consensus'
 date: '2023-04-09T16:00:00.000Z'
 ---
 
-Nakamoto Consensus, named after the pseudonymous creator of Bitcoin, Satoshi Nakamoto, is a Byzantine Fault Tolerant (BFT) consensus mechanism that combines Proof-of-Work with the "longest chain" rule to create a consensus protocol that adequately maintains the authenticity of decentralized blockchain networks.
+Nakamoto Consensus, named after the pseudonymous creator of Bitcoin, Satoshi Nakamoto, is a [Byzantine Fault Tolerant (BFT)](https://www.nervos.org/knowledge-base/BFT_consensus_mechanisms_%28explainCKBot%29) consensus mechanism that combines Proof-of-Work with the "longest chain" rule to create a consensus protocol that adequately maintains the authenticity of decentralized blockchain networks.
 
 First implemented in Bitcoin and later adopted by many subsequent cryptocurrencies, Nakamoto Consensus is the critical innovation that allowed Bitcoin to become the first BFT system that could scale organically without ever experiencing downtime. It's worth pointing out that while Nakamoto Consensus is often confused with Proof-of-Work, they're different. Nakamoto Consensus is a broader consensus protocol that incorporates Proof-of-Work but also other innovative ideas that make it unique.
 
@@ -46,7 +46,7 @@ Overall, the longest chain rule is a critical aspect of Nakamoto Consensus, as i
 
 By utilizing Proof-of-Work and the longest chain rule, Nakamoto Consensus ensures that blockchains remain secure and resistant to attacks. While it has limitations, this consensus mechanism has proven to be a powerful and reliable tool for maintaining the integrity of blockchain networks.
 
-For this reason, many cryptocurrencies beyond Bitcoin use different implementations of Nakamoto Consensus in their protocols. For example, Nervos’ Layer 1, Common Knowledge Base, uses Nakamoto Consensus Max (NC-Max), an improved version of the original Nakamoto Consensus that provides better security and performance.
+For this reason, many cryptocurrencies beyond Bitcoin use different implementations of Nakamoto Consensus in their protocols. For example, Nervos’ Layer 1, [Common Knowledge Base](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain), uses Nakamoto Consensus Max (NC-Max), an improved version of the original Nakamoto Consensus that provides better security and performance.
 
 \
 Learn more about NC-Max [here](https://nervosbook.github.io/book/en/nc-max.html).

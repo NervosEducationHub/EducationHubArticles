@@ -6,9 +6,9 @@ subtitle: 'While the EVM is the pioneer of blockchain virtual machines and still
 date: '2024-07-11T16:00:00.000Z'
 ---
 
-Blockchain virtual machines (VMs) are the backbone of decentralized computing, enabling smart contract execution and decentralized application development across various blockchain platforms. 
+Blockchain [virtual machines (VMs)](https://www.nervos.org/knowledge-base/what_is_a_VM_in_blockchain_(explainCKBot)) are the backbone of decentralized computing, enabling smart contract execution and decentralized application development across various blockchain platforms. 
 
-These VMs, such as the Ethereum Virtual Machine (EVM), Solana's Sealevel, Polkadot's WebAssembly (WASM), and Nervos’ CKB-VM, provide the environment in which code runs on the blockchain. Comparing these virtual machines involves evaluating their design principles, performance, scalability, and security features to understand their strengths and weaknesses and how they influence the ecosystem's functionality and developer experience.
+These VMs, such as the Ethereum Virtual Machine (EVM), Solana's Sealevel, Polkadot's [WebAssembly (WASM)](https://www.nervos.org/knowledge-base/what_is_webassembly_(explainCKBot)), and Nervos’ CKB-VM, provide the environment in which code runs on the blockchain. Comparing these virtual machines involves evaluating their design principles, performance, scalability, and security features to understand their strengths and weaknesses and how they influence the ecosystem's functionality and developer experience.
 
 
 ## What are Virtual Machines, and Why Do Blockchains Need Them?

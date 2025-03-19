@@ -16,9 +16,9 @@ Proof-of-Work (PoW) is a consensus mechanism employed by blockchain networks, mo
 
 ### **The Mining Process**
 
-To comprehend the intricacies of Proof-of-Work, one must delve into the mining process. When transactions occur within the Bitcoin network, they are bundled into a memory pool (mempool). Miners then select a set of transactions from the mempool and attempt to form a new block. To do so, they must solve a cryptographic puzzle, which demands substantial computational Proof-of-Work.
+To comprehend the intricacies of Proof-of-Work, one must delve into the mining process. When transactions occur within the Bitcoin network, they are bundled into a memory pool ([mempool](https://www.nervos.org/knowledge-base/mempool_in_cryptocurrency_(explainCKBot))). Miners then select a set of transactions from the mempool and attempt to form a new block. To do so, they must solve a cryptographic puzzle, which demands substantial computational Proof-of-Work.
 
-The puzzle, based on the SHA-256 hashing algorithm, involves discovering a unique value known as a nonce. The miner combines this nonce with the block's data, generating a hash that meets the network's difficulty target. The difficulty target is a dynamic value that adjusts every 2016 blocks (roughly every two weeks) to maintain a consistent block creation time of approximately 10 minutes.
+The puzzle, based on the SHA-256 hashing algorithm, involves discovering a unique value known as a nonce. The miner combines this nonce with the block's data, generating a hash that meets the network's [difficulty target](https://www.nervos.org/knowledge-base/cryptocurrency_mining_difficulty_%28explainCKBot%29). The difficulty target is a dynamic value that adjusts every 2016 blocks (roughly every two weeks) to maintain a consistent block creation time of approximately 10 minutes.
 
 
 ### **The Race for the Solution**

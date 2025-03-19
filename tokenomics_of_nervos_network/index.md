@@ -14,7 +14,7 @@ This means that unlike most monolithic blockchains that have transaction executi
 ![alt_text](images/image5.png "image_tooltip")
 
 
-To that point, unlike all other Layer 1 blockchains, whose tokenomics are better suited for transactional (Layer 2) platforms, CKB is the only blockchain with a tokenomic model adequately optimized for a preservation-focused, store-of-value platform. Moreover, it is the only blockchain that has innovated on the tokenomics front to create an incentive system that aligns the interest of all network participants and solves the state explosion problem besetting all blockchains.
+To that point, unlike all other Layer 1 blockchains, whose tokenomics are better suited for transactional (Layer 2) platforms, CKB is the only blockchain with a tokenomic model adequately optimized for a preservation-focused, store-of-value platform. Moreover, it is the only blockchain that has innovated on the tokenomics front to create an incentive system that aligns the interest of all network participants and solves the [state explosion](https://www.nervos.org/knowledge-base/state_bloat_blockchain_%28explainCKBot%29) problem besetting all blockchains.
 
 CKB’s unique tokenomic model guarantees that miners are getting paid for the security they provide to the network in perpetuity, regardless of the transaction volume, while also ensuring the CKByte (CKB) tokens act as hard assets that aren’t diluting their long-term holders. 
 
@@ -25,7 +25,7 @@ Before exploring the nuanced utility of CKBytes and the unique value proposition
 
 ## CKB Tokenomics
 
-CKByte or CKB is Nervos Network’s native utility and governance token. To adequately reflect the needs of a preservation platform, CKB was designed with two types of native token issuance: primary issuance and secondary issuance. The smallest indivisible unit of the native token is called CK Shannon, where one CKByte equals 100,000,000 CK Shannons.
+CKByte or CKB is Nervos Network’s native utility and governance token. To adequately reflect the needs of a preservation platform, CKB was designed with [two types of native token issuance](https://www.nervos.org/knowledge-base/understanding_nervos_ckb_issuance_model): primary issuance and secondary issuance. The smallest indivisible unit of the native token is called CK Shannon, where one CKByte equals 100,000,000 CK Shannons.
 
 
 ### Primary Issuance
@@ -67,9 +67,9 @@ To better understand how Nervos is able to do this, it’s necessary to analyze 
 
 ## Addressing the State Explosion Problem in Blockchains
 
-State explosion is one of the most challenging, yet least talked about problems blockchains face today. In blockchain systems, "state" refers to the current status of all the elements within the network. In the case of Bitcoin, this would include the balance of all Bitcoin addresses. For Ethereum, it would include not just Ether balances but also the current state of all smart contracts and the data associated with them.
+State explosion is one of the most challenging, yet least talked about problems blockchains face today. In blockchain systems, "[state](https://www.nervos.org/knowledge-base/state_and_state_change_%28explainCKBot%29)" refers to the current status of all the elements within the network. In the case of Bitcoin, this would include the balance of all Bitcoin addresses. For Ethereum, it would include not just Ether balances but also the current state of all smart contracts and the data associated with them.
 
-As more transactions occur, new addresses are created, contracts are invoked, and data is added, the state of the network expands. If this expansion occurs at a rapid or exponential rate, it can lead to what's referred to as "state explosion."
+As more transactions occur, new addresses are created, contracts are invoked, and data is added, the state of the network expands. If this expansion occurs at a rapid or exponential rate, it can lead to what's referred to as "[state explosion](https://www.nervos.org/knowledge-base/state_bloat_blockchain_%28explainCKBot%29)."
 
 State explosion can have several adverse effects on blockchain networks, including making running a full node more resource-intensive, as doing so requires maintaining and storing the entire network state locally. This naturally leads to increased centralization because only those with substantial computational resources (Amazon AWS, Google Could, etc.) can participate fully in the network, which effectively denies the core value proposition of blockchains as permissionless and trustless peer-to-peer distributed systems.
 
@@ -108,7 +108,7 @@ For example, if a user owns 1,000 CKB, they can create a cell with 1,000 bytes o
 
 Considering that CKB tokens represent a right to store or expand the global state of the blockchain, their limited issuance effectively bounds the state growth. For example, after the first halving due in November this year, CKB tokens' annual issuance rate for the next four years will be capped at 3.444 billion CKB (2.1 billion in primary issuance plus 1.344 in secondary issuance). This means Common Knowledge Base's global state can only grow by 3.444 billion bytes or 3.444 gigabytes per year. And with the primary issuance halving every four years, the blockchain's global state becomes an ever more valuable and scarce asset.
 
-Furthermore, the fact that the global state is stored in cells—first-class assets similar to UTXOs in Bitcoin, directly owned and controlled by users—means that the state space is effectively privatized. Privatizing the state space further decreases state bloat as state owners and occupiers are always incentivized to optimize and occupy as little state as possible to avoid paying excessive state rent.
+Furthermore, the fact that the global state is stored in cells—first-class assets similar to UTXOs in Bitcoin, directly owned and controlled by users—means that the state space is effectively privatized. Privatizing the state space further decreases [state bloat](https://www.nervos.org/knowledge-base/state_bloat_blockchain_%28explainCKBot%29) as state owners and occupiers are always incentivized to optimize and occupy as little state as possible to avoid paying excessive state rent.
 
 To that point, state rent is what makes Nervos’ tokenomics special. By introducing targeted inflation on state occupiers, Nervos is able to tax long-term state occupiers and reward the miners that act as long-term state preservers or protectors. Transaction fees are paid once to process and insert a transaction into the blockchain, while state rent is paid continuously to preserve the data until it is removed. This incentive structure both prevents excessive state expansion and ensures the long-term security of the blockchain by guaranteeing a predictable source of income for miners that is independent of transaction volume. 
 

@@ -23,7 +23,7 @@ The initial amount of CKBytes issued in the genesis block is 33,600,000,000, of 
 
 ![alt_text](images/image2.png 'image_tooltip')
 
-This is important to consider since burning is not the same as not-issued, those 8,400,000,000 CKBytes issued but not circulating (burned) have an impact on secondary issuance, since 15% (5,040,000,000 CKBytes) from that 25% burned in genesis was hard-coded as “occupied” capacity, while the remaining 10% (3,360,000,000 CKBytes) was hard-coded as “liquid”, that is, without occupying state. This way, even if no CKBytes are used to store state, or if all circulating CKBytes are deposited in the Nervos DAO, miners and treasury will still receive CKBytes from the secondary issuance
+This is important to consider since burning is not the same as not-issued, those 8,400,000,000 CKBytes issued but not circulating (burned) have an impact on secondary issuance, since 15% (5,040,000,000 CKBytes) from that 25% burned in genesis was hard-coded as “occupied” capacity, while the remaining 10% (3,360,000,000 CKBytes) was hard-coded as “liquid”, that is, without occupying state. This way, even if no CKBytes are used to store state, or if all circulating CKBytes are deposited in the [Nervos DAO](https://www.nervos.org/knowledge-base/nervosdao_withdrawal_process_explained), miners and treasury will still receive CKBytes from the secondary issuance
 
 ![alt_text](images/image3.png 'image_tooltip')
 

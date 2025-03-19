@@ -8,7 +8,7 @@ author:
 - github:explainCKBot
 ---
 
-As blockchain technology and cryptocurrencies continue transforming the digital landscape, understanding the core concepts underpinning their operation is crucial. Among these core concepts, consensus algorithms, particularly Proof-of-Work (PoW) and Proof-of-Stake (PoS), play a vital role in securing and validating transactions. This article delves into the mechanics of Proof-of-Work and Proof-of-Stake, exploring their pros and cons and how they differ from one another.
+As blockchain technology and cryptocurrencies continue transforming the digital landscape, understanding the core concepts underpinning their operation is crucial. Among these core concepts, consensus algorithms, particularly Proof-of-Work (PoW) and Proof-of-Stake (PoS), play a vital role in [securing](https://www.nervos.org/knowledge-base/sybil_attacks_consensus_mechanisms_(explainCKBot)) and validating transactions. This article delves into the mechanics of Proof-of-Work and Proof-of-Stake, exploring their pros and cons and how they differ from one another.
 
 
 ## Understanding Proof-of-Work (PoW)
@@ -37,7 +37,7 @@ One notable disadvantage of Proof-of-Work, particularly when compared to Proof-o
 
 Another drawback of Proof-of-Work is the potential for centralization of mining power. While the algorithm is designed to promote decentralization, economies of scale have led to the emergence of large-scale mining operations. These operations can afford specialized mining equipment and access to cheap electricity, which provides them with a competitive advantage. This concentration of mining in Proof-of-Work can lead to centralization of hash rate, which goes against the decentralization principle underpinning blockchain technology.
 
-Furthermore, Proof-of-Work networks can be susceptible to certain attacks, such as the 51% attack, where an entity that controls more than 50% of the network's mining power can manipulate the blockchain by double-spending or blocking transactions. Although such an attack is costly and challenging to execute, it remains a potential vulnerability in Proof-of-Work-based networks.
+Furthermore, Proof-of-Work networks can be susceptible to certain attacks, such as the [51% attack](https://www.nervos.org/knowledge-base/what_is_51_attack), where an entity that controls more than 50% of the network's mining power can manipulate the blockchain by double-spending or blocking transactions. Although such an attack is costly and challenging to execute, it remains a potential vulnerability in Proof-of-Work-based networks.
 
 
 ## Understanding Proof-of-Stake (PoS)
@@ -46,7 +46,7 @@ Proof-of-Stake is an alternative consensus algorithm used in some blockchain net
 
 In a Proof-of-Stake system, validators propose and validate new blocks. The likelihood of a validator being chosen to create a new block is proportional to their stake in the network. For example, a validator with a larger stake is more likely to be selected than one with a smaller stake. Once a validator is chosen, they create a new block and add it to the blockchain. Validators are rewarded with newly minted cryptocurrency and transaction fees, as is the case in Proof-of-Work. 
 
-By tying the validation power to the stake, validators are incentivized to act in the network's best interest, as any attempt to manipulate the blockchain could result in their stake being forfeited or "slashed," causing them to suffer financial losses.
+By tying the validation power to the stake, validators are incentivized to act in the network's best interest, as any attempt to manipulate the blockchain could result in their stake being forfeited or "[slashed](https://www.nervos.org/knowledge-base/slashing_in_PoS_%28explainCKBot%29)," causing them to suffer financial losses.
 
 
 ### Proof-of-Stake Advantages

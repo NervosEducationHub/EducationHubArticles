@@ -13,7 +13,7 @@ It's vital to understand that a cryptocurrency fork is essentially a divergence 
 
 ## Overview of Cryptocurrency Forks
 
-A cryptocurrency fork occurs when changes are made to the existing blockchain protocol, leading to a split in the network. This can result in the creation of a new cryptocurrency or significant modifications to the existing one. The reasons for a fork can range from disagreements among developers to upgrades for enhancing security or functionality. Understanding the types of forks – soft forks and hard forks – is crucial, as each carries different implications for the blockchain and its users.
+A cryptocurrency fork occurs when changes are made to the existing blockchain protocol, leading to a split in the network. This can result in the creation of a new cryptocurrency or significant modifications to the existing one. The reasons for a fork can range from disagreements among developers to upgrades for enhancing security or functionality. Understanding the types of forks – [soft forks and hard forks](https://www.nervos.org/knowledge-base/What_are_implications_of_forks_(explainCKBot)) – is crucial, as each carries different implications for the blockchain and its users.
 
 
 ## The Mechanics of Forks
