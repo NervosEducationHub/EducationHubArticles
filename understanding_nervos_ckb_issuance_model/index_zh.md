@@ -25,7 +25,7 @@ Nervos 与比特币有着相同的理念和价值主张，因为 CKB 的一级�
 
 ![alt_text](images/image2.png 'image_tooltip')
 
-"销毁" 不等同于 "未发行"，这一点很重要。那些已发行但未流通（销毁）的 84 亿 CKB 会影响二级发行，因为创世区块中销毁的 25%，其中 15%（即 50.4 亿 CKB）被硬编码为 “占用” 容量，而另外的 10%（即 33.6 亿 CKB）被硬编码为 “流动” 的状态，即不占用容量。这意味着，即使没有 CKB 被用来存储状态，或者所有流通的 CKB 都存入了 Nervos DAO 中，矿工和国库仍然会获得二级发行的 CKB。
+"销毁" 不等同于 "未发行"，这一点很重要。那些已发行但未流通（销毁）的 84 亿 CKB 会影响二级发行，因为创世区块中销毁的 25%，其中 15%（即 50.4 亿 CKB）被硬编码为 “占用” 容量，而另外的 10%（即 33.6 亿 CKB）被硬编码为 “流动” 的状态，即不占用容量。这意味着，即使没有 CKB 被用来存储状态，或者所有流通的 CKB 都存入了 [Nervos DAO](https://www.nervos.org/knowledge-base/nervosdao_withdrawal_process_explained) 中，矿工和国库仍然会获得二级发行的 CKB。
 
 ![alt_text](images/image3.png 'image_tooltip')
 
