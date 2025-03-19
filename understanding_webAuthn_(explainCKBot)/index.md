@@ -50,7 +50,7 @@ WebAuthn's adoption brings a multitude of benefits. It significantly enhances se
 
 **Non-Custodial Approach: **JoyID upholds the principle of complete user control over private keys and funds. The wallet's design ensures that users' assets remain inaccessible to others, solidifying its stance on privacy and security.
 
-**Effortless Backup and Recovery:** The wallet introduces simplified security with multiple backup methods. These include the use of multiple devices, blockchain wallets, social recovery, and passkeys, all contributing to an easy and reliable account recovery process.
+**Effortless Backup and Recovery:** The wallet introduces simplified security with multiple backup methods. These include the use of multiple devices, blockchain wallets, social recovery, and [passkeys](https://www.nervos.org/knowledge-base/what_are-passkeys_(explainCKBot)), all contributing to an easy and reliable account recovery process.
 
 **Multi-Chain Support:** Catering to a diverse cryptocurrency ecosystem, JoyID supports a growing list of blockchains like Bitcoin, Ethereum, Polygon, Solana, and more. This feature enables users to manage various assets, including tokens and NFTs, across different chains.
 
