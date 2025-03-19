@@ -13,7 +13,7 @@ Nervos 是一个全新的模块化区块链网络，其底层（Layer 1）确保
 
 ![alt_text](images/image5.png "image_tooltip")
 
-与其他 Layer 1 区块链不同，CKB 的代币经济学针对价值存储平台进行了充分优化和创新。CKB 创建了一套使所有网络参与者的利益保持一致的激励系统，同时解决了困扰所有区块链的状态爆炸问题。
+与其他 Layer 1 区块链不同，CKB 的代币经济学针对价值存储平台进行了充分优化和创新。CKB 创建了一套使所有网络参与者的利益保持一致的激励系统，同时解决了困扰所有区块链的[状态爆炸](https://www.nervos.org/knowledge-base/state_bloat_blockchain_%28explainCKBot%29)问题。
 
 CKB 独特的经济模型确保了无论交易量如何，矿工都能永久地获得报酬，激励他们为网络提供安全保障，同时还确保了 CKB 代币能充当硬资产，让 CKB 长期持有者的权益不会被稀释。
 
@@ -26,7 +26,7 @@ CKB 独特的经济模型确保了无论交易量如何，矿工都能永久地�
 
 ## CKB 的经济模型
 
-CKB（CKByte）是 Nervos Network 的原生代币和治理代币。为了充分体现价值存储平台的需求，原生代币 CKB 设计了两种发行方式：基础发行（也称为一级发行）和二级发行。CKB 的最小不可分割单位是 CK Shannon，其中 1 CKB 等于 100,000,000 CK Shannon。
+CKB（CKByte）是 Nervos Network 的原生代币和治理代币。为了充分体现价值存储平台的需求，原生代币 CKB 设计了[两种发行方式](https://www.nervos.org/knowledge-base/understanding_nervos_ckb_issuance_model)：基础发行（也称为一级发行）和二级发行。CKB 的最小不可分割单位是 CK Shannon，其中 1 CKB 等于 100,000,000 CK Shannon。
 
 
 ### 基础发行
