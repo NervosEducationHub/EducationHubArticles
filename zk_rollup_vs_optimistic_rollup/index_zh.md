@@ -5,7 +5,7 @@ category: 'Scaling'
 date: '2023-05-25T16:00:00.000Z'
 ---
 
-Rollup 是强大的区块链扩展解决方案，在过去两年中变得非常流行。有两种类型的 Rollup，ZK Rollup 和 Optimistic Rollup，它们的目的相同但功能不同。
+Rollup 是强大的区块链扩展解决方案，在过去两年中变得非常流行。有两种类型的 Rollup，ZK Rollup 和 [Optimistic Rollup](https://www.nervos.org/knowledge-base/What_are_optimistic_rollups_%28explainCKBot%29)，它们的目的相同但功能不同。
 
 Optimistic Rollup 中的交易被自动假定为有效，直到证明不是这样，而 ZK Rollup 使用零知识证明（将在下面解释）来证明交易的有效性。两种汇总类型都有自己的优点和缺点，将在下面详细说明。
 
@@ -23,7 +23,7 @@ Optimistic Rollup 中的交易被自动假定为有效，直到证明不是这�
 
 两种 Rollup 类型之间的主要区别在于它们如何验证证明。
 
-Optimistic Rollup 之所以被称为“Optimistic”，是因为它们假设所有 2 层交易都是有效的，除非另有证明。另一方面，ZK Rollup 使用称为零知识证明的复杂密码学来证明交易的有效性，而无需过多了解交易的细节。
+[Optimistic Rollup](https://www.nervos.org/knowledge-base/what_are_optimistic_rollups) 之所以被称为“Optimistic”，是因为它们假设所有 2 层交易都是有效的，除非另有证明。另一方面，ZK Rollup 使用称为[零知识证明](https://www.nervos.org/knowledge-base/zero_knowledge_proofs_%28explainCKBot%29)的复杂密码学来证明交易的有效性，而无需过多了解交易的细节。
 
 这两种技术之间的另一个区别是它们发布到其底层基础链的数据量。因为 ZK Rollup 在将交易发布到基链之前有一种验证交易的机制，所以它们不需要像 Optimistic 的对等体那样向 1 层传输那么多数据。也就是说，ZK Rollup 只发布有效性证明，以在基链上结算具有最终性的交易，而 Optimistic Rollup 则发布整个交易数据。
 
