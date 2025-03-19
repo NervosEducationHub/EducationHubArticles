@@ -67,9 +67,9 @@ To better understand how Nervos is able to do this, it’s necessary to analyze 
 
 ## Addressing the State Explosion Problem in Blockchains
 
-State explosion is one of the most challenging, yet least talked about problems blockchains face today. In blockchain systems, "state" refers to the current status of all the elements within the network. In the case of Bitcoin, this would include the balance of all Bitcoin addresses. For Ethereum, it would include not just Ether balances but also the current state of all smart contracts and the data associated with them.
+State explosion is one of the most challenging, yet least talked about problems blockchains face today. In blockchain systems, "[state](https://www.nervos.org/knowledge-base/state_and_state_change_%28explainCKBot%29)" refers to the current status of all the elements within the network. In the case of Bitcoin, this would include the balance of all Bitcoin addresses. For Ethereum, it would include not just Ether balances but also the current state of all smart contracts and the data associated with them.
 
-As more transactions occur, new addresses are created, contracts are invoked, and data is added, the state of the network expands. If this expansion occurs at a rapid or exponential rate, it can lead to what's referred to as "state explosion."
+As more transactions occur, new addresses are created, contracts are invoked, and data is added, the state of the network expands. If this expansion occurs at a rapid or exponential rate, it can lead to what's referred to as "[state explosion](https://www.nervos.org/knowledge-base/state_bloat_blockchain_%28explainCKBot%29)."
 
 State explosion can have several adverse effects on blockchain networks, including making running a full node more resource-intensive, as doing so requires maintaining and storing the entire network state locally. This naturally leads to increased centralization because only those with substantial computational resources (Amazon AWS, Google Could, etc.) can participate fully in the network, which effectively denies the core value proposition of blockchains as permissionless and trustless peer-to-peer distributed systems.
 
