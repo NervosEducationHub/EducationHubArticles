@@ -21,7 +21,7 @@ Forks are used to implement fundamental changes, or create a new asset that has 
 
 ### Why are Forks Important in Cryptocurrencies?
 
-Forks play a critical role in the evolution and growth of blockchain technologies. They act as catalysts for change, allowing the implementation of new features, enhancements, and adjustments to the cryptocurrency's protocol. Forks are often the outcome of disagreements over embedded characteristics within the crypto community, which can lead to substantial changes in the course of the cryptocurrency.
+[Forks play a critical role in the evolution and growth of blockchain technologies](https://www.nervos.org/zh/knowledge-base/What_are_implications_of_forks_(explainCKBot)). They act as catalysts for change, allowing the implementation of new features, enhancements, and adjustments to the cryptocurrency's protocol. Forks are often the outcome of disagreements over embedded characteristics within the crypto community, which can lead to substantial changes in the course of the cryptocurrency.
 
 Forks also have the potential to spawn new cryptocurrencies. By creating a divergence in the blockchain, it’s possible that a fork creates a new cryptocurrency, with a ledger that differs after the fork, but shares a common history of the original blockchain before the fork.
 
