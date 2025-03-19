@@ -6,7 +6,7 @@ subtitle: '区块链的模块化问题已经讨论了很长时间。在分层架
 date: '2023-08-25T16:00:00.000Z'
 ---
 
-近期在加密货币领域流行的一种观点认为，要解决区块链 [“不可能三角”](https://www.nervos.org/knowledge-base/blockchain_trilemma)，即同时实现高安全性、去中心化和可扩展性，最有效的方法是采用分层架构或者说模块化架构。
+近期在加密货币领域流行的一种观点认为，要解决区块链 [“不可能三角”](https://www.nervos.org/knowledge-base/blockchain_trilemma)，即同时实现高安全性、去中心化和可扩展性，最有效的方法是采用分层架构或者说[模块化架构](https://www.nervos.org/knowledge-base/modular_vs_monolithic_%28explainCKBot%29)。
 
 这种设计将交易执行、共识和数据可用性分离到[不同的层](https://www.nervos.org/knowledge-base/layer_1_vs_layer_2)中，从而在不牺牲去中心化和安全性的前提下实现更高的吞吐量。这种分层架构不仅很有发展前景，而且从目前的情况来看，它似乎是解决区块链 “不可能三角” 的唯一可行方法。
 
@@ -48,9 +48,9 @@ date: '2023-08-25T16:00:00.000Z'
 
 ### **计算与验证的区别**
 
-计算是一个随机过程，涉及执行一系列指令或程序，这些指令或程序可能相当复杂，需要进行算术计算、数据操作和逻辑比较等操作，因此需要大量的处理能力。根据输入以及协议或合约中所定义的规则，计算的结果为新的区块链状态。例如，在执行智能合约时，可能会涉及多个操作、循环和条件检查，这可能需要大量的 CPU 周期来完成，因此对于单个节点而言，计算成本较高。此外，计算结果通常需要存储，这会增加节点在内存和磁盘空间方面的负担。
+[计算](https://www.nervos.org/knowledge-base/difference_blockchain_computation_verification_%28explainCKBot%29)是一个随机过程，涉及执行一系列指令或程序，这些指令或程序可能相当复杂，需要进行算术计算、数据操作和逻辑比较等操作，因此需要大量的处理能力。根据输入以及协议或合约中所定义的规则，计算的结果为新的区块链状态。例如，在执行智能合约时，可能会涉及多个操作、循环和条件检查，这可能需要大量的 CPU 周期来完成，因此对于单个节点而言，计算成本较高。此外，计算结果通常需要存储，这会增加节点在内存和磁盘空间方面的负担。
 
-相比之下，验证是一个确定性过程，是根据已知的标准或一组规则检查结果的正确性或有效性，其资源需求远低于执行原始计算。例如，验证区块链中的一个简单交易的有效性可能涉及数字签名的验证，验证区块的有效性可能需要检查矿工向网络广播的工作量证明是否符合协议当前的难度目标。无论如何，这些都是单一操作，只需要很少的计算资源。
+相比之下，[验证](https://www.nervos.org/knowledge-base/difference_blockchain_computation_verification_%28explainCKBot%29)是一个确定性过程，是根据已知的标准或一组规则检查结果的正确性或有效性，其资源需求远低于执行原始计算。例如，验证区块链中的一个简单交易的有效性可能涉及数字签名的验证，验证区块的有效性可能需要检查矿工向网络广播的工作量证明是否符合协议当前的难度目标。无论如何，这些都是单一操作，只需要很少的计算资源。
 
 ![alt_text](images/image4.png "image_tooltip")
 
@@ -102,7 +102,7 @@ date: '2023-08-25T16:00:00.000Z'
 
 对于开发者来说，Nervos CKB 提供了一个多功能结算层，[支持所有当前和未来的密码学原语](https://www.nervos.org/knowledge-base/ckb_blockchain_developers_dream)，并提供 “刚好足够” 的验证支持。与以太坊等通用智能合约平台相比，Nervos CKB 作为验证层和结算层的表现力更强，效率更高，引入错误的可能性更小。
 
-此外，密码学原语（如[哈希算法](https://www.nervos.org/knowledge-base/what_is_a_hash_function)和签名方案）可以像插件一样直接被 dApp 开发者调用，这意味着 CKB 将永远能够支持所有类型的 Layer 2 解决方案，无需为了使用其他密码学原语而进行硬分叉升级。
+此外，密码学原语（如[哈希算法](https://www.nervos.org/knowledge-base/what_is_a_hash_function)和签名方案）可以像插件一样直接被 dApp 开发者调用，这意味着 CKB 将永远能够支持所有类型的 Layer 2 解决方案，无需为了使用其他密码学原语而进行[硬分叉](https://www.nervos.org/knowledge-base/What_are_implications_of_forks_%28explainCKBot%29)升级。
 
 CKB 通过使用最久经考验的[工作量证明（PoW）](https://www.nervos.org/knowledge-base/why_is_proof_of_work_required)共识机制来优化去中心化和安全性，并通过引入状态租赁来解决区块链状态爆炸的问题，将扩展全局状态的权利与平台的原生代币 CKB 挂钩，其中 1 CKB 等于区块链上 1 个字节的空间。这确保了运行全节点的资源需求长期保持较低，保证验证层的持久去中心化。
 
