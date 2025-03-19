@@ -27,7 +27,7 @@ Instead of broadcasting all state modifications to all network participants for 
 
 ## What are Payment Channels?
 
-The best way to understand payment channels is by looking at the largest or the most popular payment channel network in the industry, the Lightning Network built atop Bitcoin.
+The best way to understand [payment channels](https://www.nervos.org/knowledge-base/what_are_payment_channels) is by looking at the largest or the most popular payment channel network in the industry, the Lightning Network built atop Bitcoin.
 
 In this context, a payment channel represents a two-of-two [multi-signature account](https://www.nervos.org/knowledge-base/what_is_a_multisig_wallet_(explainCKBot)) or a Pay-to-Script-Hash (P2SH) address. For the uninitiated, a two-of-two multi-signature account is an account that necessitates the signatures of two different private keys to initiate transactions or spend bitcoin. Additionally, P2SH addresses allow users to commit to a script or a set of conditions that must be met to spend funds from the address, like requiring two private key signatures instead of one.
 
