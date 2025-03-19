@@ -14,7 +14,7 @@ A cryptocurrency mining pool is a collective of miners who consolidate their com
 
 ## The Evolution of Mining Pools
 
-Mining pools have a rich history dating back to the advent of Bitcoin, the pioneer cryptocurrency that introduced the concept of mining pools. The first-ever Bitcoin mining pool, known as the [Slush Pool](https://braiins.com/pool), emerged to mitigate the lottery-like nature of solo mining, providing miners with regular, smaller payouts instead of infrequent, larger block rewards.
+[Mining pools](https://www.nervos.org/knowledge-base/cryptocurrency_mining_pools_%28explainCKBot%29) have a rich history dating back to the advent of Bitcoin, the pioneer cryptocurrency that introduced the concept of mining pools. The first-ever Bitcoin mining pool, known as the [Slush Pool](https://braiins.com/pool), emerged to mitigate the lottery-like nature of solo mining, providing miners with regular, smaller payouts instead of infrequent, larger block rewards.
 
 Mining pool strategies have evolved over time to accommodate the different requirements of miners. The focus has primarily been on structuring systems to distribute rewards and incentivizing miners to stay within a pool.
 
@@ -28,7 +28,7 @@ Various mining pool structures exist, with the most common being Pay-per-Share (
 
 ## The Technical Aspects of Mining Pools
 
-The requirements for mining in pools involve a combination of specific hardware and software. ASICs (Application-Specific Integrated Circuits) and GPUs (Graphics Processing Units) are widely used hardware in cryptocurrency mining due to their high computational efficiency. Meanwhile, mining software helps miners interact with the blockchain and the mining pool.
+The requirements for mining in pools involve a combination of specific hardware and software. ASICs (Application-Specific Integrated Circuits) and GPUs (Graphics Processing Units) are widely used [hardware in cryptocurrency mining](https://www.nervos.org/knowledge-base/crypto_mining_hardware_%28explainCKBot%29) due to their high computational efficiency. Meanwhile, mining software helps miners interact with the blockchain and the mining pool.
 
 However, mining pools are not without their security risks. Potential vulnerabilities like a 51% attack (where a user or group controls more than half of the network's mining power) exist, necessitating security measures such as two-factor authentication and hash rate distribution monitoring.
 
