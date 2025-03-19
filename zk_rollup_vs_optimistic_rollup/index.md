@@ -5,9 +5,9 @@ category: 'Popular, Scaling'
 date: '2023-04-09T16:00:00.000Z'
 ---
 
-Rollups are powerful blockchain scaling solutions that have become very popular over the last two years. There are two types of rollups: zero-knowledge rollups (ZK-rollups) and Optimistic rollups, which serve the same purpose but function differently.
+Rollups are powerful blockchain scaling solutions that have become very popular over the last two years. There are two types of rollups: zero-knowledge rollups (ZK-rollups) and [Optimistic rollups](https://www.nervos.org/knowledge-base/What_are_optimistic_rollups_%28explainCKBot%29), which serve the same purpose but function differently.
 
-Transactions in Optimistic rollups are automatically assumed valid until proven otherwise, while ZK-rollups utilize zero-knowledge proofs (will be explained below) to prove transaction validities. Both rollup types have their own benefits and drawbacks, which will be explained in detail below.
+Transactions in Optimistic rollups are automatically assumed valid until proven otherwise, while ZK-rollups utilize [zero-knowledge proofs](https://www.nervos.org/knowledge-base/zero_knowledge_proofs_%28explainCKBot%29) (will be explained below) to prove transaction validities. Both rollup types have their own benefits and drawbacks, which will be explained in detail below.
 
 ## Why are Rollups Needed?
 
@@ -23,7 +23,7 @@ In simple terms, rollups are separate, high-throughput transaction execution net
 
 The main difference between the two rollup types is how they validate proofs.
 
-Optimistic rollups are called “optimistic” because they assume all the Layer 2 transactions are valid until proven otherwise. On the other hand, ZK-rollups use a complex piece of cryptography called a zero-knowledge proof to prove the transactions’ validity without knowing too much about the transactions’ specifics.
+[Optimistic rollups](https://www.nervos.org/knowledge-base/what_are_optimistic_rollups) are called “optimistic” because they assume all the Layer 2 transactions are valid until proven otherwise. On the other hand, ZK-rollups use a complex piece of cryptography called a zero-knowledge proof to prove the transactions’ validity without knowing too much about the transactions’ specifics.
 
 Another difference between the two technologies is the amount of data they post to their underlying base chains. Because ZK-rollups have a mechanism to validate transactions before posting them to the base chain, they don’t need to transmit as much data as their optimistic counterparts to the Layer 1. Namely, ZK-rollups post only the validity proofs to settle transactions with finality on the base chain, while Optimistic rollups post the entire transaction data.
 
