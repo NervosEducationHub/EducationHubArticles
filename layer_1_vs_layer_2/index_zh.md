@@ -7,7 +7,7 @@ date: '2023-05-25T16:00:00.000Z'
 
 ![alt_text](images/image1.png 'image_tooltip')
 
-在区块链网络中，Layer 1 是指交易最终结算的基础层区块链。而 Layer 2 则是构建在 Layer 1 区块链之上的可扩展性解决方案，旨在提高 Layer 1 的交易吞吐量。常见的 Layer 1 区块链包括比特币、以太坊和 CKB（Common Knowledge Base，共同知识库），而 Layer 2 网络则包括闪电网络、Optimism 和 Nervos 生态的 [Godwoken](https://www.nervos.org/godwoken)。
+在区块链网络中，Layer 1 是指交易最终结算的基础层区块链。而 Layer 2 则是构建在 Layer 1 区块链之上的可扩展性解决方案，旨在提高 Layer 1 的交易吞吐量。常见的 Layer 1 区块链包括比特币、以太坊和 [CKB（Common Knowledge Base，共同知识库）](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain)，而 Layer 2 网络则包括闪电网络、Optimism 和 Nervos 生态的 [Godwoken](https://www.nervos.org/godwoken)。
 
 可以用现实世界中的 Fedwire 和支付处理商（如PayPal或Stripe）作为类比，来解释 Layer 1 和 Layer 2 的区别。与 Layer 1 一样，Fedwire 对银行转账进行最终的结算，而支付处理商只是处理许多付款的中介，需要将处理后的付款转给银行进行最终的结算。
 
@@ -57,7 +57,7 @@ Nervos 的 Layer 1 区块链，即 CKB，使用名为 Godwoken 的 Optimistic Ro
 
 对于 Layer 1 与 Layer 2 哪个更好，并没有直接的答案，因为它们各自为不同的目的提供服务，并具有各自的优势和局限性。
 
-Layer 1 区块链提供了卓越的安全性和最终或者说不可逆的交易结算，使其成为需要安全性和透明度的用例的理想选择。与此同时，Layer 2 网络旨在解决 Layer 1 区块链的可扩展性问题。Layer 2 解决方案，如状态通道、侧链和各种 rollup 方案，通过将一些交易从 Layer 1 转移到 Layer 2 来提供更快速、更便宜的交易。此外，它们还可以支持更复杂的交易，比如原子交换和跨链互操作性。
+Layer 1 区块链提供了卓越的安全性和最终或者说不可逆的交易结算，使其成为需要安全性和透明度的用例的理想选择。与此同时，Layer 2 网络旨在解决 Layer 1 区块链的可扩展性问题。Layer 2 解决方案，如状态通道、[侧链](https://www.nervos.org/knowledge-base/sidechains_unlocking_the_potential)和各种 rollup 方案，通过将一些交易从 Layer 1 转移到 Layer 2 来提供更快速、更便宜的交易。此外，它们还可以支持更复杂的交易，比如原子交换和跨链互操作性。
 
 总之，Layer 1 和 Layer 2 各有优势和劣势，它们的适用性取决于具体的用例和需求。某些应用可能需要 Layer 1 的极高安全性和去中心化特性，而其他应用可能会从 Layer 2 解决方案的速度和灵活性中受益。
 
