@@ -7,7 +7,7 @@ date: '2023-04-09T16:00:00.000Z'
 
 ![alt_text](images/image1.png 'image_tooltip')
 
-Layer 1, in the context of blockchain networks, refers to the base layer chain where transactions are settled with finality. On the other hand, Layer 2 networks are scaling solutions built on top of Layer 1 blockchains with the goal of increasing their transaction throughput. Examples of Layer 1 chains include Bitcoin, Ethereum, and Common Knowledge Base, whereas examples of Layer 2 networks include the Lightning Network, Optimism, and [Godwoken](https://www.nervos.org/godwoken).
+Layer 1, in the context of blockchain networks, refers to the base layer chain where transactions are settled with finality. On the other hand, Layer 2 networks are scaling solutions built on top of Layer 1 blockchains with the goal of increasing their transaction throughput. Examples of Layer 1 chains include Bitcoin, Ethereum, and [Common Knowledge Base](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain), whereas examples of Layer 2 networks include the Lightning Network, Optimism, and [Godwoken](https://www.nervos.org/godwoken).
 
 An excellent real-world analogy depicting the difference between Layer 1 and Layer 2 networks is the comparison between Fedwire and payment processors like Paypal or Stripe. Like Layer 1s, Fedwire settles bank transfers with finality, whereas payment processors are merely intermediaries that process many payments and then relay them to banks for final settlement.
 
@@ -57,7 +57,7 @@ The most popular state channel implementation is the Lightning Network Layer 2 s
 
 There is no straightforward answer to which is better between Layer 1 and Layer 2 blockchains because they serve different purposes and have their own unique advantages and limitations.
 
-Layer 1 blockchains provide superior security and final or irreversible transaction settlement, making them ideal for use cases requiring security and transparency. On the other hand, Layer 2 blockchains are designed to address the scalability issues of Layer 1 blockchains. Layer 2 solutions, such as state channels, sidechains, and rollups, offer faster and cheaper transactions by offloading some of the transaction processing load from Layer 1 to Layer 2. They can also support more complex transactions, such as atomic swaps and cross-chain interoperability.
+Layer 1 blockchains provide superior security and final or irreversible transaction settlement, making them ideal for use cases requiring security and transparency. On the other hand, Layer 2 blockchains are designed to address the scalability issues of Layer 1 blockchains. Layer 2 solutions, such as state channels, [sidechains](https://www.nervos.org/knowledge-base/sidechains_unlocking_the_potential), and rollups, offer faster and cheaper transactions by offloading some of the transaction processing load from Layer 1 to Layer 2. They can also support more complex transactions, such as atomic swaps and cross-chain interoperability.
 
 In summary, both Layer 1 and Layer 2 blockchains have their own strengths and weaknesses, and their suitability depends on the specific use case and requirements. Some applications may require the high security and decentralization of Layer 1, while others may benefit from the speed and flexibility of Layer 2 solutions.
 
