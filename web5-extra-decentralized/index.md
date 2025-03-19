@@ -110,9 +110,9 @@ Adding more chains means higher infrastructure spending—after all, someone has
 
 Under the same assumptions, the L1 costs alone are around $25,000, while settling on alternative DA layers like [Celestia](https://x.com/celestia) or [EigenDA](https://x.com/eigen_da) is cheaper by orders of magnitude. Unfortunately, for many Layer 2s, the fees paid by the users aren’t enough to cover the infrastructure costs, meaning the infrastructure or “server” owners must bear them. This financial burden creates barriers to entry for new participants and gives an advantage to well-funded entities, further promoting centralization.
 
-In contrast, PoW+UTXO chains scale vertically by adding layers like payment channels or state channels on top of the base layer. Verification remains cheap and accessible; users can run full nodes or light clients on modest hardware, ensuring broad participation in the network. The state is managed through UTXOs, allowing users to verify only the transactions relevant to them without relying on centralized intermediaries.
+In contrast, PoW+UTXO chains scale vertically by adding layers like [payment channels](https://www.nervos.org/knowledge-base/ultimate_guide_to_payment_channels) or state channels on top of the base layer. Verification remains cheap and accessible; users can run full nodes or light clients on modest hardware, ensuring broad participation in the network. The state is managed through UTXOs, allowing users to verify only the transactions relevant to them without relying on centralized intermediaries.
 
-Protocols like the Lightning Network, [Ark](https://x.com/ArkLabsHQ), and [RGB++](https://www.rgbppfans.com/) exemplify this approach. Users can establish payment channels directly with one another, and the security of these channels is anchored in the robust PoW consensus of the base layer. There's no need for bridges or centralized sequencers that could act as points of failure or control. This maintains the integrity of the network's topology, keeping it genuinely decentralized or peer-to-peer and resistant to censorship or control by any single entity.
+Protocols like the Lightning Network, [Ark](https://x.com/ArkLabsHQ), and [RGB++](https://www.rgbppfans.com/) exemplify this approach. Users can establish [payment channels](https://www.nervos.org/knowledge-base/what_are_payment_channels) directly with one another, and the security of these channels is anchored in the robust PoW consensus of the base layer. There's no need for bridges or centralized sequencers that could act as points of failure or control. This maintains the integrity of the network's topology, keeping it genuinely decentralized or peer-to-peer and resistant to censorship or control by any single entity.
 
 
 ## How Did Web3 Get Here?
@@ -137,7 +137,7 @@ In other words, the Ethereum community capitulated on its original thesis, embra
 
 ### Ethereum’s Second Mistake
 
-This pivot, however, has proven ineffective in establishing a peer-to-peer network in large part due to Ethereum's second architectural mistake: abandoning Bitcoin’s UTXO model in favor of the account model.
+This pivot, however, has proven ineffective in establishing a peer-to-peer network in large part due to Ethereum's second architectural mistake: abandoning Bitcoin’s [UTXO model](https://www.nervos.org/knowledge-base/utxo_model_explained) in favor of the account model.
 
 At the time, Vitalik [made two arguments](https://medium.com/@Consensys/thoughts-on-utxo-by-vitalik-buterin-2bb782c67e53) justifying this move: (i) *“UTXOs are unnecessarily complicated, and the complexity gets even greater in the implementation than in theory,”* and (ii) *“UTXOs are stateless and so are not well-suited to applications more complex than asset issuance and transfer that are generally stateful, such as various kinds of smart contracts.”*
 
