@@ -1,5 +1,5 @@
 ---
-title: 'Zero-Knowledge Proofs: An In-Depth Exploration in Cryptography'
+title: 'Zero-Knowledge Proofs (ZKPs) in Blockchain: A Complete Guide'
 coverImage: 'images/image1.png'
 category: Popular, scaling
 subtitle: 'A comprehensive guide to understanding zero-knowledge proofs, their significance in enhancing privacy and security in the crypto landscape, and their diverse applications.'
@@ -19,11 +19,11 @@ Cryptography is the backbone of secure communication in the digital world, enabl
 One of the fundamental aspects of cryptocurrencies is the need to balance privacy and transparency. While blockchain networks typically offer a high degree of transparency, with all transactions being publicly recorded on the distributed ledger, this can lead to potential privacy concerns for users. In response to this challenge, several cryptographic techniques have been developed to enhance the privacy of transactions while preserving the transparency and security of the blockchain.
 
 
-## Understanding Zero-Knowledge Proofs
+## What are Zero-Knowledge Proofs? Core Concepts Explained
 
 Zero-knowledge proofs are a cryptographic method that allows one party (the prover) to prove to another party (the verifier) that they possess specific knowledge or information without revealing the actual details. In essence, zero-knowledge proofs enable the validation of a statement's truthfulness without disclosing any underlying data, ensuring both privacy and security.
 
-The concept of zero-knowledge proofs was first introduced in 1985 by computer scientists Shafi Goldwasser, Silvio Micali, and Charles Rackoff. Their groundbreaking research paper demonstrated that it is possible to prove the validity of a statement without revealing any information about the statement itself other than the fact that it is true.
+The concept of zero-knowledge proofs was first introduced in 1985 by computer scientists [Shafi Goldwasser](https://en.wikipedia.org/wiki/Shafi_Goldwasser), [Silvio Micali](https://en.wikipedia.org/wiki/Silvio_Micali), and [Charles Rackoff](https://en.wikipedia.org/wiki/Charles_Rackoff). Their groundbreaking research paper demonstrated that it is possible to prove the validity of a statement without revealing any information about the statement itself other than the fact that it is true.
 
 
 ### The Building Blocks of Zero-Knowledge Proofs
@@ -50,7 +50,7 @@ The zero-knowledge property is the core characteristic of ZKPs, stating that the
 
 In the world of cryptocurrencies and blockchain technology, zero-knowledge proofs offer several benefits. By enabling users to prove the validity of transactions without revealing any sensitive information, ZKPs help maintain privacy and security on the blockchain.
 
-One of the most well-known applications of zero-knowledge proofs in cryptocurrencies is Zcash, a privacy-focused digital currency that utilizes a specific type of ZKP called zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge). Zcash allows users to conduct shielded transactions, which are fully encrypted on the blockchain and only visible to users who possess the corresponding decryption keys. Using zk-SNARKs, Zcash enables users to prove that they have the necessary funds to conduct a transaction without revealing their identity, the transaction amount, or any other sensitive information.
+One of the most well-known applications of zero-knowledge proofs in cryptocurrencies is [Zcash](https://en.wikipedia.org/wiki/Zcash), a privacy-focused digital currency that utilizes a specific type of ZKP called [zk-SNARKs](https://z.cash/learn/what-are-zk-snarks/) (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge). Zcash allows users to conduct shielded transactions, which are fully encrypted on the blockchain and only visible to users who possess the corresponding decryption keys. Using zk-SNARKs, Zcash enables users to prove that they have the necessary funds to conduct a transaction without revealing their identity, the transaction amount, or any other sensitive information.
 
 
 ### Applications of Zero-Knowledge Proofs in Crypto
@@ -75,7 +75,7 @@ Blockchain sharding is a technique used to improve the scalability of blockchain
 
 #### Layer 2 Scaling Solutions
 
-Layer 2 scaling solutions, such as rollups and sidechains, aim to improve the scalability and throughput of blockchain networks by offloading transactions and computations from the main chain. Zero-knowledge proofs can be used to ensure the security and integrity of transactions executed on Layer 2 solutions, allowing them to be anchored securely to the main chain.
+Layer 2 scaling solutions, such as [rollups](https://www.nervos.org/knowledge-base/zk_rollup_vs_optimistic_rollup) and [sidechains](https://www.nervos.org/knowledge-base/sidechains_unlocking_the_potential), aim to improve the scalability and throughput of blockchain networks by offloading transactions and computations from the main chain. Zero-knowledge proofs can be used to ensure the security and integrity of transactions executed on Layer 2 solutions, allowing them to be anchored securely to the main chain.
 
 
 #### Privacy-Preserving Smart Contracts
@@ -86,8 +86,6 @@ Smart contracts are self-executing contracts with the terms of the agreement dir
 ## Challenges and Limitations of Zero-Knowledge Proofs
 
 While zero-knowledge proofs offer significant advantages in terms of privacy and security, there are some challenges and limitations associated with their implementation in blockchain systems.
-
-
 
 * **Computational complexity:** One of the primary concerns with ZKPs is their computational complexity. The process of generating and verifying zero-knowledge proofs can be resource-intensive, potentially leading to increased processing times and energy consumption. This can be a significant hurdle, particularly in large-scale blockchain networks with high transaction volumes. However, ongoing research in the field of ZKPs aims to develop more efficient algorithms and techniques to address this issue.
 * **Integration challenges:** Integrating zero-knowledge proofs into existing blockchain systems can be complex, as it may require significant changes to the underlying protocols and infrastructure. This can pose challenges in terms of backward compatibility and interoperability with other systems. To address these concerns, some blockchain projects are exploring the use of modular architectures that can more easily accommodate the integration of ZKPs and other privacy-enhancing technologies.

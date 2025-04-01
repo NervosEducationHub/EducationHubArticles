@@ -1,5 +1,5 @@
 ---
-title: 'Decentralized Identifiers (DIDs): Creating User-Friendly, Secure, and Interoperable Blockchain Identities'
+title: 'Decentralized Identifiers (DIDs): ENS & .bit Compared'
 coverImage: 'images/image1.png'
 category: DID
 subtitle: 'Decentralized identifiers (DIDs) are a revolutionary approach to digital identity management within blockchain technology.'
@@ -8,19 +8,19 @@ author:
 - github:explainCKBot
 ---
 
-DIDs enable decentralized applications and services by providing unique, user-friendly, and secure identifiers. This article will explore two prominent DID solutions built on different blockchain platforms: the Ethereum Name Service (ENS), built on Ethereum, and .bit, built on Nervos’ Layer 1, Common Knowledge Base (CKB).
+DIDs enable decentralized applications (dApps) and services by providing unique, user-friendly, and secure identifiers. This article will explore two prominent DID solutions built on different blockchain platforms: the [Ethereum Name Service](https://ens.domains) (ENS), built on Ethereum, and [.bit](https://d.id/id-protocol/bit), built on Nervos’ Layer 1, [Common Knowledge Base](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain) (CKB).
 
 
-## What are Decentralized Identifiers (DIDs)?
+## What Are Decentralized Identifiers? The Foundation of Self-Sovereign Identity
 
 Decentralized identifiers (DIDs) are a type of digital identifier that allows individuals, organizations, and even devices to create and manage their own unique, self-sovereign identities. Unlike traditional identifiers, such as usernames, email addresses, or social security numbers, DIDs are not controlled by a centralized authority or subject to a single point of failure. Instead, DIDs are generated, owned, and managed by the identity holder, who can use them to interact securely and privately with other parties in the digital world.
 
-DIDs leverage the power of blockchain technology to create a decentralized, tamper-resistant, and highly secure infrastructure for identity management. A DID is a unique identifier registered on a blockchain or other distributed ledger. It can be independently verified and updated by the identity holder without the need for an intermediary. This decentralized approach offers numerous benefits over centralized identity management systems, including improved security, privacy, and user control.
+DIDs leverage the power of blockchain technology to create a decentralized, tamper-resistant, and highly secure infrastructure for identity management. A DID is a unique identifier registered on a blockchain or other [distributed ledger](https://en.wikipedia.org/wiki/Distributed_ledger). It can be independently verified and updated by the identity holder without the need for an intermediary. This decentralized approach offers numerous benefits over centralized identity management systems, including secure logins, privacy, and user control.
 
 
 ### Ethereum Name Service (ENS)
 
-ENS is a decentralized naming system built on the Ethereum blockchain that transforms complex machine-readable identifiers into more easily understandable human-readable names. By mapping names like 'alice.eth' to Ethereum addresses or other machine-readable data, ENS simplifies sharing and using blockchain-based identities.
+[ENS](https://ens.domains) is a decentralized naming system built on the Ethereum blockchain that transforms complex machine-readable identifiers into more easily understandable human-readable names. By mapping names like 'alice.eth' to Ethereum addresses or other machine-readable data, ENS simplifies sharing and using blockchain-based identities.
 
 The ENS architecture consists of two main components: the registry and resolvers. The registry is a smart contract that maintains a list of all domains and subdomains, storing information about their owner, resolver, and time-to-live for caching purposes. The resolver is responsible for translating names into addresses or other data, with different resolvers supporting various types of records.
 
@@ -29,7 +29,7 @@ ENS domains can be registered and managed through supported wallets or dedicated
 
 ### .bit on Nervos CKB
 
-.bit is a cross-chain decentralized account system built on Nervos CKB, a Layer 1 blockchain. This system provides a unique naming system with a .bit suffix that can be used in various scenarios, such as cryptocurrency transfers, domain name resolution, and identity authentication. .bit accounts can be registered and managed with any public chain address or even an email.
+[.bit](https://d.id/id-protocol/bit) is a cross-chain decentralized account system built on Nervos CKB, a Layer 1 blockchain. This system provides a unique naming system with a .bit suffix that can be used in various scenarios, such as cryptocurrency transfers, domain name resolution, and identity authentication. .bit accounts can be registered and managed with any public chain address or even an email.
 
 The .bit system comprises five main components: core protocol, keeper, resolution service, client SDK, and Dapp UI. The core protocol consists of a series of smart contracts deployed on Nervos CKB that define the operational standards for .bit accounts. The keeper is a set of off-chain programs responsible for triggering transactions that conform to the core protocol. The resolution service, built on top of Nervos CKB transactions, provides account resolution services to the public. The client SDK simplifies the integration of .bit-related applications, while the Dapp UI allows users to interact with the system through various interfaces.
 
@@ -44,7 +44,7 @@ First and foremost, ENS is built on the Ethereum blockchain, while .bit relies o
 
 Another notable difference is the domain suffix used by each system. ENS domains carry the '.eth' suffix, such as 'alice.eth', whereas .bit domains use the '.bit' suffix, like 'alice.bit'. This distinction is important for users to recognize which blockchain-based naming system they are interacting with.
 
-The architecture of the two systems also differs. ENS comprises two main components: the registry and resolvers. The registry is essentially a smart contract that keeps track of all domains and subdomains, recording information about the owner, resolver, and caching time-to-live for each domain. Resolvers, on the other hand, are responsible for translating names into addresses. In comparison, .bit features five primary components: Core Protocol, Keeper, Resolution Service, Client SDK, and Dapp UI. The Core Protocol includes a series of Lock Scripts and Type Scripts deployed on Nervos CKB, which establish .bit accounts and set operational standards.
+The architecture of the two systems also differs. ENS comprises two main components: the registry and resolvers. The registry is essentially a smart contract that keeps track of all domains and subdomains, recording information about the owner, resolver, and caching time-to-live for each domain. Resolvers, on the other hand, are responsible for translating names into addresses. In comparison, .bit features five primary components: Core Protocol, Keeper, Resolution Service, Client SDK, and dApp UI. The Core Protocol includes a series of [Lock Scripts and Type Scripts](https://docs.nervos.org/docs/script/intro-to-script) deployed on Nervos CKB, which establish .bit accounts and set operational standards.
 
 Furthermore, the way account ownership and management work in ENS and .bit is distinct. In ENS, a domain owner can be an external account (a user) or a smart contract. However, .bit permits the owner or manager of a domain to be any public chain private key or even an email address, offering greater flexibility to users.
 
@@ -53,9 +53,9 @@ Finally, the resolver mechanisms used by ENS and .bit are different. ENS employs
 
 ## Decentralized Identifiers (DIDs) vs. Domain Name System (DNS)
 
-Decentralized Identifiers (DIDs) and the Domain Name System (DNS) share a common goal: to map human-readable names to machine-readable identifiers. However, they differ significantly in their architecture, control mechanisms, and underlying technology.
+Decentralized Identifiers (DIDs) and the [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) (DNS) share a common goal: to map human-readable names to machine-readable identifiers. However, they differ significantly in their architecture, control mechanisms, and underlying technology.
 
-When it comes to architecture, DNS is a centralized, hierarchical system overseen by trusted authorities like domain registrars and the Internet Corporation for Assigned Names and Numbers (ICANN). In contrast, DIDs are built on decentralized, trustless architectures that harness blockchain technology. Ethereum Name Service (ENS) and .bit are just two examples of DIDs.
+When it comes to architecture, DNS is a centralized, hierarchical system overseen by trusted authorities like domain registrars and the [Internet Corporation for Assigned Names and Numbers](https://www.icann.org) (ICANN). In contrast, DIDs are built on decentralized, trustless architectures that harness blockchain technology. Ethereum Name Service (ENS) and .bit are just two examples of DIDs.
 
 Control and ownership are other areas where these two systems diverge. With DNS, third parties like domain registrars often manage the control and ownership of domain names, which can sometimes lead to issues such as censorship, domain seizures, or disputes. DIDs, however, enable users to exercise direct control over their identifiers, which minimizes reliance on centralized authorities and grants users greater autonomy.
 
