@@ -22,10 +22,8 @@ There are two primary types of blockchain bridges: centralized and decentralized
 
 While the specific implementation of a blockchain bridge can vary depending on the networks it connects and the underlying technology, most bridges share some common components and processes:
 
-
-
 * **Locking and minting:** When a user wishes to transfer assets from one blockchain to another, the original asset is typically locked or frozen on the source blockchain. The bridge then creates (mints) an equivalent, wrapped or pegged version of the asset on the target blockchain. This process is often facilitated through smart contracts or specialized nodes, ensuring that the total supply of the asset remains unchanged.
-* **Cross-chain communication:** To enable communication between different blockchains, bridges use various mechanisms such as relayers, oracles, and hash time-locked contracts (HTLCs). These components transmit the necessary data, transactions, and cryptographic proofs between the networks to verify the legitimacy of cross-chain transactions and ensure their proper execution.
+* **Cross-chain communication:** To enable communication between different blockchains, bridges use various mechanisms such as relayers, oracles, and [hash time-locked contracts](https://en.bitcoin.it/wiki/Hash_Time_Locked_Contracts) (HTLCs). These components transmit the necessary data, transactions, and cryptographic proofs between the networks to verify the legitimacy of cross-chain transactions and ensure their proper execution.
 * **Redeeming and unlocking:** When the user wishes to transfer the asset back to the original blockchain, they can redeem the wrapped or pegged version on the target blockchain, triggering the unlocking of the locked asset on the source blockchain.
 
 
@@ -33,12 +31,10 @@ While the specific implementation of a blockchain bridge can vary depending on t
 
 Blockchain bridges play a crucial role in enhancing the utility, efficiency, and interconnectedness of the decentralized ecosystem. Some of the key benefits of blockchain bridges include:
 
-
-
 * **Interoperability:** Bridges enable seamless communication and interaction between various blockchain networks, allowing users and developers to leverage the unique features, capabilities, and assets of multiple ecosystems. This interoperability fosters innovation, collaboration, and the development of more versatile, robust decentralized applications.
-* **Liquidity:** By connecting disparate networks and enabling the trustless transfer of assets between them, blockchain bridges help enhance the overall liquidity in the decentralized ecosystem. Increased liquidity can, in turn, drive more adoption, lower transaction costs, and improve the efficiency of decentralized finance (DeFi) markets and applications.
+* **Liquidity:** By connecting disparate networks and enabling the trustless transfer of assets between them, blockchain bridges help enhance the overall liquidity in the decentralized ecosystem. Increased liquidity can, in turn, drive more adoption, lower transaction costs, and improve the efficiency of [decentralized finance](https://en.wikipedia.org/wiki/Decentralized_finance) (DeFi) markets and applications.
 * **Accessibility:** Blockchain bridges make it easier for users to access and participate in various ecosystems, reducing the barriers associated with managing multiple wallets, tokens, and platforms. This enhanced accessibility can help drive greater adoption of decentralized technologies and services.
-* **Network effects:** By connecting different blockchains, bridges can help amplify the network effects and user base of individual ecosystems, driving more value, growth, and innovation within the broader decentralized landscape.
+* **Network effects:** By connecting different blockchains, bridges can help amplify the [network effects](https://en.wikipedia.org/wiki/Network_effect) and user base of individual ecosystems, driving more value, growth, and innovation within the broader decentralized landscape.
 
 
 ## Conclusion
