@@ -1,5 +1,5 @@
 ---
-title: 'Understanding ECDSA: The Backbone of Digital Signature Security'
+title: 'ECDSA Explained: The Backbone of Digital Signature Security'
 coverImage: 'images/image1.png'
 category: Hash Function, cryptography
 subtitle: 'Elliptic Curve Digital Signature Algorithm (ECDSA) is a cryptographic algorithm used to generate digital signatures in various applications, including cryptocurrencies like Bitcoin and Ethereum.'
@@ -15,12 +15,12 @@ ECDSA provides secure and efficient signing and verification processes, ensuring
 
 ## Elliptic Curve Cryptography (ECC) and ECDSA
 
-ECDSA is built upon the principles of Elliptic Curve Cryptography (ECC), a form of public-key cryptography based on the algebraic structure of elliptic curves over finite fields. ECC offers several advantages over traditional public-key cryptography, such as RSA, including smaller key sizes, faster computation, and higher security for a given key length.
+ECDSA is built upon the principles of [Elliptic Curve Cryptography](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography) (ECC), a form of public-key cryptography based on the algebraic structure of elliptic curves over finite fields. ECC offers several advantages over traditional public-key cryptography, such as [RSA](https://en.wikipedia.org/wiki/RSA_cryptosystem) (Rivest–Shamir–Adleman), including smaller key sizes, faster computation, and higher security for a given key length.
 
-An elliptic curve is defined by a mathematical equation of the form **y^2 = x^3 + ax + b**, where a and b are constants. The set of points (x, y) that satisfy this equation, along with a special point called the point at infinity, form an elliptic curve group. The security of ECC relies on the discrete logarithm problem, which is believed to be computationally infeasible to solve on elliptic curves.
+An elliptic curve is defined by a mathematical equation of the form **y^2 = x^3 + ax + b**, where a and b are constants. The set of points (x, y) that satisfy this equation, along with a special point called the [point at infinity](https://en.wikipedia.org/wiki/Point_at_infinity), form an elliptic curve group. The security of ECC relies on the discrete logarithm problem, which is believed to be computationally infeasible to solve on elliptic curves.
 
 
-## Key Generation
+## ECDSA Key Generation
 
 In ECDSA, each user generates a public-private key pair, which is used for signing and verifying digital signatures. The key generation process involves the following steps:
 
@@ -31,7 +31,7 @@ In ECDSA, each user generates a public-private key pair, which is used for signi
 * Calculate the public key Q = dG, where Q is a point on the curve. This calculation involves scalar multiplication, a fundamental operation in ECC that repeats the addition of a point to itself d times.
 
 
-### Signing and Verification
+### ECDSA Signing and Verification Process
 
 ECDSA enables users to generate a digital signature for a given message, which can be verified by other users who possess the signer's public key. The signing and verification processes involve the following steps:
 
@@ -58,7 +58,7 @@ ECDSA enables users to generate a digital signature for a given message, which c
 * Determine the x-coordinate of P, denoted as x_P. The signature is valid if x_P is equal to r, and invalid otherwise.
 
 
-## Security and Applications
+## ECDSA Security and Applications
 
 The security of ECDSA is rooted in the complexity of the elliptic curve discrete logarithm problem (ECDLP). This problem involves determining the scalar value 'd' when given points G and Q = dG on an elliptic curve. ECDLP is deemed computationally infeasible when dealing with carefully selected curves and sufficiently large key sizes, making it impervious to known attacks.
 
@@ -66,7 +66,7 @@ One of the most prominent applications of ECDSA is its use in cryptocurrencies, 
 
 When it comes to cryptocurrencies, ECDSA is a critical component for ensuring the security of funds and the authenticity of transactions. In the case of Bitcoin, for example, ECDSA allows users to sign their transactions with a private key, which is then verified by other nodes on the network using the corresponding public key. This process guarantees that only the rightful owner of the funds can initiate a transaction, and it also ensures that the transaction details, such as the amount and recipient, remain unaltered during the transfer.
 
-Beyond cryptocurrencies, ECDSA is also employed in secure communication protocols like Transport Layer Security (TLS) and Secure Shell (SSH). In these contexts, ECDSA serves to authenticate the messages exchanged between clients and servers. This authentication helps ensure that the parties involved in the communication are who they claim to be and that the data transmitted has not been tampered with.
+Beyond cryptocurrencies, ECDSA is also employed in secure communication protocols like [Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security) (TLS) and [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell) (SSH). In these contexts, ECDSA serves to authenticate the messages exchanged between clients and servers. This authentication helps ensure that the parties involved in the communication are who they claim to be and that the data transmitted has not been tampered with.
 
 Finally, ECDSA is also used by certificate authorities (CAs) to sign digital certificates. In doing so, the authenticity and integrity of websites and other digital entities are confirmed, giving users confidence that they are interacting with legitimate sources.
 
