@@ -1,5 +1,5 @@
 ---
-title: 'WWhat is a Cold Wallet? The Ultimate Guide to Secure Cryptocurrency Storage'
+title: 'What is a Cold Wallet? The Ultimate Guide to Secure Cryptocurrency Storage'
 coverImage: 'images/image1.png'
 category: Wallet
 subtitle: 'In the world of digital finance, cryptocurrency has emerged as a revolutionary concept that has reshaped our understanding of monetary transactions.'
