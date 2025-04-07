@@ -2,7 +2,7 @@
 title: 'A Primer on BFT Consensus Mechanisms in Blockchain'
 coverImage: 'images/image1.png'
 category: Consensus
-subtitle: 'Blockchain technology, a groundbreaking innovation in the realm of digital transactions, has been the subject of increasing attention over the past decade.'
+subtitle: 'Blockchain technology, a groundbreaking innovation in decentralized systems, relies heavily on consensus mechanisms like BFT (Byzantine Fault Tolerance) to ensure secure and reliable digital transactions.'
 date: '2023-09-13T16:00:00.000Z'
 author: 
 - github:explainCKBot
@@ -16,16 +16,16 @@ A crucial component of blockchain technology is the consensus mechanism. This is
 One of the key features that a consensus mechanism can have is Byzantine Fault Tolerance (BFT). This feature allows a blockchain network to function correctly even when some nodes fail or act maliciously. This article will delve into the intricacies of Byzantine Fault Tolerance, its application in blockchain technology, and its significance in maintaining the reliability and security of decentralized systems and provide more details about systems that fall under the category of BFT.
 
 
-## Detailed Explanation of BFT Consensus Mechanisms
+## What is BFT Consensus Mechanism?
 
-Byzantine fault tolerance is not a consensus mechanism in itself but a property that a consensus mechanism can possess. It's a system's ability to withstand 'Byzantine faults' - situations where components of a system fail in arbitrary ways. The term is derived from the Byzantine Generals' Problem, an analogy that illustrates the challenges of achieving consensus in a distributed network. In this scenario, several divisions of a Byzantine army are camped outside a city they plan to besiege. The generals must agree on a battle plan but can only communicate via messengers, who may betray them. The problem is to find an algorithm to ensure that the generals will reach agreement, regardless of the traitors' behavior.
+Byzantine fault tolerance is not a consensus mechanism in itself but a property that a consensus mechanism can possess. It's a system's ability to withstand '[Byzantine faults](https://en.wikipedia.org/wiki/Byzantine_fault)' - situations where components of a system fail in arbitrary ways. The term is derived from the Byzantine Generals' Problem, an analogy that illustrates the challenges of achieving consensus in a distributed network. In this scenario, several divisions of a Byzantine army are camped outside a city they plan to besiege. The generals must agree on a battle plan but can only communicate via messengers, who may betray them. The problem is to find an algorithm to ensure that the generals will reach agreement, regardless of the traitors' behavior.
 
 BFT consensus mechanisms work by requiring a certain percentage of nodes in the network to agree on a transaction before it is added to the blockchain. This ensures that even if some nodes are acting maliciously or are faulty, they cannot influence the overall consensus of the network. BFT consensus mechanisms are particularly important in blockchain networks because they provide a high level of security and reliability.
 
 
 ## The Role of BFT in Blockchain
 
-In the context of a blockchain, each node in the network can be thought of as a general. They need to reach consensus on the validity of transactions and the state of the blockchain. The consensus mechanism, such as Proof of Work (PoW) in Bitcoin or Proof of Stake (PoS) in Ethereum, is the algorithm that ensures all nodes agree on the state of the distributed ledger. If the consensus mechanism has the property of Byzantine Fault Tolerance, the blockchain can continue operating correctly even if some nodes fail or act dishonestly.
+In the context of a blockchain, each node in the network can be thought of as a general. They need to reach consensus on the validity of transactions and the state of the blockchain. The consensus mechanism, such as [Proof of Work](https://en.wikipedia.org/wiki/Proof_of_work) (PoW) in Bitcoin or [Proof of Stake](https://en.wikipedia.org/wiki/Proof_of_stake) (PoS) in Ethereum, is the algorithm that ensures all nodes agree on the state of the distributed ledger. If the consensus mechanism has the property of Byzantine Fault Tolerance, the blockchain can continue operating correctly even if some nodes fail or act dishonestly.
 
 A Byzantine fault is a condition where a node (or nodes) in the network behaves arbitrarily—either due to error or malicious intent—and starts sending incorrect or misleading information to other nodes. This can potentially disrupt the consensus process and lead to a disagreement among nodes about the state of the blockchain.
 
@@ -33,14 +33,12 @@ In a PoW system like Bitcoin, Byzantine fault tolerance is achieved through the 
 
 In a PoS system like Ethereum, Byzantine fault tolerance is achieved differently. Instead of miners, there are validators who are chosen to create new blocks based on the number of tokens they hold and are willing to 'stake' as collateral. If a validator tries to game the system or act maliciously, they stand to lose their staked tokens. This risk of financial loss disincentivizes bad behavior, contributing to Byzantine Fault Tolerance.
 
-It's important to note that while PoW and PoS can exhibit Byzantine fault tolerance, they are not inherently Byzantine fault tolerant in the same way that some other consensus mechanisms, like the Practical Byzantine Fault Tolerance (PBFT) algorithm, are. The next section will cover the different varieties of BFT Consensus Mechanisms.
+It's important to note that while PoW and PoS can exhibit Byzantine fault tolerance, they are not inherently Byzantine fault tolerant in the same way that some other consensus mechanisms, like the [Practical Byzantine Fault Tolerance](https://pmg.csail.mit.edu/papers/osdi99.pdf) (PBFT) algorithm, are. The next section will cover the different varieties of BFT Consensus Mechanisms.
 
 
 ## Types of BFT Consensus Mechanisms
 
 There are several types of BFT consensus mechanisms, each with its unique features and benefits. Here are three of the most common types:
-
-
 
 * **Practical Byzantine Fault Tolerance (PBFT):** PBFT is a consensus algorithm that was designed to handle Byzantine faults in a system. It works by requiring a two-thirds majority of nodes to agree on a transaction before it is added to the blockchain. PBFT is known for its efficiency and low resource consumption, making it a popular choice for many blockchain networks.
 * **Federated Byzantine Agreement (FBA):** FBA is a type of BFT consensus mechanism that allows each node in the network to choose a set of other nodes that it trusts, and consensus is reached when enough of these trusted nodes agree on a transaction.
@@ -49,7 +47,7 @@ There are several types of BFT consensus mechanisms, each with its unique featur
 
 ## Use Cases and Applications of BFT Consensus Mechanisms
 
-BFT consensus mechanisms have a wide range of use cases in the world of blockchain and cryptocurrencies. For example, both Bitcoin and Ethereum’s consensus algorithms, Proof-of-Work and Proof-of-Stake, incorporate elements of BFT for added security and efficiency.
+BFT consensus mechanisms have a wide range of use cases in the world of blockchain and cryptocurrencies. For example, both Bitcoin and Ethereum’s consensus algorithms, [Proof-of-Work and Proof-of-Stake](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)), incorporate elements of BFT for added security and efficiency.
 
 In addition to cryptocurrencies, BFT consensus mechanisms are also used in enterprise blockchain solutions. For example, Hyperledger Fabric, a blockchain framework for developing applications and solutions, uses a variant of PBFT for its consensus mechanism. This allows it to handle a high volume of transactions efficiently and securely.
 

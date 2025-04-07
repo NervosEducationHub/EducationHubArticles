@@ -9,19 +9,19 @@ author:
 ---
 
 
-At the heart of this technology are blockchain clients, which play a crucial role in maintaining the integrity and functionality of the blockchain network. Among these clients, light clients have emerged as a vital component, enabling resource-constrained devices to participate in the blockchain ecosystem. This article aims to provide an in-depth understanding of light clients, their operation, advantages, and the innovations shaping their future.
+At the heart of this technology are blockchain clients, which play a crucial role in maintaining the integrity and functionality of the blockchain network. Among these clients, light clients have emerged as a vital component, enabling resource-constrained devices to participate in the blockchain ecosystem without downloading the entire blockchain data. This article aims to provide an in-depth understanding of light clients, their operation, advantages, and the innovations shaping their future.
 
 
 ## Understanding Blockchain Clients
 
-A blockchain client is a software application that connects to the blockchain network and participates in the propagation and validation of transactions. These clients come in various forms, each serving a unique purpose within the network. The three primary types of blockchain clients are Full nodes, Archive nodes and Light clients.
+A blockchain client is a software application that connects to the blockchain network and participates in the propagation and validation of transactions. These clients come in various forms, each serving a unique purpose within the network. The three primary types of blockchain clients are [Full nodes](https://en.bitcoin.it/wiki/Full_node), Archive nodes and [Light clients](https://www.nervos.org/knowledge-base/ultimate_guide_to_light_clients).
 
 Full nodes are the most standard type of client, storing all blockchain data and verifying the network's rules. Archive nodes, on the other hand, retain everything included in a full node, along with an archive of the historical states of the chain.
 
 
-## Deep Dive into Light Clients
+## What is a Light Client? A Deep Dive
 
-Among these, light clients have garnered significant attention due to their unique characteristics and functionalities. A light client, also known as an SPV (Simplified Payment Verification) client, allows users to interact with the blockchain without having to download the entire blockchain data. This makes them ideal for devices with limited storage or processing capabilities.
+Among these, light clients have garnered significant attention due to their unique characteristics and functionalities. A light client, also known as an SPV ([Simplified Payment Verification](https://www.nervos.org/knowledge-base/what_is_SPV_(explainCKBot))) client, allows users to interact with the blockchain without having to download the entire blockchain data. This makes them ideal for devices with limited storage or processing capabilities.
 
 Light clients operate by downloading and verifying a chain of block headers, which are the smallest units forming a chain. Each block header contains a condensed version of the block's information, including the previous block's hash, the timestamp, and the Merkle tree root. The Merkle tree root is a data structure that holds a condensed representation of all transactions in a block. Light clients verify and archive these headers, and any additional information, such as transaction data, is requested from full nodes.
 
@@ -31,7 +31,7 @@ When a light client needs to verify a particular transaction, it requests the ne
 
 Despite their lightweight nature, light clients maintain a high level of security. They verify block headers and request additional data from trusted full nodes. This trust-minimized verification process ensures that light clients can interact with the blockchain securely, even without storing the entire blockchain data.
 
-Light clients also play a crucial role in facilitating cross-chain interactions like bridges or sidechains. These interactions allow different blockchain networks to communicate and share data, thereby enhancing the overall functionality and utility of the blockchain ecosystem.
+Light clients also play a crucial role in facilitating cross-chain interactions like [bridges](https://www.nervos.org/knowledge-base/what_are_blockchain_bridges_(explainCKBot)) or [sidechains](https://www.nervos.org/knowledge-base/sidechains_unlocking_the_potential). These interactions allow different blockchain networks to communicate and share data, thereby enhancing the overall functionality and utility of the blockchain ecosystem.
 
 
 ## Advantages of Light Clients
@@ -50,7 +50,7 @@ Imagine a series of islands (blockchains) with different resources. Bridges (cro
 
 ## Challenges and Solutions
 
-Despite their numerous advantages, light clients also face certain challenges, the most notable of which is the data availability problem. This problem arises when a light client cannot verify whether the data it needs is available on the network. To address this issue, potential solutions like erasure codes have been proposed. Erasure codes allow data to be reconstructed even if some parts are missing, ensuring data availability.
+Despite their numerous advantages, light clients also face certain challenges, the most notable of which is the [data availability](https://www.nervos.org/knowledge-base/what_is_data_%20availability_in_blockchain_(explainCKBot)) problem. This problem arises when a light client cannot verify whether the data it needs is available on the network. To address this issue, potential solutions like [erasure codes](https://en.wikipedia.org/wiki/Erasure_code) have been proposed. Erasure codes allow data to be reconstructed even if some parts are missing, ensuring data availability.
 
 Another challenge light clients face is the risk of interacting with dishonest full nodes. To mitigate this risk, the concept of fraud proofs has been introduced. Fraud proofs allow light clients to receive alerts about dishonest behavior, thereby enhancing their security.
 
