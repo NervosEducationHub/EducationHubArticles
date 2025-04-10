@@ -1,13 +1,15 @@
 ---
-title: 'What do “State” and “State Change” Mean in Blockchain?'
+title: 'What is State and How State Changes Work in Blockchain?'
 coverImage: 'images/image1.png'
 category: Blockchain, State
-subtitle: 'In the realm of blockchain, the term "state" holds paramount importance.'
+subtitle: 'In the realm of blockchain, the term "state" holds paramount importance. Understanding what state change means is crucial for grasping how blockchain technology functions at its core.'
 date: '2023-10-30T16:00:00.000Z'
 author: 
 - github:explainCKBot
 ---
 
+
+## What is State in Blockchain?
 
 At its core, the "state" in blockchain refers to the current status or snapshot of all data stored within the system. This includes but is not limited to account balances, contract code, and storage data. Essentially, the state is a reflection of all the transactions and operations that have taken place up to a given point in time. It's akin to a ledger in traditional finance, but with the added complexity and security features inherent to blockchain technology.
 
@@ -16,7 +18,7 @@ Diving deeper, the components of a blockchain state are multifaceted. Account ba
 Also worth mentioning here is the difference between “world state” and “transaction state.” The former represents the current status of the blockchain. Imagine it as a snapshot, capturing every account's balance, the status of every smart contract, and more. Every node in the blockchain network maintains a copy of this world state, ensuring that there's a consensus on the state of affairs at any given moment. Transaction state, on the other hand, is transient. When a transaction is initiated, it creates a temporary state change that isn’t immediately reflected in the world state. Only after the transaction is validated and added to a block the world state is updated, ensuring that only legitimate transactions, which adhere to the rules of the blockchain, influence the world state.
 
 
-## The Mechanics of "State Change" in Blockchain
+## What is State Change? The Mechanics in Blockchain
 
 Transitioning from the static concept of state, we encounter the dynamic process of "state change" or “state transition”. In essence, a state change signifies any alteration or modification to the blockchain's current state. The primary catalysts for these changes are transactions. Whether it's a transfer of cryptocurrency between two parties or the execution of a smart contract, each transaction induces a change in the blockchain's state.
 
@@ -36,14 +38,14 @@ This lifecycle of a smart contract, from its deployment to its interactions with
 
 Blockchain nodes, the individual computers that make up the network, play a pivotal role in managing the state. Each node maintains a copy of the blockchain's state, ensuring decentralization and redundancy. When a state change occurs, nodes update their copy, ensuring consistency across the network.
 
-A crucial tool in representing the state is a Merkle Tree—a data structure that allows for efficient and secure verification of content in large bodies of data. In the context of blockchain, Merkle Trees provide a compact summary of all the transactions in a block, facilitating quick verifications.
+A crucial tool in representing the state is a [Merkle Tree](https://en.wikipedia.org/wiki/Merkle_tree)—a data structure that allows for efficient and secure verification of content in large bodies of data. In the context of blockchain, Merkle Trees provide a compact summary of all the transactions in a block, facilitating quick verifications.
 
 
 ### Challenges and Solutions in State Management
 
-State management in blockchains isn't without challenges. As the blockchain grows, so does its state, leading to scalability issues. Storing and managing this ever-expanding state can become a bottleneck, especially because nodes need to store and update this data continually. This problem is often called [state bloat](https://www.nervos.org/knowledge-base/state_bloat_blockchain_%28explainCKBot%29) or state explosion.
+State management in blockchains isn't without challenges. As the blockchain grows, so does its state, leading to scalability issues. Storing and managing this ever-expanding state can become a bottleneck, especially because nodes need to store and update this data continually. This problem is often called [state bloat](https://www.nervos.org/knowledge-base/state_bloat_blockchain_(explainCKBot)) or state explosion.
 
-While several theoretical solutions target the state explosion problem in blockchains, including state pruning, state rent and off-chain state management, all but the last have yet to see successful application in practice. One of the few Layer 1 blockchains that have directly addressed state bloat is Nervos Networks’ Common Knowledge Base (CKB). 
+While several theoretical solutions target the state explosion problem in blockchains, including state pruning, state rent and off-chain state management, all but the last have yet to see successful application in practice. One of the few Layer 1 blockchains that have directly addressed state bloat is [Nervos Network](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain)’s Common Knowledge Base (CKB). 
 
 To learn more about how CKB deals with the state explosion problem, read this [article](https://www.nervos.org/knowledge-base/tokenomics_of_nervos_network).
 

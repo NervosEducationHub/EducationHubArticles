@@ -1,5 +1,5 @@
 ---
-title: 'Crypto Mining Hardware: Exploring CPU’s, GPU’s, and ASIC’s'
+title: 'Crypto Mining Hardware Explained: CPU, GPU, and ASIC Miners'
 coverImage: 'images/image1.png'
 category: Mining, ASIC, PoW
 subtitle: 'In the cryptocurrency industry, mining emerged early on as a pivotal process, with an underlying significance that cannot be overstated. But what exactly is crypto mining, and why does it command such importance?'
@@ -15,31 +15,31 @@ Delving deeper into the mechanics of the mining process unveils an intricate int
 At the heart of this operation are CPU’s, GPU’s, and ASIC’s - the triumvirate of hardware that powers crypto mining. The choice of hardware significantly impacts the dynamics of a mining ecosystem.
 
 
-## Exploring Central Processing Units (CPU’s) in Crypto Mining
+## CPU Mining: Using Central Processing Units for Cryptocurrency Mining
 
-Starting with CPU’s, or Central Processing Units, we can understand these as the brains of a computer. In the context of crypto mining, CPU mining involves using the computer's primary processor to execute the mining software and perform the requisite calculations.
+Starting with CPU’s, or [Central Processing Units](https://en.wikipedia.org/wiki/Central_processing_unit), we can understand these as the brains of a computer. In the context of crypto mining, CPU mining involves using the computer's primary processor to execute the mining software and perform the requisite calculations.
 
 While CPU’s are less powerful than GPU’s and ASIC’s, their versatility allows them to mine virtually any coin (in theory). This feature was especially useful in the early days of Bitcoin, when the network was less crowded, and the difficulty level was comparatively low. Today, high-performing CPU’s from manufacturers such as Intel and AMD, with their multiple cores and high clock speeds, still find relevance in mining certain altcoins which have been designed to only be mined with CPU’s.
 
 However, CPU mining is not without its shortcomings. CPU’s are far behind GPU’s and ASIC’s in terms of computational power. Once GPU’s and ASIC’s enter the equation, mining with a CPU won't be profitable.
 
 
-## Exploring Graphics Processing Units (GPU’s) in Crypto Mining
+## GPU Mining: Leveraging Graphics Processing Units for Higher Mining Efficiency
 
-Stepping into the realm of GPU mining, we find an upgrade in terms of sophistication. GPU’s, or Graphics Processing Units, were originally designed to render images and videos on a computer screen. However, their dedicated hardware for complex computation, as well as capability to execute simultaneous operations make them suitable for mining.
+Stepping into the realm of GPU mining, we find an upgrade in terms of sophistication. GPU’s, or [Graphics Processing Units](https://en.wikipedia.org/wiki/Graphics_processing_unit), were originally designed to render images and videos on a computer screen. However, their dedicated hardware for complex computation, as well as capability to execute simultaneous operations make them suitable for mining.
 
 Their strong computational abilities give GPU’s an optimal balance between performance and cost. NVIDIA and AMD GPU’s are leading the pack, hailed for their superior processing power and energy efficiency. Their versatility also enables mining a wide range of cryptocurrencies, making them a viable option for many miners.
 
 But, like CPU mining, GPU mining also has its trade-offs. While they outperform CPU’s, GPU’s cannot compete with ASIC’s. Once ASIC’s enter the equation, GPU’s will no longer be profitable to mine with.
 
 
-## Exploring Application-Specific Integrated Circuits (ASIC’s) in Crypto Mining
+## ASIC Mining: Application-Specific Integrated Circuits for Maximum Mining Performance
 
-The pinnacle of crypto mining hardware is the ASIC, or Application-Specific Integrated Circuit. These devices, custom-designed for mining specific cryptocurrencies, offer unmatched computational power. They outstrip both CPU’s and GPU’s in their speed and efficiency at the task.
+The pinnacle of crypto mining hardware is the ASIC, or [Application-Specific Integrated Circuit](https://en.wikipedia.org/wiki/Application-specific_integrated_circuit). These devices, custom-designed for mining specific cryptocurrencies, offer unmatched computational power. They outstrip both CPU’s and GPU’s in their speed and efficiency at the task.
 
-[Bitmain](https://www.bitmain.com/)'s Antminer series is among the most renowned ASIC’s in the crypto mining arena, offering high-performance solutions optimized for various cryptocurrencies. The speed and efficiency of these devices make them highly desirable for serious miners looking to maximize profitability.
+Bitmain's Antminer series is among the most renowned ASIC’s in the crypto mining arena, offering high-performance solutions optimized for various cryptocurrencies. The speed and efficiency of these devices make them highly desirable for serious miners looking to maximize profitability.
 
-Nonetheless, ASIC’s also come with their caveats. Their specificity to a particular algorithm restricts their flexibility, making them useless if the mining algorithm of the targeted cryptocurrency is changed through a hard fork. Additionally, ASIC’s command a higher upfront cost, making them a significant investment that may take time to recoup (and with the volatility of cryptocurrencies, may never be recouped).
+Nonetheless, ASIC’s also come with their caveats. Their specificity to a particular algorithm restricts their flexibility, making them useless if the mining algorithm of the targeted cryptocurrency is changed through a [hard fork](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork_(explainCKBot)). Additionally, ASIC’s command a higher upfront cost, making them a significant investment that may take time to recoup (and with the volatility of cryptocurrencies, may never be recouped).
 
 
 ## Comparing CPU’s, GPU’s, and ASIC’s in Crypto Mining

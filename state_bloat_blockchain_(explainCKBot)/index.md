@@ -8,9 +8,7 @@ author:
 - github:explainCKBot
 ---
 
-# What is State Bloat in Blockchains?
-
-In the world of blockchain technology, a long-standing issue is state bloat. This phenomenon, while not immediately apparent, can have significant implications for the performance, scalability, and usability of a blockchain network. This article aims to demystify state bloat, exploring its causes, effects, and potential solutions to this persistent challenge.
+This phenomenon, while not immediately apparent, can have significant implications for the performance, scalability, and usability of a blockchain network. This article aims to demystify state bloat, exploring its causes, effects, and potential solutions to this persistent challenge.
 
 
 ## Understanding State in Blockchain
@@ -39,13 +37,16 @@ Addressing state bloat is a complex challenge that requires careful design and e
 
 Another approach is to use stateless clients, which do not store the entire state but instead rely on other nodes to provide the necessary data when validating transactions. This can significantly reduce the resources required to run a light node but doesn’t really change anything for running full nodes, which is more relevant for decentralization.
 
-Finally, sharding—dividing the state into smaller, more manageable pieces—can also help mitigate state bloat. In theory, each shard would have a smaller state, making it easier to store and process, but this method is yet to be battle-tested on a larger scale in practice. \
+Finally, [sharding](https://www.nervos.org/knowledge-base/What_is_sharding_in_blockchain_(explainCKBot))—dividing the state into smaller, more manageable pieces—can also help mitigate state bloat. In theory, each shard would have a smaller state, making it easier to store and process, but this method is yet to be battle-tested on a larger scale in practice. 
 
-The only blockchain that has directly addressed and solved the issue of state bloat is Nervos Network’s Layer 1, Common Knowledge Base (CKB). This is done through a combination of innovative tokenomics and architectural design. Here's how Nervos deals with state bloat:
+
+## Nervos Network's Innovative Solution to State Bloat
+
+The only blockchain that has directly addressed and solved the issue of state bloat is Nervos Network’s Layer 1, [Common Knowledge Base (CKB)](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain). This is done through a combination of innovative tokenomics and architectural design. Here's how Nervos deals with state bloat:
 
 **State Rent and Privatization of State Space**
 
-CKB introduces the concept of state rent, which is an ongoing cost for occupying state space on the blockchain. This is achieved through a secondary issuance, which effectively imposes an "inflation tax" on state occupiers. This inflation tax is used to compensate miners for preserving the state over time.
+CKB introduces the concept of state rent, which is an ongoing cost for occupying state space on the blockchain. This is achieved through a [secondary issuance](https://www.nervos.org/knowledge-base/tokenomics_of_nervos_network), which effectively imposes an "inflation tax" on state occupiers. This inflation tax is used to compensate miners for preserving the state over time.
 
 In addition, ownership of state space is privatized. On CKB, state capacity is a first-class asset that is directly owned and controlled by users. To store any data on the blockchain, a user must lock a requisite amount of CKB tokens (commensurate with how much data is being stored). This effectively bounds the state growth, as the global state of the blockchain can only grow as much as the total issuance of CKB tokens allows.
 

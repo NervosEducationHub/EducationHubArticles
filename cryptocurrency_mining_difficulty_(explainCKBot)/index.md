@@ -1,5 +1,5 @@
 ---
-title: 'What is Cryptocurrency Mining Difficulty and How Is It Adjusted?'
+title: 'Cryptocurrency Mining Difficulty: How It Works and Adjusts'
 coverImage: 'images/image1.png'
 category: PoW, mining, ASIC
 subtitle: 'Cryptocurrency mining has become a topic of interest for individuals and businesses worldwide.'
@@ -11,14 +11,14 @@ author:
 Mining, in the cryptocurrency context, is the process by which new digital currency coins are generated, and transactions are confirmed and added to the blockchain public ledger. However, mining is not a straightforward task. It involves complex computations and a variable known as mining difficulty, which is a crucial aspect of the process. This article aims to explain the mining difficulty and how it is adjusted in cryptocurrency mining.
 
 
-## Understanding Cryptocurrency Mining
+## What Is Crypto Mining?
 
-Cryptocurrency mining is a mechanism that forms the backbone of most blockchain networks. Miners are essential to the operation and security of these networks. They perform the computational work required to validate transactions and add them to the blockchain. In return for their efforts, miners are awarded new cryptocurrency tokens, a process known as block rewards.
+Cryptocurrency mining is a mechanism that forms the backbone of most blockchain networks. Miners are essential to the operation and security of these networks. They perform the computational work required to validate transactions and add them to the blockchain. In return for their efforts, miners are awarded new cryptocurrency tokens, a process known as [block rewards](https://www.investopedia.com/terms/b/block-reward.asp). 
 
-The work miners undertake is known as the Proof of Work (PoW) consensus algorithm. This algorithm requires miners to solve complex mathematical puzzles to add a new block to the blockchain. The complexity of these puzzles depends on the number of miners participating in the network and the total computing power they collectively possess, known as the network's hash rate.
+The work miners undertake is known as the [Proof of Work (PoW)](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)) consensus algorithm. This algorithm requires miners to solve complex mathematical puzzles to add a new block to the blockchain. The complexity of these puzzles depends on the number of miners participating in the network and the total computing power they collectively possess, known as the network's [hash rate](https://en.wikipedia.org/wiki/Hashrate).
 
 
-## Diving Deeper into Mining Difficulty
+## How Mining Difficulty Works?
 
 The mining difficulty is a measure of how hard it is for miners to solve mathematical puzzles under the PoW mechanism. This difficulty level ensures the network's security and stability by regulating the rate at which new blocks are added to the blockchain. The more miners there are in the network with high hash rates, the higher the difficulty level will be.
 
@@ -29,9 +29,9 @@ The network's difficulty level is vital for maintaining a balanced rate of new b
 
 ## Adjustments of Mining Difficulty
 
-To maintain network stability, the mining difficulty is periodically adjusted based on the total network hash rate. This adjustment ensures that the average time between blocks remains relatively constant, regardless of changes in the network's hash rate. In Bitcoin's case, this adjustment happens approximately every 2016 blocks, which equates to roughly two weeks.
+To maintain network stability, the mining difficulty is periodically adjusted based on the total network hash rate. This adjustment ensures that the average time between blocks remains relatively constant, regardless of changes in the network's hash rate. In Bitcoin's case, this adjustment happens approximately every 2016 blocks, which equates to roughly two weeks. In [Nervos CKB](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain)’s case, the mining difficulty adjusts with each Epoch, approximately every 4 hours.
 
-The hash rate is a critical factor in this adjustment. When more miners join the network, the hash rate increases and the difficulty level rises to keep the block generation time constant. Conversely, if many miners leave the network, lowering the hash rate, the difficulty decreases. This adjustment aims to maintain a steady average block time of 10 minutes. If the preceding 2016 blocks were mined faster than this, the difficulty increases; if they were mined slower, the difficulty decreases.
+The hash rate is a critical factor in this adjustment. When more miners join the network, the hash rate increases and the difficulty level rises to keep the block generation time constant. Conversely, if many miners leave the network, lowering the hash rate, the difficulty decreases. The adjustment of Bitcoin’s mining difficulty aims to maintain a steady average block time of 10 minutes. If the preceding 2016 blocks were mined faster than this, the difficulty increases; if they were mined slower, the difficulty decreases.
 
 
 ## The Broader Impact of Mining Difficulty
@@ -41,7 +41,7 @@ The mining difficulty doesn't just affect miners; it also has wider implications
 Moreover, miners need more powerful, energy-consuming hardware to solve the mathematical puzzles as the difficulty increases. This increased energy demand contributes to concerns about how this power is generated and if it is being used at the expense of other uses.
 
 
-## Frequently Asked Questions about Mining Difficulty
+## FAQs about Mining Difficulty
 
 Mining difficulty is a complex subject that can raise many questions. 
 

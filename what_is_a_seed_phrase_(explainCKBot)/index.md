@@ -1,5 +1,5 @@
 ---
-title: 'What is a Seed Phrase and Why Is It Crucial for Cryptocurrency Wallets?'
+title: 'What is a Seed Phrase? Your Key to Cryptocurrency Protection'
 coverImage: 'images/image1.png'
 category: wallet
 subtitle: 'In the sprawling digital landscape of cryptocurrencies, understanding the mechanisms of protection and security is paramount.'
@@ -9,12 +9,12 @@ author:
 ---
 
 
-Among the key tools to secure digital assets, seed phrases play a critical role. This article aims to unravel the concept of seed phrases and their crucial role in safeguarding cryptocurrency wallets. 
+Among the key tools to secure digital assets, seed phrases play a critical role for anyone using cryptocurrency wallets. This article aims to explain what a seed phrase is and why it's crucial for protecting your digital assets.  
 
 
 ## Understanding Cryptocurrency Wallets
 
-A cryptocurrency wallet is a special piece of software used for storing private keys and sending and receiving cryptocurrencies. It can be perceived as a bank account for cryptocurrencies. These wallets are categorized into two main types: software (online, desktop, mobile) and hardware. Online wallets are cloud-based and accessible from any device, while desktop and mobile wallets are downloaded to specific devices. On the other hand, hardware wallets store a user's private keys on a physical device, usually something that looks like a portable USB stick.
+A cryptocurrency wallet is a special piece of software used for storing private keys and sending and receiving cryptocurrencies. It can be perceived as a bank account for cryptocurrencies. These wallets are categorized into two main types: software (online, desktop, mobile) and hardware. Online wallets are cloud-based and accessible from any device, while desktop and mobile wallets are downloaded to specific devices. On the other hand, hardware wallets ([cold wallets](https://www.nervos.org/knowledge-base/what_is_a_cold_wallet_(explainCKBot))) store a user's private keys on a physical device, usually something that looks like a portable USB stick.
 
 These wallets operate based on public and private keys. The public key can be likened to a bank account number, serving as an address for receiving funds. Conversely, the private key is akin to a PIN, a secret piece of information that is used to authenticate transactions. It's vital to keep this private key secure, as its exposure could result in losing your cryptocurrency.
 
@@ -30,10 +30,8 @@ Seed phrases typically consist of 12, 15, 18, 21, or 24 words. The number of wor
 
 Seed phrases are generated through a process based on cryptographic standards, the most common of which is [BIP-39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki) (Bitcoin Improvement Proposal 39). Here's a simplified overview of the process:
 
-
-
-1. **Random Number Generation:** The process begins with the generation of a random number, also known as entropy. The level of entropy determines the security of the seed; more entropy results in a seed that's harder to guess.
-2. **Checksum Creation: **Next, a checksum of the random number is generated. A checksum is a form of redundancy check, a simple way to detect errors that may have been introduced during the transmission or storage of the data.
+1. **Random Number Generation:** The process begins with the generation of a random number, also known as [entropy](https://en.wikipedia.org/wiki/Entropy). The level of entropy determines the security of the seed; more entropy results in a seed that's harder to guess.
+2. **Checksum Creation:** Next, a checksum of the random number is generated. A checksum is a form of redundancy check, a simple way to detect errors that may have been introduced during the transmission or storage of the data.
 3. **Combine Entropy and Checksum:** The checksum generated in step 2 is appended to the end of the random number generated in step 1.
 4. **Divide into Sections:** The combined data is then divided into sections (according to the number of desired words in the seed phrase).
 5. **Map to a Wordlist:** Each section is mapped to a word from the wordlist. The number represents a position in the wordlist and thus can be translated into a word.

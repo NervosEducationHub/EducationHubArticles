@@ -9,7 +9,7 @@ author:
 ---
 
 
-This article will dissect these two concepts, shedding light on their meanings, characteristics, significance, and real-world examples.
+This article will explain what a hard fork and soft fork are, their key characteristics, significance in the blockchain ecosystem, and provide real-world examples to illustrate these important concepts.
 
 
 ## What is a Fork in Cryptocurrencies?
@@ -29,12 +29,12 @@ Forks also have the potential to spawn new cryptocurrencies. By creating a diver
 ## Diving Deeper into Hard Forks
 
 
-### Definition and Characteristics of a Hard Fork
+### What is a Hard Fork? Definition and Characteristics
 
 A hard fork is a type of cryptocurrency fork that introduces changes to the blockchain protocol, rendering older versions invalid. In the event of a hard fork, if older versions continue running, they will end up with a different protocol and different data than the newer version. This discrepancy can result in significant confusion and user issues.
 
 
-### Reasons for Implementing a Hard Fork
+### Why Implement a Hard Fork?
 
 The reasons behind implementing a hard fork are varied. They may involve changing defining parameters related to the block size, the mining algorithm, or limits to additional information that can be added. A change to any of these rules could cause blocks to be accepted by the new protocol but rejected by older versions (or vice versa), potentially leading to serious problems.
 
@@ -49,12 +49,12 @@ A notable example of a hard fork is the [creation of Bitcoin Cash from Bitcoin](
 ## Diving Deeper into Soft Forks
 
 
-### Definition and Characteristics of a Soft Fork
+### What is a Soft Fork? Definition and Characteristics
 
 Unlike a hard fork, a soft fork is a change to the blockchain protocol that remains backward-compatible with older versions. That means that even after the soft fork, the old nodes in the network will still remain in consensus with nodes supporting the soft fork.
 
 
-### Reasons for Implementing a Soft Fork
+### Why Implement a Soft Fork?
 
 Soft forks are generally implemented to tighten rules, make technical changes, or add a function that doesn't affect the blockchain's structure in any significant way. In the case of a soft fork, new version blocks will be accepted by old version nodes. However, the newer, "tighter" version may reject blocks older nodes consider valid. This backward compatibility is what sets soft forks apart from hard forks. It’s critical that a majority of the network supports the soft fork.
 
@@ -63,7 +63,7 @@ In a soft fork scenario, miners running the old version would realize their bloc
 
 ### Real-World Examples of Soft Forks
 
-One example of a soft fork in the Bitcoin network is the implementation of the Segregated Witness (SegWit) update. SegWit was introduced to solve the issue of transaction malleability and improve Bitcoin's scalability. It was implemented as a soft fork, meaning that nodes running older versions of the Bitcoin software could still recognize and validate transactions after the update.
+One example of a soft fork in the Bitcoin network is the implementation of the [Segregated Witness (SegWit)](https://en.wikipedia.org/wiki/SegWit) update. SegWit was introduced to solve the issue of transaction malleability and improve Bitcoin's scalability. It was implemented as a soft fork, meaning that nodes running older versions of the Bitcoin software could still recognize and validate transactions after the update. 
 
 
 ## Conclusion
