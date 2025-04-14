@@ -1,5 +1,5 @@
 ---
-title: 'What is Slashing in Proof-of-Stake (PoS)?'
+title: 'What is Slashing in Proof-of-Stake (PoS) Blockchains?'
 coverImage: 'images/image1.png'
 category: Popular
 subtitle: 'In the realm of blockchain technology, Proof-of-Stake (PoS) emerges as a consensus algorithm that stands apart from its predecessor, Proof-of-Work (PoW).'
@@ -11,9 +11,9 @@ author:
 PoS offers a greener, more efficient solution to the problem of achieving consensus in a decentralized network. At the heart of PoS lies a mechanism known as slashing, which ensures the network's integrity and security. This article delves into the intricacies of slashing, exploring its definition, importance, technical mechanics, and the discourse surrounding it in the blockchain community.
 
 
-## Defining Slashing
+## What is Slashing?
 
-Slashing is a term synonymous with penalty in the context of PoS blockchains. It entails punitive action taken against validators who act maliciously or negligently, jeopardizing the network's security. Historically, slashing has its roots in the early days of PoS implementations, serving as a deterrent against dishonest behavior among validators.
+Slashing is a term synonymous with penalty in the context of PoS blockchains. It entails punitive action taken against [validators](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators_(explainCKBot)) who act maliciously or negligently, jeopardizing the network's security. Historically, slashing has its roots in the early days of PoS implementations, serving as a deterrent against dishonest behavior among validators.
 
 
 ## Purpose and Importance of Slashing
@@ -30,9 +30,9 @@ Delving into the technical realm, slashing operates on the principle of penalizi
 
 **Double Signing:** A cardinal sin in the blockchain realm is the act of double signing, where a validator signs multiple blocks at the same height. This act can lead to network forks, causing a rift in the blockchain's state and undermining its security.
 
-**Long-Range Attacks:** Validators who attempt to rewrite the blockchain's history by creating an alternate chain from a point far back in the history can cause what is known as a long-range attack. Slashing is employed to deter such malicious attempts.
+**Long-Range Attacks:** Validators who attempt to rewrite the blockchain's history by creating an alternate chain from a point far back in the history can cause what is known as a [long-range attack](https://messari.io/report/long-range-attack). Slashing is employed to deter such malicious attempts.
 
-**Surround Voting: **In PoS systems, validators are required to vote on the validity of proposed blocks. Surround voting occurs when a validator votes within a range that encompasses previously cast votes, which is a violation of protocol rules.
+**Surround Voting:** In PoS systems, validators are required to vote on the validity of proposed blocks. Surround voting occurs when a validator votes within a range that encompasses previously cast votes, which is a violation of protocol rules.
 
 **Censorship:** While not always enshrined in the protocol, some PoS systems may employ slashing as a deterrent against validators who engage in censorship, thereby promoting a fair and open network.
 
@@ -47,7 +47,7 @@ The repercussions for validators who are found to be in violation of the protoco
 
 **Reputation Damage:** The reputational damage incurred can be significant, dissuading other network participants from delegating their assets to the slashed validator in the future.
 
-**Reduced Earnings: **Even if not ejected, slashed validators may see a reduction in their earnings due to the loss of delegated assets and a lower ranking within the validator set.
+**Reduced Earnings:** Even if not ejected, slashed validators may see a reduction in their earnings due to the loss of delegated assets and a lower ranking within the validator set.
 
 
 ## Preventing Slashing
@@ -66,7 +66,7 @@ The discourse on social slashing pivots around the idea that validators should n
 
 The actual implementation of social slashing is a complex endeavor. Unlike traditional slashing, which is codified within the protocol, social slashing may require community coordination for enforcement. One proposed method is through a user-activated soft fork (UASF), where network participants collectively agree to enforce social slashing rules.
 
-The UASF approach entails a coordinated effort among network participants to agree on and enforce new social slashing rules without requiring a hard fork or protocol upgrade. This method underscores the decentralized ethos of blockchain networks, empowering the community to enforce social standards through collective action.
+The UASF approach entails a coordinated effort among network participants to agree on and enforce new social slashing rules without requiring a [hard fork](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork_(explainCKBot)) or protocol upgrade. This method underscores the decentralized ethos of blockchain networks, empowering the community to enforce social standards through collective action.
 
 
 ### Challenges and Criticisms
