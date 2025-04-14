@@ -1,5 +1,5 @@
 ---
-title: 'Consensus Mechanisms: Blockchain's Answer to Sybil Attacks'
+title: 'Understanding Sybil Attacks and Consensus Mechanisms in Blockchain'
 coverImage: 'images/image1.png'
 category: consensus
 subtitle: 'Blockchain technology, the backbone of cryptocurrencies like Bitcoin and Ethereum, relies on decentralized systems to validate and record transactions. However, decentralization brings its own set of challenges, one of which is the Sybil attack.'
