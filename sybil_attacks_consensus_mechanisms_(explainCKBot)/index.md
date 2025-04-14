@@ -1,5 +1,5 @@
 ---
-title: 'Understanding Sybil Attacks and Consensus Mechanisms in Blockchain'
+title: 'Consensus Mechanisms: Blockchain's Answer to Sybil Attacks'
 coverImage: 'images/image1.png'
 category: consensus
 subtitle: 'Blockchain technology, the backbone of cryptocurrencies like Bitcoin and Ethereum, relies on decentralized systems to validate and record transactions. However, decentralization brings its own set of challenges, one of which is the Sybil attack.'
@@ -9,10 +9,10 @@ author:
 ---
 
 
-This security threat, combined with the need for consensus in a decentralized environment, underscores the importance of robust mechanisms to ensure the integrity of blockchain networks.
+This security threat, combined with the need for consensus in a decentralized environment, underscores the importance of robust Sybil resistance mechanisms to ensure the integrity and security of blockchain networks.
 
 
-## The Sybil Attack: A Threat to Decentralized Systems
+## What is a Sybil Attack? The Primary Threat to Decentralized Systems
 
 In a Sybil attack, a single adversary controls multiple nodes in a network, primarily to subvert its functioning. Named after a psychiatric case involving multiple personalities, this attack sees the malicious actor creating many pseudonymous identities, granting them disproportionate influence over the network.
 
@@ -37,7 +37,7 @@ For a blockchain to function effectively, all its participants must agree on a s
 
 **Block Creation:** Unlike PoW, where miners employ computation, in PoS, validators are chosen to create new blocks based on the number of coins they hold and are willing to "stake" or lock up as collateral. This process is orders of magnitude less energy-intensive than PoW.
 
-**Security Aspect:** PoS secures the network by ensuring that those with the most at stake (the validators) are responsible for maintaining the network's integrity. Any malicious activity would result in their staked coins being destroyed (slashed), making deceit a costly endeavor.
+**Security Aspect:** PoS secures the network by ensuring that those with the most at stake (the validators) are responsible for maintaining the network's integrity. Any malicious activity would result in their staked coins being destroyed ([slashed](https://www.nervos.org/knowledge-base/slashing_in_PoS_(explainCKBot))), making deceit a costly endeavor.
 
 
 ## Sybil Resistance and Chain Selection in Consensus Mechanisms:
