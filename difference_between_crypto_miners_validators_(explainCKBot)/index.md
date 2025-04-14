@@ -12,18 +12,18 @@ author:
 As we delve into the nuances of these mechanisms, we'll unravel the roles, operations, and distinctions between miners and validators, paving the way toward a deeper understanding of the cryptographic landscape.
 
 
-## Miners vs. Validators: What’s the Difference?
+## Crypto Miners vs. Validators: Key Differences Explained
 
 ### The Role of Miners in Proof-of-Work (PoW) Cryptocurrencies
 
 
 #### Function:
 
-Miners are the workhorses in PoW-based cryptocurrencies like Bitcoin. They validate transactions and create new blocks by solving complex mathematical puzzles. This process is crucial for the security and functionality of the network.
+Crypto miners are the workhorses in PoW-based cryptocurrencies like Bitcoin. They validate transactions and create new blocks by solving complex mathematical puzzles. This process is crucial for the security and functionality of the network.
 
 #### Operation:
 
-Miners compete to solve a mathematical puzzle, which requires finding a hash value that meets certain conditions set by the protocol. This process, known as mining, is computationally intensive and requires significant energy resources. Once a miner successfully solves the puzzle, they get to propose a new block to the network of nodes, each of which then verifies the solution and adds the block to its copy of the blockchain.
+PoW miners compete to solve a mathematical puzzle, which requires finding a hash value that meets certain conditions set by the protocol. This mining process is computationally intensive and requires significant energy resources. Once a miner successfully solves the puzzle, they get to propose a new block to the network of nodes, each of which then verifies the solution and adds the block to its copy of the blockchain.
 
 #### Rewards:
 
@@ -42,12 +42,12 @@ Validators are chosen to propose new blocks based on their stake, among other fa
 
 #### Rewards:
 
-Validators are rewarded with transaction fees and, sometimes, additional coins created by the network. The rewards are typically shared among all validators in proportion to their stakes.
+PoS validators are rewarded with transaction fees and, sometimes, additional coins created by the network. The rewards are typically shared among all validators in proportion to their stakes.
 
 
-## Key Differences
+## Key Differences Between Crypto Miners and Validators
 
-One of the key differences between miners in PoW networks and validators in PoS networks is how the winning ones are chosen to propose new blocks and get the block rewards.
+One of the fundamental differences between crypto miners in PoW networks and validators in PoS networks is how the winning ones are chosen to propose new blocks and get the block rewards.
 
 Namely, in PoW networks, miners are not selected; instead, they compete to solve complex mathematical puzzles using computational power. The first to solve the puzzle gets to add a new block to the blockchain and is rewarded for their effort.
 
@@ -57,7 +57,7 @@ In essence, PoW relies on computational power and competition among miners, whil
 
 Another stark difference between miners and validators lies in energy consumption. PoW mining is notoriously energy-intensive, while PoS validation is much more energy-efficient.
 
-The entry barrier to becoming a miner is high due to the need for powerful and expensive hardware. On the contrary, becoming a validator in a PoS system is somewhat easier, though it may require holding a significant amount of cryptocurrency.
+The entry barrier to becoming a miner is high due to the need for powerful and expensive [mining hardware](https://www.nervos.org/knowledge-base/crypto_mining_hardware_(explainCKBot)). On the contrary, becoming a validator in a PoS system is somewhat easier, though it may require holding a significant amount of cryptocurrency.
 
 Both mechanisms offer robust security but through different means. PoW relies on the high cost of attacking the network, while PoS leverages the financial interest validators have in maintaining network integrity.
 
