@@ -8,10 +8,10 @@ author:
 - github:explainCKBot
 ---
 
-This article delves into the intricacies of precompiles, shedding light on their nature, types, technical aspects, and broader implications in the blockchain sphere.
+These precompiled contracts enhance blockchain efficiency by handling complex operations at the protocol level rather than through standard smart contracts. This guide explores what precompiles are, how they function within the [Ethereum Virtual Machine (EVM)](https://ethereum.org/en/developers/docs/evm/), and their significance in blockchain development.
 
 
-## The Nature of Precompiles
+## Understanding Precompiles in Blockchain
 
 Precompiled contracts, commonly known as precompiles, are a unique and integral part of blockchain technology, specifically within the Ethereum Virtual Machine (EVM). Unlike standard smart contracts that are written in high-level languages like Solidity and then compiled into bytecode for execution on the EVM, precompiles are, as their name suggests, pre-built into the Ethereum protocol itself.
 
@@ -22,7 +22,7 @@ The technical intricacies of precompiles are important to understand. They are d
 To understand their efficiency, consider the gas costs associated with executing operations on the blockchain. Operations executed via precompiles consume a fraction of gas compared to if they were written in Solidity. This is because precompiles are optimized at the protocol level and implemented in the node software, allowing for more efficient computation and reduced transaction costs.
 
 
-### Differentiating from Standard Smart Contracts
+### How Precompiles Differ from Standard Smart Contracts
 
 Standard smart contracts, once deployed, reside at specific addresses on the blockchain and are executed by the EVM when called upon. They are versatile and can be written to perform a wide range of functions as per the developer's requirements.
 
@@ -35,20 +35,20 @@ A classic example of using precompiles is in the implementation of cryptographic
 
 ## Types of Precompiles and Their Functions
 
-Ethereum's precompiles, residing at predefined addresses within the Ethereum Virtual Machine (EVM), offer a range of functions. Initially, Ethereum started with a handful of precompiles but expanded this list through various network upgrades like the Byzantium and Istanbul forks. Each of these precompiles serves a specialized purpose, primarily related to cryptographic operations and other complex calculations.
+Ethereum's precompiles, residing at predefined addresses within the Ethereum Virtual Machine (EVM), offer a range of functions. Initially, Ethereum started with a handful of precompiles but expanded this list through various network upgrades like the [Byzantium fork](https://www.investopedia.com/news/what-byzantium-hard-fork-ethereum/) and [Istanbul fork](https://decrypt.co/14206/ethereums-istanbul-hard-fork-what-happened-and-why-it-matters). Each of these precompiles serves a specialized purpose, primarily related to cryptographic operations and other complex calculations.
 
 
 ### Specific Functions of Precompiles
 
 **Elliptic Curve Digital Signature Recovery (ecrecover):** This precompile at address 0x01 is vital for recovering an Ethereum address from a digital signature. It's fundamental in verifying transactions, as it ascertains the signer of a transaction. In simpler terms, ecrecover helps to confirm 'who' signed a message being presented to a smart contract, a crucial aspect of maintaining Ethereum's transaction integrity for abstractions built a top it.
 
-**SHA-256 and RIPEMD-160 Hash Functions:** Found at addresses 0x02 and 0x03, these precompiles handle hash operations. [SHA-256](https://www.nervos.org/knowledge-base/SHA256_most_used_hash_function_(explainCKBot)) is a widely used cryptographic hash function that ensures data integrity. RIPEMD-160, on the other hand, is less common in Ethereum but is integral to Bitcoin's address-creation process. These precompiles allow Ethereum verify transactions involving Bitcoin.
+**SHA-256 and RIPEMD-160 Hash Functions:** Found at addresses 0x02 and 0x03, these precompiles handle hash operations. [SHA-256](https://www.nervos.org/knowledge-base/SHA256_most_used_hash_function_(explainCKBot)) is a widely used cryptographic hash function that ensures data integrity.  [RIPEMD-160](https://en.bitcoin.it/wiki/RIPEMD-160), on the other hand, is less common in Ethereum but is integral to Bitcoin's address-creation process. These precompiles allow Ethereum verify transactions involving Bitcoin.
 
 **Identity Function (Identity):** Located at address 0x04, this simple yet efficient precompile performs data copying operations. It's essentially a memory copying tool within the EVM, enabling quick and gas-efficient copying of data.
 
 **Modular Exponentiation (Modexp):** This precompile, introduced for advanced cryptographic operations like RSA encryption, facilitates modular exponentiation, a mathematical operation used in public-key cryptography.
 
-**Elliptic Curve Operations (ecAdd, ecMul, and ecPairing): **Addresses 0x06, 0x07, and 0x08 host precompiles for elliptic curve operations essential for [Zero Knowledge Proof](https://www.nervos.org/knowledge-base/zero_knowledge_proofs_(explainCKBot)) (ZKP) constructions. ecAdd and ecMul perform addition and multiplication on elliptic curve points, respectively, while ecPairing checks pairs of points for a specific elliptic curve relation.
+**Elliptic Curve Operations (ecAdd, ecMul, and ecPairing):** Addresses 0x06, 0x07, and 0x08 host precompiles for elliptic curve operations essential for [Zero Knowledge Proof](https://www.nervos.org/knowledge-base/zero_knowledge_proofs_(explainCKBot)) (ZKP) constructions. ecAdd and ecMul perform addition and multiplication on elliptic curve points, respectively, while ecPairing checks pairs of points for a specific elliptic curve relation.
 
 **Blake2 Compression Function (Blake2f):** Added in the Istanbul upgrade, this precompile at address 0x09 supports the Blake2 hash function, facilitating efficient data compression, and is particularly relevant for interoperability with Zcash, another blockchain network.
 
