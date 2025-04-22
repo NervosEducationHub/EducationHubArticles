@@ -2,7 +2,7 @@
 title: 'What are the Implications of Cryptocurrency Forks?'
 coverImage: 'images/image1.png'
 category:
-subtitle: 'Forks have emerged as pivotal events in cryptocurrency, reshaping the landscape in ways both subtle and seismic ways.'
+subtitle: 'Cryptocurrency forks have emerged as pivotal events in the blockchain ecosystem, reshaping the digital assets landscape in both subtle and seismic ways.'
 date: '2024-04-09T16:00:00.000Z'
 author:
 - github:explainCKBot
@@ -11,12 +11,12 @@ author:
 It's vital to understand that a cryptocurrency fork is essentially a divergence in the blockchain, leading to the creation of two separate paths: one that adheres to the old protocol and another that embarks on a new trajectory. This article will unravel the complexities of these forks and their far-reaching implications.
 
 
-## Overview of Cryptocurrency Forks
+## What is a Cryptocurrency Fork?
 
 A cryptocurrency fork occurs when changes are made to the existing blockchain protocol, leading to a split in the network. This can result in the creation of a new cryptocurrency or significant modifications to the existing one. The reasons for a fork can range from disagreements among developers to upgrades for enhancing security or functionality. Understanding the types of forks – [soft forks and hard forks](https://www.nervos.org/knowledge-base/What_are_implications_of_forks_(explainCKBot)) – is crucial, as each carries different implications for the blockchain and its users.
 
 
-## The Mechanics of Forks
+## The Mechanics of Blockchain Forks
 
 Forks are initiated through changes in the blockchain's code, proposed by developers. Soft forks, characterized by backward compatibility, allow “old” nodes to recognize “new” transactions. However, these forks need a majority of the network's hash power for successful implementation. In contrast, hard forks, which are not backward-compatible, require all nodes to upgrade. They can even create a distinct and separate chain, creating new cryptocurrencies, such as the example of Bitcoin Cash emerging from Bitcoin.
 
@@ -35,20 +35,20 @@ From a technical standpoint, forks can strain a blockchain network by splitting 
 
 ### Bitcoin vs. Bitcoin Cash & Bitcoin SV Forks
 
-The Bitcoin fork that led to the creation of Bitcoin Cash in 2017 was a landmark event in cryptocurrency history. This fork was driven by a fundamental disagreement over Bitcoin's scalability. The original Bitcoin network could handle only a limited number of transactions per block, leading to slower transaction times and higher fees as Bitcoin's popularity surged.
+The Bitcoin fork that led to the creation of [Bitcoin Cash](https://en.wikipedia.org/wiki/Bitcoin_Cash) in 2017 was a landmark event in cryptocurrency history. This fork was driven by a fundamental disagreement over Bitcoin's scalability. The original Bitcoin network could handle only a limited number of transactions per block, leading to slower transaction times and higher fees as Bitcoin's popularity surged.
 
 A segment of the Bitcoin community advocated for increasing the block size to handle more transactions. This group argued that larger blocks were essential for Bitcoin to scale effectively and fulfill its potential as a digital cash system. However, another segment of the community was concerned that larger blocks would lead to greater centralization, since larger blocks require more computational power to process, potentially excluding smaller miners.
 
 The inability to reach a consensus led to a hard fork, and Bitcoin Cash was born, with a block size of 8 MB compared to Bitcoin's 1 MB. The fork meant that anyone who owned Bitcoin at the time of the fork would also own an equivalent amount of Bitcoin Cash. This split was significant not just technically but also ideologically, as it represented divergent visions for Bitcoin's future.
 
-Bitcoin SV, or Bitcoin Satoshi’s Vision, further forked from Bitcoin Cash in 2018. This fork was driven by disagreements over Bitcoin Cash's future, with a group led by Craig Wright and Calvin Ayre advocating for a protocol closer to what they claimed was Satoshi Nakamoto's original vision, including even larger block sizes. Bitcoin SV increased the block size limit to 128 MB, aiming to facilitate massive scaling and new functionalities and eventually removed the block size limit altogether.
+Bitcoin SV, or [Bitcoin Satoshi Vision](https://en.wikipedia.org/wiki/Bitcoin_Satoshi_Vision), further forked from Bitcoin Cash in 2018. This fork was driven by disagreements over Bitcoin Cash's future, with a group led by [Craig Steven Wright](https://en.wikipedia.org/wiki/Craig_Steven_Wright) and [Calvin Ayre](https://en.wikipedia.org/wiki/Calvin_Ayre) advocating for a protocol closer to what they claimed was [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto)'s original vision, including even larger block sizes. Bitcoin SV increased the block size limit to 128 MB, aiming to facilitate massive scaling and new functionalities and eventually removed the block size limit altogether.
 
 
 ### Ethereum vs. Ethereum Classic Fork
 
-The Ethereum versus Ethereum Classic fork arose from a different kind of conflict. In 2016, a decentralized autonomous organization (DAO) built on Ethereum was hacked due to vulnerabilities in its code, resulting in the theft of a significant amount of Ether. This event led to a contentious debate within the Ethereum community about how to respond.
+The [Ethereum](https://en.wikipedia.org/wiki/Ethereum) versus [Ethereum Classic](https://en.wikipedia.org/wiki/Ethereum_Classic) fork arose from a different kind of conflict. In 2016, a [decentralized autonomous organization (DAO)](https://en.wikipedia.org/wiki/Decentralized_autonomous_organization) built on Ethereum was hacked due to vulnerabilities in its code, resulting in the theft of a significant amount of Ether. This event led to a contentious debate within the Ethereum community about how to respond.
 
-The majority, led by Ethereum's creator Vitalik Buterin, opted to perform a hard fork to reverse the hack, effectively returning the stolen funds to their original owners. This decision was grounded in the belief that the community should take corrective action to mitigate the effects of such a significant exploit.
+The majority, led by Ethereum's creator [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin), opted to perform a hard fork to reverse the hack, effectively returning the stolen funds to their original owners. This decision was grounded in the belief that the community should take corrective action to mitigate the effects of such a significant exploit.
 
 However, a portion of the community argued that "code is law," and the immutability of the blockchain should be maintained, regardless of the consequences. They held that the transactions, even fraudulent ones, should be irreversible to maintain the integrity of the blockchain's history.
 
