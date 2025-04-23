@@ -1,5 +1,5 @@
 ---
-title: 'What are BRC-20 Tokens?'
+title: 'What are BRC-20 Tokens? A Complete Guide'
 coverImage: 'images/image1.png'
 category:
 subtitle: Embarking on a journey into the heart of Bitcoin’s innovative landscape introduces us to the burgeoning world of BRC-20 tokens, a recent breakthrough that challenges our traditional perceptions of Bitcoin’s capabilities.
@@ -12,14 +12,14 @@ author:
 
 The advent of cryptocurrencies and token standards has ushered in a new era of digital finance, with Bitcoin at the forefront. Among these innovations, BRC-20 tokens are a recent novel addition, expanding Bitcoin's utility beyond its original design. 
 
-Born from the Taproot upgrade and facilitated by the Ordinals protocol, BRC-20 tokens introduce a method for creating and managing tokens directly on the Bitcoin blockchain. This development not only broadens the scope of Bitcoin’s applications but also challenges the prevailing notion that Bitcoin is a system solely for a single digital currency.
+Born from the [Taproot upgrade](https://www.investopedia.com/bitcoin-taproot-upgrade-5210039) and facilitated by the [Ordinals protocol](https://docs.ordinals.com/overview.html), BRC-20 tokens introduce a method for creating and managing tokens directly on the Bitcoin blockchain. This development not only broadens the scope of Bitcoin’s applications but also challenges the prevailing notion that Bitcoin is a system solely for a single digital currency.
 
 
 ### **Understanding BRC-20: The Technical Framework**
 
-Ordinals, a concept introduced following the Taproot upgrade on the Bitcoin network, are a novel way of interacting with Bitcoin's smallest units, known as satoshis. Each satoshi, traditionally indistinguishable from another, can now be uniquely identified and tracked through a sequential numbering system, thanks to the Ordinals protocol. This individualization of satoshis paves the way for embedding data directly onto them, a process known as inscription.
+Ordinals, a concept introduced following the Taproot upgrade on the Bitcoin network, are a novel way of interacting with Bitcoin's smallest units, known as [satoshis](https://en.bitcoin.it/wiki/Satoshi_(unit)). Each satoshi, traditionally indistinguishable from another, can now be uniquely identified and tracked through a sequential numbering system, thanks to the Ordinals protocol. This individualization of satoshis paves the way for embedding data directly onto them, a process known as inscription.
 
-The creation of BRC-20 tokens leverages the technical groundwork laid by Ordinals and inscriptions. By inscribing data onto satoshis, developers can generate unique tokens that exist within the Bitcoin ecosystem. However, unlike the ERC-20 tokens of Ethereum that rely on smart contracts for their operations, BRC-20 tokens utilize a simpler approach through the direct inscription of token information onto the blockchain.
+The creation of BRC-20 tokens leverages the technical groundwork laid by Ordinals and inscriptions. By inscribing data onto satoshis, developers can generate unique tokens that exist within the Bitcoin ecosystem. However, unlike the [ERC-20 tokens](https://www.nervos.org/knowledge-base/understanding_Token_standards_erc20_(explainCKBot)) of Ethereum that rely on smart contracts for their operations, BRC-20 tokens utilize a simpler approach through the direct inscription of token information onto the blockchain.
 
 The process of creating a BRC-20 token involves inscribing a JSON (JavaScript Object Notation) file onto a satoshi. This JSON file contains the token's metadata, including its name, symbol, and total supply, effectively embedding the essence of the token within the Bitcoin blockchain. The inscribed satoshi serves as the genesis of the token, from which all subsequent token transactions can be traced.
 
