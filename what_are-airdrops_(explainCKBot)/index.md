@@ -1,5 +1,5 @@
 ---
-title: 'What are Airdrops in Cryptocurrency?'
+title: 'What are Airdrops in Cryptocurrency? A Complete Guide'
 coverImage: 'images/image1.png'
 category:
 subtitle: 'Cryptocurrency airdrops blend marketing ingenuity with the democratization of digital asset ownership.'
@@ -11,9 +11,9 @@ author:
 This article unravels their definition, purpose, types, and the dynamics they introduce in the cryptocurrency market. Designed for both novices and seasoned crypto enthusiasts, this piece aims to demystify airdrops and provide a comprehensive understanding of their role in the digital currency landscape.
 
 
-## Understanding Crypto Airdrops
+## What are Crypto Airdrops?
 
-A crypto airdrop is an event where a crypto project distributes free cryptocurrency or NFTs directly to the crypto wallets of its community members. This process can be likened to a company giving out free samples of a new product or even free equity or stocks. The goal of airdrops is to incentivize participation and ownership in new blockchain projects.
+A crypto airdrop is an event where a crypto project distributes free cryptocurrency or [non-fungible tokens (NFTs)](https://en.wikipedia.org/wiki/Non-fungible_token) directly to the crypto wallets of its community members. This process can be likened to a company giving out free samples of a new product or even free equity or stocks. The goal of airdrops is to incentivize participation and ownership in new blockchain projects.
 
 
 ## Types of Crypto Airdrops
@@ -28,7 +28,7 @@ These are the most straightforward forms of airdrops. Users sign up or register 
 
 Bounty airdrops are more task-oriented. Users might need to promote the project on social media, contribute to its development, or engage in community activities. These airdrops require more active participation compared to standard ones. 
 
-Retroactive airdrops can also fall into this category. These represent airdrops that reward early users of the protocol or other protocols related to the project. For example, a new decentralized exchange project on Ethereum could distribute its airdrops to early traders, liquidity providers, and even Ethereum users based on different criteria, like how much gas they’ve spent interacting with DeFi protocols on Ethereum, or how much and how long they’ve provided liquidity on the said decentralized exchange.
+Retroactive airdrops can also fall into this category. These represent airdrops that reward early users of the protocol or other protocols related to the project. For example, a new decentralized exchange project on Ethereum could distribute its airdrops to early traders, liquidity providers, and even Ethereum users based on different criteria, like how much gas they’ve spent interacting with [DeFi](https://en.wikipedia.org/wiki/Decentralized_finance) protocols on Ethereum, or how much and how long they’ve provided liquidity on the said decentralized exchange.
 
 
 ### Holder/Exclusive Airdrops

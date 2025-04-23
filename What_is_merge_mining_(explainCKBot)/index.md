@@ -1,5 +1,5 @@
 ---
-title: 'What is Merge Mining?'
+title: 'What is Merge Mining? A Complete Guide'
 coverImage: 'images/image1.png'
 category:
 subtitle: 'Merge mining is a sophisticated method allowing miners to mine two or more cryptocurrencies simultaneously without compromising on efficiency'
@@ -12,12 +12,12 @@ author:
 
 Merge mining refers to the process of mining two different cryptocurrencies at the same time, using the same algorithm. It leverages the work done for one blockchain (the parent chain) to also secure a second chain (the auxiliary chain). This innovative approach not only enhances network security but also offers miners the opportunity to maximize the return on their mining efforts.
 
-Historically, merge mining's roots can be traced back to discussions in cryptocurrency forums by visionaries, including Satoshi Nakamoto. The concept was first implemented in practice by Namecoin, a cryptocurrency aimed at decentralizing domain-name registration, which merge mined with Bitcoin to bolster secure its chain.
+Historically, merge mining's roots can be traced back to discussions in cryptocurrency forums by visionaries, including [Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto). The concept was first implemented in practice by [Namecoin](https://en.wikipedia.org/wiki/Namecoin), a cryptocurrency aimed at decentralizing domain-name registration, which merge mined with Bitcoin to bolster secure its chain.
 
 
 ### How Merge Mining Works
 
-The parent chain operates as usual, unaware of the merge mining process, while the auxiliary chain is specifically configured to recognize the Proof-of-Work from the parent chain as valid for its own records.
+The parent chain operates as usual, unaware of the merge mining process, while the auxiliary chain is specifically configured to recognize the [Proof-of-Work](https://en.wikipedia.org/wiki/Proof_of_work) from the parent chain as valid for its own records.
 
 Setting up merge mining requires meticulous configuration, particularly for the auxiliary chain, which must be tailored to accept the parent chain's proof of work. This necessitates additional development efforts but does not demand extra computational resources from miners, making it an economically attractive proposition.
 
@@ -29,7 +29,7 @@ To initiate merge mining, miners run nodes and assemble transaction blocks for b
 
 ### Increased Security
 
-One of the most significant advantages of merge mining is the increased security it provides to the auxiliary chain. By leveraging the hashing power of a more established parent chain, smaller projects can protect themselves against attacks, such as the dreaded 51% attack, enhancing their attractiveness to investors and users.
+One of the most significant advantages of merge mining is the increased security it provides to the auxiliary chain. By leveraging the hashing power of a more established parent chain, smaller projects can protect themselves against attacks, such as the dreaded [51% attack](https://www.nervos.org/knowledge-base/what_is_51_attack), enhancing their attractiveness to investors and users.
 
 
 ### Economic Advantages
@@ -47,7 +47,7 @@ Despite its benefits, merge mining is not without its challenges. The requiremen
 
 ### Success Stories
 
-Dogecoin's adoption of merge mining with Litecoin stands out as a success story, demonstrating how merge mining can significantly impact an auxiliary chain's market performance and security. Another successful merge mining example is the Bitcoin Layer 2 chain, Rootstock, which leverages Bitcoin’s hash power for its security.
+[Dogecoin](https://en.wikipedia.org/wiki/Dogecoin)'s adoption of merge mining with [Litecoin](https://en.wikipedia.org/wiki/Litecoin) stands out as a success story, demonstrating how merge mining can significantly impact an auxiliary chain's market performance and security. Another successful merge mining example is the Bitcoin Layer 2 chain, [Rootstock](https://bitcoinwiki.org/wiki/rootstock), which leverages Bitcoin’s hash power for its security.
 
 
 ### Lessons Learned

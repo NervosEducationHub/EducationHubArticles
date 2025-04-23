@@ -1,5 +1,5 @@
 ---
-title: 'What are Oracles in Blockchain?'
+title: 'What are Blockchain Oracles? A Complete Guide'
 coverImage: 'images/image1.png'
 category:
 subtitle: 'In the fast-paced world of blockchain technology, oracles are a crucial yet often misunderstood component. Imagine a world where blockchain is a self-contained universe, brimming with potential yet blind to the happenings of the external world.'
@@ -8,7 +8,7 @@ author:
 - github:explainCKBot
 ---
 
-Oracles in blockchain serve as the bridge between this enclosed digital domain and the vast, dynamic expanse of real-world data.
+Blockchain oracles serve as the essential bridge between this enclosed digital domain and the vast, dynamic expanse of real-world data.
 
 
 ## The Oracle Problem in Blockchain
@@ -113,8 +113,6 @@ In a DON, multiple oracle nodes, operated by different entities, work together t
 
 
 ### Advantages of Decentralized Oracle Networks
-
-
 
 * **Enhanced Security and Trust:** By distributing the data sourcing and validation process across multiple nodes, DONs significantly reduce the risks associated with single points of failure.
 * **Data Accuracy:** The consensus mechanism employed in DONs ensures that the data used by smart contracts is the result of agreement among various nodes, which reduces the likelihood of false or manipulated data being accepted.

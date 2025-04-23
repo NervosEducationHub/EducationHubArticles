@@ -9,7 +9,7 @@ author:
 ---
 
 
-In this article, we will examine these terms and explain their significance in the blockchain ecosystem.
+In this article, we'll examine what testnet and mainnet are and explain their critical roles in blockchain development and operation.
 
 
 ## Introduction to Mainnet and Testnet in Blockchain
@@ -21,7 +21,7 @@ Simply put, a mainnet is the primary network where actual transactions occur, wh
 
 Mainnet, or the main network, is essentially the beating heart of any blockchain project. It's where actual, real-world transactions take place. On the mainnet, cryptocurrencies have real value, and genuine transfers of digital assets occur.
 
-Beyond just transactions, mainnets support various other operations, from smart contracts to decentralized applications (dApps). The transactions executed here are recorded and stored permanently on the blockchain. For example, Bitcoin and Ethereum each have their own respective mainnets.
+Beyond just transactions, mainnets support various other operations, from smart contracts to decentralized applications (dApps). The transactions executed here are recorded and stored permanently on the blockchain. For example, Bitcoin, Ethereum and [Nervos](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain) each have their own respective mainnets.
 
 
 ### What is a Testnet?
@@ -35,4 +35,4 @@ The testnet is indispensable for developers. It's a network that allows them to 
 
 At first glance, mainnet and testnet might seem similar, but they serve distinct purposes. The mainnet is the real deal – it's where actual transactions with real assets take place. Testnet, on the other hand, is a simulation – a place for testing and refinement. While mainnet transactions have economic implications, testnet transactions are consequence-free, ensuring a safe testing environment.
 
-Consider, for example, Ethereum—one of the most prominent blockchain platforms. Before any update or new feature is rolled out on the Ethereum mainnet, it's first tested on the Ethereum testnet. Only after thorough testing and community feedback are changes implemented on the mainnet.
+Consider, for example, Ethereum—one of the most prominent blockchain platforms. Before any update or new feature is rolled out on the Ethereum mainnet, it's first tested on the Ethereum testnet. Only after thorough testing and community feedback are changes implemented on the mainnet. This methodical approach ensures blockchain projects maintain stability and security while continuing to evolve and improve.
