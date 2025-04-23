@@ -1,5 +1,5 @@
 ---
-title: 'What is Transaction Finality in Crypto?'
+title: 'What is Transaction Finality in Crypto? A Complete Guide'
 coverImage: 'images/image1.png'
 category:
 subtitle: 'Transaction finality in blockchain technology is the assurance that once a transaction has been confirmed, it cannot be reversed or altered.'
@@ -8,17 +8,17 @@ author:
 - github:explainCKBot
 ---
 
- This permanence is crucial for the authenticity and security of the blockchain, making it a foundational aspect of cryptocurrency networks. Why does finality matter so much? 
+This permanence is crucial for the authenticity and security of the blockchain, making it a foundational aspect of cryptocurrency networks. Why does finality matter so much? 
  
-It provides certainty and trust in transactions, ensuring that once a deal is done, it's done for good. Without finality, the risk of transaction reversal could undermine the entire blockchain's integrity, making digital assets vulnerable to fraud and double-spending.
+It provides certainty and trust in transactions, ensuring that once a deal is done, it's done for good. Without finality, the risk of transaction reversal could undermine the entire blockchain's integrity, making digital assets vulnerable to fraud and [double-spending attacks](https://www.investopedia.com/terms/d/doublespending.asp).
 
 
 ## The Mechanics of Finality
 
-The attainment of finality in a blockchain is primarily through consensus mechanisms like Proof-of-Work (PoW), Proof-of-Stake (PoS), Practical Byzantine Fault Tolerance (pBFT), and others, where each mechanism has its own finality implications. Moreover, the speed at which a network confirms transactions, known as latency, directly impacts its finality rate. Lower latency equates to quicker finality, enhancing the network's efficiency and reliability for processing transactions.
+The attainment of finality in a blockchain is primarily through consensus mechanisms like [Proof-of-Work (PoW), Proof-of-Stake (PoS)](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)), [Practical Byzantine Fault Tolerance (pBFT)](https://bitcoinwiki.org/wiki/pbft), and others, where each mechanism has its own finality implications. Moreover, the speed at which a network confirms transactions, known as latency, directly impacts its finality rate. Lower latency equates to quicker finality, enhancing the network's efficiency and reliability for processing transactions.
 
 
-### Types of Finality
+### Types of Finality in Blockchain Networks
 
 Blockchain networks exhibit various forms of finality, including probabilistic, economic, instant, unconditional, and state finality.
 
@@ -37,9 +37,9 @@ Furthermore, the concept of finality varies across different blockchain protocol
 For instance, Bitcoin achieves probabilistic finality after six confirmations, typically taking about an hour, while networks like Binance Chain offer near-instant finality due to their consensus mechanisms. Layer 1 (L1) solutions provide the foundational security and finality for transactions, whereas Layer 2 (L2) protocols, designed for scalability, may have different finality considerations depending on their consensus mechanism and connection to the L1 blockchain.
 
 
-## Challenges to Achieving Finality
+## Challenges to Achieving Transaction Finality
 
-Achieving transaction finality in blockchain is not without its challenges. Forking, network latency, and 51% attacks are significant obstacles that can compromise the finality of transactions.
+Achieving transaction finality in blockchain is not without its challenges. [Forking](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork_(explainCKBot)), network latency, and [51% attacks](https://www.nervos.org/knowledge-base/what_is_51_attack) are significant obstacles that can compromise the finality of transactions.
 
 Forking creates temporary divergences in the blockchain, leading to uncertainty about which version of the transaction history is valid. Network latency delays the propagation of transactions, potentially causing discrepancies in transaction order. 
 
@@ -50,7 +50,7 @@ To enhance finality, blockchain networks employ various techniques and consensus
 
 ### Real-world Applications and Implications
 
-The concept of transaction finality holds significant implications for the real-world application of blockchain technology. For crypto exchanges and cross-chain bridges, ensuring the finality of transactions is paramount to maintaining trust and security. Decentralized applications (DApps) rely on the immutable nature of blockchain transactions to function correctly, highlighting the critical role of finality in the broader crypto ecosystem.
+The concept of transaction finality holds significant implications for the real-world application of blockchain technology. For crypto exchanges and [cross-chain bridges](https://www.nervos.org/knowledge-base/what_are_blockchain_bridges_(explainCKBot)), ensuring the finality of transactions is paramount to maintaining trust and security. Decentralized applications (dApps) rely on the immutable nature of blockchain transactions to function correctly, highlighting the critical role of finality in the broader crypto ecosystem.
 
 
 ## Conclusion
