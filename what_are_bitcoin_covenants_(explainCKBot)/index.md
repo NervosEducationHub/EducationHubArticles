@@ -1,5 +1,5 @@
 ---
-title: 'What are Bitcoin Covenants?'
+title: 'What are Bitcoin Covenants? Enhancing Bitcoin Transactions'
 coverImage: 'images/image1.png'
 category: Bitcoin
 subtitle: "Bitcoin covenants are a proposed method for adding additional constraints to the ways Bitcoin can be spent, beyond the standard conditions imposed by Bitcoin's scripting language."
@@ -12,9 +12,9 @@ Bitcoin covenants allow for more complex rules to be set on transactions, enhanc
 
 Bitcoin covenants were proposed in a Bitcoin Improvement Proposal 119 (BIP-119), introduced by Jeremy Rubin. [BIP-119](https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki) suggests an implementation known as CheckTemplateVerify (CTV), designed to enable the creation of covenants in the Bitcoin protocol.
 
-[CheckTemplateVerify](https://bitcoinmagazine.com/technical/what-is-bitcoin-checktemplateverify) (CTV) is a soft fork proposal that aims to allow users to create transaction templates that enforce specific spending conditions. These templates can restrict how and where bitcoins can be spent in future transactions. By introducing a new opcode in Bitcoin's scripting language, CTV would facilitate these more complex conditions without requiring major changes to the existing Bitcoin infrastructure.
+[CheckTemplateVerify](https://bitcoinmagazine.com/technical/what-is-bitcoin-checktemplateverify) (CTV) is a [soft fork](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork_(explainCKBot)) proposal that aims to allow users to create transaction templates that enforce specific spending conditions. These templates can restrict how and where bitcoins can be spent in future transactions. By introducing a new [opcode](https://www.nervos.org/knowledge-base/what_are_opcodes_(explainCKBot)) in Bitcoin's scripting language, CTV would facilitate these more complex conditions without requiring major changes to the existing Bitcoin infrastructure.
 
-The proposal outlines various use cases for covenants, including enhancing security through restricted spending patterns, enabling more efficient coin joins (a privacy-enhancing technique), and supporting complex financial instruments like vaults and payment channels.
+The proposal outlines various use cases for covenants, including enhancing security through restricted spending patterns, enabling more efficient coin joins (a privacy-enhancing technique), and supporting complex financial instruments like vaults and [payment channels](https://www.nervos.org/knowledge-base/what_are_payment_channels).
 
 
 ## How Do Bitcoin Covenants Work?
