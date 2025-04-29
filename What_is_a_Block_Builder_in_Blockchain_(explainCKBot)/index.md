@@ -59,25 +59,25 @@ By fostering a competitive builders market, users can benefit from lower transac
 
 A block builder’s workflow can be broken down into several key steps:
 
-1. **Transaction Collection and Filtering: **
+1. **Transaction Collection and Filtering:**
 
-  Builders monitor the [mempool](https://www.nervos.org/knowledge-base/mempool_in_cryptocurrency_(explainCKBot)) (the set of unconfirmed transactions broadcast by network participants) and possibly private transaction pools. Their sophisticated algorithms analyze which transactions are most profitable to include based on fees, MEV opportunities, or other strategic considerations.
+Builders monitor the [mempool](https://www.nervos.org/knowledge-base/mempool_in_cryptocurrency_(explainCKBot)) (the set of unconfirmed transactions broadcast by network participants) and possibly private transaction pools. Their sophisticated algorithms analyze which transactions are most profitable to include based on fees, MEV opportunities, or other strategic considerations.
 
-2. **Ordering and Optimization: **
+2. **Ordering and Optimization:**
 
-  The builder arranges the selected transactions to maximize value. This might involve placing high-fee transactions first or identifying complex opportunities to reorder transactions for arbitrage between DeFi protocols. The builder’s methods can be proprietary and highly competitive, representing the “secret sauce” of their business model.
+The builder arranges the selected transactions to maximize value. This might involve placing high-fee transactions first or identifying complex opportunities to reorder transactions for arbitrage between DeFi protocols. The builder’s methods can be proprietary and highly competitive, representing the “secret sauce” of their business model.
 
-3. **Constructing the Block Template: **
+3. **Constructing the Block Template:**
 
-  Once the builder has determined the optimal transaction set and order, they package these into a proper block structure—calculating the Merkle tree root, incorporating correct references to the previous block, and ensuring all protocol rules are followed.
+Once the builder has determined the optimal transaction set and order, they package these into a proper block structure—calculating the Merkle tree root, incorporating correct references to the previous block, and ensuring all protocol rules are followed.
 
-4. **Broadcasting Bids to Proposers: **
+4. **Broadcasting Bids to Proposers:**
 
-  After the builder finalizes a block template, they present it to potential proposers. In a proposer-builder separation model, proposers run auctions to determine which builder offers the best block template, often measured by the block’s expected rewards. The builder places “bids” representing how much value (like the fees after paying the proposer’s share) the proposer stands to gain by choosing their block.
+After the builder finalizes a block template, they present it to potential proposers. In a proposer-builder separation model, proposers run auctions to determine which builder offers the best block template, often measured by the block’s expected rewards. The builder places “bids” representing how much value (like the fees after paying the proposer’s share) the proposer stands to gain by choosing their block.
 
-5. **Inclusion and Finalization: **
+5. **Inclusion and Finalization:**
 
-  The proposer, upon receiving multiple builder proposals, selects the block template that meets their criteria—usually, the one that maximizes their rewards or adheres to certain network policies. The chosen block is then broadcast, validated, and added to the chain by the network’s consensus process.
+The proposer, upon receiving multiple builder proposals, selects the block template that meets their criteria—usually, the one that maximizes their rewards or adheres to certain network policies. The chosen block is then broadcast, validated, and added to the chain by the network’s consensus process.
 
 
 ## What Makes a Good Block Builder?
