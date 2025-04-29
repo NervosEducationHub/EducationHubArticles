@@ -116,30 +116,30 @@ At their core, block builders are driven by economic incentives, though other st
 
 ### Maximizing Profits
 
-**Fee Revenue: **The primary incentive for a builder is to maximize the total transaction fees and MEV that can be captured within a block. By selecting transactions that pay high fees or by structuring transaction order to unlock MEV (e.g., arbitrage opportunities, [sandwich attacks](https://www.mev.wiki/attack-examples/sandwich-attack)), builders stand to earn substantial revenue.
+**Fee Revenue:** The primary incentive for a builder is to maximize the total transaction fees and MEV that can be captured within a block. By selecting transactions that pay high fees or by structuring transaction order to unlock MEV (e.g., arbitrage opportunities, [sandwich attacks](https://www.mev.wiki/attack-examples/sandwich-attack)), builders stand to earn substantial revenue.
 
-**Competitive Advantage: **Builders invest heavily in infrastructure and research to outcompete rivals. A builder that can reliably produce blocks with higher net returns earns the loyalty of proposers, potentially securing consistent revenue streams.
+**Competitive Advantage:** Builders invest heavily in infrastructure and research to outcompete rivals. A builder that can reliably produce blocks with higher net returns earns the loyalty of proposers, potentially securing consistent revenue streams.
 
 
 ### Market Share and Reputation
 
-**Long-Term Relationships with Proposers: **A block builder that consistently delivers high-quality blocks gains a reputation for reliability and profitability, attracting more proposers to choose their block templates. This can lead to improved long-term revenue and a strong position in the builder marketplace.
+**Long-Term Relationships with Proposers:** A block builder that consistently delivers high-quality blocks gains a reputation for reliability and profitability, attracting more proposers to choose their block templates. This can lead to improved long-term revenue and a strong position in the builder marketplace.
 
-**Community Trust and Compliance: **A builder's ethical stance can become a differentiator in environments where the user community and developer ecosystem value fair practices. Goodwill can translate into more stable relationships with proposers, lower risk of being excluded from markets, and potentially better deal flow over time.
+**Community Trust and Compliance:** A builder's ethical stance can become a differentiator in environments where the user community and developer ecosystem value fair practices. Goodwill can translate into more stable relationships with proposers, lower risk of being excluded from markets, and potentially better deal flow over time.
 
 
 ### Stability and Reduced Operational Risk
 
-**Predictable Earnings: **Builders that refine their strategies to minimize risk—such as avoiding the inclusion of questionable transactions or exploiting unsustainable strategies—enjoy more predictable and stable earnings. Steady profits can allow them to invest in better hardware, software, and R&D, reinforcing their competitive edge.
+**Predictable Earnings:** Builders that refine their strategies to minimize risk—such as avoiding the inclusion of questionable transactions or exploiting unsustainable strategies—enjoy more predictable and stable earnings. Steady profits can allow them to invest in better hardware, software, and R&D, reinforcing their competitive edge.
 
-**Avoiding Regulatory or Community Backlash: **In some jurisdictions, regulatory scrutiny may discourage malicious MEV tactics or censorship. Builders that maintain ethical and legal compliance are less likely to face punitive measures or community-driven boycotts, thus preserving revenue streams in the long run.
+**Avoiding Regulatory or Community Backlash:** In some jurisdictions, regulatory scrutiny may discourage malicious MEV tactics or censorship. Builders that maintain ethical and legal compliance are less likely to face punitive measures or community-driven boycotts, thus preserving revenue streams in the long run.
 
 
 ### Innovation and Strategic Positioning
 
-**Staying Ahead of Technological Curves: **With evolving technology—such as [rollups](https://www.nervos.org/knowledge-base/zk_rollup_vs_optimistic_rollup), Layer-2 solutions, and changes to consensus protocols—block builders that invest in innovation can handle more complex data processing, tap into new markets, and maintain a leading position as the ecosystem grows.
+**Staying Ahead of Technological Curves:** With evolving technology—such as [rollups](https://www.nervos.org/knowledge-base/zk_rollup_vs_optimistic_rollup), Layer-2 solutions, and changes to consensus protocols—block builders that invest in innovation can handle more complex data processing, tap into new markets, and maintain a leading position as the ecosystem grows.
 
-**Synergies with Other Services: **Some block builders may integrate additional services—like private transaction pools, multi-block MEV strategies, or partnerships with DeFi protocols—that enhance their overall value proposition. This strategic positioning can increase profitability and resilience against competition.
+**Synergies with Other Services:** Some block builders may integrate additional services—like private transaction pools, multi-block MEV strategies, or partnerships with DeFi protocols—that enhance their overall value proposition. This strategic positioning can increase profitability and resilience against competition.
 
 
 ## The Role of Block Builders in Evolving Ecosystems
