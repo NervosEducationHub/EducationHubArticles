@@ -2,7 +2,7 @@
 title: 'What is a Digital Signature in Blockchain?'
 coverImage: 'images/image1.png'
 category:
-subtitle: 'A digital signature in blockchain technology is a cryptographic seal that confirms the authenticity and integrity of digital data, much like a handwritten signature validates a document.'
+subtitle: 'Digital signatures are essential for securing transactions and maintaining trust in blockchain networks.'
 date: '2025-01-04T15:00:00.000Z'
 author:
 - github:explainCKBot
@@ -15,28 +15,28 @@ Unlike traditional signatures, which can be easily forged, a digital signature r
 
 ## Defining Digital Signatures
 
-Digital signatures in blockchain systems depend on public-key cryptography (also known as asymmetric cryptography). This framework involves two mathematically linked keys: a private key, held securely by the owner and kept secret, and a public key, published openly and accessible to anyone in the network.
+Digital signatures in blockchain systems depend on [public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) (also known as asymmetric cryptography). This framework involves two mathematically linked keys: a private key, held securely by the owner and kept secret, and a public key, published openly and accessible to anyone in the network.
 
 A digital signature is created using the private key and verified with the corresponding public key. Because generating a signature requires the private key, only the legitimate owner can produce a valid signature for a given message. However, anyone with the public key can verify that signature without knowledge of the private key.
 
 
-### How Does Signing Work in Blockchain?
+## How Does Signing Work in Blockchain?
 
-When someone intends to sign a piece of data—such as a transaction transferring cryptocurrency from one account to another—they first run the transaction details through a cryptographic hash function—such as SHA-256. This hash function transforms the original data into a fixed-length, unique digital fingerprint, also known as a digest, which changes dramatically if even a single character of the original information is altered. 
+When someone intends to sign a piece of data—such as a transaction transferring cryptocurrency from one account to another—they first run the transaction details through a cryptographic [hash function](https://www.nervos.org/knowledge-base/what_is_a_hash_function)—such as [SHA-256](https://www.nervos.org/knowledge-base/SHA256_most_used_hash_function_(explainCKBot)). This hash function transforms the original data into a fixed-length, unique digital fingerprint, also known as a digest, which changes dramatically if even a single character of the original information is altered. 
 
 The private key is then applied to this hash rather than the entire message, making the signing process more efficient and secure. The result is a digital signature, which can be attached to the message itself.
 
-In blockchains like Bitcoin and Ethereum, specific signature algorithms—such as the Elliptic Curve Digital Signature Algorithm (ECDSA) or, more recently, EdDSA/Ed25519—are used. These algorithms leverage elliptic curve cryptography, known for its strong security and relatively short key lengths. Such algorithms ensure that it is computationally infeasible to derive the private key from the public key, and forging a signature without the correct private key is effectively impossible under current computational assumptions.
+In blockchains like Bitcoin and Ethereum, specific signature algorithms—such as the [Elliptic Curve Digital Signature Algorithm (ECDSA)](https://www.nervos.org/knowledge-base/understanding_ECDSA_(explainCKBot)) or, more recently, EdDSA/Ed25519—are used. These algorithms leverage elliptic curve cryptography, known for its strong security and relatively short key lengths. Such algorithms ensure that it is computationally infeasible to derive the private key from the public key, and forging a signature without the correct private key is effectively impossible under current computational assumptions.
 
 
-### How Does Signature Verification Work?
+## How Does Digital Signature Verification Work?
 
 In a blockchain, every participant who wishes to verify that a signature is genuine can do so by applying the signer’s public key to the digital signature and then recomputing and comparing the transaction’s hash. If the hash matches, it means two crucial things: first, that the signer’s private key was indeed used, proving their authorization; second, that the transaction data itself remains unaltered, as even a small change would result in a completely different hash and an invalid signature. 
 
 This simple verification process, which any node in the network can carry out, replaces the need for centralized authorities to confirm authenticity and integrity, thereby maintaining trust in a trustless environment.
 
 
-### How Digital Signatures Are Used in Blockchain
+## Applications of Digital Signatures in Blockchain
 
 **Transaction Authentication**:
 
