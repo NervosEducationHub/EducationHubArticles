@@ -15,11 +15,9 @@ In general computing terms, a virtual machine (VM) is a software emulation of a 
 
 The core component of VMs is the hypervisor, a software responsible for creating and managing VMs. The hypervisor allocates CPU, memory, and storage resources to each VM and ensures they operate independently. There are two primary types of hypervisors:
 
+1. **Type 1 (Bare-Metal) Hypervisors** run directly on the physical hardware and manage the guest operating systems. Examples include [VMware ESXi](https://en.wikipedia.org/wiki/VMware_ESXi), [Microsoft Hyper-V](https://en.wikipedia.org/wiki/Hyper-V), and [Xen](https://en.wikipedia.org/wiki/Xen).
 
-
-1. **Type 1 (Bare-Metal) Hypervisors** run directly on the physical hardware and manage the guest operating systems. Examples include VMware ESXi, Microsoft Hyper-V, and Xen.
-
-2. **Type 2 (Hosted) Hypervisors**: These run on top of an existing operating system and provide virtualization services to guest operating systems. Examples include VMware Workstation, Oracle VirtualBox, and Parallels Desktop.
+2. **Type 2 (Hosted) Hypervisors**: These run on top of an existing operating system and provide virtualization services to guest operating systems. Examples include [VMware Workstation](https://en.wikipedia.org/wiki/VMware_Workstation), [Oracle VirtualBox](https://en.wikipedia.org/wiki/VirtualBox), and [Parallels Desktop](https://en.wikipedia.org/wiki/Parallels_Desktop_for_Mac).
 
 Each VM emulates hardware components like CPU, memory, network interfaces, and storage devices. This virtual hardware is presented to the guest OS, which interacts with it as if it were physical hardware. To that point, the guest OS is the OS installed on the VM, such as Windows, Linux, or macOS. The guest OS runs applications and services as it would on a physical machine, unaware that it operates in a virtual environment. The host OS, on the other hand, is the OS that runs directly on the physical hardware and hosts the VM.
 
@@ -36,7 +34,7 @@ In the context of blockchain, a Virtual Machine (VM) is a specialized software e
 
 #### **Execution of Smart Contracts**
 
-Smart contracts are self-executing contracts with the terms directly written into code. A blockchain VM provides the environment where this code is executed. High-level programming languages (such as Solidity for Ethereum) are compiled into bytecode that the VM can run.
+Smart contracts are self-executing contracts with the terms directly written into code. A blockchain VM provides the environment where this code is executed. High-level programming languages (such as [Solidity](https://en.wikipedia.org/wiki/Solidity) for Ethereum) are compiled into bytecode that the VM can run.
 
 
 #### **Deterministic Execution**
@@ -54,18 +52,16 @@ The VM operates in an isolated environment, which means that the execution of on
 
 #### **Ethereum Virtual Machine (EVM)**
 
-The Ethereum Virtual Machine (EVM) is the most widely known and utilized blockchain VM. It is a Turing-complete machine, meaning it can execute any computation given enough resources. The EVM is responsible for handling the execution of smart contracts, which are self-executing contracts with the terms directly written into code.
+The [Ethereum Virtual Machine (EVM)](https://ethereum.org/en/developers/docs/evm/) is the most widely known and utilized blockchain VM. It is a Turing-complete machine, meaning it can execute any computation given enough resources. The EVM is responsible for handling the execution of smart contracts, which are self-executing contracts with the terms directly written into code.
 
 
 ##### **Key Features of EVM**
-
-
 
 1. **Turing-Complete**: The EVM's ability to perform any computation makes it versatile for various applications, from simple token transfers to complex decentralized applications (dApps).
 
 2. **Bytecode Execution**: Smart contracts written in high-level languages like Solidity are compiled into EVM bytecode, which the EVM then executes. This bytecode is consistent across all Ethereum nodes, ensuring smart contracts run uniformly throughout the network.
 
-3. **Gas Mechanism**: The EVM uses a gas system to meter the computational work required to execute transactions and smart contracts. Gas fees prevent infinite loops and excessive resource consumption, maintaining network stability and security.
+3. **Gas Mechanism**: The EVM uses a gas system to meter the computational work required to execute transactions and smart contracts. [Gas fees](https://www.nervos.org/knowledge-base/what_is_a_blockchain_gas_fee_(explainCKBot)) prevent infinite loops and excessive resource consumption, maintaining network stability and security.
 
 4. **Security and Isolation**: The EVM isolates smart contract execution from the Ethereum blockchain, ensuring malicious or faulty contracts do not affect the entire network.
 
@@ -77,14 +73,12 @@ The EVM has enabled the creation of a wide array of decentralized applications, 
 
 #### **CKB-VM (Nervos Common Knowledge Base Virtual Machine)**
 
-The CKB-VM is the virtual machine used by the Nervos Network, specifically designed for the Common Knowledge Base (CKB) Layer 1 blockchain. CKB-VM is unique in its approach to blockchain virtual machines, emphasizing flexibility, compatibility, and interoperability.
+The [CKB-VM](https://docs.nervos.org/docs/tech-explanation/ckb-vm) is the virtual machine used by the [Nervos Network](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain), specifically designed for the Common Knowledge Base (CKB) Layer 1 blockchain. CKB-VM is unique in its approach to blockchain virtual machines, emphasizing flexibility, compatibility, and interoperability.
 
 
 ##### **Key Features of CKB-VM**
 
-
-
-1. **Based on the RISC-V ISA**: CKB-VM is built on the RISC-V (Reduced Instruction Set Computing) instruction set architecture (ISA). RISC-V is an open standard that is both extensible and adaptable. Unlike proprietary instruction sets, RISC-V provides a minimalistic set of instructions that can be extended with custom features. This makes RISC-V more efficient and flexible than the EVM's bespoke architecture. The RISC-V ISA's simplicity allows for optimized performance and ease of implementation, making it suitable for blockchain applications that require robust and adaptable computational capabilities.
+1. **Based on the RISC-V ISA**: CKB-VM is built on the [RISC-V](https://www.nervos.org/knowledge-base/what_is_riscv_(explainCKBot)) (Reduced Instruction Set Computing) instruction set architecture (ISA). RISC-V is an open standard that is both extensible and adaptable. Unlike proprietary instruction sets, RISC-V provides a minimalistic set of instructions that can be extended with custom features. This makes RISC-V more efficient and flexible than the EVM's bespoke architecture. The RISC-V ISA's simplicity allows for optimized performance and ease of implementation, making it suitable for blockchain applications that require robust and adaptable computational capabilities.
 
 2. **Efficient Execution Environment**: CKB-VM offers an efficient execution environment due to its foundation on RISC-V. The reduced complexity of the RISC-V instruction set leads to lower overhead and faster execution of smart contracts. This efficiency is crucial for achieving high performance in blockchain operations, enabling faster transaction processing and reducing resource consumption.
 
@@ -103,8 +97,6 @@ The Solana virtual machine (SVM) is integral to the Solana blockchain, renowned 
 
 ##### **Key Features of Solana VM**
 
-
-
 1. **Berkeley Packet Filter (BPF):** The SVM uses the [Berkeley Packet Filter](https://en.wikipedia.org/wiki/Berkeley_Packet_Filter) (BPF) bytecode format. BPF was originally designed for filtering network packets in Unix-like operating systems, but its simplicity, efficiency, and security make it well-suited for executing smart contracts on Solana. Smart contracts and programs written for Solana are typically written in high-level programming languages like Rust and C. These high-level programs are then compiled into BPF bytecode, which is executed by the Solana VM. The use of Rust and C leverages their powerful features and performance optimizations, contributing to the overall efficiency of the Solana network.
 
 2. **High Performance**: The SVM leverages the Solana blockchain’s unique architecture, including [Proof of History](https://medium.com/solana-labs/proof-of-history-explained-by-a-water-clock-e682183417b8) (PoH) and [Tower BFT](https://medium.com/solana-labs/tower-bft-solanas-high-performance-implementation-of-pbft-464725911e79) (Byzantine Fault Tolerance), to achieve high transaction throughput. It can handle thousands of transactions per second, making it one of the fastest blockchains.
@@ -114,5 +106,5 @@ The Solana virtual machine (SVM) is integral to the Solana blockchain, renowned 
 
 ### **Conclusion**
 
-Ethereum’s EVM, Nervos’ CKB-VM, and Solana’s SVM each offer unique features and capabilities tailored to their respective networks. The EVM provides a robust and widely adopted environment for smart contracts. CKB-VM emphasizes flexibility, interoperability and parallelization with a RISC-V-based VM. Solana's SVM focuses on high performance and scalability, also allowing for parallel execution. Together, these VMs showcase the diverse approaches to blockchain virtualization, driving innovation and expanding the potential of decentralized applications.
+[Ethereum’s EVM, Nervos’ CKB-VM, and Solana’s SVM](https://www.nervos.org/knowledge-base/comparing_blockchain_virtual_machines) each offer unique features and capabilities tailored to their respective networks. The EVM provides a robust and widely adopted environment for smart contracts. CKB-VM emphasizes flexibility, interoperability and parallelization with a RISC-V-based VM. Solana's SVM focuses on high performance and scalability, also allowing for parallel execution. Together, these VMs showcase the diverse approaches to blockchain virtualization, driving innovation and expanding the potential of decentralized applications.
 
