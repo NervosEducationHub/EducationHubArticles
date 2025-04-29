@@ -12,7 +12,7 @@ A 51% attack is an attack on a cryptocurrency when а miner or group of miners s
 
 The difficulty of executing a 51% attack on a cryptocurrency depends on the network's cumulative hash rate. Namely, it's much more challenging for an attacker to execute a 51% attack on a blockchain with a very high hash rate. And vice versa, executing the attack on networks with a lower hash rate is proportionally easier.
 
-*Note: The hash rate is the total computational power used by miners in Proof-of-Work blockchains to process transactions.
+*Note: The hash rate is the total computational power used by miners in [Proof-of-Work](https://en.wikipedia.org/wiki/Proof_of_work) blockchains to process transactions.
 
 When an attacker or group of attackers controls over half of the total computational power in a Proof-of-Work blockchain, they can manipulate transactions and double-spend coins without anyone else in the network being able to do anything about it.
 
@@ -23,7 +23,7 @@ When an attacker or group of attackers controls over half of the total computati
 
 When nobody controls over half of the hash rate, nobody can alter the transaction and expect the majority will accept it. But if the attackers hold most of the blockchain's hash rate, the honest nodes will have no power to stop it, even if they all suspect it.
 
-It's essential to recognize that a 51% attack on a Proof-of-Stake (PoS) blockchain is not the same as a 51% attack on a Proof-of-Work (PoW) blockchain. With Proof-of-Stake blockchains, the attackers would have to own over half of the staked cryptocurrencies on the blockchain and not the majority of the hash rate. 
+It's essential to recognize that a 51% attack on a [Proof-of-Stake (PoS)](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)) blockchain is not the same as a 51% attack on a Proof-of-Work (PoW) blockchain. With Proof-of-Stake blockchains, the attackers would have to own over half of the staked cryptocurrencies on the blockchain and not the majority of the hash rate.
 
 A blockchain like Bitcoin is secure when nobody controls over half its hash rate, while a Proof-of-Stake blockchain like Ethereum is secure when nobody controls over half of its staked cryptocurrencies.
 
@@ -51,7 +51,7 @@ The attackers will keep re-spending the same cryptocurrencies and dump them for 
 
 Speaking about blockchain hash rate and security, everything depends on factors like mining difficulty, blockchain adoption, the blockchain’s cryptocurrency price, and how many miners are competing in the same blockchain.
 
-When there is more adoption for a specific blockchain, it’s more likely for the blockchain’s cryptocurrency price to go up. Thus, more miners will enter the same network since they can make money. And when more miners have more advanced mining computers in the same Proof-of-Work blockchain, mining difficulty increases, and the blockchain hash rate increases.
+When there is more adoption for a specific blockchain, it’s more likely for the blockchain’s cryptocurrency price to go up. Thus, more miners will enter the same network since they can make money. And when more miners have more advanced mining computers in the same Proof-of-Work blockchain, [mining difficulty](https://www.nervos.org/knowledge-base/cryptocurrency_mining_difficulty_(explainCKBot)) increases, and the blockchain hash rate increases.
 
 Blockchain networks with higher hash rates are considered more secure because attackers may consider attacks too expensive. For example, an established Proof-of-Work blockchain like Bitcoin has an enormous hash rate, meaning a 51% attack attempt can cost hundreds of thousands of dollars per day to execute successfully. This is why these attacks have historically occurred on smaller blockchains with much weaker hash rates.
 
@@ -59,8 +59,6 @@ Blockchain networks with higher hash rates are considered more secure because at
 ## Factors that Affect a Blockchain’s Hash Rate
 
 Several factors can affect the hash rate of Proof-of-Work blockchains, including:
-
-
 
 * The mining difficulty
 * The number of participating miners
