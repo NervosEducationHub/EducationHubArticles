@@ -4,13 +4,14 @@ coverImage: 'images/image1.png'
 category: Popular
 subtitle: 'By introducing a liquid staking derivative on CKB, iCKB unlocks new layers of composability, efficiency, and inclusion for Nervos users.'
 date: '2025-09-22T16:00:00.000Z'
+author: Femi
 ---
 
 One of the defining features of CKB (the Common Knowledge Base) is the **[NervosDAO](https://explorer.nervos.org/nervosdao)**, a built-in staking mechanism that lets CKByte (also referred to as CKB) holders earn passive rewards by locking their tokens. While this supports the network’s long-term sustainability and helps protect against inflation, it comes with a trade-off: tokens staked in the DAO are locked for approximately 30 days. This lock-up restricts user liquidity and limits participation in the growing DeFi ecosystem on CKB. To solve this, the **[iCKB](https://ickb.org)** protocol was created: a smart, noncustodial liquid staking solution that bridges the gap between DAO participation and liquidity freedom. Developed by **[Phroi](https://phroi.com)** with support from the **[Nervos Foundation](https://www.nervos.org/foundation)**, iCKB allows users to stake CKB in the DAO and receive a tradable token in return iCKB that continues to accrue yield while remaining usable across DeFi applications.
 
 ## Understanding the Basics: What Is iCKB? 
 
-At its core, iCKB is a synthetic token that represents CKB locked in the NervosDAO. The iCKB protocol launched on September 12, 2024, at which point** 1 iCKB** was already worth **1.15343076 CKB** due to accumulated DAO rewards since the CKB genesis block. While conceptually iCKB represents inflation-protected CKB pegged to the genesis block value (November 15, 2019), the actual iCKB protocol deployment occurred nearly 5 years later when significant secondary issuance had already occurred.
+At its core, iCKB is a synthetic token that represents CKB locked in the NervosDAO. The iCKB protocol launched on September 12, 2024, at which point **1 iCKB** was already worth **1.15343076 CKB** due to accumulated DAO rewards since the CKB genesis block. While conceptually iCKB represents inflation-protected CKB pegged to the genesis block value (November 15, 2019), the actual iCKB protocol deployment occurred nearly 5 years later when significant secondary issuance had already occurred.
 
 ## How the iCKB Exchange Rate Works
 
@@ -82,5 +83,6 @@ However, its carefully designed incentives, transparent mechanics, and secure st
 ## Conclusion
 
 The iCKB protocol is a major step forward in making the NervosDAO more flexible and accessible. It solves a fundamental problem of liquidity loss, without compromising on the security and yield benefits of the DAO.
+
 
 By introducing a liquid staking derivative on CKB, iCKB unlocks new layers of composability, efficiency, and inclusion for Nervos CKB users. As the CKB ecosystem continues to expand toward cross-chain interoperability and advanced DeFi applications, protocols like iCKB will be essential building blocks empowering users to move capital freely, protect their assets from inflation, and participate actively in on-chain finance.
