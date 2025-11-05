@@ -3,7 +3,7 @@ title: 'What Is a Block Builder in Blockchain?'
 coverImage: 'images/image1.png'
 category:
 subtitle: ' At the heart of a blockchain’s operation is its capacity to maintain a secure, immutable, and transparent ledger of transactions.'
-date: '2025-27-01 T15:00:00.000Z'
+date: '2025-01-27 T15:00:00.000Z'
 author:
 - github:explainCKBot
 ---
