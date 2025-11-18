@@ -17,7 +17,7 @@ This is decentralization in action: not just a secure and scalable Layer 1, but 
 Catalyst was created to channel community energy into structured, productive outcomes that strengthen the ecosystem and prepare it for a more autonomous future. The concept is simple: give CKB supporters and builders the resources and coordination they need to turn grassroots activity into lasting contributions. To achieve this, Catalyst runs three complementary initiatives: 
 
 1. **Community Keeps Building**, a structured programme of output and growth for builders, content creators, and activists; 
-2. **CKB Off-Chain, **regional offline social meetups; and 
+2. **CKB Off-Chain,** regional offline social meetups; and 
 3. **CKBoost**, a quest-like platform to organize and reward the wider community. 
 
 Together, they provide clear entry points for anyone ready to learn, build, and help grow the network. Full details are outlined on [Nervos Talk](https://talk.nervos.org).
@@ -73,4 +73,5 @@ Further funding opportunities await for sustained contributors wishing to turn t
 
 *Community Keeps Building* is more than a learning program, it's an investment in CKB’s future. By giving new developers the tools and structure to build, it ensures growth comes from within the community. The journeys of Wadie, Jr.bit, Imane, Ali, and Rick show how quickly learners can become contributors, launching projects that may one day shape the ecosystem. For anyone curious about blockchain, the message is simple: the CKB community welcomes you with open arms to grow your skills, and gives you the practical means and funding to do it. Whether you’re a seasoned developer or just starting out, there’s space here to learn, experiment, and leave your mark. The next chapter of CKB is already unfolding, ready for the community to take the lead in writing it.
 
-***For anyone with a web development background interested in learning CKB or joining the CKBuilders, send an email to [neon@nervos.community](mailto:neon@nervos.community). ***
+***For anyone with a web development background interested in learning CKB or joining the CKBuilders, send an email to [neon@nervos.community](mailto:neon@nervos.community).***
+
