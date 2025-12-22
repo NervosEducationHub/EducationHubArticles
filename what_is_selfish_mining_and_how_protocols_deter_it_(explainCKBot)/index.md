@@ -32,7 +32,7 @@ This behavior causes honest miners’ work to be wasted. The honest miners may h
 
 In essence, selfish mining manipulates the normal race for block discovery by controlling information. The strategy relies not on computational power alone but also on timing, coordination, and deception.
 
-The idea was first formally analyzed in 2013 by researchers *Ittay Eyal* and *Emin Gün Sirer* in their seminal paper “[*Majority Is Not Enough: Bitcoin Mining Is Vulnerable*](https://arxiv.org/pdf/1311.0243)*.*” Their analysis showed that m*iners controlling as little as one-third of the total network hash power could manipulate block release timing to increase revenue.* This finding contradicted the long-held belief that only those with over 50 percent of the network’s power could threaten Bitcoin’s security.
+The idea was first formally analyzed in 2013 by researchers *Ittay Eyal* and *Emin Gün Sirer* in their seminal paper “[*Majority Is Not Enough: Bitcoin Mining Is Vulnerable*](https://arxiv.org/pdf/1311.0243)*.*” Their analysis showed that *miners controlling as little as one-third of the total network hash power could manipulate block release timing to increase revenue.* This finding contradicted the long-held belief that only those with over 50 percent of the network’s power could threaten Bitcoin’s security.
 
 
 
