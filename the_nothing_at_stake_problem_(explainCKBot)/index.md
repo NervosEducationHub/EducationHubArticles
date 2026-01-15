@@ -1,5 +1,5 @@
 ---
-title: 'The Nothing-at-Stake Problem: Understanding Proof-of-Stake's Biggest Challenge'
+title: 'The Nothing-at-Stake Problem: Understanding the Biggest Challenge of Proof-of-Stake'
 coverImage: 'images/image1.png'
 category: Education
 subtitle: 'The Nothing-at-Stake problem highlights a fundamental challenge in Proof-of-Stake systems.'
