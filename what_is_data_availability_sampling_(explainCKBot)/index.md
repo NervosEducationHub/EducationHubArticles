@@ -16,7 +16,7 @@ As blockchains evolved and ambitions expanded to support global-scale applicatio
 
 ## Why Data Availability Matters in Blockchains
 
-[Data availability](https://www.nervos.org/knowledge-base/what_is_data_ availability_in_blockchain_(explainCKBot)) refers to the guarantee that all information required to verify a blockchain’s[ state](https://www.nervos.org/knowledge-base/state_and_state_change_(explainCKBot)) is accessible to anyone who wishes to check it. 
+[Data availability](https://www.nervos.org/knowledge-base/what_is_data_%20availability_in_blockchain_(explainCKBot)) refers to the guarantee that all information required to verify a blockchain’s[ state](https://www.nervos.org/knowledge-base/state_and_state_change_(explainCKBot)) is accessible to anyone who wishes to check it. 
 
 This includes transaction data, state-transition information, and, in the context of [rollups](https://www.nervos.org/knowledge-base/What_are_optimistic_rollups_(explainCKBot)), batch data published to the base layer. If data is missing, withheld, or selectively revealed, honest participants lose the ability to independently verify the chain’s correctness. This breakdown creates opportunities for fraud, censorship, and undetectable state manipulation.
 
