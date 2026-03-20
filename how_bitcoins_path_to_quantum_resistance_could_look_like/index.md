@@ -7,7 +7,7 @@ category:
 subtitle: "Bitcoin doesn’t have decades but rather several years to prepare for Q-Day."
 date: "2026-03-20T16:00:00.000Z"
 author:
-  - github: nervosnetwork
+  - github:nervosnetwork
 ---
 
 For nearly two decades, Bitcoin’s security has rested on a simple mathematical assumption: that reverse-engineering a private key from a publicly visible public key is practically impossible. This foundation, built on [Elliptic Curve Cryptography](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography) (ECC), currently underpins trillions of dollars in global wealth.
