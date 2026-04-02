@@ -34,7 +34,7 @@ The process typically begins with participants installing hardware devices that 
 
 Blockchain technology serves as the coordination layer that records activity, verifies contributions, and distributes rewards through smart contracts. Because these transactions are recorded on a transparent ledger, network activity remains publicly auditable.
 
-Verification mechanisms play an essential role in ensuring trust. DePIN protocols must confirm that participants genuinely provide the services they claim. For example, wireless networks may measure signal coverage, decentralized storage networks verify [data availability](https://www.nervos.org/knowledge-base/what_is_data_ availability_in_blockchain_(explainCKBot)), and compute networks confirm that hardware has completed assigned computational tasks.
+Verification mechanisms play an essential role in ensuring trust. DePIN protocols must confirm that participants genuinely provide the services they claim. For example, wireless networks may measure signal coverage, decentralized storage networks verify [data availability](https://www.nervos.org/knowledge-base/what_is_data_%20availability_in_blockchain_(explainCKBot)), and compute networks confirm that hardware has completed assigned computational tasks.
 
 Once services are validated, the protocol distributes tokens as compensation. Users then access the network’s services by paying with tokens or supported currencies. This system forms a circular economy in which infrastructure providers earn rewards, users consume services, and the blockchain coordinates the entire process.
 
