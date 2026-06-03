@@ -105,7 +105,7 @@ On Ethereum, storage is free to write. You pay a gas fee once to execute the tra
 
 CKB solves this structurally. You want to store 100 bytes on-chain? You lock 100 CKB as a deposit. That CKB is not burned. It's locked inside the cell. When you destroy the cell because you no longer need the data, you get those 100 CKB back. The space you occupied is freed.
 
-The consequences for applications are striking. The Spore Protocol (CKB's NFT standard) stores content directly in the cell data. An image, a text document, a piece of generative art. It all lives on-chain, in the cell, not on IPFS or a server somewhere. Because the cell holds CKB proportional to its size, the NFT *carries its own storage cost inside itself*. When you transfer a Spore NFT, a tiny fraction of the cell's own capacity can pay the miner fee. The asset funds its own movement.
+The consequences for applications are striking. The Spore Protocol (a CKB NFT standard) stores content directly in the cell data. An image, a text document, a piece of generative art. It all lives on-chain, in the cell, not on IPFS or a server somewhere. Because the cell holds CKB proportional to its size, the NFT *carries its own storage cost inside itself*. When you transfer a Spore NFT, a tiny fraction of the cell's own capacity can pay the miner fee. The asset funds its own movement.
 
 You can send a Spore NFT to someone with zero CKB in their wallet. Try doing that on Ethereum.
 
