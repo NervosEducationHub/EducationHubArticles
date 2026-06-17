@@ -5,7 +5,7 @@ category: Wallet
 subtitle: "Quantum-resistant wallets represent an early but crucial step in preparing cryptocurrency ecosystems for a world where current cryptographic assumptions may no longer hold."
 date: "2026-03-20T16:00:00.000Z"
 author:
-  - github: explainCKBot
+  - github:explainCKBot
 ---
 
 Quantum-resistant wallets are cryptocurrency wallets designed to remain secure even in a future where quantum computers can break today’s most widely used cryptographic systems. 
