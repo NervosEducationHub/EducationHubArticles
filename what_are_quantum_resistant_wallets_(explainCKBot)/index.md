@@ -1,67 +1,68 @@
 ---
-title: "What Are Quantum-resistant Wallets?"
+title: "What Are Quantum-Resistant Wallets?"
 coverImage: "images/image1.png"
 category: Wallet
 subtitle: "Quantum-resistant wallets represent an early but crucial step in preparing cryptocurrency ecosystems for a world where current cryptographic assumptions may no longer hold."
-date: "2026-03-20T16:00:00.000Z"
+date: "2026-06-29T16:00:00.000Z"
 author:
   - github:explainCKBot
 ---
 
-Quantum-resistant wallets are cryptocurrency wallets designed to remain secure even in a future where quantum computers can break today’s most widely used cryptographic systems. 
+## Key Takeaways
 
-Rather than relying on traditional [ECC](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography) (Elliptic Curve Cryptography) or [RSA](https://en.wikipedia.org/wiki/RSA_cryptosystem) (Rivest–Shamir–Adleman), both of which protect most existing crypto wallets, these wallets are built on [post-quantum cryptography](https://en.wikipedia.org/wiki/Post-quantum_cryptography), a new generation of mathematical techniques designed to withstand both classical and quantum attacks.
+- **Definition:** A quantum-resistant wallet is a cryptocurrency wallet that uses post-quantum cryptography to protect user funds from future quantum computing attacks.  
+- **Cryptographic Upgrades:** These wallets replace vulnerable classical mathematical schemes (like ECC and RSA) with quantum-safe alternatives, such as lattice-based or hash-based signature algorithms.  
+- **Strict Address Hygiene:** Quantum-resistant wallets mitigate address reuse risks and "harvest now, decrypt later" attacks by enforcing one-time address generation to minimize public key exposure.  
+- **Proactive Architecture & Crypto Agility:** A simple algorithmic swap is insufficient for an evolving security landscape. Wallet design needs crypto agility, a shift that enables adaptable blockchains to seamlessly upgrade security measures without requiring network-wide hard forks.
 
-Although the idea may appear futuristic, the concern it addresses is practical and increasingly relevant within the blockchain ecosystem. The same mathematical assumptions that secure Bitcoin, Ethereum, and countless other digital assets today could become vulnerable once quantum computing reaches sufficient maturity.
+## What Are Quantum-Resistant Wallets?
 
+A quantum-resistant wallet is a cryptocurrency wallet designed to secure user assets against quantum computing attacks by implementing [post-quantum cryptography](https://en.wikipedia.org/wiki/Post-quantum_cryptography). Unlike traditional digital wallets that rely on [Elliptic Curve Cryptography](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography) (ECC) or [RSA](https://en.wikipedia.org/wiki/RSA_cryptosystem) (Rivest–Shamir–Adleman), to generate public-private key pairs, these wallets abandon vulnerable mathematical structures like integer factorization and discrete logarithms. Instead, they utilize quantum-resistant standards, such as [hash-based](https://en.wikipedia.org/wiki/Hash-based_cryptography) or [lattice-based](https://www.nervos.org/knowledge-base/what_is_lattice_based_cryptography_\(explainCKBot\)) cryptographies, which are mathematically safe from being solved by quantum hardware, ensuring a private key cannot be derived from an exposed public key.
 
+## Why Are Crypto Wallets Vulnerable to Quantum Computers?
 
-## Why Current Crypto Wallets May Become Vulnerable to Quantum Computers
+Crypto wallets are vulnerable to quantum computers because their underlying elliptic-curve digital signatures, such as [ECDSA](https://www.nervos.org/knowledge-base/understanding_ECDSA_\(explainCKBot\)) or [EdDSA](https://en.wikipedia.org/wiki/EdDSA), rely on the [discrete logarithm](https://en.wikipedia.org/wiki/Discrete_logarithm) problem, a mathematical challenge that classical computers cannot solve but quantum computers can crack rapidly using [Shor’s algorithm](https://en.wikipedia.org/wiki/Shor's_algorithm).
 
-Most existing cryptocurrency wallets rely on elliptic-curve digital signatures, such as [ECDSA](https://www.nervos.org/knowledge-base/understanding_ECDSA_(explainCKBot)) or [EdDSA](https://en.wikipedia.org/wiki/EdDSA), which are mathematically secure because solving the underlying [discrete logarithm](https://en.wikipedia.org/wiki/Discrete_logarithm) problem is infeasible for classical computers. This security assumption has held firm for decades and is deeply embedded in the architecture of Bitcoin, Ethereum, and many other blockchains. However, this assumption does not survive the presence of sufficiently powerful quantum computers, which can solve these problems dramatically faster using [Shor’s algorithm](https://en.wikipedia.org/wiki/Shor's_algorithm).
+While this security assumption has safely protected networks like Bitcoin and Ethereum for decades, a sufficiently powerful quantum computer bypasses this defense entirely. This means that the moment a public key becomes exposed on the blockchain, the mathematical shield fails at the signature level, rendering legacy wallet architectures insecure against quantum-equipped adversaries.
 
-The vulnerability does not mean that every wallet will suddenly become unsafe. Instead, the risk arises when a public key becomes visible on the blockchain, i.e., when a transaction is signed and broadcast. Once that public key is exposed, a quantum adversary with sufficient computational power could, in principle, compute the corresponding private key before the transaction is finalized or shortly after. This would allow the attacker to create a competing transaction and redirect the funds.
+## Why Does Address Reuse Increase Quantum Risk?
 
-Another subtle issue is that many users reuse addresses or leave funds sitting in addresses whose public keys have already been revealed. In a post-quantum scenario, these addresses become particularly attractive targets because the cryptographic shield is weakened once the public key is known. Even blockchains with strong consensus mechanisms cannot protect against cryptographic failure at the signature level.
+Address reuse increases quantum risk because it leaves a wallet's public key permanently exposed on-chain, creating a static, unchangeable target for retroactive quantum attacks. When a transaction is signed and broadcast, its public key (which was previously hidden by a hash function) becomes visible on the blockchain. If the same address is reused for subsequent transactions, the already-exposed public key remains a permanent target indefinitely.
 
-This is why the discussion around quantum-resistant wallets focuses not only on replacing signature schemes but also on minimizing key exposure, redesigning address practices, and rethinking how wallets interact with blockchain data over time.
+Under the strategy known as ["harvest now, decrypt later"](https://en.wikipedia.org/wiki/Harvest_now,_decrypt_later) (HNDL), adversaries can record these exposed keys today and safely store them until quantum computers are mature enough to extract the private keys. The wallets most immediately at risk are those whose public keys are already on-chain, particularly addresses that have been reused; wallets that have never broadcast a transaction offer a degree of temporary protection, but this does not make them permanently safe. The HNDL risk is compounded by the fact that blockchain data is public and immutable, meaning there is no way to retroactively hide an exposed public key.
 
+To prevent this, quantum-resistant wallets enforce strict address hygiene by generating a unique, one-time address for every transaction, ensuring public keys are not repeatedly exposed to the immutable ledger.
 
+## What Makes a Wallet Quantum-Resistant?
 
-## What Makes a Wallet “Quantum-resistant”
+A wallet is made quantum-resistant by replacing traditional signature schemes with mathematical constructions that do not rely on discrete logarithms or [integer factorization](https://en.wikipedia.org/wiki/Integer_factorization). In practice, this requires implementing alternative signature algorithms vetted by global standardization organizations like [NIST](https://www.nist.gov/), including [SPHINCS+](https://en.wikipedia.org/wiki/SPHINCS%2B), [Dilithium](https://pq-crystals.org/dilithium/), and [Falcon](https://en.wikipedia.org/wiki/Falcon_\(signature_scheme\)).
 
-A wallet becomes quantum-resistant when its security no longer depends on cryptographic problems that quantum computers can efficiently solve. Instead, it relies on mathematical constructions believed to be resistant to both classical and quantum attacks, commonly referred to as post-quantum cryptography. These constructions include lattice-based signatures, hash-based signatures, and other schemes that do not rely on discrete logarithms or [integer factorization](https://en.wikipedia.org/wiki/Integer_factorization).
+However, quantum resistance demands a broader architectural redesign beyond a simple algorithmic swap. In terms of quantum wallets, they must comprehensively update how keys are generated, stored, revealed, and rotated, so that daily operations do not inadvertently leak exploitable metadata. A quantum-resistant wallet is therefore both a cryptographic upgrade and a broader architectural redesign focused on enduring security.
 
-In practice, this means the wallet uses alternative signature algorithms such as [SPHINCS+](https://en.wikipedia.org/wiki/SPHINCS%2B), Dilithium, [Falcon](https://en.wikipedia.org/wiki/Falcon_(signature_scheme)), or other candidates emerging from the post-quantum cryptography standardization efforts. For example, [Quantum Purse](https://www.quantumpurse.org/), a lightweight quantum-safe desktop wallet for the [Common Knowledge Base](https://www.nervos.org/knowledge-base/ckb_blockchain_developers_dream) (CKB) blockchain, uses the SPHINCS+ scheme. These algorithms are designed so that even a quantum computer would not have a feasible shortcut for deriving private keys from public keys.
+## Are Quantum Wallets Safe to Use?
 
-However, quantum resistance is not achieved solely by adopting a new algorithm. The wallet must also address how keys are generated, stored, revealed, and rotated. It must ensure that transaction signing, address generation, and user interaction do not inadvertently leak information that could be exploited. A quantum-resistant wallet is therefore both a cryptographic upgrade and a broader architectural redesign focused on enduring security.
+Yes, quantum-resistant wallets are safe to use because they eliminate reliance on vulnerable classical mathematics, insulating digital assets against both current security exploits and future quantum decryption tactics. By upgrading to post-quantum signature schemes, they provide an essential security margin for long-term asset protection. However, as noted above, their real-world safety also relies heavily on strict address hygiene. They are safest when utilizing automated one-time addresses to keep the window of public key exposure as narrow as possible.
 
+## Which Crypto Wallets Are Quantum-resistant?
 
+Functional quantum-resistant crypto wallets remain highly rare today, with [Quantum Purse](https://www.quantumpurse.org/)—a self-custodial desktop wallet built on the CKB (Common Knowledge Base) blockchain—serving as a primary live example. Quantum Purse uses the [SPHINCS+](https://sphincs.org/) signature scheme, whereas most mainstream wallets today, including those for Bitcoin and Ethereum, are not quantum-resistant, as they still rely on ECDSA or Schnorr signatures. This is because modifying cryptography on those legacy blockchains requires complex, coordinated protocol upgrades, which have not yet been implemented. By contrast, CKB is a crypto agile blockchain that allows custom verification logic to be deployed at the script layer, meaning new signature schemes can be integrated without a protocol-level hard fork.
 
-## Address Exposure, Key Reuse, and Quantum Risk
+Users looking for quantum-safe storage today should consider wallets deployed on such blockchains that support post-quantum cryptographic primitives natively, rather than waiting for legacy networks to complete a protocol migration.
 
-One of the lesser-known aspects of quantum vulnerability lies in address behavior rather than cryptographic choice alone. In many blockchains, an address is derived from a public key, and the public key becomes visible once a transaction is signed. If that address is reused, the public key remains exposed on the blockchain indefinitely, creating a future target for quantum attacks. A future adversary could retroactively analyze historical data and target addresses whose public keys were revealed years earlier.
+## How Does CKB Support Quantum-Resistant Wallets Without a Hard Fork?
 
-Quantum-resistant wallets, therefore, often adopt strict address hygiene. They encourage or enforce the use of one-time addresses so that public keys are not repeatedly exposed. They may automatically generate new addresses for each transaction, reducing the window of vulnerability and minimizing the risk of long-term exposure.
+CKB supports quantum-resistant wallets without a hard fork by leveraging its native cryptographic agility, which decouples verification logic from the consensus layer and runs it entirely within the application layer. While most Layer 1 blockchains hardcode their ECC primitives directly into the core protocol, CKB uses the [RISC-V](https://www.nervos.org/knowledge-base/what_is_riscv_\(explainCKBot\))\-powered [CKB-VM](https://docs.nervos.org/docs/ckb-fundamentals/ckb-vm) paired with an advanced UTXO—[Cell model](https://docs.nervos.org/docs/ckb-fundamentals/cell-model). This architecture allows developers to deploy new quantum-resistant cryptographic algorithms simply as smart contracts, known as [Scripts](https://docs.nervos.org/docs/getting-started/how-ckb-works#scripts) that define how a Cell can be spent, without modifying the protocol. This crypto agility enabled wallets like [Quantum Purse](https://www.quantumpurse.org/) to enforce SPHINCS+ signatures through a custom script, without disrupting the broader network.
 
+## What Are the Challenges of Developing Quantum-resistant Wallets?
 
+The primary challenges of developing quantum-resistant wallets include handling massively expanded signature sizes, overcoming rigid network compatibility barriers, and adapting to shifting global cryptographic standards.
 
-## Challenges of Developing Quantum-resistant Wallets
-
-Developing quantum-resistant wallets involves more than simply replacing existing signature algorithms. Because most blockchains were originally built around ECC, integrating post-quantum security often requires changes to wallet architecture, transaction formats, and key management practices.
-
-One practical challenge is signature size and efficiency. Many post-quantum schemes produce much larger signatures than traditional elliptic-curve systems, which can increase transaction size and verification costs. 
-
-Another difficulty is network compatibility. Major blockchains such as Bitcoin and Ethereum are deeply tied to ECC at the protocol level. Introducing post-quantum signatures may require [protocol upgrades](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork_(explainCKBot)). On the CKB blockchain, because it uses a flexible [Cell model](https://medium.com/nervosnetwork/the-cell-model-a-generalized-utxo-model-2da32248b0a0) that allows custom verification scripts, developers of the wallet Quantum Purse can experiment with new cryptographic primitives without modifying the core protocol.
-
-Finally, developers must consider evolving cryptographic standards. Post-quantum algorithms are still being studied and standardized, which means wallet designs must remain adaptable in case recommended algorithms change in the future.
-
-For these reasons, building a quantum-resistant wallet is not simply a cryptographic update. It requires balancing security, performance, and compatibility while preparing for a gradually evolving post-quantum ecosystem.
-
-
+* **Signature Size and Efficiency**: Many post-quantum schemes produce much larger footprints than traditional elliptic-curve systems. For instance, a standard [secp256k1](https://www.nervos.org/knowledge-base/secp256k1_a_key%20algorithm_\(explainCKBot\)) signature is roughly 64 bytes, whereas a quantum-safe SPHINCS+ signature ranges from [8 KB to 49 KB](https://asecuritysite.com/signatures/fips205), heavily inflating transaction data payloads and verification costs.  
+* **Network Compatibility**: Legacy blockchains such as Bitcoin and Ethereum are deeply tied to ECC at the protocol level, making the introduction of post-quantum signatures nearly impossible without contentious, network-wide [protocol upgrades](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork_\(explainCKBot\)). Crypto agile blockchains like CKB avoid this by using a flexible architecture based on the [Cell model](https://medium.com/nervosnetwork/the-cell-model-a-generalized-utxo-model-2da32248b0a0) and [CKB-VM](https://docs.nervos.org/docs/ckb-features/vm-built-for-hackers).  
+* **Evolving Cryptographic Standards**: Because post-quantum cryptography is still being actively studied and standardized by the global cryptographic community, wallet designs must be built with extreme adaptability to avoid obsolescence if baseline algorithm recommendations change.
 
 ## Conclusion
 
 Quantum-resistant wallets represent an early but crucial step in preparing cryptocurrency ecosystems for a world where current cryptographic assumptions may no longer hold. By adopting post-quantum signature schemes, redesigning key management practices, and supporting hybrid security models, these wallets aim to protect digital assets against both present and future threats.
 
-Their importance lies not in immediate necessity but in long-term vision. They demonstrate how the blockchain community can anticipate technological change and respond with thoughtful engineering rather than reactive measures. As post-quantum security continues to evolve, quantum-resistant wallets will remain one of the most practical and visible manifestations of that preparedness.
+The importance of a quantum wallet lies not in immediate necessity but in long-term vision. They demonstrate how the blockchain community can anticipate technological change and respond with thoughtful engineering rather than reactive measures. As post-quantum security continues to evolve, quantum-resistant wallets will remain one of the most practical and visible manifestations of that preparedness.
