@@ -2,7 +2,7 @@
 title: 'Top Quantum Resistant Cryptocurrency Projects in 2026'
 coverImage: 'images/image1.png'
 category: Popular 
-subtitle: 'Compare 2026's quantum resistant cryptocurrency blockchains, evaluated by live mainnet status, crypto agility, and migration readiness.'
+subtitle: "Compare 2026's quantum resistant cryptocurrency blockchains, evaluated by live mainnet status, crypto agility, and migration readiness."
 date: '2026-07-01T16:00:00.000Z'
 author: 
 - github:nervosnetwork
