@@ -47,16 +47,84 @@ This is also the kind of distinction tracked by resources such as [Quantum Track
 ## Top Quantum Resistant Coins in 2026
 
 
-| Project | PQC Scope | Algorithm | Mainnet Status | Crypto Agility | Migration Model |
-|---|---|---|---|---|---|
-| CKB | Transaction authorization via Lock Scripts | SPHINCS+ live; future schemes possible | Mainnet live | High | Opt-in migration to PQ locks |
-| QRL | Native transaction signatures | XMSS; Zond moving toward SPHINCS+ | Mainnet live | Moderate | PQ-native |
-| Algorand | State proofs, AVM verification, PQ account roadmap | Falcon-1024 / Falcon-512 roadmap | Partial / phased | Moderate | Phased protocol/account migration |
-| NEAR | PQC testnet work | Active integration | Testnet | Moderate | Not yet mainnet |
-| IOTA | Historical WOTS+, current transition planning | Hybrid proposal | Transitioning | Low/unclear | Phased migration |
-| Abelian | Native privacy/security layer | Lattice-based | Mainnet live, verify details | Moderate | PQ-native |
-| QubitChain | Native PQC claims | ML-KEM / ML-DSA | Testnet | High | PQ-native |
-| Cellframe | Modular PQC claims | Dilithium / Falcon | Needs verification | Claimed high | PQ-native/modular |
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; border: 1px solid #ddd;">
+    <thead>
+        <tr style="background-color: #f5f5f5;">
+            <th style="border: 1px solid #ddd; padding: 8px; text-align: left; background-color: #f5f5f5;">Project</th>
+            <th style="border: 1px solid #ddd; padding: 8px; text-align: left; background-color: #f5f5f5;">PQC Scope</th>
+            <th style="border: 1px solid #ddd; padding: 8px; text-align: left; background-color: #f5f5f5;">Algorithm</th>
+            <th style="border: 1px solid #ddd; padding: 8px; text-align: left; background-color: #f5f5f5;">Mainnet Status</th>
+            <th style="border: 1px solid #ddd; padding: 8px; text-align: left; background-color: #f5f5f5;">Crypto Agility</th>
+            <th style="border: 1px solid #ddd; padding: 8px; text-align: left; background-color: #f5f5f5;">Migration Model</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">CKB</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Transaction authorization via Lock Scripts</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">SPHINCS+ live; future schemes possible</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Mainnet live</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">High</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Opt-in migration to PQ locks</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">QRL</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Native transaction signatures</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">XMSS; Zond moving toward SPHINCS+</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Mainnet live</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Moderate</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">PQ-native</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">Algorand</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">State proofs, AVM verification, PQ account roadmap</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Falcon-1024 / Falcon-512 roadmap</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Partial / phased</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Moderate</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Phased protocol/account migration</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">NEAR</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">PQC testnet work</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Active integration</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Testnet</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Moderate</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Not yet mainnet</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">IOTA</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Historical WOTS+, current transition planning</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Hybrid proposal</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Transitioning</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Low/unclear</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Phased migration</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">Abelian</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Native privacy/security layer</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Lattice-based</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Mainnet live, verify details</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Moderate</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">PQ-native</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">QubitChain</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Native PQC claims</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">ML-KEM / ML-DSA</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Testnet</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">High</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">PQ-native</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 8px;">Cellframe</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Modular PQC claims</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Dilithium / Falcon</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Needs verification</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">Claimed high</td>
+            <td style="border: 1px solid #ddd; padding: 8px;">PQ-native/modular</td>
+        </tr>
+    </tbody>
+</table>
 
 
 ### 1) CKB: The Crypto Agile Approach
