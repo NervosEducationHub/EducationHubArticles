@@ -46,16 +46,18 @@ This is also the kind of distinction tracked by resources such as [Quantum Track
 
 ## Top Quantum Resistant Coins in 2026
 
-| *Project*    | *PQC Scope*                                          | *Algorithm*                              | *Mainnet Status*               | *Crypto Agility* | *Migration Model*                   |
-| ------------ | ---------------------------------------------------- | ---------------------------------------- | ------------------------------ | ---------------- | ----------------------------------- |
-| *CKB*        | *Transaction authorization via Lock Scripts*         | *SPHINCS+ live; future schemes possible* | *Mainnet live*                 | *High*           | *Opt-in migration to PQ locks*      |
-| *QRL*        | *Native transaction signatures*                      | *XMSS; Zond moving toward SPHINCS+*      | *Mainnet live*                 | *Moderate*       | *PQ-native*                         |
-| *Algorand*   | *State proofs, AVM verification, PQ account roadmap* | *Falcon-1024 / Falcon-512 roadmap*       | *Partial / phased*             | *Moderate*       | *Phased protocol/account migration* |
-| *NEAR*       | *PQC testnet work*                                   | *Active integration*                     | *Testnet*                      | *Moderate*       | *Not yet mainnet*                   |
-| *IOTA*       | *Historical WOTS+, current transition planning*      | *Hybrid proposal*                        | *Transitioning*                | *Low/unclear*    | *Phased migration*                  |
-| *Abelian*    | *Native privacy/security layer*                      | *Lattice-based*                          | *Mainnet live, verify details* | *Moderate*       | *PQ-native*                         |
-| *QubitChain* | *Native PQC claims*                                  | *ML-KEM / ML-DSA*                        | *Testnet*                      | *High*           | *PQ-native*                         |
-| *Cellframe*  | *Modular PQC claims*                                 | *Dilithium / Falcon*                     | *Needs verification*           | *Claimed high*   | *PQ-native/modular*                 |
+
+| Project | PQC Scope | Algorithm | Mainnet Status | Crypto Agility | Migration Model |
+|---|---|---|---|---|---|
+| CKB | Transaction authorization via Lock Scripts | SPHINCS+ live; future schemes possible | Mainnet live | High | Opt-in migration to PQ locks |
+| QRL | Native transaction signatures | XMSS; Zond moving toward SPHINCS+ | Mainnet live | Moderate | PQ-native |
+| Algorand | State proofs, AVM verification, PQ account roadmap | Falcon-1024 / Falcon-512 roadmap | Partial / phased | Moderate | Phased protocol/account migration |
+| NEAR | PQC testnet work | Active integration | Testnet | Moderate | Not yet mainnet |
+| IOTA | Historical WOTS+, current transition planning | Hybrid proposal | Transitioning | Low/unclear | Phased migration |
+| Abelian | Native privacy/security layer | Lattice-based | Mainnet live, verify details | Moderate | PQ-native |
+| QubitChain | Native PQC claims | ML-KEM / ML-DSA | Testnet | High | PQ-native |
+| Cellframe | Modular PQC claims | Dilithium / Falcon | Needs verification | Claimed high | PQ-native/modular |
+
 
 ### 1) CKB: The Crypto Agile Approach
 
