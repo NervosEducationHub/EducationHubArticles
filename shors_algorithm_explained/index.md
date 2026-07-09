@@ -40,7 +40,7 @@ Discrete logarithms break Diffie–Hellman, ECDSA, Schnorr signatures, and ellip
 
 Bitcoin is threatened by the second attack, not the first.
 
-Bitcoin does not use RSA. It uses [secp256k1](https://www.nervos.org/knowledge-base/secp256k1_a_key algorithm_(explainCKBot)), an elliptic curve used for digital signatures. A quantum attack on Bitcoin would not involve factoring Bitcoin keys. It would involve using Shor’s discrete logarithm algorithm to recover a private key from a publicly known public key.
+Bitcoin does not use RSA. It uses [secp256k1](https://www.nervos.org/knowledge-base/secp256k1_a_key%20algorithm_(explainCKBot)), an elliptic curve used for digital signatures. A quantum attack on Bitcoin would not involve factoring Bitcoin keys. It would involve using Shor’s discrete logarithm algorithm to recover a private key from a publicly known public key.
 
 ## Why Does Shor’s Algorithm Matter?
 
