@@ -99,10 +99,15 @@ x^k mod N
 Using x = 2 and N = 21:
 
 2^1 mod 21 = 2
+
 2^2 mod 21 = 4
+
 2^3 mod 21 = 8
+
 2^4 mod 21 = 16
+
 2^5 mod 21 = 11
+
 2^6 mod 21 = 1
 
 The sequence has looped back to 1, so the period is:
@@ -118,7 +123,9 @@ If the period r is even and x^(r/2) is not congruent to -1 mod N, we can continu
 Here:
 
 r = 6
+
 r / 2 = 3
+
 x^(r/2) = 2^3 = 8
 
 Since 8 is not congruent to -1 mod 21, which would be 20, we calculate:
