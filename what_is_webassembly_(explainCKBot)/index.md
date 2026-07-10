@@ -1,7 +1,7 @@
 ---
 title: 'What is WebAssembly (WASM)? A Complete Guide'
 coverImage: 'images/image1.png'
-category: Popular
+category: Vm
 subtitle: 'In the constantly evolving landscape of web development, a groundbreaking technology known as WebAssembly (WASM) plays an important role.'
 date: '2024-02-05T16:00:00.000Z'
 author: 
