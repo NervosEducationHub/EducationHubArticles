@@ -1,7 +1,7 @@
 ---
 title: '什么是区块链交易确认？'
 coverImage: 'images/image1.png'
-category: Popular
+category: Education
 subtitle: '区块链交易确认是确保交易有效性和安全性的关键步骤。这个过程始于交易被提交到内存池中，终于被打包到新区块里并添加至区块链上。'
 date: '2023-11-29T16:00:00.000Z'
 author: 
