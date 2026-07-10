@@ -1,7 +1,7 @@
 ---
 title: 'What is Block Time in Blockchain? A Complete Guide'
 coverImage: 'images/image1.png'
-category: Popular
+category: Education
 subtitle: 'Blockchain technology, with its potential to revolutionize various sectors, has garnered significant attention over the years.'
 date: '2023-12-18T16:00:00.000Z'
 author: 
