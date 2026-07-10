@@ -1,7 +1,7 @@
 ---
 title: What's the Difference Between Block Subsidy and Block Reward?
 coverImage: 'images/image1.png'
-category: Popular
+category: Education
 subtitle: 'The world of cryptocurrencies has been a point of intrigue for many, both seasoned financial experts and curious onlookers.'
 date: '2024-01-15T16:00:00.000Z'
 author: 

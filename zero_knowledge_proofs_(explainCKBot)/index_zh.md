@@ -1,7 +1,7 @@
 ---
 title: '零知识证明：密码学的深入探索'
 coverImage: 'images/image1.png'
-category: Popular
+category: Scaling
 subtitle: '本文将深入探讨零知识证明的概念，在加密货币领域中的重要性，以及实际应用和面临的挑战。'
 date: '2023-08-16T16:00:00.000Z'
 author: 

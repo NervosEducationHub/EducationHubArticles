@@ -1,7 +1,7 @@
 ---
 title: 'Bitcoin Script: A Comprehensive Guide'
 coverImage: 'images/image1.png'
-category: Popular
+category: Bitcoin
 subtitle: 'In the universe of cryptocurrencies, Bitcoin stands as the pioneering force, a novel digital currency that revolutionized the global financial landscape. At the heart of this revolution lies the Bitcoin Script, a unique programming language that governs the inner workings of Bitcoin transactions.'
 date: '2023-12-11T16:00:00.000Z'
 author: 

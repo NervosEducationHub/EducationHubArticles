@@ -1,7 +1,7 @@
 ---
 title: '区块链不可能三角：终极指南'
 coverImage: 'images/image4.png'
-category: popular
+category: Scaling
 
 date: '2023-05-25T16:00:00.000Z'
 ---

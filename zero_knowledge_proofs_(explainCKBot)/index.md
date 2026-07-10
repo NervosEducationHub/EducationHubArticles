@@ -1,7 +1,7 @@
 ---
 title: 'Zero-Knowledge Proofs (ZKPs) in Blockchain: A Complete Guide'
 coverImage: 'images/image1.png'
-category: Popular, scaling
+category: Scaling
 subtitle: 'A comprehensive guide to understanding zero-knowledge proofs, their significance in enhancing privacy and security in the crypto landscape, and their diverse applications.'
 date: '2023-08-16T16:00:00.000Z'
 author: 

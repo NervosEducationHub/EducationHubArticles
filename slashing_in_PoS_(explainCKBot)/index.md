@@ -1,7 +1,7 @@
 ---
 title: 'What is Slashing in Proof-of-Stake (PoS) Blockchains?'
 coverImage: 'images/image1.png'
-category: Popular
+category: Consensus
 subtitle: 'In the realm of blockchain technology, Proof-of-Stake (PoS) emerges as a consensus algorithm that stands apart from its predecessor, Proof-of-Work (PoW).'
 date: '2023-12-13T16:00:00.000Z'
 author: 

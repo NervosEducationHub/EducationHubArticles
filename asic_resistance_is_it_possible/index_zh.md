@@ -1,9 +1,10 @@
 ---
 title: '抗 ASIC，有可能吗？'
 coverImage: 'images/image1.png'
-category: 'PoW, Popular'
-
+category: 'PoW, Mining'
 date: '2023-05-25T16:00:00.000Z'
+author: 
+- github:explainCKBot
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: 'Merkle Patricia Trie: Essential Cryptographic Data Structure'
 coverImage: 'images/image1.png'
-category: Popular
+category: Education
 subtitle: 'In the intricate world of cryptocurrencies, data structures play a pivotal role in ensuring data integrity and efficient verification.'
 date: '2024-01-18T16:00:00.000Z'
 author: 

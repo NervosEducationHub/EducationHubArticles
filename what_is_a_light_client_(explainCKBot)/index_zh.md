@@ -1,7 +1,7 @@
 ---
 title: '什么是区块链轻客户端？'
 coverImage: 'images/image1.png'
-category: Popular
+category: Node, Light Client
 subtitle: '区块链技术已经彻底重塑了我们理解和参与数字交易的方式。'
 date: '2023-09-13T16:00:00.000Z'
 author: 
