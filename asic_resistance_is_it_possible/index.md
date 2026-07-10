@@ -1,9 +1,10 @@
 ---
 title: 'ASIC-Resistance in Crypto Mining: Is it possible?'
 coverImage: 'images/image1.png'
-category: 'PoW, Popular, mining, ASIC'
-
+category: 'PoW, Mining, ASIC'
 date: '2023-04-11T16:00:00.000Z'
+author: 
+- github:explainCKBot
 ---
 
 
