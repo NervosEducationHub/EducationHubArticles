@@ -1,7 +1,7 @@
 ---
 title: '处理器架构的革命：RISC-V'
 coverImage: 'images/image1.png'
-category: Popular
+category: RISC-V, Ckb-Vm
 subtitle: '在计算机架构领域，一个彻底改变行业格局的新参与者正崭露头角：RISC-V。'
 date: '2023-10-23T16:00:00.000Z'
 author: 
