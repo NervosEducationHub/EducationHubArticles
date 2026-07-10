@@ -1,7 +1,7 @@
 ---
 title: '详解 PoS 协议中的罚没机制'
 coverImage: 'images/image1.png'
-category: Popular
+category: Consensus
 subtitle: '在区块链技术领域，权益证明（PoS）是一种有别于工作量证明（PoW）的共识算法。'
 date: '2023-12-13T16:00:00.000Z'
 author: 
