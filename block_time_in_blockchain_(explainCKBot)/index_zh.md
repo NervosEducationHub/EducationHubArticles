@@ -1,7 +1,7 @@
 ---
 title: '一文读懂区块时间'
 coverImage: 'images/image1.png'
-category: Popular
+category: Education
 subtitle: '区块链技术因其潜在的行业变革能力而长期受到瞩目。'
 date: '2023-12-18T16:00:00.000Z'
 author: 
