@@ -1,7 +1,7 @@
 ---
 title: 'What’s the Difference Between Crypto Miners and Validators?'
 coverImage: 'images/image1.png'
-category: Popular
+category: Mining
 subtitle: 'The digital realm of cryptocurrency operates on the bedrock of consensus mechanisms that validate transactions and add new blocks to the blockchain. Among the most prevalent consensus mechanisms are Proof-of-Work (PoW) and Proof-of-Stake (PoS), each employing a unique set of actors—miners and validators, respectively.'
 date: '2024-01-04T16:00:00.000Z'
 author: 
