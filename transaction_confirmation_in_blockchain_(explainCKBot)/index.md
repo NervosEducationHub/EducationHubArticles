@@ -1,7 +1,7 @@
 ---
 title: 'What is Transaction Confirmation in Blockchain?'
 coverImage: 'images/image1.png'
-category: Popular
+category: Education
 subtitle: 'Transaction confirmation is a critical stage in the lifecycle of a blockchain transaction. It refers to the process of validating and verifying a transaction by including them in blocks embedded in the blockchain.'
 date: '2023-11-29T16:00:00.000Z'
 author: 
