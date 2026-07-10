@@ -1,9 +1,7 @@
 ---
 title: "How Bitcoin's Path to Quantum-Resistance Could Look"
 coverImage: "images/image1.png"
-category:
-  - Bitcoin
-  - Popular
+category: Popular
 subtitle: "Bitcoin doesn’t have decades but rather several years to prepare for Q-Day."
 date: "2026-03-20T16:00:00.000Z"
 author:

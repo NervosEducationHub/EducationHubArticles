@@ -1,7 +1,7 @@
 ---
 title: 'The Ultimate Guide to RGB, RGB++, and Client-Side Validation'
 coverImage: 'images/image1.png'
-category: Bitcoin
+category: Popular
 subtitle: 'The rise in popularity of ordinals, inscriptions, and BRC-20 tokens over the last two years has made it abundantly clear that crypto users want tokenized assets on Bitcoin.'
 date: '2024-09-2616:00:00.000Z'
 ---

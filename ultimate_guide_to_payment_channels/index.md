@@ -1,7 +1,7 @@
 ---
 title: 'The Ultimate Guide to Payment Channels and Payment Channel Networks'
 coverImage: 'images/image7.png'
-category: Popular
+category: Scaling
 subtitle: 'As cryptocurrencies become increasingly popular, the idea of blockchains eventually becoming the backbone of the future’s payment systems becomes ever more alluring.'
 date: '2024-01-17T16:00:00.000Z'
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Becoming Money: Stablecoins as the Next Necessary Step in Bitcoin’s Journey"
 coverImage: 'images/image1.png'
-category: Bitcoin, Lightning, Stablecoins
+category: Popular
 subtitle: "Counterintuitively, the next step toward Bitcoin’s destiny may not center on bitcoin, but rather fiat... Specifically, on stablecoins running on a mesh of Bitcoin-based multi-asset payment channels."
 date: '2025-06-18T16:00:00.000Z'
 ---
