@@ -1,7 +1,7 @@
 ---
 title: '加密货币中，矿工和验证者有什么区别？'
 coverImage: 'images/image1.png'
-category: Popular
+category: Mining
 subtitle: '加密货币的稳定运行离不开共识机制，这是其核心支柱。共识机制负责验证交易并将新区块添加到区块链中。目前，工作量证明（Proof of Work, PoW）和权益证明（Proof of Stake, PoS）是两种主流的共识机制。在这两个体系中，分别有矿工和验证者扮演着网络维护的关键角色。'
 date: '2024-01-04T16:00:00.000Z'
 author: 
