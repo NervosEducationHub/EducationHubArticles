@@ -1,7 +1,7 @@
 ---
 title: 'What are Testnet and Mainnet in Blockchain?'
 coverImage: 'images/image1.png'
-category: Popular
+category: Education
 subtitle: 'Cryptocurrencies and blockchain technology have taken the financial world by storm, giving rise to various terms and concepts that might be difficult to understand for the uninitiated. Two such terms are “mainnet” and “testnet.”'
 date: '2024-01-23T16:00:00.000Z'
 author: 
