@@ -1,7 +1,7 @@
 ---
 title: 'The Case For RGB++: A New Approach to Bitcoin Scaling'
 coverImage: 'images/cover.png'
-category: Bitcoin
+category: Popular
 subtitle: "Most Bitcoin Layer 2s aren't Layer 2s at all. And out of those that are, RGB++ stands out as the most promising, Bitcoin-aligned scaling and programmability solution currently available."
 date: '2025-01-21T16:00:00.000Z'
 ---
