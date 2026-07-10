@@ -1,7 +1,7 @@
 ---
 title: 'What are Schnorr Signatures and Their Use in Blockchain?'
 coverImage: 'images/image1.png'
-category: Popular
+category: Cryptography
 subtitle: 'In the realm of cryptographic security, digital signatures stand as the cornerstone, ensuring the integrity and authenticity of transactions.'
 date: '2024-01-10T16:00:00.000Z'
 author: 
