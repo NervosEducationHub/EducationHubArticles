@@ -1,7 +1,7 @@
 ---
 title: '什么是 Secp256r1？'
 coverImage: 'images/image1.png'
-category: Popular
+category: Cryptography
 subtitle: 'Secp256r1 又称为 "P-256"，是数字签名和密钥转换常用的椭圆曲线，在区块链行业的应用日益广泛。 '
 date: '2023-12-10T16:00:00.000Z'
 author: 
