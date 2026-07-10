@@ -1,7 +1,7 @@
 ---
 title: '比特币脚本简介'
 coverImage: 'images/image1.png'
-category: Popular
+category: Bitcoin
 subtitle: '比特币，作为数字货币革命的先驱，不仅颠覆了传统金融体系，更代表了一种全新的货币形态。这场创新的核心是比特币脚本——一种独特的编程语言，它巧妙地驱动着比特币网络中的交易过程。'
 date: '2023-12-11T16:00:00.000Z'
 author: 
