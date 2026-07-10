@@ -1,7 +1,7 @@
 ---
 title: 'Schnorr 签名及其在加密货币中的应用'
 coverImage: 'images/image1.png'
-category: Popular
+category: Cryptography
 subtitle: '在密码安全领域，数字签名是确保交易完整性和真实性的基石。'
 date: '2024-01-10T16:00:00.000Z'
 author: 
