@@ -110,7 +110,7 @@ When it comes to choosing the right PQ algorithm, there is no perfect plug-and-p
 
 
 
-<table style="border-collapse: collapse; width: 100%; font-size: 0.9em; border: 1px solid #ccc;">
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-size: 0.9em; border: 1px solid #ddd;">
   <thead>
     <tr>
       <th style="border: 1px solid #ccc; padding: 8px; text-align: left; background-color: #f2f2f2;">Types</th>
@@ -148,8 +148,7 @@ Even the lightest post-quantum signature is at least five times larger than Bitc
 When it comes to choosing the migration framework, three main contenders have been proposed so far:
 
 
-
-<table style="border-collapse: collapse; width: 100%; font-size: 0.9em; border: 1px solid #ccc;">
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-size: 0.9em; border: 1px solid #ddd;">
   <thead>
     <tr>
       <th style="border: 1px solid #ccc; padding: 8px; text-align: left; background-color: #f2f2f2;">Framework</th>
