@@ -5,7 +5,7 @@ category: Popular
 subtitle: 'A CKBuilder reflection on Ethereum instincts, CKB Cells, Type Scripts, witnesses, and proof-bound state transitions.'
 date: '2026-07-10T00:00:00.000Z'
 author:
-- github: wamimi
+- github:wamimi
 ---
 
 ## Where Is the ABI? Also, Why Is My Cell Dead?
