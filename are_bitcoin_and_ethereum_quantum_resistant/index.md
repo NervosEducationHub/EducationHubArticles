@@ -169,7 +169,7 @@ SegWit and Taproot each required years of discussion, development, and activatio
 
 Today, Bitcoin has a direction but not a settled destination. BIP-360 and BIP-361 establish an early framework, but the community has yet to reach consensus on the signature scheme, migration strategy, or activation path that will ultimately secure the network against quantum attacks.
 
-For a deeper technical walkthrough of the proposals and migration paths, see [**How Bitcoin's Path to Quantum Resistance Could Look**](https://www.nervos.org/knowledge-base/how_bitcoins_path_to_quantum_resistance_could_look_like).
+For a deeper technical walkthrough of the proposals and migration paths, see *[**How Bitcoin's Path to Quantum Resistance Could Look**](https://www.nervos.org/knowledge-base/how_bitcoins_path_to_quantum_resistance_could_look_like)*.
 
 ## How Is Ethereum Preparing for Quantum Computing?
 
