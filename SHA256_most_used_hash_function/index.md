@@ -77,7 +77,7 @@ SHA256 serves as the [Proof-of-Work (PoW) algorithm](https://www.nervos.org/know
 
 1. Miners collect a set of unconfirmed transactions and create a new block candidate.
 2. The block header is constructed, containing key information such as the previous block's hash, the Merkle root of the transactions, a timestamp, a nonce, and the target difficulty.
-3. Miners then repeatedly perform the SHA256 hash operation on the block header, incrementing the nonce value with each attempt until they find a hash that is lower than or equal to the [target difficulty](https://www.nervos.org/knowledge-base/cryptocurrency_mining_difficulty_%28explainCKBot%29).
+3. Miners then repeatedly perform the SHA256 hash operation on the block header, incrementing the nonce value with each attempt until they find a hash that is lower than or equal to the [target difficulty](https://www.nervos.org/knowledge-base/cryptocurrency_mining_difficulty).
 4. Once a valid hash is found, the miner broadcasts the solution to the network, and other nodes verify the hash by performing the same operation.
 5. If the solution is valid, the new block is added to the blockchain, and the miner receives a block reward in the form of newly minted bitcoins and transaction fees.
 6. Double SHA256 for Transaction and Block Hashing: Bitcoin employs a double SHA256 hashing method for both transaction and block hashing to improve security. In this process, the SHA256 hash is calculated twice on the input data, with the output of the first calculation serving as the input for the second calculation. This additional layer of hashing mitigates potential vulnerabilities, such as the length extension attack.
