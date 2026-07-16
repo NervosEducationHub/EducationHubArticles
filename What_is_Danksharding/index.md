@@ -8,11 +8,11 @@ author:
 - github:explainCKBot
 ---
 
-Ethereum has a scaling problem. As more users and applications flock to the network, blockspace demand continues to outpace supply. [Gas fees](https://www.nervos.org/knowledge-base/what_is_a_blockchain_gas_fee_(explainCKBot)) rise, congestion grows, and the dream of a fast, global settlement layer starts to buckle under its own success. 
+Ethereum has a scaling problem. As more users and applications flock to the network, blockspace demand continues to outpace supply. [Gas fees](https://www.nervos.org/knowledge-base/what_is_a_blockchain_gas_fee) rise, congestion grows, and the dream of a fast, global settlement layer starts to buckle under its own success. 
 
-Enter [sharding](https://www.nervos.org/knowledge-base/What_is_sharding_in_blockchain_(explainCKBot))—an idea that’s been part of Ethereum's roadmap since the early days. But sharding has evolved. It’s not what it used to be. And today, the term you’ll most often hear is "Danksharding."
+Enter [sharding](https://www.nervos.org/knowledge-base/What_is_sharding_in_blockchain)—an idea that’s been part of Ethereum's roadmap since the early days. But sharding has evolved. It’s not what it used to be. And today, the term you’ll most often hear is "Danksharding."
 
-Danksharding is Ethereum's future scaling solution that dramatically increases [data availability](https://www.nervos.org/knowledge-base/what_is_data_%20availability_in_blockchain_(explainCKBot)) for rollups. Unlike traditional sharding, which splits computation and state, Danksharding focuses solely on data. It introduces a unified block structure and uses a market-based approach to decide which data gets included. It's named after researcher Dankrad Feist, who proposed the core concept. And while the name might sound playful, the idea behind it is serious business for Ethereum’s future.
+Danksharding is Ethereum's future scaling solution that dramatically increases [data availability](https://www.nervos.org/knowledge-base/what_is_data_%20availability_in_blockchain) for rollups. Unlike traditional sharding, which splits computation and state, Danksharding focuses solely on data. It introduces a unified block structure and uses a market-based approach to decide which data gets included. It's named after researcher Dankrad Feist, who proposed the core concept. And while the name might sound playful, the idea behind it is serious business for Ethereum’s future.
 
 
 
@@ -20,7 +20,7 @@ Danksharding is Ethereum's future scaling solution that dramatically increases [
 
 To understand Danksharding, it helps to know where the idea comes from. Traditional sharding, borrowed from database theory, breaks a system into smaller parts (shards), each responsible for a portion of the data or computation. In Ethereum's early roadmap, this meant creating multiple “mini-Ethereums,” each handling its own transactions and smart contracts.
 
-This sounded promising in theory, but it raised massive complexity. Coordinating [state](https://www.nervos.org/knowledge-base/state_and_state_change_(explainCKBot)) between shards, enabling cross-shard communication, and maintaining security across the system added more problems than it solved. By 2021, Ethereum researchers began shifting focus away from computational sharding toward data sharding.
+This sounded promising in theory, but it raised massive complexity. Coordinating [state](https://www.nervos.org/knowledge-base/state_and_state_change) between shards, enabling cross-shard communication, and maintaining security across the system added more problems than it solved. By 2021, Ethereum researchers began shifting focus away from computational sharding toward data sharding.
 
 Why the pivot? Because rollups had changed the game. Instead of scaling Ethereum directly by increasing its computational load, rollups allowed activity to happen off-chain and use Ethereum for security and data availability. This changed what Ethereum needed from sharding: not more computation, but more data space. Danksharding is the result of that shift in thinking.
 
@@ -38,7 +38,7 @@ By focusing on data rather than execution, Danksharding avoids the complexity of
 
 ## Proto-Danksharding: The First Step
 
-Before Ethereum can implement full Danksharding, it needs to build the infrastructure to support it. That’s where proto-Danksharding comes in. Also known as [EIP-4844](https://www.eip4844.com), proto-Danksharding is a transitional upgrade that introduces the concept of "[blobs](https://www.nervos.org/knowledge-base/what_are_blobs_in_ethereum_(explainCKBot))"—large chunks of binary data that can be attached to blocks.
+Before Ethereum can implement full Danksharding, it needs to build the infrastructure to support it. That’s where proto-Danksharding comes in. Also known as [EIP-4844](https://www.eip4844.com), proto-Danksharding is a transitional upgrade that introduces the concept of "[blobs](https://www.nervos.org/knowledge-base/what_are_blobs_in_ethereum)"—large chunks of binary data that can be attached to blocks.
 
 Blobs are cheaper to store and transmit than regular calldata, making them ideal for rollup data. They don’t persist in Ethereum’s state forever, which helps keep nodes light and manageable. This temporary nature is fine, because rollups don’t need permanent data storage—they just need enough time to retrieve and process the data after it’s published.
 
@@ -50,7 +50,7 @@ Proto-Danksharding is a critical step because it tests many of the components th
 
 One of the most innovative parts of Danksharding is how it changes block construction. Traditional sharding might have involved independent block producers for each shard. But Danksharding uses a single proposer per block, supported by a network of builders who compete to assemble the most profitable and data-efficient blocks.
 
-This is where [Proposer-Builder Separation (PBS)](https://www.nervos.org/knowledge-base/What_is_a_digital_signature_%20in_Blockchain_(explainCKBot)) comes in. Under PBS, block proposers are randomly selected validators who choose from blocks constructed by third-party builders. Builders have the technical skill and resources to optimize block content for maximum [MEV (miner-extractable value)](https://ethereum.org/en/developers/docs/mev/) and efficient use of blob space.
+This is where [Proposer-Builder Separation (PBS)](https://www.nervos.org/knowledge-base/What_is_a_digital_signature_%20in_Blockchain) comes in. Under PBS, block proposers are randomly selected validators who choose from blocks constructed by third-party builders. Builders have the technical skill and resources to optimize block content for maximum [MEV (miner-extractable value)](https://ethereum.org/en/developers/docs/mev/) and efficient use of blob space.
 
 Danksharding incorporates this model by turning data inclusion into a market. Builders submit blocks that include both execution transactions and blob data. Proposers choose the best block according to certain rules and incentives. This system encourages competition, drives down costs, and makes data availability scalable.
 
@@ -60,11 +60,11 @@ The idea is that block builders will include as much useful blob data as the mar
 
 ## Cryptographic Infrastructure: KZG Commitments and Data Availability Sampling
 
-One technical challenge of Danksharding is ensuring that data blobs are actually available to the network. It’s not enough to publish a commitment to data—the data itself must be retrievable, or rollups can't operate securely. But with large data volumes, [full nodes](https://www.nervos.org/knowledge-base/difference_between_miner_full_node_(explainCKBot)) can’t afford to download everything.
+One technical challenge of Danksharding is ensuring that data blobs are actually available to the network. It’s not enough to publish a commitment to data—the data itself must be retrievable, or rollups can't operate securely. But with large data volumes, [full nodes](https://www.nervos.org/knowledge-base/difference_between_miner_full_node) can’t afford to download everything.
 
 The solution lies in cryptographic tools like [KZG commitments](https://inevitableeth.com/home/concepts/kzg-commitment) and [data availability sampling (DAS)](https://inevitableeth.com/home/ethereum/upgrades/scaling/data/p2p-network/data-availability-sampling). A KZG commitment is a kind of cryptographic fingerprint that allows someone to verify a piece of data without seeing the whole thing. Using KZG, Ethereum can commit to a blob and allow others to verify any part of it efficiently.
 
-DAS lets [light clients](https://www.nervos.org/knowledge-base/what_is_a_light_client_(explainCKBot)) check data availability by sampling small parts of many blobs at random. If enough samples are available and consistent, it becomes statistically very likely that the entire dataset is available. This lets Ethereum maintain strong data guarantees without requiring every node to download every byte.
+DAS lets [light clients](https://www.nervos.org/knowledge-base/what_is_a_light_client) check data availability by sampling small parts of many blobs at random. If enough samples are available and consistent, it becomes statistically very likely that the entire dataset is available. This lets Ethereum maintain strong data guarantees without requiring every node to download every byte.
 
 Together, KZG and DAS form the backbone of Ethereum’s scalable data layer. They make it possible to include large volumes of rollup data without bloating the chain or sacrificing trustlessness. These technologies are already being tested and refined, and they’re essential for Danksharding to work in practice.
 
@@ -82,7 +82,7 @@ Over time, Danksharding could help Ethereum support not just dozens, but hundred
 
 ## Challenges and Criticisms of Danksharding
 
-No upgrade is without trade-offs, and Danksharding is no exception. One concern is complexity. The system introduces new roles, markets, and cryptographic primitives. It requires [validators](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators_(explainCKBot)) to handle blob data, builders to compete on multiple fronts, and light clients to perform statistical sampling.
+No upgrade is without trade-offs, and Danksharding is no exception. One concern is complexity. The system introduces new roles, markets, and cryptographic primitives. It requires [validators](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators) to handle blob data, builders to compete on multiple fronts, and light clients to perform statistical sampling.
 
 There’s also a coordination challenge. Danksharding depends on other upgrades like PBS and proto-Danksharding being successful. If one component fails or introduces unintended side effects, it could slow down the entire roadmap.
 
