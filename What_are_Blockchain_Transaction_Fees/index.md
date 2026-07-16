@@ -8,7 +8,7 @@ author:
 - github:explainCKBot
 ---
 
-These transaction fees compensate the network participants, commonly known as [miners or validators](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators_(explainCKBot)), for processing, validating, and recording transactions onto the blockchain ledger. Understanding blockchain fees is crucial for efficient interaction with blockchain networks, whether for sending cryptocurrencies, executing smart contracts, or deploying decentralized applications (dApps).
+These transaction fees compensate the network participants, commonly known as [miners or validators](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators), for processing, validating, and recording transactions onto the blockchain ledger. Understanding blockchain fees is crucial for efficient interaction with blockchain networks, whether for sending cryptocurrencies, executing smart contracts, or deploying decentralized applications (dApps).
 
 
 
@@ -17,8 +17,8 @@ These transaction fees compensate the network participants, commonly known as [m
 Blockchain transaction fees serve several essential purposes:
 
 * **Security Incentives**:  
-  * In [proof-of-work (PoW)](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)) chains like Bitcoin, fees reward miners for securing the network. As block rewards halve over time, fees will become the primary incentive, raising questions about long-term security (e.g., Bitcoin’s "security budget" debate).  
-  * In proof-of-stake (PoS) systems (e.g., Ethereum), validators stake collateral to participate. Fees here serve as a reward for honest participation and a penalty deterrent ([slashing](https://www.nervos.org/knowledge-base/slashing_in_PoS_(explainCKBot))).  
+  * In [proof-of-work (PoW)](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling) chains like Bitcoin, fees reward miners for securing the network. As block rewards halve over time, fees will become the primary incentive, raising questions about long-term security (e.g., Bitcoin’s "security budget" debate).  
+  * In proof-of-stake (PoS) systems (e.g., Ethereum), validators stake collateral to participate. Fees here serve as a reward for honest participation and a penalty deterrent ([slashing](https://www.nervos.org/knowledge-base/slashing_in_PoS)).  
 * **Resource Allocation**:  
   * Fees act as a market-driven tool to allocate limited block space. High demand turns blockchains into auction markets, where users bid for priority—a concept formalized in Ethereum’s [EIP-1559](https://eips.ethereum.org/EIPS/eip-1559) upgrade.  
 * **Anti-Spam Mechanisms**:  
@@ -31,8 +31,8 @@ Blockchain transaction fees serve several essential purposes:
 Blockchain transaction fees vary depending on several factors:
 
 * **Network Congestion:** Higher network usage leads to increased demand, driving up transaction fees. Users pay higher fees to ensure quicker validation.  
-* **Transaction Complexity:** More complex transactions, such as those involving smart contracts or [multi-signature wallets](https://www.nervos.org/knowledge-base/what_is_a_multisig_wallet_(explainCKBot)), require greater computational effort, thus incurring higher fees.  
-* **Blockchain Type:** Different blockchain networks have unique fee structures. For example, Bitcoin calculates fees based on transaction size in bytes, whereas Ethereum uses [gas fees](https://www.nervos.org/knowledge-base/what_is_a_blockchain_gas_fee_(explainCKBot)) calculated by computational complexity and network congestion.
+* **Transaction Complexity:** More complex transactions, such as those involving smart contracts or [multi-signature wallets](https://www.nervos.org/knowledge-base/what_is_a_multisig_wallet), require greater computational effort, thus incurring higher fees.  
+* **Blockchain Type:** Different blockchain networks have unique fee structures. For example, Bitcoin calculates fees based on transaction size in bytes, whereas Ethereum uses [gas fees](https://www.nervos.org/knowledge-base/what_is_a_blockchain_gas_fee) calculated by computational complexity and network congestion.
 
 ### Bitcoin Transaction Fees Explained
 
@@ -65,7 +65,7 @@ Users can manage and reduce fees through several strategies:
 
 * **Timing Transactions Strategically**: Scheduling transactions during periods of low congestion helps minimize fees.  
 * **Optimizing Transactions**: Reducing complexity or consolidating multiple smaller transactions can lower overall costs.  
-* **Layer 2 and Off-chain Solutions**: Using Layer 2 technologies (e.g., [Lightning Network](https://en.wikipedia.org/wiki/Lightning_Network), [Optimistic Rollups](https://www.nervos.org/knowledge-base/What_are_optimistic_rollups_(explainCKBot)), ZK-rollups) can significantly reduce fees by processing transactions off the main blockchain.
+* **Layer 2 and Off-chain Solutions**: Using Layer 2 technologies (e.g., [Lightning Network](https://en.wikipedia.org/wiki/Lightning_Network), [Optimistic Rollups](https://www.nervos.org/knowledge-base/What_are_optimistic_rollups), ZK-rollups) can significantly reduce fees by processing transactions off the main blockchain.
 
 
 
