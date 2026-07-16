@@ -55,7 +55,7 @@ HTLCs underpin off-chain scaling solutions, particularly the [Lightning Network]
 
 ### Other Use Cases
 
-Beyond atomic swaps and payment channels, HTLCs also enhance escrow services and [multi-signature wallets](https://www.nervos.org/knowledge-base/what_is_a_multisig_wallet_(explainCKBot)). Their versatility helps secure decentralized applications (dApps), enabling complex conditional payment scenarios safely and transparently.
+Beyond atomic swaps and payment channels, HTLCs also enhance escrow services and [multi-signature wallets](https://www.nervos.org/knowledge-base/what_is_a_multisig_wallet). Their versatility helps secure decentralized applications (dApps), enabling complex conditional payment scenarios safely and transparently.
 
 
 
