@@ -65,7 +65,7 @@ Users can manage and reduce fees through several strategies:
 
 * **Timing Transactions Strategically**: Scheduling transactions during periods of low congestion helps minimize fees.  
 * **Optimizing Transactions**: Reducing complexity or consolidating multiple smaller transactions can lower overall costs.  
-* **Layer 2 and Off-chain Solutions**: Using Layer 2 technologies (e.g., [Lightning Network](https://en.wikipedia.org/wiki/Lightning_Network), [Optimistic Rollups](https://www.nervos.org/knowledge-base/What_are_optimistic_rollups), ZK-rollups) can significantly reduce fees by processing transactions off the main blockchain.
+* **Layer 2 and Off-chain Solutions**: Using Layer 2 technologies (e.g., [Lightning Network](https://en.wikipedia.org/wiki/Lightning_Network), [Optimistic Rollups](https://www.nervos.org/knowledge-base/what_are_optimistic_rollups_and_how_do_they_work), ZK-rollups) can significantly reduce fees by processing transactions off the main blockchain.
 
 
 
