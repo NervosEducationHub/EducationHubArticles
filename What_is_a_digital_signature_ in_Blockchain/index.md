@@ -22,11 +22,11 @@ A digital signature is created using the private key and verified with the corre
 
 ## How Does Signing Work in Blockchain?
 
-When someone intends to sign a piece of data—such as a transaction transferring cryptocurrency from one account to another—they first run the transaction details through a cryptographic [hash function](https://www.nervos.org/knowledge-base/what_is_a_hash_function)—such as [SHA-256](https://www.nervos.org/knowledge-base/SHA256_most_used_hash_function_(explainCKBot)). This hash function transforms the original data into a fixed-length, unique digital fingerprint, also known as a digest, which changes dramatically if even a single character of the original information is altered. 
+When someone intends to sign a piece of data—such as a transaction transferring cryptocurrency from one account to another—they first run the transaction details through a cryptographic [hash function](https://www.nervos.org/knowledge-base/what_is_a_hash_function)—such as [SHA-256](https://www.nervos.org/knowledge-base/SHA256_most_used_hash_function). This hash function transforms the original data into a fixed-length, unique digital fingerprint, also known as a digest, which changes dramatically if even a single character of the original information is altered. 
 
 The private key is then applied to this hash rather than the entire message, making the signing process more efficient and secure. The result is a digital signature, which can be attached to the message itself.
 
-In blockchains like Bitcoin and Ethereum, specific signature algorithms—such as the [Elliptic Curve Digital Signature Algorithm (ECDSA)](https://www.nervos.org/knowledge-base/understanding_ECDSA_(explainCKBot)) or, more recently, EdDSA/Ed25519—are used. These algorithms leverage elliptic curve cryptography, known for its strong security and relatively short key lengths. Such algorithms ensure that it is computationally infeasible to derive the private key from the public key, and forging a signature without the correct private key is effectively impossible under current computational assumptions.
+In blockchains like Bitcoin and Ethereum, specific signature algorithms—such as the [Elliptic Curve Digital Signature Algorithm (ECDSA)](https://www.nervos.org/knowledge-base/understanding_ECDSA) or, more recently, EdDSA/Ed25519—are used. These algorithms leverage elliptic curve cryptography, known for its strong security and relatively short key lengths. Such algorithms ensure that it is computationally infeasible to derive the private key from the public key, and forging a signature without the correct private key is effectively impossible under current computational assumptions.
 
 
 ## How Does Digital Signature Verification Work?
