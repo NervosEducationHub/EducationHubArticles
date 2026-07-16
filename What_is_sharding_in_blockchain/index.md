@@ -8,7 +8,7 @@ author:
 - github:explainCKBot
 ---
 
- As decentralized ledgers continue to gain traction across various sectors, from finance to art and gaming, their ability to handle increasing loads of transactions is crucial. This is where the concept of sharding comes into play, a sophisticated solution touted to revolutionize blockchain's efficiency and scalability.
+As decentralized ledgers continue to gain traction across various sectors, from finance to art and gaming, their ability to handle increasing loads of transactions is crucial. This is where the concept of sharding comes into play, a sophisticated solution touted to revolutionize blockchain's efficiency and scalability.
 
 
 ## What is Blockchain Sharding?
@@ -27,7 +27,7 @@ Horizontal scaling, the backbone of sharding, involves dividing the blockchain's
 
 The process of sharding in blockchain is akin to organizing a group project. Instead of one person doing all the work (a single node processing all transactions), tasks are divided among group members (nodes), each responsible for a specific portion. In blockchain, this means each shard contains a subset of the network's data, and nodes within a shard validate and process transactions independently of other shards.
 
-The implementation of sharding differs in [Proof-of-Work (PoW) and Proof-of-Stake (PoS)](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)) blockchains. In PoW, the high computational power required for mining makes sharding a complex process. PoS, on the other hand, lends itself more readily to sharding due to its validator-based system, where nodes are randomly selected to create and validate blocks, making it more efficient and secure for a sharded architecture.
+The implementation of sharding differs in [Proof-of-Work (PoW) and Proof-of-Stake (PoS)](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling) blockchains. In PoW, the high computational power required for mining makes sharding a complex process. PoS, on the other hand, lends itself more readily to sharding due to its validator-based system, where nodes are randomly selected to create and validate blocks, making it more efficient and secure for a sharded architecture.
 
 
 ## Benefits of Sharding
