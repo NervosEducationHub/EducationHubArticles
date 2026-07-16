@@ -15,7 +15,7 @@ Enter Bitcoin Drivechains, a concept that promises to address these challenges b
 
 Drivechains are a proposed solution designed to enhance Bitcoin's scalability and functionality. They aim to introduce a mechanism that allows Bitcoin to interoperate with [sidechains](https://www.nervos.org/knowledge-base/sidechains_unlocking_the_potential)—separate blockchains tethered to it. These sidechains can offer various features, such as smart contracts or enhanced privacy, without overloading the main chain. The concept, spearheaded by Paul Sztorc, is encapsulated in two Bitcoin Improvement Proposals (BIPs): [BIP 300](https://github.com/bitcoin/bips/blob/master/bip-0300.mediawiki) and [BIP 301](https://github.com/bitcoin/bips/blob/master/bip-0301.mediawiki).
 
-To understand Drivechains in greater technical detail, it's worth breaking down the concept into its foundational components: the concept of sidechains, the two-way peg, hashrate escrows, and blind [merge mining](https://www.nervos.org/knowledge-base/What_is_merge_mining_(explainCKBot)).
+To understand Drivechains in greater technical detail, it's worth breaking down the concept into its foundational components: the concept of sidechains, the two-way peg, hashrate escrows, and blind [merge mining](https://www.nervos.org/knowledge-base/What_is_merge_mining).
 
 
 ### Sidechains and the Two-Way Peg
@@ -23,7 +23,7 @@ To understand Drivechains in greater technical detail, it's worth breaking down 
 At their core, drivechains allow Bitcoin to interact with sidechains—distinct blockchains that are connected to the main Bitcoin blockchain but operate independently. This interaction is facilitated by a two-way peg, which ensures assets can be transferred between the Bitcoin and the sidechains seamlessly. The process works as follows:
 
 * **Initiating a Transfer to a Sidechain**: A user sends BTC to a specific transaction output on the Bitcoin blockchain, which effectively locks the assets. This action is the first step in moving assets from the mainchain to a sidechain.
-* **SPV Proofs and Locking on the Sidechain:** The sidechain acknowledges this transfer through a mechanism known as [Simplified Payment Verification (SPV)](https://www.nervos.org/knowledge-base/what_is_SPV_(explainCKBot)) proofs. These proofs validate that the coins have been locked on the Bitcoin blockchain and allow the same amount of sidechain tokens (representing the locked BTC) to be unlocked on the sidechain for the user.
+* **SPV Proofs and Locking on the Sidechain:** The sidechain acknowledges this transfer through a mechanism known as [Simplified Payment Verification (SPV)](https://www.nervos.org/knowledge-base/what_is_SPV) proofs. These proofs validate that the coins have been locked on the Bitcoin blockchain and allow the same amount of sidechain tokens (representing the locked BTC) to be unlocked on the sidechain for the user.
 * **Withdrawing to Bitcoin:** To move the assets back to the Bitcoin blockchain, the process is reversed. The sidechain tokens are locked, and an SPV proof is generated to unlock the original BTC on the Bitcoin blockchain.
 
 
