@@ -22,7 +22,7 @@ Ethereum is designed to be secure and decentralized. But these priorities come a
 
 Rollups entered the picture as a way to scale Ethereum without sacrificing its core principles. In simple terms, a rollup batches and processes many transactions off-chain and posts the final data (or proof) back to Ethereum. This keeps the heavy lifting off the base layer while preserving Ethereum’s security model.
 
-There are two main types: [optimistic rollups](https://www.nervos.org/knowledge-base/What_are_optimistic_rollups) and zero-knowledge (ZK) rollups. 
+There are two main types: [optimistic rollups](https://www.nervos.org/knowledge-base/what_are_optimistic_rollups_and_how_do_they_work) and zero-knowledge (ZK) rollups. 
 
 Optimistic rollups assume transactions are valid unless proven otherwise, while ZK rollups use cryptographic proofs to verify transactions upfront. Both aim to reduce costs and congestion, but they handle validity and trust differently. Either way, rollups need a way to decide which transactions to include and in what order—a process known as sequencing.
 
