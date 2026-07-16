@@ -10,7 +10,7 @@ author:
 
 Traditional blockchain networks typically operate in isolation, making them incapable of directly communicating or transacting with other blockchains. Imagine blockchain networks as separate islands, each developed with unique features, protocols, and use cases. Without a bridge connecting these islands, they remain isolated, limiting users to a single blockchain's ecosystem. Cross-chain solutions build these essential bridges, creating integrated networks that enhance user experience and amplify utility.
 
-Cross-chain [interoperability](https://www.nervos.org/knowledge-base/what_is_blockchain_interoperability_(explainCKBot)) opens up extensive possibilities, facilitating decentralized applications (DApps) that harness the strengths of multiple blockchain platforms simultaneously. For example, it allows users to trade tokens across various decentralized exchanges effortlessly or utilize multiple blockchain technologies to enhance a single project's capabilities.
+Cross-chain [interoperability](https://www.nervos.org/knowledge-base/what_is_blockchain_interoperability) opens up extensive possibilities, facilitating decentralized applications (DApps) that harness the strengths of multiple blockchain platforms simultaneously. For example, it allows users to trade tokens across various decentralized exchanges effortlessly or utilize multiple blockchain technologies to enhance a single project's capabilities.
 
 
 
@@ -40,7 +40,7 @@ The atomic swap's cryptographic nature ensures trades are atomic—either fully 
 
 ### Cross-Chain Bridges
 
-[Cross-chain bridges](https://www.nervos.org/knowledge-base/what_are_blockchain_bridges_(explainCKBot)) serve as connectors that transfer tokens and data between blockchains, often by minting [wrapped tokens](https://www.nervos.org/knowledge-base/what_are_%20wrapped_tokens_(explainCKBot)). Bridges use validator nodes, relayers, and smart contracts to ensure security and consensus.
+[Cross-chain bridges](https://www.nervos.org/knowledge-base/what_are_blockchain_bridges) serve as connectors that transfer tokens and data between blockchains, often by minting [wrapped tokens](https://www.nervos.org/knowledge-base/what_are_%20wrapped_tokens). Bridges use validator nodes, relayers, and smart contracts to ensure security and consensus.
 
 Technical workflow of bridges:
 
@@ -48,7 +48,7 @@ Technical workflow of bridges:
 2. **Minting**: Validators verify the transaction on blockchain A and trigger minting equivalent "wrapped" tokens on blockchain B.  
 3. **Burning and Redemption**: To reverse the process, wrapped tokens on blockchain B are burned, and validators unlock original tokens on blockchain A.
 
-Security in bridges is maintained through decentralized validator networks, [multi-signature (multisig) wallets](https://www.nervos.org/knowledge-base/what_is_a_multisig_wallet_(explainCKBot)), and consensus mechanisms such as [Proof-of-Stake (PoS)](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)) or [Delegated Proof-of-Stake (DPoS)](https://en.bitcoin.it/wiki/Delegated_proof_of_stake).
+Security in bridges is maintained through decentralized validator networks, [multi-signature (multisig) wallets](https://www.nervos.org/knowledge-base/what_is_a_multisig_wallet), and consensus mechanisms such as [Proof-of-Stake (PoS)](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling) or [Delegated Proof-of-Stake (DPoS)](https://en.bitcoin.it/wiki/Delegated_proof_of_stake).
 
 ### Relay Chains (Polkadot and Cosmos)
 
@@ -63,7 +63,7 @@ Polkadot utilizes Relay Chains, Parachains, and Validators:
 Cosmos uses a similar architecture called the [Inter-Blockchain Communication (IBC)](https://tutorials.cosmos.network/academy/3-ibc/1-what-is-ibc.html) protocol:
 
 * **IBC Protocol**: A standardized messaging protocol enabling secure and verifiable communication between independent Cosmos blockchains.  
-* **Validators and Relayers**: Validators confirm [block states](https://www.nervos.org/knowledge-base/state_and_state_change_(explainCKBot)); relayers transmit and verify cross-chain messages between zones using cryptographic proofs.
+* **Validators and Relayers**: Validators confirm [block states](https://www.nervos.org/knowledge-base/state_and_state_change); relayers transmit and verify cross-chain messages between zones using cryptographic proofs.
 
 Both systems achieve high interoperability and scalability through structured coordination, cryptographic proofs, and consensus algorithms like Tendermint (Cosmos) and GRANDPA/BABE (Polkadot).
 
@@ -91,13 +91,13 @@ Blockchain bridges—protocols that lock assets on one chain and mint equivalent
 Most bridges fall into two categories:
 
 * **Trusted (Centralized) Bridges**: Rely on a third-party validator or multi-signature wallet to approve transactions. For example, the Ronin Bridge (Axie Infinity’s Ethereum-Sidechain bridge) used a 9-of-12 multi-sig system. Attackers compromised five validator keys, enabling a $625 million theft—the largest DeFi hack in history.  
-* **Trustless (Decentralized) Bridges**: Use cryptographic proofs (e.g., [zero-knowledge proofs](https://www.nervos.org/knowledge-base/zero_knowledge_proofs_(explainCKBot))) or decentralized networks to verify transactions. While theoretically safer, they face scalability issues. The Wormhole Bridge, a trustless Solana-Ethereum bridge, lost $325 million due to a signature spoofing exploit in its smart contract.
+* **Trustless (Decentralized) Bridges**: Use cryptographic proofs (e.g., [zero-knowledge proofs](https://www.nervos.org/knowledge-base/zero_knowledge_proofs)) or decentralized networks to verify transactions. While theoretically safer, they face scalability issues. The Wormhole Bridge, a trustless Solana-Ethereum bridge, lost $325 million due to a signature spoofing exploit in its smart contract.
 
 **Attack Vectors**
 
 * **Validator Collusion**: Centralized bridges require users to trust validators. If a majority are compromised (via bribes, coercion, or infiltration), attackers can approve fraudulent withdrawals.  
 * **Code Exploits**: Bridges depend on custom smart contracts to lock, mint, and burn assets. A single coding error—such as incorrect input validation—can cripple the system. The Poly Network hack ($611 million) occurred because the attacker found a flaw allowing them to bypass signature checks.  
-* **Oracle Manipulation**: Bridges often use [oracles](https://www.nervos.org/zh/knowledge-base/what_are_oracles_(explainCKBot)) to verify transactions across chains. If attackers feed false data to these oracles (e.g., claiming a transaction was confirmed when it wasn’t), they can mint counterfeit tokens.
+* **Oracle Manipulation**: Bridges often use [oracles](https://www.nervos.org/zh/knowledge-base/what_are_oracles) to verify transactions across chains. If attackers feed false data to these oracles (e.g., claiming a transaction was confirmed when it wasn’t), they can mint counterfeit tokens.
 
 ### Smart Contract Risks: The Devil in the Details
 
@@ -130,7 +130,7 @@ In 2016, the Decentralized Autonomous Organization (DAO)—a crowdfunded venture
 
 1. The Flaw: The DAO’s "split" function allowed users to withdraw their ETH contributions. However, it sent ETH *before* updating the user’s balance.  
 2. The Exploit: An attacker repeatedly called the split function via a malicious contract, tricking the DAO into sending ETH multiple times for a single withdrawal.  
-3. The Aftermath: The hack led to Ethereum’s controversial [hard fork](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork_(explainCKBot)) to reverse the theft, creating Ethereum (ETH) and Ethereum Classic (ETC).
+3. The Aftermath: The hack led to Ethereum’s controversial [hard fork](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork) to reverse the theft, creating Ethereum (ETH) and Ethereum Classic (ETC).
 
 This incident became a cautionary tale, highlighting the importance of secure coding practices.
 
@@ -162,7 +162,7 @@ Many bridges allow developers to upgrade contracts to fix bugs. However, if upgr
 
 ### Cross-Chain Complexity
 
-Cross-chain smart contracts must reconcile differences between chains, such as [block times](https://www.nervos.org/knowledge-base/block_time_in_blockchain_(explainCKBot)) and [finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto_(explainCKBot)) rules. For example, a bridge between Bitcoin (10-minute blocks) and Solana (400ms blocks) might fail to handle transaction reversals if a Bitcoin transaction is delayed. Such mismatches can trigger arbitrage attacks or accidental fund locks.
+Cross-chain smart contracts must reconcile differences between chains, such as [block times](https://www.nervos.org/knowledge-base/block_time_in_blockchain) and [finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto) rules. For example, a bridge between Bitcoin (10-minute blocks) and Solana (400ms blocks) might fail to handle transaction reversals if a Bitcoin transaction is delayed. Such mismatches can trigger arbitrage attacks or accidental fund locks.
 
 ### Oracle and Relayer Exploits
 

@@ -15,7 +15,7 @@ It provides certainty and trust in transactions, ensuring that once a deal is do
 
 ## The Mechanics of Finality
 
-The attainment of finality in a blockchain is primarily through consensus mechanisms like [Proof-of-Work (PoW), Proof-of-Stake (PoS)](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)), [Practical Byzantine Fault Tolerance (pBFT)](https://bitcoinwiki.org/wiki/pbft), and others, where each mechanism has its own finality implications. Moreover, the speed at which a network confirms transactions, known as latency, directly impacts its finality rate. Lower latency equates to quicker finality, enhancing the network's efficiency and reliability for processing transactions.
+The attainment of finality in a blockchain is primarily through consensus mechanisms like [Proof-of-Work (PoW), Proof-of-Stake (PoS)](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling), [Practical Byzantine Fault Tolerance (pBFT)](https://bitcoinwiki.org/wiki/pbft), and others, where each mechanism has its own finality implications. Moreover, the speed at which a network confirms transactions, known as latency, directly impacts its finality rate. Lower latency equates to quicker finality, enhancing the network's efficiency and reliability for processing transactions.
 
 
 ### Types of Finality in Blockchain Networks
@@ -39,7 +39,7 @@ For instance, Bitcoin achieves probabilistic finality after six confirmations, t
 
 ## Challenges to Achieving Transaction Finality
 
-Achieving transaction finality in blockchain is not without its challenges. [Forking](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork_(explainCKBot)), network latency, and [51% attacks](https://www.nervos.org/knowledge-base/what_is_51_attack) are significant obstacles that can compromise the finality of transactions.
+Achieving transaction finality in blockchain is not without its challenges. [Forking](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork), network latency, and [51% attacks](https://www.nervos.org/knowledge-base/what_is_51_attack) are significant obstacles that can compromise the finality of transactions.
 
 Forking creates temporary divergences in the blockchain, leading to uncertainty about which version of the transaction history is valid. Network latency delays the propagation of transactions, potentially causing discrepancies in transaction order. 
 
@@ -50,7 +50,7 @@ To enhance finality, blockchain networks employ various techniques and consensus
 
 ### Real-world Applications and Implications
 
-The concept of transaction finality holds significant implications for the real-world application of blockchain technology. For crypto exchanges and [cross-chain bridges](https://www.nervos.org/knowledge-base/what_are_blockchain_bridges_(explainCKBot)), ensuring the finality of transactions is paramount to maintaining trust and security. Decentralized applications (dApps) rely on the immutable nature of blockchain transactions to function correctly, highlighting the critical role of finality in the broader crypto ecosystem.
+The concept of transaction finality holds significant implications for the real-world application of blockchain technology. For crypto exchanges and [cross-chain bridges](https://www.nervos.org/knowledge-base/what_are_blockchain_bridges), ensuring the finality of transactions is paramount to maintaining trust and security. Decentralized applications (dApps) rely on the immutable nature of blockchain transactions to function correctly, highlighting the critical role of finality in the broader crypto ecosystem.
 
 
 ## Conclusion

@@ -47,7 +47,7 @@ ZK-rollups (zero-knowledge rollups), on the other hand, use cryptographic proofs
 
 **Data Availability and Execution:** While optimistic and zk-rollups rely on the main chain for both data availability and the validation mechanism (via fraud proofs or zk-proofs), sovereign rollups only use the main chain for data availability, handling their own execution and validation internally.
 
-**Security and Finality:** ZK-rollups offer immediate [transaction finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto_(explainCKBot)) thanks to cryptographic proofs, whereas optimistic rollups introduce delays due to the challenge period. Sovereign rollups' security and finality mechanisms are defined by their internal consensus, which can vary greatly depending on their specific implementation.
+**Security and Finality:** ZK-rollups offer immediate [transaction finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto) thanks to cryptographic proofs, whereas optimistic rollups introduce delays due to the challenge period. Sovereign rollups' security and finality mechanisms are defined by their internal consensus, which can vary greatly depending on their specific implementation.
 
 
 ### Benefits of sovereign rollups

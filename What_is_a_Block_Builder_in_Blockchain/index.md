@@ -7,7 +7,7 @@ date: '2025-01-27 T15:00:00.000Z'
 author:
 - github:explainCKBot
 ---
-Blockchain technology, often hailed as one of the most transformative innovations of the 21st century, powers an ever-growing ecosystem of decentralized financial services, supply chain management solutions, digital identity frameworks, and a host of other applications. At the heart of a blockchain’s operation is its capacity to maintain a secure, immutable, and transparent ledger of transactions. This is accomplished through the continuous addition of data structures known as “blocks.” While many are familiar with the concepts of [miners, validators](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators_(explainCKBot)), or node operators, fewer understand the nuanced role of the “block builder.” Yet, block builders are an increasingly important component within emerging blockchain architectures, especially those that distinguish between block construction and block validation, such as Ethereum’s evolving ecosystem after its shift to [Proof of Stake](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)).
+Blockchain technology, often hailed as one of the most transformative innovations of the 21st century, powers an ever-growing ecosystem of decentralized financial services, supply chain management solutions, digital identity frameworks, and a host of other applications. At the heart of a blockchain’s operation is its capacity to maintain a secure, immutable, and transparent ledger of transactions. This is accomplished through the continuous addition of data structures known as “blocks.” While many are familiar with the concepts of [miners, validators](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators), or node operators, fewer understand the nuanced role of the “block builder.” Yet, block builders are an increasingly important component within emerging blockchain architectures, especially those that distinguish between block construction and block validation, such as Ethereum’s evolving ecosystem after its shift to [Proof of Stake](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling).
 
 In this article, we’ll examine what a block builder is, how it differs from traditional roles like miners or validators, and explore why separating block building from block validation is such a pivotal development for blockchain scalability, efficiency, and fairness.
 
@@ -16,9 +16,9 @@ In this article, we’ll examine what a block builder is, how it differs from tr
 
 To fully appreciate the concept of a block builder, it helps first to understand the different roles that nodes can play in a blockchain network:
 
-* **[Full Nodes](https://www.nervos.org/knowledge-base/difference_between_miner_full_node_(explainCKBot)):** These nodes store the entire ledger history and propagate transactions across the network.
-* **[Validators (or Miners in Proof-of-Work)](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators_(explainCKBot)):** Responsible for proposing new blocks and securing the network, validators (and previously miners in PoW systems) follow the consensus rules to determine which block becomes part of the canonical chain.
-* **[Light Clients](https://www.nervos.org/knowledge-base/what_is_a_light_client_(explainCKBot)):** Nodes that do not store the entire blockchain state but rely on other nodes for succinct proofs in minimizing resource requirements.
+* **[Full Nodes](https://www.nervos.org/knowledge-base/difference_between_miner_full_node):** These nodes store the entire ledger history and propagate transactions across the network.
+* **[Validators (or Miners in Proof-of-Work)](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators):** Responsible for proposing new blocks and securing the network, validators (and previously miners in PoW systems) follow the consensus rules to determine which block becomes part of the canonical chain.
+* **[Light Clients](https://www.nervos.org/knowledge-base/what_is_a_light_client):** Nodes that do not store the entire blockchain state but rely on other nodes for succinct proofs in minimizing resource requirements.
 
 Traditionally, the same entity both constructed and proposed blocks. For instance, in a Proof-of-Work blockchain like Bitcoin, the miner that finds the correct hash (solving the cryptographic puzzle) simultaneously selects which transactions to include in the block and then “proposes” that block to the network. However, as blockchains evolved and complex financial markets sprouted around them—like the rise of [Maximal Extractable Value (MEV)](https://ethereum.org/en/developers/docs/mev/) on Ethereum—protocol designers recognized that decoupling the block-building process from block proposal could yield important benefits.
 
@@ -27,7 +27,7 @@ Traditionally, the same entity both constructed and proposed blocks. For instanc
 
 A **block builder** is a specialized participant in the blockchain network whose primary task is to assemble a set of transactions into a well-formed block. Instead of also being the entity that finalizes or proposes that block to the rest of the network, block builders can focus solely on efficiently aggregating and ordering transactions, optimizing for certain criteria—such as maximum fees, minimal latency, or extraction of MEV—without worrying about the complexities of consensus and staking requirements.
 
-This division is often associated with a broader architectural framework called **[Proposer-Builder Separation (PBS)](https://www.nervos.org/knowledge-base/What_is_Proposer_Builder_Separation%20_in_Ethereum_(explainCKBot))**. In PBS, the “proposer” is the entity chosen by the consensus protocol (e.g., a validator in a Proof-of-Stake system) to finalize and broadcast a block. At the same time, the “builder” is an external party that compiles the transaction list and assembles the block structure. The proposer and builder roles, while distinct, work in tandem through a marketplace or auction-like mechanism that ensures the proposer obtains a block template from the builder that offers the highest value or meets other desired criteria.
+This division is often associated with a broader architectural framework called **[Proposer-Builder Separation (PBS)](https://www.nervos.org/knowledge-base/What_is_Proposer_Builder_Separation%20_in_Ethereum)**. In PBS, the “proposer” is the entity chosen by the consensus protocol (e.g., a validator in a Proof-of-Stake system) to finalize and broadcast a block. At the same time, the “builder” is an external party that compiles the transaction list and assembles the block structure. The proposer and builder roles, while distinct, work in tandem through a marketplace or auction-like mechanism that ensures the proposer obtains a block template from the builder that offers the highest value or meets other desired criteria.
 
 
 ## Why Separate Builders from Proposers?
@@ -61,7 +61,7 @@ A block builder’s workflow can be broken down into several key steps:
 
 1. **Transaction Collection and Filtering:**
 
-Builders monitor the [mempool](https://www.nervos.org/knowledge-base/mempool_in_cryptocurrency_(explainCKBot)) (the set of unconfirmed transactions broadcast by network participants) and possibly private transaction pools. Their sophisticated algorithms analyze which transactions are most profitable to include based on fees, MEV opportunities, or other strategic considerations.
+Builders monitor the [mempool](https://www.nervos.org/knowledge-base/mempool_in_cryptocurrency) (the set of unconfirmed transactions broadcast by network participants) and possibly private transaction pools. Their sophisticated algorithms analyze which transactions are most profitable to include based on fees, MEV opportunities, or other strategic considerations.
 
 2. **Ordering and Optimization:**
 
@@ -152,7 +152,7 @@ Before Ethereum’s transition from PoW to PoS (referred to as “[The Merge](ht
 
 ### Future Scalability Solutions
 
-As networks implement vertical and horizontal scaling solutions (like [sharding](https://www.nervos.org/knowledge-base/What_is_sharding_in_blockchain_(explainCKBot)), [rollups](https://www.nervos.org/knowledge-base/zk_rollup_vs_optimistic_rollup), and [sidechains](https://www.nervos.org/knowledge-base/sidechains_unlocking_the_potential)), the complexity of a single block can increase. Managing transactions from multiple shards or rollups may require advanced algorithms and infrastructure. Block builders, with their specialized focus, are well-positioned to handle these increasingly complex workloads efficiently, thereby playing a critical role in scaling the blockchain to handle thousands—or even millions—of transactions per second in the future.
+As networks implement vertical and horizontal scaling solutions (like [sharding](https://www.nervos.org/knowledge-base/What_is_sharding_in_blockchain), [rollups](https://www.nervos.org/knowledge-base/zk_rollup_vs_optimistic_rollup), and [sidechains](https://www.nervos.org/knowledge-base/sidechains_unlocking_the_potential)), the complexity of a single block can increase. Managing transactions from multiple shards or rollups may require advanced algorithms and infrastructure. Block builders, with their specialized focus, are well-positioned to handle these increasingly complex workloads efficiently, thereby playing a critical role in scaling the blockchain to handle thousands—or even millions—of transactions per second in the future.
 
 
 ## Challenges and Considerations
@@ -172,7 +172,7 @@ Builders may employ opaque strategies for transaction ordering, potentially lead
 
 ### Incentive Alignment
 
-Ensuring that builders, proposers, and the network as a whole have aligned incentives is no small feat. Protocol designers must carefully structure reward mechanisms, [slashing](https://www.nervos.org/knowledge-base/slashing_in_PoS_(explainCKBot)) conditions (for validators), and bidding auctions to avoid unintended exploitative behavior.
+Ensuring that builders, proposers, and the network as a whole have aligned incentives is no small feat. Protocol designers must carefully structure reward mechanisms, [slashing](https://www.nervos.org/knowledge-base/slashing_in_PoS) conditions (for validators), and bidding auctions to avoid unintended exploitative behavior.
 
 
 ## Conclusion

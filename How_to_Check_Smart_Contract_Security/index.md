@@ -18,7 +18,7 @@ So, how do you check if a smart contract is safe? There’s no single test or ce
 
 Before analyzing security, you need to know the purpose of the contract. Is it a DeFi lending protocol? A token contract? An NFT minting engine? Understanding the intent helps you evaluate whether the code matches the expected behavior.
 
-Most scams or vulnerabilities exploit the gap between what users expect and what the code actually does. For example, a token that lets anyone change its total supply might look like a normal [ERC-20](https://www.nervos.org/knowledge-base/understanding_Token_standards_erc20_(explainCKBot)) at first glance, but it behaves very differently.
+Most scams or vulnerabilities exploit the gap between what users expect and what the code actually does. For example, a token that lets anyone change its total supply might look like a normal [ERC-20](https://www.nervos.org/knowledge-base/understanding_Token_standards_erc20) at first glance, but it behaves very differently.
 
 Start by checking the project's documentation, whitepaper, or official website. Look for a clear explanation of what the contract does, how it interacts with users, and what permissions exist. Then, when you review the code or analysis, you can compare reality against claims.
 

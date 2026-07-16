@@ -76,13 +76,13 @@ To understand how Ethereum's sequential execution works, envision the network as
 
 #### Step-by-Step Process of Sequential Execution
 
-1. **Transaction Queue**: Users submit transactions to the Ethereum network, which are then placed in a so-called "[mempool](https://www.nervos.org/knowledge-base/mempool_in_cryptocurrency_(explainCKBot))," where they await confirmation by [miners or validators](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators_(explainCKBot)).
-2. **Order of Processing**: Transactions in the mempool are typically prioritized based on factors like [gas fees](https://www.nervos.org/knowledge-base/what_is_a_blockchain_gas_fee_(explainCKBot)) the sender offers. Miners select transactions from this pool, often starting with those that offer higher fees, and order them sequentially in the block they are mining.
+1. **Transaction Queue**: Users submit transactions to the Ethereum network, which are then placed in a so-called "[mempool](https://www.nervos.org/knowledge-base/mempool_in_cryptocurrency)," where they await confirmation by [miners or validators](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators).
+2. **Order of Processing**: Transactions in the mempool are typically prioritized based on factors like [gas fees](https://www.nervos.org/knowledge-base/what_is_a_blockchain_gas_fee) the sender offers. Miners select transactions from this pool, often starting with those that offer higher fees, and order them sequentially in the block they are mining.
 3. **Validation and Execution**: Each transaction is picked from the block in the order it appears and then validated. Validation ensures the transaction adheres to the protocol rules, such as checking that the sender’s account has enough Ether to cover the transaction and fees.
 4. **State Transition**: Upon validation, the transaction is executed. Execution involves updating the account balances and any relevant contract states. For example, if Alice transfers 2 ETH to Bob, Alice’s balance decreases by 2 ETH, and Bob’s balance increases by 2 ETH. If the transaction involves a smart contract, the contract’s state is updated accordingly.
 5. **Updating the Global State**: After a transaction is executed, its effects are integrated into the current global state of the blockchain. This new state reflects all the cumulative changes brought about by all previous transactions in the block.
 6. **Block Completion**: Once all transactions in the block have been validated and executed in sequence, the block is completed and proposed to the network. Other nodes then verify the block's transactions and the resulting state.
-7. **Consensus and Finalization**: If the block is accepted by the network through the consensus mechanism ([proof-of-work or proof-of-stake](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot))), it is added to the blockchain. This ensures that all nodes update their records to reflect the same global state.
+7. **Consensus and Finalization**: If the block is accepted by the network through the consensus mechanism ([proof-of-work or proof-of-stake](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling)), it is added to the blockchain. This ensures that all nodes update their records to reflect the same global state.
 
 
 ### Advantages of Sequential Execution
@@ -115,7 +115,7 @@ To use an analogy, each UTXO is like a separate coin or bill in your wallet. Whe
 
 ### Advantages of Parallel Execution
 
-The most significant advantage of parallel execution is its ability to enhance the blockchain's throughput and efficiency. This means that the throughput of UTXO-based chains isn’t necessarily limited by the execution times but by the block size or the number of transactions that can fit inside each block, and the [block time](https://www.nervos.org/knowledge-base/block_time_in_blockchain_(explainCKBot)), or the amount of time it takes to verify and add a new block to a blockchain.
+The most significant advantage of parallel execution is its ability to enhance the blockchain's throughput and efficiency. This means that the throughput of UTXO-based chains isn’t necessarily limited by the execution times but by the block size or the number of transactions that can fit inside each block, and the [block time](https://www.nervos.org/knowledge-base/block_time_in_blockchain), or the amount of time it takes to verify and add a new block to a blockchain.
 
 Parallel execution also reduces the time required to validate transactions, improving the network's overall speed. This benefit is particularly valuable for applications that require quick transaction processing, such as financial services and real-time payments.
 

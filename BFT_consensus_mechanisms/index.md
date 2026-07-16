@@ -47,7 +47,7 @@ There are several types of BFT consensus mechanisms, each with its unique featur
 
 ## Use Cases and Applications of BFT Consensus Mechanisms
 
-BFT consensus mechanisms have a wide range of use cases in the world of blockchain and cryptocurrencies. For example, both Bitcoin and Ethereum’s consensus algorithms, [Proof-of-Work and Proof-of-Stake](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)), incorporate elements of BFT for added security and efficiency.
+BFT consensus mechanisms have a wide range of use cases in the world of blockchain and cryptocurrencies. For example, both Bitcoin and Ethereum’s consensus algorithms, [Proof-of-Work and Proof-of-Stake](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling), incorporate elements of BFT for added security and efficiency.
 
 In addition to cryptocurrencies, BFT consensus mechanisms are also used in enterprise blockchain solutions. For example, Hyperledger Fabric, a blockchain framework for developing applications and solutions, uses a variant of PBFT for its consensus mechanism. This allows it to handle a high volume of transactions efficiently and securely.
 

@@ -18,11 +18,11 @@ This seemingly small change has major implications for decentralization, securit
 
 ## The Role of Rollups in Ethereum's Scalability Plan
 
-Ethereum is designed to be secure and decentralized. But these priorities come at the cost of speed and throughput. As the network grew, it became obvious that Ethereum could not handle the demand on-chain. [Gas fees](https://www.nervos.org/knowledge-base/what_is_a_blockchain_gas_fee_(explainCKBot)) skyrocketed, transactions slowed, and users began looking for alternatives.
+Ethereum is designed to be secure and decentralized. But these priorities come at the cost of speed and throughput. As the network grew, it became obvious that Ethereum could not handle the demand on-chain. [Gas fees](https://www.nervos.org/knowledge-base/what_is_a_blockchain_gas_fee) skyrocketed, transactions slowed, and users began looking for alternatives.
 
 Rollups entered the picture as a way to scale Ethereum without sacrificing its core principles. In simple terms, a rollup batches and processes many transactions off-chain and posts the final data (or proof) back to Ethereum. This keeps the heavy lifting off the base layer while preserving Ethereum’s security model.
 
-There are two main types: [optimistic rollups](https://www.nervos.org/knowledge-base/What_are_optimistic_rollups_(explainCKBot)) and zero-knowledge (ZK) rollups. 
+There are two main types: [optimistic rollups](https://www.nervos.org/knowledge-base/what_are_optimistic_rollups_and_how_do_they_work) and zero-knowledge (ZK) rollups. 
 
 Optimistic rollups assume transactions are valid unless proven otherwise, while ZK rollups use cryptographic proofs to verify transactions upfront. Both aim to reduce costs and congestion, but they handle validity and trust differently. Either way, rollups need a way to decide which transactions to include and in what order—a process known as sequencing.
 
@@ -36,7 +36,7 @@ The term "based" in based rollups refers to the idea of being fundamentally grou
 
 With based rollups, the same Ethereum validators who propose blocks on Layer 1 also choose the transaction ordering for the rollup. In other words, the rollup outsources its sequencing function to Ethereum's base layer. This tight integration can dramatically alter the economic and security dynamics between Layer 1 and Layer 2\.
 
-From a design perspective, based rollups lean into Ethereum's own roadmap. As Ethereum transitions to [proposer-builder separation (PBS)](https://www.nervos.org/knowledge-base/What_is_Proposer_Builder_Separation%20_in_Ethereum_(explainCKBot)) and other MEV-mitigation strategies, based rollups aim to align with those changes rather than work around them. Instead of creating a new, potentially centralized layer of economic control on top of Ethereum, they embrace Ethereum as the foundation for ordering and inclusion. This alignment has deep implications, both positive and negative.
+From a design perspective, based rollups lean into Ethereum's own roadmap. As Ethereum transitions to [proposer-builder separation (PBS)](https://www.nervos.org/knowledge-base/What_is_Proposer_Builder_Separation%20_in_Ethereum) and other MEV-mitigation strategies, based rollups aim to align with those changes rather than work around them. Instead of creating a new, potentially centralized layer of economic control on top of Ethereum, they embrace Ethereum as the foundation for ordering and inclusion. This alignment has deep implications, both positive and negative.
 
 
 
