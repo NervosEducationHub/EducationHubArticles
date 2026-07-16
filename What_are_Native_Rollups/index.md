@@ -18,11 +18,11 @@ Native rollups are still a developing concept and aren't yet live on Ethereum. B
 
 ## Traditional Rollups: Understanding Current Scaling Solutions
 
-Most rollups today exist as Layer 2 protocols built on top of Ethereum. They post transaction data to Ethereum and rely on it for security and consensus. The two dominant types are [optimistic rollups](https://www.nervos.org/knowledge-base/What_are_optimistic_rollups_(explainCKBot)) and zero-knowledge (ZK) rollups. Both aim to reduce gas costs and increase throughput while still benefiting from Ethereum's decentralized base layer.
+Most rollups today exist as Layer 2 protocols built on top of Ethereum. They post transaction data to Ethereum and rely on it for security and consensus. The two dominant types are [optimistic rollups](https://www.nervos.org/knowledge-base/what_are_optimistic_rollups_and_how_do_they_work) and zero-knowledge (ZK) rollups. Both aim to reduce gas costs and increase throughput while still benefiting from Ethereum's decentralized base layer.
 
 Optimistic rollups operate under the assumption that all transactions are valid unless challenged. They include fraud proofs and offer a challenge window to contest incorrect data. ZK rollups, on the other hand, submit cryptographic proofs that verify correctness upfront.
 
-Despite their differences, both types depend on Ethereum for two things: [data availability](https://www.nervos.org/knowledge-base/what_is_data_%20availability_in_blockchain_(explainCKBot)) and dispute resolution. However, their actual execution happens off-chain, and they interact with Ethereum via smart contracts. This model works but has limitations. It creates additional latency, complexity, and potential vulnerabilities in the [bridge](https://www.nervos.org/knowledge-base/what_are_blockchain_bridges_(explainCKBot)) between layers.
+Despite their differences, both types depend on Ethereum for two things: [data availability](https://www.nervos.org/knowledge-base/what_is_data_%20availability_in_blockchain) and dispute resolution. However, their actual execution happens off-chain, and they interact with Ethereum via smart contracts. This model works but has limitations. It creates additional latency, complexity, and potential vulnerabilities in the [bridge](https://www.nervos.org/knowledge-base/what_are_blockchain_bridges) between layers.
 
 
 
@@ -30,7 +30,7 @@ Despite their differences, both types depend on Ethereum for two things: [data a
 
 A native rollup differs fundamentally in how it integrates with the base chain. Instead of existing as a smart contract or separate protocol layered on top, a native rollup is baked into the blockchain protocol itself. This means the chain is designed from the ground up to support rollup functionality, including execution, settlement, and data availability.
 
-At the heart of the native rollup concept is the introduction of the `EXECUTE` [precompile](https://www.nervos.org/knowledge-base/what_are-precompiles_(explainCKBot))—a specialized contract embedded within Ethereum's protocol. This precompile exposes the Layer 1 (L1) Ethereum [Virtual Machine](https://www.nervos.org/knowledge-base/what_is_a_VM_in_blockchain_(explainCKBot)) (EVM) execution engine to the application layer, enabling direct verification of Layer 2 (L2) [state](https://www.nervos.org/knowledge-base/state_and_state_change_(explainCKBot)) transitions. By leveraging this mechanism, native rollups can achieve EVM equivalence without the need for external validation systems such as fraud proofs or [zero-knowledge proofs](https://www.nervos.org/knowledge-base/zero_knowledge_proofs_(explainCKBot)).​
+At the heart of the native rollup concept is the introduction of the `EXECUTE` [precompile](https://www.nervos.org/knowledge-base/what_are-precompiles)—a specialized contract embedded within Ethereum's protocol. This precompile exposes the Layer 1 (L1) Ethereum [Virtual Machine](https://www.nervos.org/knowledge-base/what_is_a_VM_in_blockchain) (EVM) execution engine to the application layer, enabling direct verification of Layer 2 (L2) [state](https://www.nervos.org/knowledge-base/state_and_state_change) transitions. By leveraging this mechanism, native rollups can achieve EVM equivalence without the need for external validation systems such as fraud proofs or [zero-knowledge proofs](https://www.nervos.org/knowledge-base/zero_knowledge_proofs).​
 
 
 
@@ -46,7 +46,7 @@ The `EXECUTE` precompile functions by taking specific inputs:
 
 * **`gas_used`**: The amount of gas consumed during the execution of the trace.​
 
-The precompile returns `true` if the stateless execution of the provided trace, starting from the `pre_state_root`, results in the `post_state_root` and consumes exactly the specified `gas_used`. This design ensures that L2 state transitions can be verified directly by L1 [validators](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators_(explainCKBot)) through re-execution, thereby inheriting Ethereum's robust security model.
+The precompile returns `true` if the stateless execution of the provided trace, starting from the `pre_state_root`, results in the `post_state_root` and consumes exactly the specified `gas_used`. This design ensures that L2 state transitions can be verified directly by L1 [validators](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators) through re-execution, thereby inheriting Ethereum's robust security model.
 
 
 
@@ -58,7 +58,7 @@ Integrating rollup functionalities natively within Ethereum's protocol offers se
 
 * **Simplified Architecture**: The direct interaction between L1 and L2 through the `EXECUTE` precompile streamlines the rollup design, removing the complexities associated with current rollup infrastructures.​
 
-* **Real-Time Settlement**: Native rollups can achieve immediate [finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto_(explainCKBot)) without waiting for external proofs, facilitating faster transaction confirmations and improving user experience.​
+* **Real-Time Settlement**: Native rollups can achieve immediate [finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto) without waiting for external proofs, facilitating faster transaction confirmations and improving user experience.​
 
 
 
@@ -68,7 +68,7 @@ While the concept of native rollups is promising, several implementation aspects
 
 * **Gas Metering and Pricing**: The `EXECUTE` precompile introduces a cumulative gas limit and target, necessitating an EIP-1559-style mechanism to manage gas pricing effectively. This approach ensures that the execution remains economically viable and does not congest the network.
 
-* **Data Availability**: Ensuring that the execution trace (`trace`) is accessible to validators is crucial. The trace must reference available Ethereum data from sources such as calldata, [blobs](https://www.nervos.org/knowledge-base/what_are_blobs_in_ethereum_(explainCKBot)), state, or memory to facilitate re-execution and verification.​
+* **Data Availability**: Ensuring that the execution trace (`trace`) is accessible to validators is crucial. The trace must reference available Ethereum data from sources such as calldata, [blobs](https://www.nervos.org/knowledge-base/what_are_blobs_in_ethereum), state, or memory to facilitate re-execution and verification.​
 
 * **Validator Responsibilities**: Validators may need to re-execute traces to enforce the correctness of `EXECUTE` calls. This requirement could impact their computational load, especially if the cumulative gas limit for `EXECUTE` calls is substantial.​
 
@@ -84,4 +84,4 @@ Traditional rollups, including optimistic and zero-knowledge variants, rely on e
 
 The development and adoption of native rollups are still in the exploratory phase. Ethereum researchers and developers are actively investigating the feasibility and potential impact of implementing the `EXECUTE` precompile and other related mechanisms. As these discussions progress, native rollups could play a pivotal role in Ethereum's scalability roadmap, offering a harmonious blend of performance, security, and simplicity.
 
-In conclusion, native rollups propose a transformative approach to Ethereum's scalability challenges by embedding rollup functionalities directly into the protocol. Through mechanisms like the `EXECUTE` precompile, they promise enhanced security, streamlined architectures, and improved [transaction finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto_(explainCKBot)), marking a significant step forward in the evolution of blockchain scalability solutions. 
+In conclusion, native rollups propose a transformative approach to Ethereum's scalability challenges by embedding rollup functionalities directly into the protocol. Through mechanisms like the `EXECUTE` precompile, they promise enhanced security, streamlined architectures, and improved [transaction finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto), marking a significant step forward in the evolution of blockchain scalability solutions. 
