@@ -2,7 +2,7 @@
 title: 'What is SHA256? The Most Used Hash Function in Blockchain'
 coverImage: 'images/image1.png'
 category: cryptography, hash function
-subtitle: "SHA256, or [Secure Hash Algorithm](https://en.wikipedia.org/wiki/Secure_Hash_Algorithms) 256-bit, is a cryptographic [hash function](https://www.nervos.org/knowledge-base/what_is_a_hash_function) that serves as the backbone of modern digital security and blockchain technology."
+subtitle: "SHA256, or Secure Hash Algorithm 256-bit, is a cryptographic hash function that serves as the backbone of modern digital security and blockchain technology."
 date: '2023-09-04T16:00:00.000Z'
 author: 
 - github:explainCKBot
