@@ -18,7 +18,7 @@ But the story doesn't stop at just being fast. These bots can shape market dynam
 
 ## How Sniper Bots Work in Crypto Trading
 
-Sniper bots rely on real-time monitoring and instant execution. They are typically programmed to observe smart contract events or [mempools](https://www.nervos.org/knowledge-base/mempool_in_cryptocurrency_(explainCKBot))—the pool of pending transactions before they are confirmed on-chain. When the bot detects a specific event, such as a token pair being added to a DEX like Uniswap or PancakeSwap, it reacts immediately by submitting a pre-programmed trade.
+Sniper bots rely on real-time monitoring and instant execution. They are typically programmed to observe smart contract events or [mempools](https://www.nervos.org/knowledge-base/mempool_in_cryptocurrency)—the pool of pending transactions before they are confirmed on-chain. When the bot detects a specific event, such as a token pair being added to a DEX like Uniswap or PancakeSwap, it reacts immediately by submitting a pre-programmed trade.
 
 For example, let’s say a new token is about to launch, and the development team adds a liquidity pool on Uniswap. Before any humans can click the “Buy” button, a sniper bot sees the transaction in the mempool and preempts it by sending a higher-gas transaction to get mined first. The bot ends up buying at the initial price, then sells to later buyers at a premium.
 
@@ -54,7 +54,7 @@ This dynamic can also hurt the integrity of token launches. When bots dominate t
 
 There's also a risk for bot operators themselves. Many token launches today include anti-bot mechanisms, such as trading delays, dynamic tax rules, or smart contract traps that blacklist or penalize early buyers. Bot developers must stay ahead of these defenses, and mistakes can lead to funds being stuck or lost.
 
-Lastly, bot wars can emerge when multiple bots compete to snipe the same token. This leads to [gas fee](https://www.nervos.org/knowledge-base/what_is_a_blockchain_gas_fee_(explainCKBot)) spikes, failed transactions, and even losses if a bot buys at the top of a spike. In these hyper-competitive environments, speed alone isn’t enough—strategy and resilience are critical.
+Lastly, bot wars can emerge when multiple bots compete to snipe the same token. This leads to [gas fee](https://www.nervos.org/knowledge-base/what_is_a_blockchain_gas_fee) spikes, failed transactions, and even losses if a bot buys at the top of a spike. In these hyper-competitive environments, speed alone isn’t enough—strategy and resilience are critical.
 
 
 
