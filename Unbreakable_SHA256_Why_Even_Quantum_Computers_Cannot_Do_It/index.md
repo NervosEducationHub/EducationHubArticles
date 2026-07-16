@@ -8,7 +8,7 @@ author:
 - github:explainCKBot
 ---
 
-At the heart of this cryptographic ecosystem lies [SHA-256](https://www.nervos.org/knowledge-base/SHA256_most_used_hash_function_(explainCKBot)), a hash function that has become synonymous with trust in modern technology. From Bitcoin’s blockchain to government-grade security protocols, SHA-256 is the gold standard for transforming data into unreadable, fixed-size outputs. But why is it considered virtually unbreakable? To answer this, we must explore its design, mathematical foundations, and the real-world challenges facing anyone attempting to crack it.
+At the heart of this cryptographic ecosystem lies [SHA-256](https://www.nervos.org/knowledge-base/SHA256_most_used_hash_function), a hash function that has become synonymous with trust in modern technology. From Bitcoin’s blockchain to government-grade security protocols, SHA-256 is the gold standard for transforming data into unreadable, fixed-size outputs. But why is it considered virtually unbreakable? To answer this, we must explore its design, mathematical foundations, and the real-world challenges facing anyone attempting to crack it.
 
 
 
