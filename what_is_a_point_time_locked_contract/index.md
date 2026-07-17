@@ -26,7 +26,7 @@ This mechanism allows the Lightning Network to process instant Bitcoin payments,
 
 ### Where Do HTLCs Come In?
 
-A [Hashed Timelock Contract](https://www.nervos.org/knowledge-base/What_is_a_Hashed_Timelock_Contract_(explainCKBot)) (HTLC) is a smart contract that combines a hashlock and a timelock to enable trustless, conditional payments. A hashlock is a function that secures a transaction by requiring the recipient to provide the correct secret (called a preimage) that matches a cryptographic hash. A timelock allows funds to be reclaimed after a specified period if the main condition isn't met.
+A [Hashed Timelock Contract](https://www.nervos.org/knowledge-base/What_is_a_Hashed_Timelock_Contract) (HTLC) is a smart contract that combines a hashlock and a timelock to enable trustless, conditional payments. A hashlock is a function that secures a transaction by requiring the recipient to provide the correct secret (called a preimage) that matches a cryptographic hash. A timelock allows funds to be reclaimed after a specified period if the main condition isn't met.
 
 HTLCs allow these payment channels to work across multiple people—not just between Alice and Bob, but across a whole network of users. Suppose Alice wants to pay Charlie, but she doesn’t have a direct channel with him. However, Bob does. With HTLCs, Alice can send a payment through Bob to Charlie:
 
@@ -71,7 +71,7 @@ The most obvious advantage of PTLCs lies in privacy. In traditional HTLCs, every
 
 PTLCs solve this problem by using distinct points at each hop. Even though they’re all part of the same payment, each contract appears unique. This unlinkability significantly enhances privacy, helping to conceal the structure of payment routes and protect user confidentiality in an environment where blockchain analysis companies actively monitor public data.
 
-Beyond privacy, PTLCs also interact more smoothly with other advanced Bitcoin technologies, such as [Schnorr signatures](https://www.nervos.org/knowledge-base/schnorr_signatures_(explainCKBot)) and Taproot. Schnorr signatures allow for combining multiple signatures into one, making transactions smaller and more efficient. Taproot lets users hide complex smart contract conditions inside what looks like a simple Bitcoin transaction. Together, these technologies allow PTLCs to blend in with normal payments, offering privacy without sacrificing functionality.
+Beyond privacy, PTLCs also interact more smoothly with other advanced Bitcoin technologies, such as [Schnorr signatures](https://www.nervos.org/knowledge-base/schnorr_signatures) and Taproot. Schnorr signatures allow for combining multiple signatures into one, making transactions smaller and more efficient. Taproot lets users hide complex smart contract conditions inside what looks like a simple Bitcoin transaction. Together, these technologies allow PTLCs to blend in with normal payments, offering privacy without sacrificing functionality.
 
 PTLCs hide key details of each transaction, so they make it harder for attackers to perform targeted attacks or gather information about the network. This helps make the Lightning Network more robust and resistant to manipulation.
 
