@@ -39,7 +39,7 @@ The pinnacle of crypto mining hardware is the ASIC, or [Application-Specific Int
 
 Bitmain's Antminer series is among the most renowned ASIC’s in the crypto mining arena, offering high-performance solutions optimized for various cryptocurrencies. The speed and efficiency of these devices make them highly desirable for serious miners looking to maximize profitability.
 
-Nonetheless, ASIC’s also come with their caveats. Their specificity to a particular algorithm restricts their flexibility, making them useless if the mining algorithm of the targeted cryptocurrency is changed through a [hard fork](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork_(explainCKBot)). Additionally, ASIC’s command a higher upfront cost, making them a significant investment that may take time to recoup (and with the volatility of cryptocurrencies, may never be recouped).
+Nonetheless, ASIC’s also come with their caveats. Their specificity to a particular algorithm restricts their flexibility, making them useless if the mining algorithm of the targeted cryptocurrency is changed through a [hard fork](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork). Additionally, ASIC’s command a higher upfront cost, making them a significant investment that may take time to recoup (and with the volatility of cryptocurrencies, may never be recouped).
 
 
 ## Comparing CPU’s, GPU’s, and ASIC’s in Crypto Mining
