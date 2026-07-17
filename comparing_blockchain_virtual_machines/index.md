@@ -6,9 +6,9 @@ subtitle: 'While the EVM is the pioneer of blockchain virtual machines and still
 date: '2024-07-11T16:00:00.000Z'
 ---
 
-Blockchain [virtual machines (VMs)](https://www.nervos.org/knowledge-base/what_is_a_VM_in_blockchain_(explainCKBot)) are the backbone of decentralized computing, enabling smart contract execution and decentralized application development across various blockchain platforms. 
+Blockchain [virtual machines (VMs)](https://www.nervos.org/knowledge-base/what_is_a_VM_in_blockchain) are the backbone of decentralized computing, enabling smart contract execution and decentralized application development across various blockchain platforms. 
 
-These VMs, such as the Ethereum Virtual Machine (EVM), Solana's Sealevel, Polkadot's [WebAssembly (WASM)](https://www.nervos.org/knowledge-base/what_is_webassembly_(explainCKBot)), and Nervos’ CKB-VM, provide the environment in which code runs on the blockchain. Comparing these virtual machines involves evaluating their design principles, performance, scalability, and security features to understand their strengths and weaknesses and how they influence the ecosystem's functionality and developer experience.
+These VMs, such as the Ethereum Virtual Machine (EVM), Solana's Sealevel, Polkadot's [WebAssembly (WASM)](https://www.nervos.org/knowledge-base/what_is_webassembly), and Nervos’ CKB-VM, provide the environment in which code runs on the blockchain. Comparing these virtual machines involves evaluating their design principles, performance, scalability, and security features to understand their strengths and weaknesses and how they influence the ecosystem's functionality and developer experience.
 
 
 ## What are Virtual Machines, and Why Do Blockchains Need Them?
@@ -140,7 +140,7 @@ _With an architecture that provides a closer mapping to hardware, the VM will ha
 
 ## WebAssembly (WASM)
 
-[WASM](https://www.nervos.org/knowledge-base/what_is_webassembly_(explainCKBot)) is a binary instruction format designed for executing code on the web at near-native speed. Released in 2017, it was developed by a consortium that included major players like Google, Mozilla, Microsoft, and Apple. It allows developers to write code in high-level languages, including C, C++, and Rust, which can then be compiled into this compact binary format.
+[WASM](https://www.nervos.org/knowledge-base/what_is_webassembly) is a binary instruction format designed for executing code on the web at near-native speed. Released in 2017, it was developed by a consortium that included major players like Google, Mozilla, Microsoft, and Apple. It allows developers to write code in high-level languages, including C, C++, and Rust, which can then be compiled into this compact binary format.
 
 This format is designed to run efficiently on various platforms and is independent of the programming languages used to create it. In simple terms, WASM serves as a compilation target for high-level languages, enabling them to run on any platform that supports the WASM runtime. 
 
@@ -169,7 +169,7 @@ In conclusion, WASM VMs offer significant performance, security, and flexibility
 
 ## CKB-VM (RISC-V)
 
-[RISC-V](https://www.nervos.org/knowledge-base/what_is_riscv_(explainCKBot)) is an open-source, simple, and extensible Instruction Set Architecture (ISA) designed to be an efficient alternative to the more complex and often proprietary ISAs that dominate the market, such as x86 and ARM. 
+[RISC-V](https://www.nervos.org/knowledge-base/what_is_riscv) is an open-source, simple, and extensible Instruction Set Architecture (ISA) designed to be an efficient alternative to the more complex and often proprietary ISAs that dominate the market, such as x86 and ARM. 
 
 RISC-V stands out due to its minimalist approach, with its base set comprising only 47 instructions, significantly less than the hundreds or thousands in other ISAs. It is also modular, meaning developers can customize the ISA by adding extensions that support floating-point operations, atomic operations, and vector processing, among others, to suit their specific needs. Its straightforward design translates into faster execution of instructions and lower overhead in both hardware and software. Most importantly, unlike WASM, which has several advanced features and extensions still under continuous development, the RISC-V ISA has a finalized, stable, and matured base instruction set, which makes it ideal for blockchain development.
 
