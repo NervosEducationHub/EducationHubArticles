@@ -26,7 +26,7 @@ Within L402, these micropayments often represent the cost of accessing a single 
 
 **Lightning Invoices: The Payment Requests**
 
-Every Lightning payment begins with a [Lightning invoice](https://www.nervos.org/knowledge-base/what_is_a_lightning_invoice_(explainCKBot)), a structured data object specifying the amount, destination node, and a cryptographic hash used for payment verification. When a server requests payment for a resource, it generates an invoice and returns it to the client as part of the HTTP 402 response.
+Every Lightning payment begins with a [Lightning invoice](https://www.nervos.org/knowledge-base/what_is_a_lightning_invoice), a structured data object specifying the amount, destination node, and a cryptographic hash used for payment verification. When a server requests payment for a resource, it generates an invoice and returns it to the client as part of the HTTP 402 response.
 
 The invoice functions as both a payment request and an authentication trigger. Upon payment, the client receives a cryptographic value known as a preimage, which becomes a key element in validating access to the requested resource.
 
