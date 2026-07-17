@@ -8,7 +8,7 @@ author:
 - github:explainCKBot
 ---
 
-Ethereum's scalability challenges, characterized by slow transaction speeds and high [gas fees](https://www.nervos.org/knowledge-base/what_is_a_blockchain_gas_fee_(explainCKBot)), has been a persistent hurdle. Enter optimistic rollups – a Layer 2 scaling solution designed to alleviate these bottlenecks by processing transactions off of the main Ethereum chain (Layer 1) and only settling final [states](https://www.nervos.org/knowledge-base/state_and_state_change_(explainCKBot)) on-chain. This innovation not only promises to boost Ethereum's transaction throughput but also to significantly reduce transaction fees, making Ethereum more accessible and efficient for users and developers alike.
+Ethereum's scalability challenges, characterized by slow transaction speeds and high [gas fees](https://www.nervos.org/knowledge-base/what_is_a_blockchain_gas_fee), has been a persistent hurdle. Enter optimistic rollups – a Layer 2 scaling solution designed to alleviate these bottlenecks by processing transactions off of the main Ethereum chain (Layer 1) and only settling final [states](https://www.nervos.org/knowledge-base/state_and_state_change) on-chain. This innovation not only promises to boost Ethereum's transaction throughput but also to significantly reduce transaction fees, making Ethereum more accessible and efficient for users and developers alike.
 
 
 ## How Optimistic Rollups Work
@@ -27,12 +27,12 @@ Optimistic rollups work by aggregating or "batching" numerous transactions off-c
 
 ### Sequencers and Data Availability
 
-A sequencer is a node within the optimistic rollup network responsible for aggregating transactions, generating state roots, and submitting them to the Ethereum blockchain. The sequencer plays a crucial role in ensuring [data availability](https://www.nervos.org/knowledge-base/what_is_data_%20availability_in_blockchain_(explainCKBot)). It does so by posting the data associated with each batch of transactions (e.g., calldata) on-chain, allowing other nodes to reconstruct the state of the rollup if needed. This mechanism ensures the security and integrity of the rollup, even if the sequencer behaves maliciously or becomes unavailable.
+A sequencer is a node within the optimistic rollup network responsible for aggregating transactions, generating state roots, and submitting them to the Ethereum blockchain. The sequencer plays a crucial role in ensuring [data availability](https://www.nervos.org/knowledge-base/what_is_data_%20availability_in_blockchain). It does so by posting the data associated with each batch of transactions (e.g., calldata) on-chain, allowing other nodes to reconstruct the state of the rollup if needed. This mechanism ensures the security and integrity of the rollup, even if the sequencer behaves maliciously or becomes unavailable.
 
 
 ### Fraud Proofs and Dispute Resolution
 
-One might wonder: if transactions are processed off-chain, how can we ensure their validity? This is where the concept of [fraud proofs](https://www.nervos.org/knowledge-base/what_are_fraud_proofs_in_blockchain_(explainCKBot)) and dispute resolution comes into play. 
+One might wonder: if transactions are processed off-chain, how can we ensure their validity? This is where the concept of [fraud proofs](https://www.nervos.org/knowledge-base/what_are_fraud_proofs_in_blockchain) and dispute resolution comes into play. 
 
 The dispute resolution mechanism in optimistic rollups is a critical component designed to ensure the integrity and security of transactions processed off the Ethereum mainnet. This mechanism allows any participant in the network to challenge the validity of transactions within a specific period after they have been posted to the Ethereum blockchain. Here's a detailed breakdown of how it works:
 
@@ -60,7 +60,7 @@ Upon submission of a fraud proof, the optimistic rollup's smart contract on the 
 
 **4. Finality and Security**
 
-This dispute resolution mechanism ensures that all transactions within an optimistic rollup achieve [finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto_(explainCKBot)) only after the challenge window has closed without any successful fraud proofs. It underscores the security of optimistic rollups by ensuring that only valid transactions are finalized and incorporated into the Ethereum blockchain. Moreover, it reinforces the principle that the security of the network does not rely solely on the honesty of the sequencer but is upheld by the vigilance of the entire network and the ability to challenge and verify transactions.
+This dispute resolution mechanism ensures that all transactions within an optimistic rollup achieve [finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto) only after the challenge window has closed without any successful fraud proofs. It underscores the security of optimistic rollups by ensuring that only valid transactions are finalized and incorporated into the Ethereum blockchain. Moreover, it reinforces the principle that the security of the network does not rely solely on the honesty of the sequencer but is upheld by the vigilance of the entire network and the ability to challenge and verify transactions.
 
 In essence, the dispute resolution mechanism in optimistic rollups is designed to leverage the collective security and verification capabilities of the Ethereum network, ensuring that despite operating off-chain for scalability, the integrity and trustlessness of the blockchain are maintained.
 
