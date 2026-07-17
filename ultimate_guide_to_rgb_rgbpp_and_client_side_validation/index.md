@@ -143,7 +143,7 @@ Lastly, while RGB supports issuing and managing programmable and private assets,
 
 To extend Bitcoin’s programmability capabilities, the [RGB++](https://github.com/ckb-cell/RGBPlusPlus-design/blob/main/docs/light-paper-en.md) protocol draws heavy inspiration from RGB while mitigating all of its drawbacks. 
 
-[RGB++](https://www.nervos.org/knowledge-base/Understanding_Bitcoin_layer2_%28explainCKBot%29) is a recently released novel Bitcoin scaling solution developed by [Cell Studio](https://cell.studio/), a blockchain infrastructure development firm founded by Nervos Network co-founder Cipher Wang. It solves the problems encountered by RGB through a new primitive called isomorphic binding. 
+[RGB++](https://www.nervos.org/knowledge-base/Understanding_Bitcoin_layer2) is a recently released novel Bitcoin scaling solution developed by [Cell Studio](https://cell.studio/), a blockchain infrastructure development firm founded by Nervos Network co-founder Cipher Wang. It solves the problems encountered by RGB through a new primitive called isomorphic binding. 
 
 
 ![alt_text](images/image5-1.png "image_tooltip")
