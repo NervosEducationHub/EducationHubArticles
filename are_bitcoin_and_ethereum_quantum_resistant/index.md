@@ -56,7 +56,7 @@ Ethereum’s exposure looks different because its account model encourages long-
 
 In Bitcoin, avoiding address reuse is standard privacy and security practice. Most modern wallets automatically generate a new receiving address for each payment. Ethereum works differently: a wallet address typically functions as a persistent account that users keep for years, using it repeatedly to hold assets, interact with applications, and sign transactions.
 
-An Ethereum address initially hides its public key behind a [Keccak-256](https://www.nervos.org/knowledge-base/what_is_keccak256_(explainCKBot)) hash. Once an externally owned account (EOA) sends its first transaction, however, its ECDSA signature allows the public key to be permanently recovered from the blockchain.
+An Ethereum address initially hides its public key behind a [Keccak-256](https://www.nervos.org/knowledge-base/what_is_keccak256) hash. Once an externally owned account (EOA) sends its first transaction, however, its ECDSA signature allows the public key to be permanently recovered from the blockchain.
 
 Receive-only Ethereum accounts therefore retain some protection, but almost any actively used wallet eventually exposes its public key. Because Ethereum users are expected to keep using the same account rather than rotate addresses after every transaction, this exposure is not an edge case caused by poor wallet hygiene. It is a normal consequence of how Ethereum accounts are designed and used.
 
