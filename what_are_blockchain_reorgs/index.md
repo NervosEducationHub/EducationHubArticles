@@ -34,13 +34,13 @@ The “depth” of a reorg refers to the number of blocks rolled back. A one-blo
 
 While reorgs are most commonly discussed in the context of proof-of-work systems like Bitcoin, they also appear in other consensus mechanisms, though in different forms.
 
-In proof-of-stake systems, [validators](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators) propose and vote on blocks. Reorgs can still occur if validators disagree or if malicious actors attempt to finalize competing chains. However,[ slashing](https://www.nervos.org/knowledge-base/slashing_in_PoS) penalties and [finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto) gadgets make deep reorgs less likely than in proof-of-work.
+In proof-of-stake systems, [validators](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators) propose and vote on blocks. Reorgs can still occur if validators disagree or if malicious actors attempt to finalize competing chains. However, [slashing](https://www.nervos.org/knowledge-base/slashing_in_PoS) penalties and [finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto) gadgets make deep reorgs less likely than in proof-of-work.
 
 Delegated proof-of-stake and other variants often rely on small sets of validators. These systems can avoid frequent reorgs due to their more centralized nature, but when reorgs happen, they may be politically rather than technically driven.
 
 Hybrid systems attempt to combine the strengths of different mechanisms, but the fundamental trade-off remains: reorgs reflect the tension between decentralization, speed, and security.
 
-As blockchains scale and evolve, especially with innovations like layer-2 [rollups](https://www.nervos.org/knowledge-base/What_are_optimistic_rollups), [sharding](https://www.nervos.org/knowledge-base/What_is_sharding_in_blockchain), and[ cross-chain bridges](https://www.nervos.org/knowledge-base/what_are_blockchain_bridges), the dynamics of reorganizations will only grow more complex. For instance, a reorg on a base layer can ripple into connected systems, potentially destabilizing entire ecosystems.
+As blockchains scale and evolve, especially with innovations like layer-2 [rollups](https://www.nervos.org/knowledge-base/what_are_optimistic_rollups_and_how_do_they_work), [sharding](https://www.nervos.org/knowledge-base/What_is_sharding_in_blockchain), and[ cross-chain bridges](https://www.nervos.org/knowledge-base/what_are_blockchain_bridges), the dynamics of reorganizations will only grow more complex. For instance, a reorg on a base layer can ripple into connected systems, potentially destabilizing entire ecosystems.
 
 
 
