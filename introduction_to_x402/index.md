@@ -48,7 +48,7 @@ This model also enhances privacy. Because access is granted based on payment pro
 
 Stablecoins provide the monetary foundation that makes x402 viable. Their price stability allows services to publish predictable costs, while their onchain nature enables instant verification. Without a stable unit of account, microtransactions would be impractical because price volatility would distort both budgeting and revenue.
 
-In addition to stability, these assets support programmable transfers. Payment authorization can be embedded in a request, and [gas abstraction](https://www.nervos.org/knowledge-base/account_abstraction_where_were_going) techniques can hide blockchain complexity from end users or agents. This allows even small transactions to remain economically efficient.
+In addition to stability, these assets support programmable transfers. Payment authorization can be embedded in a request, and [gas abstraction](https://www.nervos.org/knowledge-base/account_abstraction_where_we_are_going) techniques can hide blockchain complexity from end users or agents. This allows even small transactions to remain economically efficient.
 
 The result is a payment environment where sub-cent charges become meaningful. A dataset can be priced per query, an AI model per token, and a news article per read. Stablecoins turn the theoretical possibility of micro-commerce into a practical reality, and x402 provides the protocol that connects it to web services.
 
