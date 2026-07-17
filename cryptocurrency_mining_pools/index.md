@@ -34,7 +34,7 @@ In these systems, a "share" represents a unit of computational work contributed 
 
 ## The Technical Aspects of Mining Pools
 
-Joining cryptocurrency mining pools requires specific hardware and software components. ASIC miners (Application-Specific Integrated Circuits) and GPUs (Graphics Processing Units) are widely used [hardware in cryptocurrency mining](https://www.nervos.org/knowledge-base/crypto_mining_hardware_(explainCKBot)) due to their superior computational efficiency. Meanwhile, specialized mining software facilitates miners' interactions with both the blockchain and the mining pool.
+Joining cryptocurrency mining pools requires specific hardware and software components. ASIC miners (Application-Specific Integrated Circuits) and GPUs (Graphics Processing Units) are widely used [hardware in cryptocurrency mining](https://www.nervos.org/knowledge-base/crypto_mining_hardware) due to their superior computational efficiency. Meanwhile, specialized mining software facilitates miners' interactions with both the blockchain and the mining pool.
 
 However, mining pools are not without their security risks. Potential vulnerabilities like a [51% attack](https://www.nervos.org/knowledge-base/what_is_51_attack) (where a user or group controls more than half of the network's mining power) exist, necessitating security measures such as two-factor authentication and hash rate distribution monitoring.
 
