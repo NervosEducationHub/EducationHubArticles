@@ -19,7 +19,7 @@ There are several types of cryptocurrency wallets:
 
 **Hot Wallets:** These are wallets that are connected to the internet. They are easy to set up and use but also vulnerable to online threats.
 
-**[Cold Wallets](https://www.nervos.org/knowledge-base/what_is_a_cold_wallet_(explainCKBot)):** These wallets are not connected to the internet, making them less susceptible to online threats.
+**[Cold Wallets](https://www.nervos.org/knowledge-base/what_is_a_cold_wallet):** These wallets are not connected to the internet, making them less susceptible to online threats.
 
 **Hardware Wallets:** These are physical devices that securely store a user's private keys offline.
 
