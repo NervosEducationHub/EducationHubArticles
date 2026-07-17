@@ -6,7 +6,7 @@ subtitle: 'Chain abstraction is the process of removing or hiding the complexiti
 date: '2024-10-22T16:00:00.000Z'
 ---
 
-While using blockchain technology has never been an outstanding experience, the recent proliferation of numerous blockchains, sidechains, [state channels](https://www.nervos.org/knowledge-base/what_are_payment_channels), and [rollups](https://www.nervos.org/knowledge-base/what_are_optimistic_rollups) has made it even worse. In fact, the current UX is so bad that it has gotten to the point where even crypto natives occasionally struggle with Web3 dApps—especially in the cross-chain context—and must often look up projects’ technical documentation to understand how exactly to use them.
+While using blockchain technology has never been an outstanding experience, the recent proliferation of numerous blockchains, sidechains, [state channels](https://www.nervos.org/knowledge-base/what_are_payment_channels), and [rollups](https://www.nervos.org/knowledge-base/what_are_optimistic_rollups_and_how_do_they_work) has made it even worse. In fact, the current UX is so bad that it has gotten to the point where even crypto natives occasionally struggle with Web3 dApps—especially in the cross-chain context—and must often look up projects’ technical documentation to understand how exactly to use them.
 
 On the other hand, for the average person dipping their toes into Web3, the level of friction can be almost insurmountable. The Web2 world didn’t reach mass adoption by expecting users to understand the intricacies of HTTP, TCP/IP, or web hosting. 
 
