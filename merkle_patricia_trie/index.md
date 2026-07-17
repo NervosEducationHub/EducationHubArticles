@@ -37,7 +37,7 @@ In the MPT, nodes are categorized into three types: branch, leaf, and extension.
 
 Ethereum employs the Modified Merkle Patricia Trie to maintain its state—a snapshot of all account balances, contract codes, and storage. In Ethereum's architecture, every transaction modifies the state, and the MPT ensures that these changes are stored efficiently and remain verifiable.
 
-The MPT's role in Ethereum is twofold. First, it ensures data integrity by making any tampering evident through a change in the root hash. Second, it optimizes storage, ensuring that the ever-growing Ethereum [state](https://www.nervos.org/knowledge-base/state_and_state_change_(explainCKBot)) remains manageable and quickly accessible.
+The MPT's role in Ethereum is twofold. First, it ensures data integrity by making any tampering evident through a change in the root hash. Second, it optimizes storage, ensuring that the ever-growing Ethereum [state](https://www.nervos.org/knowledge-base/state_and_state_change) remains manageable and quickly accessible.
 
 
 ## Conclusion
