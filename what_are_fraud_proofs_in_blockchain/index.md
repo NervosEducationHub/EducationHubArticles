@@ -8,7 +8,7 @@ author:
 - github:explainCKBot
 ---
 
-Ensuring the validity of transactions is a cornerstone of maintaining the integrity and security of a blockchain network. Fraud proofs are a critical mechanism in this task, particularly in scaling solutions like [Optimistic Rollups](https://www.nervos.org/knowledge-base/what_are_optimistic_rollups). But what exactly are fraud proofs, and why are they so important in the blockchain ecosystem?
+Ensuring the validity of transactions is a cornerstone of maintaining the integrity and security of a blockchain network. Fraud proofs are a critical mechanism in this task, particularly in scaling solutions like [Optimistic Rollups](https://www.nervos.org/knowledge-base/what_are_optimistic_rollups_and_how_do_they_work). But what exactly are fraud proofs, and why are they so important in the blockchain ecosystem?
 
 Fraud proofs serve as a safeguard against invalid state transitions on a blockchain. They are essentially cryptographic evidence submitted by verifiers to challenge the validity of a transaction. By enabling this challenge process, fraud proofs help maintain trust in decentralized networks, particularly in environments where scalability and efficiency are prioritized.
 
@@ -31,7 +31,7 @@ If a valid fraud proof is submitted within the dispute period, the blockchain ca
 
 ### How Fraud Proofs Interact with State Transitions
 
-Fraud proofs are intrinsically linked to [state transitions](https://www.nervos.org/knowledge-base/state_and_state_change_(explainCKBot)) in a blockchain. A state transition occurs whenever a new block of transactions is added to the blockchain, altering the current state of the network. In most blockchains, these state transitions are irreversible once they are added to the chain. However, fraud proofs introduce an exception to this rule by allowing the network to challenge and potentially reverse incorrect state transitions.
+Fraud proofs are intrinsically linked to [state transitions](https://www.nervos.org/knowledge-base/state_and_state_change) in a blockchain. A state transition occurs whenever a new block of transactions is added to the blockchain, altering the current state of the network. In most blockchains, these state transitions are irreversible once they are added to the chain. However, fraud proofs introduce an exception to this rule by allowing the network to challenge and potentially reverse incorrect state transitions.
 
 When a fraud proof is submitted and validated, the network can revert to a prior state, effectively undoing the incorrect transition. This ability to reverse state transitions is particularly important in environments where scalability is a priority, as it allows for a more efficient and secure way to manage large volumes of transactions without sacrificing the trust and security of the network.
 
@@ -50,7 +50,7 @@ The choice between Optimistic Rollups and ZK Rollups often depends on the specif
 
 ### Dependency on Data Availability
 
-One of the key challenges associated with fraud proofs is their reliance on [data availability](https://www.nervos.org/knowledge-base/what_is_data_%20availability_in_blockchain_(explainCKBot)). In order for a fraud proof to be validated, the verifier must have access to all the necessary data related to the transaction in question. If any part of the data is missing or incomplete it is impossible to be certain the transaction is legitimate.
+One of the key challenges associated with fraud proofs is their reliance on [data availability](https://www.nervos.org/knowledge-base/what_is_data_%20availability_in_blockchain). In order for a fraud proof to be validated, the verifier must have access to all the necessary data related to the transaction in question. If any part of the data is missing or incomplete it is impossible to be certain the transaction is legitimate.
 
 This dependency on data availability presents a significant risk, especially in decentralized networks where data may be distributed across multiple nodes. If a malicious actor is able to withhold or manipulate the data, they could potentially prevent a valid fraud proof from being submitted, allowing the fraudulent transaction to go unchallenged. To mitigate this risk, blockchain networks must ensure that data is readily available and accessible to all participants.
 
