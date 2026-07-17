@@ -1,7 +1,7 @@
 ---
 title: 'What are Privacy Coins, and How Do They Work?'
 coverImage: 'images/image1.png'
-category:
+category: Education
 subtitle: 'In the ever-evolving cryptocurrency landscape, privacy coins like Monero and ZCash have emerged as pivotal players. These digital currencies offer a level of anonymity far surpassing that of more mainstream cryptocurrencies like Bitcoin.'
 date: '2024-03-13T16:00:00.000Z'
 author: 
@@ -40,7 +40,7 @@ Together, these technologies establish Monero as a leader in privacy-focused cry
 
 ## In-Depth Analysis of ZCash (ZEC)
 
-[ZCash](https://en.wikipedia.org/wiki/Zcash)'s shielded addresses represent a fascinating intersection of privacy and cryptocurrency technology. At the heart of these addresses is an innovative use of cryptography, specifically a technology known as [zk-SNARKs](https://www.nervos.org/knowledge-base/zero_knowledge_proofs_(explainCKBot)), which stands for Zero-Knowledge Succinct Non-Interactive Argument of Knowledge. This form of cryptography is what sets ZCash apart in its approach to privacy.
+[ZCash](https://en.wikipedia.org/wiki/Zcash)'s shielded addresses represent a fascinating intersection of privacy and cryptocurrency technology. At the heart of these addresses is an innovative use of cryptography, specifically a technology known as [zk-SNARKs](https://www.nervos.org/knowledge-base/zero_knowledge_proofs), which stands for Zero-Knowledge Succinct Non-Interactive Argument of Knowledge. This form of cryptography is what sets ZCash apart in its approach to privacy.
 
 Imagine a scenario where you can prove that you know a secret without actually revealing the secret itself. That's the essence of [zero-knowledge proofs](https://en.wikipedia.org/wiki/Zero-knowledge_proof), and it's precisely what zk-SNARKs accomplish. In the context of ZCash, this technology is applied to shielded transactions, allowing the verification of these transactions without exposing any critical information about the sender, receiver, or the amount transferred.
 
