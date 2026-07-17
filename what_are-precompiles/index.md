@@ -42,13 +42,13 @@ Ethereum's precompiles, residing at predefined addresses within the Ethereum Vir
 
 **Elliptic Curve Digital Signature Recovery (ecrecover):** This precompile at address 0x01 is vital for recovering an Ethereum address from a digital signature. It's fundamental in verifying transactions, as it ascertains the signer of a transaction. In simpler terms, ecrecover helps to confirm 'who' signed a message being presented to a smart contract, a crucial aspect of maintaining Ethereum's transaction integrity for abstractions built a top it.
 
-**SHA-256 and RIPEMD-160 Hash Functions:** Found at addresses 0x02 and 0x03, these precompiles handle hash operations. [SHA-256](https://www.nervos.org/knowledge-base/SHA256_most_used_hash_function_(explainCKBot)) is a widely used cryptographic hash function that ensures data integrity.  [RIPEMD-160](https://en.bitcoin.it/wiki/RIPEMD-160), on the other hand, is less common in Ethereum but is integral to Bitcoin's address-creation process. These precompiles allow Ethereum verify transactions involving Bitcoin.
+**SHA-256 and RIPEMD-160 Hash Functions:** Found at addresses 0x02 and 0x03, these precompiles handle hash operations. [SHA-256](https://www.nervos.org/knowledge-base/SHA256_most_used_hash_function) is a widely used cryptographic hash function that ensures data integrity.  [RIPEMD-160](https://en.bitcoin.it/wiki/RIPEMD-160), on the other hand, is less common in Ethereum but is integral to Bitcoin's address-creation process. These precompiles allow Ethereum verify transactions involving Bitcoin.
 
 **Identity Function (Identity):** Located at address 0x04, this simple yet efficient precompile performs data copying operations. It's essentially a memory copying tool within the EVM, enabling quick and gas-efficient copying of data.
 
 **Modular Exponentiation (Modexp):** This precompile, introduced for advanced cryptographic operations like RSA encryption, facilitates modular exponentiation, a mathematical operation used in public-key cryptography.
 
-**Elliptic Curve Operations (ecAdd, ecMul, and ecPairing):** Addresses 0x06, 0x07, and 0x08 host precompiles for elliptic curve operations essential for [Zero Knowledge Proof](https://www.nervos.org/knowledge-base/zero_knowledge_proofs_(explainCKBot)) (ZKP) constructions. ecAdd and ecMul perform addition and multiplication on elliptic curve points, respectively, while ecPairing checks pairs of points for a specific elliptic curve relation.
+**Elliptic Curve Operations (ecAdd, ecMul, and ecPairing):** Addresses 0x06, 0x07, and 0x08 host precompiles for elliptic curve operations essential for [Zero Knowledge Proof](https://www.nervos.org/knowledge-base/zero_knowledge_proofs) (ZKP) constructions. ecAdd and ecMul perform addition and multiplication on elliptic curve points, respectively, while ecPairing checks pairs of points for a specific elliptic curve relation.
 
 **Blake2 Compression Function (Blake2f):** Added in the Istanbul upgrade, this precompile at address 0x09 supports the Blake2 hash function, facilitating efficient data compression, and is particularly relevant for interoperability with Zcash, another blockchain network.
 
