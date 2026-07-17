@@ -73,7 +73,7 @@ The EVM has enabled the creation of a wide array of decentralized applications, 
 
 #### **CKB-VM (Nervos Common Knowledge Base Virtual Machine)**
 
-The [CKB-VM](https://docs.nervos.org/docs/tech-explanation/ckb-vm) is the virtual machine used by the [Nervos Network](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain), specifically designed for the Common Knowledge Base (CKB) Layer 1 blockchain. CKB-VM is unique in its approach to blockchain virtual machines, emphasizing flexibility, compatibility, and interoperability.
+The [CKB-VM](https://docs.nervos.org/docs/ckb-fundamentals/ckb-vm) is the virtual machine used by the [Nervos Network](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain), specifically designed for the Common Knowledge Base (CKB) Layer 1 blockchain. CKB-VM is unique in its approach to blockchain virtual machines, emphasizing flexibility, compatibility, and interoperability.
 
 
 ##### **Key Features of CKB-VM**
