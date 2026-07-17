@@ -43,7 +43,7 @@ Despite these challenges, the potential benefits of RISC-V - lower costs, increa
 
 ## CKB-VM: The RISC-V-based Blockchain Virtual Machine
 
-One of the most exciting applications of RISC-V is in the world of blockchain technology. A prime example of this is the [Nervos Network](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain), a multi-layered blockchain ecosystem. At the heart of Nervos is its Layer 1 protocol, the Common Knowledge Base (CKB). CKB utilizes RISC-V in its virtual machine, the [CKB-VM](https://docs.nervos.org/docs/tech-explanation/ckb-vm).
+One of the most exciting applications of RISC-V is in the world of blockchain technology. A prime example of this is the [Nervos Network](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain), a multi-layered blockchain ecosystem. At the heart of Nervos is its Layer 1 protocol, the Common Knowledge Base (CKB). CKB utilizes RISC-V in its virtual machine, the [CKB-VM](https://docs.nervos.org/docs/ckb-fundamentals/ckb-vm).
 
 The CKB-VM is a key component of the Nervos Network. It's responsible for verifying the correctness of smart contract interactions and transaction scripts, essentially serving as the "brain" of the CKB. By using RISC-V, the CKB-VM can leverage the simplicity, efficiency, and modularity of the RISC-V architecture.
 
