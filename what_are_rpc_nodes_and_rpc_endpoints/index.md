@@ -58,7 +58,7 @@ All of this happens in milliseconds. This smooth interaction allows a wallet or 
 
 ## Considerations and Risks
 
-One of the most pressing concerns surrounding RPC usage is centralization. Despite blockchain’s vision of decentralization, much of its daily activity flows through a handful of major RPC infrastructure providers such as Infura. On Ethereum, this concentration has become especially evident. Many wallets, dApps, and exchanges rely on these third-party services instead of running their own [full nodes](https://www.nervos.org/knowledge-base/difference_between_miner_full_node_(explainCKBot))
+One of the most pressing concerns surrounding RPC usage is centralization. Despite blockchain’s vision of decentralization, much of its daily activity flows through a handful of major RPC infrastructure providers such as Infura. On Ethereum, this concentration has become especially evident. Many wallets, dApps, and exchanges rely on these third-party services instead of running their own [full nodes](https://www.nervos.org/knowledge-base/difference_between_miner_full_node)
 
 This overreliance poses several risks. When a majority of network traffic passes through a few centralized providers, those providers effectively become gatekeepers of access to the blockchain. If a major RPC service experiences downtime, suffers a security breach, or is forced to comply with external regulations, a large portion of Ethereum’s ecosystem could face outages or restrictions simultaneously.
 
