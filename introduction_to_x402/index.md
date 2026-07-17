@@ -20,7 +20,7 @@ For decades, this status code served as a placeholder with no practical implemen
 
 The conceptual breakthrough lies in its stateless design. Traditional billing systems require accounts, stored identities, and complex reconciliation processes. x402 replaces these with cryptographic proof of payment. The server does not need to know who the requester is. It only needs to verify that the requested amount has been transferred. This model aligns with the permissionless ethos of blockchain networks and enables global participation without prior onboarding.
 
-Historically, the idea of embedding payments into web protocols appeared repeatedly, but it lacked a viable settlement layer. Credit card networks were too slow and too expensive for microtransactions, while early digital cash systems lacked interoperability. [Stablecoins](https://en.wikipedia.org/wiki/Stablecoin) and high-performance blockchains change this equation. They provide predictable pricing, fast[ finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto_(explainCKBot)), and programmable logic. x402 builds on these capabilities and translates them into the language of the web.
+Historically, the idea of embedding payments into web protocols appeared repeatedly, but it lacked a viable settlement layer. Credit card networks were too slow and too expensive for microtransactions, while early digital cash systems lacked interoperability. [Stablecoins](https://en.wikipedia.org/wiki/Stablecoin) and high-performance blockchains change this equation. They provide predictable pricing, fast[ finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto), and programmable logic. x402 builds on these capabilities and translates them into the language of the web.
 
 
 
