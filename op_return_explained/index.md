@@ -14,9 +14,9 @@ This seemingly simple feature has had an outsized impact. By enabling compact da
 
 ## Understanding Bitcoin Script
 
-Unlike platforms such as Ethereum, Bitcoin does not aim to be a general-purpose computation layer. Instead, it uses a deliberately constrained programming model known as [Bitcoin Script](https://www.nervos.org/knowledge-base/bitcoin_script_(explainCKBot))—designed for verification, not execution.
+Unlike platforms such as Ethereum, Bitcoin does not aim to be a general-purpose computation layer. Instead, it uses a deliberately constrained programming model known as [Bitcoin Script](https://www.nervos.org/knowledge-base/bitcoin_script)—designed for verification, not execution.
 
-Bitcoin Script is a simple, stack-based language composed of small instructions called [opcodes](https://www.nervos.org/knowledge-base/what_are_opcodes_(explainCKBot)). Each opcode performs a narrowly defined operation during transaction validation. Some verify cryptographic signatures, others manipulate data on the stack, and some enforce conditions that determine whether an output can be spent.
+Bitcoin Script is a simple, stack-based language composed of small instructions called [opcodes](https://www.nervos.org/knowledge-base/what_are_opcodes). Each opcode performs a narrowly defined operation during transaction validation. Some verify cryptographic signatures, others manipulate data on the stack, and some enforce conditions that determine whether an output can be spent.
 
 Every Bitcoin transaction output contains a locking script that defines the conditions under which it can be used. To spend that output later, a transaction must provide an unlocking script that satisfies those conditions. When a node validates a transaction, it executes both scripts together. If the evaluation completes successfully and results in a true value, the spend is accepted.
 
