@@ -1,7 +1,7 @@
 ---
 title: 'What is Slippage in Cryptocurrency Trading?'
 coverImage: 'images/image1.png'
-category:
+category: Education
 subtitle: ' Slippage refers to the difference between the expected price of a trade and the actual price at which the trade is executed'
 date: '2024-07-19 T23:00:00.000Z'
 author:
