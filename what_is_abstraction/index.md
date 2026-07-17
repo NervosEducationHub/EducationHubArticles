@@ -31,7 +31,7 @@ author:
 
 **Cosmos' Inter-Blockchain Communication (IBC):** The [Inter-Blockchain Communication (IBC)](https://tutorials.cosmos.network/academy/3-ibc/1-what-is-ibc.html) protocol, developed by Cosmos, is a robust framework that allows different blockchains to communicate and transfer data seamlessly. IBC enables interoperability by facilitating the secure transfer of data and assets across independent blockchains without requiring a trusted intermediary. This is achieved through the following key mechanisms:
 
-1. **Light Clients:** Each chain involved in IBC maintains a [light client](https://www.nervos.org/knowledge-base/what_is_a_light_client_(explainCKBot)) of the other chain, which allows it to verify the [state](https://www.nervos.org/knowledge-base/state_and_state_change_(explainCKBot)) and transactions of the other chain in a trust-minimized manner.
+1. **Light Clients:** Each chain involved in IBC maintains a [light client](https://www.nervos.org/knowledge-base/what_is_a_light_client) of the other chain, which allows it to verify the [state](https://www.nervos.org/knowledge-base/state_and_state_change) and transactions of the other chain in a trust-minimized manner.
 
 2. **Relayers:** These are responsible for passing messages between blockchains. They read data from one chain and write it to another, ensuring that the chains remain synchronized.
 
@@ -42,7 +42,7 @@ This protocol is foundational for enabling complex cross-chain interactions and 
 
 #### Zero-Knowledge Proofs (ZK)
 
-**Zero-Knowledge Proofs (ZK):** [Zero-knowledge proofs](https://www.nervos.org/knowledge-base/zero_knowledge_proofs_(explainCKBot)) (ZK proofs) are cryptographic techniques that allow one party to prove to another that a statement is true without revealing any information beyond the validity of the statement itself. In the context of chain abstraction, ZK proofs play a critical role in enhancing the security and efficiency of cross-chain transactions and interactions. Here’s how they work:
+**Zero-Knowledge Proofs (ZK):** [Zero-knowledge proofs](https://www.nervos.org/knowledge-base/zero_knowledge_proofs) (ZK proofs) are cryptographic techniques that allow one party to prove to another that a statement is true without revealing any information beyond the validity of the statement itself. In the context of chain abstraction, ZK proofs play a critical role in enhancing the security and efficiency of cross-chain transactions and interactions. Here’s how they work:
 
 1. **Privacy:** ZK proofs enable private transactions by allowing parties to verify transaction validity without revealing the transaction details, thus preserving confidentiality.
 
