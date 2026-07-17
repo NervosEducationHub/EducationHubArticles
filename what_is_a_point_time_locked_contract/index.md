@@ -10,7 +10,7 @@ author:
 
 PTLCs ensure that cryptocurrency is transferred only if predefined conditions are met, and if not, the funds automatically return to the sender after a set time. This mechanism guarantees fairness and security between parties who don’t necessarily trust each other.
 
-The most exciting application of PTLCs lies in [payment channels](https://www.nervos.org/knowledge-base/ultimate_guide_to_payment_channels), particularly within the[ Lightning Network](https://en.wikipedia.org/wiki/Lightning_Network), a layer-2 scaling solution built on top of Bitcoin to enable faster and cheaper transactions.
+The most exciting application of PTLCs lies in [payment channels](https://www.nervos.org/knowledge-base/ultimate_guide_to_payment_channels), particularly within the [Lightning Network](https://en.wikipedia.org/wiki/Lightning_Network), a layer-2 scaling solution built on top of Bitcoin to enable faster and cheaper transactions.
 
 
 
