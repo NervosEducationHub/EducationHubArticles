@@ -193,7 +193,7 @@ Simultaneously, the blockchain’s native token, CKB, is not merely used to pay 
  
 _Combined CKB token [issuance](https://explorer.nervos.org/nervosdao)_
 
-The secondary issuance ensures that state occupants or users that store assets on the blockchain keep paying for the blockchain’s long-term security through the recurring state rent or “inflation tax” given to miners. However, to ensure that protocol doesn’t unjustly tax CKB coins that aren’t used to store state, these coins can be locked into a particular contract, dubbed [NervosDAO](https://dao.ckb.pw/#/), to receive secondary issuance to compensate for the otherwise unfair dilution.
+The secondary issuance ensures that state occupants or users that store assets on the blockchain keep paying for the blockchain’s long-term security through the recurring state rent or “inflation tax” given to miners. However, to ensure that protocol doesn’t unjustly tax CKB coins that aren’t used to store state, these coins can be locked into a particular contract, dubbed [NervosDAO](https://nervdao.com), to receive secondary issuance to compensate for the otherwise unfair dilution.
 
 In summary, this tokenomic design ensures that: 
 
