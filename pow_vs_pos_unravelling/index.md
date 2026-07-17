@@ -8,14 +8,14 @@ author:
 - github:explainCKBot
 ---
 
-As blockchain technology and cryptocurrencies like Bitcoin and Ethereum continue transforming the digital landscape, understanding the core concepts underpinning their operation is crucial. Among these core concepts, consensus algorithms, particularly Proof-of-Work (PoW) and Proof-of-Stake (PoS), play a vital role in [securing](https://www.nervos.org/knowledge-base/sybil_attacks_consensus_mechanisms_(explainCKBot)) and validating transactions. This article explores the mechanics of Proof-of-Work and Proof-of-Stake, comparing their pros, cons, and differences.
+As blockchain technology and cryptocurrencies like Bitcoin and Ethereum continue transforming the digital landscape, understanding the core concepts underpinning their operation is crucial. Among these core concepts, consensus algorithms, particularly Proof-of-Work (PoW) and Proof-of-Stake (PoS), play a vital role in [securing](https://www.nervos.org/knowledge-base/sybil_attacks_consensus_mechanisms) and validating transactions. This article explores the mechanics of Proof-of-Work and Proof-of-Stake, comparing their pros, cons, and differences.
 
 
 ## Understanding Proof-of-Work (PoW) Consensus Algorithm
 
 Proof-of-Work (PoW) is a consensus algorithm that plays a crucial role in securing blockchain networks and ensuring the validity of transactions. In blockchain systems like Bitcoin and [Nervos CKB](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain) that use Proof-of-Work, participants called miners compete against each other to solve complex mathematical problems, which involve finding a valid hash that meets specific criteria.
 
-The mining process begins when miners receive a set of unconfirmed transactions and information from the previous block in the blockchain. They then combine this data with a random number known as a nonce. By using the nonce and transaction data, miners generate a hash, which is a fixed-length and compact, unique fingerprint of the input data. The hash must meet a predetermined “[difficulty target](https://www.nervos.org/knowledge-base/cryptocurrency_mining_difficulty_(explainCKBot))” to be considered valid, typically defined by a certain number of leading zeros. Because all of the values in the hash are random, the number of zeroes at the start of the hash required is increased or decreased (by the protocol) to make blocks easier or harder to mine (the “difficulty”). 
+The mining process begins when miners receive a set of unconfirmed transactions and information from the previous block in the blockchain. They then combine this data with a random number known as a nonce. By using the nonce and transaction data, miners generate a hash, which is a fixed-length and compact, unique fingerprint of the input data. The hash must meet a predetermined “[difficulty target](https://www.nervos.org/knowledge-base/cryptocurrency_mining_difficulty)” to be considered valid, typically defined by a certain number of leading zeros. Because all of the values in the hash are random, the number of zeroes at the start of the hash required is increased or decreased (by the protocol) to make blocks easier or harder to mine (the “difficulty”). 
 
 Miners continuously increment the nonce and generate new hashes until they find a valid hash that meets the target difficulty. This process is computationally intensive and requires a significant amount of energy and resources. Once a miner finds a valid hash, they broadcast the solution to the network, and other miners verify its correctness. If the solution is valid, the new block is added to the blockchain, and the miner who found the solution (i.e., provided valid proof of work) is rewarded with newly minted cryptocurrency.
 
@@ -46,7 +46,7 @@ Proof-of-Stake (PoS) is an alternative consensus algorithm used in some blockcha
 
 In a Proof-of-Stake system, validators propose and validate new blocks. The likelihood of a validator being chosen to create a new block is proportional to their stake in the network. For example, a validator with a larger stake is more likely to be selected than one with a smaller stake. Once a validator is chosen, they create a new block and add it to the blockchain. Validators are rewarded with newly minted cryptocurrency and transaction fees, as is the case in Proof-of-Work. 
 
-By tying the validation power to the stake, validators are incentivized to act in the network's best interest, as any attempt to manipulate the blockchain could result in their stake being forfeited or "[slashed](https://www.nervos.org/knowledge-base/slashing_in_PoS_%28explainCKBot%29)," causing them to suffer financial losses.
+By tying the validation power to the stake, validators are incentivized to act in the network's best interest, as any attempt to manipulate the blockchain could result in their stake being forfeited or "[slashed](https://www.nervos.org/knowledge-base/slashing_in_PoS)," causing them to suffer financial losses.
 
 
 ### Proof-of-Stake (PoS) Advantages
