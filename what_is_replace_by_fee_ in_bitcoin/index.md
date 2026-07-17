@@ -10,7 +10,7 @@ author:
 
 Replace-by-Fee, or RBF, is a mechanism in Bitcoin that allows an unconfirmed transaction to be replaced with a new version that includes a higher transaction fee.
 
-This feature exists to help transactions compete for limited block space. It gives senders a way to speed up confirmation when network congestion becomes a problem. At its core, RBF is a tool that helps the Bitcoin network remain flexible and efficient, especially when the [mempool](https://www.nervos.org/knowledge-base/mempool_in_cryptocurrency_(explainCKBot)) becomes crowded and [miners](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators_(explainCKBot)) prioritize transactions with higher fees.
+This feature exists to help transactions compete for limited block space. It gives senders a way to speed up confirmation when network congestion becomes a problem. At its core, RBF is a tool that helps the Bitcoin network remain flexible and efficient, especially when the [mempool](https://www.nervos.org/knowledge-base/mempool_in_cryptocurrency) becomes crowded and [miners](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators) prioritize transactions with higher fees.
 
 
 
@@ -40,7 +40,7 @@ The core purpose of RBF is fee bumping. When a transaction lingers in the mempoo
 
 RBF comes in two main forms: Opt-in RBF and Full RBF. Each represents a different philosophy regarding how flexible Bitcoin transactions should be before confirmation.
 
-Opt-in RBF is the most widely used form. Under this system, a transaction is eligible for replacement only if it signals its replaceability. This signal is embedded in the sequence number field. As a result, most transactions remain final upon broadcast unless the sender explicitly chooses otherwise. This preserves traditional expectations around [transaction finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto_(explainCKBot)) while still offering flexibility for those who want it.
+Opt-in RBF is the most widely used form. Under this system, a transaction is eligible for replacement only if it signals its replaceability. This signal is embedded in the sequence number field. As a result, most transactions remain final upon broadcast unless the sender explicitly chooses otherwise. This preserves traditional expectations around [transaction finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto) while still offering flexibility for those who want it.
 
 Full RBF, by contrast, permits any unconfirmed transaction to be replaced, regardless of whether it signals replaceability. This version treats all mempool transactions as incomplete until confirmed, giving senders maximum flexibility to modify their fees at any time.
 
