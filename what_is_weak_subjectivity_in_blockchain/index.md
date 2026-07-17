@@ -8,7 +8,7 @@ author:
 - github:explainCKBot
 ---
 
-Weak subjectivity in blockchain, a term formalized by Vitalik Buterin, describes how Proof-of-Stake (PoS) [nodes](https://www.nervos.org/knowledge-base/difference_between_miner_full_node_(explainCKBot)) must trust other nodes to find the true current chain when they're new or offline for a long time, making PoS systems reliant on social consensus for state finality against attacks. It is "weak" because it is only needed for joining or reconnecting nodes, not always-online ones.
+Weak subjectivity in blockchain, a term formalized by Vitalik Buterin, describes how Proof-of-Stake (PoS) [nodes](https://www.nervos.org/knowledge-base/difference_between_miner_full_node) must trust other nodes to find the true current chain when they're new or offline for a long time, making PoS systems reliant on social consensus for state finality against attacks. It is "weak" because it is only needed for joining or reconnecting nodes, not always-online ones.
 
 While blockchains are often described as trustless systems, weak subjectivity highlights an important nuance that some consensus mechanisms inevitably depend on a certain social assumption to function securely over long time horizons.
 
@@ -16,9 +16,9 @@ While blockchains are often described as trustless systems, weak subjectivity hi
 
 ## Understanding Blockchain Consensus
 
-Blockchain consensus refers to the process by which a decentralized network of independent computers agrees on a single shared history of transactions and [state changes](https://www.nervos.org/knowledge-base/state_and_state_change_(explainCKBot)). In the absence of a central authority, consensus mechanisms enable thousands of nodes, often operated by unknown or untrusted parties, to coordinate around a consistent version of reality. This shared agreement is what allows blockchains to function as reliable, tamper-resistant ledgers.
+Blockchain consensus refers to the process by which a decentralized network of independent computers agrees on a single shared history of transactions and [state changes](https://www.nervos.org/knowledge-base/state_and_state_change). In the absence of a central authority, consensus mechanisms enable thousands of nodes, often operated by unknown or untrusted parties, to coordinate around a consistent version of reality. This shared agreement is what allows blockchains to function as reliable, tamper-resistant ledgers.
 
-[Proof-of-Work and Proof-of-Stake](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)) represent two major approaches to achieving blockchain consensus, but they differ fundamentally in how objectivity is established. Objectivity, in this context, refers to the ability of a node to determine the correct chain using only protocol rules and on-chain data, without relying on external sources of information. Fully objective systems allow any participant, at any point in time, to independently reconstruct consensus from scratch.
+[Proof-of-Work and Proof-of-Stake](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling) represent two major approaches to achieving blockchain consensus, but they differ fundamentally in how objectivity is established. Objectivity, in this context, refers to the ability of a node to determine the correct chain using only protocol rules and on-chain data, without relying on external sources of information. Fully objective systems allow any participant, at any point in time, to independently reconstruct consensus from scratch.
 
 In Proof-of-Work systems such as Bitcoin, nodes follow the valid chain with the greatest cumulative proof of work, as measured by the total difficulty embedded in the chain’s blocks. This rule provides Proof-of-Work with a strong form of objectivity. A new node can join the network, download all blocks from genesis, and independently verify which chain required the most real-world energy expenditure. Because rewriting history would require enormous ongoing costs, accumulated work serves as a clear and measurable signal of legitimacy.
 
@@ -40,7 +40,7 @@ Weak subjectivity is most closely associated with Proof-of-Stake blockchains. In
 
 For a node that has been offline for a long time, both the honest chain and a malicious long-range fork may appear internally consistent. Unlike Proof-of-Work, there is no accumulated energy signal to distinguish which history was socially accepted. Weak subjectivity, often implemented through checkpoints, limits the feasibility of such long-range attacks.
 
-Fork choice rules in Proof-of-Stake often rely on validator votes and [finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto_(explainCKBot)) mechanisms. These mechanisms work well when validators are actively participating, but complications arise when large portions of the validator set change over time. Historical signatures alone cannot prove which chain was considered canonical by the network at a given moment, because signatures can be reproduced without cost after validators have exited.
+Fork choice rules in Proof-of-Stake often rely on validator votes and [finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto) mechanisms. These mechanisms work well when validators are actively participating, but complications arise when large portions of the validator set change over time. Historical signatures alone cannot prove which chain was considered canonical by the network at a given moment, because signatures can be reproduced without cost after validators have exited.
 
 This ambiguity does not affect continuously online nodes, but it does affect newcomers or long-dormant nodes. Without additional context, they may unknowingly synchronize to an invalid history.
 
