@@ -24,7 +24,7 @@ The name secp256k1 is derived from the curve's properties: "sec" stands for "Sta
 
 ## Secp256k1 in Blockchain and Cryptocurrencies
 
-Bitcoin, the first and most well-known cryptocurrency, relies on secp256k1 for its public key cryptography. Specifically, it uses the [elliptic curve digital signature algorithm](https://www.nervos.org/knowledge-base/understanding_ECDSA_(explainCKBot)) (ECDSA) with secp256k1 as the underlying elliptic curve. Many other cryptocurrencies, including Ethereum and Litecoin, have since adopted this curve for their digital signature schemes.
+Bitcoin, the first and most well-known cryptocurrency, relies on secp256k1 for its public key cryptography. Specifically, it uses the [elliptic curve digital signature algorithm](https://www.nervos.org/knowledge-base/understanding_ECDSA) (ECDSA) with secp256k1 as the underlying elliptic curve. Many other cryptocurrencies, including Ethereum and Litecoin, have since adopted this curve for their digital signature schemes.
 
 There are several reasons why secp256k1 is a popular choice for cryptocurrencies:
 
