@@ -13,18 +13,18 @@ Bitcoin, the pioneering cryptocurrency, has long been celebrated for its simplic
 
 ## Bitcoin Script and Opcodes: The Foundation of Blockchain Transactions
 
-Bitcoin’s scripting language is a fundamental yet often overlooked component of the network. [Bitcoin Script](https://www.nervos.org/knowledge-base/bitcoin_script_(explainCKBot)) is a stack-based language that enables the execution of complex instructions within Bitcoin transactions. Unlike programming languages used for general applications, Bitcoin Script is not "[Turing complete](https://en.wikipedia.org/wiki/Turing_completeness)", intentionally limiting its capabilities to enhance security and predictability. This constraint is crucial in preventing certain types of malicious activities and ensuring that the scripts run deterministically.
+Bitcoin’s scripting language is a fundamental yet often overlooked component of the network. [Bitcoin Script](https://www.nervos.org/knowledge-base/bitcoin_script) is a stack-based language that enables the execution of complex instructions within Bitcoin transactions. Unlike programming languages used for general applications, Bitcoin Script is not "[Turing complete](https://en.wikipedia.org/wiki/Turing_completeness)", intentionally limiting its capabilities to enhance security and predictability. This constraint is crucial in preventing certain types of malicious activities and ensuring that the scripts run deterministically.
 
 
 ### What are Bitcoin Opcodes?
 
-For the uninitiated, [оpcodes](https://www.nervos.org/knowledge-base/what_are_opcodes_(explainCKBot)), or operation codes, are the basic building blocks of Bitcoin's scripting language. Each opcode represents a specific command or function that the Bitcoin script can execute, ranging from simple arithmetic operations to complex cryptographic functions.
+For the uninitiated, [оpcodes](https://www.nervos.org/knowledge-base/what_are_opcodes), or operation codes, are the basic building blocks of Bitcoin's scripting language. Each opcode represents a specific command or function that the Bitcoin script can execute, ranging from simple arithmetic operations to complex cryptographic functions.
 
 More specifically, opcodes are single-byte instructions that specify a particular operation to be performed on the stack during the execution of a script. The stack is a data structure used to store and manipulate data within the script. When a Bitcoin transaction is processed, the script is executed, and the opcodes dictate the sequence of operations to validate the transaction. For example, the opcode `OP_DUP` duplicates the top item on the stack, while `OP_HASH160` applies a hash function to the top item. There are different types of opcodes in Bitcoin Script:
 
 - **Stack Operations:** These include basic manipulations of the stack, like duplicating (`OP_DUP`), dropping (`OP_DROP`), and swapping (`OP_SWAP`) items.
 - **Arithmetic Operations:** Opcodes like `OP_ADD` and `OP_SUB` perform basic arithmetic on the stack items.
-- **Cryptographic Operations:** These include operations for cryptographic functions such as `OP_CHECKSIG`, which verifies digital signatures, and `OP_SHA256`, which applies the [SHA-256](https://www.nervos.org/knowledge-base/SHA256_most_used_hash_function_(explainCKBot)) hash function.
+- **Cryptographic Operations:** These include operations for cryptographic functions such as `OP_CHECKSIG`, which verifies digital signatures, and `OP_SHA256`, which applies the [SHA-256](https://www.nervos.org/knowledge-base/SHA256_most_used_hash_function) hash function.
 - **Control Flow Operations:** Opcodes like `OP_IF` and `OP_ELSE` control the script's execution flow, allowing for conditional execution of code blocks.
 
 Opcodes enable the creation of various transaction types and smart contracts on the Bitcoin network. For instance, multi-signature transactions utilize `OP_CHECKMULTISIG` to require multiple signatures for validation. Conditional payments and atomic swaps are also facilitated by specific combinations of opcodes, allowing for more complex financial transactions and interoperability between different blockchains.
@@ -68,7 +68,7 @@ To that point, several key figures and groups within the Bitcoin community are a
 
 ## Potential Use Cases of OP_CAT: Smart Contracts, Covenants, and Beyond
 
-One of the most compelling use cases for OP_CAT is in the realm of smart contracts and covenants. Smart contracts are self-executing contracts with the terms of the agreement directly written into code. [Covenants](https://www.nervos.org/knowledge-base/what_are_bitcoin_covenants_(explainCKBot)), on the other hand, impose conditions on how UTXOs can be spent. OP_CAT can facilitate the creation of more dynamic and flexible smart contracts by allowing data concatenation within the script. This can enable complex transaction conditions that were previously not possible, enhancing the overall functionality of Bitcoin.
+One of the most compelling use cases for OP_CAT is in the realm of smart contracts and covenants. Smart contracts are self-executing contracts with the terms of the agreement directly written into code. [Covenants](https://www.nervos.org/knowledge-base/what_are_bitcoin_covenants), on the other hand, impose conditions on how UTXOs can be spent. OP_CAT can facilitate the creation of more dynamic and flexible smart contracts by allowing data concatenation within the script. This can enable complex transaction conditions that were previously not possible, enhancing the overall functionality of Bitcoin.
 
 For instance, a contract could stipulate that funds are released only when multiple data points (e.g., multiple signatures, time-based conditions) are combined and validated. This would allow developers to implement more nuanced conditions in smart contracts, such as multi-stage payment systems, where payments are released in stages upon the completion of certain milestones. Moreover, OP_CAT could also support non-equivocation contracts, which are designed to prevent double-spending attempts in payment channels, such as the Lightning Network. By concatenating various pieces of transaction data, OP_CAT can enforce conditions that penalize or invalidate transactions if double-spending is detected.
 
@@ -94,7 +94,7 @@ Reactivating OP_CAT also poses certain security risks. As with any change to the
 
 ### Consensus and Implementation Challenges
 
-Achieving consensus within the Bitcoin community is no small feat. Bitcoin's decentralized nature means that any significant protocol change requires broad agreement among developers, miners, and users. Various methods exist for implementing protocol changes, such as [soft forks and hard forks](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork_(explainCKBot)). A soft fork, which is backward compatible, is generally preferred for such upgrades. However, reaching consensus and coordinating the implementation of a soft fork can be challenging and time-consuming.
+Achieving consensus within the Bitcoin community is no small feat. Bitcoin's decentralized nature means that any significant protocol change requires broad agreement among developers, miners, and users. Various methods exist for implementing protocol changes, such as [soft forks and hard forks](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork). A soft fork, which is backward compatible, is generally preferred for such upgrades. However, reaching consensus and coordinating the implementation of a soft fork can be challenging and time-consuming.
 
 
 ## Future Prospects and Community Sentiment
