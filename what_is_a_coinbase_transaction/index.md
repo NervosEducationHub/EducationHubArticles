@@ -10,13 +10,13 @@ author:
 
 A block usually contains many transactions, and there is one special transaction that stands apart from the rest: the coinbase transaction. This term often causes confusion as many associate it with the popular cryptocurrency exchange. In fact, the exchange was named after this important blockchain concept rather than the other way around.
 
-A coinbase transaction is not sent from one user to another, and it does not consume any previous coins as inputs. Instead, it is created by the [miner](https://www.nervos.org/knowledge-base/difference_between_miner_full_node_(explainCKBot)) and serves as the mechanism through which new coins are created and miners are rewarded for their efforts.
+A coinbase transaction is not sent from one user to another, and it does not consume any previous coins as inputs. Instead, it is created by the [miner](https://www.nervos.org/knowledge-base/difference_between_miner_full_node) and serves as the mechanism through which new coins are created and miners are rewarded for their efforts.
 
 
 
 ## Understanding Coinbase Transactions
 
-A blockchain is a chain of blocks, each containing a list of transactions, linked together through cryptographic hashes. The process of adding new blocks is driven by mining in [proof-of-work](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)) (PoW) blockchains like Bitcoin. Mining is expensive because it requires specialized [mining hardware](https://www.nervos.org/knowledge-base/crypto_mining_hardware_(explainCKBot)), electricity, and operational costs. Without incentives, miners would have no reason to secure the network. That is where block rewards come in.
+A blockchain is a chain of blocks, each containing a list of transactions, linked together through cryptographic hashes. The process of adding new blocks is driven by mining in [proof-of-work](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling) (PoW) blockchains like Bitcoin. Mining is expensive because it requires specialized [mining hardware](https://www.nervos.org/knowledge-base/crypto_mining_hardware), electricity, and operational costs. Without incentives, miners would have no reason to secure the network. That is where block rewards come in.
 
 A coinbase transaction is a special type of transaction included as the first entry in every block, created by the miner who successfully adds a new block to the chain, and used to pay out block reward (consisting of newly minted coins plus transaction fees from users who included payments in their transactions).
 
@@ -75,11 +75,11 @@ Coinbase transactions serve several crucial functions in blockchain ecosystems:
 
 Creating and validating a coinbase transaction involves several steps.
 
-1. **Block Preparation**: When a miner works on creating a new block, they compile pending transactions from the [mempool](https://www.nervos.org/knowledge-base/mempool_in_cryptocurrency_(explainCKBot)) (the pool of unconfirmed transactions) and prepare to add them to the new block.
+1. **Block Preparation**: When a miner works on creating a new block, they compile pending transactions from the [mempool](https://www.nervos.org/knowledge-base/mempool_in_cryptocurrency) (the pool of unconfirmed transactions) and prepare to add them to the new block.
 2. **Coinbase Creation**: The miner creates a special transaction with no inputs - this is the coinbase transaction. Unlike regular transactions that require inputs from previous transactions, Coinbase transactions generate new coins "out of thin air" as permitted by the protocol.
-3. **Reward Specification**: The miner specifies their own wallet address as the output for the coinbase transaction, ensuring they receive the reward if they successfully mine the block. Miners can also specify multiple addresses if the reward needs to be distributed among [mining pool](https://www.nervos.org/knowledge-base/cryptocurrency_mining_pools_(explainCKBot)) participants.
+3. **Reward Specification**: The miner specifies their own wallet address as the output for the coinbase transaction, ensuring they receive the reward if they successfully mine the block. Miners can also specify multiple addresses if the reward needs to be distributed among [mining pool](https://www.nervos.org/knowledge-base/cryptocurrency_mining_pools) participants.
 4. **Value Calculation**: The total value of the coinbase transaction equals the current block subsidy (e.g., 3.125 BTC for Bitcoin in 2025) plus the sum of all transaction fees from the transactions included in the block.
-5. **Block Mining**: The miner includes this Coinbase transaction as the first transaction in the new block and begins solving the complex mathematical problem required to mine the block: repeatedly hashing the block header with varying nonce values until a hash meeting the [difficulty target](https://www.nervos.org/knowledge-base/cryptocurrency_mining_difficulty_(explainCKBot)) is found.
+5. **Block Mining**: The miner includes this Coinbase transaction as the first transaction in the new block and begins solving the complex mathematical problem required to mine the block: repeatedly hashing the block header with varying nonce values until a hash meeting the [difficulty target](https://www.nervos.org/knowledge-base/cryptocurrency_mining_difficulty) is found.
 6. **Confirmation**: Once the block is successfully mined and added to the blockchain, the coinbase transaction becomes confirmed. However, the rewards typically require additional confirmations (e.g. 100 blocks for Bitcoin) before they can be spent.
 
 Coins can be permanently lost if a miner fails to claim the full block reward. For instance, the total block subsidy of [Block 526,591](https://www.blockchain.com/explorer/blocks/btc/526591) in Bitcoin blockchain was 12.5 BTC, yet the miner only allocated 6.25 BTC to themselves in the output of the coinbase transaction. This resulted in an irreversible loss of 6.25 BTC.
