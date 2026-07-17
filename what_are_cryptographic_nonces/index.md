@@ -34,7 +34,7 @@ This principle of “freshness” translates directly to blockchain security. Ev
 
 ### Mining Nonces in Proof-of-Work
 
-In [proof-of-work](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)) blockchains like Bitcoin, miners use nonces in a very different way. Here, the nonce is part of the block header, a field that [miners](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators_(explainCKBot)) change repeatedly until they find a hash that meets the network’s [difficulty target](https://www.nervos.org/knowledge-base/cryptocurrency_mining_difficulty_(explainCKBot)). This process is essentially a massive guessing game powered by computation.
+In [proof-of-work](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling) blockchains like Bitcoin, miners use nonces in a very different way. Here, the nonce is part of the block header, a field that [miners](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators) change repeatedly until they find a hash that meets the network’s [difficulty target](https://www.nervos.org/knowledge-base/cryptocurrency_mining_difficulty). This process is essentially a massive guessing game powered by computation.
 
 Each time a miner alters the nonce, the resulting hash changes. The miner’s goal is to find a nonce that, when hashed with the rest of the block data, produces a hash below a specific threshold. This “winning” nonce, sometimes called the golden nonce, proves that the miner expended significant computational effort to secure the network.
 
@@ -54,7 +54,7 @@ Nonces are more than just counters. They are cryptographic anchors that preserve
 
 The first and most obvious role of a nonce is replay protection. In both traditional cryptographic systems and blockchains, replay attacks occur when an attacker resends a valid transaction or message to produce unintended results. Nonces make this impossible. Since each transaction carries a unique nonce, any attempt to replay it would fail because the network expects a different, unused value.
 
-Nonces also ensure [state](https://www.nervos.org/knowledge-base/state_and_state_change_(explainCKBot)) integrity. In account-based blockchains, every account’s state evolves according to the sequence of nonces. Executing transactions in the wrong order could break smart contract logic or cause unintended side effects. By enforcing nonce order, the blockchain maintains consistency across all nodes, ensuring that everyone sees the same version of the ledger.
+Nonces also ensure [state](https://www.nervos.org/knowledge-base/state_and_state_change) integrity. In account-based blockchains, every account’s state evolves according to the sequence of nonces. Executing transactions in the wrong order could break smart contract logic or cause unintended side effects. By enforcing nonce order, the blockchain maintains consistency across all nodes, ensuring that everyone sees the same version of the ledger.
 
 In proof-of-work systems, mining nonces play a separate but equally crucial role. They make it computationally expensive to rewrite history. A miner trying to alter a previous block would need to redo the entire proof-of-work by finding a new valid nonce, an almost impossible task given current computing limitations.
 
@@ -78,7 +78,7 @@ Nonce collisions, though rare, can also occur in poorly designed random generato
 
 As blockchain systems evolve, the role of nonces continues to expand. With new consensus mechanisms, privacy protocols, and scaling solutions being developed, nonces remain a foundational component of transaction security.
 
-For example, advanced cryptographic techniques like [zero-knowledge proofs](https://www.nervos.org/knowledge-base/zero_knowledge_proofs_(explainCKBot)), multi-party computation, and threshold signatures all rely on nonce-like randomness to function securely. Similarly, in layer-2 solutions such as [payment channels](https://www.nervos.org/knowledge-base/ultimate_guide_to_payment_channels) and [rollups](https://www.nervos.org/knowledge-base/What_are_optimistic_rollups_(explainCKBot)), nonces ensure that off-chain transactions remain synchronized and verifiable when settled on-chain.
+For example, advanced cryptographic techniques like [zero-knowledge proofs](https://www.nervos.org/knowledge-base/zero_knowledge_proofs), multi-party computation, and threshold signatures all rely on nonce-like randomness to function securely. Similarly, in layer-2 solutions such as [payment channels](https://www.nervos.org/knowledge-base/ultimate_guide_to_payment_channels) and [rollups](https://www.nervos.org/knowledge-base/what_are_optimistic_rollups_and_how_do_they_work), nonces ensure that off-chain transactions remain synchronized and verifiable when settled on-chain.
 
 Future blockchain designs may incorporate more sophisticated nonce schemes to improve scalability and resistance to attacks. Whether through random beacons, verifiable delay functions, or hardware-based randomness sources, the need for unique, unrepeatable values will always persist.
 
