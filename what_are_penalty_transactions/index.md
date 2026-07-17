@@ -18,7 +18,7 @@ The Lightning Network is a second layer protocol built on top of Bitcoin that is
 
 Within a payment channel, participants exchange updated balances that reflect who owns what portion of the locked funds. These updates can occur thousands of times without being recorded on the blockchain, as only the channel’s opening and closing transactions are ultimately settled on-chain. This design dramatically reduces load on Bitcoin’s base layer, but it also introduces a critical risk.
 
-Because the blockchain only sees the beginning and the end of a channel’s life, the protocol must ensure that the final settlement reflects the most recent agreement between participants, rather than an older and more favorable [state](https://www.nervos.org/knowledge-base/state_and_state_change_(explainCKBot)). Penalty transactions exist precisely to solve this problem by making any attempt to settle on outdated information financially catastrophic.
+Because the blockchain only sees the beginning and the end of a channel’s life, the protocol must ensure that the final settlement reflects the most recent agreement between participants, rather than an older and more favorable [state](https://www.nervos.org/knowledge-base/state_and_state_change). Penalty transactions exist precisely to solve this problem by making any attempt to settle on outdated information financially catastrophic.
 
 
 
