@@ -1,7 +1,7 @@
 ---
 title: 'What is Client-Side Validation (CSV) in Crypto?'
 coverImage: 'images/image1.png'
-category:
+category: Education
 subtitle: 'Client-side validation (CSV) stands out as a concept that is reshaping the way data is handled and verified within blockchain networks.'
 date: '2024-10-01 T22:00:00.000Z'
 author:
@@ -52,7 +52,7 @@ Client-side validation helps alleviate these issues by reducing the amount of da
 
 ### Reduced On-Chain Costs
 
-By minimizing the amount of data that needs to be committed to the blockchain, client-side validation also helps reduce on-chain costs. In traditional blockchain systems, every byte of data stored on the blockchain incurs a cost, as [miners or validators](https://www.nervos.org/knowledge-base/difference_between_miner_full_node_(explainCKBot)) need to be compensated for processing and storing this data. This often leads to high transaction fees, especially when the network is congested.
+By minimizing the amount of data that needs to be committed to the blockchain, client-side validation also helps reduce on-chain costs. In traditional blockchain systems, every byte of data stored on the blockchain incurs a cost, as [miners or validators](https://www.nervos.org/knowledge-base/difference_between_miner_full_node) need to be compensated for processing and storing this data. This often leads to high transaction fees, especially when the network is congested.
 
 With client-side validation, only the essential information or cryptographic proofs are stored on the blockchain, while the rest of the data remains off-chain. This not only reduces the overall cost of transactions but also makes the system more efficient, as fewer resources are required to maintain the blockchain. This reduction in costs can make cryptocurrencies more accessible to a broader audience, further driving adoption.
 
