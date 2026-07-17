@@ -16,7 +16,7 @@ This idea may seem abstract at first, yet it addresses a critical challenge in d
 
 ## The Problem of Randomness in Decentralized Systems
 
-Randomness in traditional computing is often taken for granted, because a trusted machine can generate pseudorandom numbers using hidden internal state. In a decentralized blockchain environment, there is no single trusted machine. Every [node](https://www.nervos.org/knowledge-base/difference_between_miner_full_node_(explainCKBot)) can see the data, and many participants have incentives to influence the outcome of any random process. This creates a serious problem as the randomness becomes an attack surface.
+Randomness in traditional computing is often taken for granted, because a trusted machine can generate pseudorandom numbers using hidden internal state. In a decentralized blockchain environment, there is no single trusted machine. Every [node](https://www.nervos.org/knowledge-base/difference_between_miner_full_node) can see the data, and many participants have incentives to influence the outcome of any random process. This creates a serious problem as the randomness becomes an attack surface.
 
 Early blockchain systems tried to derive randomness from block hashes, timestamps, or aggregated signatures. While clever, these approaches often left subtle openings for manipulation. Miners could withhold blocks, validators could choose when to reveal information, and participants could attempt grinding attacks, where many possible inputs are tried until a favorable random result appears.
 
@@ -50,7 +50,7 @@ The important detail is that the delay is predictable and unavoidable, and the p
 
 ## Applications of VDFs in Blockchain Protocols
 
-VDF’s have become increasingly important in blockchain protocol research and real-world deployments, particularly in areas where fair randomness and unbiased selection are essential. One major application is leader election in [Proof-of-Stake](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)) (PoS) systems. By incorporating VDF-based randomness, validators cannot predict in advance when they will be selected to propose a block, which reduces opportunities for strategic manipulation.
+VDF’s have become increasingly important in blockchain protocol research and real-world deployments, particularly in areas where fair randomness and unbiased selection are essential. One major application is leader election in [Proof-of-Stake](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling) (PoS) systems. By incorporating VDF-based randomness, validators cannot predict in advance when they will be selected to propose a block, which reduces opportunities for strategic manipulation.
 
 Another important use case is committee sampling, where a random subset of validators must be selected to verify transactions or participate in consensus tasks. VDFs ensure that this selection process remains unpredictable and resistant to grinding attacks (also known as precomputation attacks), which are a high-severity vulnerability, primarily in PoS blockchains, where an attacker attempts to manipulate the protocol's randomness to gain an unfair advantage, such as being selected as the next block validator more frequently.
 
