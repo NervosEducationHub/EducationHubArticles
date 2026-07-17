@@ -8,9 +8,9 @@ author:
 - github:explainCKBot
 ---
 
-[Crypto mining](https://www.nervos.org/knowledge-base/cryptocurrency_mining_pools_(explainCKBot)) is the foundation that keeps [Proof-of-Work](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)) (PoW) blockchains secure and consistent. Every miner, regardless of location or [equipment](https://www.nervos.org/knowledge-base/crypto_mining_hardware_(explainCKBot)), is expected to play by the same rules and compete equally for rewards. However, not every participant behaves honestly. One particular form of strategic misbehavior capable of distorting incentives and harming blockchain security is known as selfish mining.
+[Crypto mining](https://www.nervos.org/knowledge-base/cryptocurrency_mining_pools) is the foundation that keeps [Proof-of-Work](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling) (PoW) blockchains secure and consistent. Every miner, regardless of location or [equipment](https://www.nervos.org/knowledge-base/crypto_mining_hardware), is expected to play by the same rules and compete equally for rewards. However, not every participant behaves honestly. One particular form of strategic misbehavior capable of distorting incentives and harming blockchain security is known as selfish mining.
 
-Selfish mining is a manipulative strategy in which a miner or [mining pool](https://www.nervos.org/knowledge-base/cryptocurrency_mining_pools_(explainCKBot)) deliberately withholds newly found blocks. Instead of publishing them immediately, the miner keeps those blocks private to gain a competitive advantage. This practice can disrupt the normal operation of a blockchain network, weaken trust, and reduce fairness.
+Selfish mining is a manipulative strategy in which a miner or [mining pool](https://www.nervos.org/knowledge-base/cryptocurrency_mining_pools) deliberately withholds newly found blocks. Instead of publishing them immediately, the miner keeps those blocks private to gain a competitive advantage. This practice can disrupt the normal operation of a blockchain network, weaken trust, and reduce fairness.
 
 
 
@@ -18,7 +18,7 @@ Selfish mining is a manipulative strategy in which a miner or [mining pool](http
 
 In a PoW blockchain like Bitcoin, mining is the process through which new blocks are added to the blockchain. Miners compete to solve cryptographic puzzles, and the first one to solve it earns the right to publish the next block. This system aligns individual incentives with the collective goal of maintaining a secure, decentralized ledger.
 
-Honest miners follow a straightforward rule: once a block is found, it should be broadcast to the network immediately. Other miners then verify it and start working on the next block. This rapid sharing ensures that the blockchain grows smoothly and consistently. Every [node](https://www.nervos.org/knowledge-base/difference_between_miner_full_node_(explainCKBot)) agrees on which chain is the longest and therefore valid, maintaining the integrity of the system.
+Honest miners follow a straightforward rule: once a block is found, it should be broadcast to the network immediately. Other miners then verify it and start working on the next block. This rapid sharing ensures that the blockchain grows smoothly and consistently. Every [node](https://www.nervos.org/knowledge-base/difference_between_miner_full_node) agrees on which chain is the longest and therefore valid, maintaining the integrity of the system.
 
 However, the open and competitive nature of mining also creates opportunities for exploitation. When some participants realize that they can earn more by temporarily breaking the rules, the system becomes vulnerable. Selfish mining is one of the most studied examples of this kind of exploitation. It does not require breaking cryptography or rewriting code. It simply exploits timing and coordination.
 
@@ -26,7 +26,7 @@ However, the open and competitive nature of mining also creates opportunities fo
 
 ## What Is Selfish Mining?
 
-Selfish mining occurs when a miner or mining pool deliberately withholds a block they have found instead of broadcasting it immediately. By keeping this block secret, they temporarily create a private branch of the blockchain. If they find additional blocks before the rest of the network discovers a competing block, they can later release their private chain, which is longer and therefore valid according to the “[longest chain rule](https://www.nervos.org/knowledge-base/What_is_the_Longest_Chain_Rule_in_Bitcoin_and_Blockchain_(explainCKBot)).”
+Selfish mining occurs when a miner or mining pool deliberately withholds a block they have found instead of broadcasting it immediately. By keeping this block secret, they temporarily create a private branch of the blockchain. If they find additional blocks before the rest of the network discovers a competing block, they can later release their private chain, which is longer and therefore valid according to the “[longest chain rule](https://www.nervos.org/knowledge-base/What_is_the_Longest_Chain_Rule_in_Bitcoin_and_Blockchain).”
 
 This behavior causes honest miners’ work to be wasted. The honest miners may have been building on an outdated version of the chain, unaware that a longer one existed in secret. Once the selfish miner reveals their chain, the honest miners’ blocks are discarded as “orphans.” The selfish miner, on the other hand, collects the rewards from their hidden chain.
 
@@ -66,7 +66,7 @@ One common approach involves modifying the block reward policy. For instance, be
 
 Another defense strategy focuses on improving block propagation. When new blocks spread faster, the window of opportunity for selfish miners shrinks. Bitcoin’s “[Compact Blocks](https://bitcoincore.org/en/2016/06/07/compact-blocks-faq/)” and Ethereum’s “[GossipSub](https://www.blocknative.com/blog/gossipsub-overlays-ethereum-consensus-layer)” protocols are examples of improvements aimed at faster communication. Nervos’ [NC-MAX consensus](https://docs-new.nervos.org/docs/tech-explanation/consensus) addresses this challenge by splitting the confirmation process into two steps: propose and commit, thereby allowing transactions to be fully propagated before being committed, eliminating delays and vulnerabilities associated with incomplete transaction distribution.
 
-Some projects, like Bitcoin Cash, introduced alternative [difficulty adjustment](https://www.nervos.org/knowledge-base/cryptocurrency_mining_difficulty_(explainCKBot)) algorithms to limit the impact of manipulation. Other designs, such as [GHOST](https://www.geeksforgeeks.org/ethical-hacking/what-is-ghost-protocol-for-ethereum/) (Greedy Heaviest-Observed Sub-Tree), account for orphaned blocks by including them in the chain’s weight calculation. This means even discarded blocks contribute to security, reducing the impact of selfish mining.
+Some projects, like Bitcoin Cash, introduced alternative [difficulty adjustment](https://www.nervos.org/knowledge-base/cryptocurrency_mining_difficulty) algorithms to limit the impact of manipulation. Other designs, such as [GHOST](https://www.geeksforgeeks.org/ethical-hacking/what-is-ghost-protocol-for-ethereum/) (Greedy Heaviest-Observed Sub-Tree), account for orphaned blocks by including them in the chain’s weight calculation. This means even discarded blocks contribute to security, reducing the impact of selfish mining.
 
 
 
