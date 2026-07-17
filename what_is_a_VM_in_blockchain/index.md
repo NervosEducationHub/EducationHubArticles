@@ -61,7 +61,7 @@ The [Ethereum Virtual Machine (EVM)](https://ethereum.org/en/developers/docs/evm
 
 2. **Bytecode Execution**: Smart contracts written in high-level languages like Solidity are compiled into EVM bytecode, which the EVM then executes. This bytecode is consistent across all Ethereum nodes, ensuring smart contracts run uniformly throughout the network.
 
-3. **Gas Mechanism**: The EVM uses a gas system to meter the computational work required to execute transactions and smart contracts. [Gas fees](https://www.nervos.org/knowledge-base/what_is_a_blockchain_gas_fee_(explainCKBot)) prevent infinite loops and excessive resource consumption, maintaining network stability and security.
+3. **Gas Mechanism**: The EVM uses a gas system to meter the computational work required to execute transactions and smart contracts. [Gas fees](https://www.nervos.org/knowledge-base/what_is_a_blockchain_gas_fee) prevent infinite loops and excessive resource consumption, maintaining network stability and security.
 
 4. **Security and Isolation**: The EVM isolates smart contract execution from the Ethereum blockchain, ensuring malicious or faulty contracts do not affect the entire network.
 
@@ -78,11 +78,11 @@ The [CKB-VM](https://docs.nervos.org/docs/tech-explanation/ckb-vm) is the virtua
 
 ##### **Key Features of CKB-VM**
 
-1. **Based on the RISC-V ISA**: CKB-VM is built on the [RISC-V](https://www.nervos.org/knowledge-base/what_is_riscv_(explainCKBot)) (Reduced Instruction Set Computing) instruction set architecture (ISA). RISC-V is an open standard that is both extensible and adaptable. Unlike proprietary instruction sets, RISC-V provides a minimalistic set of instructions that can be extended with custom features. This makes RISC-V more efficient and flexible than the EVM's bespoke architecture. The RISC-V ISA's simplicity allows for optimized performance and ease of implementation, making it suitable for blockchain applications that require robust and adaptable computational capabilities.
+1. **Based on the RISC-V ISA**: CKB-VM is built on the [RISC-V](https://www.nervos.org/knowledge-base/what_is_riscv) (Reduced Instruction Set Computing) instruction set architecture (ISA). RISC-V is an open standard that is both extensible and adaptable. Unlike proprietary instruction sets, RISC-V provides a minimalistic set of instructions that can be extended with custom features. This makes RISC-V more efficient and flexible than the EVM's bespoke architecture. The RISC-V ISA's simplicity allows for optimized performance and ease of implementation, making it suitable for blockchain applications that require robust and adaptable computational capabilities.
 
 2. **Efficient Execution Environment**: CKB-VM offers an efficient execution environment due to its foundation on RISC-V. The reduced complexity of the RISC-V instruction set leads to lower overhead and faster execution of smart contracts. This efficiency is crucial for achieving high performance in blockchain operations, enabling faster transaction processing and reducing resource consumption.
 
-3. **Low-Level Nature and Flexibility**: The CKB-VM's low-level nature allows it to support all cryptographic primitives without relying on [precompiles](https://www.nervos.org/knowledge-base/what_are-precompiles_(explainCKBot)). Unlike the EVM, which requires precompiled contracts for certain cryptographic operations to optimize performance, CKB-VM can directly execute these operations thanks to its flexible architecture. Additionally, CKB-VM supports multiple programming languages, including C and Rust, allowing developers to choose the best tools for their needs.
+3. **Low-Level Nature and Flexibility**: The CKB-VM's low-level nature allows it to support all cryptographic primitives without relying on [precompiles](https://www.nervos.org/knowledge-base/what_are-precompiles). Unlike the EVM, which requires precompiled contracts for certain cryptographic operations to optimize performance, CKB-VM can directly execute these operations thanks to its flexible architecture. Additionally, CKB-VM supports multiple programming languages, including C and Rust, allowing developers to choose the best tools for their needs.
 
 
 ##### **Impact and Use Cases**
