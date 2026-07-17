@@ -13,7 +13,7 @@ PoS offers a greener, more efficient solution to the problem of achieving consen
 
 ## What is Slashing?
 
-Slashing is a term synonymous with penalty in the context of PoS blockchains. It entails punitive action taken against [validators](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators_(explainCKBot)) who act maliciously or negligently, jeopardizing the network's security. Historically, slashing has its roots in the early days of PoS implementations, serving as a deterrent against dishonest behavior among validators.
+Slashing is a term synonymous with penalty in the context of PoS blockchains. It entails punitive action taken against [validators](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators) who act maliciously or negligently, jeopardizing the network's security. Historically, slashing has its roots in the early days of PoS implementations, serving as a deterrent against dishonest behavior among validators.
 
 
 ## Purpose and Importance of Slashing
@@ -66,7 +66,7 @@ The discourse on social slashing pivots around the idea that validators should n
 
 The actual implementation of social slashing is a complex endeavor. Unlike traditional slashing, which is codified within the protocol, social slashing may require community coordination for enforcement. One proposed method is through a user-activated soft fork (UASF), where network participants collectively agree to enforce social slashing rules.
 
-The UASF approach entails a coordinated effort among network participants to agree on and enforce new social slashing rules without requiring a [hard fork](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork_(explainCKBot)) or protocol upgrade. This method underscores the decentralized ethos of blockchain networks, empowering the community to enforce social standards through collective action.
+The UASF approach entails a coordinated effort among network participants to agree on and enforce new social slashing rules without requiring a [hard fork](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork) or protocol upgrade. This method underscores the decentralized ethos of blockchain networks, empowering the community to enforce social standards through collective action.
 
 
 ### Challenges and Criticisms
