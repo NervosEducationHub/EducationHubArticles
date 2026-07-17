@@ -26,9 +26,9 @@ The vulnerability lies in how blockchains prove ownership. Nearly every major ch
 
 ## Why Does Q-Day Matter for Bitcoin?
 
-Q-Day matters for Bitcoin because Bitcoin’s transaction authorization depends on [secp256k1](https://www.nervos.org/knowledge-base/secp256k1_a_key%20algorithm_\(explainCKBot\)), the elliptic curve used by Bitcoin’s signature schemes.
+Q-Day matters for Bitcoin because Bitcoin’s transaction authorization depends on [secp256k1](https://www.nervos.org/knowledge-base/secp256k1_a_key%20algorithm), the elliptic curve used by Bitcoin’s signature schemes.
 
-Older Bitcoin outputs use [ECDSA](https://www.nervos.org/knowledge-base/understanding_ECDSA_\(explainCKBot\)) over secp256k1. Taproot uses [Schnorr](https://www.nervos.org/knowledge-base/schnorr_signatures_\(explainCKBot\)) signatures over secp256k1. These are different signature schemes, but both rely on the same underlying hardness of the elliptic-curve discrete logarithm.
+Older Bitcoin outputs use [ECDSA](https://www.nervos.org/knowledge-base/understanding_ECDSA) over secp256k1. Taproot uses [Schnorr](https://www.nervos.org/knowledge-base/schnorr_signatures) signatures over secp256k1. These are different signature schemes, but both rely on the same underlying hardness of the elliptic-curve discrete logarithm.
 
 Classical computers cannot solve that problem at Bitcoin’s key size in any practical amount of time, but a sufficiently powerful quantum computer could.
 
