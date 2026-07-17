@@ -125,7 +125,7 @@ However, unlike in Ethereum and other account-based blockchains, where tokens ar
 
 As opposed to existing inscription-based assets on Bitcoin, UDTs are programmable and don’t rely on centralized indexers, making them more decentralized. To understand them better, it’s worth looking at their containers, the CKB Cells.
 
-[Cells](https://docs.nervos.org/docs/tech-explanation/cell-model) contain three fields: data, type script, and lock script. The data field stores the balance of the UDT in the first 16 bytes; the type script defines the UDT's operational logic, effectively serving as a smart contract; and the lock script defines the asset’s ownership, ensuring only its owner can spend the UDT.
+[Cells](https://docs.nervos.org/docs/ckb-fundamentals/cell-model) contain three fields: data, type script, and lock script. The data field stores the balance of the UDT in the first 16 bytes; the type script defines the UDT's operational logic, effectively serving as a smart contract; and the lock script defines the asset’s ownership, ensuring only its owner can spend the UDT.
 
 ![alt_text](images/image12.png "image_tooltip")
 
