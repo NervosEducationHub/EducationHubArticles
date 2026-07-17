@@ -1,7 +1,7 @@
 ---
 title: 'What are Wrapped Tokens in Cryptocurrency?'
 coverImage: 'images/image1.png'
-category:
+category: Education
 subtitle: 'In the dizzying array of digital assets, a unique category known as "wrapped tokens" offers a solution to some of the most pressing challenges in the crypto space.'
 date: '2024-03-07T16:00:00.000Z'
 author: 

@@ -10,7 +10,7 @@ author:
 
 A long-range attack refers to an attempt to rewrite blockchain history by starting far back in the past, often close to the genesis block or an early checkpoint, and rebuilding an alternative version of the chain.
 
-For most users, blockchain history appears permanent. Transactions are confirmed, blocks accumulate, and after sufficient time has passed, people assume the past is settled. However, in some consensus systems, particularly [Proof-of-Stake](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)) (PoS), this assumption deserves closer examination.
+For most users, blockchain history appears permanent. Transactions are confirmed, blocks accumulate, and after sufficient time has passed, people assume the past is settled. However, in some consensus systems, particularly [Proof-of-Stake](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling) (PoS), this assumption deserves closer examination.
 
 
 
@@ -20,7 +20,7 @@ Blockchain history is the ordered sequence of blocks that records every accepted
 
 In reality, blockchain history is not enforced by cryptography alone. Cryptography ensures that blocks are linked and tamper-evident, but it does not decide which chain is correct when multiple valid chains exist. That decision is made by consensus rules. Blockchain history, therefore, is not just data—it is a social and economic agreement among network participants regarding which sequence of blocks counts as truth.
 
-Consensus mechanisms answer one fundamental question: “Who gets to decide the next block?” In Proof-of-Work (PoW) systems, such as Bitcoin, this decision is tied to computational effort. [Miners](https://www.nervos.org/knowledge-base/difference_between_miner_full_node_(explainCKBot)) compete to solve cryptographic puzzles, and the longest chain with the most accumulated work is accepted as valid. Rewriting history requires reproducing enormous amounts of work, which quickly becomes impractical as the number of blocks accumulates.
+Consensus mechanisms answer one fundamental question: “Who gets to decide the next block?” In Proof-of-Work (PoW) systems, such as Bitcoin, this decision is tied to computational effort. [Miners](https://www.nervos.org/knowledge-base/difference_between_miner_full_node) compete to solve cryptographic puzzles, and the longest chain with the most accumulated work is accepted as valid. Rewriting history requires reproducing enormous amounts of work, which quickly becomes impractical as the number of blocks accumulates.
 
 Proof-of-Stake systems replace computational work with economic stake. Validators are randomly selected to propose and attest to blocks based on the amount of cryptocurrency they lock up as collateral. This approach reduces energy consumption and improves efficiency, but it also alters the security model. Rather than physical costs such as electricity, security depends on economic incentives, penalties, and protocol rules.
 
@@ -46,7 +46,7 @@ In Proof-of-Stake, block production is based on stake ownership and cryptographi
 
 This creates a unique asymmetry. An attacker could collect old private keys from validators who are no longer active. These keys might be sold, leaked, or simply abandoned. Using them, the attacker can sign blocks as if they were legitimate validators at a previous point in time.
 
-Because there is no [mining difficulty](https://www.nervos.org/knowledge-base/cryptocurrency_mining_difficulty_(explainCKBot)) in Proof-of-Stake, an attacker can generate a long alternative chain very quickly. They can sign thousands of blocks in seconds. From the perspective of the protocol rules, this chain might look perfectly valid.
+Because there is no [mining difficulty](https://www.nervos.org/knowledge-base/cryptocurrency_mining_difficulty) in Proof-of-Stake, an attacker can generate a long alternative chain very quickly. They can sign thousands of blocks in seconds. From the perspective of the protocol rules, this chain might look perfectly valid.
 
 
 

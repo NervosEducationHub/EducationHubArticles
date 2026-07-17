@@ -1,7 +1,7 @@
 ---
 title: 'What are Blockchain Intents? A Complete Guide'
 coverImage: 'images/image1.png'
-category:
+category: Education
 subtitle: "Blockchain intents are poised to streamline transactions and enhance smart contract interactions, broadening the technology's usability and functionality."
 date: '2024-07-31 T20:00:00.000Z'
 author:

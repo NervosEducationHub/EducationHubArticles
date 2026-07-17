@@ -36,7 +36,7 @@ In the context of Bitcoin, a more suitable Layer 2 definition would be a protoco
 
 Insofar as what we have on mainnet today, most Bitcoin scaling projects besides the Lightning Network fail this test. They fall under other categories, like infrastructure (wBTC, tBTC, Babylon, etc.) and sidechains (Rootstock, Stacks, Liquid, Bob, BEVM, etc.). Sidechains are essentially sovereign blockchains that connect to Bitcoin via bridges or two-way pegs (in most cases, federated multi-sigs), allowing users to bridge their BTC to another smart contract-enabled or more performant environment. 
 
-To that point, even the term “[bridge](https://www.nervos.org/knowledge-base/what_are_blockchain_bridges_%28explainCKBot%29),” widely used by most cross-chain interoperability solutions today, is a misnomer. Bridges that literally transport native assets to other chains don’t actually exist. Instead, two-way pegs employ a burn or lock-mint operational logic where the BTC is locked inside a multi-sig on the Bitcoin network, and a corresponding synthetic asset is minted on the adjacent chain. 
+To that point, even the term “[bridge](https://www.nervos.org/knowledge-base/what_are_blockchain_bridges),” widely used by most cross-chain interoperability solutions today, is a misnomer. Bridges that literally transport native assets to other chains don’t actually exist. Instead, two-way pegs employ a burn or lock-mint operational logic where the BTC is locked inside a multi-sig on the Bitcoin network, and a corresponding synthetic asset is minted on the adjacent chain. 
 
 ![alt_text](images/bridge.png "image_tooltip")
 
@@ -125,7 +125,7 @@ However, unlike in Ethereum and other account-based blockchains, where tokens ar
 
 As opposed to existing inscription-based assets on Bitcoin, UDTs are programmable and don’t rely on centralized indexers, making them more decentralized. To understand them better, it’s worth looking at their containers, the CKB Cells.
 
-[Cells](https://docs.nervos.org/docs/tech-explanation/cell-model) contain three fields: data, type script, and lock script. The data field stores the balance of the UDT in the first 16 bytes; the type script defines the UDT's operational logic, effectively serving as a smart contract; and the lock script defines the asset’s ownership, ensuring only its owner can spend the UDT.
+[Cells](https://docs.nervos.org/docs/ckb-fundamentals/cell-model) contain three fields: data, type script, and lock script. The data field stores the balance of the UDT in the first 16 bytes; the type script defines the UDT's operational logic, effectively serving as a smart contract; and the lock script defines the asset’s ownership, ensuring only its owner can spend the UDT.
 
 ![alt_text](images/image12.png "image_tooltip")
 

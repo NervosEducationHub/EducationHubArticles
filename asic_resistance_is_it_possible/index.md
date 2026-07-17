@@ -9,7 +9,7 @@ author:
 
 
 
-ASIC-Resistance is a critical concept in blockchain technology that describes how a blockchain's mining algorithm can resist implementation of specialized hardware called [ASICs](https://en.wikipedia.org/wiki/Application-specific_integrated_circuit) (Application-Specific Integrated Circuits). These ASICs are specifically designed to perform a single task—mining cryptocurrency—and operate with efficiency levels that are orders of magnitude higher than general-purpose [crypto mining hardware](https://www.nervos.org/knowledge-base/crypto_mining_hardware_(explainCKBot)) like CPUs or GPUs.
+ASIC-Resistance is a critical concept in blockchain technology that describes how a blockchain's mining algorithm can resist implementation of specialized hardware called [ASICs](https://en.wikipedia.org/wiki/Application-specific_integrated_circuit) (Application-Specific Integrated Circuits). These ASICs are specifically designed to perform a single task—mining cryptocurrency—and operate with efficiency levels that are orders of magnitude higher than general-purpose [crypto mining hardware](https://www.nervos.org/knowledge-base/crypto_mining_hardware) like CPUs or GPUs.
 
 ## What is ASIC-Resistance?
 The concept of ASIC resistance emerged as a way to maintain a level playing field in mining, where smaller players with consumer-grade hardware could still participate and be rewarded for their contributions to the network. The theory was- by designing a mining algorithm that was difficult to implement in ASICs, the network would be made more decentralized and resistant to centralization by well capitalized, large miners.
@@ -27,7 +27,7 @@ Over time, developers realized that achieving true ASIC-resistance was a difficu
 
 The first Ethereum ASIC's took years to produce, but over time grew to comprise 50% of the hash rate of the network. After Ethereum's merge, these ASIC's had no choice but to move to another chain secured by Ethash, [Ethereum Classic](https://en.wikipedia.org/wiki/Ethereum_Classic). It is now unprofitable to mine Etheruem Classic with anything but an ASIC.
 
-To combat this, some blockchains have opted to [hard fork](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork_(explainCKBot)) their protocol in order to change the mining algorithm and render existing ASICs obsolete. This is often done in an effort to restore a level playing field and prevent a small group of miners from controlling the majority of the network's hash power. However, hard forking is not always an easy decision to make, as it can be disruptive to the network and its users, and may require significant effort to ensure a smooth transition.
+To combat this, some blockchains have opted to [hard fork](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork) their protocol in order to change the mining algorithm and render existing ASICs obsolete. This is often done in an effort to restore a level playing field and prevent a small group of miners from controlling the majority of the network's hash power. However, hard forking is not always an easy decision to make, as it can be disruptive to the network and its users, and may require significant effort to ensure a smooth transition.
 
 
 ## Conclusion

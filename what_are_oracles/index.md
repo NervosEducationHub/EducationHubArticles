@@ -1,7 +1,7 @@
 ---
 title: 'What are Blockchain Oracles? A Complete Guide'
 coverImage: 'images/image1.png'
-category:
+category: Education
 subtitle: 'In the fast-paced world of blockchain technology, oracles are a crucial yet often misunderstood component. Imagine a world where blockchain is a self-contained universe, brimming with potential yet blind to the happenings of the external world.'
 date: '2024-03-15T16:00:00.000Z'
 author: 

@@ -17,11 +17,11 @@ While many in the Bitcoin community brush off this issue as either already settl
 
 The Bitcoin blockchain represents a public database of transactions that is updated and replicated across a distributed network of computers called nodes. To achieve consensus on the ledger's true state, the network of nodes adheres to a set of rules or a protocol called [Proof-of-Work](https://www.nervos.org/knowledge-base/why_is_proof_of_work_required) (PoW). 
 
-In the PoW consensus mechanism, special types of nodes called [miners](https://www.nervos.org/knowledge-base/difference_between_miner_full_node_(explainCKBot)) are responsible for validating and recording transactions on the blockchain. Every ten minutes on average, miners "mine" a new block containing transactions that occurred since the last block. Each subsequent block is cryptographically linked with the previous parent block, forming a chain of blocks. The blockchain is said to be immutable because miners can't change a given block's data without re-mining all subsequent blocks up to the current tip of the chain, which would consume exponentially more mining power depending on the given block's depth. 
+In the PoW consensus mechanism, special types of nodes called [miners](https://www.nervos.org/knowledge-base/difference_between_miner_full_node) are responsible for validating and recording transactions on the blockchain. Every ten minutes on average, miners "mine" a new block containing transactions that occurred since the last block. Each subsequent block is cryptographically linked with the previous parent block, forming a chain of blocks. The blockchain is said to be immutable because miners can't change a given block's data without re-mining all subsequent blocks up to the current tip of the chain, which would consume exponentially more mining power depending on the given block's depth. 
 
 To that point, the transactions included in a block that gets added to the blockchain are considered “confirmed,” meaning the users can spend the bitcoins they received in those transactions. The more confirmations a transaction has—or the more blocks built on top of the block containing the transaction—the lesser the chance that the transaction gets tampered with. 
 
-To get the chance to update the blockchain with the latest block of transactions, miners race to complete a specific task that involves finding a valid hash output of the [SHA-256](https://www.nervos.org/knowledge-base/SHA256_most_used_hash_function_(explainCKBot)) cryptographic [hash function](https://www.nervos.org/knowledge-base/what_is_a_hash_function). 
+To get the chance to update the blockchain with the latest block of transactions, miners race to complete a specific task that involves finding a valid hash output of the [SHA-256](https://www.nervos.org/knowledge-base/SHA256_most_used_hash_function) cryptographic [hash function](https://www.nervos.org/knowledge-base/what_is_a_hash_function). 
 
 For the uninitiated, a [hash function](https://www.nervos.org/knowledge-base/what_is_a_hash_function) is a mathematical function that converts an arbitrary-length input into a deterministic, fixed-length output—a cryptographic fingerprint of the input. Hash functions are “one-way,” meaning the hash inputs cannot be reverse-engineered from the hash outputs. For any specific input, the resulting hash will always be the same and can be easily calculated and verified by anyone, using the same hash algorithm. 
 
@@ -41,7 +41,7 @@ In Bitcoin, finding a “valid hash” involves hashing the block’s header and
 
 To better illustrate how this works, let’s assume that miners need to hash the “I Love Nervos” phrase until they produce a hash that starts with one zero. By modifying the nonce (the number used as a random variable at the end of the phrase) by incrementing it by one, we can see that the phrase “I Love Nervos 16” produces a hash that starts with a zero: 0632ded6d4e4d0ee20f107eae3373d07d45d57a8a49d1b8668c38084880cb05e. 
 
-This means it took 16 attempts to find a valid hash. However, if the target were hypothetically set at four zeros, it would take us tens of thousands of attempts on average to find a suitable hash. At Bitcoin’s current [mining difficulty](https://www.nervos.org/knowledge-base/cryptocurrency_mining_difficulty_(explainCKBot)), miners must collectively try quintillions (a billion billion, or 10^18) of times before finding a nonce that results in a valid hash.
+This means it took 16 attempts to find a valid hash. However, if the target were hypothetically set at four zeros, it would take us tens of thousands of attempts on average to find a suitable hash. At Bitcoin’s current [mining difficulty](https://www.nervos.org/knowledge-base/cryptocurrency_mining_difficulty), miners must collectively try quintillions (a billion billion, or 10^18) of times before finding a nonce that results in a valid hash.
 
 ![alt_text](images/image6.png "image_tooltip")
  \
@@ -49,7 +49,7 @@ _A chart showing Bitcoin’s price (black line) and the mining difficulty (blue 
 
 The point here is that the only way for miners to find a valid hash and mine a block that gets accepted as valid by all other nodes in the network is to brute force the SHA-256 algorithm by iterating on as many nonces, as fast as possible.
 
-To do this, miners use specialized chips, called [ASICs](https://www.nervos.org/knowledge-base/crypto_mining_hardware_(explainCKBot)), that can calculate trillions of hashes per second but consume a lot of electricity. This is where this consensus algorithm’s name comes from—the only way to mine a valid block is by actually doing the work. Due to SHA-256’s deterministic nature, it’s impossible to produce a valid hash or forge the proof of work without expending the necessary computing power.
+To do this, miners use specialized chips, called [ASICs](https://www.nervos.org/knowledge-base/crypto_mining_hardware), that can calculate trillions of hashes per second but consume a lot of electricity. This is where this consensus algorithm’s name comes from—the only way to mine a valid block is by actually doing the work. Due to SHA-256’s deterministic nature, it’s impossible to produce a valid hash or forge the proof of work without expending the necessary computing power.
 
 
 ## Understanding Bitcoin’s Security Budget
@@ -66,7 +66,7 @@ Basic economic reasoning tells us that honest miners are willing to spend up to 
 _A technician inspecting the ASICs at a large-scale Bitcoin mining farm. (Photo: Lars Hagberg/AFP; Getty Images.)_ \
 
 
-This is one of the first myths we must dispel about Bitcoin’s security model. Bitcoin’s security budget is (determined by) the block reward, not the network’s total hash rate. A nominally high total hash rate doesn’t imply high security because the hash rate is influenced by improvements in the [mining hardware](https://www.nervos.org/knowledge-base/crypto_mining_hardware_(explainCKBot)) over time ([Moore’s law](https://en.wikipedia.org/wiki/Moore%27s_law)).
+This is one of the first myths we must dispel about Bitcoin’s security model. Bitcoin’s security budget is (determined by) the block reward, not the network’s total hash rate. A nominally high total hash rate doesn’t imply high security because the hash rate is influenced by improvements in the [mining hardware](https://www.nervos.org/knowledge-base/crypto_mining_hardware) over time ([Moore’s law](https://en.wikipedia.org/wiki/Moore%27s_law)).
 
 This means that as the efficiency of mining hardware improves, the costs to acquire a set amount of hashing power decrease. Suppose, for example, that Bitcoin’s total hash rate sat at around 500 terahashes per second (TH/S) year after year for five years, but the efficiency of the mining hardware improved by a factor of ten over the same period. Then, Bitcoin’s security hasn’t stayed the same but instead decreased by a factor of ten because it has become ten times cheaper for malicious actors to attack the network.
 
@@ -173,7 +173,7 @@ Bitcoin security is typically discussed in the context of 51% of attacks. This i
 
 Previously, we explained that miners validate transactions by checking them against a set of criteria, packing them into blocks, and then racing to find the proof of work or a hash that falls below the protocol’s threshold. When other nodes in the network receive the block, they check whether it contains the proof, and if it does, they accept it as valid and append it to their copy of the blockchain. 
 
-However, because mining is inherently a random process (a game of chances or trial and error), sometimes two miners can find a valid hash simultaneously. When this happens, other nodes in the network are forced to choose between two different (valid) blocks, A and B, at the same block height, referencing the same parent block, C, leading to a [fork](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork_(explainCKBot)) in the blockchain. Because there can only be one true canonical chain, the PoW consensus mechanism settles this issue by instituting the “longest chain rule.” 
+However, because mining is inherently a random process (a game of chances or trial and error), sometimes two miners can find a valid hash simultaneously. When this happens, other nodes in the network are forced to choose between two different (valid) blocks, A and B, at the same block height, referencing the same parent block, C, leading to a [fork](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork) in the blockchain. Because there can only be one true canonical chain, the PoW consensus mechanism settles this issue by instituting the “longest chain rule.” 
 
 The longest chain rule (also known as the “heaviest chain”) means that when nodes face a fork in the blockchain, they must always adopt the chain that took the most energy to build as the canonical chain and discard the competing blocks (orphaned blocks) as invalid. 
 

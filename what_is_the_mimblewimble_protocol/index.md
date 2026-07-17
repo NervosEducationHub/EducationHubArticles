@@ -20,7 +20,7 @@ Most traditional blockchains, including Bitcoin, struggle with two fundamental c
 
 By design, Bitcoin transactions are fully transparent. Every transfer—its sender, recipient, and amount—is permanently recorded on the blockchain. Although users are represented by pseudonymous addresses, advanced analytics tools can often link these to real-world identities. This transparency is valuable for public auditing but poses serious privacy risks for individuals and businesses alike.
 
-At the same time, Bitcoin’s blockchain continues to grow endlessly, as it must store every transaction ever made. [Full nodes](https://www.nervos.org/knowledge-base/difference_between_miner_full_node_(explainCKBot))—computers that maintain and validate the entire ledger—face ever-increasing data demands. Over time, this makes running a node costly and complex, undermining Bitcoin’s decentralized ethos.
+At the same time, Bitcoin’s blockchain continues to grow endlessly, as it must store every transaction ever made. [Full nodes](https://www.nervos.org/knowledge-base/difference_between_miner_full_node)—computers that maintain and validate the entire ledger—face ever-increasing data demands. Over time, this makes running a node costly and complex, undermining Bitcoin’s decentralized ethos.
 
 MimbleWimble emerged as an elegant response to both problems. It conceals transaction details while drastically compressing blockchain data, achieving privacy and scalability without compromising security.
 
@@ -42,7 +42,7 @@ Another important foundation of MimbleWimble is CoinJoin, a well-known privacy t
 
 **Cut-Through and Pruning**
 
-MimbleWimble introduces a technique called “cut-through”, which allows the blockchain to remove spent outputs without compromising security. If Alice sends coins to Bob, and Bob later spends them on Carol, there’s no need to keep the intermediate data about Bob’s ownership. MimbleWimble can safely “cut through” the middle, keeping only what’s necessary to verify the chain’s integrity. This drastically reduces the UTXO set or the blockchain [state](https://www.nervos.org/knowledge-base/state_and_state_change_(explainCKBot)) size.
+MimbleWimble introduces a technique called “cut-through”, which allows the blockchain to remove spent outputs without compromising security. If Alice sends coins to Bob, and Bob later spends them on Carol, there’s no need to keep the intermediate data about Bob’s ownership. MimbleWimble can safely “cut through” the middle, keeping only what’s necessary to verify the chain’s integrity. This drastically reduces the UTXO set or the blockchain [state](https://www.nervos.org/knowledge-base/state_and_state_change) size.
 
 By combining these techniques, MimbleWimble enables a blockchain to hide sensitive information, preserve verifiability, and keep the data footprint small.
 
@@ -64,7 +64,7 @@ Once the transaction is ready, it includes only three key elements:
 - The excess value (ensuring inputs equal outputs)
 - A signature verifying that Alice authorized the transfer
 
-When [miners](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators_(explainCKBot)) verify this transaction, they don’t need to know the amounts or addresses involved. They simply check that the algebra balances, meaning the sum of inputs equals the sum of outputs plus transaction fees.
+When [miners](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators) verify this transaction, they don’t need to know the amounts or addresses involved. They simply check that the algebra balances, meaning the sum of inputs equals the sum of outputs plus transaction fees.
 
 This elegant simplicity is what gives MimbleWimble its power. Transactions can be verified without revealing any private information.
 
@@ -76,7 +76,7 @@ MimbleWimble doesn’t bolt on privacy. It’s built into the protocol. Because 
 
 In many public blockchains, coins can be “tainted” by their history. A Bitcoin once used for illicit activity might be flagged or refused by exchanges. In MimbleWimble, such distinctions are meaningless because there is no visible history. Each coin is identical to every other coin. This property, called fungibility, is critical for sound money.
 
-Another standout feature is efficiency. By pruning unnecessary data through cut-through, MimbleWimble’s blockchain remains compact. Nodes don’t need to store or verify every intermediate transaction, which reduces disk space and synchronization time. The protocol can thus handle more users and transactions without [bloating the network](https://www.nervos.org/knowledge-base/state_bloat_blockchain_(explainCKBot)).
+Another standout feature is efficiency. By pruning unnecessary data through cut-through, MimbleWimble’s blockchain remains compact. Nodes don’t need to store or verify every intermediate transaction, which reduces disk space and synchronization time. The protocol can thus handle more users and transactions without [bloating the network](https://www.nervos.org/knowledge-base/state_bloat_blockchain).
 
 Despite its cryptographic sophistication, MimbleWimble’s overall design is surprisingly simple. It eliminates the scripting complexity of Bitcoin and focuses purely on secure, private value transfer. This simplicity reduces attack surfaces and makes auditing easier at the mathematical level.
 
@@ -94,7 +94,7 @@ Privacy protocols often face scrutiny from regulators concerned about money laun
 
 ## Real-World Implementations
 
-Launched in early 2019, Grin is the first full MimbleWimble blockchain. It embodies the spirit of decentralization: community-driven, open-source, and with no premine or company backing. Grin focuses on minimalism and scalability, using [proof-of-work](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)) mining similar to Bitcoin’s model. Its community prizes simplicity and purity of implementation over commercial features.
+Launched in early 2019, Grin is the first full MimbleWimble blockchain. It embodies the spirit of decentralization: community-driven, open-source, and with no premine or company backing. Grin focuses on minimalism and scalability, using [proof-of-work](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling) mining similar to Bitcoin’s model. Its community prizes simplicity and purity of implementation over commercial features.
 
 Shortly after Grin, Beam emerged with a more corporate approach. It uses the same MimbleWimble foundation but adds usability enhancements such as wallets with graphical interfaces, transaction confidentiality options, and even support for atomic swaps. Beam is funded and governed more like a startup, aiming to make privacy tech user-friendly.
 

@@ -57,7 +57,7 @@ In essence, PoW relies on computational power and competition among miners, whil
 
 Another stark difference between miners and validators lies in energy consumption. PoW mining is notoriously energy-intensive, while PoS validation is much more energy-efficient.
 
-The entry barrier to becoming a miner is high due to the need for powerful and expensive [mining hardware](https://www.nervos.org/knowledge-base/crypto_mining_hardware_(explainCKBot)). On the contrary, becoming a validator in a PoS system is somewhat easier, though it may require holding a significant amount of cryptocurrency.
+The entry barrier to becoming a miner is high due to the need for powerful and expensive [mining hardware](https://www.nervos.org/knowledge-base/crypto_mining_hardware). On the contrary, becoming a validator in a PoS system is somewhat easier, though it may require holding a significant amount of cryptocurrency.
 
 Both mechanisms offer robust security but through different means. PoW relies on the high cost of attacking the network, while PoS leverages the financial interest validators have in maintaining network integrity.
 

@@ -8,7 +8,7 @@ author:
 - github:explainCKBot
 ---
 
-An on-chain reputation system is a mechanism that derives trust signals directly from verifiable blockchain activity and uses those signals to evaluate the reliability, credibility, and contribution of a wallet, [decentralized identity](https://www.nervos.org/knowledge-base/decentralized_identifiers_DIDs_(explainCKBot)) (DID), or network participant. Instead of relying on user reviews, centralized ratings, or opaque moderation processes, these systems interpret cryptographic proofs of behavior that are permanently recorded on a public ledger.
+An on-chain reputation system is a mechanism that derives trust signals directly from verifiable blockchain activity and uses those signals to evaluate the reliability, credibility, and contribution of a wallet, [decentralized identity](https://www.nervos.org/knowledge-base/decentralized_identifiers_DIDs) (DID), or network participant. Instead of relying on user reviews, centralized ratings, or opaque moderation processes, these systems interpret cryptographic proofs of behavior that are permanently recorded on a public ledger.
 
 This transition from traditional reputation models to blockchain-based reputation systems represents more than a technical upgrade. It establishes a new trust paradigm in which reputation becomes transparent, portable, user-owned, and embedded into the infrastructure of decentralized networks, forming a foundational layer for decentralized finance (DeFi), DAOs, decentralized social networks and creator platforms.
 
@@ -34,7 +34,7 @@ The next stage is scoring logic and algorithms. These algorithms determine which
 
 Reputation can be expressed in multiple formats. Some systems, such as ReputeX, use numeric scores similar to credit ratings. Others issue non-transferable credentials, often referred to as Soulbound Tokens, that symbolize achievements, participation, or trust markers. For example, in [DegenScore](https://x.com/DegenScore), achieving a high score allows the user to mint a DegenScore Beacon, a non-transferable NFT on Ethereum, which provides access to special opportunities like early project access and allowlists.
 
-Smart contracts enable automated verification of reputation data, allowing any protocol to reference and apply it according to its own rules. Cross-chain bridges and interoperability layers allow reputation signals to travel across networks. Privacy-preserving technologies such as [zero-knowledge proofs](https://www.nervos.org/knowledge-base/zero_knowledge_proofs_(explainCKBot)) can confirm the presence of certain behaviors without revealing sensitive transactional details.
+Smart contracts enable automated verification of reputation data, allowing any protocol to reference and apply it according to its own rules. Cross-chain bridges and interoperability layers allow reputation signals to travel across networks. Privacy-preserving technologies such as [zero-knowledge proofs](https://www.nervos.org/knowledge-base/zero_knowledge_proofs) can confirm the presence of certain behaviors without revealing sensitive transactional details.
 
 Through this architecture, reputation becomes an open, programmable resource that exists as shared infrastructure rather than a platform-owned feature.
 

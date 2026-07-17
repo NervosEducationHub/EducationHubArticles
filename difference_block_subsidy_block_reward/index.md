@@ -13,7 +13,7 @@ Among the many terminologies and concepts inherent to this world, two terms that
 
 ## What are Block Rewards?
 
-At the heart of every cryptocurrency lies the blockchain, a decentralized ledger that records all transactions. Essential to the health and growth of this blockchain are [miners or validators](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators_(explainCKBot)), who verify and add new transactions to the ledger. As compensation for their efforts, they receive what is termed a "block reward."
+At the heart of every cryptocurrency lies the blockchain, a decentralized ledger that records all transactions. Essential to the health and growth of this blockchain are [miners or validators](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators), who verify and add new transactions to the ledger. As compensation for their efforts, they receive what is termed a "block reward."
 
 The block reward is multifaceted. It comprises two main components: a block subsidy and transaction fees. The block subsidy is a set amount of newly minted cryptocurrency coins given to miners/validators. It's a reward for their efforts and serves as a mechanism to introduce new coins into circulation. Additionally, transaction fees are amounts attached to each transaction, serving as a further incentive for miners and validators to add transactions to the blockchain.
 
@@ -24,7 +24,7 @@ While both components contribute to the overall block reward, it's the nuanced r
 
 The block subsidy is the primary component of the block reward and is often what most people refer to when discussing mining rewards.
 
-Defined, the block subsidy is the number of newly minted coins awarded to miners/validators for each block they produce. Its amount is predetermined by the cryptocurrency's source code and may undergo periodic changes, such as "halvings" in Bitcoin, or developer-driven [hard forks](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork_(explainCKBot)) in Ethereum. The coinbase transaction, a unique feature in every block, is the conduit through which the block subsidy is dispensed.
+Defined, the block subsidy is the number of newly minted coins awarded to miners/validators for each block they produce. Its amount is predetermined by the cryptocurrency's source code and may undergo periodic changes, such as "halvings" in Bitcoin, or developer-driven [hard forks](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork) in Ethereum. The coinbase transaction, a unique feature in every block, is the conduit through which the block subsidy is dispensed.
 
 The block subsidy is also a tool ensuring the controlled introduction of new coins, helping manage potential inflation and maintaining the cryptocurrency's value.
 

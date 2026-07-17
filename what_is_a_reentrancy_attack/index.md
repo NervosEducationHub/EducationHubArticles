@@ -10,7 +10,7 @@ author:
 
 A reentrancy attack happens when a hacker repeatedly calls a vulnerable function within a smart contract before the first execution is completed, allowing the hacker to drain funds or manipulate the contract’s state in unintended ways.
 
-Reentrancy attacks became world-famous after the DAO hack in 2016, which resulted in millions of dollars’ worth of ETH being stolen and ultimately led to a controversial [hard fork](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork_(explainCKBot)).
+Reentrancy attacks became world-famous after the DAO hack in 2016, which resulted in millions of dollars’ worth of ETH being stolen and ultimately led to a controversial [hard fork](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork).
 
 
 
@@ -72,7 +72,7 @@ The reason reentrancy attacks attract so much attention is simple: the losses th
 
 Nowadays, reentrancy attacks are still one of the top concerns for developers and auditors because they exploit the very nature of composable finance. In DeFi, protocols are built like interconnected Lego blocks. One contract might borrow from another, trade tokens on a third, and use a fourth to calculate prices. This composability fuels innovation, but it also creates shared risk. A single vulnerable contract can be called by countless others, turning one exploit into a contagion across the ecosystem.
 
-The rise of [cross-chain bridges](https://www.nervos.org/knowledge-base/what_are_blockchain_bridges_(explainCKBot)) introduces another dimension of complexity. Bridges connect different blockchains, allowing assets to move across networks. If one side of the bridge contains a reentrancy vulnerability, attackers could trigger recursive transactions that echo across chains, magnifying the damage.
+The rise of [cross-chain bridges](https://www.nervos.org/knowledge-base/what_are_blockchain_bridges) introduces another dimension of complexity. Bridges connect different blockchains, allowing assets to move across networks. If one side of the bridge contains a reentrancy vulnerability, attackers could trigger recursive transactions that echo across chains, magnifying the damage.
 
 Layer-2 solutions, which aim to increase transaction speed and reduce fees, also face similar risks. Their smart contracts often depend on main-chain interactions, and any mismatch in timing or sequencing can open the door to new exploits.
 

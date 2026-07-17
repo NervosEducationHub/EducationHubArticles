@@ -18,7 +18,7 @@ This is where gossip protocols come in. Instead of relying on a central distribu
 
 ## What Is a Gossip Protocol?
 
-A gossip protocol is a communication mechanism used in distributed systems to propagate information among [nodes](https://www.nervos.org/knowledge-base/difference_between_miner_full_node_(explainCKBot)) through repeated peer-to-peer exchanges. Instead of sending messages to every participant in a network simultaneously, each node shares information with a small, randomly selected group of peers. Those peers then repeat the process, spreading the message further until it eventually reaches most or all nodes in the system.
+A gossip protocol is a communication mechanism used in distributed systems to propagate information among [nodes](https://www.nervos.org/knowledge-base/difference_between_miner_full_node) through repeated peer-to-peer exchanges. Instead of sending messages to every participant in a network simultaneously, each node shares information with a small, randomly selected group of peers. Those peers then repeat the process, spreading the message further until it eventually reaches most or all nodes in the system.
 
 The design draws inspiration from the way rumors spread within social networks. When a person hears news, they rarely broadcast it to everyone they know at once. Instead, they tell a few friends, who then share it with others. The information spreads organically through the network, sometimes quickly, sometimes gradually, but eventually reaches a wide audience. Distributed computing systems adopt this same principle to distribute updates efficiently without requiring centralized coordination.
 
@@ -70,9 +70,9 @@ At its core, gossip remains the same: simple, decentralized message passing. But
 
 Despite their advantages, gossip protocols are not immune to security risks. Because they rely on decentralized peer communication, malicious actors may attempt to exploit the network by introducing false information or manipulating message propagation.
 
-One common threat is the [Sybil attack](https://www.nervos.org/knowledge-base/sybil_attacks_consensus_mechanisms_(explainCKBot)), in which an adversary creates a large number of fake nodes to influence network communication. If these nodes dominate a victim’s peer connections, they may disrupt the propagation of legitimate messages or spread misleading information.
+One common threat is the [Sybil attack](https://www.nervos.org/knowledge-base/sybil_attacks_consensus_mechanisms), in which an adversary creates a large number of fake nodes to influence network communication. If these nodes dominate a victim’s peer connections, they may disrupt the propagation of legitimate messages or spread misleading information.
 
-Another risk is the [eclipse attack](https://www.nervos.org/knowledge-base/what_is_an_eclipse_attack_(explainCKBot)). In this scenario, an attacker isolates a target node by controlling most of its peer connections. The attacker can then filter or delay messages, causing the victim node to operate with an incomplete or outdated view of the network.
+Another risk is the [eclipse attack](https://www.nervos.org/knowledge-base/what_is_an_eclipse_attack). In this scenario, an attacker isolates a target node by controlling most of its peer connections. The attacker can then filter or delay messages, causing the victim node to operate with an incomplete or outdated view of the network.
 
 Spam propagation is also a concern. Because gossip networks automatically spread messages among peers, malicious actors may attempt to flood the network with invalid transactions or excessive data. Without proper safeguards, such attacks could degrade network performance.
 

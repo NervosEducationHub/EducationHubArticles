@@ -13,12 +13,12 @@ An important concept within this technology is “block time”, which plays a v
 
 ## Understanding Block Time in Blockchain Networks
 
-Block time refers to the approximate duration required for a blockchain-based system to produce a new block. In certain ways, block time is a linchpin that holds various aspects of a blockchain network together. It significantly impacts [transaction confirmation](https://www.nervos.org/knowledge-base/transaction_confirmation_in_blockchain_(explainCKBot)) times, network security, throughput, mining rewards, and decentralization. The careful consideration of block time is crucial in designing blockchain networks as it balances between swift transaction confirmations and network security.
+Block time refers to the approximate duration required for a blockchain-based system to produce a new block. In certain ways, block time is a linchpin that holds various aspects of a blockchain network together. It significantly impacts [transaction confirmation](https://www.nervos.org/knowledge-base/transaction_confirmation_in_blockchain) times, network security, throughput, mining rewards, and decentralization. The careful consideration of block time is crucial in designing blockchain networks as it balances between swift transaction confirmations and network security.
 
 
 ## Key Factors That Influence Block Time
 
-Various factors, including network congestion and [mining difficulty](https://www.nervos.org/knowledge-base/cryptocurrency_mining_difficulty_(explainCKBot)), influence block time. For instance, with Proof-of-Work-based blockchains, block time is maintained close to a constant value by continually re-evaluating the mining difficulty. Network traffic, too, plays a significant role in determining the time taken to confirm transactions.
+Various factors, including network congestion and [mining difficulty](https://www.nervos.org/knowledge-base/cryptocurrency_mining_difficulty), influence block time. For instance, with Proof-of-Work-based blockchains, block time is maintained close to a constant value by continually re-evaluating the mining difficulty. Network traffic, too, plays a significant role in determining the time taken to confirm transactions.
 
 
 ## Comparing Block Times Across Different Blockchains
@@ -36,7 +36,7 @@ A comparative examination of block times across some of the largest blockchains 
 
 ## How Block Time Affects Blockchain Users and Developers
 
-Block time in blockchain networks significantly impacts both users and developers in a multitude of ways. For users, one of the most immediate implications of block time is transaction confirmation time. Block time essentially dictates the interval at which new blocks are added to the blockchain, and, consequently, when transactions get confirmed. A shorter block time usually translates to faster transaction confirmations, which can be critical for time-sensitive transactions. However, a notable downside to shorter block times is the potential for more frequent [block reorganizations](https://river.com/learn/terms/r/reorganization/), which can temporarily mislead users about the [state](https://www.nervos.org/knowledge-base/state_and_state_change_(explainCKBot)) of the blockchain.
+Block time in blockchain networks significantly impacts both users and developers in a multitude of ways. For users, one of the most immediate implications of block time is transaction confirmation time. Block time essentially dictates the interval at which new blocks are added to the blockchain, and, consequently, when transactions get confirmed. A shorter block time usually translates to faster transaction confirmations, which can be critical for time-sensitive transactions. However, a notable downside to shorter block times is the potential for more frequent [block reorganizations](https://river.com/learn/terms/r/reorganization/), which can temporarily mislead users about the [state](https://www.nervos.org/knowledge-base/state_and_state_change) of the blockchain.
 
 Furthermore, block time plays a crucial role in network security. A longer block time allows for more thorough validation processes, enhancing the network's security by reducing the likelihood of invalid transactions being included in a block. However, longer block times can also make the network less responsive to certain adversarial conditions since it takes longer to confirm and include transactions in the blockchain.
 

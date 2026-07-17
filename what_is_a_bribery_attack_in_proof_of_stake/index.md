@@ -8,7 +8,7 @@ author:
 - github:explainCKBot
 ---
 
-A bribery attack in [Proof-of-Stake](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)) (PoS) systems refers to an attempt where an attacker offers external incentives to [validators](https://www.nervos.org/knowledge-base/merkle_patricia_trie_(explainCKBot)) or block producers in order to influence their behavior. These incentives may take the form of direct payments, promises of future rewards, or conditional payouts enforced through smart contracts, all of which exist outside the protocol’s native reward mechanism.
+A bribery attack in [Proof-of-Stake](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling) (PoS) systems refers to an attempt where an attacker offers external incentives to [validators](https://www.nervos.org/knowledge-base/merkle_patricia_trie) or block producers in order to influence their behavior. These incentives may take the form of direct payments, promises of future rewards, or conditional payouts enforced through smart contracts, all of which exist outside the protocol’s native reward mechanism.
 
 Bribery attacks matter because they challenge a core assumption behind PoS that economic incentives align validator behavior with network security. If that alignment can be temporarily reversed through external payments, then the security model becomes more fragile than it appears on paper.
 
@@ -16,7 +16,7 @@ Bribery attacks matter because they challenge a core assumption behind PoS that 
 
 ## Understanding Proof-of-Stake
 
-PoS secures a blockchain by requiring validators to lock up a portion of the network’s native cryptocurrency as stake, which functions as both a participation requirement and a security bond. Validators who follow the consensus rules earn rewards through block production and transaction fees, while those who violate the protocol face penalties, often in the form of[ slashing](https://www.nervos.org/knowledge-base/slashing_in_PoS_(explainCKBot)), where part or all of the staked capital is forfeited. The underlying logic assumes that rational participants will favor predictable, long term rewards over risky actions that could permanently damage their own financial position.
+PoS secures a blockchain by requiring validators to lock up a portion of the network’s native cryptocurrency as stake, which functions as both a participation requirement and a security bond. Validators who follow the consensus rules earn rewards through block production and transaction fees, while those who violate the protocol face penalties, often in the form of [slashing](https://www.nervos.org/knowledge-base/slashing_in_PoS), where part or all of the staked capital is forfeited. The underlying logic assumes that rational participants will favor predictable, long term rewards over risky actions that could permanently damage their own financial position.
 
 In PoS systems, influence over consensus is proportional to stake rather than computational power, which naturally leads to a concentration of validators with significant holdings. Validator behavior is guided by cost benefit analysis, so any mechanism that alters perceived payoffs can affect security outcomes.
 
@@ -30,7 +30,7 @@ A bribery attack in PoS can be defined as an attempt to influence validator beha
 
 The defining characteristic of a bribery attack is its external nature. The inducement is not a block reward or transaction fee encoded in the consensus rules, but an off protocol payment designed to override the validator’s default strategy. This distinction makes bribery attacks difficult to detect, since the blockchain can only observe validator actions, not the underlying motivations or private agreements that influenced those actions.
 
-In practice, bribery attacks can target individual validators or coordinated groups. A single validator with a small stake may not be able to do much damage alone, yet coordinated bribery can scale. If enough validators accept the bribe, the attacker can influence [finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto_(explainCKBot)), cause temporary [forks](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork_(explainCKBot)), or undermine specific applications built on top of the blockchain.
+In practice, bribery attacks can target individual validators or coordinated groups. A single validator with a small stake may not be able to do much damage alone, yet coordinated bribery can scale. If enough validators accept the bribe, the attacker can influence [finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto), cause temporary [forks](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork), or undermine specific applications built on top of the blockchain.
 
 Importantly, bribery attacks do not always violate protocol rules directly. A validator may behave in a way that is technically allowed but socially undesirable. This gray area complicates mitigation strategies and forces protocol designers to consider not only what is forbidden, but also what is economically rational under adversarial conditions.
 
@@ -62,7 +62,7 @@ There is also a broader systemic risk to consider. If bribery becomes widespread
 
 Mitigating bribery attacks requires a layered approach that combines protocol design, economic incentives, and social norms. At the protocol level, robust slashing conditions increase the cost of deviation by ensuring that dishonest behavior results in losses that exceed any plausible external bribe. This principle underlies the emphasis modern Proof-of-Stake systems place on clearly defined penalties for equivocation and other consensus violations.
 
-Finality mechanisms also play a crucial role in mitigation. Faster and more irreversible finality reduces the time window during which bribery can influence outcomes, limiting opportunities for attackers to coordinate payments or profit from [chain reorganizations](https://www.nervos.org/knowledge-base/what_are_blockchain_reorgs_(explainCKBot)). In parallel, some designs seek to reduce the observability of individual validator actions through techniques such as aggregated signatures or randomized leader selection, thereby making targeted bribery more difficult.
+Finality mechanisms also play a crucial role in mitigation. Faster and more irreversible finality reduces the time window during which bribery can influence outcomes, limiting opportunities for attackers to coordinate payments or profit from [chain reorganizations](https://www.nervos.org/knowledge-base/what_are_blockchain_reorgs). In parallel, some designs seek to reduce the observability of individual validator actions through techniques such as aggregated signatures or randomized leader selection, thereby making targeted bribery more difficult.
 
 Beyond protocol mechanics, broader economic and social measures remain important. Incentivizing long term staking, strengthening validator reputation systems, and aligning rewards with sustained participation all help counteract short term bribery incentives.
 

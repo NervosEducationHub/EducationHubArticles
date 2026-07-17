@@ -15,7 +15,7 @@ Mining, in the cryptocurrency context, is the process by which new digital curre
 
 Cryptocurrency mining is a mechanism that forms the backbone of most blockchain networks. Miners are essential to the operation and security of these networks. They perform the computational work required to validate transactions and add them to the blockchain. In return for their efforts, miners are awarded new cryptocurrency tokens, a process known as [block rewards](https://www.investopedia.com/terms/b/block-reward.asp). 
 
-The work miners undertake is known as the [Proof of Work (PoW)](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)) consensus algorithm. This algorithm requires miners to solve complex mathematical puzzles to add a new block to the blockchain. The complexity of these puzzles depends on the number of miners participating in the network and the total computing power they collectively possess, known as the network's [hash rate](https://en.wikipedia.org/wiki/Hashrate).
+The work miners undertake is known as the [Proof of Work (PoW)](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling) consensus algorithm. This algorithm requires miners to solve complex mathematical puzzles to add a new block to the blockchain. The complexity of these puzzles depends on the number of miners participating in the network and the total computing power they collectively possess, known as the network's [hash rate](https://en.wikipedia.org/wiki/Hashrate).
 
 
 ## How Mining Difficulty Works?

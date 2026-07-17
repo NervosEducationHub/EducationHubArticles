@@ -16,7 +16,7 @@ Through this form of transaction mixing, CoinJoin weakens the ownership links th
 
 ## Bitcoin’s Transparency and Privacy Limitations
 
-Bitcoin was intentionally designed to prioritize transparency, verifiability, and decentralization. Every transaction is independently validated by network [nodes](https://www.nervos.org/knowledge-base/difference_between_miner_full_node_(explainCKBot)), and the entire transaction history remains publicly accessible. This open architecture ensures that no single authority controls the monetary system or alters past records, which is a foundational feature of Bitcoin’s trust model. However, the same transparency that secures the network also introduces structural privacy limitations.
+Bitcoin was intentionally designed to prioritize transparency, verifiability, and decentralization. Every transaction is independently validated by network [nodes](https://www.nervos.org/knowledge-base/difference_between_miner_full_node), and the entire transaction history remains publicly accessible. This open architecture ensures that no single authority controls the monetary system or alters past records, which is a foundational feature of Bitcoin’s trust model. However, the same transparency that secures the network also introduces structural privacy limitations.
 
 Bitcoin addresses function as pseudonyms rather than anonymous identities. Although addresses do not inherently contain personal information, repeated use and recognizable transaction patterns often reveal behavioral links. Once an address is associated with a real-world identity, whether through exchange withdrawals, merchant payments, or data leaks, related transaction activity becomes significantly easier to analyze and follow.
 

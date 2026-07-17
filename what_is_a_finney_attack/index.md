@@ -8,15 +8,15 @@ author:
 - github:explainCKBot
 ---
 
-A Finney attack is a specific type of [double-spending](https://en.wikipedia.org/wiki/Double-spending) attack that can occur in blockchain-based payment systems, particularly those relying on [Proof-of-Work](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)) (PoW) consensus mechanisms. In simple terms, a Finney attack exploits the time gap between when a transaction is broadcast to the network and when it is confirmed in a block, allowing an attacker who controls mining power to spend the same coins twice under carefully prepared conditions.
+A Finney attack is a specific type of [double-spending](https://en.wikipedia.org/wiki/Double-spending) attack that can occur in blockchain-based payment systems, particularly those relying on [Proof-of-Work](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling) (PoW) consensus mechanisms. In simple terms, a Finney attack exploits the time gap between when a transaction is broadcast to the network and when it is confirmed in a block, allowing an attacker who controls mining power to spend the same coins twice under carefully prepared conditions.
 
-The concept was first described by [Hal Finney](https://en.wikipedia.org/wiki/Hal_Finney_(computer_scientist)), one of Bitcoin’s earliest developers and contributors, which is why the attack bears his name. It represents an important theoretical and practical lesson in understanding blockchain security, [transaction finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto_(explainCKBot)), and the assumptions that underpin trust in decentralized systems.
+The concept was first described by [Hal Finney](https://en.wikipedia.org/wiki/Hal_Finney_(computer_scientist)), one of Bitcoin’s earliest developers and contributors, which is why the attack bears his name. It represents an important theoretical and practical lesson in understanding blockchain security, [transaction finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto), and the assumptions that underpin trust in decentralized systems.
 
 
 
 ## Understanding Double-Spending in Blockchain Networks
 
-Double-spending refers to the risk that a crypto token might be spent more than once. Traditional financial systems prevent this through centralized ledgers maintained by banks or payment processors. Blockchain systems solve this problem through distributed consensus, in which a network of independent [nodes](https://www.nervos.org/knowledge-base/difference_between_miner_full_node_(explainCKBot)) agrees on a shared transaction history.
+Double-spending refers to the risk that a crypto token might be spent more than once. Traditional financial systems prevent this through centralized ledgers maintained by banks or payment processors. Blockchain systems solve this problem through distributed consensus, in which a network of independent [nodes](https://www.nervos.org/knowledge-base/difference_between_miner_full_node) agrees on a shared transaction history.
 
 In PoW blockchains like Bitcoin, transactions are grouped into blocks, and miners compete to add these blocks to the chain by solving cryptographic puzzles. Once a transaction is included in a block and that block becomes part of the longest valid chain, the transaction is considered confirmed. Each additional block built on top of it increases confidence that the transaction will not be reversed. This mechanism is effective, but it is not instantaneous. Between the moment a transaction is broadcast and the moment it is confirmed, there is a window of uncertainty.
 
@@ -48,7 +48,7 @@ Another critical condition is the victim's acceptance of zero-confirmation trans
 
 Network latency and propagation also matter. The attacker’s private block must not be overtaken by another block mined by the honest network before it is released. If another miner finds a block first, the attacker’s private block may become stale or orphaned, rendering the attack useless and costly.
 
-Finally, the value of the goods or services must justify the cost and risk of the attack. Mining a block consumes electricity and [hardware resources](https://www.nervos.org/knowledge-base/crypto_mining_hardware_(explainCKBot)). If the reward from the double-spend is lower than the expected mining reward or the opportunity cost, rational attackers are unlikely to attempt it. These economic constraints are a core reason PoW systems remain secure despite known theoretical attacks.
+Finally, the value of the goods or services must justify the cost and risk of the attack. Mining a block consumes electricity and [hardware resources](https://www.nervos.org/knowledge-base/crypto_mining_hardware). If the reward from the double-spend is lower than the expected mining reward or the opportunity cost, rational attackers are unlikely to attempt it. These economic constraints are a core reason PoW systems remain secure despite known theoretical attacks.
 
 
 

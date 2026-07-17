@@ -80,7 +80,7 @@ Nevertheless, these limitations should be evaluated in the broader context of ev
 
 Hash-based cryptography is especially relevant in environments where digital data must remain verifiable for extremely long periods. One of the most prominent examples of such environments is blockchain technology.
 
-Blockchains maintain permanent records of transactions, and the digital signatures attached to those transactions remain publicly visible indefinitely. If quantum computers were eventually able to break classical signature algorithms such as [ECDSA](https://www.nervos.org/knowledge-base/understanding_ECDSA_(explainCKBot)), attackers could potentially forge historical signatures or compromise funds associated with exposed public keys.
+Blockchains maintain permanent records of transactions, and the digital signatures attached to those transactions remain publicly visible indefinitely. If quantum computers were eventually able to break classical signature algorithms such as [ECDSA](https://www.nervos.org/knowledge-base/understanding_ECDSA), attackers could potentially forge historical signatures or compromise funds associated with exposed public keys.
 
 Because hash-based signature schemes do not depend on number-theoretic assumptions vulnerable to Shor’s algorithm, they provide an appealing alternative for blockchain systems seeking quantum-resistant cryptography. Their security rests on the robustness of hash functions rather than mathematical problems that quantum computers are specifically designed to solve.
 

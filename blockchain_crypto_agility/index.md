@@ -20,7 +20,7 @@ author:
 
 Blockchains are often described as trustless systems, but that trustlessness rests on a very specific kind of trust: trust in cryptography.
 
-Every cryptocurrency wallet and transaction ultimately depends on the assumption that certain mathematical problems are infeasible to solve. For most major blockchains today, that means relying on public-key cryptography, especially [elliptic-curve cryptography](https://www.nervos.org/knowledge-base/understanding_ECDSA_(explainCKBot)), to prove that the person authorizing a transaction actually controls the corresponding private key.
+Every cryptocurrency wallet and transaction ultimately depends on the assumption that certain mathematical problems are infeasible to solve. For most major blockchains today, that means relying on public-key cryptography, especially [elliptic-curve cryptography](https://www.nervos.org/knowledge-base/understanding_ECDSA), to prove that the person authorizing a transaction actually controls the corresponding private key.
 
 That assumption, which has held for decades, is now being threatened by a new kind of machine: the [quantum computer](https://en.wikipedia.org/wiki/Quantum_computing).
 
@@ -48,7 +48,7 @@ A blockchain is not—or at least is not supposed to be—a product controlled b
 
 Changing the cryptography of a blockchain is therefore not as simple as a Web2 software upgrade, but instead a contentious technical and socio-economic event affecting the entire network and ecosystem.
 
-When a signature scheme is baked into consensus, replacing it means changing the rules every [full node](https://www.nervos.org/knowledge-base/difference_between_miner_full_node_(explainCKBot)) uses to recognize a valid transaction. For most blockchains, this requires a protocol-level intervention that the entire ecosystem must coordinate around—wallets, exchanges, custodians, hardware devices, infrastructure providers, developers, and users alike.
+When a signature scheme is baked into consensus, replacing it means changing the rules every [full node](https://www.nervos.org/knowledge-base/difference_between_miner_full_node) uses to recognize a valid transaction. For most blockchains, this requires a protocol-level intervention that the entire ecosystem must coordinate around—wallets, exchanges, custodians, hardware devices, infrastructure providers, developers, and users alike.
 
 That might be tolerable if cryptographic assumptions were permanent, but they are not.
 
@@ -68,13 +68,13 @@ In most blockchains, signature schemes are not merely wallet-side preferences or
 
 Bitcoin illustrates the problem clearly.
 
-When a user makes a normal [P2PKH](https://www.nervos.org/zh/knowledge-base/bitcoin_legacy_vs_segwit_vs_taproot_addresses_(explainCKBot)) transaction, their wallet spends one or more [UTXOs](https://www.nervos.org/knowledge-base/utxo_model_explained) by providing two pieces of unlocking data: a public key and a [digital signature](https://www.nervos.org/knowledge-base/What_is_a_digital_signature_%20in_Blockchain_(explainCKBot)) produced with the corresponding private key. The transaction is then broadcast to the Bitcoin peer-to-peer network, where each node that receives it validates it before accepting it into its mempool or relaying it further.
+When a user makes a normal [P2PKH](https://www.nervos.org/zh/knowledge-base/bitcoin_legacy_vs_segwit_vs_taproot_addresses) transaction, their wallet spends one or more [UTXOs](https://www.nervos.org/knowledge-base/utxo_model_explained) by providing two pieces of unlocking data: a public key and a [digital signature](https://www.nervos.org/knowledge-base/What_is_a_digital_signature_%20in_Blockchain) produced with the corresponding private key. The transaction is then broadcast to the Bitcoin peer-to-peer network, where each node that receives it validates it before accepting it into its mempool or relaying it further.
 
 “Valid” here means several things: the referenced UTXO must exist and remain unspent, the transaction must not create more bitcoin than it spends, and each input must satisfy the spending conditions of the output it is trying to spend. In a P2PKH transaction, that ultimately comes down to one key question: was this transaction signed by the private key that controls the UTXO?
 
-Bitcoin answers that question through [Script](https://www.nervos.org/knowledge-base/bitcoin_script_(explainCKBot)), a simple stack-based language used to define and evaluate spending conditions. Script is made up of opcodes: operations already defined by the Bitcoin protocol that every validating node executes deterministically during transaction validation.
+Bitcoin answers that question through [Script](https://www.nervos.org/knowledge-base/bitcoin_script), a simple stack-based language used to define and evaluate spending conditions. Script is made up of opcodes: operations already defined by the Bitcoin protocol that every validating node executes deterministically during transaction validation.
 
-In a P2PKH spend, the previous output contains a locking script that commits to a public-key hash and ends with OP_CHECKSIG, the opcode responsible for signature verification. To spend it, the transaction provides a signature and public key. Bitcoin Script checks that the public key matches the hash committed in the UTXO, then uses OP_CHECKSIG to verify that the signature is valid for the transaction under that public key. In traditional P2PKH, that means checking the signature against Bitcoin’s native ECDSA/[secp256k1](https://www.nervos.org/knowledge-base/secp256k1_a_key%20algorithm_(explainCKBot)) rules.
+In a P2PKH spend, the previous output contains a locking script that commits to a public-key hash and ends with OP_CHECKSIG, the opcode responsible for signature verification. To spend it, the transaction provides a signature and public key. Bitcoin Script checks that the public key matches the hash committed in the UTXO, then uses OP_CHECKSIG to verify that the signature is valid for the transaction under that public key. In traditional P2PKH, that means checking the signature against Bitcoin’s native ECDSA/[secp256k1](https://www.nervos.org/knowledge-base/secp256k1_a_key%20algorithm) rules.
 
 This is the essence of Bitcoin’s cryptographic rigidity: the user’s wallet creates the signature, but the protocol defines which signatures the network recognizes as valid. A signature produced with another scheme—BLS, SPHINCS+, ML-DSA, or anything else—would not satisfy the existing P2PKH rules, causing the network to reject the transaction.
 

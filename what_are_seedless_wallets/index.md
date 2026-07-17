@@ -46,7 +46,7 @@ In short, the defining feature of seedless wallets is not the absence of cryptog
 
 ## The Core Technologies Behind Seedless Wallets
 
-Seedless wallets rely on several advanced cryptographic and architectural ideas. One of the most important is key splitting, often implemented using techniques such as multi-party computation (MPC). Instead of creating one private key, the [MPC wallet](https://www.nervos.org/knowledge-base/understanding_mpc_wallets_(explainCKBot)) generates multiple key shares. Each share alone is useless. Only when enough shares come together can a transaction be signed.
+Seedless wallets rely on several advanced cryptographic and architectural ideas. One of the most important is key splitting, often implemented using techniques such as multi-party computation (MPC). Instead of creating one private key, the [MPC wallet](https://www.nervos.org/knowledge-base/understanding_mpc_wallets) generates multiple key shares. Each share alone is useless. Only when enough shares come together can a transaction be signed.
 
 These key shares might be distributed across a user’s phone, a cloud service, and a recovery provider. When a transaction requires a signature, these shares cooperate to produce a valid signature without revealing the whole key. Even if one share is compromised, it cannot be used alone to steal funds. This approach significantly reduces the risk associated with key exposure.
 

@@ -28,7 +28,7 @@ This straightforward question cuts right through the heart of the issue. If only
 
 Nakamoto Coefficient identifies the minimum number of entities required to control a blockchain network. 
 
-This threshold varies depending on the consensus mechanism. For [Proof-of-Work](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)) blockchains like Bitcoin, the critical threshold is typically 51% of the network's hashing power, as this would enable [double-spending attacks](https://www.nervos.org/knowledge-base/what_is_51_attack) and allow manipulation of the transaction history. 
+This threshold varies depending on the consensus mechanism. For [Proof-of-Work](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling) blockchains like Bitcoin, the critical threshold is typically 51% of the network's hashing power, as this would enable [double-spending attacks](https://www.nervos.org/knowledge-base/what_is_51_attack) and allow manipulation of the transaction history. 
 
 For Proof-of-Stake chains like Ethereum, the threshold may be lower (e.g., 33%, since 33% of stake can block consensus in some protocols and cause significant disruption). But in practice, many analyses still use 50% as a conventional threshold for simplicity.
 

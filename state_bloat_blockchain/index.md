@@ -13,14 +13,14 @@ This phenomenon, while not immediately apparent, can have significant implicatio
 
 ## Understanding State in Blockchain
 
-To understand state bloat, one must first understand the concept of [state](https://www.nervos.org/knowledge-base/state_and_state_change_%28explainCKBot%29) in a blockchain context. In blockchains, state represents the current information of all accounts, including their balance, contract code, and storage. Each transaction in the blockchain alters the state in some way, such as changing the balance of two accounts, when a cryptocurrency transaction occurs.
+To understand state bloat, one must first understand the concept of [state](https://www.nervos.org/knowledge-base/state_and_state_change) in a blockchain context. In blockchains, state represents the current information of all accounts, including their balance, contract code, and storage. Each transaction in the blockchain alters the state in some way, such as changing the balance of two accounts, when a cryptocurrency transaction occurs.
 
 The state is stored in each full node of the blockchain network, allowing them to validate new transactions and blocks. This distributed storage of state is a key factor in the decentralization and security of blockchain networks.
 
 
 ## What is State Bloat?
 
-Full nodes are like the diligent librarians of the blockchain world. They need two things: a history book (historical data) when getting in sync with the blockchain for the first time, and a real-time news feed (global state) to check the validity of new blocks and make new [state changes](https://www.nervos.org/knowledge-base/state_and_state_change_%28explainCKBot%29).
+Full nodes are like the diligent librarians of the blockchain world. They need two things: a history book (historical data) when getting in sync with the blockchain for the first time, and a real-time news feed (global state) to check the validity of new blocks and make new [state changes](https://www.nervos.org/knowledge-base/state_and_state_change).
 
 But as the blockchain grows, it's like the library's shelves are getting more and more packed. Reading from and writing to these packed shelves (the state) becomes a slower and more expensive task. And if the library's shelves are full, the full nodes have to start storing books in the basement (external disk space storage).
 
@@ -37,7 +37,7 @@ Addressing state bloat is a complex challenge that requires careful design and e
 
 Another approach is to use stateless clients, which do not store the entire state but instead rely on other nodes to provide the necessary data when validating transactions. This can significantly reduce the resources required to run a light node but doesn’t really change anything for running full nodes, which is more relevant for decentralization.
 
-Finally, [sharding](https://www.nervos.org/knowledge-base/What_is_sharding_in_blockchain_(explainCKBot))—dividing the state into smaller, more manageable pieces—can also help mitigate state bloat. In theory, each shard would have a smaller state, making it easier to store and process, but this method is yet to be battle-tested on a larger scale in practice. 
+Finally, [sharding](https://www.nervos.org/knowledge-base/What_is_sharding_in_blockchain)—dividing the state into smaller, more manageable pieces—can also help mitigate state bloat. In theory, each shard would have a smaller state, making it easier to store and process, but this method is yet to be battle-tested on a larger scale in practice. 
 
 
 ## Nervos Network's Innovative Solution to State Bloat

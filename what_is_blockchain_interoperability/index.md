@@ -33,7 +33,7 @@ Lastly, blockchain interoperability can enhance the overall user experience by s
 
 There are several approaches and technologies being developed to facilitate blockchain interoperability. Some of the most notable solutions include
 
-* **[Cross-Chain Bridges](https://www.nervos.org/knowledge-base/what_are_blockchain_bridges_(explainCKBot))**: These are specialized smart contracts or protocols that facilitate the transfer of assets and information between different blockchains. Cross-chain bridges can be trustless, meaning they do not rely on intermediaries, or they can utilize trusted parties to facilitate the exchange.
+* **[Cross-Chain Bridges](https://www.nervos.org/knowledge-base/what_are_blockchain_bridges)**: These are specialized smart contracts or protocols that facilitate the transfer of assets and information between different blockchains. Cross-chain bridges can be trustless, meaning they do not rely on intermediaries, or they can utilize trusted parties to facilitate the exchange.
 * **Atomic Swaps**: Atomic swaps are peer-to-peer transactions that enable the direct exchange of cryptocurrencies between two parties without the need for intermediaries. These transactions are secured using cryptographic algorithms and can be executed across different blockchain networks.
 * **Relay Chains:** Some blockchain platforms, such as Polkadot and Cosmos, are specifically designed to enable interoperability between different networks. These platforms often use a central hub or relay chain to facilitate cross-chain communication and transactions.
 

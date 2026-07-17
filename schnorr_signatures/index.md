@@ -20,7 +20,7 @@ Schnorr signatures epitomize properties of non-malleability and provable securit
 
 ## Advantages of Schnorr Signatures
 
-A comparative lens reveals the advantages of Schnorr signatures over other prevalent digital signature schemes, notably the [Elliptic Curve Digital Signature Algorithm (ECDSA)](https://www.nervos.org/knowledge-base/understanding_ECDSA_(explainCKBot)). Schnorr signatures deliver exceptional efficiency and enhanced privacy while maintaining all security features of ECDSA. They produce smaller signatures, verify faster, and offer improved resistance against specific attack vectors.
+A comparative lens reveals the advantages of Schnorr signatures over other prevalent digital signature schemes, notably the [Elliptic Curve Digital Signature Algorithm (ECDSA)](https://www.nervos.org/knowledge-base/understanding_ECDSA). Schnorr signatures deliver exceptional efficiency and enhanced privacy while maintaining all security features of ECDSA. They produce smaller signatures, verify faster, and offer improved resistance against specific attack vectors.
 
 The most notable advantage of Schnorr signatures is key aggregation—enabling multiple separate signatures to be combined into a single signature that validates the sum of all keys. This means collaborating parties can collectively produce one signature that remains valid for their combined public keys.
 

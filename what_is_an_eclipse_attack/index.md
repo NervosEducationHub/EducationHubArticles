@@ -8,7 +8,7 @@ author:
 - github:explainCKBot
 ---
 
-A blockchain network is a distributed system of [nodes](https://www.nervos.org/knowledge-base/difference_between_miner_full_node_(explainCKBot))—computers connected via the internet—that communicate with each other to share information about transactions and blocks. This peer-to-peer (P2P) design is often praised for making blockchains resilient against censorship and attacks, but no system is entirely immune to threats.
+A blockchain network is a distributed system of [nodes](https://www.nervos.org/knowledge-base/difference_between_miner_full_node)—computers connected via the internet—that communicate with each other to share information about transactions and blocks. This peer-to-peer (P2P) design is often praised for making blockchains resilient against censorship and attacks, but no system is entirely immune to threats.
 
 One such threat is known as an eclipse attack. This attack doesn’t target wallets directly or exploit a weakness in cryptography. Instead, it lurks quietly in the P2P network, isolating a single node from the honest network and feeding it misinformation. This subtle yet powerful disruption can cascade into broader systemic risks, from double-spending to censorship.
 
@@ -24,15 +24,15 @@ An eclipse attack is a network-level attack in which a malicious actor monopoliz
 
 ### **Eclipse Attacks vs. 51% Attacks**
 
-A [51% attack](https://www.nervos.org/knowledge-base/what_is_51_attack) requires controlling more than 50% of the hash rate—the computational power used by miners to solve the cryptographic puzzle— in [proof-of-work](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)) blockchains, whereas an eclipse attack only requires controlling the victim’s connections. This makes eclipse attacks more resource-efficient and potentially easier for smaller attackers.
+A [51% attack](https://www.nervos.org/knowledge-base/what_is_51_attack) requires controlling more than 50% of the hash rate—the computational power used by miners to solve the cryptographic puzzle— in [proof-of-work](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling) blockchains, whereas an eclipse attack only requires controlling the victim’s connections. This makes eclipse attacks more resource-efficient and potentially easier for smaller attackers.
 
 ### **Eclipse Attacks vs. Sybil Attacks**
 
-A [Sybil attack](https://www.nervos.org/knowledge-base/sybil_attacks_consensus_mechanisms_(explainCKBot)) is about creating many fake identities to overwhelm the network. Eclipse attacks often use Sybil-like strategies (deploying many fake nodes), but the ultimate goal is targeted isolation rather than global influence. It’s more surgical than systemic.
+A [Sybil attack](https://www.nervos.org/knowledge-base/sybil_attacks_consensus_mechanisms) is about creating many fake identities to overwhelm the network. Eclipse attacks often use Sybil-like strategies (deploying many fake nodes), but the ultimate goal is targeted isolation rather than global influence. It’s more surgical than systemic.
 
 ### **Eclipse Attacks vs. Partition Attacks**
 
-A blockchain partition attack usually divides a blockchain network into two or more separate components, preventing communication and leading to inconsistencies, double-spending, and[ forks](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork_(explainCKBot)) in the blockchain ledger. Eclipse attacks are like sniper shots at individuals, often used as stepping stones toward larger exploits.
+A blockchain partition attack usually divides a blockchain network into two or more separate components, preventing communication and leading to inconsistencies, double-spending, and[ forks](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork) in the blockchain ledger. Eclipse attacks are like sniper shots at individuals, often used as stepping stones toward larger exploits.
 
 
 

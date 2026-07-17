@@ -10,7 +10,7 @@ author:
 
 Traditional cryptocurrency wallets often rely on a single private key, creating a vulnerability where exposure of this key can result in the loss of an entire digital fortune. To address this security risk, a new type of wallets has emerged: Multi-Party Computation (MPC) wallets.
 
-An MPC wallet replaces the notion of one key guarding an account with a distributed process in which several parties collaborate to manage cryptographic signatures securely. Nowadays, financial institutions, exchanges, and custodians are increasingly adopting MPC solutions for safer asset management, while individual users are exploring MPC wallets as an alternative to traditional hardware or [multisignature wallets](https://www.nervos.org/knowledge-base/what_is_a_multisig_wallet_(explainCKBot)).
+An MPC wallet replaces the notion of one key guarding an account with a distributed process in which several parties collaborate to manage cryptographic signatures securely. Nowadays, financial institutions, exchanges, and custodians are increasingly adopting MPC solutions for safer asset management, while individual users are exploring MPC wallets as an alternative to traditional hardware or [multisignature wallets](https://www.nervos.org/knowledge-base/what_is_a_multisig_wallet).
 
 
 

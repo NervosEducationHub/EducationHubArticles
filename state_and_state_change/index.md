@@ -43,7 +43,7 @@ A crucial tool in representing the state is a [Merkle Tree](https://en.wikipedia
 
 ### Challenges and Solutions in State Management
 
-State management in blockchains isn't without challenges. As the blockchain grows, so does its state, leading to scalability issues. Storing and managing this ever-expanding state can become a bottleneck, especially because nodes need to store and update this data continually. This problem is often called [state bloat](https://www.nervos.org/knowledge-base/state_bloat_blockchain_(explainCKBot)) or state explosion.
+State management in blockchains isn't without challenges. As the blockchain grows, so does its state, leading to scalability issues. Storing and managing this ever-expanding state can become a bottleneck, especially because nodes need to store and update this data continually. This problem is often called [state bloat](https://www.nervos.org/knowledge-base/state_bloat_blockchain) or state explosion.
 
 While several theoretical solutions target the state explosion problem in blockchains, including state pruning, state rent and off-chain state management, all but the last have yet to see successful application in practice. One of the few Layer 1 blockchains that have directly addressed state bloat is [Nervos Network](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain)’s Common Knowledge Base (CKB). 
 

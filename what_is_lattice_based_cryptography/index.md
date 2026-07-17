@@ -66,7 +66,7 @@ In addition, lattice operations align well with parallel processing and modern C
 
 The NIST post-quantum cryptography initiative began in 2016 and culminated in the selection of several lattice-based standards following extensive evaluation. [ML-KEM](https://nvlpubs.nist.gov/nistpubs/fips/nist.fips.203.pdf) (Module-Lattice-Based Key-Encapsulation Mechanism), derived from [Kyber](https://en.wikipedia.org/wiki/Kyber), was selected for key encapsulation and encryption. ML-DSA (Module-Lattice-Based Digital Signature Algorithm), derived from Dilithium, and [Falcon](https://en.wikipedia.org/wiki/Falcon_(signature_scheme)) were selected for digital signatures. These standards formalize lattice cryptography for global deployment.
 
-Alternative approaches, such as hash-based schemes like[ SPHINCS+](https://en.wikipedia.org/wiki/SPHINCS%2B) and code-based cryptography, remain valuable options. However, lattice-based systems frequently offer a more balanced combination of performance, flexibility, and broad applicability across cryptographic tasks.
+Alternative approaches, such as hash-based schemes like [SPHINCS+](https://en.wikipedia.org/wiki/SPHINCS%2B) and code-based cryptography, remain valuable options. However, lattice-based systems frequently offer a more balanced combination of performance, flexibility, and broad applicability across cryptographic tasks.
 
 
 

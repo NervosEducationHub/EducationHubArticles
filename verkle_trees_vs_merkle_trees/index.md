@@ -8,7 +8,7 @@ author:
 - github:explainCKBot
 ---
 
-Every blockchain confronts the same core constraint: how to prove that data exists and is valid without requiring every participant to store the full [state](https://www.nervos.org/knowledge-base/state_and_state_change_(explainCKBot)).
+Every blockchain confronts the same core constraint: how to prove that data exists and is valid without requiring every participant to store the full [state](https://www.nervos.org/knowledge-base/state_and_state_change).
 
 For years, Merkle trees have served as the canonical solution. By structuring data into hash-based trees, nodes can verify inclusion and correctness using compact proofs rather than downloading entire datasets.
 
@@ -32,9 +32,9 @@ Merkle trees play a crucial role in blockchain verification because they allow n
 
 A useful analogy is a large library catalog system. Instead of searching every shelf to confirm that a particular book exists, someone could follow a chain of references that leads directly to the book's location. Similarly, Merkle trees allow a node to verify a specific transaction by checking only a small portion of the tree rather than the entire dataset.
 
-The data required for this verification is called a Merkle proof, which includes the hashes needed to reconstruct the path from a specific transaction to the Merkle root. Because the proof only contains a small number of hashes, it dramatically reduces the amount of data that must be transmitted across the network. This design enables [lightweight clients](https://www.nervos.org/knowledge-base/ultimate_guide_to_light_clients) or [Simplified Payment Verification](https://www.nervos.org/knowledge-base/what_is_SPV_(explainCKBot)) (SPV) nodes to operate with minimal storage, which is why Merkle trees are widely used across blockchain systems. 
+The data required for this verification is called a Merkle proof, which includes the hashes needed to reconstruct the path from a specific transaction to the Merkle root. Because the proof only contains a small number of hashes, it dramatically reduces the amount of data that must be transmitted across the network. This design enables [lightweight clients](https://www.nervos.org/knowledge-base/ultimate_guide_to_light_clients) or [Simplified Payment Verification](https://www.nervos.org/knowledge-base/what_is_SPV) (SPV) nodes to operate with minimal storage, which is why Merkle trees are widely used across blockchain systems. 
 
-For example, Bitcoin uses Merkle trees to organize transactions inside each block, allowing nodes to verify transactions efficiently without storing the entire transaction history. Meanwhile, Ethereum uses a more advanced structure known as a [Merkle Patricia Trie](https://www.nervos.org/knowledge-base/merkle_patricia_trie_(explainCKBot)) to store account balances, smart contract storage, and transaction receipts, ensuring that the global state of the network remains verifiable by all nodes.
+For example, Bitcoin uses Merkle trees to organize transactions inside each block, allowing nodes to verify transactions efficiently without storing the entire transaction history. Meanwhile, Ethereum uses a more advanced structure known as a [Merkle Patricia Trie](https://www.nervos.org/knowledge-base/merkle_patricia_trie) to store account balances, smart contract storage, and transaction receipts, ensuring that the global state of the network remains verifiable by all nodes.
 
 ### The Limitations of Merkle Proofs
 

@@ -12,7 +12,7 @@ Introduced by [Bitcoin Improvement Proposal (BIP) 174](https://github.com/bitcoi
 
 ## What is BIP 174 (Bitcoin Improvement Proposal 174)?
 
-BIP 174 was developed to address the complexities and security issues involved in Bitcoin transactions, especially in scenarios requiring multiple signatures or collaborative inputs. By separating the roles of transaction creation and signing, PSBT ensures that private keys can remain offline, significantly enhancing security for [cold storage solutions](https://www.nervos.org/knowledge-base/what_is_a_cold_wallet_(explainCKBot)) and hardware wallets.
+BIP 174 was developed to address the complexities and security issues involved in Bitcoin transactions, especially in scenarios requiring multiple signatures or collaborative inputs. By separating the roles of transaction creation and signing, PSBT ensures that private keys can remain offline, significantly enhancing security for [cold storage solutions](https://www.nervos.org/knowledge-base/what_is_a_cold_wallet) and hardware wallets.
 
 The PSBT format includes several key elements. First, it introduces a standardized way to communicate unsigned or partially signed transactions, making it easier for different parties to contribute to a transaction without compromising security. For example, a PSBT can be created with all necessary transaction details, such as inputs and outputs, but without any signatures. This unsigned transaction can be shared with other parties or devices responsible for adding their signatures.
 
@@ -23,7 +23,7 @@ The process involves multiple roles: the creator, the updater, and the signer. T
 
 To understand how a PSBT works, it’s best to use a practical example, like one that demonstrates how multiple parties can collaboratively create, sign, and broadcast a Bitcoin transaction without ever exposing their private keys.
 
-Let’s assume that Alice, Bob, and Charlie have decided to create a [multi-signature wallet](https://www.nervos.org/knowledge-base/what_is_a_multisig_wallet_(explainCKBot)) with a 2-of-3 signing requirement. This means that at least two of them must approve any spending transaction from their shared wallet. 
+Let’s assume that Alice, Bob, and Charlie have decided to create a [multi-signature wallet](https://www.nervos.org/knowledge-base/what_is_a_multisig_wallet) with a 2-of-3 signing requirement. This means that at least two of them must approve any spending transaction from their shared wallet. 
 
 Alice needs to send 1 BTC from her multi-sig wallet to a vendor. She starts by using her Bitcoin wallet to create the transaction. She selects the UTXOs from her multi-sig wallet that will be used as inputs for the transaction and specifies the vendor’s Bitcoin address as the output, with the amount set to 1 BTC.
 

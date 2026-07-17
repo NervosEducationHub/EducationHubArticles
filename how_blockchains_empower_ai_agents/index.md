@@ -46,7 +46,7 @@ While this arrangement functions adequately for limited automation, it becomes i
 
 ## Blockchains as Permissionless Financial Infrastructure
 
-Blockchains solve this problem by removing the requirement for centralized permission in financial participation. At their core, blockchain networks are distributed systems that allow participants to maintain a shared ledger of transactions without relying on a central authority. Transactions are validated by [network participants](https://www.nervos.org/knowledge-base/difference_between_miner_full_node_(explainCKBot)) through [consensus mechanisms](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)) rather than by banks or payment processors.
+Blockchains solve this problem by removing the requirement for centralized permission in financial participation. At their core, blockchain networks are distributed systems that allow participants to maintain a shared ledger of transactions without relying on a central authority. Transactions are validated by [network participants](https://www.nervos.org/knowledge-base/difference_between_miner_full_node) through [consensus mechanisms](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling) rather than by banks or payment processors.
 
 Because of this design, blockchains operate under a fundamentally different access model. Participation in a blockchain network does not require identity verification, government documentation, or approval from an intermediary. Instead, access is granted through cryptographic keys.
 

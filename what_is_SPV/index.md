@@ -14,7 +14,7 @@ In the blockchain world, Simplified Payment Verification (SPV) is a transaction 
 
 Blockchain technology is, at its core, a decentralized ledger that records transactions across a network of computers. To maintain the integrity of this ledger, each node in the network must verify each transaction before it is added to the blockchain. Typical transaction verification is done by full nodes—computers that download and maintain a complete copy of the blockchain. However, this process may be resource-intensive, requiring significant storage, processing power, and bandwidth.
 
-Running a [full node](https://www.nervos.org/knowledge-base/difference_between_miner_full_node_(explainCKBot)) is impractical for many users, especially those with limited resources. This is where Simplified Payment Verification (SPV) comes into play. SPV offers a lightweight alternative to full nodes, allowing users to verify transactions without downloading the entire blockchain. This method conserves resources and makes blockchain technology more accessible to a wider audience, while still preserving the critical values of decentralization and self-sovereignty.
+Running a [full node](https://www.nervos.org/knowledge-base/difference_between_miner_full_node) is impractical for many users, especially those with limited resources. This is where Simplified Payment Verification (SPV) comes into play. SPV offers a lightweight alternative to full nodes, allowing users to verify transactions without downloading the entire blockchain. This method conserves resources and makes blockchain technology more accessible to a wider audience, while still preserving the critical values of decentralization and self-sovereignty.
 
 
 ## What is Simplified Payment Verification (SPV)?
