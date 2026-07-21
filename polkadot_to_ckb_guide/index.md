@@ -4,6 +4,8 @@ coverImage: 'images/cover.png'
 category: Developer
 subtitle: 'What breaks, what transfers, and what you have to unlearn when crossing from Polkadot into the cell model.'
 date: '2026-07-16T00:00:00.000Z'
+author: 
+- github:CECILIA-MULANDI
 ---
 
 The first thing CKB asks you to do is construct a transaction by hand.
