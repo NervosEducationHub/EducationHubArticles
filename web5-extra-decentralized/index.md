@@ -1,7 +1,7 @@
 ---
 title: 'Web5: Extra Decentralized'
 coverImage: 'images/image0.png'
-category: Bitcoin
+category: Popular
 subtitle: Reclaiming the foundation of Satoshi's peer-to-peer network of value.
 date: '2025-01-13T16:00:00.000Z'
 ---

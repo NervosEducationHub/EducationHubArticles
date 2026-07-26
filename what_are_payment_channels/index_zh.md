@@ -1,7 +1,7 @@
 ---
 title: '什么是支付通道？'
 coverImage: 'images/image1.png'
-category: popular
+category: Scaling
 
 date: '2023-05-25T16:00:00.000Z'
 ---

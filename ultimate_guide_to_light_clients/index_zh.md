@@ -1,7 +1,7 @@
 ---
 title: '区块链轻客户端终极指南'
 coverImage: 'images/cover.png'
-category: Popular
+category: Light Client, Node
 subtitle: '轻客户端为用户提供了一种信任最小化的方式，使其能够轻松便捷地访问区块链，而无需依赖第三方。'
 date: '2023-10-02T16:00:00.000Z'
 ---

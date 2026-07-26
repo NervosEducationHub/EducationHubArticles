@@ -1,7 +1,7 @@
 ---
 title: 'Web5：更加去中心化'
 coverImage: 'images/image0.png'
-category: Bitcoin
+category: Popular
 subtitle: 重拾中本聪 P2P 价值网络的基础。
 date: '2025-01-13T16:00:00.000Z'
 ---

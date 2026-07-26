@@ -1,7 +1,7 @@
 ---
 title: 'Blockchain Trilemma: The Ultimate Guide'
 coverImage: 'images/image4.png'
-category: popular, modular, Nervos, Blockchain, Scaling
+category: Modular, Nervos, Blockchain, Scaling
 
 date: '2023-04-09T16:00:00.000Z'
 ---
@@ -52,7 +52,7 @@ To scale sensibly, blockchains must balance several factors, including security,
 
 Off-chain scaling means moving some transactions off the main blockchain to secondary layers or [sidechains](https://www.nervos.org/knowledge-base/sidechains_unlocking_the_potential). Examples of off-chain scaling solutions include Layer 2 networks like state channels and rollups, and sidechains with their own consensus mechanism and security properties. Off-chain scaling can significantly improve transaction throughput but may introduce additional complexity and potential security risks to the system.
 
-Another less popular scaling solution is [sharding](https://www.nervos.org/knowledge-base/What_is_sharding_in_blockchain_%28explainCKBot%29), which involves splitting the blockchain into smaller, parallel chains called shards. Each shard processes a subset of the total transactions, thus increasing overall throughput. Sharding can be complex to implement and may introduce new attack vectors.
+Another less popular scaling solution is [sharding](https://www.nervos.org/knowledge-base/What_is_sharding_in_blockchain), which involves splitting the blockchain into smaller, parallel chains called shards. Each shard processes a subset of the total transactions, thus increasing overall throughput. Sharding can be complex to implement and may introduce new attack vectors.
 
 
 ## Finding Solutions to the Blockchain Trilemma

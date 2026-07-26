@@ -8,7 +8,7 @@ date: '2024-06-11T16:00:00.000Z'
 
 Time and time again, when developers building on account-based blockchains hit a roadblock, they’re forced to reckon with fundamental architectural choices underpinning these systems—only to find solutions to their problems already exist in the parallel universe of [UTXO](https://www.nervos.org/knowledge-base/utxo_vs_account_based) blockchains.
 
-The latest in a series of such rediscoveries is the concept of “[intents](https://www.nervos.org/knowledge-base/what_are_blockchain_intents_%28explainCKBot%29),” which, in simple terms, are a special type of instruction that allows users to directly express a deterministic outcome for their transaction.
+The latest in a series of such rediscoveries is the concept of “[intents](https://www.nervos.org/knowledge-base/what_are_blockchain_intents),” which, in simple terms, are a special type of instruction that allows users to directly express a deterministic outcome for their transaction.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Many intent-centric protocols today emerge from Ethereum (on chain execution) ecosystem. Thus, things like off-chain state transition generation + on-chain verification seem like novel ideas.<br><br>But those who come from UTXO world know that this is how things began, and extended…</p>&mdash; Tak Boglantane (@TannrAllard) <a href="https://twitter.com/TannrAllard/status/1775728744453357778?ref_src=twsrc%5Etfw">April 4, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 While Bitcoin already functions this way, the typical peer-to-contract transaction today only allows for specifying the _inputs_ to a transaction, while the _outcome_ is impossible to control. This is referred to as an “imperative” programming paradigm, in which a user specifies exactly the steps the virtual machine must take but can not control the outcome of the transaction. 
@@ -36,7 +36,7 @@ However, smart contracts complicate things. The outcomes of peer-to-contract int
 
 Any user of a web3-style decentralized finance application understands what this means. The moment a token swap transaction on an AMM-based DEX is signed, it’s sent out there—into the ether—a user powerless over its destiny. 
 
-Until [confirmation](https://www.nervos.org/knowledge-base/transaction_confirmation_in_blockchain_(explainCKBot)), a user can only pray for a desired outcome: a successful swap of one amount of token for another, or the dreaded red text of “Failed” and the ensuing frustration of a lost fee and the need to make another transaction.
+Until [confirmation](https://www.nervos.org/knowledge-base/transaction_confirmation_in_blockchain), a user can only pray for a desired outcome: a successful swap of one amount of token for another, or the dreaded red text of “Failed” and the ensuing frustration of a lost fee and the need to make another transaction.
 
 
 ## Explained Through An Analogy
@@ -64,7 +64,7 @@ Whereas in the standard transaction-based imperative paradigm, transaction signa
 
 ## Intents in Account-Based Blockchains
 
-Using Ethereum as an example of an account-based blockchain, the most apparent and immediate channel for intents to find their way into the hands of willing middlemen for inclusion on the blockchain would be the Ethereum [mempool](https://www.nervos.org/knowledge-base/mempool_in_cryptocurrency_(explainCKBot)), a database of published but unconfirmed transactions independently maintained by each node. 
+Using Ethereum as an example of an account-based blockchain, the most apparent and immediate channel for intents to find their way into the hands of willing middlemen for inclusion on the blockchain would be the Ethereum [mempool](https://www.nervos.org/knowledge-base/mempool_in_cryptocurrency), a database of published but unconfirmed transactions independently maintained by each node. 
 
 However, the Ethereum mempool doesn’t support the propagation of intents; it only supports transactions, which the network then attempts to execute prima facie.
 
@@ -124,7 +124,7 @@ Namely, the inventor of [Ordinal Theory](https://docs.ordinals.com/), Casey Roda
 
 The quotes are signed messages (essentially “intents”) gossiped between other light pool nodes. When market takers want to accept a market maker's quote, they use the information in the message to construct a partially signed Bitcoin transaction ([PSBT](https://river.com/learn/what-are-partially-signed-bitcoin-transactions-psbts/#:~:text=A%20Partially%20Signed%20Bitcoin%20Transaction%20(PSBT)%20is%20a%20Bitcoin%20standard,easily%20sign%20the%20same%20transaction.)) that includes their signature and broadcast it to the light pool network. When the maker receives the PSBT, they counter-sign it and broadcast the final transaction to the Bitcoin network to be mined.
 
-In this scenario, the quote messages express the users' desire for a specific outcome, e.g., "I want to sell this rare sat for 0.001 BTC." The intent is then sent to a network of nodes that effectively act as their own solvers, accumulating their own order books. Once the [PSBT](https://www.nervos.org/knowledge-base/what_is_a_partially_signed_bitcoin_transacion_%28explainCKBot%29) is counter-signed and broadcasted to the Bitcoin network, its fate is sealed, i.e., the outcome is determined. 
+In this scenario, the quote messages express the users' desire for a specific outcome, e.g., "I want to sell this rare sat for 0.001 BTC." The intent is then sent to a network of nodes that effectively act as their own solvers, accumulating their own order books. Once the [PSBT](https://www.nervos.org/knowledge-base/what_is_a_partially_signed_bitcoin_transacion) is counter-signed and broadcasted to the Bitcoin network, its fate is sealed, i.e., the outcome is determined. 
 
 This is because a Bitcoin transaction, or for that matter, a transaction on any UTXO-based chain, is nothing more than two lists of state changes and authorization information. Once it's mined, it can't revert or fail, as the network doesn't compute implicit instructions to arrive at an explicit state like imperative blockchains do, but merely verifies an explicit transaction to arrive at an implicit state.
 

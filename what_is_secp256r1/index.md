@@ -1,7 +1,7 @@
 ---
 title: 'What is Secp256r1?'
 coverImage: 'images/image1.png'
-category: Popular
+category: Cryptography
 subtitle: 'Secp256r1, also known as "P-256" is a common elliptic curve used in the cryptographic domain of digital signatures and key exchange and seeing growing adoption in the blockchain industry. '
 date: '2023-12-10T16:00:00.000Z'
 author: 

@@ -43,13 +43,13 @@ The chart illustrates the steady and predictable increase in the value of iCKB r
 
 The iCKB protocol brings several important advantages to the Nervos ecosystem and its users:
 
-1. **Liquidity without Sacrificing Yield: **iCKB removes the biggest barrier to DAO participation: the 30-day lock-up period. Users can now deposit their CKB and still have a liquid, tradable asset. This unlocks a host of possibilities, from instant conversions to integrating iCKB into lending protocols or liquidity pools.
+1. **Liquidity without Sacrificing Yield:** iCKB removes the biggest barrier to DAO participation: the 30-day lock-up period. Users can now deposit their CKB and still have a liquid, tradable asset. This unlocks a host of possibilities, from instant conversions to integrating iCKB into lending protocols or liquidity pools.
 
-2. **Compounding with Value Preservation: **As time goes on, the value of iCKB increases due to the accumulation of DAO rewards. This is similar in structure to Compound’s cTokens or Lido’s stETH meaning users benefit from compounding while staying flexible.
+2. **Compounding with Value Preservation:** As time goes on, the value of iCKB increases due to the accumulation of DAO rewards. This is similar in structure to Compound’s cTokens or Lido’s stETH meaning users benefit from compounding while staying flexible.
 
-3. **DeFi Integration and Composability: **Since iCKB is built as an [xUDT](https://blog.cryptape.com/enhance-sudts-programmability-with-xudt) (extended user-defined token) on CKB, it is fully compatible with the existing token standards and infrastructure. This means it can be used in smart contracts, traded on decentralized exchanges, and integrated into multi-asset protocols like Bitcoin-backed DeFi (BTCFi) or RGB++ applications.
+3. **DeFi Integration and Composability:** Since iCKB is built as an [xUDT](https://blog.cryptape.com/enhance-sudts-programmability-with-xudt) (extended user-defined token) on CKB, it is fully compatible with the existing token standards and infrastructure. This means it can be used in smart contracts, traded on decentralized exchanges, and integrated into multi-asset protocols like Bitcoin-backed DeFi (BTCFi) or RGB++ applications.
 
-4. **Transparency and Non-Custodial Design: **All iCKB operations deposits, redemptions, and interest calculations are handled on-chain via smart contracts. The system is fully decentralized, audited by Scalebit, and does not rely on any centralized custody solutions.
+4. **Transparency and Non-Custodial Design:** All iCKB operations deposits, redemptions, and interest calculations are handled on-chain via smart contracts. The system is fully decentralized, audited by Scalebit, and does not rely on any centralized custody solutions.
 
 ## Technical Structure and Tokenomics
 
