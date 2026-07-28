@@ -319,7 +319,6 @@ These choices are mostly invisible to users, but their benefits become increasin
 The table below summarizes the main architectural differences discussed throughout the article.
 
 
-
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-size: 0.9em; border: 1px solid #ddd;">
   <thead>
     <tr>
