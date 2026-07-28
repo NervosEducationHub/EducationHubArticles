@@ -316,16 +316,16 @@ These choices are mostly invisible to users, but their benefits become increasin
 
 ## Lightning and Fiber at a Glance
 
-> The table below summarizes the main architectural differences discussed throughout the article.
+The table below summarizes the main architectural differences discussed throughout the article.
 
 
 
 <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-size: 0.9em; border: 1px solid #ddd;">
   <thead>
     <tr>
-      <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2; text-align: left;">Feature / Architecture</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2; text-align: left;">Lightning Network on Bitcoin</th>
-      <th style="border: 1px solid #000; padding: 8px; background-color: #f2f2f2; text-align: left;">Fiber Network on CKB</th>
+      <th style="border: 1px solid #000; padding: 8px; text-align: left;">Feature / Architecture</th>
+      <th style="border: 1px solid #000; padding: 8px; text-align: left;">Lightning Network on Bitcoin</th>
+      <th style="border: 1px solid #000; padding: 8px; text-align: left;">Fiber Network on CKB</th>
     </tr>
   </thead>
   <tbody>
