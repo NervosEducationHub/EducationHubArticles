@@ -1,5 +1,5 @@
 ---
-title: 'What Is Fiber? A Complete Guide to a Next-Gen Payments Network'
+title: 'What Is Fiber? A Complete Guide to the Next-Gen Payment Network'
 coverImage: 'images/image1.png'
 category: Popular 
 subtitle: "Fiber is building an open, peer-to-peer payment network for the digital economy. It moves payments offchain so value can flow at internet speed, while keeping the network open for anyone to join, build on, and help grow."
