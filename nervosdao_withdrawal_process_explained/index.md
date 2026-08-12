@@ -1,7 +1,7 @@
 ---
 title: 'Nervos DAO — Withdrawal Process Explained'
 coverImage: 'images/image1.png'
-category: popular, guide, nervosdao, wallet
+category: Guide, Nervos DAO, Wallet
 date: '2023-06-12T16:00:00.000Z'
 author: 
   - github:alejandroRbit
