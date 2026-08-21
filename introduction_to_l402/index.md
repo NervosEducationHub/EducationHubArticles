@@ -58,6 +58,8 @@ With the payment complete, the client retries the original HTTP request. This ti
 
 The server then performs a cryptographic verification. It checks that the preimage matches the hash embedded in the invoice and confirms that the macaroon’s conditions are satisfied. If everything is valid, the server processes the request and returns the requested data or service response.
 
+Learn more about the x402 protocol: [What is the x402 Protocol?](https://www.nervos.org/knowledge-base/what_is_the_x402_protocol)
+
 
 
 ## L402 vs. x402: Comparing Payment Protocols for AI Services
