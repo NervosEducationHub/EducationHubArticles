@@ -128,8 +128,7 @@ A hub operator runs both a Fiber node and an LND node, maintains payment channel
 
 Conceptually, a Fiber-to-Lightning payment looks like this:
 
-**Fiber                                                 CCH                                                    Lightning**  
-**Alice ── token payment ─────► ● ───── BTC payment ─────► Bob**
+![](images/image2.png "a_fiber_to_lightning_payment")
 
 The hub sits between two separate payment networks. Alice pays the hub on Fiber, while the hub pays Bob using its own liquidity on Lightning.
 
