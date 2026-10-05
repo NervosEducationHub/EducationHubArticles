@@ -80,7 +80,7 @@ No importa cual sea el valor asignado a λ, siempre y cuando se pierdan CKBytes 
 
 ![alt_text](images/image8.png 'image_tooltip')
 
-Es cierto que a medida que la tecnología blockchain continúa desarrollándose y los estándares mejoran cada día más, es posible que disminuya significativamente la tasa de pérdidas de claves privadas a lo largo del tiempo. Entre esos desarrollos podemos destacar los esquemas multifirma, la recuperación social, el interruptor del hombre muerto, y muchos otros desarrollos posibles gracias a la [abstracción de cuenta](https://www.nervos.org/knowledge-base/account_abstraction_where_were_going). Asimismo, el desarrollo de buenas prácticas y la educación de los usuarios en el manejo de sus llaves privadas disminuye la tasa de pérdidas.
+Es cierto que a medida que la tecnología blockchain continúa desarrollándose y los estándares mejoran cada día más, es posible que disminuya significativamente la tasa de pérdidas de claves privadas a lo largo del tiempo. Entre esos desarrollos podemos destacar los esquemas multifirma, la recuperación social, el interruptor del hombre muerto, y muchos otros desarrollos posibles gracias a la [abstracción de cuenta](https://www.nervos.org/knowledge-base/account_abstraction_where_we_are_going). Asimismo, el desarrollo de buenas prácticas y la educación de los usuarios en el manejo de sus llaves privadas disminuye la tasa de pérdidas.
 
 Sin embargo, parece poco probable que en un futuro cercano estos avances logren detener por completo la pérdida de monedas, y como resultado, sus efectos seguirán manifestándose de una u otra forma en las curvas de emisión de monedas como CKB.
 
