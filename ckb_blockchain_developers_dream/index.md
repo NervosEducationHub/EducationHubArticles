@@ -48,7 +48,7 @@ The best current examples of decentralized applications leveraging the unmatched
 
 ## .Bit
 
-One of the most innovative applications built on CKB is the [.bit](https://did.id) protocol, which showcases the true potential of CKB's flexibility and compatibility across chains. .bit is a cross-chain Web3 digital identity protocol that enables users to map human-readable names, like "Nervos.bit," to machine-readable identifiers such as blockchain addresses.
+One of the most innovative applications built on CKB is the [.bit](https://d.id) protocol, which showcases the true potential of CKB's flexibility and compatibility across chains. .bit is a cross-chain Web3 digital identity protocol that enables users to map human-readable names, like "Nervos.bit," to machine-readable identifiers such as blockchain addresses.
 
 What sets .bit apart from other digital identity protocols like Ethereum's ENS (Ethereum Name Service) is its broad compatibility. While ENS only supports Ethereum addresses, .bit allows users to register and manage their accounts using (theoretically) any public chain address or even email. This means that users can create and manage .bit accounts with their Dogecoin, Bitcoin, or any other public chain addresses and seamlessly use them across multiple chains. Beyond managing digital identities, .bit users can also store a wide range of information in their .bit accounts, including PGP public keys, Magnet URL schemes, smart contract addresses, software MD5 hashes, and personal introductions. 
 
