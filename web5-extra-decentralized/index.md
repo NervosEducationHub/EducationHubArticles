@@ -100,7 +100,7 @@ Beyond the trust and security issues, horizontal scaling (i.e., branching out, o
 
 ![alt_text](images/image2.png "image_tooltip")
 
-*The top two Layer 2 chains, Arbitrum and Base, have a total TVL ($32.12B) that exceeds the combined TVL of the remaining 18 chains ($11.43B). (Source: [L2Beat.com](L2Beat.com))*
+*The top two Layer 2 chains, Arbitrum and Base, have a total TVL ($32.12B) that exceeds the combined TVL of the remaining 18 chains ($11.43B). (Source: [L2Beat.com](https://l2beat.com))*
 
 Liquidity attracts traders, trading volume attracts liquidity, and both combined attract dApp builders. The liquidity fragmentation issue makes Layer 2 chains a heavy subject of network effects, where those that reach escape velocity first keep growing at the expense of others, leading to a form of centralization or consolidation of liquidity and user activity among a few winners.
 
