@@ -67,7 +67,7 @@ Layer 3 networks, also known as application-specific blockchains, are designed t
 
 ![alt_text](images/image3.png 'image_tooltip')
 
-Source: [https://vitalik.ca/general/2022/09/17/layer_3.html](https://vitalik.ca/general/2022/09/17/layer_3.html)
+Source: [https://vitalik.eth.limo/general/2022/09/17/layer_3.html](https://vitalik.eth.limo/general/2022/09/17/layer_3.html)
 
 Layer 3 networks can be used for various applications, such as decentralized finance (DeFi), non-fungible tokens (NFTs), supply chain management, and gaming. By building on top of Layer 2 solutions, Layer 3 networks can benefit from the scalability, interoperability, and cost-effectiveness of Layer 2 solutions while also providing more specialized and customized functionalities for specific use cases.
 
