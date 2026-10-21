@@ -25,7 +25,7 @@ In the 19th century, Charles Babbage conceptualized and partially built the [Ana
 
 ![alt_text](images/image8.png "image_tooltip")
 
-_Reconstruction of Babbage’s Analytical Engine. (Source: [Britannica.com](Britannica.com))_
+_Reconstruction of Babbage’s Analytical Engine. (Source: [Britannica.com](https://www.britannica.com))_
 
 While Babbage’s machine was never completed in his lifetime, his work laid the groundwork for modern computing, which saw computers transition from mechanical to electronic. The first electronic computers, the [Colossus](https://en.wikipedia.org/wiki/Colossus_computer) and [ENIAC](https://en.wikipedia.org/wiki/ENIAC), were developed during and after World War II. They used vacuum tubes as the primary switching elements and later transistors to perform calculations much faster than their mechanical predecessors.
 
