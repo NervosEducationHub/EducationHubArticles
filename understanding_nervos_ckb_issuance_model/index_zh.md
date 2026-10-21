@@ -1027,5 +1027,4 @@ Nervos CKB 的发行机制虽然稍显复杂，但和比特币的发行机制非
 * [The CKByte Issuance Model of Nervos](https://talk.nervos.org/t/the-ckbyte-issuance-model-of-nervos/5321)
 * [A detailed description of Nervos (CKB) supply and issuance](https://medium.com/@m.quinn/a-detailed-description-of-nervos-ckb-supply-and-issuance-1d55c4b101f9)
 * [Nervos CKByte Distribution, and Why We Are Burning 25% in the Genesis Block](https://medium.com/nervosnetwork/nervos-ckbyte-distribution-and-why-we-are-burning-25-in-the-genesis-block-9a7ddf7f6779)
-* [Bitcoin, Ethereum, Nervos: Inflationary or Deflationary?](https://www.cryptowendyo.com/bitcoin-ethereum-nervos-inflationary-deflationary/)
 * [CKB Supply calculation](https://docs.google.com/spreadsheets/d/1G8eofv1qqs96aEUqEk9vZ8qxeUqSn31KCNoQlwLMyJA/edit#gid=1511634195)
