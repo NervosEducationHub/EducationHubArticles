@@ -135,7 +135,7 @@ This means that users can create a wallet in one second using a fingerprint or a
 Leveraging its network of validators, NEAR's chain signatures technology allows NEAR accounts, including smart contracts, to sign and execute transactions on other blockchains, enabling cross-chain operations without the need for traditional bridges. This innovation is particularly powerful because it enhances blockchain interoperability, making it easier for users to manage assets across multiple blockchains from a single NEAR account.
 
 ![alt_text](images/image6-1.png "image_tooltip")
-*Diagram of a chain signature in NEAR (Source: [docs.near.org](https://docs.near.org/build/chain-abstraction/chain-signatures))*
+*Diagram of a chain signature in NEAR (Source: [docs.near.org](https://docs.near.org/chain-abstraction/chain-signatures))*
 
 The process begins with derivation paths, which are strings that represent accounts on foreign blockchains. Users can generate a unique address on another blockchain, such as Ethereum or Bitcoin, by combining a NEAR account with a derivation path. For instance, the NEAR account *example.near* could use the derivation path *ethereum-1* to produce a corresponding Ethereum address. This address, while belonging to the Ethereum network, remains under the control of the NEAR account.
 
@@ -146,14 +146,14 @@ When a NEAR account or smart contract needs to sign a transaction on another blo
 
 #### **FastAuth**
 
-Beyond allowing users to aggregate and control many cross-chain addresses via a single NEAR account, NEAR also leverages its MPC technology to enable a streamlined authentication system called [FastAuth](https://docs.near.org/build/chain-abstraction/fastauth-sdk) for creating NEAR accounts. 
+Beyond allowing users to aggregate and control many cross-chain addresses via a single NEAR account, NEAR also leverages its MPC technology to enable a streamlined authentication system called FastAuth for creating NEAR accounts. 
 
 Namely, FastAuth allows users to create accounts in a few clicks using biometrics or email, similar to how they do in Web2. This approach eliminates the need for users to manage private keys, seed phrases, or passwords, significantly improving user experience and security and allowing for account recovery.
 
 
 #### **Meta Transactions**
 
-One of NEAR’s key chain abstraction technologies is [meta-transactions](https://docs.near.org/build/chain-abstraction/meta-transactions), which allow users to execute transactions on NEAR without owning the native token to pay for gas.
+One of NEAR’s key chain abstraction technologies is [meta-transactions](https://docs.near.org/protocol/transactions/meta-tx), which allow users to execute transactions on NEAR without owning the native token to pay for gas.
 
 In a typical blockchain transaction, a user initiates an operation, such as transferring tokens or interacting with a smart contract, and must pay a fee (gas) in the blockchain’s native currency, like ETH on Ethereum or SOL on Solana. This unavoidable requirement represents a significant UX hurdle, especially for cross-chain transactions.
 
@@ -162,7 +162,7 @@ NEAR’s meta transactions address this issue by enabling another party, known a
 This transaction contains all the necessary details, such as the intended operation and relevant data, but the user does not pay the gas fee upfront. Instead, this transaction is sent off-chain to a relayer, a service designed to assist in these operations.
 
 ![alt_text](images/image4-1-1.png "image_tooltip")
-*Diagram of a meta-transaction on NEAR. (Source: [docs.near.org](https://docs.near.org/build/chain-abstraction/meta-transactions))*
+*Diagram of a meta-transaction on NEAR. (Source: [docs.near.org](https://docs.near.org/protocol/transactions/meta-tx))*
 
 The relayer then takes the transaction, signs it if necessary, and submits it to the NEAR blockchain on behalf of the user. During this process, the relayer pays the required gas fee using its own NEAR tokens. In return, the relayer might be compensated in various ways, such as being paid in a different token, receiving a fee from the transaction value, or participating in a broader incentive structure provided by the application or ecosystem.
 
@@ -177,18 +177,18 @@ To use the practical example from above, if Bob bridged his USDT from Ethereum t
 
 The modular Layer 1 blockchain, currently in testnet, provides several components that allow developers to build and deploy dApps without being locked into a single blockchain ecosystem.
 
-The network supports a wide range of functionalities, including [universal accounts](https://developers.particle.network/landing/modular-l1/universal-accounts), universal liquidity, and [universal gas](https://developers.particle.network/landing/modular-l1/universal-gas), all of which contribute to its overarching goal of achieving chain abstraction.
+The network supports a wide range of functionalities, including [universal accounts](https://developers.particle.network/intro/universal-accounts), universal liquidity, and [universal gas](https://developers.particle.network/intro/universal-accounts), all of which contribute to its overarching goal of achieving chain abstraction.
 
 ![alt_text](images/image1-1.jpg "image_tooltip")
 
-*User flow of Particle Network's Universal Accounts. (Source: [developers.particle.network](https://developers.particle.network/landing/modular-l1/universal-accounts))*
+*User flow of Particle Network's Universal Accounts. (Source: [developers.particle.network](https://developers.particle.network/intro/universal-accounts))*
 
-Like NEAR’s chain signature technology, Particle Network’s universal accounts provide users with a single address, balance, and interaction point across the multi-chain ecosystem. To make this possible, Particle Network relies on its [universal liquidity](https://developers.particle.network/landing/modular-l1/universal-liquidity) technology, which leverages relayers and decentralized bundlers to coordinate cross-chain transactions atomically on a per-transaction basis. 
+Like NEAR’s chain signature technology, Particle Network’s universal accounts provide users with a single address, balance, and interaction point across the multi-chain ecosystem. To make this possible, Particle Network relies on its [universal liquidity](https://developers.particle.network/intro/universal-accounts) technology, which leverages relayers and decentralized bundlers to coordinate cross-chain transactions atomically on a per-transaction basis. 
 
 The universal account also allows users to pay for gas in any token they choose, with the actual cross-chain transaction fee payments being abstracted from them in the background.
 
 ![alt_text](images/image3-1-1.png "image_tooltip")
-*Example of cross-chain transaction execution with Particle Network. (Source: [developers.particle.network](https://developers.particle.network/landing/modular-l1/universal-liquidity))*
+*Example of cross-chain transaction execution with Particle Network. (Source: [developers.particle.network](https://developers.particle.network/intro/universal-accounts))*
 
 Without going too much into the technical details, what this means in practice is that a Particle Network universal account holder can manage multiple assets on different chains without creating new accounts, switching networks, purchasing gas tokens, or caring about liquidity fragmentation. 
 

@@ -67,7 +67,7 @@ Layer 3 网络，也称为应用链，它运行在 Layer 2 解决方案之上，
 
 ![alt_text](images/image3.png 'image_tooltip')
 
-来源：[https://vitalik.ca/general/2022/09/17/layer_3.html](https://vitalik.ca/general/2022/09/17/layer_3.html)
+来源：[https://vitalik.eth.limo/general/2022/09/17/layer_3.html](https://vitalik.eth.limo/general/2022/09/17/layer_3.html)
 
 Layer 3 网络可用于各类应用，例如 DeFi、NFT、供应链管理和游戏。Layer 3 网络搭建在 Layer 2 解决方案之上，因此可以充分利用 Layer 2 解决方案带来的可扩展性、互操作性和成本优势，同时还为特定用例提供更专业、定制化的功能。
 

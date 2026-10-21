@@ -67,7 +67,7 @@ Las redes de Capa 3, también conocidas como cadenas de bloques específicas de 
 
 ![alt_text](images/image3_es.png 'image_tooltip')
 
-Fuente: [https://vitalik.ca/general/2022/09/17/layer_3.html](https://vitalik.ca/general/2022/09/17/layer_3.html)
+Fuente: [https://vitalik.eth.limo/general/2022/09/17/layer_3.html](https://vitalik.eth.limo/general/2022/09/17/layer_3.html)
 
 Las redes de Capa 3 se pueden usar para diversas aplicaciones, como finanzas descentralizadas (DeFi), tokens no fungibles (NFT), gestión de cadenas de suministros y juegos. Al construir sobre las soluciones de Capa 2, las redes de Capa 3 pueden beneficiarse de la escalabilidad, la interoperabilidad y la rentabilidad de las soluciones de Capa 2 al mismo tiempo que brindan funcionalidades más especializadas y personalizadas para casos de uso específicos.
 
