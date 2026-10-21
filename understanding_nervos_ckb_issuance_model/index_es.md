@@ -1020,5 +1020,4 @@ El modelo de emisión de Nervos CKB, aunque algo más complejo, es muy parecido 
 * [Understanding the economic model of Nervos CKB](https://medium.com/@Chema_es/understanding-the-economic-model-of-nervos-ckb-408e2b74478b)
 * [A detailed description of Nervos (CKB) supply and issuance](https://medium.com/@m.quinn/a-detailed-description-of-nervos-ckb-supply-and-issuance-1d55c4b101f9)
 * [Nervos CKByte Distribution, and Why We Are Burning 25% in the Genesis Block](https://medium.com/nervosnetwork/nervos-ckbyte-distribution-and-why-we-are-burning-25-in-the-genesis-block-9a7ddf7f6779)
-* [Bitcoin, Ethereum, Nervos: Inflationary or Deflationary?](https://www.cryptowendyo.com/bitcoin-ethereum-nervos-inflationary-deflationary/)
 * [CKB Supply calculation](https://docs.google.com/spreadsheets/d/1G8eofv1qqs96aEUqEk9vZ8qxeUqSn31KCNoQlwLMyJA/edit#gid=1511634195)

@@ -88,7 +88,6 @@ However, it seems unlikely that these advancements will completely stop coin los
 ### Related Links
 
 * [Surprisingly, Tail Emission Is Not Inflationary](https://petertodd.org/2022/surprisingly-tail-emission-is-not-inflationary)
-* [Bitcoin, Ethereum, Nervos: Inflationary or Deflationary?](https://www.cryptowendyo.com/bitcoin-ethereum-nervos-inflationary-deflationary/)
 * [Understanding the Nervos CKB Issuance Model](https://www.nervos.org/knowledge-base/understanding_nervos_ckb_issuance_model)
 * [Reasoning from the Monero community about the tail emission](https://www.reddit.com/r/Monero/comments/4z0azk/comment/d6sixyi/)
 * [Bitcoin - Controlled Supply](https://en.bitcoin.it/wiki/Controlled_supply)
