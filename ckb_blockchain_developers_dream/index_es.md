@@ -50,7 +50,7 @@ Los mejores ejemplos actuales de aplicaciones descentralizadas que aprovechan la
 
 ## .Bit
 
-Una de las aplicaciones más innovadoras creadas en CKB es el protocolo [.bit](https://did.id), que muestra el verdadero potencial de la flexibilidad y compatibilidad entre cadenas de CKB. .bit es un protocolo de identidad digital Web3 de cadena cruzada que permite a los usuarios asignar nombres legibles por humanos, como "Nervos.bit", a identificadores legibles por máquina, como direcciones de cadena de bloques.
+Una de las aplicaciones más innovadoras creadas en CKB es el protocolo [.bit](https://d.id), que muestra el verdadero potencial de la flexibilidad y compatibilidad entre cadenas de CKB. .bit es un protocolo de identidad digital Web3 de cadena cruzada que permite a los usuarios asignar nombres legibles por humanos, como "Nervos.bit", a identificadores legibles por máquina, como direcciones de cadena de bloques.
 
 Lo que diferencia a .bit de otros protocolos de identidad digital como ENS (Ethereum Name Service) de Ethereum es su amplia compatibilidad. Si bien ENS solo admite direcciones de Ethereum, .bit permite a los usuarios registrarse y administrar sus cuentas usando (teóricamente) cualquier dirección de cadena pública o incluso correo electrónico. Esto significa que los usuarios pueden crear y administrar cuentas .bit con su dirección Dogecoin, Bitcoin o cualquier otra dirección de cadena pública y usarlas sin problemas en varias cadenas. Más allá de administrar identidades digitales, los usuarios de .bit también pueden almacenar una amplia gama de información en sus cuentas de .bit, incluidas claves públicas PGP, esquemas URL Magnet, direcciones de contratos inteligentes, hashes MD5 y presentaciones personales.
 

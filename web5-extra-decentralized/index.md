@@ -276,7 +276,7 @@ Despite a beginning shrouded in controversy (maybe rgbp2p is a better name), [RG
 
 ![alt_text](images/image6.png "image_tooltip")
 
-On the channel front, the work is even more exciting. The [Fiber Network](https://www.ckbfiber.net/) project, which implements Lightning-compatible channels on CKB, has been underway for most of 2024 and is quickly maturing toward mainnet. Lightning is synonymous with challenge, but CKB offers a new computational substrate for a channel network and can be used to test the ocean of ideas for improving Lightning, without requiring any consensus changes.
+On the channel front, the work is even more exciting. The [Fiber Network](https://www.fiber.world) project, which implements Lightning-compatible channels on CKB, has been underway for most of 2024 and is quickly maturing toward mainnet. Lightning is synonymous with challenge, but CKB offers a new computational substrate for a channel network and can be used to test the ocean of ideas for improving Lightning, without requiring any consensus changes.
 
 The [Polycrypt](https://github.com/perun-network) team, which has worked on state channel networks for the better part of seven years, has recently released functionality that converges across account and UTXO models, supporting eight chains, including Ethereum, Polkadot, Dfinity, Cardano, Cosmos, Stellar, Fabric, and CKB.
 
