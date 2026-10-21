@@ -80,7 +80,7 @@ No matter what value is assigned to λ, as long as CKBytes are continuously lost
 
 ![alt_text](images/image8.png 'image_tooltip')
 
-As blockchain technology continues to develop and standards improve further every day, it is possible that the rate of private key loss will significantly decrease over time. Among those developments we can highlight multi-signature schemes, social recovery, dead man's switch, and many other developments made possible by [account abstraction](https://www.nervos.org/knowledge-base/account_abstraction_where_were_going). Also, the development of good practices and the education of users in the management of their private keys decreases the loss of these keys. 
+As blockchain technology continues to develop and standards improve further every day, it is possible that the rate of private key loss will significantly decrease over time. Among those developments we can highlight multi-signature schemes, social recovery, dead man's switch, and many other developments made possible by [account abstraction](https://www.nervos.org/knowledge-base/account_abstraction_where_we_are_going). Also, the development of good practices and the education of users in the management of their private keys decreases the loss of these keys. 
 
 However, it seems unlikely that these advancements will completely stop coin losses in the near future, and as a result, their effects will continue to manifest in one way or another in the emission curves of coins like CKB.
 

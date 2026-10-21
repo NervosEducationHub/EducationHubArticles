@@ -85,7 +85,7 @@ _上面这张图表仅考虑了 Nervos CKB 的释放，未考虑由于身故、�
 
 ![alt_text](images/image8.png 'image_tooltip')
 
-随着区块链技术的持续发展和标准的日益完善，私钥丢失的风险可能随着时间推移逐渐降低。我们可以重点关注多重签名方案、社交恢复方案、失能开关，以及通过[账户抽象](https://www.nervos.org/knowledge-base/account_abstraction_where_were_going)实现的许多其他功能。此外，良好的用户密钥管理教育也可以减少这些密钥的丢失。
+随着区块链技术的持续发展和标准的日益完善，私钥丢失的风险可能随着时间推移逐渐降低。我们可以重点关注多重签名方案、社交恢复方案、失能开关，以及通过[账户抽象](https://www.nervos.org/knowledge-base/account_abstraction_where_we_are_going)实现的许多其他功能。此外，良好的用户密钥管理教育也可以减少这些密钥的丢失。
 
 然而，这些技术的进步似乎不太可能在不久的将来完全阻止代币丢失，因此，它们的影响将继续以某种方式在 CKB 等代币的发行曲线中显现出来。
 
