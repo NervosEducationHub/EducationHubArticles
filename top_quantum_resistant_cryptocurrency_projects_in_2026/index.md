@@ -8,7 +8,7 @@ author:
 - github:nervosnetwork
 ---
 
-[Fault-tolerant quantum computing](https://en.wikipedia.org/wiki/Fault_tolerant_quantum_computing) represents a long-term security challenge for major blockchains. Most legacy networks still rely on elliptic-curve cryptography, including [ECDSA](https://www.nervos.org/knowledge-base/understanding_ECDSA_\(explainCKBot\)), EdDSA, or related signature schemes that could become vulnerable to [Shor’s algorithm](https://en.wikipedia.org/wiki/Shor%27s_algorithm) once cryptographically relevant quantum computers exist.
+[Fault-tolerant quantum computing](https://en.wikipedia.org/wiki/Fault_tolerant_quantum_computing) represents a long-term security challenge for major blockchains. Most legacy networks still rely on elliptic-curve cryptography, including [ECDSA](https://www.nervos.org/knowledge-base/understanding_ECDSA), EdDSA, or related signature schemes that could become vulnerable to [Shor’s algorithm](https://en.wikipedia.org/wiki/Shor%27s_algorithm) once cryptographically relevant quantum computers exist.
 
 That does not mean every blockchain faces the same level of risk today. Some networks were designed around post-quantum cryptography from the beginning. Others are researching migration paths from classical signatures to post-quantum alternatives. A smaller category takes a different approach: instead of binding the protocol to one signature scheme, they make cryptographic verification flexible enough to support new algorithms over time.
 

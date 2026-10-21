@@ -31,7 +31,7 @@ Existen varios tipos de soluciones de Capa 2, incluidos optimistic rollups, ZK-R
 
 ### Optimistic Rollups
 
-Los [Optimistic rollups](https://www.nervos.org/knowledge-base/what_are_optimistic_rollups) son una solución de escalado de Capa 2 para cadenas de bloques. Funcionan agrupando muchas transacciones en una sola transacción y luego procesándolas fuera de la cadena de bloques principal. El procesamiento de estas transacciones ocurre de manera "optimista" o bajo el supuesto de que todas las transacciones del paquete son válidas. Esto acelera el tiempo de procesamiento y reduce la carga computacional en la cadena de bloques principal.
+Los [Optimistic rollups](https://www.nervos.org/knowledge-base/what_are_optimistic_rollups_everything_you_need_to_know) son una solución de escalado de Capa 2 para cadenas de bloques. Funcionan agrupando muchas transacciones en una sola transacción y luego procesándolas fuera de la cadena de bloques principal. El procesamiento de estas transacciones ocurre de manera "optimista" o bajo el supuesto de que todas las transacciones del paquete son válidas. Esto acelera el tiempo de procesamiento y reduce la carga computacional en la cadena de bloques principal.
 
 Para usar un Optimistic Rollup, los usuarios deben bloquear sus activos originales en la Capa 1 a través de un contrato inteligente. El contrato inteligente en la Capa 2 luego crea activos idénticos, conocidos como tokens envueltos, con una valoración de 1 a 1 a los activos originales previamente bloqueados en la Capa 1. Cuando un usuario realiza una transacción en la Capa 2 con estos tokens envueltos, las transacciones se agrupan en grandes lotes y solo los datos de la transacción se vuelven a publicar en la Capa 1 como datos de llamadas.
 

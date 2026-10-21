@@ -52,7 +52,7 @@ _中心化网络（左）与去中心化网络（右）的比较_
 
 链下扩展意味着将一部分交易从主区块链转移到第二层或[侧链](https://www.nervos.org/knowledge-base/sidechains_unlocking_the_potential)上。链下扩展解决方案包括 Layer 2 网络（如状态通道和 rollup）以及具备独立共识机制和安全属性的侧链。链下扩展能显著提高交易吞吐量，但也可能增加系统复杂性和潜在安全风险。
 
-另一个不太流行的可扩展性解决方案是[分片](https://www.nervos.org/knowledge-base/What_is_sharding_in_blockchain_%28explainCKBot%29)，即将区块链分割成更小的平行链，称为分片。每个分片处理部分交易，从而提高整体吞吐量。然而，分片的实施可能较为复杂，并可能引入新的攻击风险。
+另一个不太流行的可扩展性解决方案是[分片](https://www.nervos.org/knowledge-base/What_is_sharding_in_blockchain)，即将区块链分割成更小的平行链，称为分片。每个分片处理部分交易，从而提高整体吞吐量。然而，分片的实施可能较为复杂，并可能引入新的攻击风险。
 
 
 ## 寻找区块链不可能三角的解决方案

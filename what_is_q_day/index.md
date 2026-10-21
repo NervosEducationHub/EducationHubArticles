@@ -26,7 +26,7 @@ The vulnerability lies in how blockchains prove ownership. Nearly every major ch
 
 ## Why Does Q-Day Matter for Bitcoin?
 
-Q-Day matters for Bitcoin because Bitcoin’s transaction authorization depends on [secp256k1](https://www.nervos.org/knowledge-base/secp256k1_a_key%20algorithm), the elliptic curve used by Bitcoin’s signature schemes.
+Q-Day matters for Bitcoin because Bitcoin’s transaction authorization depends on [secp256k1](https://www.nervos.org/knowledge-base/secp256k1_a_key_algorithm), the elliptic curve used by Bitcoin’s signature schemes.
 
 Older Bitcoin outputs use [ECDSA](https://www.nervos.org/knowledge-base/understanding_ECDSA) over secp256k1. Taproot uses [Schnorr](https://www.nervos.org/knowledge-base/schnorr_signatures) signatures over secp256k1. These are different signature schemes, but both rely on the same underlying hardness of the elliptic-curve discrete logarithm.
 
@@ -82,7 +82,7 @@ Q-Day primarily threatens asymmetric cryptography, also known as public-key cryp
 
 For Bitcoin, the vulnerable primitives are ECDSA and Schnorr signatures over the secp256k1 elliptic curve. For Ethereum, standard Externally Owned Accounts also rely on ECDSA over secp256k1. Ethereum has additional quantum-vulnerable components, including consensus-layer BLS signatures and KZG commitments, both of which rely on elliptic-curve pairings.
 
-Hash functions are different. Shor’s algorithm does not break [SHA-256](https://www.nervos.org/knowledge-base/Unbreakable_SHA256_Why_Even_Quantum_Computers_Cannot_Do_It_\(explainCKBot\)), nor does it break Bitcoin’s proof-of-work in the same direct way. [Grover’s algorithm](https://en.wikipedia.org/wiki/Grover%27s_algorithm) can theoretically speed up brute-force search, but that is not the same kind of structural break that Shor’s algorithm creates for public-key cryptography.
+Hash functions are different. Shor’s algorithm does not break [SHA-256](https://www.nervos.org/knowledge-base/Unbreakable_SHA256_Why_Even_Quantum_Computers_Cannot_Do_It), nor does it break Bitcoin’s proof-of-work in the same direct way. [Grover’s algorithm](https://en.wikipedia.org/wiki/Grover%27s_algorithm) can theoretically speed up brute-force search, but that is not the same kind of structural break that Shor’s algorithm creates for public-key cryptography.
 
 The weak point is transaction authorization. If a public key is exposed and the signature scheme behind it is quantum-vulnerable, a cryptographically relevant quantum computer could derive the private key and turn that exposed key into spendable funds.
 
