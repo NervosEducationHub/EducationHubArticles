@@ -33,7 +33,7 @@ In a PoW system like Bitcoin, Byzantine fault tolerance is achieved through the 
 
 In a PoS system like Ethereum, Byzantine fault tolerance is achieved differently. Instead of miners, there are validators who are chosen to create new blocks based on the number of tokens they hold and are willing to 'stake' as collateral. If a validator tries to game the system or act maliciously, they stand to lose their staked tokens. This risk of financial loss disincentivizes bad behavior, contributing to Byzantine Fault Tolerance.
 
-It's important to note that while PoW and PoS can exhibit Byzantine fault tolerance, they are not inherently Byzantine fault tolerant in the same way that some other consensus mechanisms, like the [Practical Byzantine Fault Tolerance](https://pmg.csail.mit.edu/papers/osdi99.pdf) (PBFT) algorithm, are. The next section will cover the different varieties of BFT Consensus Mechanisms.
+It's important to note that while PoW and PoS can exhibit Byzantine fault tolerance, they are not inherently Byzantine fault tolerant in the same way that some other consensus mechanisms, like the [Practical Byzantine Fault Tolerance](https://pdos.csail.mit.edu/6.824/papers/castro-practicalbft.pdf) (PBFT) algorithm, are. The next section will cover the different varieties of BFT Consensus Mechanisms.
 
 
 ## Types of BFT Consensus Mechanisms
