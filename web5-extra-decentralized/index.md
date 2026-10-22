@@ -51,7 +51,7 @@ We see Web5 as a mesh of peer-to-peer networks connecting various PoW and UTXO-b
 
 ![alt_text](images/image10.png "image_tooltip")
 
-*Network topologies of decentralized and peer-to-peer networks. (Source: [CKBEcoFund](https://ckbecofund.substack.com/p/reclaiming-the-bitcoin-p2p-vision))*
+*Network topologies of decentralized and peer-to-peer networks. (Source: [CKBEcoFund](https://ckbeco.fund/))*
 
 The underlying rails are the key distinguisher between Web5 and Web3 here.
 
