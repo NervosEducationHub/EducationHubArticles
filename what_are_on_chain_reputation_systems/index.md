@@ -28,7 +28,7 @@ As a result, reputation becomes composable and programmable. Other protocols can
 
 ## How On-Chain Reputation Systems Work
 
-On-chain reputation systems operate through a structured pipeline that transforms blockchain activity into usable reputation metrics. This process begins with data sourcing. For example, when a user connects their wallet to the [ReputeX](https://reputex.io/), a modular Web3 reputation layer, relevant inputs include assets held, wallet age, transaction history, participation in DeFi protocols, activity across multiple networks, DAO participation, NFTs, and more. These on-chain activities are associated with wallets or decentralized identifiers, forming the behavioral foundation for reputation analysis.
+On-chain reputation systems operate through a structured pipeline that transforms blockchain activity into usable reputation metrics. This process begins with data sourcing. For example, when a user connects their wallet to the ReputeX, a modular Web3 reputation layer, relevant inputs include assets held, wallet age, transaction history, participation in DeFi protocols, activity across multiple networks, DAO participation, NFTs, and more. These on-chain activities are associated with wallets or decentralized identifiers, forming the behavioral foundation for reputation analysis.
 
 The next stage is scoring logic and algorithms. These algorithms determine which behaviors are considered positive, which are negative, and how much weight each action carries. Because communities differ in their values and priorities, these rules must remain transparent and adaptable. For example, frequent trading activity may be interpreted as healthy engagement in a liquidity protocol but as speculative noise in a governance context.
 
