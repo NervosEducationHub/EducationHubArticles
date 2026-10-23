@@ -74,7 +74,7 @@ Taking inventory of Ethereum today, "trust" seems to be on the rise. While stake
 
 
 ![alt_text](images/image9.png "image_tooltip")
-*Percentage of total ETH staked by entities. (Source: [dune.com](http://dune.com))*
+*Percentage of total ETH staked by entities. (Source: [dune.com](https://dune.com))*
 
 Liquid staking protocol [Lido](https://lido.fi/) controls ~28% of total ETH staked while [Coinbase](https://www.coinbase.com/) controls ~11%, raising concerns about the potential concentration of governance and validation rights among a few influential industry players. [Beaverbuild](https://beaverbuild.org/) and [Titan Builder](https://www.titanbuilder.xyz/) are producing[ ~89% of all blocks](https://x.com/nero_eth/status/1846786871998759141) on Ethereum, which raises further concerns regarding censorship resistance and control over maximum extractable value ([MEV](https://cryptobriefing.com/what-is-mev-ethereums-invisible-tax-explained/)).
 
