@@ -49,7 +49,7 @@ author:
 
 **链选择规则：** 在同时提出多个区块的情况下，会采用链选择规则。比特币采用的是 "最长链" 规则，而以太坊现在采用的是 PoS，使用的是基于验证者投票 "权重" 的分叉选择算法。
 
-以太坊的共识机制被称为 [Gasper](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/gasper/)，它结合了 [Casper FFG](https://eth2book.info/capella/part2/consensus/casper_ffg/) 权益证明和 [GHOST](https://inevitableeth.com/home/ethereum/network/consensus/lmd-ghost) 分叉选择规则的部分内容，是共识机制演变的见证。
+以太坊的共识机制被称为 [Gasper](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/gasper/)，它结合了 [Casper FFG](https://eth2book.info/capella/part2/consensus/casper_ffg/) 权益证明和 [GHOST](https://eth2book.info/capella/part2/consensus/lmd_ghost/) 分叉选择规则的部分内容，是共识机制演变的见证。
 
 
 

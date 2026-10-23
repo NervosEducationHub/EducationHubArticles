@@ -46,7 +46,7 @@ For a blockchain to function effectively, all its participants must agree on a s
 
 **Chain Selection:** In scenarios where multiple blocks are proposed simultaneously, a chain selection rule is employed. While Bitcoin uses the "longest chain" rule, Ethereum, now on PoS, uses a fork-choice algorithm based on the 'weight' of validator votes.
 
-Ethereum's consensus mechanism, known as [Gasper](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/gasper/), is a testament to the evolution of consensus mechanisms, combining elements of [Casper FFG](https://eth2book.info/capella/part2/consensus/casper_ffg/) proof-of-stake and the [GHOST](https://inevitableeth.com/home/ethereum/network/consensus/lmd-ghost) fork-choice rule.
+Ethereum's consensus mechanism, known as [Gasper](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/gasper/), is a testament to the evolution of consensus mechanisms, combining elements of [Casper FFG](https://eth2book.info/capella/part2/consensus/casper_ffg/) proof-of-stake and the [GHOST](https://eth2book.info/capella/part2/consensus/lmd_ghost/) fork-choice rule.
 
 
 ## Conclusion
