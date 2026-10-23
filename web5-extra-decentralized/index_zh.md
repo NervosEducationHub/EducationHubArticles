@@ -50,7 +50,7 @@ Nostr 不依赖单一平台存储用户数据，而是通过独立运营的服�
 
 ![alt_text](images/image10.png "image_tooltip")
 
-*去中心化和点对点网络的网络拓扑结构 (来源: [CKB Eco Fund](https://ckbecofund.substack.com/p/reclaiming-the-bitcoin-p2p-vision))*
+*去中心化和点对点网络的网络拓扑结构 (来源: [CKB Eco Fund](https://ckbeco.fund/))*
 
 底层架构是 Web5 与 Web3 的核心差异。
 
