@@ -123,7 +123,7 @@ To allow wallets to find payment routes, the network must publish a map.
 
 **Payment metadata:** Amounts, timestamps, and routing fees are individually unremarkable, but over time they form behavioral patterns no single payment reveals, most of all for a channel counterparty, which sees every payment crossing the shared channel.
 
-**Invoices reveal the recipient.** A standard [BOLT 11 invoice](https://www.bolt11.org/) contains the recipient's node public key, the amount, and sometimes route hints exposing otherwise-unannounced channels. Anyone holding the invoice knows who is being paid.
+**Invoices reveal the recipient.** A standard [BOLT 11 invoice](https://github.com/lightning/bolts/blob/master/11-payment-encoding.md) contains the recipient's node public key, the amount, and sometimes route hints exposing otherwise-unannounced channels. Anyone holding the invoice knows who is being paid.
 
 **Channel openings and closings:** Every channel begins and ends with an ordinary Bitcoin transaction that stays permanently visible. If the funding coins came from a KYC-compliant exchange, the trail leading to it can reach a real person.
 
