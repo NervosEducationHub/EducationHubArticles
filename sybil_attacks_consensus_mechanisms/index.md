@@ -1,4 +1,5 @@
 ---
+description: "Understand Sybil attacks, how fake identities threaten blockchain networks, and how proof of work and proof of stake provide Sybil resistance."
 title: 'Understanding Sybil Attacks and Consensus Mechanisms in Blockchain'
 coverImage: 'images/image1.png'
 category: consensus
@@ -37,7 +38,7 @@ For a blockchain to function effectively, all its participants must agree on a s
 
 **Block Creation:** Unlike PoW, where miners employ computation, in PoS, validators are chosen to create new blocks based on the number of coins they hold and are willing to "stake" or lock up as collateral. This process is orders of magnitude less energy-intensive than PoW.
 
-**Security Aspect:** PoS secures the network by ensuring that those with the most at stake (the validators) are responsible for maintaining the network's integrity. Any malicious activity would result in their staked coins being destroyed ([slashed](https://www.nervos.org/knowledge-base/slashing_in_PoS)), making deceit a costly endeavor.
+**Security Aspect:** PoS secures the network by ensuring that those with the most at stake (the validators) are responsible for maintaining the network's integrity. Any malicious activity would result in their staked coins being destroyed ([slashed](https://www.nervos.org/knowledge-base/slashing_in_pos)), making deceit a costly endeavor.
 
 
 ## Sybil Resistance and Chain Selection in Consensus Mechanisms:

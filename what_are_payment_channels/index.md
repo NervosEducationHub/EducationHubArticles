@@ -1,4 +1,5 @@
 ---
+description: "Payment channels lock funds on-chain for repeated off-chain transfers. Learn how signed balance updates, settlement and penalties work."
 title: 'What are Payment Channels?'
 coverImage: 'images/image1.png'
 category: Scaling

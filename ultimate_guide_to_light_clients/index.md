@@ -43,7 +43,7 @@ To summarize, if users want to interact with the Ethereum protocol, for example,
 
 There are different types of nodes that interpret data differently and offer different methods for synchronization, which refers to how quickly nodes can get up-to-speed with the latest state of the blockchain.
 
-Moreover, node types also differ between blockchains. For example, on the largest Proof-of-Stake-based smart contract platform, Ethereum, clients can run three different types of nodes: light, full, and archive. On the other hand, on the largest Proof-of-Work-based blockchain, Bitcoin, clients can run only full and light nodes, also called [Simplified Payment Verification](https://www.nervos.org/knowledge-base/what_is_SPV) or SPV nodes. Because Bitcoin and Ethereum utilize different consensus algorithms and process data differently, the different types of nodes or clients also operate differently.
+Moreover, node types also differ between blockchains. For example, on the largest Proof-of-Stake-based smart contract platform, Ethereum, clients can run three different types of nodes: light, full, and archive. On the other hand, on the largest Proof-of-Work-based blockchain, Bitcoin, clients can run only full and light nodes, also called [Simplified Payment Verification](https://www.nervos.org/knowledge-base/what_is_spv) or SPV nodes. Because Bitcoin and Ethereum utilize different consensus algorithms and process data differently, the different types of nodes or clients also operate differently.
 
 
 ### **Full Nodes**

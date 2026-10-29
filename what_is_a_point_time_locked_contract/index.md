@@ -26,7 +26,7 @@ This mechanism allows the Lightning Network to process instant Bitcoin payments,
 
 ### Where Do HTLCs Come In?
 
-A [Hashed Timelock Contract](https://www.nervos.org/knowledge-base/What_is_a_Hashed_Timelock_Contract) (HTLC) is a smart contract that combines a hashlock and a timelock to enable trustless, conditional payments. A hashlock is a function that secures a transaction by requiring the recipient to provide the correct secret (called a preimage) that matches a cryptographic hash. A timelock allows funds to be reclaimed after a specified period if the main condition isn't met.
+A [Hashed Timelock Contract](https://www.nervos.org/knowledge-base/what_is_a_hashed_timelock_contract) (HTLC) is a smart contract that combines a hashlock and a timelock to enable trustless, conditional payments. A hashlock is a function that secures a transaction by requiring the recipient to provide the correct secret (called a preimage) that matches a cryptographic hash. A timelock allows funds to be reclaimed after a specified period if the main condition isn't met.
 
 HTLCs allow these payment channels to work across multiple people—not just between Alice and Bob, but across a whole network of users. Suppose Alice wants to pay Charlie, but she doesn’t have a direct channel with him. However, Bob does. With HTLCs, Alice can send a payment through Bob to Charlie:
 

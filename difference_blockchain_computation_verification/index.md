@@ -1,4 +1,5 @@
 ---
+description: "Distinguish blockchain computation from verification, how they interact in state changes, and why layered designs separate these responsibilities."
 title: "Blockchain Computation vs Verification: The Essential Guide"
 coverImage: 'images/image1.png'
 category: Modular, State

@@ -1,4 +1,5 @@
 ---
+description: "Bitcoin Script governs how Bitcoin transactions spend funds. Learn about its stack-based design, opcodes, transaction types and limitations."
 title: 'Bitcoin Script: A Comprehensive Guide'
 coverImage: 'images/image1.png'
 category: Bitcoin

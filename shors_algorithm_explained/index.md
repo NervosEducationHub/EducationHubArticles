@@ -12,7 +12,7 @@ Shor’s algorithm is one of the main reasons quantum computing is treated as a 
 
 Most public-key cryptography relies on a simple asymmetry: some mathematical operations are easy to perform but extremely hard to reverse on a classical computer.
 
-RSA relies on the difficulty of factoring large composite numbers. Diffie–Hellman, [ECDSA](https://www.nervos.org/knowledge-base/understanding_ECDSA), Schnorr signatures, and elliptic-curve cryptography rely on the difficulty of solving [discrete-logarithm](https://en.wikipedia.org/wiki/Discrete_logarithm) problems. These are different mathematical problems, but they share the same basic security assumption: classical computers cannot reverse them fast enough to matter.
+RSA relies on the difficulty of factoring large composite numbers. Diffie–Hellman, [ECDSA](https://www.nervos.org/knowledge-base/understanding_ecdsa), Schnorr signatures, and elliptic-curve cryptography rely on the difficulty of solving [discrete-logarithm](https://en.wikipedia.org/wiki/Discrete_logarithm) problems. These are different mathematical problems, but they share the same basic security assumption: classical computers cannot reverse them fast enough to matter.
 
 Shor’s algorithm breaks that assumption.
 
@@ -369,7 +369,7 @@ RSA is still one of the most widely used cryptosystems on the internet, in TLS, 
 
 ### What Is the Difference Between Shor's and Grover's Algorithms?
 
-Shor’s algorithm gives an exponential speedup against public-key cryptography. It breaks RSA via factoring and Diffie–Hellman, ECDSA, Schnorr signatures, and elliptic-curve cryptography via discrete logarithms. Grover’s algorithm gives only a quadratic speedup against brute-force search. It affects symmetric ciphers and hashes such as AES and [SHA-256](https://www.nervos.org/knowledge-base/SHA256_most_used_hash_function), but it does not break them in the same way. The fix is different, too. Public-key schemes vulnerable to Shor’s algorithm must be replaced. Symmetric schemes and hashes generally need larger security margins, such as longer keys. This is why [even quantum computers cannot break SHA-256](https://www.nervos.org/knowledge-base/Unbreakable_SHA256_Why_Even_Quantum_Computers_Cannot_Do_It) in any practical sense.
+Shor’s algorithm gives an exponential speedup against public-key cryptography. It breaks RSA via factoring and Diffie–Hellman, ECDSA, Schnorr signatures, and elliptic-curve cryptography via discrete logarithms. Grover’s algorithm gives only a quadratic speedup against brute-force search. It affects symmetric ciphers and hashes such as AES and [SHA-256](https://www.nervos.org/knowledge-base/sha256_most_used_hash_function), but it does not break them in the same way. The fix is different, too. Public-key schemes vulnerable to Shor’s algorithm must be replaced. Symmetric schemes and hashes generally need larger security margins, such as longer keys. This is why [even quantum computers cannot break SHA-256](https://www.nervos.org/knowledge-base/unbreakable_sha256_why_even_quantum_computers_cannot_do_it) in any practical sense.
 
 ### How Do You Use Shor's Algorithm?
 

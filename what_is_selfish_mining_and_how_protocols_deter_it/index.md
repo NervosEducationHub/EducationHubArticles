@@ -26,7 +26,7 @@ However, the open and competitive nature of mining also creates opportunities fo
 
 ## What Is Selfish Mining?
 
-Selfish mining occurs when a miner or mining pool deliberately withholds a block they have found instead of broadcasting it immediately. By keeping this block secret, they temporarily create a private branch of the blockchain. If they find additional blocks before the rest of the network discovers a competing block, they can later release their private chain, which is longer and therefore valid according to the “[longest chain rule](https://www.nervos.org/knowledge-base/What_is_the_Longest_Chain_Rule_in_Bitcoin_and_Blockchain).”
+Selfish mining occurs when a miner or mining pool deliberately withholds a block they have found instead of broadcasting it immediately. By keeping this block secret, they temporarily create a private branch of the blockchain. If they find additional blocks before the rest of the network discovers a competing block, they can later release their private chain, which is longer and therefore valid according to the “[longest chain rule](https://www.nervos.org/knowledge-base/what_is_the_longest_chain_rule_in_bitcoin_and_blockchain).”
 
 This behavior causes honest miners’ work to be wasted. The honest miners may have been building on an outdated version of the chain, unaware that a longer one existed in secret. Once the selfish miner reveals their chain, the honest miners’ blocks are discarded as “orphans.” The selfish miner, on the other hand, collects the rewards from their hidden chain.
 

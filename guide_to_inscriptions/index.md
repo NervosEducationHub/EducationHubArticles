@@ -1,4 +1,5 @@
 ---
+description: "Distinguish Bitcoin Ordinals from inscriptions, learn how satoshis are tracked and data is inscribed, and examine their impact on Bitcoin and NFTs."
 title: 'The Ultimate Guide to Bitcoin Ordinals and Inscriptions'
 coverImage: 'images/image1.png'
 category: Bitcoin

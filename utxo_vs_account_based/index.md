@@ -1,4 +1,5 @@
 ---
+description: "Compare UTXO and account-based blockchains, from how they record balances and transactions to their privacy, scalability and smart contract trade-offs."
 title: 'UTXO vs. Account-Based Blockchains - Benefits and Drawbacks'
 coverImage: 'images/image3.png'
 category: 'UTXO, Blockchain'
@@ -41,7 +42,7 @@ In examining the benefits and drawbacks of UTXO and account-based models, severa
 
 For instance, in the UTXO model, crypto wallets typically generate new addresses for every user transaction, making it more difficult for third parties to trace or link transactions to a specific individual. This characteristic provides a higher privacy level than the account model, where users typically interact with the blockchain through a single account with a transparent balance.
 
-Additionally, the UTXO model naturally supports [parallel transaction](https://www.nervos.org/knowledge-base/The_Difference_Between_Parallel_and_Sequential_Transaction_Execution_in_Crypto) processing, which refers to the simultaneous processing of many blockchain transactions, allowing for increased efficiency and throughput. This is in contrast to account-based blockchains that process transactions sequentially or one transaction after another linearly.
+Additionally, the UTXO model naturally supports [parallel transaction](https://www.nervos.org/knowledge-base/the_difference_between_parallel_and_sequential_transaction_execution_in_crypto) processing, which refers to the simultaneous processing of many blockchain transactions, allowing for increased efficiency and throughput. This is in contrast to account-based blockchains that process transactions sequentially or one transaction after another linearly.
 
 Parallel transaction processing can be particularly beneficial in situations with a high volume of transactions, as it enables the network to accommodate more transactions per second and handle increasing demand. Additionally, it can contribute to faster transaction confirmation times, a more responsive and efficient network, and better resource utilization. That being said, achieving optimal parallel processing requires efficient consensus algorithms and effective resource management techniques, meaning that UTXO-based blockchains aren't necessarily more scalable than current account-based ones.
 

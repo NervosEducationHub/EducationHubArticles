@@ -102,7 +102,7 @@ date: '2023-08-25T16:00:00.000Z'
 
 对于开发者来说，Nervos CKB 提供了一个多功能结算层，[支持所有当前和未来的密码学原语](https://www.nervos.org/knowledge-base/ckb_blockchain_developers_dream)，并提供 “刚好足够” 的验证支持。与以太坊等通用智能合约平台相比，Nervos CKB 作为验证层和结算层的表现力更强，效率更高，引入错误的可能性更小。
 
-此外，密码学原语（如[哈希算法](https://www.nervos.org/knowledge-base/what_is_a_hash_function)和签名方案）可以像插件一样直接被 dApp 开发者调用，这意味着 CKB 将永远能够支持所有类型的 Layer 2 解决方案，无需为了使用其他密码学原语而进行[硬分叉](https://www.nervos.org/knowledge-base/What_are_implications_of_forks)升级。
+此外，密码学原语（如[哈希算法](https://www.nervos.org/knowledge-base/what_is_a_hash_function)和签名方案）可以像插件一样直接被 dApp 开发者调用，这意味着 CKB 将永远能够支持所有类型的 Layer 2 解决方案，无需为了使用其他密码学原语而进行[硬分叉](https://www.nervos.org/knowledge-base/what_are_implications_of_forks)升级。
 
 CKB 通过使用最久经考验的[工作量证明（PoW）](https://www.nervos.org/knowledge-base/why_is_proof_of_work_required)共识机制来优化去中心化和安全性，并通过引入状态租赁来解决区块链状态爆炸的问题，将扩展全局状态的权利与平台的原生代币 CKB 挂钩，其中 1 CKB 等于区块链上 1 个字节的空间。这确保了运行全节点的资源需求长期保持较低，保证验证层的持久去中心化。
 

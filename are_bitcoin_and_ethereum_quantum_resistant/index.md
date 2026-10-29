@@ -1,4 +1,5 @@
 ---
+description: "Learn why Bitcoin and Ethereum face quantum risks, how each is preparing for post-quantum security, and why migrating existing assets is difficult."
 title: 'Are Bitcoin and Ethereum Quantum Resistant?'
 coverImage: 'images/image1.png'
 category: Popular 

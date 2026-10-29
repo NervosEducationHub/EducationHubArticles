@@ -1,4 +1,5 @@
 ---
+description: "Compare CPU, GPU and ASIC crypto mining hardware by performance, power use, cost, flexibility and compatibility with mining algorithms."
 title: 'Crypto Mining Hardware Explained: CPU, GPU, and ASIC Miners'
 coverImage: 'images/image1.png'
 category: Mining, ASIC, PoW

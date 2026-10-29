@@ -1,4 +1,5 @@
 ---
+description: "Examine ASIC resistance in crypto mining, memory-hard algorithms, and why keeping specialized mining hardware at bay remains difficult."
 title: 'ASIC-Resistance in Crypto Mining: Is it possible?'
 coverImage: 'images/image1.png'
 category: 'PoW, Mining, ASIC'

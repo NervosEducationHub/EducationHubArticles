@@ -21,7 +21,7 @@ Full nodes are the most standard type of client, storing all blockchain data and
 
 ## What is a Light Client? A Deep Dive
 
-Among these, light clients have garnered significant attention due to their unique characteristics and functionalities. A light client, also known as an SPV ([Simplified Payment Verification](https://www.nervos.org/knowledge-base/what_is_SPV)) client, allows users to interact with the blockchain without having to download the entire blockchain data. This makes them ideal for devices with limited storage or processing capabilities.
+Among these, light clients have garnered significant attention due to their unique characteristics and functionalities. A light client, also known as an SPV ([Simplified Payment Verification](https://www.nervos.org/knowledge-base/what_is_spv)) client, allows users to interact with the blockchain without having to download the entire blockchain data. This makes them ideal for devices with limited storage or processing capabilities.
 
 Light clients operate by downloading and verifying a chain of block headers, which are the smallest units forming a chain. Each block header contains a condensed version of the block's information, including the previous block's hash, the timestamp, and the Merkle tree root. The Merkle tree root is a data structure that holds a condensed representation of all transactions in a block. Light clients verify and archive these headers, and any additional information, such as transaction data, is requested from full nodes.
 
@@ -50,7 +50,7 @@ Imagine a series of islands (blockchains) with different resources. Bridges (cro
 
 ## Challenges and Solutions
 
-Despite their numerous advantages, light clients also face certain challenges, the most notable of which is the [data availability](https://www.nervos.org/knowledge-base/what_is_data_%20availability_in_blockchain) problem. This problem arises when a light client cannot verify whether the data it needs is available on the network. To address this issue, potential solutions like [erasure codes](https://en.wikipedia.org/wiki/Erasure_code) have been proposed. Erasure codes allow data to be reconstructed even if some parts are missing, ensuring data availability.
+Despite their numerous advantages, light clients also face certain challenges, the most notable of which is the [data availability](https://www.nervos.org/knowledge-base/what_is_data_availability_in_blockchain) problem. This problem arises when a light client cannot verify whether the data it needs is available on the network. To address this issue, potential solutions like [erasure codes](https://en.wikipedia.org/wiki/Erasure_code) have been proposed. Erasure codes allow data to be reconstructed even if some parts are missing, ensuring data availability.
 
 Another challenge light clients face is the risk of interacting with dishonest full nodes. To mitigate this risk, the concept of fraud proofs has been introduced. Fraud proofs allow light clients to receive alerts about dishonest behavior, thereby enhancing their security.
 

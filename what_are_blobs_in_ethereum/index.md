@@ -1,4 +1,5 @@
 ---
+description: "Ethereum blobs provide temporary data storage for rollups. See how EIP-4844 works, reduces data costs and introduces resource trade-offs."
 title: 'What Are Blobs in Ethereum? Scaling Blockchain Data Storage'
 coverImage: 'images/image1.png'
 category:
@@ -17,7 +18,7 @@ Ethereum, as a decentralized platform, has always struggled with scalability. As
 
 ### What Are Blobs in Ethereum?
 
-Blobs, in the context of Ethereum, are a new data structure designed to enhance the blockchain's scalability. They were introduced through EIP-4844, also known as Proto-Danksharding, which is a precursor to full [sharding](https://www.nervos.org/knowledge-base/What_is_sharding_in_blockchain)—a technique aimed at dividing the Ethereum network into smaller, more manageable segments. Blobs are essentially large packets of data that can be included in Ethereum blocks, but unlike traditional transactions, they do not occupy space permanently on the blockchain and are only stored by nodes for 18 days. Blobs provide temporary storage for data, which is particularly beneficial for Layer 2 solutions that need to handle large volumes of data efficiently.
+Blobs, in the context of Ethereum, are a new data structure designed to enhance the blockchain's scalability. They were introduced through EIP-4844, also known as Proto-Danksharding, which is a precursor to full [sharding](https://www.nervos.org/knowledge-base/what_is_sharding_in_blockchain)—a technique aimed at dividing the Ethereum network into smaller, more manageable segments. Blobs are essentially large packets of data that can be included in Ethereum blocks, but unlike traditional transactions, they do not occupy space permanently on the blockchain and are only stored by nodes for 18 days. Blobs provide temporary storage for data, which is particularly beneficial for Layer 2 solutions that need to handle large volumes of data efficiently.
 
 The introduction of blobs marks a significant shift in how data is managed on Ethereum. Before blobs, all data had to be permanently stored and processed by the [Ethereum Virtual Machine (EVM)](https://ethereum.org/en/developers/docs/evm/), leading to increased costs and slower transaction times. Blobs, however, offer a more scalable and cost-effective solution by allowing large amounts of data to be stored temporarily, reducing the strain on the main Ethereum network.
 

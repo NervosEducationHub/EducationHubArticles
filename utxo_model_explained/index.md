@@ -1,4 +1,5 @@
 ---
+description: "Learn how the UTXO model tracks unspent coins, consumes transaction inputs and creates outputs, with its benefits and limits for blockchain design."
 title: 'The UTXO Model Explained'
 coverImage: 'images/image1.png'
 category: 'UTXO, Blockchain'

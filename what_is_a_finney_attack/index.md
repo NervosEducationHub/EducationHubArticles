@@ -10,7 +10,7 @@ author:
 
 A Finney attack is a specific type of [double-spending](https://en.wikipedia.org/wiki/Double-spending) attack that can occur in blockchain-based payment systems, particularly those relying on [Proof-of-Work](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling) (PoW) consensus mechanisms. In simple terms, a Finney attack exploits the time gap between when a transaction is broadcast to the network and when it is confirmed in a block, allowing an attacker who controls mining power to spend the same coins twice under carefully prepared conditions.
 
-The concept was first described by [Hal Finney](https://en.wikipedia.org/wiki/Hal_Finney_(computer_scientist)), one of Bitcoin’s earliest developers and contributors, which is why the attack bears his name. It represents an important theoretical and practical lesson in understanding blockchain security, [transaction finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto), and the assumptions that underpin trust in decentralized systems.
+The concept was first described by [Hal Finney](https://en.wikipedia.org/wiki/Hal_Finney_(computer_scientist)), one of Bitcoin’s earliest developers and contributors, which is why the attack bears his name. It represents an important theoretical and practical lesson in understanding blockchain security, [transaction finality](https://www.nervos.org/knowledge-base/what_is_finality_crypto), and the assumptions that underpin trust in decentralized systems.
 
 
 

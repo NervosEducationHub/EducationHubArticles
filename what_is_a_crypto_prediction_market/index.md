@@ -1,4 +1,5 @@
 ---
+description: "Crypto prediction markets use blockchain to trade on future events. Learn how outcome shares, pricing and settlement work, plus their risks and limits."
 title: 'What Is a Crypto Prediction Market?'
 coverImage: 'images/image1.png'
 category: Education

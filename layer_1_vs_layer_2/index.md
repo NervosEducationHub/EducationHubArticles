@@ -1,4 +1,5 @@
 ---
+description: "Understand the roles of Layer 1 and Layer 2 networks, how rollups and state channels scale blockchains, and where Nervos' layered design fits."
 title: 'Layer 1 vs. Layer 2 Blockchain Networks: What is the Difference?'
 coverImage: 'images/image2.png'
 category: 'Blockchain, Nervos, Modular, scaling'

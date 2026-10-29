@@ -1,4 +1,5 @@
 ---
+description: "Proof-of-History gives Solana a verifiable sequence of events. Learn how sequential hashing supports transaction ordering alongside proof of stake."
 title: 'What Is Proof-of-History (PoH)? A Brief Guide to the Cryptographic Clock Powering Solana'
 coverImage: 'images/image1.png'
 category: Consensus
@@ -64,7 +65,7 @@ The Solana blockchain represents the most prominent real-world implementation of
 
 Validators on Solana are assigned specific time slots during which they are responsible for producing blocks. PoH ensures that all participants agree on the exact sequence and timing of these slots. Because the clock is cryptographic and verifiable, leaders can produce blocks with confidence that their position in time is universally recognized by the network.
 
-Solana’s consensus mechanism, known as Tower BFT (Byzantine Fault Tolerant), is built on top of Proof-of-Stake and relies heavily on the ordered structure provided by PoH. Validators vote on blocks based on their position in the PoH sequence, allowing for rapid [finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto) and reduced rollback risk. In this way, PoH directly enhances both performance and reliability.
+Solana’s consensus mechanism, known as Tower BFT (Byzantine Fault Tolerant), is built on top of Proof-of-Stake and relies heavily on the ordered structure provided by PoH. Validators vote on blocks based on their position in the PoH sequence, allowing for rapid [finality](https://www.nervos.org/knowledge-base/what_is_finality_crypto) and reduced rollback risk. In this way, PoH directly enhances both performance and reliability.
 
 
 

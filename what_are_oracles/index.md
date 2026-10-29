@@ -1,4 +1,5 @@
 ---
+description: "Blockchain oracles connect smart contracts with external data. Examine oracle types, decentralized networks and the trust problems they must address."
 title: 'What are Blockchain Oracles? A Complete Guide'
 coverImage: 'images/image1.png'
 category: Education

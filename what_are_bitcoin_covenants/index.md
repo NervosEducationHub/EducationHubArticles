@@ -1,4 +1,5 @@
 ---
+description: "Bitcoin covenants propose extra constraints on how coins can be spent. Learn about spending rules, BIP-119's CTV proposal and the surrounding debate."
 title: 'What are Bitcoin Covenants? Enhancing Bitcoin Transactions'
 coverImage: 'images/image1.png'
 category: Bitcoin

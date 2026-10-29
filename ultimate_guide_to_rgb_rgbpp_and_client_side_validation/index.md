@@ -1,4 +1,5 @@
 ---
+description: "Compare RGB and RGB++ for tokenized assets on Bitcoin, covering client-side validation, single-use seals and CKB's role in RGB++."
 title: 'The Ultimate Guide to RGB, RGB++, and Client-Side Validation'
 coverImage: 'images/image1.png'
 category: Popular
@@ -143,7 +144,7 @@ Lastly, while RGB supports issuing and managing programmable and private assets,
 
 To extend Bitcoin’s programmability capabilities, the [RGB++](https://github.com/ckb-cell/RGBPlusPlus-design/blob/main/docs/light-paper-en.md) protocol draws heavy inspiration from RGB while mitigating all of its drawbacks. 
 
-[RGB++](https://www.nervos.org/knowledge-base/Understanding_Bitcoin_layer2) is a recently released novel Bitcoin scaling solution developed by Cell Studio, a blockchain infrastructure development firm founded by Nervos Network co-founder Cipher Wang. It solves the problems encountered by RGB through a new primitive called isomorphic binding. 
+[RGB++](https://www.nervos.org/knowledge-base/understanding_bitcoin_layer2) is a recently released novel Bitcoin scaling solution developed by Cell Studio, a blockchain infrastructure development firm founded by Nervos Network co-founder Cipher Wang. It solves the problems encountered by RGB through a new primitive called isomorphic binding. 
 
 
 ![alt_text](images/image5-1.png "image_tooltip")
@@ -151,7 +152,7 @@ To extend Bitcoin’s programmability capabilities, the [RGB++](https://github.c
 
 As already explained, the two most important components in RGB are the Bitcoin UTXOs used for RGB asset ownership identification and the commitments used for state management and one-time sealing. In RGB++, isomorphic binding is used to map Bitcoin UTXOs one-to-one with CKB cells—the bespoke data model based on generalized UTXOs used by the Common Knowledge Base blockchain. Asset ownership is synchronized using Bitcoin lock script, and the state is managed using cell data and type scripts.
 
-More specifically, [RGB++ maps Bitcoin UTXOs to CKB cells](https://www.nervos.org/knowledge-base/the-case-for-rgbpp) via isomorphic bindings and uses both systems’ script constraints to verify the correctness of the state computation and the validity of transactions or ownership changes. Isomorphic bindings facilitate synchronized operations across both blockchains in a trustless manner or without the need for centralized authorities or intermediaries. The process works as follows:
+More specifically, [RGB++ maps Bitcoin UTXOs to CKB cells](https://www.nervos.org/knowledge-base/the_case_for_rgbpp) via isomorphic bindings and uses both systems’ script constraints to verify the correctness of the state computation and the validity of transactions or ownership changes. Isomorphic bindings facilitate synchronized operations across both blockchains in a trustless manner or without the need for centralized authorities or intermediaries. The process works as follows:
 
 
 

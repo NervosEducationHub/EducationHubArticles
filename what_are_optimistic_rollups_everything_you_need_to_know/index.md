@@ -1,4 +1,5 @@
 ---
+description: "Understand optimistic rollups' Layer 2 role, dispute periods and withdrawal trade-offs, with examples from Arbitrum and Optimism."
 title: 'What Are Optimistic Rollups? Everything You Need to Know'
 coverImage: 'images/image3.png'
 category: Scaling

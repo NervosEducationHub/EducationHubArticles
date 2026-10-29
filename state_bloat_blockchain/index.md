@@ -37,7 +37,7 @@ Addressing state bloat is a complex challenge that requires careful design and e
 
 Another approach is to use stateless clients, which do not store the entire state but instead rely on other nodes to provide the necessary data when validating transactions. This can significantly reduce the resources required to run a light node but doesn’t really change anything for running full nodes, which is more relevant for decentralization.
 
-Finally, [sharding](https://www.nervos.org/knowledge-base/What_is_sharding_in_blockchain)—dividing the state into smaller, more manageable pieces—can also help mitigate state bloat. In theory, each shard would have a smaller state, making it easier to store and process, but this method is yet to be battle-tested on a larger scale in practice. 
+Finally, [sharding](https://www.nervos.org/knowledge-base/what_is_sharding_in_blockchain)—dividing the state into smaller, more manageable pieces—can also help mitigate state bloat. In theory, each shard would have a smaller state, making it easier to store and process, but this method is yet to be battle-tested on a larger scale in practice. 
 
 
 ## Nervos Network's Innovative Solution to State Bloat

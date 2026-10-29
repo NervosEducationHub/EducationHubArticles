@@ -1,4 +1,5 @@
 ---
+description: "Chain abstraction aims to simplify interactions across blockchains by hiding wallet, bridging and gas-token complexity behind a unified user experience."
 title: 'What is Chain Abstraction? A Complete Guide'
 coverImage: 'images/image1.png'
 category:

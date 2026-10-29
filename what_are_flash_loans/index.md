@@ -1,4 +1,5 @@
 ---
+description: "Flash loans are DeFi loans repaid within one transaction. Learn how they work without collateral, their trading uses and associated risks."
 title: 'What are Flash Loans and How Do They Work?'
 coverImage: 'images/image1.png'
 category: Education

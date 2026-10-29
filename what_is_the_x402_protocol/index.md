@@ -1,4 +1,5 @@
 ---
+description: "The x402 protocol uses HTTP 402 Payment Required for software payments. Learn its payment flow, AI agent uses and potential role for Fiber."
 title: 'What is the x402 Protocol?'
 coverImage: 'images/image1.png'
 category: Popular 

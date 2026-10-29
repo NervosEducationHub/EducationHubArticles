@@ -1,4 +1,5 @@
 ---
+description: "Examine Nervos CKB's ethos of low time preference and long-term blockchain design, connecting cypherpunk principles with architectural choices."
 title: 'Common Knowledge Base (CKB): Understanding Our Ethos'
 coverImage: 'images/image1.png'
 category: 'Nervos, popular'

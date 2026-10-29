@@ -1,4 +1,5 @@
 ---
+description: "Understand zero-knowledge proofs, their role in blockchain privacy and security, and applications in identity, confidential transactions and scaling."
 title: 'Zero-Knowledge Proofs (ZKPs) in Blockchain: A Complete Guide'
 coverImage: 'images/image1.png'
 category: Scaling

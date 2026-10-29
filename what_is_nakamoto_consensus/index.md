@@ -1,11 +1,12 @@
 ---
+description: "See how Nakamoto consensus combines proof of work, mining incentives and a chain-selection rule to help Bitcoin nodes agree on a shared ledger."
 title: 'What Is Nakamoto Consensus?'
 coverImage: 'images/image1.png'
 category: 'consensus'
 date: '2023-04-09T16:00:00.000Z'
 ---
 
-Nakamoto Consensus, named after the pseudonymous creator of Bitcoin, Satoshi Nakamoto, is a [Byzantine Fault Tolerant (BFT)](https://www.nervos.org/knowledge-base/BFT_consensus_mechanisms) consensus mechanism that combines Proof-of-Work with the "longest chain" rule to create a consensus protocol that adequately maintains the authenticity of decentralized blockchain networks.
+Nakamoto Consensus, named after the pseudonymous creator of Bitcoin, Satoshi Nakamoto, is a [Byzantine Fault Tolerant (BFT)](https://www.nervos.org/knowledge-base/bft_consensus_mechanisms) consensus mechanism that combines Proof-of-Work with the "longest chain" rule to create a consensus protocol that adequately maintains the authenticity of decentralized blockchain networks.
 
 First implemented in Bitcoin and later adopted by many subsequent cryptocurrencies, Nakamoto Consensus is the critical innovation that allowed Bitcoin to become the first BFT system that could scale organically without ever experiencing downtime. It's worth pointing out that while Nakamoto Consensus is often confused with Proof-of-Work, they're different. Nakamoto Consensus is a broader consensus protocol that incorporates Proof-of-Work but also other innovative ideas that make it unique.
 

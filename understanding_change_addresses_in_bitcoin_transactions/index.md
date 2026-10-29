@@ -1,4 +1,5 @@
 ---
+description: "Learn why Bitcoin transactions create change, how wallets use change addresses to return leftover funds, and what this means for transaction privacy."
 title: 'Understanding Change Addresses in Bitcoin Transactions'
 coverImage: 'images/image1.png'
 category: Bitcoin 

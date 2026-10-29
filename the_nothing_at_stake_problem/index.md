@@ -64,7 +64,7 @@ The Nothing-at-Stake problem introduces several concrete security risks. First, 
 
 Another most discussed attack is the long-range attack. In such an attack, an adversary acquires old private keys from validators who are no longer active. Because validating old blocks costs nothing, an attacker can reconstruct an alternative chain from far in the past and rewrite large portions of history. If current validators sign multiple chains without penalties, distinguishing the real history becomes difficult. New or offline nodes may accept the attacker’s version as valid. This undermines the immutability that blockchains promise.
 
-A blockchain’s value depends on its ability to converge on a single history. If validators routinely support multiple forks, convergence slows or fails entirely. The network may oscillate between competing chains, undermining confidence in [transaction finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto). Finality means that once a block is confirmed, it cannot be reverted. In systems vulnerable to Nothing-at-Stake, finality is weak. Blocks remain theoretically reversible for long periods. This uncertainty discourages high-value transactions and institutional adoption.
+A blockchain’s value depends on its ability to converge on a single history. If validators routinely support multiple forks, convergence slows or fails entirely. The network may oscillate between competing chains, undermining confidence in [transaction finality](https://www.nervos.org/knowledge-base/what_is_finality_crypto). Finality means that once a block is confirmed, it cannot be reverted. In systems vulnerable to Nothing-at-Stake, finality is weak. Blocks remain theoretically reversible for long periods. This uncertainty discourages high-value transactions and institutional adoption.
 
 These risks do not guarantee failure, but they raise the cost of trust. Users must rely on assumptions outside the protocol, such as social consensus or trusted checkpoints. This moves the system away from the ideal of trust minimization.
 
@@ -74,7 +74,7 @@ These risks do not guarantee failure, but they raise the cost of trust. Users mu
 
 ### Slashing
 
-[Slashing](https://www.nervos.org/knowledge-base/What_is_sharding_in_blockchain) is the most direct and widely adopted response to the Nothing-at-Stake problem. It introduces explicit, protocol-enforced penalties for misbehavior. When a validator is proven to have signed conflicting blocks or violated consensus rules, a portion—or in severe cases, all—of their stake is destroyed.
+[Slashing](https://www.nervos.org/knowledge-base/what_is_sharding_in_blockchain) is the most direct and widely adopted response to the Nothing-at-Stake problem. It introduces explicit, protocol-enforced penalties for misbehavior. When a validator is proven to have signed conflicting blocks or violated consensus rules, a portion—or in severe cases, all—of their stake is destroyed.
 
 This fundamentally alters the incentive landscape. Validating multiple forks is no longer costless; it carries a clear and immediate financial risk. Rational validators are therefore forced to make exclusive choices, mirroring the economic discipline imposed on miners in Proof-of-Work systems.
 

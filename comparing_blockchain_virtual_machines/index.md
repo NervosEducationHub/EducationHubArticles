@@ -1,4 +1,5 @@
 ---
+description: "Compare EVM, WASM, Solana's SVM and CKB-VM by architecture, smart contract execution, performance, security and developer experience."
 title: 'Comparing Blockchain Virtual Machines (VMs): EVM, WASM, SVM, and CKB-VM'
 coverImage: 'images/image1.png'
 category: VM
@@ -6,7 +7,7 @@ subtitle: 'While the EVM is the pioneer of blockchain virtual machines and still
 date: '2024-07-11T16:00:00.000Z'
 ---
 
-Blockchain [virtual machines (VMs)](https://www.nervos.org/knowledge-base/what_is_a_VM_in_blockchain) are the backbone of decentralized computing, enabling smart contract execution and decentralized application development across various blockchain platforms. 
+Blockchain [virtual machines (VMs)](https://www.nervos.org/knowledge-base/what_is_a_vm_in_blockchain) are the backbone of decentralized computing, enabling smart contract execution and decentralized application development across various blockchain platforms. 
 
 These VMs, such as the Ethereum Virtual Machine (EVM), Solana's Sealevel, Polkadot's [WebAssembly (WASM)](https://www.nervos.org/knowledge-base/what_is_webassembly), and Nervos’ CKB-VM, provide the environment in which code runs on the blockchain. Comparing these virtual machines involves evaluating their design principles, performance, scalability, and security features to understand their strengths and weaknesses and how they influence the ecosystem's functionality and developer experience.
 

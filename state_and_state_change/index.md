@@ -1,4 +1,5 @@
 ---
+description: "Understand blockchain state, how transactions and smart contracts change it, and how nodes maintain and verify a consistent view of stored data."
 title: 'What is State and How State Changes Work in Blockchain?'
 coverImage: 'images/image1.png'
 category: Blockchain, State

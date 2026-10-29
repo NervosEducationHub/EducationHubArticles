@@ -1,4 +1,5 @@
 ---
+description: "Lattice-based cryptography uses hard problems on mathematical lattices. Learn how it supports post-quantum signatures, encryption and key exchange."
 title: 'What Is Lattice-Based Cryptography? A Brief Guide to Post-Quantum Security'
 coverImage: 'images/image1.png'
 category: Cryptography 
