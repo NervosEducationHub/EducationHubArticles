@@ -47,7 +47,7 @@ Because traditional card networks fail under the demands of software, a new fina
 
 Every transaction needs a subject. Traditionally, banks and credit card processors rely on KYC (Know Your Customer) tied to a human being (SSN, passport, physical address) and multi-factor authentication. They assume a human is at the keyboard authorizing the transaction.
 
-When software initiates payments under delegated authority, you have to verify two things at once: the agent's identity and the underlying user's intent. Therefore, an agent must carry a verifiable identity that is distinct from, but provably linked to, the human or organization on whose behalf it acts. An agent’s identity is handled via cryptographic key pairs, Decentralized Identifiers (DIDs), or Verifiable Credentials (VCs). The AI agent holds its own secure, mathematically verifiable identity, allowing it to authenticate without a human intermediary. As a result, the industry is increasingly focusing on Know Your Agent (KYA) alongside Know Your Customer (KYA).
+When software initiates payments under delegated authority, you have to verify two things at once: the agent's identity and the underlying user's intent. Therefore, an agent must carry a verifiable identity that is distinct from, but provably linked to, the human or organization on whose behalf it acts. An agent’s identity is handled via cryptographic key pairs, Decentralized Identifiers (DIDs), or Verifiable Credentials (VCs). The AI agent holds its own secure, mathematically verifiable identity, allowing it to authenticate without a human intermediary. As a result, the industry is increasingly focusing on Know Your Agent (KYA) alongside Know Your Customer (KYC).
 
 ### Authorization & Governance Layer
 
