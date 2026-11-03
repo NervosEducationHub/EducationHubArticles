@@ -16,7 +16,7 @@ The Nakamoto Coefficient is one of the most straightforward ways to do it. It of
 
 ## What is the Nakamoto Coefficient?
 
-The term “Nakamoto Coefficient” was popularized by Balaji Srinivasan and Leland Lee in their 2017 essay [*Quantifying Decentralization*](https://news.earn.com/quantifying-decentralization-e39db233c28e), which sought to translate the vague notion of “distributed power” into something measurable. 
+The term “Nakamoto Coefficient” was popularized by Balaji Srinivasan and Leland Lee in their 2017 essay [*Quantifying Decentralization*](https://medium.com/21-co/quantifying-decentralization-e39db233c28e), which sought to translate the vague notion of “distributed power” into something measurable. 
 
 The idea is simple yet powerful, answering one of the most critical questions regarding blockchain design: *How many independent entities would have to collude to take control of a network?*
 

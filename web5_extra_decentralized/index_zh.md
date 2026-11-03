@@ -50,7 +50,7 @@ Nostr 不依赖单一平台存储用户数据，而是通过独立运营的服�
 
 ![alt_text](images/image10.png "image_tooltip")
 
-*去中心化和点对点网络的网络拓扑结构 (来源: [CKB Eco Fund](https://ckbecofund.substack.com/p/reclaiming-the-bitcoin-p2p-vision))*
+*去中心化和点对点网络的网络拓扑结构 (来源: [CKB Eco Fund](https://ckbeco.fund/))*
 
 底层架构是 Web5 与 Web3 的核心差异。
 
@@ -74,7 +74,7 @@ Web5 建立在真正去中心化、点对点拓扑结构的网络之上，这是
 观察今天的以太坊，“信任” 似乎有增无减。尽管质押池运营商和区块构建者并非严格意义上的可信第三方（TTP），但他们显然已成为日益重要的特权角色。  
 
 ![alt_text](images/image9.png "image_tooltip")
-*各实体质押的 ETH 占总质押的百分比 (来源: [dune.com](http://dune.com))*
+*各实体质押的 ETH 占总质押的百分比 (来源: [dune.com](https://dune.com))*
 
 流动性质押协议 [Lido](https://lido.fi/) 控制着约 28% 的总质押 ETH，[Coinbase](https://www.coinbase.com/) 控制着约 11%，这引发了对治理权和验证权集中于少数行业巨头的担忧。[Beaverbuild](https://beaverbuild.org/) 和 [Titan Builder](https://www.titanbuilder.xyz/) 生产了以太坊[约 89% 的区块](https://x.com/nero_eth/status/1846786871998759141)，进一步加剧了对抗审查能力和最大可提取价值（[MEV](https://cryptobriefing.com/what-is-mev-ethereums-invisible-tax-explained/)）控制的忧虑。  
 

@@ -203,6 +203,16 @@
     {
       "from": "what_are_ wrapped_tokens",
       "to": "what_are_wrapped_tokens"
+    },
+    {
+      "from": "CKBuilders2",
+      "to": "ckbuilders2",
+      "approval": {
+        "source": "User approval during upstream translation sync",
+        "date": "2026-11-03",
+        "upstreamCommit": "94e5127b6b918e932acdd8fed9dc46eaa72e0c27",
+        "scope": "Normalize this newly added article only; preserve permanent article and asset redirects. Additional to the original 50 D-18 workbook migrations."
+      }
     }
   ]
 }

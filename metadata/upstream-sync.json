@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "date": "2026-11-03",
+  "upstreamRepository": "https://github.com/NervosEducationHub/EducationHubArticles",
+  "upstreamCommit": "94e5127b6b918e932acdd8fed9dc46eaa72e0c27",
+  "previousFeatureCommit": "1a621879f26c8aaa30ed787bd3894f12b9c4575a",
+  "scope": "Sync upstream content into feat/kb-metadata-cleanup only. No main-branch merge or production release.",
+  "newEnglishArticles": 1,
+  "newChineseTranslations": 150,
+  "articles": 214,
+  "renditions": 471,
+  "languages": { "en": 214, "zh": 214, "es": 43 },
+  "originalD18Mappings": 50,
+  "additionalApprovedMapping": { "from": "CKBuilders2", "to": "ckbuilders2" },
+  "resolvedTranslationLocations": 43,
+  "rewrittenLinkDestinations": 77,
+  "preservedEnglishDescriptions": 91,
+  "notes": [
+    "Existing rendition classification and recommendation metadata is preserved. New translations inherit current existing English structural metadata, not English copy or review approval.",
+    "New ckbuilders2 English and Chinese records remain unclassified and pending-editorial; no Hub assignment was invented.",
+    "Upstream link fixes, including the now-merged PR #320 CCC Playground change, and the KYC correction are included.",
+    "All pre-existing optimized image bytes are retained. The new ckbuilders2 cover is imported unchanged and remains a separate optimization/review item.",
+    "The upstream root index.md is retained as a repository file, not a second article or a public catalog route.",
+    "Catalog sourceCommit records the feature HEAD used during preparation, before completing this merge. The exact imported upstream revision is recorded above."
+  ]
+}

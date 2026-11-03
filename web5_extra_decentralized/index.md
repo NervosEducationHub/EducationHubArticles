@@ -52,7 +52,7 @@ We see Web5 as a mesh of peer-to-peer networks connecting various PoW and UTXO-b
 
 ![alt_text](images/image10.png "image_tooltip")
 
-*Network topologies of decentralized and peer-to-peer networks. (Source: [CKBEcoFund](https://ckbecofund.substack.com/p/reclaiming-the-bitcoin-p2p-vision))*
+*Network topologies of decentralized and peer-to-peer networks. (Source: [CKBEcoFund](https://ckbeco.fund/))*
 
 The underlying rails are the key distinguisher between Web5 and Web3 here.
 
@@ -75,7 +75,7 @@ Taking inventory of Ethereum today, "trust" seems to be on the rise. While stake
 
 
 ![alt_text](images/image9.png "image_tooltip")
-*Percentage of total ETH staked by entities. (Source: [dune.com](http://dune.com))*
+*Percentage of total ETH staked by entities. (Source: [dune.com](https://dune.com))*
 
 Liquid staking protocol [Lido](https://lido.fi/) controls ~28% of total ETH staked while [Coinbase](https://www.coinbase.com/) controls ~11%, raising concerns about the potential concentration of governance and validation rights among a few influential industry players. [Beaverbuild](https://beaverbuild.org/) and [Titan Builder](https://www.titanbuilder.xyz/) are producing[ ~89% of all blocks](https://x.com/nero_eth/status/1846786871998759141) on Ethereum, which raises further concerns regarding censorship resistance and control over maximum extractable value ([MEV](https://cryptobriefing.com/what-is-mev-ethereums-invisible-tax-explained/)).
 

@@ -194,7 +194,7 @@ Al mismo tiempo, el token nativo de la cadena de bloques, CKB, no solo se usa pa
  
 _[Emisión](https://explorer.nervos.org/nervosdao) combinada del token CKB_
 
-La emisión secundaria garantiza que los ocupantes o usuarios estatales que almacenan activos en la cadena de bloques sigan pagando por la seguridad a largo plazo de la cadena de bloques a través de la renta estatal recurrente o el “impuesto inflacionario” otorgado a los mineros. Sin embargo, para garantizar que el protocolo no grava injustamente las monedas CKB que no se utilizan para almacenar el estado, estas monedas pueden bloquearse en un contrato particular, denominado [NervosDAO](https://dao.ckb.pw/#/), para recibir una emisión secundaria para compensar la dilución injusta.
+La emisión secundaria garantiza que los ocupantes o usuarios estatales que almacenan activos en la cadena de bloques sigan pagando por la seguridad a largo plazo de la cadena de bloques a través de la renta estatal recurrente o el “impuesto inflacionario” otorgado a los mineros. Sin embargo, para garantizar que el protocolo no grava injustamente las monedas CKB que no se utilizan para almacenar el estado, estas monedas pueden bloquearse en un contrato particular, denominado [NervosDAO](https://nervdao.com), para recibir una emisión secundaria para compensar la dilución injusta.
 
 En resumen, este diseño tokenómico asegura que:
 
