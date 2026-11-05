@@ -99,7 +99,7 @@ UTXO 的工作方式类似于现金，其中每个 UTXO 就像一张独特的纸
 
 相比之下，账户模型中的账户就像银行账户一样，资金转移被记录为不同用户账户的收支。当 Alice 想要向 Bob 发送 10 美元时，银行会从 Alice 的账户余额中扣除 10 美元，并在 Bob 的账户余额中增加 10 美元。同样的情况也发生在基于账户模型的区块链上，只不过记录的账本分布在许多节点中而已。
 
-从功能的角度来看，两种记账模型各有优缺点。账户模型是有状态的，这使得开发需要访问区块链状态信息的智能合约变得更容易，但可扩展性较差。另一方面，UTXO 模型是无状态的，这使得开发需要状态信息的智能合约变得更加困难，但它支持[并行交易](https://www.nervos.org/knowledge-base/The_Difference_Between_Parallel_and_Sequential_Transaction_Execution_in_Crypto)处理，从而提供了更强的可扩展性。此外，[账户模型是基于计算的，而 UTXO 模型是基于验证的](https://www.nervos.org/knowledge-base/difference_blockchain_computation_verification)，这意味着后者需要的资源密集度较低，可以让参与节点在更便宜的硬件上运行。
+从功能的角度来看，两种记账模型各有优缺点。账户模型是有状态的，这使得开发需要访问区块链状态信息的智能合约变得更容易，但可扩展性较差。另一方面，UTXO 模型是无状态的，这使得开发需要状态信息的智能合约变得更加困难，但它支持[并行交易](https://www.nervos.org/knowledge-base/the_difference_between_parallel_and_sequential_transaction_execution_in_crypto)处理，从而提供了更强的可扩展性。此外，[账户模型是基于计算的，而 UTXO 模型是基于验证的](https://www.nervos.org/knowledge-base/difference_blockchain_computation_verification)，这意味着后者需要的资源密集度较低，可以让参与节点在更便宜的硬件上运行。
 
 Nervos 的独特之处在于，它使用了一种全新的记账模型，称为 Cell 模型。Cell 模型充分结合了上述两个模型的优点：账户模型的可编程性和 UTXO 模型的可扩展性以及灵活性。简单来说，Cell 模型是一种更通用或者说更抽象的记账模型，它对系统和应用的合约开发者的限制更少。
 

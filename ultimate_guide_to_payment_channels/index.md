@@ -1,4 +1,5 @@
 ---
+description: "Follow a payment channel from funding to closure, including commitment transactions, penalties and how connected channels route payments."
 title: 'The Ultimate Guide to Payment Channels and Payment Channel Networks'
 coverImage: 'images/image7.png'
 category: Scaling

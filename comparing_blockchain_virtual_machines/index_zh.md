@@ -6,7 +6,7 @@ subtitle: 'EVM 是区块链虚拟机的先驱，至今仍是最流行的智能�
 date: '2024-07-11T16:00:00.000Z'
 ---
 
-区块链[虚拟机（VM）](https://www.nervos.org/knowledge-base/what_is_a_VM_in_blockchain)是去中心化计算的基础，支持在不同区块链平台上执行智能合约和开发去中心化应用。
+区块链[虚拟机（VM）](https://www.nervos.org/knowledge-base/what_is_a_vm_in_blockchain)是去中心化计算的基础，支持在不同区块链平台上执行智能合约和开发去中心化应用。
 
 以太坊虚拟机（EVM）、Solana 的 Sealevel、Polkadot 的 [WebAssembly（WASM）](https://www.nervos.org/knowledge-base/what_is_webassembly)和 Nervos 的 CKB-VM 等虚拟机，为代码在区块链上运行提供了环境。比较这些虚拟机，需要考察其设计原则、性能、可扩展性和安全特性，从而了解各自的优劣，以及它们如何影响生态系统的功能和开发者体验。
 

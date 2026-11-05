@@ -1,4 +1,5 @@
 ---
+description: "LNURL makes Lightning payments more approachable through links and QR codes. Learn how it handles payments, withdrawals and authentication."
 title: 'What is Lightning Network URL (LNURL)?'
 coverImage: 'images/image1.png'
 category: Lightning

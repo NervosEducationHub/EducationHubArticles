@@ -20,7 +20,7 @@ author:
 
 区块链常被描述为无需依赖可信第三方（trustless）的系统，但这种特性建立在一种非常具体的信任之上：对密码学的信任。
 
-每个加密货币钱包和每笔交易，最终都依赖一个假设：某些数学问题在计算上难以求解。对今天大多数主要区块链而言，这意味着依靠公钥密码学，特别是[椭圆曲线密码学](https://www.nervos.org/knowledge-base/understanding_ECDSA)，证明授权交易的人确实控制着对应私钥。
+每个加密货币钱包和每笔交易，最终都依赖一个假设：某些数学问题在计算上难以求解。对今天大多数主要区块链而言，这意味着依靠公钥密码学，特别是[椭圆曲线密码学](https://www.nervos.org/knowledge-base/understanding_ecdsa)，证明授权交易的人确实控制着对应私钥。
 
 这个成立了数十年的假设，如今正受到一种新机器的威胁：[量子计算机](https://en.wikipedia.org/wiki/Quantum_computing)。
 
@@ -68,7 +68,7 @@ author:
 
 比特币清楚地展示了这个问题。
 
-用户发起普通 [P2PKH](https://www.nervos.org/zh/knowledge-base/bitcoin_legacy_vs_segwit_vs_taproot_addresses) 交易时，钱包提供两项解锁数据来花费一个或多个 [UTXO](https://www.nervos.org/knowledge-base/utxo_model_explained)：公钥，以及使用对应私钥生成的[数字签名](https://www.nervos.org/knowledge-base/What_is_a_digital_signature_%20in_Blockchain)。随后，交易广播到比特币点对点网络，每个收到它的节点都会先进行验证，再决定是否将其收入内存池（mempool）或继续转发。
+用户发起普通 [P2PKH](https://www.nervos.org/zh/knowledge-base/bitcoin_legacy_vs_segwit_vs_taproot_addresses) 交易时，钱包提供两项解锁数据来花费一个或多个 [UTXO](https://www.nervos.org/knowledge-base/utxo_model_explained)：公钥，以及使用对应私钥生成的[数字签名](https://www.nervos.org/knowledge-base/what_is_a_digital_signature_in_blockchain)。随后，交易广播到比特币点对点网络，每个收到它的节点都会先进行验证，再决定是否将其收入内存池（mempool）或继续转发。
 
 这里的“有效”（valid）意味着几项要求：引用的 UTXO 必须存在且尚未花费；交易不能创造比其花费数量更多的比特币；每个输入都必须满足其试图花费的输出的花费条件。在 P2PKH 交易中，最终归结为一个关键问题：这笔交易是否由控制该 UTXO 的私钥签署？
 

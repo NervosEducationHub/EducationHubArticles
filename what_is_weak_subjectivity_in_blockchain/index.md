@@ -40,7 +40,7 @@ Weak subjectivity is most closely associated with Proof-of-Stake blockchains. In
 
 For a node that has been offline for a long time, both the honest chain and a malicious long-range fork may appear internally consistent. Unlike Proof-of-Work, there is no accumulated energy signal to distinguish which history was socially accepted. Weak subjectivity, often implemented through checkpoints, limits the feasibility of such long-range attacks.
 
-Fork choice rules in Proof-of-Stake often rely on validator votes and [finality](https://www.nervos.org/knowledge-base/What_is_finality_crypto) mechanisms. These mechanisms work well when validators are actively participating, but complications arise when large portions of the validator set change over time. Historical signatures alone cannot prove which chain was considered canonical by the network at a given moment, because signatures can be reproduced without cost after validators have exited.
+Fork choice rules in Proof-of-Stake often rely on validator votes and [finality](https://www.nervos.org/knowledge-base/what_is_finality_crypto) mechanisms. These mechanisms work well when validators are actively participating, but complications arise when large portions of the validator set change over time. Historical signatures alone cannot prove which chain was considered canonical by the network at a given moment, because signatures can be reproduced without cost after validators have exited.
 
 This ambiguity does not affect continuously online nodes, but it does affect newcomers or long-dormant nodes. Without additional context, they may unknowingly synchronize to an invalid history.
 

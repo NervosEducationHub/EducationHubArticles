@@ -1,4 +1,5 @@
 ---
+description: "Understand how RPC nodes and endpoints connect wallets and apps to blockchains for balance queries, transaction submission and other requests."
 title: 'What Are RPC Nodes and RPC Endpoints?'
 coverImage: 'images/image1.png'
 category: Node

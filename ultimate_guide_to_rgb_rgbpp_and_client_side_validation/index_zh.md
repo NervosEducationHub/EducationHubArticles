@@ -143,7 +143,7 @@ RGB 依赖客户端验证带来的两项最大优势是隐私和抗审查能力�
 
 为了拓展比特币的可编程能力，[RGB++](https://github.com/ckb-cell/RGBPlusPlus-design/blob/main/docs/light-paper-en.md) 协议从 RGB 汲取了大量灵感，同时缓解了它的所有不足。
 
-[RGB++](https://www.nervos.org/knowledge-base/Understanding_Bitcoin_layer2) 是最近发布的一种新型比特币扩容方案，由区块链基础设施开发公司 Cell Studio 开发。该公司由 Nervos Network 联合创始人 Cipher Wang 创立。RGB++ 通过一种名为同构绑定（isomorphic binding）的新原语，解决 RGB 遇到的问题。
+[RGB++](https://www.nervos.org/knowledge-base/understanding_bitcoin_layer2) 是最近发布的一种新型比特币扩容方案，由区块链基础设施开发公司 Cell Studio 开发。该公司由 Nervos Network 联合创始人 Cipher Wang 创立。RGB++ 通过一种名为同构绑定（isomorphic binding）的新原语，解决 RGB 遇到的问题。
 
 
 ![alt_text](images/image5-1.png "image_tooltip")
@@ -151,7 +151,7 @@ RGB 依赖客户端验证带来的两项最大优势是隐私和抗审查能力�
 
 如前所述，RGB 的两个最重要组成部分，是用于识别 RGB 资产所有权的比特币 UTXO，以及用于状态管理和一次性密封的承诺。在 RGB++ 中，同构绑定将比特币 UTXO 与 CKB Cell 一一映射。Cell 是 Common Knowledge Base 区块链采用的专用数据模型，基于广义 UTXO。资产所有权通过比特币锁定脚本同步，状态则通过 Cell 数据和类型脚本（type scripts）管理。
 
-具体来说，[RGB++ 通过同构绑定将比特币 UTXO 映射到 CKB Cell](https://www.nervos.org/knowledge-base/the-case-for-rgbpp)，并利用两个系统的脚本约束，验证状态计算的正确性，以及交易或所有权变更的有效性。同构绑定让两条区块链能够以无需依赖可信第三方（trustless）的方式同步操作，即无须中心化机构或中介。过程如下：
+具体来说，[RGB++ 通过同构绑定将比特币 UTXO 映射到 CKB Cell](https://www.nervos.org/knowledge-base/the_case_for_rgbpp)，并利用两个系统的脚本约束，验证状态计算的正确性，以及交易或所有权变更的有效性。同构绑定让两条区块链能够以无需依赖可信第三方（trustless）的方式同步操作，即无须中心化机构或中介。过程如下：
 
 
 

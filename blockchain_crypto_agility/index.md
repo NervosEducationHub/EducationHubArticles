@@ -1,4 +1,5 @@
 ---
+description: "Explore blockchain crypto agility and how CKB's programmable lock scripts allow new signature schemes, including post-quantum ones, to be deployed."
 title: 'Blockchain Crypto Agility: CKB’s Key to Quantum Safety'
 coverImage: 'images/image1.png'
 category: Popular 
@@ -20,7 +21,7 @@ author:
 
 Blockchains are often described as trustless systems, but that trustlessness rests on a very specific kind of trust: trust in cryptography.
 
-Every cryptocurrency wallet and transaction ultimately depends on the assumption that certain mathematical problems are infeasible to solve. For most major blockchains today, that means relying on public-key cryptography, especially [elliptic-curve cryptography](https://www.nervos.org/knowledge-base/understanding_ECDSA), to prove that the person authorizing a transaction actually controls the corresponding private key.
+Every cryptocurrency wallet and transaction ultimately depends on the assumption that certain mathematical problems are infeasible to solve. For most major blockchains today, that means relying on public-key cryptography, especially [elliptic-curve cryptography](https://www.nervos.org/knowledge-base/understanding_ecdsa), to prove that the person authorizing a transaction actually controls the corresponding private key.
 
 That assumption, which has held for decades, is now being threatened by a new kind of machine: the [quantum computer](https://en.wikipedia.org/wiki/Quantum_computing).
 
@@ -68,7 +69,7 @@ In most blockchains, signature schemes are not merely wallet-side preferences or
 
 Bitcoin illustrates the problem clearly.
 
-When a user makes a normal [P2PKH](https://www.nervos.org/zh/knowledge-base/bitcoin_legacy_vs_segwit_vs_taproot_addresses) transaction, their wallet spends one or more [UTXOs](https://www.nervos.org/knowledge-base/utxo_model_explained) by providing two pieces of unlocking data: a public key and a [digital signature](https://www.nervos.org/knowledge-base/What_is_a_digital_signature_%20in_Blockchain) produced with the corresponding private key. The transaction is then broadcast to the Bitcoin peer-to-peer network, where each node that receives it validates it before accepting it into its mempool or relaying it further.
+When a user makes a normal [P2PKH](https://www.nervos.org/zh/knowledge-base/bitcoin_legacy_vs_segwit_vs_taproot_addresses) transaction, their wallet spends one or more [UTXOs](https://www.nervos.org/knowledge-base/utxo_model_explained) by providing two pieces of unlocking data: a public key and a [digital signature](https://www.nervos.org/knowledge-base/what_is_a_digital_signature_in_blockchain) produced with the corresponding private key. The transaction is then broadcast to the Bitcoin peer-to-peer network, where each node that receives it validates it before accepting it into its mempool or relaying it further.
 
 “Valid” here means several things: the referenced UTXO must exist and remain unspent, the transaction must not create more bitcoin than it spends, and each input must satisfy the spending conditions of the output it is trying to spend. In a P2PKH transaction, that ultimately comes down to one key question: was this transaction signed by the private key that controls the UTXO?
 

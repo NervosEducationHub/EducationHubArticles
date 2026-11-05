@@ -34,13 +34,13 @@ author:
 
 链重组最常见于比特币等工作量证明系统的讨论，但也会以不同形式出现在其他共识机制中。
 
-在权益证明（proof-of-stake）系统中，[验证者（validators）](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators)负责提议区块并投票。如果验证者意见不一致，或恶意参与者试图使相互竞争的链都获得最终确认，仍可能发生重组。不过，[罚没（slashing）](https://www.nervos.org/knowledge-base/slashing_in_PoS)惩罚和[最终性（finality）](https://www.nervos.org/knowledge-base/What_is_finality_crypto)机制，使深度重组比在工作量证明系统中更不容易发生。
+在权益证明（proof-of-stake）系统中，[验证者（validators）](https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators)负责提议区块并投票。如果验证者意见不一致，或恶意参与者试图使相互竞争的链都获得最终确认，仍可能发生重组。不过，[罚没（slashing）](https://www.nervos.org/knowledge-base/slashing_in_pos)惩罚和[最终性（finality）](https://www.nervos.org/knowledge-base/what_is_finality_crypto)机制，使深度重组比在工作量证明系统中更不容易发生。
 
 委托权益证明及其他变体通常依赖规模较小的验证者集合。由于更加中心化，这些系统可以避免频繁重组；但一旦发生重组，驱动因素可能是政治性的，而非技术性的。
 
 混合系统试图结合不同机制的优势，但根本权衡依然存在：重组体现了去中心化、速度与安全性之间的张力。
 
-随着区块链扩展和演进，尤其是 Layer 2 [Rollup](https://www.nervos.org/knowledge-base/what_are_optimistic_rollups_and_how_do_they_work)、[分片（sharding）](https://www.nervos.org/knowledge-base/What_is_sharding_in_blockchain)和[跨链桥（cross-chain bridges）](https://www.nervos.org/knowledge-base/what_are_blockchain_bridges)等创新出现，重组的影响和演变只会更加复杂。例如，基础层重组可能波及与其连接的系统，甚至使整个生态陷入不稳定。
+随着区块链扩展和演进，尤其是 Layer 2 [Rollup](https://www.nervos.org/knowledge-base/what_are_optimistic_rollups_and_how_do_they_work)、[分片（sharding）](https://www.nervos.org/knowledge-base/what_is_sharding_in_blockchain)和[跨链桥（cross-chain bridges）](https://www.nervos.org/knowledge-base/what_are_blockchain_bridges)等创新出现，重组的影响和演变只会更加复杂。例如，基础层重组可能波及与其连接的系统，甚至使整个生态陷入不稳定。
 
 
 

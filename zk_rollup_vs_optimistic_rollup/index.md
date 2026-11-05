@@ -1,4 +1,5 @@
 ---
+description: "Compare ZK-rollups and optimistic rollups, focusing on validity proofs, fraud challenges, withdrawal delays and implementation trade-offs."
 title: 'ZK-Rollups vs. Optimistic Rollups: What’s The Difference?'
 coverImage: 'images/image1.png'
 category: Scaling

@@ -26,7 +26,7 @@ PTLC 最令人期待的应用是[支付通道（payment channels）](https://www
 
 ### HTLC 在哪里发挥作用？
 
-[哈希时间锁合约（Hashed Timelock Contract）](https://www.nervos.org/knowledge-base/What_is_a_Hashed_Timelock_Contract)（HTLC）是一种结合哈希锁（hashlock）与时间锁（timelock）的智能合约，支持无需依赖可信第三方（trustless）的条件支付。哈希锁要求接收方提供与某个密码学哈希匹配的正确秘密值（称为原像，preimage），以此保障交易。若主要条件未满足，时间锁允许在指定期限后取回资金。
+[哈希时间锁合约（Hashed Timelock Contract）](https://www.nervos.org/knowledge-base/what_is_a_hashed_timelock_contract)（HTLC）是一种结合哈希锁（hashlock）与时间锁（timelock）的智能合约，支持无需依赖可信第三方（trustless）的条件支付。哈希锁要求接收方提供与某个密码学哈希匹配的正确秘密值（称为原像，preimage），以此保障交易。若主要条件未满足，时间锁允许在指定期限后取回资金。
 
 HTLC 让支付通道能够连接多个人，不只是 Alice 与 Bob，也可以覆盖整个用户网络。假设 Alice 想向 Charlie 付款，却没有与他直接相连的通道，但 Bob 有。借助 HTLC，Alice 可以经由 Bob 向 Charlie 支付：
 

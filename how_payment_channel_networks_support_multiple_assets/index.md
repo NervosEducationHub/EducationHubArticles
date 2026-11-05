@@ -140,7 +140,7 @@ Both sides of the payment use the same **payment hash**, which is derived from a
 
 The payments are conditional: they can only settle when the correct preimage becomes available.
 
-On Lightning, this condition is enforced through a [**Hash Time-Locked Contract (HTLC)**](https://www.nervos.org/knowledge-base/What_is_a_Hashed_Timelock_Contract). Fiber uses its corresponding **Time-Locked Contract (TLC)** mechanism. For CCH payments, both sides use [SHA-256](https://www.nervos.org/knowledge-base/SHA256_most_used_hash_function) for the payment hash, allowing the same preimage to satisfy the condition on both networks.
+On Lightning, this condition is enforced through a [**Hash Time-Locked Contract (HTLC)**](https://www.nervos.org/knowledge-base/what_is_a_hashed_timelock_contract). Fiber uses its corresponding **Time-Locked Contract (TLC)** mechanism. For CCH payments, both sides use [SHA-256](https://www.nervos.org/knowledge-base/sha256_most_used_hash_function) for the payment hash, allowing the same preimage to satisfy the condition on both networks.
 
 This shared secret is what links the Fiber payment to the Lightning payment.
 

@@ -1,4 +1,5 @@
 ---
+description: "On-chain reputation systems turn blockchain activity into trust signals. Learn how they assess participants and support identity, DeFi and governance."
 title: 'What Are On-Chain Reputation Systems?'
 coverImage: 'images/image1.png'
 category: Education
@@ -8,7 +9,7 @@ author:
 - github:explainCKBot
 ---
 
-An on-chain reputation system is a mechanism that derives trust signals directly from verifiable blockchain activity and uses those signals to evaluate the reliability, credibility, and contribution of a wallet, [decentralized identity](https://www.nervos.org/knowledge-base/decentralized_identifiers_DIDs) (DID), or network participant. Instead of relying on user reviews, centralized ratings, or opaque moderation processes, these systems interpret cryptographic proofs of behavior that are permanently recorded on a public ledger.
+An on-chain reputation system is a mechanism that derives trust signals directly from verifiable blockchain activity and uses those signals to evaluate the reliability, credibility, and contribution of a wallet, [decentralized identity](https://www.nervos.org/knowledge-base/decentralized_identifiers_dids) (DID), or network participant. Instead of relying on user reviews, centralized ratings, or opaque moderation processes, these systems interpret cryptographic proofs of behavior that are permanently recorded on a public ledger.
 
 This transition from traditional reputation models to blockchain-based reputation systems represents more than a technical upgrade. It establishes a new trust paradigm in which reputation becomes transparent, portable, user-owned, and embedded into the infrastructure of decentralized networks, forming a foundational layer for decentralized finance (DeFi), DAOs, decentralized social networks and creator platforms.
 

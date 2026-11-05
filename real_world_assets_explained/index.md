@@ -1,4 +1,5 @@
 ---
+description: "Real-world assets (RWAs) connect traditional finance and blockchain through tokenization. Examine examples, ownership claims, uses and legal challenges."
 title: 'Real-World Assets (RWAs) Explained: Bridging Traditional Finance and Blockchain'
 coverImage: 'images/image1.png'
 category: Education

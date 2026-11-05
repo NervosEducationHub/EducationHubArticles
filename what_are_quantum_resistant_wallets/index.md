@@ -1,4 +1,5 @@
 ---
+description: "Quantum-resistant wallets use post-quantum signatures. Examine their design, public-key exposure, CKB support and practical development challenges."
 title: "What Are Quantum-Resistant Wallets?"
 coverImage: "images/image1.png"
 category: Wallet
@@ -21,7 +22,7 @@ A quantum-resistant wallet is a cryptocurrency wallet designed to secure user as
 
 ## Why Are Crypto Wallets Vulnerable to Quantum Computers?
 
-Crypto wallets are vulnerable to quantum computers because their underlying elliptic-curve digital signatures, such as [ECDSA](https://www.nervos.org/knowledge-base/understanding_ECDSA) or [EdDSA](https://en.wikipedia.org/wiki/EdDSA), rely on the [discrete logarithm](https://en.wikipedia.org/wiki/Discrete_logarithm) problem, a mathematical challenge that classical computers cannot solve but quantum computers can crack rapidly using [Shor’s algorithm](https://en.wikipedia.org/wiki/Shor's_algorithm).
+Crypto wallets are vulnerable to quantum computers because their underlying elliptic-curve digital signatures, such as [ECDSA](https://www.nervos.org/knowledge-base/understanding_ecdsa) or [EdDSA](https://en.wikipedia.org/wiki/EdDSA), rely on the [discrete logarithm](https://en.wikipedia.org/wiki/Discrete_logarithm) problem, a mathematical challenge that classical computers cannot solve but quantum computers can crack rapidly using [Shor’s algorithm](https://en.wikipedia.org/wiki/Shor's_algorithm).
 
 While this security assumption has safely protected networks like Bitcoin and Ethereum for decades, a sufficiently powerful quantum computer bypasses this defense entirely. This means that the moment a public key becomes exposed on the blockchain, the mathematical shield fails at the signature level, rendering legacy wallet architectures insecure against quantum-equipped adversaries.
 

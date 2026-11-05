@@ -8,7 +8,7 @@ author:
 - github:nervosnetwork
 ---
 
-[容错量子计算（fault-tolerant quantum computing）](https://en.wikipedia.org/wiki/Fault_tolerant_quantum_computing)给主要区块链带来了长期安全挑战。大多数传统网络仍依赖椭圆曲线密码学，包括 [ECDSA](https://www.nervos.org/knowledge-base/understanding_ECDSA)、EdDSA 或相关签名方案。一旦出现足以威胁密码系统的量子计算机，这些方案就可能容易受到[肖尔算法（Shor’s algorithm）](https://en.wikipedia.org/wiki/Shor%27s_algorithm)的攻击。
+[容错量子计算（fault-tolerant quantum computing）](https://en.wikipedia.org/wiki/Fault_tolerant_quantum_computing)给主要区块链带来了长期安全挑战。大多数传统网络仍依赖椭圆曲线密码学，包括 [ECDSA](https://www.nervos.org/knowledge-base/understanding_ecdsa)、EdDSA 或相关签名方案。一旦出现足以威胁密码系统的量子计算机，这些方案就可能容易受到[肖尔算法（Shor’s algorithm）](https://en.wikipedia.org/wiki/Shor%27s_algorithm)的攻击。
 
 这并不意味着每条区块链如今面临的风险相同。有些网络从一开始就围绕后量子密码学（post-quantum cryptography）设计；有些则在研究从经典签名迁移到后量子替代方案的路径。还有一小类采取了不同思路：不把协议绑定在单一签名方案上，而是让密码学验证足够灵活，能够随时间推移支持新算法。
 

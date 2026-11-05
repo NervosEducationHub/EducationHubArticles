@@ -28,7 +28,7 @@ Q-Day 是一个假想的时间点，届时具备密码破解能力的量子计�
 
 Q-Day 关系到比特币，是因为比特币的交易授权依赖 [secp256k1](https://www.nervos.org/knowledge-base/secp256k1_a_key_algorithm)，即其签名方案所使用的椭圆曲线。
 
-较早的比特币输出使用基于 secp256k1 的 [ECDSA](https://www.nervos.org/knowledge-base/understanding_ECDSA)。Taproot 使用同样基于 secp256k1 的 [Schnorr 签名](https://www.nervos.org/knowledge-base/schnorr_signatures)。两者是不同的签名方案，但都依赖同一个底层难题：椭圆曲线离散对数问题。
+较早的比特币输出使用基于 secp256k1 的 [ECDSA](https://www.nervos.org/knowledge-base/understanding_ecdsa)。Taproot 使用同样基于 secp256k1 的 [Schnorr 签名](https://www.nervos.org/knowledge-base/schnorr_signatures)。两者是不同的签名方案，但都依赖同一个底层难题：椭圆曲线离散对数问题。
 
 对于比特币使用的密钥长度，经典计算机无法在任何实际可接受的时间内求解这一问题，但足够强大的量子计算机可以。
 
@@ -82,7 +82,7 @@ Q-Day 主要威胁非对称密码学，也称公钥密码学。在区块链系�
 
 对于比特币，脆弱的密码学原语是基于 secp256k1 椭圆曲线的 ECDSA 和 Schnorr 签名。对于以太坊，标准的外部拥有账户（Externally Owned Accounts，EOAs）同样依赖基于 secp256k1 的 ECDSA。以太坊还有其他易受量子攻击的组件，包括共识层的 BLS 签名和 KZG 承诺（KZG commitments），两者均依赖椭圆曲线配对。
 
-哈希函数则不同。肖尔算法无法破解 [SHA-256](https://www.nervos.org/knowledge-base/Unbreakable_SHA256_Why_Even_Quantum_Computers_Cannot_Do_It)，也无法以同样直接的方式破解比特币的工作量证明（proof-of-work）。[格罗弗算法（Grover’s algorithm）](https://en.wikipedia.org/wiki/Grover%27s_algorithm)理论上可以加快暴力穷举（brute-force search），但这种加速与肖尔算法对公钥密码学造成的结构性破解并不相同。
+哈希函数则不同。肖尔算法无法破解 [SHA-256](https://www.nervos.org/knowledge-base/unbreakable_sha256_why_even_quantum_computers_cannot_do_it)，也无法以同样直接的方式破解比特币的工作量证明（proof-of-work）。[格罗弗算法（Grover’s algorithm）](https://en.wikipedia.org/wiki/Grover%27s_algorithm)理论上可以加快暴力穷举（brute-force search），但这种加速与肖尔算法对公钥密码学造成的结构性破解并不相同。
 
 薄弱环节是交易授权。如果公钥已暴露，而其背后的签名方案容易受到量子攻击，具备密码破解能力的量子计算机就可能推导出私钥，将这个已暴露的公钥变成可花费的资金。
 

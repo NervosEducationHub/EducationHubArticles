@@ -10,7 +10,7 @@ author:
 
 芬尼攻击（Finney attack）是一种特定的[双重支付（double-spending）](https://en.wikipedia.org/wiki/Double-spending)攻击，可能发生在基于区块链的支付系统中，尤其是依赖[工作量证明（Proof-of-Work，PoW）](https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling)共识机制的系统。简单来说，芬尼攻击利用交易广播到网络与被区块确认之间的时间差，让控制算力的攻击者在精心准备的条件下，将同一笔币花费两次。
 
-这一概念最早由比特币早期开发者和贡献者之一[哈尔·芬尼（Hal Finney）](https://en.wikipedia.org/wiki/Hal_Finney_(computer_scientist))描述，因此以他的名字命名。它为理解区块链安全、[交易最终性（finality）](https://www.nervos.org/knowledge-base/What_is_finality_crypto)，以及去中心化系统中信任所依赖的假设，提供了重要的理论与实践启示。
+这一概念最早由比特币早期开发者和贡献者之一[哈尔·芬尼（Hal Finney）](https://en.wikipedia.org/wiki/Hal_Finney_(computer_scientist))描述，因此以他的名字命名。它为理解区块链安全、[交易最终性（finality）](https://www.nervos.org/knowledge-base/what_is_finality_crypto)，以及去中心化系统中信任所依赖的假设，提供了重要的理论与实践启示。
 
 
 

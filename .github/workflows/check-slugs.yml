@@ -1,0 +1,22 @@
+name: Check article slugs
+
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-slugs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test the slug checker
+        run: node --test scripts/check-slugs.test.mjs
+      - name: Check article folder names
+        run: node scripts/check-slugs.mjs

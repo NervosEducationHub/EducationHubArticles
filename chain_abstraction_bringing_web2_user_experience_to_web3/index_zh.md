@@ -118,7 +118,7 @@ OTX 协议允许用户在协议内以声明式方式表达[意图](https://www.n
 
 B 币从哪里来、谁撮合交易等后台细节，都被隐藏起来。用户只需签署意图，并将其广播到内存池（mempool），由自动化代理或求解器尝试实现这些意图，随后形成 CKB 交易。
 
-CKB 上链抽象的其他实际例子包括 [JoyID](https://joy.id/) 钱包和 [D.id](https://d.id) 数字身份协议。CKB 的底层特性，让 JoyID 能够使用 [WebAuthn](https://www.nervos.org/knowledge-base/understanding_webAuthn) 中已广泛实现的 [Secp256r1](https://www.nervos.org/knowledge-base/what_is_secp256r1#:~:text=Secp256r1%2C%20also%20known%20as%20%22P,adoption%20in%20the%20blockchain%20industry.)（P256）签名算法，而不是通常预编译进 EVM 链的 [Secp256k1](https://www.nervos.org/knowledge-base/secp256k1_a_key_algorithm) 算法。
+CKB 上链抽象的其他实际例子包括 [JoyID](https://joy.id/) 钱包和 [D.id](https://d.id) 数字身份协议。CKB 的底层特性，让 JoyID 能够使用 [WebAuthn](https://www.nervos.org/knowledge-base/understanding_webauthn) 中已广泛实现的 [Secp256r1](https://www.nervos.org/knowledge-base/what_is_secp256r1#:~:text=Secp256r1%2C%20also%20known%20as%20%22P,adoption%20in%20the%20blockchain%20industry.)（P256）签名算法，而不是通常预编译进 EVM 链的 [Secp256k1](https://www.nervos.org/knowledge-base/secp256k1_a_key_algorithm) 算法。
 
 由于所有主流操作系统都支持 WebAuthn，网站可以在用户设备的[可信执行环境（Trusted Execution Environment）](https://en.wikipedia.org/wiki/Trusted_execution_environment)（TEE）中创建公私钥对，并使用私钥签署交易，同时保证私钥不会泄露。在签名授权过程中，本地认证通过生物识别或 PIN 码验证完成。
 

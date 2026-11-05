@@ -12,7 +12,7 @@ author:
 
 大多数公钥密码学依赖一种简单的不对称性：有些数学运算很容易执行，但在经典计算机上极难逆向求解。
 
-RSA 依赖大合数分解的困难性。Diffie–Hellman、[椭圆曲线数字签名算法（ECDSA）](https://www.nervos.org/knowledge-base/understanding_ECDSA)、Schnorr 签名和椭圆曲线密码学，则依赖求解[离散对数（discrete-logarithm）](https://en.wikipedia.org/wiki/Discrete_logarithm)问题的困难性。这些数学问题各不相同，但具有相同的基本安全假设：经典计算机无法以足以造成实际影响的速度完成逆向求解。
+RSA 依赖大合数分解的困难性。Diffie–Hellman、[椭圆曲线数字签名算法（ECDSA）](https://www.nervos.org/knowledge-base/understanding_ecdsa)、Schnorr 签名和椭圆曲线密码学，则依赖求解[离散对数（discrete-logarithm）](https://en.wikipedia.org/wiki/Discrete_logarithm)问题的困难性。这些数学问题各不相同，但具有相同的基本安全假设：经典计算机无法以足以造成实际影响的速度完成逆向求解。
 
 肖尔算法打破了这一假设。
 
@@ -369,7 +369,7 @@ RSA 仍是互联网上使用最广泛的密码系统之一，应用于 TLS、电
 
 ### 肖尔算法与格罗弗算法有什么区别？
 
-肖尔算法对公钥密码学提供指数级加速：通过因数分解破解 RSA，通过离散对数破解 Diffie–Hellman、ECDSA、Schnorr 签名和椭圆曲线密码学。格罗弗算法（Grover’s algorithm）对暴力穷举搜索（brute-force search）则只提供平方级加速。它会影响 AES 等对称密码和 [SHA-256](https://www.nervos.org/knowledge-base/SHA256_most_used_hash_function) 等哈希，但不会以相同方式破解它们。应对方法也不同：容易受到肖尔算法攻击的公钥方案必须更换；对称方案和哈希通常需要更大的安全裕量（security margins），例如更长的密钥。这也是为什么从任何实际意义上说，[即使量子计算机也无法破解 SHA-256](https://www.nervos.org/knowledge-base/Unbreakable_SHA256_Why_Even_Quantum_Computers_Cannot_Do_It)。
+肖尔算法对公钥密码学提供指数级加速：通过因数分解破解 RSA，通过离散对数破解 Diffie–Hellman、ECDSA、Schnorr 签名和椭圆曲线密码学。格罗弗算法（Grover’s algorithm）对暴力穷举搜索（brute-force search）则只提供平方级加速。它会影响 AES 等对称密码和 [SHA-256](https://www.nervos.org/knowledge-base/sha256_most_used_hash_function) 等哈希，但不会以相同方式破解它们。应对方法也不同：容易受到肖尔算法攻击的公钥方案必须更换；对称方案和哈希通常需要更大的安全裕量（security margins），例如更长的密钥。这也是为什么从任何实际意义上说，[即使量子计算机也无法破解 SHA-256](https://www.nervos.org/knowledge-base/unbreakable_sha256_why_even_quantum_computers_cannot_do_it)。
 
 ### 如何使用肖尔算法？
 

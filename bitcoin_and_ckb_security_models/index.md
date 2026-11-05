@@ -1,4 +1,5 @@
 ---
+description: "Compare Bitcoin and CKB security models, including mining rewards, transaction fees, security budgets and CKB's use of secondary issuance."
 title: 'Bitcoin vs. CKB: Two Approaches to Achieving Sustainable Security'
 coverImage: 'images/image7.png'
 category: Popular
@@ -21,7 +22,7 @@ In the PoW consensus mechanism, special types of nodes called [miners](https://w
 
 To that point, the transactions included in a block that gets added to the blockchain are considered “confirmed,” meaning the users can spend the bitcoins they received in those transactions. The more confirmations a transaction has—or the more blocks built on top of the block containing the transaction—the lesser the chance that the transaction gets tampered with. 
 
-To get the chance to update the blockchain with the latest block of transactions, miners race to complete a specific task that involves finding a valid hash output of the [SHA-256](https://www.nervos.org/knowledge-base/SHA256_most_used_hash_function) cryptographic [hash function](https://www.nervos.org/knowledge-base/what_is_a_hash_function). 
+To get the chance to update the blockchain with the latest block of transactions, miners race to complete a specific task that involves finding a valid hash output of the [SHA-256](https://www.nervos.org/knowledge-base/sha256_most_used_hash_function) cryptographic [hash function](https://www.nervos.org/knowledge-base/what_is_a_hash_function). 
 
 For the uninitiated, a [hash function](https://www.nervos.org/knowledge-base/what_is_a_hash_function) is a mathematical function that converts an arbitrary-length input into a deterministic, fixed-length output—a cryptographic fingerprint of the input. Hash functions are “one-way,” meaning the hash inputs cannot be reverse-engineered from the hash outputs. For any specific input, the resulting hash will always be the same and can be easily calculated and verified by anyone, using the same hash algorithm. 
 

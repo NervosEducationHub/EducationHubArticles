@@ -1,4 +1,5 @@
 ---
+description: "Compare Proof-of-Work (PoW) and Proof-of-Stake (PoS), including how they secure blockchains, their advantages and their drawbacks."
 title: 'Proof-of-Work vs. Proof-of-Stake: Key Differences Explained'
 coverImage: 'images/image1.png'
 category: PoW, consensus
@@ -46,7 +47,7 @@ Proof-of-Stake (PoS) is an alternative consensus algorithm used in some blockcha
 
 In a Proof-of-Stake system, validators propose and validate new blocks. The likelihood of a validator being chosen to create a new block is proportional to their stake in the network. For example, a validator with a larger stake is more likely to be selected than one with a smaller stake. Once a validator is chosen, they create a new block and add it to the blockchain. Validators are rewarded with newly minted cryptocurrency and transaction fees, as is the case in Proof-of-Work. 
 
-By tying the validation power to the stake, validators are incentivized to act in the network's best interest, as any attempt to manipulate the blockchain could result in their stake being forfeited or "[slashed](https://www.nervos.org/knowledge-base/slashing_in_PoS)," causing them to suffer financial losses.
+By tying the validation power to the stake, validators are incentivized to act in the network's best interest, as any attempt to manipulate the blockchain could result in their stake being forfeited or "[slashed](https://www.nervos.org/knowledge-base/slashing_in_pos)," causing them to suffer financial losses.
 
 
 ### Proof-of-Stake (PoS) Advantages

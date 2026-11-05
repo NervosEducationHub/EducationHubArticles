@@ -1,4 +1,5 @@
 ---
+description: "Compare blockchain mainnets and testnets, their roles in live transactions and development, and the differences in assets, risk and testing environments."
 title: 'What are Testnet and Mainnet in Blockchain?'
 coverImage: 'images/image1.png'
 category: Education

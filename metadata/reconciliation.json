@@ -1,0 +1,1235 @@
+{
+  "sourceCommit": "1a621879f26c8aaa30ed787bd3894f12b9c4575a",
+  "articles": 214,
+  "renditions": 471,
+  "languages": {
+    "en": 214,
+    "zh": 214,
+    "es": 43
+  },
+  "classified": 342,
+  "unresolvedFeatured": [
+    {
+      "hub": "blockchain-vms-risc-v",
+      "language": "en",
+      "order": 2,
+      "url": "https://www.nervos.org/knowledge-base/what_is_a_VM_in_blockchain_(explainCKBot)",
+      "articleId": null
+    }
+  ],
+  "unmatchedCandidates": [
+    {
+      "key": "account_abstraction_where_were_going",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/account_abstraction_where_were_going"
+    },
+    {
+      "key": "what_are_airdrops",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_are-airdrops_(explainCKBot)"
+    },
+    {
+      "key": "what_are_optimistic_rollups",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/What_are_optimistic_rollups_(explainCKBot)"
+    },
+    {
+      "key": "what_are_precompiles",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_are-precompiles_(explainCKBot)"
+    },
+    {
+      "key": "what_is_ripemd160",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is-RIPEMD160_(explainCKBot)"
+    },
+    {
+      "key": "bitcoin_legacy_vs_segwit_vs_taproot_addresses",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/bitcoin_legacy_vs_segwit_vs_taproot_addresses_(explainCKBot)"
+    },
+    {
+      "key": "bitcoin_script",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/bitcoin_script_(explainCKBot)"
+    },
+    {
+      "key": "how_bitcoins_path_to_quantum_resistance_could_look_like",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/how_bitcoins_path_to_quantum_resistance_could_look_like"
+    },
+    {
+      "key": "how_does_the_bitcoin_lightning_network_charge_fees",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/how_does_the_bitcoin_lightning_network_charge_fees_(explainCKBot)"
+    },
+    {
+      "key": "integer_overflow_and_underflow_attacks",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/integer_overflow_and_underflow_attacks_(explainCKBot)"
+    },
+    {
+      "key": "non_custodial_crypto_wallet",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/non-custodial_crypto_wallet_(explainCKBot)"
+    },
+    {
+      "key": "top_quantum_resistant_cryptocurrency_projects_in_2026",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/top_quantum_resistant_cryptocurrency_projects_in_2026"
+    },
+    {
+      "key": "unbreakable_sha256_why_even_quantum_computers_cannot_do_it",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/Unbreakable_SHA256_Why_Even_Quantum_Computers_Cannot_Do_It_(explainCKBot)"
+    },
+    {
+      "key": "understanding_mpc_wallets",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/understanding_mpc_wallets_(explainCKBot)"
+    },
+    {
+      "key": "what_are_blockchain_transaction_fees",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/What_are_Blockchain_Transaction_Fees_(explainCKBot)"
+    },
+    {
+      "key": "what_are_optimistic_rollups",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_are_optimistic_rollups"
+    },
+    {
+      "key": "what_are_privacy_coins",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_are_ \nprivacy_coins_(explainCKBot)"
+    },
+    {
+      "key": "what_is_a_blockchain_gas_fee",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_is_a_blockchain_gas_fee_(explainCKBot)"
+    },
+    {
+      "key": "what_is_a_hashed_timelock_contract",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/What_is_a_Hashed_Timelock_Contract_(explainCKBot)"
+    },
+    {
+      "key": "what_is_a_partially_signed_bitcoin_transacion",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_is_a_partially_signed_bitcoin_transacion_(explainCKBot)"
+    },
+    {
+      "key": "what_is_lightning_network_url",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_is_lightning_network_url_(explainCKBot)"
+    },
+    {
+      "key": "what_is_nakamoto_coefficient",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_is_nakamoto_coefficient_(explainCKBot)"
+    },
+    {
+      "key": "what_is_selfish_mining_and_how_protocols_deter_it",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_is_selfish_mining_and_how_protocols_deter_it_(explainCKBot)"
+    },
+    {
+      "key": "decentralized_storage_systems",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/decentralized_storage_systems"
+    },
+    {
+      "key": "layer_1_vs_layer_2",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/layer_1_vs_layer_2"
+    },
+    {
+      "key": "what_are_seedless_wallets",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/what_are_seedless_wallets_(explainCKBot)"
+    },
+    {
+      "key": "what_is_a_bribery_attack_in_proof_of_stake",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/what_is_a_bribery_attack_in_proof_of_stake_(explainCKBot)"
+    },
+    {
+      "key": "what_is_a_coinbase_transaction",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/what_is_a_coinbase_transaction_(explainCKBot)"
+    },
+    {
+      "key": "what_is_a_light_client",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/what_is_a_light_client_(explainCKBot)"
+    },
+    {
+      "key": "what_is_an_eclipse_attack",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/what_is_an_eclipse_attack_(explainCKBot)"
+    },
+    {
+      "key": "what_is_gas_abstraction_in_blockchain",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/what_is_gas_abstraction_in_blockchain_(explainCKBot)"
+    },
+    {
+      "key": "what_is_lattice_based_cryptography",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/what_is_lattice_based_cryptography_(explainCKBot)"
+    },
+    {
+      "key": "what_is_nakamoto_consensus",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/what_is_nakamoto_consensus"
+    },
+    {
+      "key": "what_is_riscv",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/what_is_riscv"
+    },
+    {
+      "key": "what_is_the_utxo_alliance",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/what_is_the_utxo_alliance"
+    },
+    {
+      "key": "why_is_proof_of_work_required",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/why_is_proof_of_work_required"
+    },
+    {
+      "key": "zk_rollup_vs_optimistic_rollup",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/zk_rollup_vs_optimistic_rollup"
+    },
+    {
+      "key": "introduction_to_x402",
+      "language": "ko",
+      "url": "https://www.nervos.org/ko/knowledge-base/introduction_to_x402_(explainCKBot)"
+    },
+    {
+      "key": "seed_phrases",
+      "language": "ko",
+      "url": "https://www.nervos.org/ko/knowledge-base/seed_phrases"
+    },
+    {
+      "key": "what_are_penalty_transactions",
+      "language": "ko",
+      "url": "https://www.nervos.org/ko/knowledge-base/what_are_penalty_transactions_(explainCKBot)"
+    },
+    {
+      "key": "what_is_proof_of_history",
+      "language": "ko",
+      "url": "https://www.nervos.org/ko/knowledge-base/what_is_proof_of_history_(explainCKBot)"
+    },
+    {
+      "key": "integer_overflow_and_underflow_attacks",
+      "language": "tr",
+      "url": "https://www.nervos.org/tr/knowledge-base/integer_overflow_and_underflow_attacks_(explainCKBot)"
+    },
+    {
+      "key": "what_is_weak_subjectivity_in_blockchain",
+      "language": "tr",
+      "url": "https://www.nervos.org/tr/knowledge-base/what_is_weak_subjectivity_in_blockchain_(explainCKBot)"
+    },
+    {
+      "key": "account_abstraction_where_were_going",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/account_abstraction_where_were_going"
+    },
+    {
+      "key": "non_custodial_crypto_wallet",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/non-custodial_crypto_wallet_(explainCKBot)"
+    },
+    {
+      "key": "what_are_optimistic_rollups",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_are_optimistic_rollups"
+    },
+    {
+      "key": "what_are_precompiles",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_are-precompiles_(explainCKBot)"
+    },
+    {
+      "key": "what_is_ripemd160",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is-RIPEMD160_(explainCKBot)"
+    }
+  ],
+  "issues": [
+    {
+      "sourceFile": "5_lightning_network_alternatives_for_instant_crypto_payments/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "account_abstraction_where_we_are_going/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "account_abstraction_where_we_are_going/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "are_lightning_network_payments_private/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "asic_resistance_is_it_possible/index_es.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "becoming_money_stablecoins_on_lightning_the_next_step_in_bitcoins_journey/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "becoming_money_stablecoins_on_lightning_the_next_step_in_bitcoins_journey/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "bitcoin_and_ckb_security_models/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "bitcoin_and_ckb_security_models/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "blockchain_trilemma/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "blockchain_trilemma/index_es.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "blockchain_trilemma/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "chain_abstraction_bringing_web2_user_experience_to_web3/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "chain_abstraction_bringing_web2_user_experience_to_web3/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "ckb_blockchain_developers_dream/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "ckb_blockchain_developers_dream/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "ckb_understanding_our_ethos/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "ckb_understanding_our_ethos/index_es.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "ckb_understanding_our_ethos/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "ckbuilders2/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "ckbuilders2/index_zh.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "comparing_blockchain_virtual_machines/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "comparing_blockchain_virtual_machines/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "cross_chain_solutions_a_complete_guide/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "guide_to_inscriptions/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "guide_to_inscriptions/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "hash_based_cryptographic_algorithms_for_post_quantum_security/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "how_blockchains_empower_ai_agents/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "how_off_chain_payments_work/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "how_payment_channel_networks_support_multiple_assets/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "integer_overflow_and_underflow_attacks/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "intents_an_old_idea_wrapped_in_new_clothing/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "intents_an_old_idea_wrapped_in_new_clothing/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "introduction_to_x402/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "layer_1_vs_layer_2/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "layer_1_vs_layer_2/index_es.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "layer_1_vs_layer_2/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "multivariate_polynomial_cryptographic_algorithms_for_post_quantum_security/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "nervos_overview_of_a_layered_blockchain/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "nervos_overview_of_a_layered_blockchain/index_es.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "nervos_overview_of_a_layered_blockchain/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "non_custodial_crypto_wallet/index_es.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "non_custodial_crypto_wallet/index_zh.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "optimizing_layer_1_for_modularity/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "optimizing_layer_1_for_modularity/index_es.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "optimizing_layer_1_for_modularity/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "quantum_resistance/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "quantum_resistance/index_es.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "quantum_resistance/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "sidechains_unlocking_the_potential/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "sidechains_unlocking_the_potential/index_es.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "sidechains_unlocking_the_potential/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "the_case_for_rgbpp/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "the_case_for_rgbpp/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "the_difference_between_parallel_and_sequential_transaction_execution_in_crypto/index.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "the_difference_between_parallel_and_sequential_transaction_execution_in_crypto/index_zh.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "tokenomics_of_nervos_network/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "tokenomics_of_nervos_network/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "ultimate_guide_bitcoin_layer_two_part_1/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "ultimate_guide_bitcoin_layer_two_part_1/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "ultimate_guide_to_light_clients/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "ultimate_guide_to_light_clients/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "ultimate_guide_to_payment_channels/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "ultimate_guide_to_payment_channels/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "ultimate_guide_to_rgb_rgbpp_and_client_side_validation/index.md",
+      "warnings": [
+        "date-normalized-existing-site-rule",
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "ultimate_guide_to_rgb_rgbpp_and_client_side_validation/index_zh.md",
+      "warnings": [
+        "date-normalized-existing-site-rule",
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "understanding_token_standards_erc20/index.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "understanding_token_standards_erc20/index_zh.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "utxo_model_explained/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "utxo_model_explained/index_es.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "utxo_model_explained/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "utxo_vs_account_based/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "utxo_vs_account_based/index_es.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "utxo_vs_account_based/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "verkle_trees_vs_merkle_trees/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "web5_extra_decentralized/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "web5_extra_decentralized/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "what_are_airdrops/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_are_bitcoin_drivechains/index.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_are_bitcoin_drivechains/index_zh.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_are_blobs_in_ethereum/index.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_are_blobs_in_ethereum/index_zh.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_are_blockchain_intents/index.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_are_blockchain_intents/index_zh.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_are_blockchain_transaction_fees/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_are_depins/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_are_fraud_proofs_in_blockchain/index.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_are_fraud_proofs_in_blockchain/index_zh.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_are_machine_to_machine_payments/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_are_micropayments/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_are_on_chain_reputation_systems/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_are_optimistic_rollups_and_how_do_they_work/index.md",
+      "warnings": [
+        "no-exact-candidate",
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_are_optimistic_rollups_and_how_do_they_work/index_zh.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_are_optimistic_rollups_everything_you_need_to_know/index.md",
+      "warnings": [
+        "no-exact-candidate",
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "what_are_optimistic_rollups_everything_you_need_to_know/index_es.md",
+      "warnings": [
+        "no-exact-candidate",
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "what_are_optimistic_rollups_everything_you_need_to_know/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "what_are_passkeys/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_are_payment_channels/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "what_are_payment_channels/index_es.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "what_are_payment_channels/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "what_are_precompiles/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_are_seedless_wallets/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_are_sovereign_rollups/index.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_are_sovereign_rollups/index_zh.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_are_stateless_clients/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_are_streaming_payments/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_are_validity_proofs_in_blockchain/index.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_are_validity_proofs_in_blockchain/index_zh.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_does_determinism_mean_in_blockchain/index.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_does_determinism_mean_in_blockchain/index_zh.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_is_51_attack/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "what_is_51_attack/index_es.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "what_is_51_attack/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "what_is_a_block_builder_in_blockchain/index.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_is_a_block_builder_in_blockchain/index_zh.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_is_a_bribery_attack_in_proof_of_stake/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_is_a_crypto_prediction_market/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_is_a_finney_attack/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_is_a_hash_function/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "what_is_a_hash_function/index_es.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "what_is_a_hash_function/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "what_is_a_partially_signed_bitcoin_transacion/index.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_is_a_partially_signed_bitcoin_transacion/index_zh.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_is_a_slippage_in_trading/index.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_is_a_slippage_in_trading/index_zh.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_is_a_smart_contract_wallet/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_is_a_vm_in_blockchain/index.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_is_a_vm_in_blockchain/index_zh.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_is_abstraction/index.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_is_abstraction/index_zh.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_is_blockchain_as_a_service/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_is_blockchain_interoperability/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_is_client_side_validation/index.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_is_client_side_validation/index_zh.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_is_data_availability_sampling/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_is_decentralized_cloud_storage/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_is_domainkeys/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_is_finality_crypto/index.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_is_finality_crypto/index_zh.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_is_gas_abstraction_in_blockchain/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_is_merge_mining/index.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_is_merge_mining/index_zh.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_is_nakamoto_consensus/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "what_is_nakamoto_consensus/index_es.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "what_is_nakamoto_consensus/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "what_is_oracle_extractable_value/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_is_proof_of_history/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_is_ripemd160/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_is_sharding_in_blockchain/index.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_is_sharding_in_blockchain/index_zh.md",
+      "warnings": [
+        "date-normalized-existing-site-rule"
+      ]
+    },
+    {
+      "sourceFile": "what_is_the_utxo_alliance/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "what_is_the_utxo_alliance/index_es.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "what_is_the_utxo_alliance/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "what_is_the_x402_protocol/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "what_is_weak_subjectivity_in_blockchain/index.md",
+      "warnings": [
+        "no-exact-candidate"
+      ]
+    },
+    {
+      "sourceFile": "why_is_proof_of_work_required/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "why_is_proof_of_work_required/index_es.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "why_is_proof_of_work_required/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "zk_rollup_vs_optimistic_rollup/index.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "zk_rollup_vs_optimistic_rollup/index_es.md",
+      "warnings": [
+        "missing-author"
+      ]
+    },
+    {
+      "sourceFile": "zk_rollup_vs_optimistic_rollup/index_zh.md",
+      "warnings": [
+        "missing-author"
+      ]
+    }
+  ]
+}

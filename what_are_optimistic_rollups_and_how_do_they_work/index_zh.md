@@ -27,7 +27,7 @@ Optimistic Rollup 将大量交易在链下聚合（aggregating）或打包（bat
 
 ### 排序器与数据可用性
 
-排序器（sequencer）是 Optimistic Rollup 网络中的节点，负责聚合交易、生成状态根，并将其提交到以太坊区块链。排序器在保障[数据可用性（data availability）](https://www.nervos.org/knowledge-base/what_is_data_%20availability_in_blockchain)方面起着关键作用：它将每批交易的相关数据，例如 calldata，发布到链上，使其他节点能在需要时重建 Rollup 状态。即使排序器作恶或不可用，这一机制也能确保 Rollup 的安全性和完整性。
+排序器（sequencer）是 Optimistic Rollup 网络中的节点，负责聚合交易、生成状态根，并将其提交到以太坊区块链。排序器在保障[数据可用性（data availability）](https://www.nervos.org/knowledge-base/what_is_data_availability_in_blockchain)方面起着关键作用：它将每批交易的相关数据，例如 calldata，发布到链上，使其他节点能在需要时重建 Rollup 状态。即使排序器作恶或不可用，这一机制也能确保 Rollup 的安全性和完整性。
 
 
 ### 欺诈证明与争议解决
@@ -60,7 +60,7 @@ Optimistic Rollup 的争议解决机制是一个关键组件，旨在确保以�
 
 **4. 最终性与安全性**
 
-这一争议解决机制确保，Optimistic Rollup 中的所有交易，只有在挑战窗口结束、且没有任何成功的欺诈证明之后，才能获得[最终性（finality）](https://www.nervos.org/knowledge-base/What_is_finality_crypto)。它通过确保只有有效交易才会最终确定并被纳入以太坊区块链，来保障 Optimistic Rollup 的安全。这也强化了一个原则：网络安全并非只依赖排序器的诚实，还依靠整个网络的警惕，以及挑战和验证交易的能力。
+这一争议解决机制确保，Optimistic Rollup 中的所有交易，只有在挑战窗口结束、且没有任何成功的欺诈证明之后，才能获得[最终性（finality）](https://www.nervos.org/knowledge-base/what_is_finality_crypto)。它通过确保只有有效交易才会最终确定并被纳入以太坊区块链，来保障 Optimistic Rollup 的安全。这也强化了一个原则：网络安全并非只依赖排序器的诚实，还依靠整个网络的警惕，以及挑战和验证交易的能力。
 
 从根本上说，Optimistic Rollup 的争议解决机制旨在利用以太坊网络整体的安全和验证能力，确保即使为扩容而在链下运行，仍能保持区块链的完整性，以及无需依赖可信第三方的特性（trustlessness）。
 

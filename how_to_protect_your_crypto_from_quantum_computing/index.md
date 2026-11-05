@@ -1,4 +1,5 @@
 ---
+description: "Review ways to prepare crypto holdings for quantum risk, including public-key exposure checks, post-quantum wallets and blockchain migration plans."
 title: 'How to Protect Your Crypto from Quantum Computing'
 coverImage: 'images/image1.png'
 category: Popular 
@@ -18,7 +19,7 @@ For crypto holders, the question is no longer whether to prepare, but how.
 
 ### Shor's Algorithm and Your Public Key 
 
-The most direct quantum threat to cryptocurrency comes from Shor’s algorithm. A sufficiently powerful quantum computer could use it to solve the elliptic curve discrete logarithm problem, which is the hard mathematical problem behind [ECDSA](https://www.nervos.org/knowledge-base/understanding_ECDSA) and other elliptic-curve signature schemes used by Bitcoin, Ethereum, and many other blockchains.
+The most direct quantum threat to cryptocurrency comes from Shor’s algorithm. A sufficiently powerful quantum computer could use it to solve the elliptic curve discrete logarithm problem, which is the hard mathematical problem behind [ECDSA](https://www.nervos.org/knowledge-base/understanding_ecdsa) and other elliptic-curve signature schemes used by Bitcoin, Ethereum, and many other blockchains.
 
 In practical terms, the risk begins once your public key is visible. If a future quantum computer can derive your private key from your public key, an attacker could create a valid signature and move your funds.
 

@@ -42,7 +42,7 @@ date: '2023-10-02T16:00:00.000Z'
 
 不同类型的节点以不同的方式解释数据，并提供不同的同步方法，同步是指节点能多快跟上区块链的最新状态。
 
-此外，不同区块链的节点类型也不尽相同。例如，在最大的基于 PoS 的智能合约平台以太坊上，客户可以运行三种不同类型的节点：轻节点、[全节点](https://www.nervos.org/knowledge-base/difference_between_miner_full_node)和归档节点。另一方面，在最大的基于 PoW 的区块链比特币上，客户只能运行全节点和轻节点（也称为 [SPV](https://www.nervos.org/knowledge-base/what_is_SPV) 节点）。由于比特币和以太坊使用不同的共识算法，处理数据的方式也不同，因此不同类型的节点或客户端的运行方式也不同。
+此外，不同区块链的节点类型也不尽相同。例如，在最大的基于 PoS 的智能合约平台以太坊上，客户可以运行三种不同类型的节点：轻节点、[全节点](https://www.nervos.org/knowledge-base/difference_between_miner_full_node)和归档节点。另一方面，在最大的基于 PoW 的区块链比特币上，客户只能运行全节点和轻节点（也称为 [SPV](https://www.nervos.org/knowledge-base/what_is_spv) 节点）。由于比特币和以太坊使用不同的共识算法，处理数据的方式也不同，因此不同类型的节点或客户端的运行方式也不同。
 
 
 ### 全节点

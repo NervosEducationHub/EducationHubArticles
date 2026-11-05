@@ -50,7 +50,7 @@ The choice between Optimistic Rollups and ZK Rollups often depends on the specif
 
 ### Dependency on Data Availability
 
-One of the key challenges associated with fraud proofs is their reliance on [data availability](https://www.nervos.org/knowledge-base/what_is_data_%20availability_in_blockchain). In order for a fraud proof to be validated, the verifier must have access to all the necessary data related to the transaction in question. If any part of the data is missing or incomplete it is impossible to be certain the transaction is legitimate.
+One of the key challenges associated with fraud proofs is their reliance on [data availability](https://www.nervos.org/knowledge-base/what_is_data_availability_in_blockchain). In order for a fraud proof to be validated, the verifier must have access to all the necessary data related to the transaction in question. If any part of the data is missing or incomplete it is impossible to be certain the transaction is legitimate.
 
 This dependency on data availability presents a significant risk, especially in decentralized networks where data may be distributed across multiple nodes. If a malicious actor is able to withhold or manipulate the data, they could potentially prevent a valid fraud proof from being submitted, allowing the fraudulent transaction to go unchallenged. To mitigate this risk, blockchain networks must ensure that data is readily available and accessible to all participants.
 

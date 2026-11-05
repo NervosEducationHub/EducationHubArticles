@@ -1,4 +1,5 @@
 ---
+description: "Learn how a 51% attack uses majority hash power to enable double spending, why hash rate matters, and how blockchain networks can respond."
 title: 'What is a 51% Attack in Cryptocurrency?'
 coverImage: 'images/image1.png'
 category: 'Blockchain, consensus, PoW'

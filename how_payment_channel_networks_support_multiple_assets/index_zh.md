@@ -140,7 +140,7 @@ Fiber 的 **跨链枢纽（CCH）** 连接 Fiber 与比特币闪电网络之间�
 
 这些支付带有条件：只有获得正确的原像，才能结算。
 
-在闪电网络上，这一条件通过[ **哈希时间锁合约（HTLC）** ](https://www.nervos.org/knowledge-base/What_is_a_Hashed_Timelock_Contract)强制执行。Fiber 使用对应的 **时间锁合约（Time-Locked Contract，TLC）** 机制。对于 CCH 支付，两侧都使用 [SHA-256](https://www.nervos.org/knowledge-base/SHA256_most_used_hash_function) 生成支付哈希，因此同一个原像可以满足两个网络上的条件。
+在闪电网络上，这一条件通过[ **哈希时间锁合约（HTLC）** ](https://www.nervos.org/knowledge-base/what_is_a_hashed_timelock_contract)强制执行。Fiber 使用对应的 **时间锁合约（Time-Locked Contract，TLC）** 机制。对于 CCH 支付，两侧都使用 [SHA-256](https://www.nervos.org/knowledge-base/sha256_most_used_hash_function) 生成支付哈希，因此同一个原像可以满足两个网络上的条件。
 
 正是这个共享秘密值（shared secret），将 Fiber 支付与闪电网络支付关联起来。
 

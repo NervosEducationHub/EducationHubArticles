@@ -1,4 +1,5 @@
 ---
+description: "Understand how hash functions produce fixed-length outputs, support Bitcoin mining and reveal data changes, with common algorithms and attack types."
 title: 'What Is a Hash Function?'
 coverImage: 'images/image1.png'
 category: cryptography, hash function

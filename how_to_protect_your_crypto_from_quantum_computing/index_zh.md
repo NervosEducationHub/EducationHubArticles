@@ -18,7 +18,7 @@ Google 正认真应对这一威胁。鉴于量子硬件、纠错和资源估算�
 
 ### 肖尔算法与你的公钥 
 
-加密货币最直接的量子威胁来自肖尔算法（Shor’s algorithm）。足够强大的量子计算机可以利用它求解椭圆曲线离散对数问题。这一数学难题是 [ECDSA](https://www.nervos.org/knowledge-base/understanding_ECDSA) 及其他椭圆曲线签名方案的基础，比特币、以太坊和许多其他区块链都在使用这些方案。
+加密货币最直接的量子威胁来自肖尔算法（Shor’s algorithm）。足够强大的量子计算机可以利用它求解椭圆曲线离散对数问题。这一数学难题是 [ECDSA](https://www.nervos.org/knowledge-base/understanding_ecdsa) 及其他椭圆曲线签名方案的基础，比特币、以太坊和许多其他区块链都在使用这些方案。
 
 实际风险从公钥可见时就开始了。如果未来的量子计算机能从公钥推导出私钥，攻击者就能生成有效签名，转走你的资金。
 

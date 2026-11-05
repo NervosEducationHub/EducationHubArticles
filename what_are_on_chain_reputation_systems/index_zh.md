@@ -8,7 +8,7 @@ author:
 - github:explainCKBot
 ---
 
-链上声誉系统（on-chain reputation system）是一种直接从可验证的区块链活动中提取信任信号，并据此评估钱包、[去中心化身份](https://www.nervos.org/knowledge-base/decentralized_identifiers_DIDs)（DID）或网络参与者的可靠性、可信度与贡献的机制。它不依赖用户评价、中心化评分或不透明的审核流程，而是解读永久记录在公共账本上的行为密码学证明。
+链上声誉系统（on-chain reputation system）是一种直接从可验证的区块链活动中提取信任信号，并据此评估钱包、[去中心化身份](https://www.nervos.org/knowledge-base/decentralized_identifiers_dids)（DID）或网络参与者的可靠性、可信度与贡献的机制。它不依赖用户评价、中心化评分或不透明的审核流程，而是解读永久记录在公共账本上的行为密码学证明。
 
 从传统声誉模型转向基于区块链的声誉系统，不只是技术升级，也建立了一种新的信任范式：声誉变得透明、可携带、归用户所有，并嵌入去中心化网络的基础设施，为去中心化金融（DeFi）、DAO、去中心化社交网络和创作者平台构成基础层。
 

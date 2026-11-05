@@ -50,7 +50,7 @@ ZK-Rollup 确保只有有效交易才能加入区块链，因而提供了更高�
 
 ### 对数据可用性的依赖
 
-欺诈证明的一项关键挑战，是依赖[数据可用性（data availability）](https://www.nervos.org/knowledge-base/what_is_data_%20availability_in_blockchain)。要验证欺诈证明，验证方必须能够访问与待审交易相关的全部必要数据。如果任何部分缺失或不完整，就无法确定交易是否合法。
+欺诈证明的一项关键挑战，是依赖[数据可用性（data availability）](https://www.nervos.org/knowledge-base/what_is_data_availability_in_blockchain)。要验证欺诈证明，验证方必须能够访问与待审交易相关的全部必要数据。如果任何部分缺失或不完整，就无法确定交易是否合法。
 
 这种依赖带来了显著风险，在数据可能分布于多个节点的去中心化网络中尤其如此。如果恶意行为者能够扣留或操纵数据，就可能阻止有效欺诈证明的提交，让欺诈交易不受挑战。为缓解这一风险，区块链网络必须确保数据随时可用，并可由所有参与者访问。
 

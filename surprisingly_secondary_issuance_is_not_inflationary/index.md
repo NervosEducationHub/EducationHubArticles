@@ -1,4 +1,5 @@
 ---
+description: "Using CKB's issuance model, examine how assumptions about lost coins affect long-term spendable supply and the argument about secondary issuance."
 title: 'Surprisingly, Secondary Issuance is not Inflationary'
 coverImage: 'images/image1.png'
 category: Tokenomics

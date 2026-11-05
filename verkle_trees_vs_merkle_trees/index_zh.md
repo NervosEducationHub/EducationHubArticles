@@ -32,7 +32,7 @@ Merkle 树在区块链验证中发挥关键作用，因为它让节点无需下�
 
 大型图书馆的目录系统是一个有用的类比。要确认某本书存在，不必逐个书架查找，而可以沿一连串索引，直接找到书的位置。同样，Merkle 树让节点只需检查树的一小部分，就能验证某笔交易，而不必检查整个数据集。
 
-这种验证所需的数据称为 Merkle 证明（Merkle proof），包含重建从特定交易到 Merkle 根路径所需的哈希值。由于证明只含少量哈希值，大幅减少了网络需要传输的数据量。这让[轻客户端（lightweight clients）](https://www.nervos.org/knowledge-base/ultimate_guide_to_light_clients)或[简化支付验证（Simplified Payment Verification，SPV）](https://www.nervos.org/knowledge-base/what_is_SPV)节点能够以极少存储运行，也是 Merkle 树广泛应用于区块链系统的原因。
+这种验证所需的数据称为 Merkle 证明（Merkle proof），包含重建从特定交易到 Merkle 根路径所需的哈希值。由于证明只含少量哈希值，大幅减少了网络需要传输的数据量。这让[轻客户端（lightweight clients）](https://www.nervos.org/knowledge-base/ultimate_guide_to_light_clients)或[简化支付验证（Simplified Payment Verification，SPV）](https://www.nervos.org/knowledge-base/what_is_spv)节点能够以极少存储运行，也是 Merkle 树广泛应用于区块链系统的原因。
 
 例如，比特币使用 Merkle 树组织每个区块内的交易，让节点无需保存完整交易历史，也能高效验证交易。以太坊则使用更复杂的 [Merkle Patricia 树（Merkle Patricia Trie）](https://www.nervos.org/knowledge-base/merkle_patricia_trie)存储账户余额、智能合约存储和交易收据，确保所有节点都能验证网络的全局状态。
 

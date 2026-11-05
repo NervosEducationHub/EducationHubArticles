@@ -16,7 +16,7 @@ Blob 已成为以太坊提高可扩展性和运行效率的重要技术。作为
 
 ### 以太坊中的 Blob 是什么？
 
-在以太坊中，Blob 是一种旨在提高区块链可扩展性的新型数据结构。它通过 EIP-4844 引入，该提案也称为 Proto-Danksharding（原型 Danksharding），是完整[分片技术](https://www.nervos.org/knowledge-base/What_is_sharding_in_blockchain)（sharding）实施之前的过渡阶段。分片技术旨在将以太坊网络划分为更小、更易于管理的部分。Blob 本质上是可以包含在以太坊区块中的大型数据包。与传统交易不同，Blob 数据不会永久占用区块链存储空间，节点仅将其保存 18 天。Blob 提供了一种临时数据存储方式，尤其适合需要高效处理大量数据的 Layer 2 扩容方案。
+在以太坊中，Blob 是一种旨在提高区块链可扩展性的新型数据结构。它通过 EIP-4844 引入，该提案也称为 Proto-Danksharding（原型 Danksharding），是完整[分片技术](https://www.nervos.org/knowledge-base/what_is_sharding_in_blockchain)（sharding）实施之前的过渡阶段。分片技术旨在将以太坊网络划分为更小、更易于管理的部分。Blob 本质上是可以包含在以太坊区块中的大型数据包。与传统交易不同，Blob 数据不会永久占用区块链存储空间，节点仅将其保存 18 天。Blob 提供了一种临时数据存储方式，尤其适合需要高效处理大量数据的 Layer 2 扩容方案。
 
 Blob 的引入标志着以太坊数据管理方式的一次重要转变。在 Blob 出现之前，所有数据都需要永久存储，并由[以太坊虚拟机（EVM）](https://ethereum.org/en/developers/docs/evm/)处理，导致成本增加、交易速度下降。而 Blob 允许大量数据临时存储，减轻以太坊主网的负担，为数据处理提供了可扩展性更强、成本更低的解决方案。
 

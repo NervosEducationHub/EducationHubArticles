@@ -34,7 +34,7 @@ DePIN 网络由三项核心组件运作：硬件基础设施、基于区块链�
 
 区块链充当协调层，记录活动、验证贡献，并通过智能合约分配奖励。交易记录在透明账本上，因此网络活动可以公开审计。
 
-验证机制对保障信任至关重要。DePIN 协议必须确认参与者确实提供了所声称的服务。例如，无线网络可能测量信号覆盖，去中心化存储网络验证[数据可用性（data availability）](https://www.nervos.org/knowledge-base/what_is_data_%20availability_in_blockchain)，计算网络则确认硬件已完成分配的计算任务。
+验证机制对保障信任至关重要。DePIN 协议必须确认参与者确实提供了所声称的服务。例如，无线网络可能测量信号覆盖，去中心化存储网络验证[数据可用性（data availability）](https://www.nervos.org/knowledge-base/what_is_data_availability_in_blockchain)，计算网络则确认硬件已完成分配的计算任务。
 
 服务通过验证后，协议分发代币作为报酬。用户再用代币或受支持的货币支付服务费用，形成一种循环经济：基础设施提供者获得奖励，用户消费服务，区块链协调全过程。
 

@@ -26,7 +26,7 @@ author:
 
 ## 什么是自私挖矿？
 
-自私挖矿是指矿工或矿池故意隐瞒已挖出的区块，而不立即广播。保密这个区块，就能暂时建立一条私有的区块链分支。如果他们在网络其余部分找到竞争区块之前又挖出了更多区块，便可以随后公布自己的私有链。按照“[最长链规则（longest chain rule）](https://www.nervos.org/knowledge-base/What_is_the_Longest_Chain_Rule_in_Bitcoin_and_Blockchain)”，这条链更长，因而有效。
+自私挖矿是指矿工或矿池故意隐瞒已挖出的区块，而不立即广播。保密这个区块，就能暂时建立一条私有的区块链分支。如果他们在网络其余部分找到竞争区块之前又挖出了更多区块，便可以随后公布自己的私有链。按照“[最长链规则（longest chain rule）](https://www.nervos.org/knowledge-base/what_is_the_longest_chain_rule_in_bitcoin_and_blockchain)”，这条链更长，因而有效。
 
 这种行为会使诚实矿工的工作白费。诚实矿工可能一直在旧链上挖矿，浑然不知有一条更长的链被秘密保留着。自私矿工一旦公布自己的链，诚实矿工的区块就会被作为“孤块（orphans）”丢弃，而自私矿工则获得隐藏链上的奖励。
 

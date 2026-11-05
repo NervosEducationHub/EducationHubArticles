@@ -1,4 +1,5 @@
 ---
+description: "A blockchain gas fee is the price users pay for computational resources to process transactions. Learn how Ethereum gas fees work and what affects them."
 title: 'What is a Blockchain Gas Fee?'
 coverImage: 'images/image1.png'
 category: Blockchain

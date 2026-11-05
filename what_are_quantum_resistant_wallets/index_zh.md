@@ -21,7 +21,7 @@ author:
 
 ## 为什么加密货币钱包容易受到量子计算机攻击？
 
-加密货币钱包容易受到量子计算机攻击，是因为它们底层采用的椭圆曲线数字签名，例如 [ECDSA](https://www.nervos.org/knowledge-base/understanding_ECDSA) 或 [EdDSA](https://en.wikipedia.org/wiki/EdDSA)，依赖[离散对数（discrete logarithm）](https://en.wikipedia.org/wiki/Discrete_logarithm)问题。经典计算机无法解决这一数学难题，但量子计算机可以使用[肖尔算法（Shor’s algorithm）](https://en.wikipedia.org/wiki/Shor's_algorithm)快速破解。
+加密货币钱包容易受到量子计算机攻击，是因为它们底层采用的椭圆曲线数字签名，例如 [ECDSA](https://www.nervos.org/knowledge-base/understanding_ecdsa) 或 [EdDSA](https://en.wikipedia.org/wiki/EdDSA)，依赖[离散对数（discrete logarithm）](https://en.wikipedia.org/wiki/Discrete_logarithm)问题。经典计算机无法解决这一数学难题，但量子计算机可以使用[肖尔算法（Shor’s algorithm）](https://en.wikipedia.org/wiki/Shor's_algorithm)快速破解。
 
 尽管这一安全假设数十年来一直保护着比特币、以太坊等网络，但足够强大的量子计算机能够完全绕过这道防线。这意味着，一旦公钥在区块链上暴露，签名层面的数学屏障就会失效，传统钱包架构面对配备量子计算设备的对手将不再安全。
 

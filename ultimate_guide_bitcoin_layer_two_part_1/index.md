@@ -1,4 +1,5 @@
 ---
+description: "Compare Bitcoin scaling approaches through Liquid, Rootstock, Stacks and RGB, including their architectures, security assumptions and trade-offs."
 title: 'The Ultimate Guide to Bitcoin Layer 2s: From Liquid, Rootstock, and Stacks to RGB (Part 1)'
 coverImage: 'images/cover.png'
 category: Bitcoin

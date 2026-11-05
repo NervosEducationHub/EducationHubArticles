@@ -20,7 +20,7 @@ x402 是一种原生互联网支付协议，使用长期预留的 HTTP 402 Payme
 
 其概念上的突破在于无状态设计。传统计费系统需要账户、保存的身份信息和复杂的对账流程，x402 则以密码学付款证明取代这些要素。服务器不必知道请求者是谁，只需验证所要求的金额已经转移。这一模式符合区块链网络无需许可（permissionless）的理念，让全球参与者无需预先注册即可参与。
 
-历史上，将支付嵌入 Web 协议的想法反复出现，却始终缺少可行的结算层。银行卡网络对微额交易而言太慢、太贵，早期数字现金系统又缺乏互操作性。[稳定币](https://en.wikipedia.org/wiki/Stablecoin)和高性能区块链改变了这一局面，提供了可预测的定价、快速[最终性（finality）](https://www.nervos.org/knowledge-base/What_is_finality_crypto)和可编程逻辑。x402 建立在这些能力之上，将它们转化为 Web 可以使用的形式。
+历史上，将支付嵌入 Web 协议的想法反复出现，却始终缺少可行的结算层。银行卡网络对微额交易而言太慢、太贵，早期数字现金系统又缺乏互操作性。[稳定币](https://en.wikipedia.org/wiki/Stablecoin)和高性能区块链改变了这一局面，提供了可预测的定价、快速[最终性（finality）](https://www.nervos.org/knowledge-base/what_is_finality_crypto)和可编程逻辑。x402 建立在这些能力之上，将它们转化为 Web 可以使用的形式。
 
 
 

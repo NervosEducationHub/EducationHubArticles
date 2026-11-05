@@ -64,7 +64,7 @@ Solana 区块链是 PoH 最突出的实际应用。在 Solana 架构中，PoH �
 
 Solana 的验证者会被分配特定时隙，并在对应时隙负责出块。PoH 确保所有参与者对这些时隙的确切顺序和时间达成一致。由于这个时钟基于密码学且可验证，领导者可以确信，网络普遍认可自己所处的时间位置，从而生成区块。
 
-Solana 的共识机制名为塔式拜占庭容错（Tower BFT），建立在权益证明之上，高度依赖 PoH 提供的有序结构。验证者根据区块在 PoH 序列中的位置进行投票，从而快速实现[最终性（finality）](https://www.nervos.org/knowledge-base/What_is_finality_crypto)，并降低回滚风险。通过这种方式，PoH 直接提升了性能和可靠性。
+Solana 的共识机制名为塔式拜占庭容错（Tower BFT），建立在权益证明之上，高度依赖 PoH 提供的有序结构。验证者根据区块在 PoH 序列中的位置进行投票，从而快速实现[最终性（finality）](https://www.nervos.org/knowledge-base/what_is_finality_crypto)，并降低回滚风险。通过这种方式，PoH 直接提升了性能和可靠性。
 
 
 

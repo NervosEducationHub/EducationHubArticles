@@ -1,4 +1,5 @@
 ---
+description: "Examine blockchain intents, how they express desired transaction outcomes, and their links to declarative UTXO design and CKB's Cell Model."
 title: ' The Rise of Blockchain Intents: An Old Idea Wrapped in New Clothing'
 coverImage: 'images/cover.png'
 category: UTXO

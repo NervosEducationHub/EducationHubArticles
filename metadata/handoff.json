@@ -1,0 +1,4750 @@
+{
+  "hubs": [
+    {
+      "id": "blockchain-cryptography",
+      "name": "Blockchain Cryptography",
+      "heading": "Blockchain Cryptography",
+      "seoTitle": "Blockchain Cryptography: Hashes & Signatures | Nervos",
+      "order": 1
+    },
+    {
+      "id": "quantum-computing-blockchain-security",
+      "name": "Quantum Computing & Blockchain Security",
+      "heading": "Quantum Computing & Blockchain Security",
+      "seoTitle": "Quantum Computing & Blockchain Security | Nervos",
+      "order": 2
+    },
+    {
+      "id": "blockchain-architecture",
+      "name": "Blockchain Architecture",
+      "heading": "Blockchain Architecture",
+      "seoTitle": "Blockchain Architecture: State, Consensus & Security | Nervos",
+      "order": 3
+    },
+    {
+      "id": "blockchain-vms-risc-v",
+      "name": "Blockchain VMs & RISC-V",
+      "heading": "Blockchain Virtual Machines & RISC-V",
+      "seoTitle": "Blockchain Virtual Machines & RISC-V | Nervos",
+      "order": 4
+    },
+    {
+      "id": "blockchain-scalability",
+      "name": "Blockchain Scalability",
+      "heading": "Blockchain Scalability",
+      "seoTitle": "Blockchain Scalability: Layer 1 & Layer 2 Solutions | Nervos",
+      "order": 5
+    },
+    {
+      "id": "nervos-ckb",
+      "name": "Nervos CKB",
+      "heading": "Nervos CKB",
+      "seoTitle": "Nervos CKB: Architecture, Tokenomics & Ecosystem",
+      "order": 6
+    }
+  ],
+  "subjects": [
+    {
+      "hub": "blockchain-cryptography",
+      "order": 1,
+      "id": "hash-functions",
+      "name": "Hash Functions"
+    },
+    {
+      "hub": "blockchain-cryptography",
+      "order": 2,
+      "id": "digital-signatures-elliptic-curves",
+      "name": "Digital Signatures & Elliptic Curves"
+    },
+    {
+      "hub": "blockchain-cryptography",
+      "order": 3,
+      "id": "cryptographic-primitives",
+      "name": "Core Cryptographic Primitives"
+    },
+    {
+      "hub": "blockchain-cryptography",
+      "order": 4,
+      "id": "applied-cryptography",
+      "name": "Cryptography in Practice"
+    },
+    {
+      "hub": "quantum-computing-blockchain-security",
+      "order": 1,
+      "id": "quantum-threat",
+      "name": "The Quantum Threat"
+    },
+    {
+      "hub": "quantum-computing-blockchain-security",
+      "order": 2,
+      "id": "quantum-resistant-blockchains",
+      "name": "Quantum-Resistant Blockchains"
+    },
+    {
+      "hub": "quantum-computing-blockchain-security",
+      "order": 3,
+      "id": "post-quantum-cryptography",
+      "name": "Post-Quantum Cryptography"
+    },
+    {
+      "hub": "quantum-computing-blockchain-security",
+      "order": 4,
+      "id": "crypto-agility-migration",
+      "name": "Crypto Agility & Migration"
+    },
+    {
+      "hub": "blockchain-architecture",
+      "order": 1,
+      "id": "state-models-storage",
+      "name": "State Models & Storage"
+    },
+    {
+      "hub": "blockchain-architecture",
+      "order": 2,
+      "id": "consensus-finality",
+      "name": "Consensus & Finality"
+    },
+    {
+      "hub": "blockchain-architecture",
+      "order": 3,
+      "id": "pow-network-security",
+      "name": "Proof of Work & Network Security"
+    },
+    {
+      "hub": "blockchain-architecture",
+      "order": 4,
+      "id": "blockchain-fundamentals",
+      "name": "Core Blockchain Fundamentals"
+    },
+    {
+      "hub": "blockchain-vms-risc-v",
+      "order": 1,
+      "id": "blockchain-virtual-machines",
+      "name": "Blockchain Virtual Machines"
+    },
+    {
+      "hub": "blockchain-vms-risc-v",
+      "order": 2,
+      "id": "execution-verification",
+      "name": "Execution Models & Verification"
+    },
+    {
+      "hub": "blockchain-vms-risc-v",
+      "order": 3,
+      "id": "opcodes-precompiles",
+      "name": "Instruction Sets, Opcodes & Precompiles"
+    },
+    {
+      "hub": "blockchain-vms-risc-v",
+      "order": 4,
+      "id": "risc-v-ckb-vm",
+      "name": "RISC-V & CKB-VM"
+    },
+    {
+      "hub": "blockchain-scalability",
+      "order": 1,
+      "id": "scaling-fundamentals",
+      "name": "Scaling Fundamentals"
+    },
+    {
+      "hub": "blockchain-scalability",
+      "order": 2,
+      "id": "rollups-data-availability-sidechains",
+      "name": "Rollups, Data Availability & Sidechains"
+    },
+    {
+      "hub": "blockchain-scalability",
+      "order": 3,
+      "id": "payment-channels-networks",
+      "name": "Payment Channels, Lightning & Fiber"
+    },
+    {
+      "hub": "blockchain-scalability",
+      "order": 4,
+      "id": "bitcoin-scaling-rgbpp",
+      "name": "Bitcoin Scaling & RGB++"
+    },
+    {
+      "hub": "blockchain-scalability",
+      "order": 5,
+      "id": "agent-payments-micropayments",
+      "name": "AI-Agent Payments & Micropayments"
+    },
+    {
+      "hub": "nervos-ckb",
+      "order": 1,
+      "id": "nervos-ckb-introduction",
+      "name": "What Is Nervos CKB?"
+    },
+    {
+      "hub": "nervos-ckb",
+      "order": 2,
+      "id": "ckb-architecture",
+      "name": "CKB Architecture"
+    },
+    {
+      "hub": "nervos-ckb",
+      "order": 3,
+      "id": "ckb-tokenomics-issuance",
+      "name": "Tokenomics & Issuance"
+    },
+    {
+      "hub": "nervos-ckb",
+      "order": 4,
+      "id": "ckb-ecosystem-development",
+      "name": "Ecosystem, Tools & Development"
+    }
+  ],
+  "candidates": [
+    {
+      "key": "account_abstraction_where_we_are_going",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/account_abstraction_where_we_are_going",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-ecosystem-development"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "ecosystem",
+        "abstraction",
+        "account-abstraction"
+      ]
+    },
+    {
+      "key": "account_abstraction_where_were_going",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/account_abstraction_where_were_going",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-ecosystem-development"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "ecosystem",
+        "abstraction",
+        "account-abstraction"
+      ]
+    },
+    {
+      "key": "are_bitcoin_and_ethereum_quantum_resistant",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/are_bitcoin_and_ethereum_quantum_resistant",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "quantum-resistant-blockchains"
+      ],
+      "internalTags": [
+        "quantum-resistance",
+        "quantum-computing"
+      ]
+    },
+    {
+      "key": "asic_resistance_is_it_possible",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/asic_resistance_is_it_possible",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security"
+      ]
+    },
+    {
+      "key": "becoming_money_stablecoins_on_lightning_the_next_step_in_bitcoins_journey",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/becoming_money_stablecoins_on_lightning_the_next_step_in_bitcoins_journey",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "lightning-network",
+        "stablecoins"
+      ]
+    },
+    {
+      "key": "bft_consensus_mechanisms",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/BFT_consensus_mechanisms",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus",
+        "bft"
+      ]
+    },
+    {
+      "key": "bip360_explained",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/bip360_explained",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "crypto-agility-migration"
+      ],
+      "internalTags": [
+        "cryptographic-migration",
+        "bip-360"
+      ]
+    },
+    {
+      "key": "bitcoin_and_ckb_security_models",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/bitcoin_and_ckb_security_models",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-architecture"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "ckb-architecture"
+      ]
+    },
+    {
+      "key": "bitcoin_doesnt_know_it_has_smart_contracts",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/bitcoin-doesnt-know-it-has-smart-contracts",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-architecture"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "ckb-architecture"
+      ]
+    },
+    {
+      "key": "bitcoin_legacy_vs_segwit_vs_taproot_addresses",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/bitcoin_legacy_vs_segwit_vs_taproot_addresses_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "taproot"
+      ]
+    },
+    {
+      "key": "bitcoin_script",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/bitcoin_script",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "bitcoin-script"
+      ]
+    },
+    {
+      "key": "block_time_in_blockchain",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/block_time_in_blockchain_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "block-time"
+      ]
+    },
+    {
+      "key": "blockchain_crypto_agility",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/blockchain_crypto_agility",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "crypto-agility-migration"
+      ],
+      "internalTags": [
+        "cryptographic-migration",
+        "crypto-agility"
+      ]
+    },
+    {
+      "key": "blockchain_trilemma",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/blockchain_trilemma",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "scaling-fundamentals"
+      ],
+      "internalTags": [
+        "scalability",
+        "blockchain-trilemma"
+      ]
+    },
+    {
+      "key": "bls_signatures_use_cryptocurrency",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/BLS_Signatures_use_cryptocurrency",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "digital-signatures-elliptic-curves"
+      ],
+      "internalTags": [
+        "digital-signature",
+        "bls"
+      ]
+    },
+    {
+      "key": "chain_abstraction_bringing_web2_user_experience_to_web3",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/chain_abstraction_bringing_web2_user_experience_to_web3",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "abstraction"
+      ]
+    },
+    {
+      "key": "channel_factories",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/channel_factories",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "channel-factories"
+      ]
+    },
+    {
+      "key": "ckb_blockchain_developers_dream",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/ckb_blockchain_developers_dream",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-architecture"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "ckb-architecture"
+      ]
+    },
+    {
+      "key": "ckb_understanding_our_ethos",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/ckb_understanding_our_ethos",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "nervos-ckb-introduction"
+      ],
+      "internalTags": [
+        "nervos-ckb"
+      ]
+    },
+    {
+      "key": "ckbuilders",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/CKBuilders",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-ecosystem-development"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "ecosystem",
+        "ckbuilders"
+      ]
+    },
+    {
+      "key": "coinjoin_explained",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/coinjoin_explained_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "applied-cryptography"
+      ],
+      "internalTags": [
+        "applied-cryptography",
+        "coinjoin"
+      ]
+    },
+    {
+      "key": "comparing_blockchain_virtual_machines",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/comparing_blockchain_virtual_machines",
+      "hub": "blockchain-vms-risc-v",
+      "subjects": [
+        "blockchain-virtual-machines"
+      ],
+      "internalTags": [
+        "virtual-machine",
+        "virtual-machines"
+      ]
+    },
+    {
+      "key": "comparison_of_post_quantum_cryptographic_algorithms",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/comparison_of_post_quantum_cryptographic_algorithms",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "post-quantum-cryptography"
+      ],
+      "internalTags": [
+        "post-quantum-cryptography",
+        "quantum-computing"
+      ]
+    },
+    {
+      "key": "crypto_mining_hardware",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/crypto_mining_hardware_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "mining"
+      ]
+    },
+    {
+      "key": "cryptocurrency_mining_difficulty",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/cryptocurrency_mining_difficulty_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "mining"
+      ]
+    },
+    {
+      "key": "cryptocurrency_mining_pools",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/cryptocurrency_mining_pools_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "mining"
+      ]
+    },
+    {
+      "key": "decentralized_identifiers_dids",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/decentralized_identifiers_DIDs_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "decentralized-identity"
+      ]
+    },
+    {
+      "key": "decentralized_storage_systems",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/decentralized_storage_systems_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "decentralized-storage"
+      ]
+    },
+    {
+      "key": "difference_between_crypto_miners_validators",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/difference_between_crypto_miners_validators_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security"
+      ]
+    },
+    {
+      "key": "difference_between_miner_full_node",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/difference_between_miner_full_node",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design"
+      ]
+    },
+    {
+      "key": "difference_block_subsidy_block_reward",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/difference_block_subsidy_block_reward_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security"
+      ]
+    },
+    {
+      "key": "difference_blockchain_computation_verification",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/difference_blockchain_computation_verification",
+      "hub": "blockchain-vms-risc-v",
+      "subjects": [
+        "execution-verification"
+      ],
+      "internalTags": [
+        "transaction-execution",
+        "verification"
+      ]
+    },
+    {
+      "key": "erc8004_explained",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/erc8004_explained_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "erc-8004"
+      ]
+    },
+    {
+      "key": "fiber_network",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/fiber_network",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "fiber-network"
+      ]
+    },
+    {
+      "key": "gossip_protocols_explained",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/gossip_protocols_explained",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "gossip"
+      ]
+    },
+    {
+      "key": "guide_to_inscriptions",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/guide_to_inscriptions",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "inscriptions"
+      ]
+    },
+    {
+      "key": "how_bitcoins_path_to_quantum_resistance_could_look_like",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/how_bitcoins_path_to_quantum_resistance_could_look_like",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "crypto-agility-migration"
+      ],
+      "internalTags": [
+        "cryptographic-migration",
+        "quantum-computing"
+      ]
+    },
+    {
+      "key": "how_do_ai_agents_pay_for_things",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/how_do_ai_agents_pay_for_things",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "agent-payments-micropayments"
+      ],
+      "internalTags": [
+        "agent-payments",
+        "ai-agents"
+      ]
+    },
+    {
+      "key": "how_does_the_bitcoin_lightning_network_charge_fees",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/how_does_the_bitcoin_lightning_network_charge_fees_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "lightning-network"
+      ]
+    },
+    {
+      "key": "how_liquidity_works_in_the_lightning_network",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/how_liquidity_works_in_the_lightning_network",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "lightning-network",
+        "liquidity"
+      ]
+    },
+    {
+      "key": "how_quantum_computers_threaten_exposed_crypto_public_keys",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/how_quantum_computers_threaten_exposed_crypto_public_keys",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "quantum-threat"
+      ],
+      "internalTags": [
+        "quantum-computing",
+        "public-key-exposure"
+      ]
+    },
+    {
+      "key": "how_to_check_smart_contract_security",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/How_to_Check_Smart_Contract_Security",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "smart-contract-security"
+      ]
+    },
+    {
+      "key": "how_to_protect_your_crypto_from_quantum_computing",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/how_to_protect_your_crypto_from_quantum_computing",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "crypto-agility-migration"
+      ],
+      "internalTags": [
+        "cryptographic-migration",
+        "quantum-computing"
+      ]
+    },
+    {
+      "key": "intents_an_old_idea_wrapped_in_new_clothing",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/intents_an_old_idea_wrapped_in_new_clothing",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "intents",
+        "wrapped-tokens"
+      ]
+    },
+    {
+      "key": "introduction_to_l402",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/introduction_to_l402",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "agent-payments-micropayments"
+      ],
+      "internalTags": [
+        "agent-payments",
+        "l402"
+      ]
+    },
+    {
+      "key": "layer_1_vs_layer_2",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/layer_1_vs_layer_2",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "scaling-fundamentals"
+      ],
+      "internalTags": [
+        "scalability",
+        "layer-2"
+      ]
+    },
+    {
+      "key": "lightning_watchtowers",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/lightning_watchtowers_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "lightning-network",
+        "watchtowers"
+      ]
+    },
+    {
+      "key": "long_range_attacks_explained",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/long_range_attacks_explained_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus"
+      ]
+    },
+    {
+      "key": "mempool_in_cryptocurrency",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/mempool_in_cryptocurrency_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "mempool"
+      ]
+    },
+    {
+      "key": "merkle_patricia_trie",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/merkle_patricia_trie_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "hash-functions"
+      ],
+      "internalTags": [
+        "hash-function",
+        "merkle-trees"
+      ]
+    },
+    {
+      "key": "modular_vs_monolithic",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/modular_vs_monolithic",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "modularity"
+      ]
+    },
+    {
+      "key": "nervos_overview_of_a_layered_blockchain",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "nervos-ckb-introduction"
+      ],
+      "internalTags": [
+        "nervos-ckb"
+      ]
+    },
+    {
+      "key": "nervosdao_withdrawal_process_explained",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/nervosdao_withdrawal_process_explained",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-tokenomics-issuance"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "tokenomics",
+        "nervos-dao"
+      ]
+    },
+    {
+      "key": "non_custodial_crypto_wallet",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/non-custodial_crypto_wallet",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "self-custody"
+      ]
+    },
+    {
+      "key": "op_return_explained",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/op_return_explained",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "op-return"
+      ]
+    },
+    {
+      "key": "optimizing_layer_1_for_modularity",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/optimizing_layer_1_for_modularity",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "scaling-fundamentals"
+      ],
+      "internalTags": [
+        "scalability",
+        "modularity"
+      ]
+    },
+    {
+      "key": "pi400_ckb_node_setup_guide",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/pi400_ckb_node_setup_guide",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-ecosystem-development"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "ecosystem"
+      ]
+    },
+    {
+      "key": "polkadot_to_ckb_guide",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/polkadot_to_ckb_guide",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-ecosystem-development"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "ecosystem",
+        "polkadot"
+      ]
+    },
+    {
+      "key": "pow_vs_pos_unravelling",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/pow_vs_pos_unravelling",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus",
+        "proof-of-stake"
+      ]
+    },
+    {
+      "key": "quantum_resistance",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/quantum_resistance",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "quantum-resistant-blockchains"
+      ],
+      "internalTags": [
+        "quantum-resistance",
+        "quantum-computing"
+      ]
+    },
+    {
+      "key": "real_world_assets_explained",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/real_world_assets_explained_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "real-world-assets"
+      ]
+    },
+    {
+      "key": "schnorr_signatures",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/schnorr_signatures_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "digital-signatures-elliptic-curves"
+      ],
+      "internalTags": [
+        "digital-signature",
+        "schnorr"
+      ]
+    },
+    {
+      "key": "secp256k1_a_key_algorithm",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/secp256k1_a_key \nalgorithm_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "digital-signatures-elliptic-curves"
+      ],
+      "internalTags": [
+        "digital-signature",
+        "secp256k1"
+      ]
+    },
+    {
+      "key": "seed_phrases",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/seed_phrases",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "applied-cryptography"
+      ],
+      "internalTags": [
+        "applied-cryptography",
+        "seed-phrases"
+      ]
+    },
+    {
+      "key": "sha256_most_used_hash_function",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/SHA256_most_used_hash_function",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "hash-functions"
+      ],
+      "internalTags": [
+        "hash-function",
+        "sha-256"
+      ]
+    },
+    {
+      "key": "shors_algorithm_explained",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/shors_algorithm_explained",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "quantum-threat"
+      ],
+      "internalTags": [
+        "quantum-computing",
+        "shors-algorithm"
+      ]
+    },
+    {
+      "key": "sidechains_unlocking_the_potential",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/sidechains_unlocking_the_potential",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "rollups-data-availability-sidechains"
+      ],
+      "internalTags": [
+        "scaling-solutions",
+        "sidechains"
+      ]
+    },
+    {
+      "key": "slashing_in_pos",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/slashing_in_PoS_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus",
+        "slashing"
+      ]
+    },
+    {
+      "key": "state_and_state_change",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/state_and_state_change_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "state-models-storage"
+      ],
+      "internalTags": [
+        "blockchain-state",
+        "state-transitions"
+      ]
+    },
+    {
+      "key": "state_bloat_blockchain",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/state_bloat_blockchain_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "state-models-storage"
+      ],
+      "internalTags": [
+        "blockchain-state",
+        "state-bloat"
+      ]
+    },
+    {
+      "key": "surprisingly_secondary_issuance_is_not_inflationary",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/surprisingly_secondary_issuance_is_not_inflationary",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-tokenomics-issuance"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "tokenomics",
+        "issuance",
+        "secondary-issuance"
+      ]
+    },
+    {
+      "key": "sybil_attacks_consensus_mechanisms",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/sybil_attacks_consensus_mechanisms_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "consensus",
+        "sybil-attacks"
+      ]
+    },
+    {
+      "key": "testnet_mainnet_blockchain",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/testnet_mainnet_blockchain_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design"
+      ]
+    },
+    {
+      "key": "the_builder_is_not_the_chain",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/the-builder-is-not-the-chain",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-architecture"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "ckb-architecture"
+      ]
+    },
+    {
+      "key": "the_case_for_rgbpp",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/the-case-for-rgbpp",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "bitcoin-scaling-rgbpp"
+      ],
+      "internalTags": [
+        "bitcoin-scaling",
+        "rgbpp"
+      ]
+    },
+    {
+      "key": "the_difference_between_parallel_and_sequential_transaction_execution_in_crypto",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/The_Difference_Between_Parallel_and_Sequential_Transaction_Execution_in_Crypto",
+      "hub": "blockchain-vms-risc-v",
+      "subjects": [
+        "execution-verification"
+      ],
+      "internalTags": [
+        "transaction-execution",
+        "parallel-execution"
+      ]
+    },
+    {
+      "key": "the_nothing_at_stake_problem",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/the_nothing_at_stake_problem_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus"
+      ]
+    },
+    {
+      "key": "tokenomics_of_nervos_network",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/tokenomics_of_nervos_network",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-tokenomics-issuance"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "tokenomics"
+      ]
+    },
+    {
+      "key": "top_quantum_resistant_cryptocurrency_projects_in_2026",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/top_quantum_resistant_cryptocurrency_projects_in_2026",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "quantum-resistant-blockchains"
+      ],
+      "internalTags": [
+        "quantum-resistance",
+        "quantum-computing"
+      ]
+    },
+    {
+      "key": "transaction_confirmation_in_blockchain",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/transaction_confirmation_in_blockchain_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design"
+      ]
+    },
+    {
+      "key": "ultimate_guide_bitcoin_layer_two_part_1",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/ultimate_guide_bitcoin_layer_two_part_1",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "bitcoin-scaling-rgbpp"
+      ],
+      "internalTags": [
+        "bitcoin-scaling"
+      ]
+    },
+    {
+      "key": "ultimate_guide_to_light_clients",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/ultimate_guide_to_light_clients",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "light-clients"
+      ]
+    },
+    {
+      "key": "ultimate_guide_to_payment_channels",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/ultimate_guide_to_payment_channels",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels"
+      ]
+    },
+    {
+      "key": "ultimate_guide_to_rgb_rgbpp_and_client_side_validation",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/ultimate_guide_to_rgb_rgbpp_and_client_side_validation",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "bitcoin-scaling-rgbpp"
+      ],
+      "internalTags": [
+        "bitcoin-scaling",
+        "rgbpp",
+        "client-side-validation"
+      ]
+    },
+    {
+      "key": "unbreakable_sha256_why_even_quantum_computers_cannot_do_it",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/Unbreakable_SHA256_Why_Even_Quantum_Computers_Cannot_Do_It",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "quantum-threat"
+      ],
+      "internalTags": [
+        "quantum-computing",
+        "sha-256"
+      ]
+    },
+    {
+      "key": "understanding_bitcoin_layer2",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/Understanding_Bitcoin_layer2",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "bitcoin-scaling-rgbpp"
+      ],
+      "internalTags": [
+        "bitcoin-scaling"
+      ]
+    },
+    {
+      "key": "understanding_change_addresses_in_bitcoin_transactions",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/understanding_change_addresses_in_bitcoin_transactions_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "change-addresses"
+      ]
+    },
+    {
+      "key": "understanding_ecdsa",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/understanding_ECDSA",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "digital-signatures-elliptic-curves"
+      ],
+      "internalTags": [
+        "digital-signature",
+        "ecdsa"
+      ]
+    },
+    {
+      "key": "understanding_mpc_wallets",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/understanding_mpc_wallets_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "applied-cryptography"
+      ],
+      "internalTags": [
+        "applied-cryptography",
+        "mpc"
+      ]
+    },
+    {
+      "key": "understanding_nervos_ckb_issuance_model",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/understanding_nervos_ckb_issuance_model",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-tokenomics-issuance"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "tokenomics",
+        "issuance"
+      ]
+    },
+    {
+      "key": "understanding_token_standards_erc20",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/understanding_Token_standards_erc20_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "token-standards"
+      ]
+    },
+    {
+      "key": "understanding_webauthn",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/understanding_webAuthn_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "applied-cryptography"
+      ],
+      "internalTags": [
+        "applied-cryptography",
+        "webauthn"
+      ]
+    },
+    {
+      "key": "unlocking_ckb_liquidity_ickb",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/Unlocking_CKB_Liquidity_iCKB",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-ecosystem-development"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "ecosystem",
+        "liquidity",
+        "ickb"
+      ]
+    },
+    {
+      "key": "utxo_model_explained",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/utxo_model_explained",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "state-models-storage"
+      ],
+      "internalTags": [
+        "blockchain-state",
+        "utxo"
+      ]
+    },
+    {
+      "key": "utxo_vs_account_based",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/utxo_vs_account_based",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "state-models-storage"
+      ],
+      "internalTags": [
+        "blockchain-state",
+        "utxo"
+      ]
+    },
+    {
+      "key": "verifiable_delay_functions_explained",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/verifiable_delay_functions_explained_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "cryptographic-primitives"
+      ],
+      "internalTags": [
+        "cryptographic-primitive"
+      ]
+    },
+    {
+      "key": "web5_extra_decentralized",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/web5-extra-decentralized",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "web5"
+      ]
+    },
+    {
+      "key": "what_are_airdrops",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_are-airdrops_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "airdrops"
+      ]
+    },
+    {
+      "key": "what_are_based_rollups",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/What_are_Based_Rollups_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "rollups-data-availability-sidechains"
+      ],
+      "internalTags": [
+        "scaling-solutions",
+        "rollups"
+      ]
+    },
+    {
+      "key": "what_are_bitcoin_covenants",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_are_bitcoin_covenants",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "bitcoin-scaling-rgbpp"
+      ],
+      "internalTags": [
+        "bitcoin-scaling",
+        "covenants"
+      ]
+    },
+    {
+      "key": "what_are_bitcoin_drivechains",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/What_are_bitcoin_drivechains_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "bitcoin-scaling-rgbpp"
+      ],
+      "internalTags": [
+        "bitcoin-scaling",
+        "drivechains"
+      ]
+    },
+    {
+      "key": "what_are_blobs_in_ethereum",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_are_blobs_in_ethereum_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "rollups-data-availability-sidechains"
+      ],
+      "internalTags": [
+        "scaling-solutions",
+        "blobs"
+      ]
+    },
+    {
+      "key": "what_are_blockchain_bridges",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_are_blockchain_bridges",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "cross-chain-bridges"
+      ]
+    },
+    {
+      "key": "what_are_blockchain_intents",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_are_blockchain_intents_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "intents"
+      ]
+    },
+    {
+      "key": "what_are_blockchain_reorgs",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_are_blockchain_reorgs_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus",
+        "reorganizations"
+      ]
+    },
+    {
+      "key": "what_are_brc20_tokens",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/What_are_BRC20_tokens_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "brc-20"
+      ]
+    },
+    {
+      "key": "what_are_connector_outputs_in_bitcoin",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_are_connector_outputs_in_bitcoin",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "bitcoin-scaling-rgbpp"
+      ],
+      "internalTags": [
+        "bitcoin-scaling",
+        "connector-outputs"
+      ]
+    },
+    {
+      "key": "what_are_cryptographic_nonces",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_are_cryptographic_nonces_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "cryptographic-primitives"
+      ],
+      "internalTags": [
+        "cryptographic-primitive",
+        "nonces"
+      ]
+    },
+    {
+      "key": "what_are_flash_loans",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_are_flash_loans_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "flash-loans"
+      ]
+    },
+    {
+      "key": "what_are_fraud_proofs_in_blockchain",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_are_fraud_proofs_in_blockchain_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "rollups-data-availability-sidechains"
+      ],
+      "internalTags": [
+        "scaling-solutions",
+        "fraud-proofs"
+      ]
+    },
+    {
+      "key": "what_are_implications_of_forks",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/What_are_implications_of_forks_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus",
+        "forks"
+      ]
+    },
+    {
+      "key": "what_are_native_rollups",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/What_are_Native_Rollups_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "rollups-data-availability-sidechains"
+      ],
+      "internalTags": [
+        "scaling-solutions",
+        "rollups"
+      ]
+    },
+    {
+      "key": "what_are_opcodes",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_are_opcodes_(explainCKBot)",
+      "hub": "blockchain-vms-risc-v",
+      "subjects": [
+        "opcodes-precompiles"
+      ],
+      "internalTags": [
+        "virtual-machine",
+        "opcodes"
+      ]
+    },
+    {
+      "key": "what_are_optimistic_rollups",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/What_are_optimistic_rollups_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "rollups-data-availability-sidechains"
+      ],
+      "internalTags": [
+        "scaling-solutions",
+        "rollups"
+      ]
+    },
+    {
+      "key": "what_are_oracles",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_are_oracles_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "oracles"
+      ]
+    },
+    {
+      "key": "what_are_payment_channels",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_are_payment_channels",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels"
+      ]
+    },
+    {
+      "key": "what_are_penalty_transactions",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_are_penalty_transactions_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "penalty-transactions"
+      ]
+    },
+    {
+      "key": "what_are_precompiles",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_are-precompiles_(explainCKBot)",
+      "hub": "blockchain-vms-risc-v",
+      "subjects": [
+        "opcodes-precompiles"
+      ],
+      "internalTags": [
+        "virtual-machine",
+        "precompiles"
+      ]
+    },
+    {
+      "key": "what_are_privacy_coins",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_are_ privacy_coins_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "privacy-coins"
+      ]
+    },
+    {
+      "key": "what_are_quantum_resistant_wallets",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_are_quantum_resistant_wallets",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "quantum-resistant-blockchains"
+      ],
+      "internalTags": [
+        "quantum-resistance",
+        "quantum-computing"
+      ]
+    },
+    {
+      "key": "what_are_rpc_nodes_and_rpc_endpoints",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_are_rpc_nodes_and_rpc_endpoints_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "rpc"
+      ]
+    },
+    {
+      "key": "what_are_sniper_bots_in_crypto",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/What_are_Sniper_Bots_in_Crypto_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "trading-bots"
+      ]
+    },
+    {
+      "key": "what_are_sovereign_rollups",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/What_are_sovereign_rollups_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "rollups-data-availability-sidechains"
+      ],
+      "internalTags": [
+        "scaling-solutions",
+        "rollups"
+      ]
+    },
+    {
+      "key": "what_are_validity_proofs_in_blockchain",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_are_validity_proofs_in_blockchain_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "rollups-data-availability-sidechains"
+      ],
+      "internalTags": [
+        "scaling-solutions",
+        "validity-proofs"
+      ]
+    },
+    {
+      "key": "what_are_wrapped_tokens",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_are_ \nwrapped_tokens_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "wrapped-tokens"
+      ]
+    },
+    {
+      "key": "what_does_determinism_mean_in_blockchain",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/What_Does_Determinism_Mean_in_Blockchain_(explainCKBot)",
+      "hub": "blockchain-vms-risc-v",
+      "subjects": [
+        "execution-verification"
+      ],
+      "internalTags": [
+        "transaction-execution",
+        "determinism"
+      ]
+    },
+    {
+      "key": "what_is_51_attack",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_51_attack",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "51-percent-attacks"
+      ]
+    },
+    {
+      "key": "what_is_a_block_builder_in_blockchain",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/What_is_a_Block_Builder_in_Blockchain_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus"
+      ]
+    },
+    {
+      "key": "what_is_a_blockchain_gas_fee",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_a_blockchain_gas_fee_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "gas-fees"
+      ]
+    },
+    {
+      "key": "what_is_a_coinbase_transaction",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_a_coinbase_transaction",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "coinbase-transaction"
+      ]
+    },
+    {
+      "key": "what_is_a_cold_wallet",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_a_cold_wallet_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "cold-wallets"
+      ]
+    },
+    {
+      "key": "what_is_a_digital_signature_in_blockchain",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/What_is_a_digital_signature_%20in_Blockchain",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "digital-signatures-elliptic-curves"
+      ],
+      "internalTags": [
+        "digital-signature"
+      ]
+    },
+    {
+      "key": "what_is_a_hard_fork_soft_fork",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus",
+        "forks"
+      ]
+    },
+    {
+      "key": "what_is_a_hash_function",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_a_hash_function",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "hash-functions"
+      ],
+      "internalTags": [
+        "hash-function"
+      ]
+    },
+    {
+      "key": "what_is_a_hashed_timelock_contract",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/What_is_a_Hashed_Timelock_Contract_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "htlc"
+      ]
+    },
+    {
+      "key": "what_is_a_light_client",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_a_light_client_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "light-clients"
+      ]
+    },
+    {
+      "key": "what_is_a_lightning_invoice",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_a_lightning_invoice_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "lightning-network",
+        "lightning-invoices"
+      ]
+    },
+    {
+      "key": "what_is_a_multisig_wallet",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_a_multisig_wallet_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "applied-cryptography"
+      ],
+      "internalTags": [
+        "applied-cryptography",
+        "multisig"
+      ]
+    },
+    {
+      "key": "what_is_a_partially_signed_bitcoin_transacion",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_a_partially_signed_bitcoin_transacion_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design"
+      ]
+    },
+    {
+      "key": "what_is_a_point_time_locked_contract",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_a_point_time_locked_contract_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "ptlc"
+      ]
+    },
+    {
+      "key": "what_is_a_reentrancy_attack",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_a_reentrancy_attack_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "reentrancy"
+      ]
+    },
+    {
+      "key": "what_is_a_sandwich_attack",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_a_sandwich_attack_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "sandwich-attacks"
+      ]
+    },
+    {
+      "key": "what_is_a_seed_phrase",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_a_seed_phrase_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "applied-cryptography"
+      ],
+      "internalTags": [
+        "applied-cryptography",
+        "seed-phrases"
+      ]
+    },
+    {
+      "key": "what_is_a_slippage_in_trading",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_a_slippage_in_trading_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "slippage"
+      ]
+    },
+    {
+      "key": "what_is_a_vm_in_blockchain",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_a_VM_in_blockchain_(explainCKBot)",
+      "hub": "blockchain-vms-risc-v",
+      "subjects": [
+        "blockchain-virtual-machines"
+      ],
+      "internalTags": [
+        "virtual-machine",
+        "virtual-machines"
+      ]
+    },
+    {
+      "key": "what_is_abstraction",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_abstraction_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "abstraction"
+      ]
+    },
+    {
+      "key": "what_is_an_eclipse_attack",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_an_eclipse_attack_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "eclipse-attacks"
+      ]
+    },
+    {
+      "key": "what_is_client_side_validation",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_client_side_validation_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "bitcoin-scaling-rgbpp"
+      ],
+      "internalTags": [
+        "client-side-validation",
+        "bitcoin-scaling"
+      ]
+    },
+    {
+      "key": "what_is_danksharding",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/What_is_Danksharding_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "rollups-data-availability-sidechains"
+      ],
+      "internalTags": [
+        "scaling-solutions",
+        "sharding"
+      ]
+    },
+    {
+      "key": "what_is_data_availability_in_blockchain",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_data_ \navailability_in_blockchain_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "rollups-data-availability-sidechains"
+      ],
+      "internalTags": [
+        "scaling-solutions",
+        "data-availability"
+      ]
+    },
+    {
+      "key": "what_is_decentralized_computing",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_decentralized_computing_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "what-is-decentralized-computing"
+      ]
+    },
+    {
+      "key": "what_is_fiber",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_fiber",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "fiber-network"
+      ]
+    },
+    {
+      "key": "what_is_finality_crypto",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/What_is_finality_crypto_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus",
+        "finality"
+      ]
+    },
+    {
+      "key": "what_is_keccak256",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_keccak256",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "hash-functions"
+      ],
+      "internalTags": [
+        "hash-function",
+        "keccak-256"
+      ]
+    },
+    {
+      "key": "what_is_lattice_based_cryptography",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_lattice_based_cryptography_(explainCKBot)",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "post-quantum-cryptography"
+      ],
+      "internalTags": [
+        "post-quantum-cryptography",
+        "lattice-cryptography"
+      ]
+    },
+    {
+      "key": "what_is_lightning_network_splicing",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_lightning_network_splicing",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "lightning-network",
+        "splicing"
+      ]
+    },
+    {
+      "key": "what_is_lightning_network_url",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_lightning_network_url_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "lightning-network"
+      ]
+    },
+    {
+      "key": "what_is_merge_mining",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/What_is_merge_mining_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "mining"
+      ]
+    },
+    {
+      "key": "what_is_nakamoto_coefficient",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_nakamoto_coefficient_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "nakamoto-consensus"
+      ]
+    },
+    {
+      "key": "what_is_nakamoto_consensus",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_nakamoto_consensus",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "consensus",
+        "nakamoto-consensus"
+      ]
+    },
+    {
+      "key": "what_is_opcat",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_OPCAT_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "bitcoin-scaling-rgbpp"
+      ],
+      "internalTags": [
+        "bitcoin-scaling",
+        "op-cat"
+      ]
+    },
+    {
+      "key": "what_is_proposer_builder_separation_in_ethereum",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/What_is_Proposer_Builder_Separation \n_in_Ethereum_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus"
+      ]
+    },
+    {
+      "key": "what_is_q_day",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_q_day",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "quantum-threat"
+      ],
+      "internalTags": [
+        "quantum-computing",
+        "q-day"
+      ]
+    },
+    {
+      "key": "what_is_replace_by_fee_in_bitcoin",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_replace_by_fee_ \nin_bitcoin_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "replace-by-fee"
+      ]
+    },
+    {
+      "key": "what_is_ripemd160",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is-RIPEMD160_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "hash-functions"
+      ],
+      "internalTags": [
+        "hash-function",
+        "ripemd-160"
+      ]
+    },
+    {
+      "key": "what_is_riscv",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_riscv",
+      "hub": "blockchain-vms-risc-v",
+      "subjects": [
+        "risc-v-ckb-vm"
+      ],
+      "internalTags": [
+        "risc-v"
+      ]
+    },
+    {
+      "key": "what_is_secp256r1",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_secp256r1",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "digital-signatures-elliptic-curves"
+      ],
+      "internalTags": [
+        "digital-signature",
+        "secp256r1"
+      ]
+    },
+    {
+      "key": "what_is_selfish_mining_and_how_protocols_deter_it",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_selfish_mining_and_how_protocols_deter_it_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "mining"
+      ]
+    },
+    {
+      "key": "what_is_sharding_in_blockchain",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/What_is_sharding_in_blockchain_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "scaling-fundamentals"
+      ],
+      "internalTags": [
+        "scalability",
+        "sharding"
+      ]
+    },
+    {
+      "key": "what_is_spv",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_SPV_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "spv"
+      ]
+    },
+    {
+      "key": "what_is_the_longest_chain_rule_in_bitcoin_and_blockchain",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/What_is_the_Longest_Chain_Rule_in_Bitcoin_and_Blockchain_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security"
+      ]
+    },
+    {
+      "key": "what_is_the_mimblewimble_protocol",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_the_mimblewimble_protocol_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "applied-cryptography"
+      ],
+      "internalTags": [
+        "applied-cryptography",
+        "mimblewimble"
+      ]
+    },
+    {
+      "key": "what_is_the_utxo_alliance",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_the_utxo_alliance",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-ecosystem-development"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "ecosystem",
+        "utxo"
+      ]
+    },
+    {
+      "key": "what_is_webassembly",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/what_is_webassembly",
+      "hub": "blockchain-vms-risc-v",
+      "subjects": [
+        "blockchain-virtual-machines"
+      ],
+      "internalTags": [
+        "virtual-machine",
+        "wasm"
+      ]
+    },
+    {
+      "key": "where_is_the_abi_also_why_is_my_cell_dead",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/where_is_the_abi_also_why_is_my_cell_dead",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-architecture"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "ckb-architecture"
+      ]
+    },
+    {
+      "key": "why_is_proof_of_work_required",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/why_is_proof_of_work_required",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "proof-of-work"
+      ]
+    },
+    {
+      "key": "your_ethereum_account_doesnt_exist",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/your_ethereum_account_doesnt_exist",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-architecture"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "ckb-architecture"
+      ]
+    },
+    {
+      "key": "zero_knowledge_proofs",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/zero_knowledge_proofs",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "cryptographic-primitives"
+      ],
+      "internalTags": [
+        "cryptographic-primitive",
+        "zero-knowledge-proofs"
+      ]
+    },
+    {
+      "key": "zk_rollup_vs_optimistic_rollup",
+      "language": "en",
+      "url": "https://www.nervos.org/knowledge-base/zk_rollup_vs_optimistic_rollup",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "rollups-data-availability-sidechains"
+      ],
+      "internalTags": [
+        "scaling-solutions",
+        "rollups"
+      ]
+    },
+    {
+      "key": "asic_resistance_is_it_possible",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/asic_resistance_is_it_possible",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security"
+      ]
+    },
+    {
+      "key": "bft_consensus_mechanisms",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/BFT_consensus_mechanisms_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus",
+        "bft"
+      ]
+    },
+    {
+      "key": "bitcoin_legacy_vs_segwit_vs_taproot_addresses",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/bitcoin_legacy_vs_segwit_vs_taproot_addresses_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "taproot"
+      ]
+    },
+    {
+      "key": "bitcoin_script",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/bitcoin_script_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "bitcoin-script"
+      ]
+    },
+    {
+      "key": "blockchain_trilemma",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/blockchain_trilemma",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "scaling-fundamentals"
+      ],
+      "internalTags": [
+        "scalability",
+        "blockchain-trilemma"
+      ]
+    },
+    {
+      "key": "ckb_blockchain_developers_dream",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/ckb_blockchain_developers_dream",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-architecture"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "ckb-architecture"
+      ]
+    },
+    {
+      "key": "decentralized_identifiers_dids",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/decentralized_identifiers_DIDs_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "decentralized-identity"
+      ]
+    },
+    {
+      "key": "decentralized_storage_systems",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/decentralized_storage_systems_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "decentralized-storage"
+      ]
+    },
+    {
+      "key": "difference_between_miner_full_node",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/difference_between_miner_full_node_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design"
+      ]
+    },
+    {
+      "key": "how_bitcoins_path_to_quantum_resistance_could_look_like",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/how_bitcoins_path_to_quantum_resistance_could_look_like",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "crypto-agility-migration"
+      ],
+      "internalTags": [
+        "cryptographic-migration",
+        "quantum-computing"
+      ]
+    },
+    {
+      "key": "how_does_the_bitcoin_lightning_network_charge_fees",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/how_does_the_bitcoin_lightning_network_charge_fees_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "lightning-network"
+      ]
+    },
+    {
+      "key": "integer_overflow_and_underflow_attacks",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/integer_overflow_and_underflow_attacks_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "integer-overflow"
+      ]
+    },
+    {
+      "key": "layer_1_vs_layer_2",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/layer_1_vs_layer_2",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "scaling-fundamentals"
+      ],
+      "internalTags": [
+        "scalability",
+        "layer-2"
+      ]
+    },
+    {
+      "key": "nervos_overview_of_a_layered_blockchain",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/nervos_overview_of_a_layered_blockchain",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "nervos-ckb-introduction"
+      ],
+      "internalTags": [
+        "nervos-ckb"
+      ]
+    },
+    {
+      "key": "nervosdao_withdrawal_process_explained",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/nervosdao_withdrawal_process_explained",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-tokenomics-issuance"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "tokenomics",
+        "nervos-dao"
+      ]
+    },
+    {
+      "key": "non_custodial_crypto_wallet",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/non-custodial_crypto_wallet_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "self-custody"
+      ]
+    },
+    {
+      "key": "pow_vs_pos_unravelling",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus",
+        "proof-of-stake"
+      ]
+    },
+    {
+      "key": "quantum_resistance",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/quantum_resistance",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "quantum-resistant-blockchains"
+      ],
+      "internalTags": [
+        "quantum-resistance",
+        "quantum-computing"
+      ]
+    },
+    {
+      "key": "secp256k1_a_key_algorithm",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/secp256k1_a_key \nalgorithm_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "digital-signatures-elliptic-curves"
+      ],
+      "internalTags": [
+        "digital-signature",
+        "secp256k1"
+      ]
+    },
+    {
+      "key": "sidechains_unlocking_the_potential",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/sidechains_unlocking_the_potential",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "rollups-data-availability-sidechains"
+      ],
+      "internalTags": [
+        "scaling-solutions",
+        "sidechains"
+      ]
+    },
+    {
+      "key": "state_and_state_change",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/state_and_state_change_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "state-models-storage"
+      ],
+      "internalTags": [
+        "blockchain-state",
+        "state-transitions"
+      ]
+    },
+    {
+      "key": "top_quantum_resistant_cryptocurrency_projects_in_2026",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/top_quantum_resistant_cryptocurrency_projects_in_2026",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "quantum-resistant-blockchains"
+      ],
+      "internalTags": [
+        "quantum-resistance",
+        "quantum-computing"
+      ]
+    },
+    {
+      "key": "unbreakable_sha256_why_even_quantum_computers_cannot_do_it",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/Unbreakable_SHA256_Why_Even_Quantum_Computers_Cannot_Do_It_(explainCKBot)",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "quantum-threat"
+      ],
+      "internalTags": [
+        "quantum-computing",
+        "sha-256"
+      ]
+    },
+    {
+      "key": "understanding_ecdsa",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/understanding_ECDSA_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "digital-signatures-elliptic-curves"
+      ],
+      "internalTags": [
+        "digital-signature",
+        "ecdsa"
+      ]
+    },
+    {
+      "key": "understanding_mpc_wallets",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/understanding_mpc_wallets_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "applied-cryptography"
+      ],
+      "internalTags": [
+        "applied-cryptography",
+        "mpc"
+      ]
+    },
+    {
+      "key": "understanding_nervos_ckb_issuance_model",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/understanding_nervos_ckb_issuance_model",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-tokenomics-issuance"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "tokenomics",
+        "issuance"
+      ]
+    },
+    {
+      "key": "utxo_model_explained",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/utxo_model_explained",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "state-models-storage"
+      ],
+      "internalTags": [
+        "blockchain-state",
+        "utxo"
+      ]
+    },
+    {
+      "key": "utxo_vs_account_based",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/utxo_vs_account_based",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "state-models-storage"
+      ],
+      "internalTags": [
+        "blockchain-state",
+        "utxo"
+      ]
+    },
+    {
+      "key": "what_are_blockchain_bridges",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_are_blockchain_bridges_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "cross-chain-bridges"
+      ]
+    },
+    {
+      "key": "what_are_blockchain_transaction_fees",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/What_are_Blockchain_Transaction_Fees_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design"
+      ]
+    },
+    {
+      "key": "what_are_optimistic_rollups",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_are_optimistic_rollups",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "rollups-data-availability-sidechains"
+      ],
+      "internalTags": [
+        "scaling-solutions",
+        "rollups"
+      ]
+    },
+    {
+      "key": "what_are_payment_channels",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_are_payment_channels",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels"
+      ]
+    },
+    {
+      "key": "what_are_privacy_coins",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_are_ \nprivacy_coins_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "privacy-coins"
+      ]
+    },
+    {
+      "key": "what_is_51_attack",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_is_51_attack",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "51-percent-attacks"
+      ]
+    },
+    {
+      "key": "what_is_a_blockchain_gas_fee",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_is_a_blockchain_gas_fee_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "gas-fees"
+      ]
+    },
+    {
+      "key": "what_is_a_cold_wallet",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_is_a_cold_wallet_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "cold-wallets"
+      ]
+    },
+    {
+      "key": "what_is_a_hard_fork_soft_fork",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_is_a_hard_fork_soft_fork_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus",
+        "forks"
+      ]
+    },
+    {
+      "key": "what_is_a_hash_function",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_is_a_hash_function",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "hash-functions"
+      ],
+      "internalTags": [
+        "hash-function"
+      ]
+    },
+    {
+      "key": "what_is_a_hashed_timelock_contract",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/What_is_a_Hashed_Timelock_Contract_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "htlc"
+      ]
+    },
+    {
+      "key": "what_is_a_multisig_wallet",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_is_a_multisig_wallet_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "applied-cryptography"
+      ],
+      "internalTags": [
+        "applied-cryptography",
+        "multisig"
+      ]
+    },
+    {
+      "key": "what_is_a_partially_signed_bitcoin_transacion",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_is_a_partially_signed_bitcoin_transacion_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design"
+      ]
+    },
+    {
+      "key": "what_is_blockchain_interoperability",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_is_blockchain_interoperability_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design"
+      ]
+    },
+    {
+      "key": "what_is_keccak256",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_is_keccak256_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "hash-functions"
+      ],
+      "internalTags": [
+        "hash-function",
+        "keccak-256"
+      ]
+    },
+    {
+      "key": "what_is_lightning_network_url",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_is_lightning_network_url_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "lightning-network"
+      ]
+    },
+    {
+      "key": "what_is_nakamoto_coefficient",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_is_nakamoto_coefficient_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "nakamoto-consensus"
+      ]
+    },
+    {
+      "key": "what_is_nakamoto_consensus",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_is_nakamoto_consensus",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "consensus",
+        "nakamoto-consensus"
+      ]
+    },
+    {
+      "key": "what_is_riscv",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_is_riscv_(explainCKBot)",
+      "hub": "blockchain-vms-risc-v",
+      "subjects": [
+        "risc-v-ckb-vm"
+      ],
+      "internalTags": [
+        "risc-v"
+      ]
+    },
+    {
+      "key": "what_is_selfish_mining_and_how_protocols_deter_it",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/what_is_selfish_mining_and_how_protocols_deter_it_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "mining"
+      ]
+    },
+    {
+      "key": "why_is_proof_of_work_required",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/why_is_proof_of_work_required",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "proof-of-work"
+      ]
+    },
+    {
+      "key": "zero_knowledge_proofs",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/zero_knowledge_proofs_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "cryptographic-primitives"
+      ],
+      "internalTags": [
+        "cryptographic-primitive",
+        "zero-knowledge-proofs"
+      ]
+    },
+    {
+      "key": "zk_rollup_vs_optimistic_rollup",
+      "language": "es",
+      "url": "https://www.nervos.org/es/knowledge-base/zk_rollup_vs_optimistic_rollup",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "rollups-data-availability-sidechains"
+      ],
+      "internalTags": [
+        "scaling-solutions",
+        "rollups"
+      ]
+    },
+    {
+      "key": "decentralized_storage_systems",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/decentralized_storage_systems",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "decentralized-storage"
+      ]
+    },
+    {
+      "key": "layer_1_vs_layer_2",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/layer_1_vs_layer_2",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "scaling-fundamentals"
+      ],
+      "internalTags": [
+        "scalability",
+        "layer-2"
+      ]
+    },
+    {
+      "key": "what_are_seedless_wallets",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/what_are_seedless_wallets_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "seed-phrases",
+        "seedless-wallets"
+      ]
+    },
+    {
+      "key": "what_is_a_bribery_attack_in_proof_of_stake",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/what_is_a_bribery_attack_in_proof_of_stake_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus",
+        "proof-of-stake"
+      ]
+    },
+    {
+      "key": "what_is_a_coinbase_transaction",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/what_is_a_coinbase_transaction_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "coinbase-transaction"
+      ]
+    },
+    {
+      "key": "what_is_a_light_client",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/what_is_a_light_client_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "light-clients"
+      ]
+    },
+    {
+      "key": "what_is_an_eclipse_attack",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/what_is_an_eclipse_attack_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "eclipse-attacks"
+      ]
+    },
+    {
+      "key": "what_is_gas_abstraction_in_blockchain",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/what_is_gas_abstraction_in_blockchain_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "abstraction",
+        "gas-abstraction"
+      ]
+    },
+    {
+      "key": "what_is_lattice_based_cryptography",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/what_is_lattice_based_cryptography_(explainCKBot)",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "post-quantum-cryptography"
+      ],
+      "internalTags": [
+        "post-quantum-cryptography",
+        "lattice-cryptography"
+      ]
+    },
+    {
+      "key": "what_is_nakamoto_consensus",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/what_is_nakamoto_consensus",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "consensus",
+        "nakamoto-consensus"
+      ]
+    },
+    {
+      "key": "what_is_riscv",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/what_is_riscv",
+      "hub": "blockchain-vms-risc-v",
+      "subjects": [
+        "risc-v-ckb-vm"
+      ],
+      "internalTags": [
+        "risc-v"
+      ]
+    },
+    {
+      "key": "what_is_the_utxo_alliance",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/what_is_the_utxo_alliance",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-ecosystem-development"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "ecosystem",
+        "utxo"
+      ]
+    },
+    {
+      "key": "why_is_proof_of_work_required",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/why_is_proof_of_work_required",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "proof-of-work"
+      ]
+    },
+    {
+      "key": "zk_rollup_vs_optimistic_rollup",
+      "language": "fr",
+      "url": "https://www.nervos.org/fr/knowledge-base/zk_rollup_vs_optimistic_rollup",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "rollups-data-availability-sidechains"
+      ],
+      "internalTags": [
+        "scaling-solutions",
+        "rollups"
+      ]
+    },
+    {
+      "key": "introduction_to_x402",
+      "language": "ko",
+      "url": "https://www.nervos.org/ko/knowledge-base/introduction_to_x402_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "agent-payments-micropayments"
+      ],
+      "internalTags": [
+        "agent-payments",
+        "x402"
+      ]
+    },
+    {
+      "key": "seed_phrases",
+      "language": "ko",
+      "url": "https://www.nervos.org/ko/knowledge-base/seed_phrases",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "applied-cryptography"
+      ],
+      "internalTags": [
+        "applied-cryptography",
+        "seed-phrases"
+      ]
+    },
+    {
+      "key": "what_are_penalty_transactions",
+      "language": "ko",
+      "url": "https://www.nervos.org/ko/knowledge-base/what_are_penalty_transactions_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "penalty-transactions"
+      ]
+    },
+    {
+      "key": "what_is_proof_of_history",
+      "language": "ko",
+      "url": "https://www.nervos.org/ko/knowledge-base/what_is_proof_of_history_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus"
+      ]
+    },
+    {
+      "key": "integer_overflow_and_underflow_attacks",
+      "language": "tr",
+      "url": "https://www.nervos.org/tr/knowledge-base/integer_overflow_and_underflow_attacks_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "integer-overflow"
+      ]
+    },
+    {
+      "key": "what_is_weak_subjectivity_in_blockchain",
+      "language": "tr",
+      "url": "https://www.nervos.org/tr/knowledge-base/what_is_weak_subjectivity_in_blockchain_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus"
+      ]
+    },
+    {
+      "key": "account_abstraction_where_were_going",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/account_abstraction_where_were_going",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-ecosystem-development"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "ecosystem",
+        "abstraction",
+        "account-abstraction"
+      ]
+    },
+    {
+      "key": "asic_resistance_is_it_possible",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/asic_resistance_is_it_possible",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security"
+      ]
+    },
+    {
+      "key": "bft_consensus_mechanisms",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/BFT_consensus_mechanisms_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus",
+        "bft"
+      ]
+    },
+    {
+      "key": "bip360_explained",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/bip360_explained",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "crypto-agility-migration"
+      ],
+      "internalTags": [
+        "cryptographic-migration",
+        "bip-360"
+      ]
+    },
+    {
+      "key": "bitcoin_and_ckb_security_models",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/bitcoin_and_ckb_security_models",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-architecture"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "ckb-architecture"
+      ]
+    },
+    {
+      "key": "bitcoin_legacy_vs_segwit_vs_taproot_addresses",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/bitcoin_legacy_vs_segwit_vs_taproot_addresses",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "taproot"
+      ]
+    },
+    {
+      "key": "bitcoin_script",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/bitcoin_script_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "bitcoin-script"
+      ]
+    },
+    {
+      "key": "block_time_in_blockchain",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/block_time_in_blockchain_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "block-time"
+      ]
+    },
+    {
+      "key": "blockchain_trilemma",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/blockchain_trilemma",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "scaling-fundamentals"
+      ],
+      "internalTags": [
+        "scalability",
+        "blockchain-trilemma"
+      ]
+    },
+    {
+      "key": "bls_signatures_use_cryptocurrency",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/BLS_Signatures_use_cryptocurrency_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "digital-signatures-elliptic-curves"
+      ],
+      "internalTags": [
+        "digital-signature",
+        "bls"
+      ]
+    },
+    {
+      "key": "ckb_blockchain_developers_dream",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/ckb_blockchain_developers_dream",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-architecture"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "ckb-architecture"
+      ]
+    },
+    {
+      "key": "crypto_mining_hardware",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/crypto_mining_hardware_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "mining"
+      ]
+    },
+    {
+      "key": "cryptocurrency_mining_difficulty",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/cryptocurrency_mining_difficulty_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "mining"
+      ]
+    },
+    {
+      "key": "cryptocurrency_mining_pools",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/cryptocurrency_mining_pools_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "mining"
+      ]
+    },
+    {
+      "key": "decentralized_identifiers_dids",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/decentralized_identifiers_DIDs_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "decentralized-identity"
+      ]
+    },
+    {
+      "key": "decentralized_storage_systems",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/decentralized_storage_systems_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "decentralized-storage"
+      ]
+    },
+    {
+      "key": "difference_between_crypto_miners_validators",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/difference_between_crypto_miners_validators_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security"
+      ]
+    },
+    {
+      "key": "difference_between_miner_full_node",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/difference_between_miner_full_node_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design"
+      ]
+    },
+    {
+      "key": "difference_blockchain_computation_verification",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/difference_blockchain_computation_verification_(explainCKBot)",
+      "hub": "blockchain-vms-risc-v",
+      "subjects": [
+        "execution-verification"
+      ],
+      "internalTags": [
+        "transaction-execution",
+        "verification"
+      ]
+    },
+    {
+      "key": "how_bitcoins_path_to_quantum_resistance_could_look_like",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/how_bitcoins_path_to_quantum_resistance_could_look_like",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "crypto-agility-migration"
+      ],
+      "internalTags": [
+        "cryptographic-migration",
+        "quantum-computing"
+      ]
+    },
+    {
+      "key": "how_does_the_bitcoin_lightning_network_charge_fees",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/how_does_the_bitcoin_lightning_network_charge_fees_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "lightning-network"
+      ]
+    },
+    {
+      "key": "how_liquidity_works_in_the_lightning_network",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/how_liquidity_works_in_the_lightning_network",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "lightning-network",
+        "liquidity"
+      ]
+    },
+    {
+      "key": "how_to_protect_your_crypto_from_quantum_computing",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/how_to_protect_your_crypto_from_quantum_computing",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "crypto-agility-migration"
+      ],
+      "internalTags": [
+        "cryptographic-migration",
+        "quantum-computing"
+      ]
+    },
+    {
+      "key": "integer_overflow_and_underflow_attacks",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/integer_overflow_and_underflow_attacks_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "integer-overflow"
+      ]
+    },
+    {
+      "key": "layer_1_vs_layer_2",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/layer_1_vs_layer_2",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "scaling-fundamentals"
+      ],
+      "internalTags": [
+        "scalability",
+        "layer-2"
+      ]
+    },
+    {
+      "key": "long_range_attacks_explained",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/long_range_attacks_explained_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus"
+      ]
+    },
+    {
+      "key": "mempool_in_cryptocurrency",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/mempool_in_cryptocurrency_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "mempool"
+      ]
+    },
+    {
+      "key": "modular_vs_monolithic",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/modular_vs_monolithic_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "modularity"
+      ]
+    },
+    {
+      "key": "nervos_overview_of_a_layered_blockchain",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/nervos_overview_of_a_layered_blockchain",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "nervos-ckb-introduction"
+      ],
+      "internalTags": [
+        "nervos-ckb"
+      ]
+    },
+    {
+      "key": "nervosdao_withdrawal_process_explained",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/nervosdao_withdrawal_process_explained",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-tokenomics-issuance"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "tokenomics",
+        "nervos-dao"
+      ]
+    },
+    {
+      "key": "non_custodial_crypto_wallet",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/non-custodial_crypto_wallet_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "self-custody"
+      ]
+    },
+    {
+      "key": "optimizing_layer_1_for_modularity",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/optimizing_layer_1_for_modularity",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "scaling-fundamentals"
+      ],
+      "internalTags": [
+        "scalability",
+        "modularity"
+      ]
+    },
+    {
+      "key": "pi400_ckb_node_setup_guide",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/pi400_ckb_node_setup_guide",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-ecosystem-development"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "ecosystem"
+      ]
+    },
+    {
+      "key": "pow_vs_pos_unravelling",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/pow_vs_pos_unravelling_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus",
+        "proof-of-stake"
+      ]
+    },
+    {
+      "key": "quantum_resistance",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/quantum_resistance",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "quantum-resistant-blockchains"
+      ],
+      "internalTags": [
+        "quantum-resistance",
+        "quantum-computing"
+      ]
+    },
+    {
+      "key": "schnorr_signatures",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/schnorr_signatures_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "digital-signatures-elliptic-curves"
+      ],
+      "internalTags": [
+        "digital-signature",
+        "schnorr"
+      ]
+    },
+    {
+      "key": "secp256k1_a_key_algorithm",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/secp256k1_a_key \nalgorithm_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "digital-signatures-elliptic-curves"
+      ],
+      "internalTags": [
+        "digital-signature",
+        "secp256k1"
+      ]
+    },
+    {
+      "key": "seed_phrases",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/seed_phrases",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "applied-cryptography"
+      ],
+      "internalTags": [
+        "applied-cryptography",
+        "seed-phrases"
+      ]
+    },
+    {
+      "key": "sha256_most_used_hash_function",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/SHA256_most_used_hash_function_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "hash-functions"
+      ],
+      "internalTags": [
+        "hash-function",
+        "sha-256"
+      ]
+    },
+    {
+      "key": "sidechains_unlocking_the_potential",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/sidechains_unlocking_the_potential",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "rollups-data-availability-sidechains"
+      ],
+      "internalTags": [
+        "scaling-solutions",
+        "sidechains"
+      ]
+    },
+    {
+      "key": "slashing_in_pos",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/slashing_in_PoS_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus",
+        "slashing"
+      ]
+    },
+    {
+      "key": "state_and_state_change",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/state_and_state_change_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "state-models-storage"
+      ],
+      "internalTags": [
+        "blockchain-state",
+        "state-transitions"
+      ]
+    },
+    {
+      "key": "state_bloat_blockchain",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/state_bloat_blockchain_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "state-models-storage"
+      ],
+      "internalTags": [
+        "blockchain-state",
+        "state-bloat"
+      ]
+    },
+    {
+      "key": "surprisingly_secondary_issuance_is_not_inflationary",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/surprisingly_secondary_issuance_is_not_inflationary",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-tokenomics-issuance"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "tokenomics",
+        "issuance",
+        "secondary-issuance"
+      ]
+    },
+    {
+      "key": "sybil_attacks_consensus_mechanisms",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/sybil_attacks_consensus_mechanisms_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "consensus",
+        "sybil-attacks"
+      ]
+    },
+    {
+      "key": "the_difference_between_parallel_and_sequential_transaction_execution_in_crypto",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/The_Difference_Between_Parallel_and_Sequential_Transaction_Execution_in_Crypto_(explainCKBot)",
+      "hub": "blockchain-vms-risc-v",
+      "subjects": [
+        "execution-verification"
+      ],
+      "internalTags": [
+        "transaction-execution",
+        "parallel-execution"
+      ]
+    },
+    {
+      "key": "the_nothing_at_stake_problem",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/the_nothing_at_stake_problem_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus"
+      ]
+    },
+    {
+      "key": "tokenomics_of_nervos_network",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/tokenomics_of_nervos_network",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-tokenomics-issuance"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "tokenomics"
+      ]
+    },
+    {
+      "key": "top_quantum_resistant_cryptocurrency_projects_in_2026",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/top_quantum_resistant_cryptocurrency_projects_in_2026",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "quantum-resistant-blockchains"
+      ],
+      "internalTags": [
+        "quantum-resistance",
+        "quantum-computing"
+      ]
+    },
+    {
+      "key": "transaction_confirmation_in_blockchain",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/transaction_confirmation_in_blockchain_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design"
+      ]
+    },
+    {
+      "key": "ultimate_guide_to_light_clients",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/ultimate_guide_to_light_clients",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "light-clients"
+      ]
+    },
+    {
+      "key": "unbreakable_sha256_why_even_quantum_computers_cannot_do_it",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/Unbreakable_SHA256_Why_Even_Quantum_Computers_Cannot_Do_It",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "quantum-threat"
+      ],
+      "internalTags": [
+        "quantum-computing",
+        "sha-256"
+      ]
+    },
+    {
+      "key": "understanding_change_addresses_in_bitcoin_transactions",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/understanding_change_addresses_in_bitcoin_transactions_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "change-addresses"
+      ]
+    },
+    {
+      "key": "understanding_ecdsa",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/understanding_ECDSA_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "digital-signatures-elliptic-curves"
+      ],
+      "internalTags": [
+        "digital-signature",
+        "ecdsa"
+      ]
+    },
+    {
+      "key": "understanding_mpc_wallets",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/understanding_mpc_wallets_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "applied-cryptography"
+      ],
+      "internalTags": [
+        "applied-cryptography",
+        "mpc"
+      ]
+    },
+    {
+      "key": "understanding_nervos_ckb_issuance_model",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/understanding_nervos_ckb_issuance_model",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-tokenomics-issuance"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "tokenomics",
+        "issuance"
+      ]
+    },
+    {
+      "key": "utxo_model_explained",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/utxo_model_explained",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "state-models-storage"
+      ],
+      "internalTags": [
+        "blockchain-state",
+        "utxo"
+      ]
+    },
+    {
+      "key": "utxo_vs_account_based",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/utxo_vs_account_based",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "state-models-storage"
+      ],
+      "internalTags": [
+        "blockchain-state",
+        "utxo"
+      ]
+    },
+    {
+      "key": "web5_extra_decentralized",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/web5-extra-decentralized",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "web5"
+      ]
+    },
+    {
+      "key": "what_are_blockchain_bridges",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_are_blockchain_bridges_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "cross-chain-bridges"
+      ]
+    },
+    {
+      "key": "what_are_blockchain_transaction_fees",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/What_are_Blockchain_Transaction_Fees_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design"
+      ]
+    },
+    {
+      "key": "what_are_implications_of_forks",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/What_are_implications_of_forks_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus",
+        "forks"
+      ]
+    },
+    {
+      "key": "what_are_optimistic_rollups",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_are_optimistic_rollups",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "rollups-data-availability-sidechains"
+      ],
+      "internalTags": [
+        "scaling-solutions",
+        "rollups"
+      ]
+    },
+    {
+      "key": "what_are_optimistic_rollups_everything_you_need_to_know",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_are_optimistic_rollups_everything_you_need_to_know",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "rollups-data-availability-sidechains"
+      ],
+      "internalTags": [
+        "scaling-solutions",
+        "rollups"
+      ]
+    },
+    {
+      "key": "what_are_oracles",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_are_oracles_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "oracles"
+      ]
+    },
+    {
+      "key": "what_are_payment_channels",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_are_payment_channels",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels"
+      ]
+    },
+    {
+      "key": "what_are_precompiles",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_are-precompiles_(explainCKBot)",
+      "hub": "blockchain-vms-risc-v",
+      "subjects": [
+        "opcodes-precompiles"
+      ],
+      "internalTags": [
+        "virtual-machine",
+        "precompiles"
+      ]
+    },
+    {
+      "key": "what_are_privacy_coins",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_are_ \nprivacy_coins_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "privacy-coins"
+      ]
+    },
+    {
+      "key": "what_are_quantum_resistant_wallets",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_are_quantum_resistant_wallets",
+      "hub": "quantum-computing-blockchain-security",
+      "subjects": [
+        "quantum-resistant-blockchains"
+      ],
+      "internalTags": [
+        "quantum-resistance",
+        "quantum-computing"
+      ]
+    },
+    {
+      "key": "what_are_rpc_nodes_and_rpc_endpoints",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_are_rpc_nodes_and_rpc_endpoints",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "rpc"
+      ]
+    },
+    {
+      "key": "what_are_seedless_wallets",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_are_seedless_wallets_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "seed-phrases",
+        "seedless-wallets"
+      ]
+    },
+    {
+      "key": "what_are_sniper_bots_in_crypto",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/What_are_Sniper_Bots_in_Crypto",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "trading-bots"
+      ]
+    },
+    {
+      "key": "what_are_wrapped_tokens",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_are_ \nwrapped_tokens_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "wrapped-tokens"
+      ]
+    },
+    {
+      "key": "what_is_51_attack",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_51_attack",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "51-percent-attacks"
+      ]
+    },
+    {
+      "key": "what_is_a_blockchain_gas_fee",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_a_blockchain_gas_fee_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "gas-fees"
+      ]
+    },
+    {
+      "key": "what_is_a_coinbase_transaction",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_a_coinbase_transaction_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "coinbase-transaction"
+      ]
+    },
+    {
+      "key": "what_is_a_cold_wallet",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_a_cold_wallet_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "cold-wallets"
+      ]
+    },
+    {
+      "key": "what_is_a_digital_signature_in_blockchain",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/What_is_a_digital_signature_ \nin_Blockchain_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "digital-signatures-elliptic-curves"
+      ],
+      "internalTags": [
+        "digital-signature"
+      ]
+    },
+    {
+      "key": "what_is_a_finney_attack",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_a_finney_attack_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security"
+      ]
+    },
+    {
+      "key": "what_is_a_hard_fork_soft_fork",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_a_hard_fork_soft_fork_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "consensus-finality"
+      ],
+      "internalTags": [
+        "consensus",
+        "forks"
+      ]
+    },
+    {
+      "key": "what_is_a_hash_function",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_a_hash_function",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "hash-functions"
+      ],
+      "internalTags": [
+        "hash-function"
+      ]
+    },
+    {
+      "key": "what_is_a_hashed_timelock_contract",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/What_is_a_Hashed_Timelock_Contract_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "htlc"
+      ]
+    },
+    {
+      "key": "what_is_a_light_client",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_a_light_client_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "light-clients"
+      ]
+    },
+    {
+      "key": "what_is_a_lightning_invoice",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_a_lightning_invoice",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "lightning-network",
+        "lightning-invoices"
+      ]
+    },
+    {
+      "key": "what_is_a_multisig_wallet",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_a_multisig_wallet_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "applied-cryptography"
+      ],
+      "internalTags": [
+        "applied-cryptography",
+        "multisig"
+      ]
+    },
+    {
+      "key": "what_is_a_sandwich_attack",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_a_sandwich_attack_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "sandwich-attacks"
+      ]
+    },
+    {
+      "key": "what_is_a_seed_phrase",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_a_seed_phrase_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "applied-cryptography"
+      ],
+      "internalTags": [
+        "applied-cryptography",
+        "seed-phrases"
+      ]
+    },
+    {
+      "key": "what_is_a_smart_contract_wallet",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_a_smart_contract_wallet_(explainCKBot)",
+      "hub": null,
+      "subjects": [],
+      "internalTags": [
+        "smart-contract-wallets"
+      ]
+    },
+    {
+      "key": "what_is_blockchain_interoperability",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_blockchain_interoperability_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design"
+      ]
+    },
+    {
+      "key": "what_is_fiber",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_fiber",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "fiber-network"
+      ]
+    },
+    {
+      "key": "what_is_keccak256",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_keccak256_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "hash-functions"
+      ],
+      "internalTags": [
+        "hash-function",
+        "keccak-256"
+      ]
+    },
+    {
+      "key": "what_is_lightning_network_url",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_lightning_network_url_(explainCKBot)",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "payment-channels-networks"
+      ],
+      "internalTags": [
+        "payment-channels",
+        "lightning-network"
+      ]
+    },
+    {
+      "key": "what_is_nakamoto_consensus",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_nakamoto_consensus",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "consensus",
+        "nakamoto-consensus"
+      ]
+    },
+    {
+      "key": "what_is_replace_by_fee_in_bitcoin",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_replace_by_fee_ \nin_bitcoin_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "blockchain-fundamentals"
+      ],
+      "internalTags": [
+        "blockchain-design",
+        "replace-by-fee"
+      ]
+    },
+    {
+      "key": "what_is_ripemd160",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is-RIPEMD160_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "hash-functions"
+      ],
+      "internalTags": [
+        "hash-function",
+        "ripemd-160"
+      ]
+    },
+    {
+      "key": "what_is_riscv",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_riscv_(explainCKBot)",
+      "hub": "blockchain-vms-risc-v",
+      "subjects": [
+        "risc-v-ckb-vm"
+      ],
+      "internalTags": [
+        "risc-v"
+      ]
+    },
+    {
+      "key": "what_is_secp256r1",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_secp256r1",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "digital-signatures-elliptic-curves"
+      ],
+      "internalTags": [
+        "digital-signature",
+        "secp256r1"
+      ]
+    },
+    {
+      "key": "what_is_selfish_mining_and_how_protocols_deter_it",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_selfish_mining_and_how_protocols_deter_it_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "mining"
+      ]
+    },
+    {
+      "key": "what_is_the_longest_chain_rule_in_bitcoin_and_blockchain",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/What_is_the_Longest_Chain_Rule_in_Bitcoin_and_Blockchain_(explainCKBot)",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security"
+      ]
+    },
+    {
+      "key": "what_is_the_utxo_alliance",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/what_is_the_utxo_alliance",
+      "hub": "nervos-ckb",
+      "subjects": [
+        "ckb-ecosystem-development"
+      ],
+      "internalTags": [
+        "nervos-ckb",
+        "ecosystem",
+        "utxo"
+      ]
+    },
+    {
+      "key": "why_is_proof_of_work_required",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/why_is_proof_of_work_required",
+      "hub": "blockchain-architecture",
+      "subjects": [
+        "pow-network-security"
+      ],
+      "internalTags": [
+        "network-security",
+        "proof-of-work"
+      ]
+    },
+    {
+      "key": "zero_knowledge_proofs",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/zero_knowledge_proofs_(explainCKBot)",
+      "hub": "blockchain-cryptography",
+      "subjects": [
+        "cryptographic-primitives"
+      ],
+      "internalTags": [
+        "cryptographic-primitive",
+        "zero-knowledge-proofs"
+      ]
+    },
+    {
+      "key": "zk_rollup_vs_optimistic_rollup",
+      "language": "zh",
+      "url": "https://www.nervos.org/zh/knowledge-base/zk_rollup_vs_optimistic_rollup",
+      "hub": "blockchain-scalability",
+      "subjects": [
+        "rollups-data-availability-sidechains"
+      ],
+      "internalTags": [
+        "scaling-solutions",
+        "rollups"
+      ]
+    }
+  ],
+  "featured": [
+    {
+      "hub": "blockchain-cryptography",
+      "language": "en",
+      "order": 1,
+      "url": "https://www.nervos.org/knowledge-base/what_is_a_hash_function"
+    },
+    {
+      "hub": "blockchain-cryptography",
+      "language": "en",
+      "order": 2,
+      "url": "https://www.nervos.org/knowledge-base/What_is_a_digital_signature_%20in_Blockchain"
+    },
+    {
+      "hub": "blockchain-cryptography",
+      "language": "en",
+      "order": 3,
+      "url": "https://www.nervos.org/knowledge-base/what_is_secp256r1"
+    },
+    {
+      "hub": "quantum-computing-blockchain-security",
+      "language": "en",
+      "order": 1,
+      "url": "https://www.nervos.org/knowledge-base/quantum_resistance"
+    },
+    {
+      "hub": "quantum-computing-blockchain-security",
+      "language": "en",
+      "order": 2,
+      "url": "https://www.nervos.org/knowledge-base/shors_algorithm_explained"
+    },
+    {
+      "hub": "quantum-computing-blockchain-security",
+      "language": "en",
+      "order": 3,
+      "url": "https://www.nervos.org/knowledge-base/blockchain_crypto_agility"
+    },
+    {
+      "hub": "blockchain-architecture",
+      "language": "en",
+      "order": 1,
+      "url": "https://www.nervos.org/knowledge-base/utxo_vs_account_based"
+    },
+    {
+      "hub": "blockchain-architecture",
+      "language": "en",
+      "order": 2,
+      "url": "https://www.nervos.org/knowledge-base/what_is_nakamoto_consensus"
+    },
+    {
+      "hub": "blockchain-architecture",
+      "language": "en",
+      "order": 3,
+      "url": "https://www.nervos.org/knowledge-base/modular_vs_monolithic"
+    },
+    {
+      "hub": "blockchain-vms-risc-v",
+      "language": "en",
+      "order": 1,
+      "url": "https://www.nervos.org/knowledge-base/comparing_blockchain_virtual_machines"
+    },
+    {
+      "hub": "blockchain-vms-risc-v",
+      "language": "en",
+      "order": 2,
+      "url": "https://www.nervos.org/knowledge-base/what_is_a_VM_in_blockchain_(explainCKBot)"
+    },
+    {
+      "hub": "blockchain-vms-risc-v",
+      "language": "en",
+      "order": 3,
+      "url": "https://www.nervos.org/knowledge-base/what_is_riscv"
+    },
+    {
+      "hub": "blockchain-scalability",
+      "language": "en",
+      "order": 1,
+      "url": "https://www.nervos.org/knowledge-base/layer_1_vs_layer_2"
+    },
+    {
+      "hub": "blockchain-scalability",
+      "language": "en",
+      "order": 2,
+      "url": "https://www.nervos.org/knowledge-base/ultimate_guide_to_payment_channels"
+    },
+    {
+      "hub": "blockchain-scalability",
+      "language": "en",
+      "order": 3,
+      "url": "https://www.nervos.org/knowledge-base/ultimate_guide_to_rgb_rgbpp_and_client_side_validation"
+    },
+    {
+      "hub": "nervos-ckb",
+      "language": "en",
+      "order": 1,
+      "url": "https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain"
+    },
+    {
+      "hub": "nervos-ckb",
+      "language": "en",
+      "order": 2,
+      "url": "https://www.nervos.org/knowledge-base/ckb_blockchain_developers_dream"
+    },
+    {
+      "hub": "nervos-ckb",
+      "language": "en",
+      "order": 3,
+      "url": "https://www.nervos.org/knowledge-base/tokenomics_of_nervos_network"
+    }
+  ]
+}

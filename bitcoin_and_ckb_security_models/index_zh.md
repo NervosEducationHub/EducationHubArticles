@@ -22,7 +22,7 @@ date: '2023-12-05T16:00:00.000Z'
 
 被添加到区块链中的区块所包含的交易被视为 "已确认"，这意味着用户可以使用他们在这些交易中获得的比特币。一笔交易被确认的次数越多，或者说在包含这笔交易的区块之上构建的区块越多，这笔交易被篡改几率就越低。
 
-为了更新最新的交易块，矿工们必须争分夺秒地完成一项特定任务，即找到 [SHA-256](https://www.nervos.org/knowledge-base/SHA256_most_used_hash_function) 加密[哈希函数](https://www.nervos.org/knowledge-base/what_is_a_hash_function)的有效哈希输出。
+为了更新最新的交易块，矿工们必须争分夺秒地完成一项特定任务，即找到 [SHA-256](https://www.nervos.org/knowledge-base/sha256_most_used_hash_function) 加密[哈希函数](https://www.nervos.org/knowledge-base/what_is_a_hash_function)的有效哈希输出。
 
 [哈希函数](https://www.nervos.org/knowledge-base/what_is_a_hash_function)是一种将任意长度的输入转换为固定长度输出的数学函数，其输出可视作输入的 “加密指纹”。哈希函数是 “单向” 的，意味着无法通过输出逆推输入。对于任何给定输入，生成的哈希值总是一致的，任何人都能使用相同的算法轻松计算和验证。
 

@@ -1,0 +1,218 @@
+{
+  "version": 1,
+  "task": "D-18",
+  "sourceWorkbook": "Nervos-Website-Fixes-Dev-Handoff-2026-09-24 (2).xlsx",
+  "sourceSheet": "06_dev_Slug_Cleanup",
+  "renames": [
+    {
+      "from": "web5-extra-decentralized",
+      "to": "web5_extra_decentralized"
+    },
+    {
+      "from": "CKBuilders",
+      "to": "ckbuilders"
+    },
+    {
+      "from": "Unlocking_CKB_Liquidity_iCKB",
+      "to": "unlocking_ckb_liquidity_ickb"
+    },
+    {
+      "from": "understanding_ECDSA",
+      "to": "understanding_ecdsa"
+    },
+    {
+      "from": "Unbreakable_SHA256_Why_Even_Quantum_Computers_Cannot_Do_It",
+      "to": "unbreakable_sha256_why_even_quantum_computers_cannot_do_it"
+    },
+    {
+      "from": "What_is_a_digital_signature_ in_Blockchain",
+      "to": "what_is_a_digital_signature_in_blockchain"
+    },
+    {
+      "from": "What_is_the_Longest_Chain_Rule_in_Bitcoin_and_Blockchain",
+      "to": "what_is_the_longest_chain_rule_in_bitcoin_and_blockchain"
+    },
+    {
+      "from": "the-case-for-rgbpp",
+      "to": "the_case_for_rgbpp"
+    },
+    {
+      "from": "BFT_consensus_mechanisms",
+      "to": "bft_consensus_mechanisms"
+    },
+    {
+      "from": "What_is_a_Block_Builder_in_Blockchain",
+      "to": "what_is_a_block_builder_in_blockchain"
+    },
+    {
+      "from": "What_are_Sniper_Bots_in_Crypto",
+      "to": "what_are_sniper_bots_in_crypto"
+    },
+    {
+      "from": "How_to_Check_Smart_Contract_Security",
+      "to": "how_to_check_smart_contract_security"
+    },
+    {
+      "from": "Understanding_Bitcoin_layer2",
+      "to": "understanding_bitcoin_layer2"
+    },
+    {
+      "from": "what_is_SPV",
+      "to": "what_is_spv"
+    },
+    {
+      "from": "what_is-RIPEMD160",
+      "to": "what_is_ripemd160"
+    },
+    {
+      "from": "What_is_Proposer_Builder_Separation _in_Ethereum",
+      "to": "what_is_proposer_builder_separation_in_ethereum"
+    },
+    {
+      "from": "Cross_Chain_Solutions_A_Complete_Guide",
+      "to": "cross_chain_solutions_a_complete_guide"
+    },
+    {
+      "from": "SHA256_most_used_hash_function",
+      "to": "sha256_most_used_hash_function"
+    },
+    {
+      "from": "what_is_replace_by_fee_ in_bitcoin",
+      "to": "what_is_replace_by_fee_in_bitcoin"
+    },
+    {
+      "from": "The_Difference_Between_Parallel_and_Sequential_Transaction_Execution_in_Crypto",
+      "to": "the_difference_between_parallel_and_sequential_transaction_execution_in_crypto"
+    },
+    {
+      "from": "What_is_merge_mining",
+      "to": "what_is_merge_mining"
+    },
+    {
+      "from": "decentralized_identifiers_DIDs",
+      "to": "decentralized_identifiers_dids"
+    },
+    {
+      "from": "What_are_Based_Rollups",
+      "to": "what_are_based_rollups"
+    },
+    {
+      "from": "What_Does_Determinism_Mean_in_Blockchain",
+      "to": "what_does_determinism_mean_in_blockchain"
+    },
+    {
+      "from": "what_is_OPCAT",
+      "to": "what_is_opcat"
+    },
+    {
+      "from": "What_are_sovereign_rollups",
+      "to": "what_are_sovereign_rollups"
+    },
+    {
+      "from": "What_are_bitcoin_drivechains",
+      "to": "what_are_bitcoin_drivechains"
+    },
+    {
+      "from": "What_is_finality_crypto",
+      "to": "what_is_finality_crypto"
+    },
+    {
+      "from": "non-custodial_crypto_wallet",
+      "to": "non_custodial_crypto_wallet"
+    },
+    {
+      "from": "slashing_in_PoS",
+      "to": "slashing_in_pos"
+    },
+    {
+      "from": "What_is_Danksharding",
+      "to": "what_is_danksharding"
+    },
+    {
+      "from": "BLS_Signatures_use_cryptocurrency",
+      "to": "bls_signatures_use_cryptocurrency"
+    },
+    {
+      "from": "what_is_data_ availability_in_blockchain",
+      "to": "what_is_data_availability_in_blockchain"
+    },
+    {
+      "from": "What_are_BRC20_tokens",
+      "to": "what_are_brc20_tokens"
+    },
+    {
+      "from": "what_are-airdrops",
+      "to": "what_are_airdrops"
+    },
+    {
+      "from": "What_are_implications_of_forks",
+      "to": "what_are_implications_of_forks"
+    },
+    {
+      "from": "What_are_Blockchain_Transaction_Fees",
+      "to": "what_are_blockchain_transaction_fees"
+    },
+    {
+      "from": "bitcoin-doesnt-know-it-has-smart-contracts",
+      "to": "bitcoin_doesnt_know_it_has_smart_contracts"
+    },
+    {
+      "from": "what_are_ privacy_coins",
+      "to": "what_are_privacy_coins"
+    },
+    {
+      "from": "understanding_Token_standards_erc20",
+      "to": "understanding_token_standards_erc20"
+    },
+    {
+      "from": "What_are_Native_Rollups",
+      "to": "what_are_native_rollups"
+    },
+    {
+      "from": "What_is_domainkeys",
+      "to": "what_is_domainkeys"
+    },
+    {
+      "from": "What_is_sharding_in_blockchain",
+      "to": "what_is_sharding_in_blockchain"
+    },
+    {
+      "from": "what_is_a_VM_in_blockchain",
+      "to": "what_is_a_vm_in_blockchain"
+    },
+    {
+      "from": "the-builder-is-not-the-chain",
+      "to": "the_builder_is_not_the_chain"
+    },
+    {
+      "from": "what_are-precompiles",
+      "to": "what_are_precompiles"
+    },
+    {
+      "from": "What_is_a_Hashed_Timelock_Contract",
+      "to": "what_is_a_hashed_timelock_contract"
+    },
+    {
+      "from": "what_are-passkeys",
+      "to": "what_are_passkeys"
+    },
+    {
+      "from": "understanding_webAuthn",
+      "to": "understanding_webauthn"
+    },
+    {
+      "from": "what_are_ wrapped_tokens",
+      "to": "what_are_wrapped_tokens"
+    },
+    {
+      "from": "CKBuilders2",
+      "to": "ckbuilders2",
+      "approval": {
+        "source": "User approval during upstream translation sync",
+        "date": "2026-11-03",
+        "upstreamCommit": "94e5127b6b918e932acdd8fed9dc46eaa72e0c27",
+        "scope": "Normalize this newly added article only; preserve permanent article and asset redirects. Additional to the original 50 D-18 workbook migrations."
+      }
+    }
+  ]
+}

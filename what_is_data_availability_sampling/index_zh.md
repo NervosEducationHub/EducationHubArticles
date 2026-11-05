@@ -16,7 +16,7 @@ author:
 
 ## 数据可用性为什么对区块链重要
 
-[数据可用性（data availability）](https://www.nervos.org/knowledge-base/what_is_data_%20availability_in_blockchain)是指，验证区块链[状态（state）](https://www.nervos.org/knowledge-base/state_and_state_change)所需的全部信息，都能被任何希望检查的人获取。
+[数据可用性（data availability）](https://www.nervos.org/knowledge-base/what_is_data_availability_in_blockchain)是指，验证区块链[状态（state）](https://www.nervos.org/knowledge-base/state_and_state_change)所需的全部信息，都能被任何希望检查的人获取。
 
 这包括交易数据、状态转换信息，以及在 [Rollup](https://www.nervos.org/knowledge-base/what_are_optimistic_rollups_and_how_do_they_work) 场景中发布到基础层的批次数据。如果数据缺失、被扣留或选择性公开，诚实参与者就无法独立验证链的正确性，从而为欺诈、审查和无法检测的状态操纵创造机会。
 

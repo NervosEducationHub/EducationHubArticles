@@ -1,4 +1,5 @@
 ---
+description: "Secp256r1, also known as NIST P-256, is an elliptic curve used for digital signatures, key exchange, WebAuthn and blockchain wallets."
 title: 'What is Secp256r1?'
 coverImage: 'images/image1.png'
 category: Cryptography
