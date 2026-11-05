@@ -1,4 +1,5 @@
 ---
+description: "比较基于 UTXO 和基于账户的区块链，从它们如何记录余额和交易，到它们在隐私、可扩展性和智能合约方面的权衡。"
 title: 'UTXO 模型 vs. 账户模型'
 coverImage: 'images/image3.png'
 category: 'UTXO, Blockchain'

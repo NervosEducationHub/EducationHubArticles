@@ -1,4 +1,5 @@
 ---
+description: "了解中本聪共识如何结合工作量证明、挖矿激励和链选择规则，帮助比特币节点就共享账本达成一致。"
 title: '什么是中本聪共识？'
 coverImage: 'images/image1.png'
 category: 'PoW'

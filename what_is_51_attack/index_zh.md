@@ -1,4 +1,5 @@
 ---
+description: "了解 51% 攻击如何利用多数算力实现双重支付、为什么哈希率至关重要，以及区块链网络可以如何应对。"
 title: '什么是加密货币的 51% 攻击？'
 coverImage: 'images/image1.png'
 category: 'Blockchain'

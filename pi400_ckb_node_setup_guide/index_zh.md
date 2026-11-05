@@ -1,4 +1,5 @@
 ---
+description: "在搭载 Ubuntu 22.04 的树莓派（Raspberry Pi）400 上设置 CKB 全节点，涵盖从准备引导程序和存储，到安装 CKB 并开始同步的全过程。"
 title: 'Pi400 Ubuntu 节点设置指南'
 coverImage: 'images/image29.png'
 category: popular, node, education

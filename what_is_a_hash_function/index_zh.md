@@ -1,4 +1,5 @@
 ---
+description: "了解哈希函数如何生成固定长度的输出、支持比特币挖矿并揭示数据变化，以及常见的算法和攻击类型。"
 title: '什么是哈希函数？'
 coverImage: 'images/image1.png'
 category: popular

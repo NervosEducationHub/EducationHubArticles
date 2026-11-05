@@ -1,4 +1,5 @@
 ---
+description: "探索 Nervos 的模块化设计，包括 CKB 的 Cell 模型、RISC-V 虚拟机、共识机制、Layer 2 扩展和代币经济学。"
 title: 'Nervos：一个模块化的区块链网络'
 coverImage: 'images/header.png'
 category: 'Nervos'

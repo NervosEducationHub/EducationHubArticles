@@ -1,4 +1,5 @@
 ---
+description: "了解区块链互操作性、为什么跨链通信很重要，以及在网络之间交换资产和数据的方法。"
 title: '什么是区块链互操作性？'
 coverImage: 'images/image1.png'
 category: popular

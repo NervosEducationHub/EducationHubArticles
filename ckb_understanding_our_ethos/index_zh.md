@@ -1,4 +1,5 @@
 ---
+description: "探讨 Nervos CKB 低时间偏好和长期区块链设计的理念，将密码朋克原则与架构选择相联系。"
 title: 'Common Knowledge Base：理解我们的精神'
 coverImage: 'images/image1.png'
 category: 'Nervos'

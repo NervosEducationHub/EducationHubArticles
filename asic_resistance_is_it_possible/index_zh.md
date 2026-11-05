@@ -1,4 +1,5 @@
 ---
+description: "探讨加密挖矿中抗 ASIC 挖矿采用的内存密集型（memory-hard）算法，以及为什么抵御专用挖矿硬件仍然困难重重。"
 title: '抗 ASIC，有可能吗？'
 coverImage: 'images/image1.png'
 category: 'PoW, Mining'

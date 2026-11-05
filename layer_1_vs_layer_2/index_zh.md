@@ -1,4 +1,5 @@
 ---
+description: "了解 Layer 1 和 Layer 2 网络的作用、Rollup 和状态通道如何扩展区块链，以及 Nervos 的分层设计的定位。"
 title: 'Layer 1 与 Layer 2 区块链网络有哪些差异？'
 coverImage: 'images/image2.png'
 category: 'Blockchain, Nervos'

@@ -1,4 +1,5 @@
 ---
+description: "了解 Optimistic rollup 的 Layer 2 作用、争议期和提款权衡，并以 Arbitrum 和 Optimism 为例。"
 title: '关于 Optimistic Rollup，你需要知道的都在这里'
 coverImage: 'images/image3.png'
 category: 'Scaling'

@@ -1,4 +1,5 @@
 ---
+description: "支付通道在链上锁定资金以进行重复的链下转账。了解签名余额更新、结算和惩罚机制的工作原理。"
 title: '什么是支付通道？'
 coverImage: 'images/image1.png'
 category: Scaling

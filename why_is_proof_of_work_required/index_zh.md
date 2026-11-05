@@ -1,4 +1,5 @@
 ---
+description: "了解为什么比特币采用工作量证明、挖矿难度和奖励如何运作，以及该系统如何帮助防止双重支付。"
 title: '为什么比特币需要工作量证明（PoW）?'
 coverImage: 'images/image2.png'
 category: 'PoW'
