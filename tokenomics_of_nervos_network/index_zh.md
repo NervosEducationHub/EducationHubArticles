@@ -1,4 +1,5 @@
 ---
+description: "探讨 Nervos CKB 的代币经济学，包括一级和二级发行、状态租金、矿工激励，以及 Nervos DAO 在限制持币者权益稀释方面的作用。"
 title: '深入理解 Nervos 的代币经济学'
 coverImage: 'images/image7.png'
 category: popular

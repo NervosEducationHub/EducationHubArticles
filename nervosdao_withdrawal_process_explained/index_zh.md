@@ -1,4 +1,5 @@
 ---
+description: "了解 Nervos DAO 的两步提款过程、180 个 Epoch 的周期、奖励发放时间以及存入的 CKB 何时可以解锁。"
 title: 'Nervos DAO 提款流程详解'
 coverImage: 'images/image1.png'
 category: popular

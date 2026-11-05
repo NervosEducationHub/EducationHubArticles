@@ -1,4 +1,5 @@
 ---
+description: "了解 UTXO 联盟旨在通过在 UTXO 研究、互操作性、可扩展性和可编程性方面的合作实现哪些目标。"
 title: '什么是 UTXO 联盟？'
 coverImage: 'images/image1.png'
 category: 'UTXO'

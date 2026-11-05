@@ -1,4 +1,5 @@
 ---
+description: "学习 UTXO 模型如何追踪未花费的代币、消耗交易输入并创建输出，以及它在区块链设计中的优势与局限。"
 title: 'UTXO 模型的介绍'
 coverImage: 'images/image1.png'
 category: 'UTXO'

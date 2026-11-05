@@ -1,4 +1,5 @@
 ---
+description: "区块链不可能三角描述了安全性、去中心化与可扩展性之间的权衡。就这一问题，探讨链上扩容与采用分层架构进行扩容的不同方案和思路。"
 title: '区块链不可能三角：终极指南'
 coverImage: 'images/image4.png'
 category: Scaling

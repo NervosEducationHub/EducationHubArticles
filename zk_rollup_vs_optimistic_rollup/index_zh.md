@@ -1,4 +1,5 @@
 ---
+description: "比较 ZK-rollup 和 Optimistic rollup，重点关注有效性证明、欺诈挑战、提款延迟和实现方面的权衡。"
 title: 'ZK Rollup 与 Optimistic Rollup 的区别在哪里？'
 coverImage: 'images/image1.png'
 category: 'Scaling'
