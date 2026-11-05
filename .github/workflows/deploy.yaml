@@ -1,14 +1,88 @@
 name: Nervos Official Production Deployment
 
 on:
+  pull_request:
+    branches:
+      - main
   push:
     branches:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: read
+
+concurrency:
+  group: article-publishing-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  Deploy-Production:
+  # Merge only after the website's main-source production build is verified.
+  # No new variable is needed; an optional false value pauses this workflow.
+  validate-content:
+    if: github.repository == 'NervosEducationHub/EducationHubArticles' && vars.KB_PUBLISHING_ENABLED != 'false'
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-      - name: Trigger a production deployment
-        run: curl -X GET ${{ secrets.NERVOS_ORG_DEPLOYMENT_WEBHOOK }}
+      - name: Check out article sources without stored credentials
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          path: articles
+          ref: ${{ github.event_name == 'pull_request' && github.ref || 'main' }}
+          persist-credentials: false
+
+      # The validator and dependencies come from the website's reviewed main
+      # branch, never from a content PR. This job has no publishing credentials.
+      - name: Check out trusted website validation tools
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          repository: nervosnetwork/nervos-official-website
+          ref: main
+          path: website
+          persist-credentials: false
+
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+
+      - name: Install trusted validation dependencies
+        working-directory: website
+        env:
+          HUSKY: '0'
+        run: |
+          corepack enable
+          yarn install --immutable --mode=skip-build
+
+      - name: Validate article sources
+        working-directory: website
+        run: node scripts/validate-kb-sources.mjs ../articles
+
+  request-production-deployment:
+    needs: validate-content
+    if: github.repository == 'NervosEducationHub/EducationHubArticles' && github.ref == 'refs/heads/main' && (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && vars.KB_PUBLISHING_ENABLED != 'false'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      # No article checkout or article-controlled executable runs in this job.
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+
+      - name: Request the production website build
+        env:
+          DEPLOYMENT_WEBHOOK: ${{ secrets.NERVOS_ORG_DEPLOYMENT_WEBHOOK }}
+        run: |
+          node --input-type=module <<'NODE'
+          let hook;
+          try { hook = new URL(process.env.DEPLOYMENT_WEBHOOK ?? ''); }
+          catch { throw new Error('The production deployment hook is missing or invalid.'); }
+          if (hook.protocol !== 'https:' || hook.hostname !== 'api.vercel.com' || hook.port || hook.username || hook.password || hook.hash || !/^\/v1\/integrations\/deploy\/[^/]+\/[^/]+\/?$/.test(hook.pathname)) {
+            throw new Error('The production deployment hook must be an HTTPS Vercel deploy hook.');
+          }
+          NODE
+          status="$(curl --fail --show-error --silent --proto '=https' --tlsv1.2 --connect-timeout 10 --max-time 30 --request POST --output /dev/null --write-out '%{http_code}' "$DEPLOYMENT_WEBHOOK")"
+          if [[ ! "$status" =~ ^2[0-9][0-9]$ ]]; then
+            printf '%s\n' 'The deploy hook did not return a successful HTTP status.' >&2
+            exit 1
+          fi
+          printf '%s\n' '## Production build requested' '' 'Vercel accepted the deploy hook request. This is not confirmation that the build or production deployment succeeded; check the Vercel deployment status and content revision.' >> "$GITHUB_STEP_SUMMARY"
