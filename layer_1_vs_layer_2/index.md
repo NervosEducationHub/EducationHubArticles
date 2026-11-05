@@ -8,7 +8,7 @@ date: '2023-04-09T16:00:00.000Z'
 
 ![alt_text](images/image1.png 'image_tooltip')
 
-Layer 1, in the context of blockchain networks, refers to the base layer chain where transactions are settled with finality. On the other hand, Layer 2 networks are scaling solutions built on top of Layer 1 blockchains with the goal of increasing their transaction throughput. Examples of Layer 1 chains include Bitcoin, Ethereum, and [Common Knowledge Base](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain), whereas examples of Layer 2 networks include the Lightning Network, Optimism, and [Godwoken](https://www.nervos.org/godwoken).
+Layer 1, in the context of blockchain networks, refers to the base layer chain where transactions are settled with finality. On the other hand, Layer 2 networks are scaling solutions built on top of Layer 1 blockchains with the goal of increasing their transaction throughput. Examples of Layer 1 chains include Bitcoin, Ethereum, and [Common Knowledge Base](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain), whereas examples of Layer 2 networks include the Lightning Network, Optimism, and [Godwoken](https://godwoken.com/).
 
 An excellent real-world analogy depicting the difference between Layer 1 and Layer 2 networks is the comparison between Fedwire and payment processors like Paypal or Stripe. Like Layer 1s, Fedwire settles bank transfers with finality, whereas payment processors are merely intermediaries that process many payments and then relay them to banks for final settlement.
 

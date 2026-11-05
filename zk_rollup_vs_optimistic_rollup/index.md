@@ -94,7 +94,7 @@ _A comparison table between Optimistic and ZK-rollups._
 
 Nervos utilizes a custom Optimistic rollup solution for its first Layer 2 chain, Godwoken. Godwoken’s dispute period is approximately seven days, like other rollup solutions on Ethereum, long enough to ensure adequate security.
 
-[Godwoken](https://www.nervos.org/godwoken) is a high-throughput, GameFi-focused Layer 2 network built on top of Nervos’ highly secure Proof-of-Work Layer 1, Common Knowledge Base. It’s fully EVM-compatible, meaning developers can port their decentralized applications from Ethereum with relative ease and only minor modifications.
+[Godwoken](https://godwoken.com/) is a high-throughput, GameFi-focused Layer 2 network built on top of Nervos’ highly secure Proof-of-Work Layer 1, Common Knowledge Base. It’s fully EVM-compatible, meaning developers can port their decentralized applications from Ethereum with relative ease and only minor modifications.
 
 ## Conclusion
 

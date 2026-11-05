@@ -94,7 +94,7 @@ _Optimistic 和 ZK Rollup 的比较表_
 
 Nervos 在其第一个第 2 层链 Godwoken 中使用了定制的 Optimistic Rollup 解决方案。Godwoken 的争议期只有五天，比以太坊上的大多数 Rollup 解决方案都短，但仍然足够长以确保足够的安全性。
 
-[Godwoken](https://www.nervos.org/godwoken) 是一个高吞吐量、专注于 GameFi 的第 2 层网络，建立在 Nervos 高度安全的工作量证明 Layer 1 CKB 之上。它与 EVM 完全兼容，这意味着开发人员可以相对轻松地从以太坊移植他们的去中心化应用程序，只需要进行微小的修改。
+[Godwoken](https://godwoken.com/) 是一个高吞吐量、专注于 GameFi 的第 2 层网络，建立在 Nervos 高度安全的工作量证明 Layer 1 CKB 之上。它与 EVM 完全兼容，这意味着开发人员可以相对轻松地从以太坊移植他们的去中心化应用程序，只需要进行微小的修改。
 
 ## 总结
 

@@ -8,7 +8,7 @@ date: '2023-05-25T16:00:00.000Z'
 
 ![alt_text](images/image1.png 'image_tooltip')
 
-在区块链网络中，Layer 1 是指交易最终结算的基础层区块链。而 Layer 2 则是构建在 Layer 1 区块链之上的可扩展性解决方案，旨在提高 Layer 1 的交易吞吐量。常见的 Layer 1 区块链包括比特币、以太坊和 [CKB（Common Knowledge Base，共同知识库）](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain)，而 Layer 2 网络则包括闪电网络、Optimism 和 Nervos 生态的 [Godwoken](https://www.nervos.org/godwoken)。
+在区块链网络中，Layer 1 是指交易最终结算的基础层区块链。而 Layer 2 则是构建在 Layer 1 区块链之上的可扩展性解决方案，旨在提高 Layer 1 的交易吞吐量。常见的 Layer 1 区块链包括比特币、以太坊和 [CKB（Common Knowledge Base，共同知识库）](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain)，而 Layer 2 网络则包括闪电网络、Optimism 和 Nervos 生态的 [Godwoken](https://godwoken.com/)。
 
 可以用现实世界中的 Fedwire 和支付处理商（如PayPal或Stripe）作为类比，来解释 Layer 1 和 Layer 2 的区别。与 Layer 1 一样，Fedwire 对银行转账进行最终的结算，而支付处理商只是处理许多付款的中介，需要将处理后的付款转给银行进行最终的结算。
 
