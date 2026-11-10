@@ -234,7 +234,7 @@ Fiber 的部分能力直接来自 [CKB](https://www.nervos.org/knowledge-base/ne
 
 第二个优势可能影响更深远：表达能力。在 CKB 上，支付通道规则不是区块链内置的一小组受限操作，而是程序。
 
-CKB 将状态存储在 [Cell](https://docs-old.nervos.org/docs/basics/concepts/cell-model) 中，附着于 Cell 的脚本决定谁能访问资产，以及交易必须满足什么条件。这些脚本在 [CKB-VM](https://www.nervos.org/knowledge-base/comparing_blockchain_virtual_machines) 内运行；它是基于 RISC-V 的通用虚拟机，不绑定特定密码学算法。因此，Fiber 的通道注资和承诺规则以可编程的 CKB 脚本实现，而不是嵌入基础协议的固定行为。
+CKB 将状态存储在 [Cell](https://docs.nervos.org/docs/ckb-fundamentals/cell-model) 中，附着于 Cell 的脚本决定谁能访问资产，以及交易必须满足什么条件。这些脚本在 [CKB-VM](https://www.nervos.org/knowledge-base/comparing_blockchain_virtual_machines) 内运行；它是基于 RISC-V 的通用虚拟机，不绑定特定密码学算法。因此，Fiber 的通道注资和承诺规则以可编程的 CKB 脚本实现，而不是嵌入基础协议的固定行为。
 
 这让 Fiber 开发者能够更充分地控制通道生命周期。他们可以为通道状态的更新、撤销、结算或争议处理设计更丰富的规则，引入新的授权和密码学机制，并将 Fiber 的结算逻辑与 CKB 上的其他资产和应用组合起来。
 

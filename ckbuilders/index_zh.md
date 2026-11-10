@@ -38,7 +38,7 @@ Builders Track 将 [Nervos 文档集](https://docs.nervos.org/)、[CKB Academy](
 
 ## 学习之旅
 
-Builders Track 引导参与者从基本原理出发，逐步做出可运行的原型。课程从 [Cell 模型](https://docs-old.nervos.org/docs/basics/concepts/cell-model)、锁定脚本（lock scripts）和类型脚本（type scripts）、链下交易构建等基础内容开始。对 **Jr.bit** 而言，转折点是“*我脑海中开始把一切串起来，明白了 CKB 编程是如何工作的。它很美妙*”。来自移动端开发领域的他需要适应新的设计理念，但 CKB 基于 UTXO 的方法清晰易懂，让他有信心着手开发适合移动端的轻客户端（light client），并计划逐步将其发展为全节点（full node）。
+Builders Track 引导参与者从基本原理出发，逐步做出可运行的原型。课程从 [Cell 模型](https://docs.nervos.org/docs/ckb-fundamentals/cell-model)、锁定脚本（lock scripts）和类型脚本（type scripts）、链下交易构建等基础内容开始。对 **Jr.bit** 而言，转折点是“*我脑海中开始把一切串起来，明白了 CKB 编程是如何工作的。它很美妙*”。来自移动端开发领域的他需要适应新的设计理念，但 CKB 基于 UTXO 的方法清晰易懂，让他有信心着手开发适合移动端的轻客户端（light client），并计划逐步将其发展为全节点（full node）。
 
 早期任务主要是运行本地节点和配置工具。**Imane** 启动了一个开发链节点，练习手动构建交易，并学习 Rust 来完成练习。她认为 L1 开发者课程“*容易跟上*”，并把它视为开发自己首个 CKB 应用的起点。
 

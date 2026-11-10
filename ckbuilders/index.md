@@ -38,7 +38,7 @@ The program’s emphasis on community-driven support is routinely singled out fo
 
 ## The Learning Journey
 
-The Builders Track guides participants from first principles to working prototypes. It begins with fundamentals like the [cell model](https://docs-old.nervos.org/docs/basics/concepts/cell-model), lock and type scripts, and off-chain transaction construction. For **Jr.bit**, the turning point was when “*everything started to click in my mind how CKB programming works. It’s beautiful*.” Coming from a mobile background, he had to adjust to a new design philosophy, but the clarity of CKB’s UTXO-based approach gave him confidence to pursue a mobile-friendly light client, with ambitions of evolving it into a full node. 
+The Builders Track guides participants from first principles to working prototypes. It begins with fundamentals like the [cell model](https://docs.nervos.org/docs/ckb-fundamentals/cell-model), lock and type scripts, and off-chain transaction construction. For **Jr.bit**, the turning point was when “*everything started to click in my mind how CKB programming works. It’s beautiful*.” Coming from a mobile background, he had to adjust to a new design philosophy, but the clarity of CKB’s UTXO-based approach gave him confidence to pursue a mobile-friendly light client, with ambitions of evolving it into a full node. 
 
 Early tasks focus on running a local node and setting up tools. **Imane **spun up a dev-chain node, practiced manual transaction construction, and picked up Rust to complete exercises. She describes the L1 developer course as “*easy to follow*” and sees this as the launchpad for her first CKB application.
 
