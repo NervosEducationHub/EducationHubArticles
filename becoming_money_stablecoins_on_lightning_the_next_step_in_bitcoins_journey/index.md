@@ -163,7 +163,7 @@ Yet, as promising as stablecoins on Lightning may be, achieving truly scalable, 
 
 ## Building Beyond the Lightning Network
 
-One such approach is the Fiber Network, a Lightning-like, multi-asset payment channel implementation on CKB, which connects to Bitcoin and the Lightning Network through “gateway nodes”.
+One such approach is the [Fiber Network](https://www.nervos.org/knowledge-base/what_is_fiber), a Lightning-like, multi-asset payment channel implementation on CKB, which connects to Bitcoin and the Lightning Network through “gateway nodes”.
 
 The Fiber Network leverages the Turing-complete capabilities of the CKB blockchain to natively support user-defined assets. For example, stablecoin assets based on the RGB++ protocol can be issued on the Bitcoin chain, then transferred to the CKB chain using the bridgeless cross-chain leap functionality, and finally enter Fiber Network and Lightning Network since they are seamlessly interconnected.
 

@@ -226,7 +226,7 @@ Fiber 的部分能力直接来自 [CKB](https://www.nervos.org/knowledge-base/ne
 
 比特币为闪电网络提供高度安全、去中心化的结算层，也将它限制在比特币的脚本系统和单一原生资产之内。CKB 则为 Fiber 提供了另一组可能性。
 
-第一个优势是**原生多资产支持**。CKB 可以直接在协议层面识别和跟踪不同资产类型。因此，Fiber 通道可以持有并路由 CKB、稳定币、RGB++ 资产及其他代币，无需先转换成一种共同的中间资产。这让 Fiber 能在统一网络中支持更广泛的用户和经济活动。
+第一个优势是**原生多资产支持**。CKB 可以直接在协议层面识别和跟踪不同资产类型。因此，Fiber 通道可以持有并路由 CKB、[稳定币](https://www.nervos.org/knowledge-base/becoming_money_stablecoins_on_lightning_the_next_step_in_bitcoins_journey)、RGB++ 资产及其他代币，无需先转换成一种共同的中间资产。这让 Fiber 能在统一网络中支持更广泛的用户和经济活动。
 
 凭借这一基础，Fiber 绕过了闪电网络扩展到 BTC 以外资产时所需的边缘节点兑换模型。在闪电网络中，资产交换通常需要在链上和链下环境之间进行复杂的[潜水艇交换（Submarine Swaps）](https://docs.lightning.engineering/the-lightning-network/multihop-payments/understanding-submarine-swaps)，或依赖专门的边缘节点，例如 [Boltz](https://boltz.exchange/)、[Loop](https://lightning.engineering/loop/) 等交换服务提供者来处理兑换。Fiber 支付则无需转换为基础资产，就能在网络中流转，消除了这些兑换通常引入的额外定价复杂度和汇率波动。
 

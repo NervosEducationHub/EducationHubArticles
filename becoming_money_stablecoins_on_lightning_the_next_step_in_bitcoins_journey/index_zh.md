@@ -162,7 +162,7 @@ date: '2025-06-18T16:00:00.000Z'
 
 ## 在闪电网络之外继续构建
 
-Fiber Network 就是一种这样的方案。它是 CKB 上类似闪电网络的多资产支付通道（payment channels）实现，通过网关节点（gateway nodes）连接比特币和闪电网络。
+[Fiber Network](https://www.nervos.org/knowledge-base/what_is_fiber) 就是一种这样的方案。它是 CKB 上类似闪电网络的多资产支付通道（payment channels）实现，通过网关节点（gateway nodes）连接比特币和闪电网络。
 
 Fiber Network 利用 CKB 区块链的图灵完备能力，原生支持用户自定义资产。例如，基于 RGB++ 协议的稳定币资产可以先在比特币链上发行，再通过无需跨链桥的跨链 Leap 功能转移到 CKB 链，最后进入 Fiber Network 和闪电网络，因为两者实现了无缝互联。
 

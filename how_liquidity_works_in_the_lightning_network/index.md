@@ -91,7 +91,7 @@ Some node operators also rely on liquidity marketplaces and automated services t
 
 The Lightning Network is still evolving, and liquidity management remains one of its most active areas of innovation. 
 
-Several emerging technologies aim to simplify liquidity management for both users and node operators. Protocol improvements such as dual-funded channels allow both parties to contribute funds when opening a channel, immediately creating bidirectional liquidity. Meanwhile, channel factories and other advanced constructions could enable groups of users to share liquidity more efficiently.
+Several emerging technologies aim to simplify liquidity management for both users and node operators. Protocol improvements such as dual-funded channels allow both parties to contribute funds when opening a channel, immediately creating bidirectional liquidity. Meanwhile, [channel factories](https://www.nervos.org/knowledge-base/channel_factories) and other advanced constructions could enable groups of users to share liquidity more efficiently.
 
 Automated liquidity management systems are also becoming more sophisticated. These systems analyze payment flows, adjust routing fees, and perform rebalancing operations automatically to maintain optimal channel performance.
 

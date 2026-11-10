@@ -20,7 +20,7 @@ Fiber Network belongs to this movement. Its ambition is to take the existing pay
 
 ## What Is Fiber Network?
 
-Fiber is an open, peer-to-peer payment network built on CKB.
+[Fiber](https://www.nervos.org/knowledge-base/what_is_fiber) is an open, peer-to-peer payment network built on CKB.
 
 At its foundation are payment channels. Two parties lock funds into a channel and can then exchange many payments without publishing every transaction to the blockchain. Only the opening andor eventual closing of the channel needs to be settled onchain.
 
@@ -34,7 +34,7 @@ The simplest way to understand Fiber is:
 
 Where Fiber goes further is in what the network can become. Lightning is built around Bitcoin and constrained by Bitcoin’s intentionally limited scripting environment. Fiber is built on CKB, where channel rules are implemented through programmable scripts. This gives developers much greater freedom to define how channels are authorized, updated, settled, and disputed.
 
-Fiber currently uses bilateral payment channels, but its architecture is not limited to them. Over time, the same programmable foundation can support more advanced constructions, including multiparty channels and entirely new channel designs that have not yet been standardized. It also enables native support for multiple assets—including stablecoins—atomic swaps within payment flows, interoperability with external networks such as Lightning, and richer conditional, streaming, and pay-as-you-go payment logic.
+Fiber currently uses bilateral payment channels, but its architecture is not limited to them. Over time, the same programmable foundation can support more advanced constructions, including multiparty channels and entirely new channel designs that have not yet been standardized. It also enables native support for multiple assets—including [stablecoins](https://www.nervos.org/knowledge-base/becoming_money_stablecoins_on_lightning_the_next_step_in_bitcoins_journey)—atomic swaps within payment flows, interoperability with external networks such as Lightning, and richer conditional, streaming, and pay-as-you-go payment logic.
 
 In other words, Fiber does not merely recreate Lightning on another blockchain. It takes the open, routed model Lightning pioneered and expands it into a private, multi-asset, programmable payment layer that can keep evolving as new forms of digital commerce emerge. Its longer-term vision is a network where value can move across assets and payment ecosystems, so the payer does not always need to hold the exact asset the recipient wants to receive.
 
