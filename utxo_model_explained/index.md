@@ -24,7 +24,7 @@ When a block is mined and added to the blockchain, nodes update their UTXO set b
 
 While the UTXO model is widely employed in cryptocurrencies like Bitcoin and Litecoin, other transaction models exist. Ethereum, for example, uses an account-based model, which operates more like a traditional bank account. In the account-based model, the ledger's state is represented by account balances rather than UTXOs. Transactions directly update the sender's and recipient's account balances, and no new outputs are created.
 
-The UTXO and account-based models each have their advantages and drawbacks. The UTXO model offers enhanced privacy and scalability, while the account-based model provides simplicity and ease of use. The transaction model choice depends on a specific cryptocurrency project's unique requirements and goals.
+The [UTXO and account-based models](https://www.nervos.org/knowledge-base/utxo_vs_account_based) each have their advantages and drawbacks. The UTXO model offers enhanced privacy and scalability, while the account-based model provides simplicity and ease of use. The transaction model choice depends on a specific cryptocurrency project's unique requirements and goals.
 
 ## The Advantages and Disadvantages of the UTXO Model
 

@@ -72,7 +72,7 @@ SegWit, which stands for Segregated Witness, was introduced to Bitcoin via a sof
 
 ![alt_text](images/image3.png "image_tooltip")
 
-The second upgrade, Taproot, was introduced to Bitcoin via a soft fork in 2021 to enhance Bitcoin's smart contracting capabilities, specifically time-locked contracts (outlined in witness data) used for payment channels in Layer 2 networks like the Lightning Network. It removed the size limit for witness data and allowed for much more complex scripting inside the witness portion of a transaction.
+The second upgrade, Taproot, was introduced to Bitcoin via a soft fork in 2021 to enhance Bitcoin's smart contracting capabilities, specifically time-locked contracts (outlined in witness data) used for payment channels in [Layer 2 networks](https://www.nervos.org/knowledge-base/understanding_bitcoin_layer2) like the Lightning Network. It removed the size limit for witness data and allowed for much more complex scripting inside the witness portion of a transaction.
 
 While the [OP_RETURN](https://en.bitcoin.it/wiki/OP_RETURN) opcode made it possible to inscribe up to 80 bytes of data even before SegWit and Taproot, the 75% discount on weight units and the removal of the size limit for witness data introduced by these two updates inadvertently opened the door to inscriptions as we know them today. 
 
