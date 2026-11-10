@@ -49,7 +49,7 @@ RISC-V 对处理器市场的影响可能是巨大的。作为一种开放源代�
 
 ## CKB-VM：基于 RISC-V 的区块链虚拟机
 
-RISC-V 最令人兴奋的应用之一是在区块链技术领域。Nervos 网络就是一个典型的例子，它是一个多层区块链生态系统。Nervos 的核心是其 Layer 1 协议，即 CKB（共同知识库）。CKB 在其虚拟机 CKB-VM 中使用了 RISC-V。
+RISC-V 最令人兴奋的应用之一是在区块链技术领域。Nervos 网络就是一个典型的例子，它是一个多层区块链生态系统。Nervos 的核心是其 Layer 1 协议，即 CKB（共同知识库）。CKB 在其[虚拟机](https://www.nervos.org/knowledge-base/comparing_blockchain_virtual_machines) CKB-VM 中使用了 RISC-V。
 
 CKB-VM 是 Nervos 网络的关键组成部分。它负责验证智能合约交互和交易脚本的正确性，实质上充当了 CKB 的 "大脑"。通过使用 RISC-V，CKB-VM 可以充分利用 RISC-V 架构的简单性、高效性和模块化的优点。
 

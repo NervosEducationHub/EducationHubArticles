@@ -29,7 +29,7 @@ However, for some reason, most of the Bitcoin community’s scaling efforts have
 
 ## Not All Bitcoin Layer 2s Are Created Equal
 
-Before exploring the differences and trade-offs associated with the most recent Bitcoin scaling efforts, it’s worth noting that most of these projects market themselves as “Bitcoin Layer 2s,” a highly contentious and even misleading term.
+Before exploring the differences and trade-offs associated with the most recent Bitcoin scaling efforts, it’s worth noting that most of these projects market themselves as “[Bitcoin Layer 2s](https://www.nervos.org/knowledge-base/understanding_bitcoin_layer2),” a highly contentious and even misleading term.
 
 Generally speaking, Layer 1 chains are sovereign blockchains with their own consensus mechanisms and security budgets that can function independently without relying on any other chain for consensus, data availability, or execution. On the other hand, the most widely accepted definition for “Layer 2” is a protocol that extends the throughput and/or programmability capabilities of another underlying chain while inheriting its security guarantees. 
 

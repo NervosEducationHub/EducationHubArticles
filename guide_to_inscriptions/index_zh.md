@@ -71,7 +71,7 @@ SegWit 是隔离见证（Segregated Witness）的缩写，于 2017 年通过一�
 
 ![alt_text](images/image3.png "image_tooltip")
 
-第二次升级 Taproot 于 2021 年通过软分叉引入比特币，以增强比特币的智能合约能力，特别是在见证数据中描述、用于闪电网络等 Layer 2 网络支付通道（payment channels）的时间锁合约。它移除了见证数据的大小限制，允许在交易的见证部分编写复杂得多的脚本。
+第二次升级 Taproot 于 2021 年通过软分叉引入比特币，以增强比特币的智能合约能力，特别是在见证数据中描述、用于闪电网络等 [Layer 2 网络](https://www.nervos.org/knowledge-base/understanding_bitcoin_layer2)支付通道（payment channels）的时间锁合约。它移除了见证数据的大小限制，允许在交易的见证部分编写复杂得多的脚本。
 
 在 SegWit 和 Taproot 之前，[OP_RETURN](https://en.bitcoin.it/wiki/OP_RETURN) 操作码就已经允许铭刻最多 80 字节的数据；而这两次升级带来的 75% 重量单位折扣，以及对见证数据大小限制的移除，无意中为今天这种形式的铭文打开了大门。
 

@@ -52,7 +52,7 @@ author:
 
 类似地，在双方无需相互信任、跨不同区块链交换资产的原子交换（atomic swaps）中，连接器输出强制执行交换所依赖的条件逻辑。这类输出通常结合哈希锁和时间锁，使每一方要么完成交换，要么在指定期限内未完成时取回资金。连接器输出确保即使跨越不同网络，交易双方仍保持同步。
 
-连接器输出的另一项重要应用是 [BitVM](https://docs.bitlayer.org/docs/Learn/Technologies/bitvm-smart-contract/)，其目标是为比特币带来图灵完备智能合约。设计良好的智能合约通常依靠[有限状态机（finite state machine，FSM）](https://en.wikipedia.org/wiki/Finite-state_machine)处理内部逻辑。FSM 根据预定义规则和参与者的操作，在不同状态之间转换。比特币没有原生状态管理，要在其上复现这种行为，需要巧妙的机制来控制状态转换。BitVM 通过巧用连接器输出实现这一点。
+连接器输出的另一项重要应用是 [BitVM](https://docs.bitlayer.org/docs/Learn/Technologies/bitvm-smart-contract/)，其目标是为比特币带来图灵完备[智能合约](https://www.nervos.org/knowledge-base/bitcoin_doesnt_know_it_has_smart_contracts)。设计良好的智能合约通常依靠[有限状态机（finite state machine，FSM）](https://en.wikipedia.org/wiki/Finite-state_machine)处理内部逻辑。FSM 根据预定义规则和参与者的操作，在不同状态之间转换。比特币没有原生状态管理，要在其上复现这种行为，需要巧妙的机制来控制状态转换。BitVM 通过巧用连接器输出实现这一点。
 
 在 BitVM 中，连接器输出是[状态变化](https://www.nervos.org/knowledge-base/state_and_state_change)的把关者。交易图中的某个分支一旦消耗一个连接器输出，其他原本可能走通的分支就会失效。这确保合约状态以可预测、受控的方式转换，避免执行中的歧义或意外分叉。
 

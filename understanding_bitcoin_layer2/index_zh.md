@@ -9,7 +9,7 @@ author: 'GaryMa, Wu Blockchain'
 
 
 
-自比特币引入 Ordinals 和铭文（inscription）以来，比特币网络获得了更多流量和关注。虽然 Ordinals 等协议显著增强了比特币网络的可编程性，但它们本质上只是“利用”比特币脚本中的“op_if”操作码（opcode），引入新的资产发行方式。然而，比特币本质上是去中心化账本系统，其脚本系统缺乏图灵完备性（Turing completeness），这些资产除了交易之外没有其他应用场景。因此，要进一步发展和繁荣比特币生态，迫切需要探索适合在比特币网络上开发智能合约的 Layer 2 方案。
+自比特币引入 [Ordinals 和铭文](https://www.nervos.org/knowledge-base/guide_to_inscriptions)（inscription）以来，比特币网络获得了更多流量和关注。虽然 Ordinals 等协议显著增强了比特币网络的可编程性，但它们本质上只是“利用”比特币脚本中的“op_if”操作码（opcode），引入新的资产发行方式。然而，比特币本质上是去中心化账本系统，其脚本系统缺乏图灵完备性（Turing completeness），这些资产除了交易之外没有其他应用场景。因此，要进一步发展和繁荣比特币生态，迫切需要探索适合在比特币网络上开发智能合约的 Layer 2 方案。
 
 目前，比特币 Layer 2 方案大致包括状态通道（state channels），如闪电网络；侧链（sidechains），如 Liquid、Merlin；Rollup，如 Rollkit；客户端验证，如 RGB、RGB++、Taro 等。其中最著名的是闪电网络，它在可扩展性、安全性和隐私方面被认为是出色的选择。不过，目前这一领域的进展似乎相对缓慢。
 
