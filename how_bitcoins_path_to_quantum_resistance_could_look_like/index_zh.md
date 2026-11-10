@@ -10,7 +10,7 @@ author:
 
 近二十年来，比特币的安全一直建立在一个简单的数学假设上：从公开可见的公钥反推出私钥，在实践中几乎不可能。这一基于[椭圆曲线密码学](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography)（ECC）的基础，如今支撑着全球数万亿美元的财富。
 
-但这一根基正在动摇。密码学相关量子计算机（Cryptographically Relevant Quantum Computers，CRQCs）即将到来。这类机器能够大规模运行[肖尔算法（Shor’s algorithm）](https://en.wikipedia.org/wiki/Shor%27s_algorithm)，可能使比特币的核心安全假设失效。
+但这一根基正在动摇。密码学相关量子计算机（Cryptographically Relevant Quantum Computers，CRQCs）即将到来。这类机器能够大规模运行[肖尔算法（Shor’s algorithm）](https://www.nervos.org/knowledge-base/shors_algorithm_explained)，可能使比特币的核心安全假设失效。
 
 “Q-Day”何时到来，仍是这一领域争议最激烈的话题之一。预测相差悬殊，从短短四年到二十多年不等。这些估计中的偏向往往十分明显：量子硬件公司显然更加乐观，因为宣传技术将快速进步符合其利益；而淡化潜在威胁则符合比特币社区的利益。
 
@@ -48,7 +48,7 @@ SHA-256 等哈希函数的安全性来自抗原像性与抗碰撞性（collision
 
 简单来说，这意味着共识层是安全的。
 
-更可信的量子威胁，在于基于 ECC 的公钥签名方案可能被攻破。原则上，CRQC 可以从已暴露的公钥恢复私钥，进而夺取易受攻击地址中资金的控制权。
+更可信的量子威胁，在于基于 ECC 的公钥签名方案可能被攻破。原则上，CRQC 可以从[已暴露的公钥](https://www.nervos.org/knowledge-base/how_quantum_computers_threaten_exposed_crypto_public_keys)恢复私钥，进而夺取易受攻击地址中资金的控制权。
 
 因此，不同比特币地址面临的风险并不相同；关键区别在于底层公钥是否已经在链上公开。
 
@@ -74,7 +74,7 @@ SHA-256 等哈希函数的安全性来自抗原像性与抗碰撞性（collision
 
 ## 需要做什么？
 
-总体而言，比特币走向量子抗性（quantum resistance）的路径，可以归结为两个不同但相辅相成的目标。
+总体而言，比特币走向[量子抗性](https://www.nervos.org/knowledge-base/quantum_resistance)（quantum resistance）的路径，可以归结为两个不同但相辅相成的目标。
 
 首先，协议必须尽量减少公钥在链上的暴露，缩小量子对手可立即利用的攻击面。
 
@@ -96,7 +96,7 @@ SHA-256 等哈希函数的安全性来自抗原像性与抗碰撞性（collision
 
 主要候选包括 [SPHINCS+](https://sphincs.org/)，这是一种无状态的基于哈希的方案，安全假设极为保守，但签名更大、速度也更慢。[XMSS](https://datatracker.ietf.org/doc/html/rfc8391#section-4.1) 和 [LMS](https://datatracker.ietf.org/doc/html/rfc8554) 是有状态的基于哈希的方案，理论基础扎实，但状态管理带来了操作复杂性。
 
-此外还有 [ML-DSA](https://www.digicert.com/insights/post-quantum-cryptography/mldsa)（Dilithium）和 [Falcon](https://falcon-sign.info/)，两者都是基于格、已由 NIST 标准化的签名方案。它们验证速度较快，密钥大小适中，但仍以千字节计，比 Schnorr 大一个数量级。
+此外还有 [ML-DSA](https://www.digicert.com/insights/post-quantum-cryptography/mldsa)（Dilithium）和 [Falcon](https://falcon-sign.info/)，两者都是[基于格、已由 NIST 标准化的签名方案](https://www.nervos.org/knowledge-base/comparison_of_post_quantum_cryptographic_algorithms)。它们验证速度较快，密钥大小适中，但仍以千字节计，比 Schnorr 大一个数量级。
 
 [LaBRADOR](https://eprint.iacr.org/2022/1341) 及多种便于聚合的格构造等其他方案，旨在优化签名压缩或证明聚合，但出现较晚，经历的实践检验较少。
 
@@ -194,7 +194,7 @@ CDR 方案假设后量子签名已通过软分叉激活，再通过第二次软�
 
 有一项关键信息，我们刻意留到了最后：区块链转向后量子密码学，远比传统 Web2 系统复杂，因为多数区块链在设计时并未考虑密码学灵活性。
 
-换句话说，具备量子抗性与具备密码敏捷性（cryptographic agility），是两回事。量子抗性仅指采用后量子签名方案，而密码敏捷性则是系统能够在不干扰自身运行的情况下，替换和调整密码学原语的能力。
+换句话说，具备量子抗性与具备[密码敏捷性](https://www.nervos.org/knowledge-base/blockchain_crypto_agility)（cryptographic agility），是两回事。量子抗性仅指采用后量子签名方案，而密码敏捷性则是系统能够在不干扰自身运行的情况下，替换和调整密码学原语的能力。
 
 这一区别很重要，因为密码学并非一成不变。今天的情况再次提醒我们，随着新威胁出现、底层安全假设受到侵蚀，密码学原语可能不再受青睐。如果系统每次改变密码学原语，都必须协调全球性的协议升级，就会承受巨大的操作和社会协调阻力。实际中，这让快速适应或及时应对威胁变得极其困难，与当前形势所要求的恰恰相反。
 

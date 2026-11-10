@@ -34,7 +34,7 @@ A serious evaluation of quantum-resistant blockchain projects needs to look beyo
 
 * **Post-quantum algorithm:** Which cryptographic primitive is being used? Is it hash-based, lattice-based, code-based, or another post-quantum family?  
 * **Mainnet status:** Is post-quantum cryptography protecting real assets on mainnet, or is it still limited to research, testnets, tooling, or roadmap work?  
-* **Scope of protection:** Does the post-quantum mechanism secure transaction authorization, state proofs, consensus, bridges, wallets, or only a narrow part of the system?  
+* **Scope of protection:** Does the post-quantum mechanism secure transaction authorization, state proofs, consensus, bridges, [wallets](https://www.nervos.org/knowledge-base/what_are_quantum_resistant_wallets), or only a narrow part of the system?  
 * **Crypto agility:** Can the network adopt new cryptographic standards without changing the base protocol, or is it tied to a specific algorithm?  
 * **Migration path:** Can users opt in gradually, or does the network require a coordinated protocol upgrade, forced migration, or hard fork?
 
@@ -209,7 +209,7 @@ In cryptography, quantum resistance refers to blockchains that use post-quantum 
 
 **Is there a quantum safe cryptocurrency?**
 
-Yes. While legacy networks like Bitcoin and Ethereum are still in the research and roadmap phases, several modern protocols are already quantum-safe. As outlined in our comparison, these solutions fall into two categories: PQC-native blockchains built with quantum-resistant cryptography hardcoded from genesis, and highly crypto-agile networks that have successfully integrated post-quantum lock scripts into their live mainnets today.
+Yes. While legacy networks like [Bitcoin and Ethereum](https://www.nervos.org/knowledge-base/are_bitcoin_and_ethereum_quantum_resistant) are still in the research and roadmap phases, several modern protocols are already quantum-safe. As outlined in our comparison, these solutions fall into two categories: PQC-native blockchains built with quantum-resistant cryptography hardcoded from genesis, and highly crypto-agile networks that have successfully integrated post-quantum lock scripts into their live mainnets today.
 
 **Which cryptocurrencies are quantum proof?**
 

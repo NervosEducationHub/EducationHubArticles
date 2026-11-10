@@ -235,7 +235,7 @@ Ethereum's roadmap is more structured than Bitcoin's, but the underlying constra
 
 As the [EIP-8141 roadmap](https://eip8141.io/pq-roadmap) itself explains: "EIP-8141 is necessary but not sufficient. It builds the foundational first step... a long sequence of protocol upgrades, precompiles, and eventually full ECDSA deprecation must follow. This roadmap is measured in years, not months."
 
-Another nuance often overlooked: post-quantum cryptography does not retroactively protect accounts whose public keys are already on-chain. Even after Ethereum completes its migration, any account that has previously sent a transaction must actively move funds to a new quantum-safe address.
+Another nuance often overlooked: post-quantum cryptography does not retroactively protect accounts whose public keys are already on-chain. Even after Ethereum completes its migration, any account that has previously sent a transaction must actively move funds to a new [quantum-safe address](https://www.nervos.org/knowledge-base/what_are_quantum_resistant_wallets).
 
 ## Why Crypto Agility Is the Long-Term Solution
 

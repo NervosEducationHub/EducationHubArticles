@@ -9,7 +9,7 @@ author:
 ---
 
 
-Widely recognized as the most used hash function in cryptocurrencies like Bitcoin, SHA256 ensures data integrity, powers digital signatures, and secures communication protocols. In this article, we’ll explore what SHA256 is, its history, how the SHA256 algorithm works, and its critical role in encryption and cybersecurity.
+Widely recognized as the most used [hash function](https://www.nervos.org/knowledge-base/what_is_a_hash_function) in cryptocurrencies like Bitcoin, SHA256 ensures data integrity, powers digital signatures, and secures communication protocols. In this article, we’ll explore what SHA256 is, its history, how the SHA256 algorithm works, and its critical role in encryption and cybersecurity.
 
 
 ## Understanding Hash Functions: The Foundation of SHA256

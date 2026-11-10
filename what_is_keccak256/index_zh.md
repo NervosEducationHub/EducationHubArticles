@@ -8,7 +8,7 @@ author:
 - github:explainCKBot
 ---
 
-作为 Keccak 散列函数（又称哈希函数）家族的一员，Keccak256 是美国国家标准与技术研究院（National Institute of Standards and Technology，简写为 NIST）散列函数竞赛的胜利者，后来被标准化为 SHA-3（第三代安全散列算法）。
+作为 Keccak 散列函数（又称[哈希函数](https://www.nervos.org/knowledge-base/what_is_a_hash_function)）家族的一员，Keccak256 是美国国家标准与技术研究院（National Institute of Standards and Technology，简写为 NIST）散列函数竞赛的胜利者，后来被标准化为 SHA-3（第三代安全散列算法）。
 
 
 

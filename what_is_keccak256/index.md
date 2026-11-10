@@ -8,7 +8,7 @@ author:
 - github:explainCKBot
 ---
 
-Developed as part of the Keccak family of hash functions, Keccak256 was selected as the NIST hash function competition winner and later standardized as [SHA-3](https://en.wikipedia.org/wiki/SHA-3) (Secure Hash Algorithm 3). 
+Developed as part of the Keccak family of [hash functions](https://www.nervos.org/knowledge-base/what_is_a_hash_function), Keccak256 was selected as the NIST hash function competition winner and later standardized as [SHA-3](https://en.wikipedia.org/wiki/SHA-3) (Secure Hash Algorithm 3). 
 
 
 ## A Brief History of Keccak256

@@ -45,20 +45,20 @@ author:
 
 ## 哪些加密货币钱包具有量子抗性？
 
-目前，真正可用的抗量子加密货币钱包仍非常少见。[Quantum Purse](https://www.quantumpurse.org/) 是主要的已上线实例之一，它是一款构建于 CKB（Common Knowledge Base）区块链上的自托管桌面钱包。Quantum Purse 使用 [SPHINCS+](https://sphincs.org/) 签名方案，而当今多数主流钱包，包括比特币和以太坊钱包，仍依赖 ECDSA 或 Schnorr 签名，因而不具备量子抗性。这是因为修改这些传统区块链的密码学机制，需要复杂、协调一致的协议升级，而此类升级尚未实施。相比之下，CKB 是一条具有密码敏捷性（crypto agility）的区块链，允许在脚本层部署自定义验证逻辑，因此无需协议级硬分叉就能集成新的签名方案。
+目前，真正可用的抗量子加密货币钱包仍非常少见。[Quantum Purse](https://www.quantumpurse.org/) 是主要的已上线实例之一，它是一款构建于 CKB（Common Knowledge Base）区块链上的自托管桌面钱包。Quantum Purse 使用 [SPHINCS+](https://sphincs.org/) 签名方案，而当今多数主流钱包，包括比特币和以太坊钱包，仍依赖 ECDSA 或 Schnorr 签名，因而不具备量子抗性。这是因为修改这些传统区块链的密码学机制，需要[复杂、协调一致的协议升级](https://www.nervos.org/knowledge-base/how_bitcoins_path_to_quantum_resistance_could_look_like)，而此类升级尚未实施。相比之下，CKB 是一条具有密码敏捷性（crypto agility）的区块链，允许在脚本层部署自定义验证逻辑，因此无需协议级硬分叉就能集成新的签名方案。
 
 希望今天就获得抗量子存储的用户，应考虑部署在这类原生支持后量子密码学原语（post-quantum cryptographic primitives）的区块链上的钱包，而不是等待传统网络完成协议迁移。
 
 ## CKB 如何在不硬分叉的情况下支持抗量子钱包？
 
-CKB 利用原生密码敏捷性，在不硬分叉的情况下支持抗量子钱包。它将验证逻辑与共识层解耦，使验证逻辑完全在应用层运行。多数 Layer 1 区块链将 ECC 原语硬编码到核心协议中，而 CKB 将基于 [RISC-V](https://www.nervos.org/knowledge-base/what_is_riscv) 的 [CKB-VM](https://docs.nervos.org/docs/ckb-fundamentals/ckb-vm) 与高级 UTXO 模型，即 [Cell 模型](https://docs.nervos.org/docs/ckb-fundamentals/cell-model)结合。这种架构让开发者只需将新的抗量子密码算法部署为智能合约，就能定义 Cell 的花费条件，而无须修改协议。这些合约称为[脚本（Scripts）](https://docs.nervos.org/docs/getting-started/how-ckb-works#scripts)。这种密码敏捷性让 [Quantum Purse](https://www.quantumpurse.org/) 等钱包能够通过自定义脚本强制使用 SPHINCS+ 签名，而不干扰整个网络。
+CKB 利用原生[密码敏捷性](https://www.nervos.org/knowledge-base/blockchain_crypto_agility)，在不硬分叉的情况下支持抗量子钱包。它将验证逻辑与共识层解耦，使验证逻辑完全在应用层运行。多数 Layer 1 区块链将 ECC 原语硬编码到核心协议中，而 CKB 将基于 [RISC-V](https://www.nervos.org/knowledge-base/what_is_riscv) 的 [CKB-VM](https://docs.nervos.org/docs/ckb-fundamentals/ckb-vm) 与高级 UTXO 模型，即 [Cell 模型](https://docs.nervos.org/docs/ckb-fundamentals/cell-model)结合。这种架构让开发者只需将新的抗量子密码算法部署为智能合约，就能定义 Cell 的花费条件，而无须修改协议。这些合约称为[脚本（Scripts）](https://docs.nervos.org/docs/getting-started/how-ckb-works#scripts)。这种密码敏捷性让 [Quantum Purse](https://www.quantumpurse.org/) 等钱包能够通过自定义脚本强制使用 SPHINCS+ 签名，而不干扰整个网络。
 
 ## 开发抗量子钱包面临哪些挑战？
 
 开发抗量子钱包的主要挑战包括：处理大幅增大的签名、克服僵化的网络兼容性障碍，以及适应不断变化的全球密码学标准。
 
 * **签名大小与效率**：许多后量子方案占用的空间远大于传统椭圆曲线系统。例如，一个标准 [secp256k1](https://www.nervos.org/knowledge-base/secp256k1_a_key_algorithm) 签名约为 64 字节，而抗量子的 SPHINCS+ 签名范围为 [8 KB 至 49 KB](https://asecuritysite.com/signatures/fips205)，会大幅增加交易数据载荷和验证成本。  
-* **网络兼容性**：比特币和以太坊等传统区块链在协议层与 ECC 深度绑定，若不进行可能引发争议的全网[协议升级](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork)，几乎不可能引入后量子签名。CKB 等具有密码敏捷性的区块链，通过基于 [Cell 模型](https://medium.com/nervosnetwork/the-cell-model-a-generalized-utxo-model-2da32248b0a0)和 [CKB-VM](https://docs.nervos.org/docs/ckb-features/vm-built-for-hackers) 的灵活架构，避免了这一问题。  
+* **网络兼容性**：[比特币和以太坊](https://www.nervos.org/knowledge-base/are_bitcoin_and_ethereum_quantum_resistant)等传统区块链在协议层与 ECC 深度绑定，若不进行可能引发争议的全网[协议升级](https://www.nervos.org/knowledge-base/what_is_a_hard_fork_soft_fork)，几乎不可能引入后量子签名。CKB 等具有密码敏捷性的区块链，通过基于 [Cell 模型](https://medium.com/nervosnetwork/the-cell-model-a-generalized-utxo-model-2da32248b0a0)和 [CKB-VM](https://docs.nervos.org/docs/ckb-features/vm-built-for-hackers) 的灵活架构，避免了这一问题。  
 * **持续演进的密码学标准**：全球密码学界仍在积极研究后量子密码学并推进标准化，因此钱包设计必须具有极强的适应能力，以免基础算法建议变化后，钱包变得过时。
 
 ## 结语
