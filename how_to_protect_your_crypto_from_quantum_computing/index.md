@@ -38,7 +38,7 @@ The broader cybersecurity world often calls this problem “[Harvest Now, Decryp
 
 For cryptocurrency holders, however, the wallet risk is better understood as “Harvest Now, Attack Later.” Attackers do not need to decrypt blockchain history. Public blockchains already reveal transaction data by design. The relevant risk is that exposed public keys, signatures, and transaction records can be collected today and used later to compromise wallets once cryptographically relevant quantum computers exist.
 
-This is where blockchain immutability becomes a liability. A public key cannot be removed from history once it appears on-chain. Even if a network later upgrades to post-quantum cryptography, previously exposed keys may remain vulnerable unless users move their funds to quantum-safe addresses before a practical attack becomes possible.
+This is where blockchain immutability becomes a liability. A public key cannot be removed from history once it appears on-chain. Even if a network later upgrades to [post-quantum cryptography](https://www.nervos.org/knowledge-base/quantum_resistance), previously exposed keys may remain vulnerable unless users move their funds to quantum-safe addresses before a practical attack becomes possible.
 
 In plain terms: if your public key is already on-chain, the clock has already started.
 

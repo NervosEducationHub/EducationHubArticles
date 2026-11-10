@@ -10,7 +10,7 @@ author:
 
 For nearly two decades, Bitcoin’s security has rested on a simple mathematical assumption: that reverse-engineering a private key from a publicly visible public key is practically impossible. This foundation, built on [Elliptic Curve Cryptography](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography) (ECC), currently underpins trillions of dollars in global wealth.
 
-However, the bedrock is shifting. The looming arrival of Cryptographically Relevant Quantum Computers (CRQCs)—machines capable of executing [Shor’s algorithm](https://en.wikipedia.org/wiki/Shor%27s_algorithm) at scale—threatens to render Bitcoin’s core security assumptions obsolete.
+However, the bedrock is shifting. The looming arrival of Cryptographically Relevant Quantum Computers (CRQCs)—machines capable of executing [Shor’s algorithm](https://www.nervos.org/knowledge-base/shors_algorithm_explained) at scale—threatens to render Bitcoin’s core security assumptions obsolete.
 
 The timeline for 'Q-Day' remains one of the most contentious debates in the space. Projections vary wildly, ranging from a mere four years to over two decades. The bias in these estimates is often evident: quantum hardware firms, who are obviously on the optimistic side, have a vested interest in promoting the idea of rapid progress, while the Bitcoin community has a vested interest in downplaying the potential threat.
 
@@ -48,7 +48,7 @@ Hash functions such as SHA-256 derive their security from preimage and collision
 
 In simple terms, this means the consensus layer is safe.
 
-The more credible quantum threat lies in the potential compromise of ECC-based public-key signature schemes, where a CRQC could, in principle, recover private keys from exposed public keys and seize control of funds held in vulnerable addresses.
+The more credible quantum threat lies in the potential compromise of ECC-based public-key signature schemes, where a CRQC could, in principle, recover private keys from [exposed public keys](https://www.nervos.org/knowledge-base/how_quantum_computers_threaten_exposed_crypto_public_keys) and seize control of funds held in vulnerable addresses.
 
 To that point, not all Bitcoin addresses are equally at risk; the key differentiator is whether the underlying public key has already been revealed onchain.
 
@@ -74,7 +74,7 @@ To summarize, even if we completely remove short-range attacks from the realm of
 
 ## What Needs to be Done?
 
-At a high level, Bitcoin’s path to quantum resistance reduces to two distinct—but complementary—objectives.
+At a high level, Bitcoin’s path to [quantum resistance](https://www.nervos.org/knowledge-base/quantum_resistance) reduces to two distinct—but complementary—objectives.
 
 First, the protocol must minimize the exposure of public keys onchain, reducing the immediate attack surface available to a quantum adversary.
 
@@ -96,7 +96,7 @@ The bad news is that it remains unsettled—there is no clear successor to ECDSA
 
 The leading contenders include [SPHINCS+](https://sphincs.org/), a stateless hash-based scheme that offers extremely conservative security assumptions but produces even larger signatures and is slower. [XMSS](https://datatracker.ietf.org/doc/html/rfc8391#section-4.1) and [LMS](https://datatracker.ietf.org/doc/html/rfc8554), stateful hash-based schemes, have strong theoretical foundations but introduce operational complexity due to state management. 
 
-Then, we have [ML-DSA](https://www.digicert.com/insights/post-quantum-cryptography/mldsa) (Dilithium) and [Falcon](https://falcon-sign.info/), both lattice-based, NIST-standardized signature schemes. They offer relatively fast verification and moderate key sizes, but are still measured in kilobytes—an order of magnitude larger than Schnorr.
+Then, we have [ML-DSA](https://www.digicert.com/insights/post-quantum-cryptography/mldsa) (Dilithium) and [Falcon](https://falcon-sign.info/), both [lattice-based, NIST-standardized signature schemes](https://www.nervos.org/knowledge-base/comparison_of_post_quantum_cryptographic_algorithms). They offer relatively fast verification and moderate key sizes, but are still measured in kilobytes—an order of magnitude larger than Schnorr.
 
 Other alternatives, such as [LaBRADOR](https://eprint.iacr.org/2022/1341) and various aggregation-friendly lattice constructions, aim to optimize for signature compression or proof aggregation but are newer and less battle-tested.
 
@@ -194,7 +194,7 @@ Meanwhile, the protocol itself would have no native mechanism to distinguish a l
 
 There’s a key piece of information we intentionally left for last: transitioning to post-quantum cryptography is far more complex for blockchains than for traditional Web2 systems because most blockchains aren’t built with cryptographic flexibility in mind.
 
-In other words, it’s one thing to be quantum resistant, and entirely another to be cryptographically agile. Quantum resistance simply means adopting a post-quantum signature scheme, whereas cryptographic agility is the ability of a system to replace and adapt its cryptographic primitives without disrupting its own operation.
+In other words, it’s one thing to be quantum resistant, and entirely another to be [cryptographically agile](https://www.nervos.org/knowledge-base/blockchain_crypto_agility). Quantum resistance simply means adopting a post-quantum signature scheme, whereas cryptographic agility is the ability of a system to replace and adapt its cryptographic primitives without disrupting its own operation.
 
 This distinction matters because cryptography is not static. As we are being reminded today, cryptographic primitives can age out of favor as new threats emerge and their underlying security assumptions erode. A system that must coordinate a global protocol upgrade whenever a cryptographic primitive needs to change inherits enormous operational and social friction. In practice, this makes rapid adaptation—or timely threat response—extremely difficult, precisely the opposite of what is required under today’s circumstances.
 
