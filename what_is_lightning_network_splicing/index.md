@@ -64,7 +64,7 @@ In both cases, the channel remains active throughout the process, preserving its
 
 One of the most important benefits is the reduction of unnecessary channel closures. Because channels no longer need to be shut down whenever their capacity changes, users can avoid the delays and fees associated with reopening channels.
 
-Another advantage lies in improved capital efficiency. Lightning participants often need to adjust their liquidity in response to payment flows, and splicing allows them to do so without disrupting the existing channel structure. Funds can be added precisely where they are needed, rather than forcing users to rebuild their channel topology.
+Another advantage lies in improved capital efficiency. Lightning participants often need to [adjust their liquidity](https://www.nervos.org/knowledge-base/how_liquidity_works_in_the_lightning_network) in response to payment flows, and splicing allows them to do so without disrupting the existing channel structure. Funds can be added precisely where they are needed, rather than forcing users to rebuild their channel topology.
 
 Splicing also helps reduce blockchain congestion. Every channel closure and reopening consumes block space, which can become scarce during periods of high demand on the Bitcoin network. By minimizing these operations, splicing helps Lightning fulfill its original goal of reducing onchain transaction load.
 

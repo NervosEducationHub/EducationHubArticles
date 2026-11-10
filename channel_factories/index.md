@@ -70,7 +70,7 @@ The most immediate benefit of channel factories is the reduction in on-chain tra
 
 Lower fees follow naturally. Participants share the cost of the funding transaction. The per-channel cost decreases as more channels are created within the factory. This amortization effect makes onboarding cheaper and more accessible, particularly during periods of high demand.
 
-Channel factories also improve liquidity management. Participants can reallocate balances and create new bilateral channels dynamically within the factory. This flexibility reduces the need to close and reopen channels on-chain for minor adjustments. It encourages more efficient capital deployment across the network.
+Channel factories also improve [liquidity management](https://www.nervos.org/knowledge-base/how_liquidity_works_in_the_lightning_network). Participants can reallocate balances and create new bilateral channels dynamically within the factory. This flexibility reduces the need to close and reopen channels on-chain for minor adjustments. It encourages more efficient capital deployment across the network.
 
 Finally, factories support the vision of global Lightning adoption. If exchanges, payment processors, or Lightning Service Providers onboard thousands of users, they could use factories to create internal channels with minimal impact on the blockchain. The scalability ceiling rises significantly when channel creation itself becomes more efficient.
 
