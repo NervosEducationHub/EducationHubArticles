@@ -235,7 +235,7 @@ Furthermore, this architecture enables the payment network itself to serve as a 
 
 The second advantage may prove even more consequential: expressiveness. On CKB, the rules governing a payment channel are not limited to a narrow collection of operations built into the blockchain. They are programs.
 
-CKB stores state inside [Cells](https://docs-old.nervos.org/docs/basics/concepts/cell-model), while scripts attached to those Cells determine who can access the assets and what conditions a transaction must satisfy. Those scripts run inside [CKB-VM](https://www.nervos.org/knowledge-base/comparing_blockchain_virtual_machines), a general-purpose, crypto-agnostic virtual machine based on RISC-V. Fiber’s channel funding and commitment rules are therefore implemented as programmable CKB Scripts rather than fixed behaviors embedded in the base protocol.
+CKB stores state inside [Cells](https://docs.nervos.org/docs/ckb-fundamentals/cell-model), while scripts attached to those Cells determine who can access the assets and what conditions a transaction must satisfy. Those scripts run inside [CKB-VM](https://www.nervos.org/knowledge-base/comparing_blockchain_virtual_machines), a general-purpose, crypto-agnostic virtual machine based on RISC-V. Fiber’s channel funding and commitment rules are therefore implemented as programmable CKB Scripts rather than fixed behaviors embedded in the base protocol.
 
 This gives Fiber’s developers far more control over the channel lifecycle. They can design richer rules for how channel states are updated, revoked, settled, or disputed; introduce new authorization and cryptographic mechanisms; and compose Fiber’s settlement logic with other assets and applications on CKB.
 
