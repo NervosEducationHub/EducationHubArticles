@@ -3,7 +3,7 @@ title: '量子计算会攻破加密货币吗？'
 coverImage: 'images/image1.png'
 category: Security
 subtitle: '量子计算会攻破加密货币吗？在一场演讲中，一位 CKB 开发者解释了签名、哈希和加密技术所面临的风险，探讨了区块链升级密码学的难点，以及 CKB 将如何应对。'
-date: '2026-11-11T16:00:00.000Z'
+date: '2026-11-10T16:00:00.000Z'
 author: 
 - github:Alive24
 ---
