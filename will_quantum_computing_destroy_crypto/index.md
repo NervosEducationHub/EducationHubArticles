@@ -3,7 +3,7 @@ title: 'Will Quantum Computing Destroy Crypto?'
 coverImage: 'images/image1.png'
 category: Security
 subtitle: 'Will quantum computing break crypto? In a talk, a CKB developer explains the risks to signatures, hashing, and encryption, why upgrading cryptography is hard for blockchains, and how CKB can adapt.'
-date: '2026-11-11T16:00:00.000Z'
+date: '2026-11-10T16:00:00.000Z'
 author: 
 - github:Alive24
 ---
