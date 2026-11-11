@@ -1,4 +1,5 @@
 ---
+hub: blockchain-vms-risc-v
 title: 'Parallel vs Sequential Transaction Execution in Blockchain'
 coverImage: 'images/image1.png'
 category:

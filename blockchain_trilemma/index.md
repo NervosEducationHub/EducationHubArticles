@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 description: "The blockchain trilemma describes trade-offs between security, decentralization and scalability. Examine on-chain and layered approaches to scaling."
 title: 'Blockchain Trilemma: The Ultimate Guide'
 coverImage: 'images/image4.png'

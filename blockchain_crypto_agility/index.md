@@ -1,4 +1,5 @@
 ---
+hub: quantum-computing-blockchain-security
 description: "Explore blockchain crypto agility and how CKB's programmable lock scripts allow new signature schemes, including post-quantum ones, to be deployed."
 title: 'Blockchain Crypto Agility: CKB’s Key to Quantum Safety'
 coverImage: 'images/image1.png'

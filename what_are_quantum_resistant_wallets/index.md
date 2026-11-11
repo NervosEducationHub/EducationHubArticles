@@ -1,4 +1,5 @@
 ---
+hub: quantum-computing-blockchain-security
 description: "Quantum-resistant wallets use post-quantum signatures. Examine their design, public-key exposure, CKB support and practical development challenges."
 title: "What Are Quantum-Resistant Wallets?"
 coverImage: "images/image1.png"

@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 description: "Fiber is an open, peer-to-peer payment network built on CKB. Learn how its off-chain channels work and how its design builds on Lightning."
 title: 'What Is Fiber? A Complete Guide to the Next-Gen Payment Network'
 coverImage: 'images/image1.png'

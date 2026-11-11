@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 title: 'What Are Connector Outputs in Bitcoin?'
 coverImage: 'images/image1.png'
 category: Bitcoin 

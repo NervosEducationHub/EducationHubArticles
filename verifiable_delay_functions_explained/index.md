@@ -1,4 +1,5 @@
 ---
+hub: blockchain-cryptography
 title: 'Verifiable Delay Functions (VDFs) Explained: Ensuring Fairness in Randomness'
 coverImage: 'images/image1.png'
 category: Education

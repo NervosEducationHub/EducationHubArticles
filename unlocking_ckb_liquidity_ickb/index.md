@@ -1,4 +1,5 @@
 ---
+hub: nervos-ckb
 title: 'Unlocking CKB Liquidity: A Deep Dive into the iCKB Protocol'
 coverImage: 'images/image1.png'
 category: Nervos DAO

@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 title: 'Channel Factories 101: A Smarter Way to Scale Bitcoin’s Lightning Network'
 coverImage: 'images/image1.png'
 category: Lightning 

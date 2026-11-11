@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 description: "Transaction confirmation means inclusion in a blockchain block. Learn why confirmations take time, why transactions stall and how to check status."
 title: 'What is Transaction Confirmation in Blockchain?'
 coverImage: 'images/image1.png'

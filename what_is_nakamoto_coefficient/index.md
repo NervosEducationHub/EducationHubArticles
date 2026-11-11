@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'What is the Nakamoto Coefficient?'
 coverImage: 'images/image1.png'
 category: Blockchain

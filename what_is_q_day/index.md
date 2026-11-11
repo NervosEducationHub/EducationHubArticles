@@ -1,4 +1,5 @@
 ---
+hub: quantum-computing-blockchain-security
 title: 'What Is Q-Day, and Can Crypto Survive It?'
 coverImage: 'images/image1.png'
 category: Popular 

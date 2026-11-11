@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 title: 'What is a Lightning Invoice?'
 coverImage: 'images/image1.png'
 category: Lightning

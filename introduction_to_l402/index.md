@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 title: 'Introduction to L402: Lightning-Powered Payment Protocol for AI Agents'
 coverImage: 'images/image1.png'
 category: Lightning 

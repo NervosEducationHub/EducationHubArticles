@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 title: 'What is Danksharding? Ethereum Data Sharding Solution'
 coverImage: 'images/image1.png'
 category: Scaling

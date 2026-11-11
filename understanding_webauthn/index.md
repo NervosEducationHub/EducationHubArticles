@@ -1,4 +1,5 @@
 ---
+hub: blockchain-cryptography
 description: "Learn how WebAuthn enables passwordless authentication, how its components work, and how JoyID applies it to cryptocurrency wallet access."
 title: 'What is WebAuthn? The Future of Secure Online Authentication'
 coverImage: 'images/image1.png'

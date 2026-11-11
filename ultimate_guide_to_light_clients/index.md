@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'The Ultimate Guide to Blockchain Light Clients'
 coverImage: 'images/cover.png'
 category: Node, light client, guide

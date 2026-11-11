@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'What is Block Time in Blockchain? A Complete Guide'
 coverImage: 'images/image1.png'
 category: Education

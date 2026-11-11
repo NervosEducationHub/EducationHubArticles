@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 title: 'What is a Hashed Timelock Contract (HTLC)?'
 coverImage: 'images/image1.png'
 category: Education

@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'What is Slashing in Proof-of-Stake (PoS) Blockchains?'
 coverImage: 'images/image1.png'
 category: Consensus

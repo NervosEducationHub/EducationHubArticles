@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 description: "Compare RGB and RGB++ for tokenized assets on Bitcoin, covering client-side validation, single-use seals and CKB's role in RGB++."
 title: 'The Ultimate Guide to RGB, RGB++, and Client-Side Validation'
 coverImage: 'images/image1.png'

@@ -1,4 +1,5 @@
 ---
+hub: nervos-ckb
 description: "Learn what the UTXO Alliance aims to achieve through collaboration on UTXO research, interoperability, scalability and programmability."
 title: 'What Is the UTXO Alliance?'
 coverImage: 'images/image1.png'

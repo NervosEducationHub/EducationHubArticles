@@ -1,4 +1,5 @@
 ---
+hub: blockchain-vms-risc-v
 title: 'What are Opcodes in Blockchain? A Comprehensive Guide'
 coverImage: 'images/image1.png'
 category:

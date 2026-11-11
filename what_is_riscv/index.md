@@ -1,4 +1,5 @@
 ---
+hub: blockchain-vms-risc-v
 title: 'What is RISC-V? A Revolution in Processor Architecture'
 coverImage: 'images/image1.png'
 category: RISC-V, CKB-VM

@@ -1,4 +1,5 @@
 ---
+hub: nervos-ckb
 title: "Reflections of a CKBuilder: Bitcoin Doesn't Know It Has Smart Contracts"
 coverImage: 'images/cover.png'
 category: Interoperability

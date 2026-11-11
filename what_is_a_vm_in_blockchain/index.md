@@ -1,4 +1,5 @@
 ---
+hub: blockchain-vms-risc-v
 description: "Blockchain virtual machines execute smart contracts and decentralized applications. Learn about deterministic execution, isolation and common VMs."
 title: 'What is a Virtual Machine (VM) in Blockchain?'
 coverImage: 'images/image1.png'

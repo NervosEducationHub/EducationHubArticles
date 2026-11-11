@@ -1,4 +1,5 @@
 ---
+hub: quantum-computing-blockchain-security
 description: "Explore quantum resistance in blockchains, the threats posed by quantum computing, and post-quantum cryptography for protecting blockchain networks."
 title: 'Quantum Resistance in Blockchains: Preparing for a Post-Quantum Computing World'
 coverImage: 'images/image2.png'

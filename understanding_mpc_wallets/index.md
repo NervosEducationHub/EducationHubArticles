@@ -1,4 +1,5 @@
 ---
+hub: blockchain-cryptography
 title: 'Understanding MPC Wallets: A Complete Guide to Multi-Party Computation Security'
 coverImage: 'images/image1.png'
 category: Wallet

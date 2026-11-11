@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'What is Transaction Finality in Crypto? A Complete Guide'
 coverImage: 'images/image1.png'
 category:

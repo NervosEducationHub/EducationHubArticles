@@ -1,4 +1,5 @@
 ---
+hub: blockchain-cryptography
 title: 'What are BLS Signatures and Their Use in Cryptocurrency?'
 coverImage: 'images/image1.png'
 category: Consensus

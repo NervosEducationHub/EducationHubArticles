@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 description: "Learn how identity, authorization, payment protocols, crypto assets and payment channel networks fit together to let AI agents pay for services."
 title: 'How Do AI Agents Pay for Things? A Guide to Machine-to-Machine Payments'
 coverImage: 'images/image1.png'

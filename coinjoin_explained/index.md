@@ -1,4 +1,5 @@
 ---
+hub: blockchain-cryptography
 title: 'CoinJoin Explained: How to Enhance Bitcoin Privacy Through Transaction Mixing'
 coverImage: 'images/image1.png'
 category: Bitcoin

@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 description: "Understand why Bitcoin uses proof of work, how mining difficulty and rewards operate, and how the system helps prevent double spending."
 title: 'Why Is Proof-of-Work Required in Bitcoin?'
 coverImage: 'images/image2.png'

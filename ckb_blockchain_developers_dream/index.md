@@ -1,4 +1,5 @@
 ---
+hub: nervos-ckb
 description: "Nervos' Common Knowledge Base (CKB) lets developers bring their own cryptography and build apps with flexible authentication and wallet experiences."
 title: 'Common Knowledge Base (CKB): a Blockchain Developer’s Dream'
 coverImage: 'images/image1.png'

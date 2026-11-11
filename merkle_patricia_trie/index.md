@@ -1,4 +1,5 @@
 ---
+hub: blockchain-cryptography
 title: 'Merkle Patricia Trie: Essential Cryptographic Data Structure'
 coverImage: 'images/image1.png'
 category: Education

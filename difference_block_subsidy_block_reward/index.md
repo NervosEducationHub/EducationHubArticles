@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: What's the Difference Between Block Subsidy and Block Reward?
 coverImage: 'images/image1.png'
 category: Education

@@ -1,4 +1,5 @@
 ---
+hub: blockchain-vms-risc-v
 description: "Determinism means identical inputs and conditions produce identical outputs. Learn why this matters for blockchain execution and consensus."
 title: 'What Does Determinism Mean in Blockchain?'
 coverImage: 'images/image1.png'

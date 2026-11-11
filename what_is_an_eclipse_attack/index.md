@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'What Is an Eclipse Attack in Blockchain Networks?'
 coverImage: 'images/image1.png'
 category: Blockchain

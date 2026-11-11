@@ -1,4 +1,5 @@
 ---
+hub: blockchain-cryptography
 title: 'What is SHA256? The Most Used Hash Function in Blockchain'
 coverImage: 'images/image1.png'
 category: cryptography, hash function

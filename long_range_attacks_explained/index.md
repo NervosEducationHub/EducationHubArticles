@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'Long-Range Attacks Explained: How Attackers Could Rewrite Blockchain History'
 coverImage: 'images/image1.png'
 category: Education

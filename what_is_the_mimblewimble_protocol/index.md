@@ -1,4 +1,5 @@
 ---
+hub: blockchain-cryptography
 title: 'What is the MimbleWimble Protocol?'
 coverImage: 'images/image1.png'
 category: Education

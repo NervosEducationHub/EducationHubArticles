@@ -1,4 +1,5 @@
 ---
+hub: blockchain-cryptography
 title: 'Seed Phrases: How 12 or 24 Words Protect Your Entire Crypto Fortune'
 coverImage: 'images/image1.png'
 category: Education

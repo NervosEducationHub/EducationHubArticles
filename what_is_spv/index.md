@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 description: "Examine Simplified Payment Verification (SPV), its origins, block headers and Merkle proofs, plus its advantages and limits compared with full nodes."
 title: 'What is Simplified Payment Verification (SPV)?'
 coverImage: 'images/image1.png'

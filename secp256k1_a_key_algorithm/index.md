@@ -1,4 +1,5 @@
 ---
+hub: blockchain-cryptography
 description: "Secp256k1 is an elliptic curve used in cryptographic algorithms, best known for securing digital signatures in Bitcoin and other cryptocurrencies."
 title: 'What is Secp256k1? Cryptocurrency’s Key Elliptic Curve'
 coverImage: 'images/image1.png'

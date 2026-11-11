@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 description: "Ethereum blobs provide temporary data storage for rollups. See how EIP-4844 works, reduces data costs and introduces resource trade-offs."
 title: 'What Are Blobs in Ethereum? Scaling Blockchain Data Storage'
 coverImage: 'images/image1.png'

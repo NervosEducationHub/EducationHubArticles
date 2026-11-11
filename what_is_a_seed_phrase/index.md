@@ -1,4 +1,5 @@
 ---
+hub: blockchain-cryptography
 title: 'What is a Seed Phrase? Your Key to Cryptocurrency Protection'
 coverImage: 'images/image1.png'
 category: wallet

@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'OP_RETURN Explained: How Bitcoin Anchors Data Beyond Payments'
 coverImage: 'images/image1.png'
 category: Bitcoin 

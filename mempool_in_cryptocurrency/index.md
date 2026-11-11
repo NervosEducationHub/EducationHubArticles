@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'What is Mempool in Cryptocurrency? A Complete Guide'
 coverImage: 'images/image1.png'
 category: Blockchain

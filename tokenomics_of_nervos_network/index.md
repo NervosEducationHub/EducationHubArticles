@@ -1,4 +1,5 @@
 ---
+hub: nervos-ckb
 description: "Examine Nervos CKB tokenomics, including primary and secondary issuance, state rent, miner incentives and the Nervos DAO's role in limiting dilution."
 title: 'A Deep Dive Into the Tokenomics of Nervos Network'
 coverImage: 'images/image7.png'

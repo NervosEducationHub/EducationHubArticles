@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 title: "How to Optimize Layer 1 Blockchains for Modularity"
 coverImage: 'images/image1.png'
 category: Nervos, Modular, guide, state, utxo, scaling

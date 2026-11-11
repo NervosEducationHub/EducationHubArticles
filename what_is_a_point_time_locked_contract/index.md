@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 title: 'What is a Point Time Locked Contract (PTLC)?'
 coverImage: 'images/image1.png'
 category: Lightning

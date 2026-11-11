@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 description: "Compare Proof-of-Work (PoW) and Proof-of-Stake (PoS), including how they secure blockchains, their advantages and their drawbacks."
 title: 'Proof-of-Work vs. Proof-of-Stake: Key Differences Explained'
 coverImage: 'images/image1.png'

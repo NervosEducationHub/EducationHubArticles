@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 title: 'How Liquidity Works in the Lightning Network'
 coverImage: 'images/image1.png'
 category: Lightning 

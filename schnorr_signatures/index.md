@@ -1,4 +1,5 @@
 ---
+hub: blockchain-cryptography
 title: 'What are Schnorr Signatures and Their Use in Blockchain?'
 coverImage: 'images/image1.png'
 category: Cryptography

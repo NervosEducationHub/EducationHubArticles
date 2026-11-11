@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'What is a Coinbase Transaction in Blockchain?'
 coverImage: 'images/image1.png'
 category: Economics, Mining

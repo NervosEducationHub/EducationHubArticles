@@ -1,4 +1,5 @@
 ---
+hub: quantum-computing-blockchain-security
 description: "Examine harvest now, decrypt later risks to exposed crypto public keys, vulnerable address types and why post-quantum upgrades still require migration."
 title: 'Harvest Now, Decrypt Later: How Quantum Computers Threaten Exposed Crypto Public Keys'
 coverImage: 'images/image1.png'

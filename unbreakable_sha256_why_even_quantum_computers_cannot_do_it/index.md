@@ -1,4 +1,5 @@
 ---
+hub: quantum-computing-blockchain-security
 description: "Examine SHA-256's design, resistance to brute-force attacks, and the limits of quantum algorithms such as Grover's algorithm against it."
 title: 'Unbreakable SHA-256: Why Even Quantum Computers Cannot Do It'
 coverImage: 'images/image1.png'

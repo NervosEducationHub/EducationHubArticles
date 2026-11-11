@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'What is State Bloat in Blockchains?'
 coverImage: 'images/image1.png'
 category: Blockchain, State

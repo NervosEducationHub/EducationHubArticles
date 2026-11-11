@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'What Is Replace-by-Fee (RBF) in Bitcoin?'
 coverImage: 'images/image1.png'
 category: Bitcoin

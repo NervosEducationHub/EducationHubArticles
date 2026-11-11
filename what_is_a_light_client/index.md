@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'What is a Light Client in Blockchain Technology?'
 coverImage: 'images/image1.png'
 category: Node, Light Client

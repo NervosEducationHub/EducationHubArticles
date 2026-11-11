@@ -1,4 +1,5 @@
 ---
+hub: quantum-computing-blockchain-security
 title: 'BIP-360 Explained: Pay-to-Merkle-Root (P2MR)'
 coverImage: 'images/image1.png'
 category: Bitcoin 

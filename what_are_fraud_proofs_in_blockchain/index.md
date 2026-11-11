@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 title: 'What Are Fraud Proofs in Blockchain?'
 coverImage: 'images/image1.png'
 category:
