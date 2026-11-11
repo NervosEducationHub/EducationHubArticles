@@ -85,6 +85,8 @@ Another approach involves submarine swaps or on-chain interactions that convert 
 
 Some node operators also rely on liquidity marketplaces and automated services that help rebalance channels or provide inbound capacity in exchange for fees. These services have become increasingly common as the Lightning Network has grown in size and complexity.
 
+Newer techniques help too. [Splicing](https://www.nervos.org/knowledge-base/what_is_lightning_network_splicing) lets a node add funds to an open channel, or withdraw them, while the channel stays open.
+
 
 
 ## The Future of Lightning Liquidity

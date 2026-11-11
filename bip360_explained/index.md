@@ -44,6 +44,8 @@ Another important characteristic of P2MR is its reliance on [Merkle trees](https
 
 In the context of P2MR, each leaf of the tree contains a potential spending script. The Merkle root commits to all of them at once. This design allows wallets to define multiple conditions, such as multisignature policies, time locks, or backup recovery paths, while revealing only the branch that is actually used.
 
+Script trees like this show how much Bitcoin's locks can express. Some projects go further: RGB++ binds Bitcoin UTXOs to programmable state on CKB, as described in [Bitcoin Doesn't Know It Has Smart Contracts](https://www.nervos.org/knowledge-base/bitcoin_doesnt_know_it_has_smart_contracts).
+
 By removing the public key commitment and relying solely on script trees, P2MR significantly reduces the time window during which cryptographic keys are exposed. Although this does not eliminate all quantum risks, it meaningfully strengthens Bitcoin’s security model for the long term.
 
 

@@ -20,6 +20,8 @@ ECDSA is built upon the principles of [Elliptic Curve Cryptography](https://en.w
 
 An elliptic curve is defined by a mathematical equation of the form **y^2 = x^3 + ax + b**, where a and b are constants. The set of points (x, y) that satisfy this equation, along with a special point called the [point at infinity](https://en.wikipedia.org/wiki/Point_at_infinity), form an elliptic curve group. The security of ECC relies on the discrete logarithm problem, which is believed to be computationally infeasible to solve on elliptic curves.
 
+Bitcoin uses the secp256k1 curve, while many web and mobile security systems use [secp256r1](https://www.nervos.org/knowledge-base/what_is_secp256r1), also known as P-256.
+
 
 ## ECDSA Key Generation
 
@@ -70,6 +72,8 @@ When it comes to cryptocurrencies, ECDSA is a critical component for ensuring th
 Beyond cryptocurrencies, ECDSA is also employed in secure communication protocols like [Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security) (TLS) and [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell) (SSH). In these contexts, ECDSA serves to authenticate the messages exchanged between clients and servers. This authentication helps ensure that the parties involved in the communication are who they claim to be and that the data transmitted has not been tampered with.
 
 Finally, ECDSA is also used by certificate authorities (CAs) to sign digital certificates. In doing so, the authenticity and integrity of websites and other digital entities are confirmed, giving users confidence that they are interacting with legitimate sources.
+
+Other signature schemes suit other jobs. [BLS signatures](https://www.nervos.org/knowledge-base/bls_signatures_use_cryptocurrency), for example, can combine many signatures into one, which is why Ethereum's beacon chain uses them.
 
 
 ## Conclusion

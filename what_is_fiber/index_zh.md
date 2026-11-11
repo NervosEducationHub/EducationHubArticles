@@ -398,3 +398,5 @@ Fiber 支持多资产，因此整个网络无需统一使用一种货币；它�
 这就是 Fiber 更广阔的愿景。它不仅让区块链支付更快，也将支付通道转变为开放、可编程的基础设施，服务于越来越多活动发生在网上的经济。
 
 比特币为世界带来了去中心化货币，闪电网络展示了去中心化货币可以即时流动，Fiber 则是让价值跨资产、应用和市场流转的网络。 
+
+想深入了解 Fiber 在数字经济中的角色，请阅读[《Fiber Network：面向数字经济的开放支付网络》](https://www.nervos.org/knowledge-base/fiber_network)。想了解 AI 智能体如何使用 Fiber 这类支付网络，请阅读[《AI 智能体如何付款？》](https://www.nervos.org/knowledge-base/how_do_ai_agents_pay_for_things)。

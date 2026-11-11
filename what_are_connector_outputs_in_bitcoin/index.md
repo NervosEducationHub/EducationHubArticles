@@ -22,6 +22,8 @@ A typical output might simply lock funds to a public key hash, allowing only the
 
 In this sense, connector outputs do not introduce new rules to Bitcoin; rather, they represent a pattern of usage, a way of leveraging existing primitives to create structured interactions between transactions.
 
+New output types are still being proposed. [BIP-360](https://www.nervos.org/knowledge-base/bip360_explained), for example, would add Pay-to-Merkle-Root outputs, which keep public keys hidden until coins are spent.
+
 
 
 ## What Are Connector Outputs?

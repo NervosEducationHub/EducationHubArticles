@@ -49,6 +49,8 @@ author:
 
 希望今天就获得抗量子存储的用户，应考虑部署在这类原生支持后量子密码学原语（post-quantum cryptographic primitives）的区块链上的钱包，而不是等待传统网络完成协议迁移。
 
+想更全面地了解哪些区块链已经支持后量子签名，请参阅[《2026 年主要抗量子加密货币项目》](https://www.nervos.org/knowledge-base/top_quantum_resistant_cryptocurrency_projects_in_2026)。
+
 ## CKB 如何在不硬分叉的情况下支持抗量子钱包？
 
 CKB 利用原生[密码敏捷性](https://www.nervos.org/knowledge-base/blockchain_crypto_agility)，在不硬分叉的情况下支持抗量子钱包。它将验证逻辑与共识层解耦，使验证逻辑完全在应用层运行。多数 Layer 1 区块链将 ECC 原语硬编码到核心协议中，而 CKB 将基于 [RISC-V](https://www.nervos.org/knowledge-base/what_is_riscv) 的 [CKB-VM](https://docs.nervos.org/docs/ckb-fundamentals/ckb-vm) 与高级 UTXO 模型，即 [Cell 模型](https://docs.nervos.org/docs/ckb-fundamentals/cell-model)结合。这种架构让开发者只需将新的抗量子密码算法部署为智能合约，就能定义 Cell 的花费条件，而无须修改协议。这些合约称为[脚本（Scripts）](https://docs.nervos.org/docs/getting-started/how-ckb-works#scripts)。这种密码敏捷性让 [Quantum Purse](https://www.quantumpurse.org/) 等钱包能够通过自定义脚本强制使用 SPHINCS+ 签名，而不干扰整个网络。

@@ -36,6 +36,8 @@ author:
 
 例如，在一个标准的 "Pay To PubKey Hash"（P2PKH）交易中，比特币脚本负责验证交易过程中的所有步骤，确保其安全、高效地完成。
 
+比特币脚本还能携带少量数据。[OP_RETURN](https://www.nervos.org/knowledge-base/op_return_explained) 操作码会将某个输出标记为不可花费，使其可以在链上存放时间戳或协议消息等数据。
+
 
 
 ## 比特币脚本与其他脚本语言的比较

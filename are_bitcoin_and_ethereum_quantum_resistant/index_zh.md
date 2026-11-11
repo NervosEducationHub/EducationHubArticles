@@ -250,6 +250,8 @@ Nervos CKB 展示了具备加密敏捷性的架构在实践中是什么样。在
 
 CKB 主网上已经有可用的 [SPHINCS+](https://docs.nervos.org/docs/ckb-features/native-quantum-resistance#implementation-details-sphincs-on-ckb)（SLH-DSA）锁定脚本。社区开发的量子安全钱包 Quantum Purse，让用户现在就能自行选择使用后量子签名。[Quantum Tracker](https://quantumtracker.org/#report/blockchains/nervos-network) 将 CKB 评为 A 级（Ahead of the Curve，领先于趋势）协议。有关其架构细节，请参阅：[*《区块链加密敏捷性：CKB 实现量子安全的关键》*](https://www.nervos.org/knowledge-base/blockchain_crypto_agility)。
 
+一些较新的网络从一开始就采用了后量子签名，我们在[《2026 年主要抗量子加密货币项目》](https://www.nervos.org/knowledge-base/top_quantum_resistant_cryptocurrency_projects_in_2026)中对它们进行了比较。
+
 ## **结语**
 
 如今，比特币和以太坊都不具备量子抗性，但两者都在推进。BIP-360 已于 2026 年初合并。以太坊有条理清晰的后量子路线图、专门的安全团队，以及围绕截至 2029 年各次硬分叉里程碑积极开展的协议工作。但这两条路线都尚未在主网上落地，社区对算法选择和迁移框架的共识仍未确定，实际完成全面迁移，对任何一条链来说都还需要数年。

@@ -70,6 +70,8 @@ Splicing also helps reduce blockchain congestion. Every channel closure and reop
 
 From a user experience perspective, splicing makes Lightning feel far more fluid. Instead of managing channels as rigid financial commitments, users can treat them as adjustable liquidity pools. Wallet software can potentially automate splicing operations behind the scenes, allowing users to interact with Lightning payments without worrying about the underlying channel mechanics.
 
+Splicing resizes a single channel between two parties. [Channel factories](https://www.nervos.org/knowledge-base/channel_factories) take a related idea further, letting a group of users open and adjust many channels from one shared onchain transaction.
+
 
 
 ## Conclusion

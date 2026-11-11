@@ -32,6 +32,8 @@ Every Bitcoin transaction is a symphony of intricate processes, with Bitcoin Scr
 
 Consider, for instance, a basic [Pay To PubKey Hash (P2PKH)](https://bitcoinwiki.org/wiki/pay-to-pubkey-hash) transaction. Initiated by the sender, this transaction undergoes a series of checks and verifications, all orchestrated by Bitcoin Script, before reaching its recipient. The entire process, though seemingly instantaneous to the user, is a testament to the power and efficiency of Bitcoin Script.
 
+Bitcoin Script can also carry small amounts of data. The [OP_RETURN](https://www.nervos.org/knowledge-base/op_return_explained) opcode marks an output as unspendable so it can hold data, such as a timestamp or a protocol message, onchain.
+
 
 ## Comparing Bitcoin Script with Other Scripting Languages
 

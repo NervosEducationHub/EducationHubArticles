@@ -55,6 +55,8 @@ WebAssembly（WASM）在[区块链虚拟机](https://www.nervos.org/knowledge-ba
 
 WebAssembly 与区块链虚拟机的集成，正展现出改变行业格局的作用。它的执行效率、安全特性和多语言支持，使开发者能够构建更快、更安全、用途更广泛的去中心化应用和智能合约。这种集成正为区块链生态的更广泛采用和更复杂应用铺平道路。
 
+WASM 是区块链虚拟机所用的多种指令集之一。例如，CKB 的虚拟机基于开放的硬件指令集 [RISC-V](https://www.nervos.org/knowledge-base/what_is_riscv) 构建。
+
 
 ## 结语
 

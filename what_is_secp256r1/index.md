@@ -43,3 +43,5 @@ A handful of blockchains offer support for Secp256r1
 ## Conclusion
 
 Secp256r1 plays a key role in facilitating the adoption of blockchains in which onboarding for users is seamless and feels like any other web application. By removing the need for seed phrases and the burden of backing them up, Secp256r1 is sure to be an important part of the future of the blockchain industry.
+
+Other signature schemes make different trade-offs: [BLS signatures](https://www.nervos.org/knowledge-base/bls_signatures_use_cryptocurrency), for example, let many signatures be combined into one, which saves space onchain.

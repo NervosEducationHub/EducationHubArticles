@@ -50,6 +50,8 @@ Functional quantum-resistant crypto wallets remain highly rare today, with [Quan
 
 Users looking for quantum-safe storage today should consider wallets deployed on such blockchains that support post-quantum cryptographic primitives natively, rather than waiting for legacy networks to complete a protocol migration.
 
+For a wider look at which blockchains already support post-quantum signatures, see [Top Quantum Resistant Cryptocurrency Projects in 2026](https://www.nervos.org/knowledge-base/top_quantum_resistant_cryptocurrency_projects_in_2026).
+
 ## How Does CKB Support Quantum-Resistant Wallets Without a Hard Fork?
 
 CKB supports quantum-resistant wallets without a hard fork by leveraging its native [cryptographic agility](https://www.nervos.org/knowledge-base/blockchain_crypto_agility), which decouples verification logic from the consensus layer and runs it entirely within the application layer. While most Layer 1 blockchains hardcode their ECC primitives directly into the core protocol, CKB uses the [RISC-V](https://www.nervos.org/knowledge-base/what_is_riscv)\-powered [CKB-VM](https://docs.nervos.org/docs/ckb-fundamentals/ckb-vm) paired with an advanced UTXO—[Cell model](https://docs.nervos.org/docs/ckb-fundamentals/cell-model). This architecture allows developers to deploy new quantum-resistant cryptographic algorithms simply as smart contracts, known as [Scripts](https://docs.nervos.org/docs/getting-started/how-ckb-works#scripts) that define how a Cell can be spent, without modifying the protocol. This crypto agility enabled wallets like [Quantum Purse](https://www.quantumpurse.org/) to enforce SPHINCS+ signatures through a custom script, without disrupting the broader network.

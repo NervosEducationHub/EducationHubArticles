@@ -399,3 +399,5 @@ Because Fiber is multi-asset, the entire network need not converge on a single c
 This is the larger promise of Fiber. It does not merely make blockchain payments faster. It turns payment channels into open, programmable infrastructure for an economy that increasingly lives online.
 
 Bitcoin gave the world decentralized money. Lightning showed that decentralized money could move instantly. Fiber is the network that moves value across assets, applications, and markets. 
+
+For a closer look at Fiber's role in the digital economy, read [Fiber Network: An Open Payment Network for the Digital Economy](https://www.nervos.org/knowledge-base/fiber_network). To see how AI agents use payment networks like Fiber, read [How Do AI Agents Pay for Things?](https://www.nervos.org/knowledge-base/how_do_ai_agents_pay_for_things)
