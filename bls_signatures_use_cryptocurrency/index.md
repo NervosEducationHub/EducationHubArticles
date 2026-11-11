@@ -54,6 +54,8 @@ Ethereum, a leading smart contract platform, initially only used [ECDSA](https:/
 
 However, in its beacon chain protocol, BLS signatures with a different elliptic curve (BLS12-381) are utilized. BLS signatures are chosen for their favorable properties, including signature aggregation, which can contribute to reducing the data that needs to be stored and verified on the blockchain, thereby potentially enhancing the scalability and efficiency of the network. This adaptation reflects a significant application of BLS signatures in enhancing blockchain protocols and is a testament to the value they bring to the cryptocurrency domain.
 
+Other curves serve other purposes; [secp256r1](https://www.nervos.org/knowledge-base/what_is_secp256r1), for example, is the curve used by passkeys and by the secure chips in many phones.
+
 
 ## Conclusion
 

@@ -251,6 +251,8 @@ Nervos CKB illustrates what a crypto-agile architecture looks like in practice. 
 
 CKB already has a [SPHINCS+](https://docs.nervos.org/docs/ckb-features/native-quantum-resistance#implementation-details-sphincs-on-ckb) (SLH-DSA) Lock Script live on mainnet. Quantum Purse, a community-built quantum-safe wallet, lets users opt in to post-quantum signatures today. [Quantum Tracker](https://quantumtracker.org/#report/blockchains/nervos-network) rates CKB as a Tier A (Ahead of the Curve) protocol. What this looks like in architectural detail is covered in: [*Blockchain Crypto Agility: CKB's Key to Quantum Safety*](https://www.nervos.org/knowledge-base/blockchain_crypto_agility).
 
+Some newer networks were built with post-quantum signatures from the start; we compare them in [Top Quantum Resistant Cryptocurrency Projects in 2026](https://www.nervos.org/knowledge-base/top_quantum_resistant_cryptocurrency_projects_in_2026).
+
 ## **Conclusion**
 
 Neither Bitcoin nor Ethereum is quantum resistant today, but both are moving. BIP-360 was merged in early 2026. Ethereum has a structured post-quantum roadmap, a dedicated security team, and active protocol work targeting hard fork milestones through 2029. But neither of these is live on mainnet, community consensus on algorithm choice and migration frameworks is still unsettled, and full migration for either chain is realistically years away.

@@ -73,6 +73,8 @@ The Bitcoin UTXO acts as the seal. Spending it is the event. The CKB cell reflec
 
 This binding is called **isomorphic binding** - "isomorphic" meaning "same shape." The Bitcoin UTXO and the CKB cell mirror each other. One is the lock on Bitcoin. The other is the live, programmable state on CKB.
 
+Bitcoin's own locks keep evolving too. [BIP-360](https://www.nervos.org/knowledge-base/bip360_explained), for example, proposes an output type that keeps public keys off the chain until coins are spent, as a precaution against quantum computers.
+
 ---
 
 ## How a Transaction Actually Works

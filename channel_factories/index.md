@@ -82,6 +82,8 @@ Despite their promise, channel factories introduce coordination challenges. Mult
 
 Participant exit is another concern. If one member wishes to leave unilaterally, the factory may need to settle on-chain. Designing graceful exit mechanisms without disrupting others is an active area of research. Liquidity fragmentation can also occur if funds become locked within specific factory groups.
 
+For a single channel between two parties, [splicing](https://www.nervos.org/knowledge-base/what_is_lightning_network_splicing) offers a simpler way to add or withdraw funds while the channel stays open.
+
  
 
 ## Conclusion

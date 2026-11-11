@@ -44,6 +44,8 @@ P2MR 的另一个重要特征，是依赖[Merkle 树](https://en.wikipedia.org/w
 
 在 P2MR 中，树的每个叶节点都包含一个可能的花费脚本，Merkle 根同时承诺所有这些脚本。这种设计允许钱包定义多重签名策略、时间锁（time locks）或备用恢复路径等多项条件，同时只披露实际使用的分支。
 
+这类脚本树展示了比特币的锁能够表达多少内容。一些项目走得更远：RGB++ 将比特币 UTXO 与 CKB 上的可编程状态绑定，详见[《比特币不知道自己有智能合约》](https://www.nervos.org/knowledge-base/bitcoin_doesnt_know_it_has_smart_contracts)。
+
 通过移除公钥承诺、完全依赖脚本树，P2MR 显著缩短了密码学密钥暴露的时间窗口。虽然这无法消除全部量子风险，却实质性地增强了比特币的长期安全模型。
 
 

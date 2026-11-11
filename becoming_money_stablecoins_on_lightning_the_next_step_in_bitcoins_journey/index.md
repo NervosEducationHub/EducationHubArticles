@@ -173,6 +173,8 @@ This process enables seamless exchanges of assets, such as BTC and stablecoins, 
 
 Thanks to the Turing-complete programmability of CKB, this is just the start. It underscores just how versatile Bitcoin’s broader ecosystem can become when integrated with complementary chains, all while maintaining Bitcoin’s trust-minimized, censorship-resistant ethos.
 
+To see where the Fiber Network is heading, read [Fiber Network: An Open Payment Network for the Digital Economy](https://www.nervos.org/knowledge-base/fiber_network).
+
 ## Final Thoughts
 
 Onboarding stablecoins to Bitcoin and its Layer 2 networks may initially seem counterintuitive to Bitcoin purists, but it could be a crucial step towards accelerating hyperbitcoinization. This approach combines the stability and familiarity of existing currencies with Bitcoin's permissionless and efficient architecture. 
@@ -182,3 +184,5 @@ Rather than ceding the stablecoin phenomenon to other chains, Bitcoin can absorb
 The economic and security implications of this initiative are overwhelmingly positive. More transactions, users, and liquidity anchored to Bitcoin translate into stronger network effects for Lightning and a more secure base layer.
 
 Meanwhile, an ever-growing cohort of individuals and businesses will use the Bitcoin network for their daily needs—a subtle but powerful form of adoption that will ultimately lead to greater acceptance of the bitcoin asset itself.
+
+Those daily users will soon include software. AI agents already need fast, cheap ways to pay for services, as we explain in [How Do AI Agents Pay for Things?](https://www.nervos.org/knowledge-base/how_do_ai_agents_pay_for_things)

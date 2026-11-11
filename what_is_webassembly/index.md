@@ -55,6 +55,8 @@ Moreover, WebAssembly (WASM) is increasingly being recognized for its transforma
 
 In summary, WebAssembly's integration into blockchain VMs is proving to be a game-changer. Its performance efficiency, security features, and support for multiple programming languages are enabling the development of faster, more secure, and versatile decentralized applications and smart contracts. This integration is paving the way for broader adoption and more sophisticated applications within the blockchain ecosystem.
 
+WASM is one of several instruction sets used in blockchain VMs. CKB, for example, builds its VM on [RISC-V](https://www.nervos.org/knowledge-base/what_is_riscv), an open hardware instruction set.
+
 
 ## Conclusion
 
