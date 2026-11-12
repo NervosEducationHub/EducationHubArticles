@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 title: 'What is Data Availability in Blockchain?'
 coverImage: 'images/image1.png'
 category: Education

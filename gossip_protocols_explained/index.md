@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 description: "Gossip protocols spread information without centralized coordination. Learn how blockchain nodes relay transactions and blocks, and the risks involved."
 title: 'Gossip Protocols Explained: How They Work in Blockchains'
 coverImage: 'images/image1.png'

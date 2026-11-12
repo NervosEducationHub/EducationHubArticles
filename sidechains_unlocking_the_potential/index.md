@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 title: 'Sidechains: Unlocking the Potential of Blockchain Scalability and Interoperability'
 coverImage: 'images/image1.png'
 category: Scaling

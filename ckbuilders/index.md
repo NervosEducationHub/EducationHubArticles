@@ -1,4 +1,5 @@
 ---
+hub: nervos-ckb
 title: 'CKBuilders: A new generation of blockchain creatives on CKB'
 coverImage: 'images/ckbuilders.png'
 category: Popular

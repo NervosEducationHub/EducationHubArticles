@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'What Is a Block Builder in Blockchain?'
 coverImage: 'images/image1.png'
 category:

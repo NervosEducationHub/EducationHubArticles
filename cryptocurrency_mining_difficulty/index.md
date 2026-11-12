@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'Cryptocurrency Mining Difficulty: How It Works and Adjusts'
 coverImage: 'images/image1.png'
 category: PoW, mining, ASIC

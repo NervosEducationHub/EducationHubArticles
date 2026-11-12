@@ -1,4 +1,5 @@
 ---
+hub: blockchain-cryptography
 title: 'What is Keccak256? The SHA-3 Hash Function Behind Ethereum'
 coverImage: 'images/image1.png'
 category: cryptography, hash function

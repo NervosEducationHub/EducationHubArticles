@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'What are Blockchain Reorgs?'
 coverImage: 'images/image1.png'
 category: Blockchain

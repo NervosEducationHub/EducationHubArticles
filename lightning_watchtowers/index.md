@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 title: 'Lightning Watchtowers: Your Guardian Against Payment Channel Fraud'
 coverImage: 'images/image1.png'
 category: Lightning

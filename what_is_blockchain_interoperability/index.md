@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 description: "Understand blockchain interoperability, why cross-chain communication matters, and approaches to exchanging assets and data between networks."
 title: 'Understanding Blockchain Interoperability: The Key to Cross-Chain Communication'
 coverImage: 'images/image1.png'

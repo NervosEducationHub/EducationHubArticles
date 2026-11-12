@@ -1,4 +1,5 @@
 ---
+hub: blockchain-vms-risc-v
 description: "Compare EVM, WASM, Solana's SVM and CKB-VM by architecture, smart contract execution, performance, security and developer experience."
 title: 'Comparing Blockchain Virtual Machines (VMs): EVM, WASM, SVM, and CKB-VM'
 coverImage: 'images/image1.png'

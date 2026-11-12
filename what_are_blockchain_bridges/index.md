@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 description: "Blockchain bridges connect networks for asset and data transfers. Understand how they work and how centralized and decentralized designs differ."
 title: 'What are Blockchain/Cross-Chain Bridges?'
 coverImage: 'images/image1.png'

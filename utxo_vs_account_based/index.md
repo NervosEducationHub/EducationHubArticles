@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 description: "Compare UTXO and account-based blockchains, from how they record balances and transactions to their privacy, scalability and smart contract trade-offs."
 title: 'UTXO vs. Account-Based Blockchains - Benefits and Drawbacks'
 coverImage: 'images/image3.png'

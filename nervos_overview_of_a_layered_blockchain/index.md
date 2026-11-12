@@ -1,4 +1,5 @@
 ---
+hub: nervos-ckb
 description: "Explore Nervos' modular design, including CKB's Cell Model, RISC-V virtual machine, consensus, Layer 2 scaling and token economics."
 title: 'Nervos: An In-Depth Overview of a Blockchain Network Built for Modularity'
 coverImage: 'images/header.png'

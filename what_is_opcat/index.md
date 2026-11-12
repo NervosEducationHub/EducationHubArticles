@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 description: "Explore OP_CAT's history, proposed reactivation and potential Bitcoin uses, including smart contracts and covenants, alongside implementation challenges."
 title: 'What is OP_CAT in Bitcoin? History, Use Cases, and Impact'
 coverImage: 'images/image1.png'

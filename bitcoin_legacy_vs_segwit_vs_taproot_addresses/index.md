@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'Bitcoin Legacy vs. SegWit vs. Taproot Addresses: A Beginner’s Guide to Bitcoin Address Formats'
 coverImage: 'images/image1.png'
 category: Bitcoin

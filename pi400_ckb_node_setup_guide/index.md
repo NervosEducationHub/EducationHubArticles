@@ -1,4 +1,5 @@
 ---
+hub: nervos-ckb
 description: "Set up a CKB full node on a Raspberry Pi 400 with Ubuntu 22.04, from preparing the bootloader and storage to installing CKB and starting sync."
 title: 'Pi400 Ubuntu Node Setup Guide'
 coverImage: 'images/image29.png'

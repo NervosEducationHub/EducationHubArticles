@@ -1,4 +1,5 @@
 ---
+hub: quantum-computing-blockchain-security
 title: "How Bitcoin's Path to Quantum-Resistance Could Look"
 coverImage: "images/image1.png"
 category: Popular

@@ -1,4 +1,5 @@
 ---
+hub: quantum-computing-blockchain-security
 title: 'Shor’s Algorithm Explained: Can It Break Bitcoin?'
 coverImage: 'images/image1.png'
 category: Popular 

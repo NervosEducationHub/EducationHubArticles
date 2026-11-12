@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 title: 'What is Client-Side Validation (CSV) in Crypto?'
 coverImage: 'images/image1.png'
 category: Education

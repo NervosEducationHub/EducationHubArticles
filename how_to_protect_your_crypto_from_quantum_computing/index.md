@@ -1,4 +1,5 @@
 ---
+hub: quantum-computing-blockchain-security
 description: "Review ways to prepare crypto holdings for quantum risk, including public-key exposure checks, post-quantum wallets and blockchain migration plans."
 title: 'How to Protect Your Crypto from Quantum Computing'
 coverImage: 'images/image1.png'

@@ -1,4 +1,5 @@
 ---
+hub: blockchain-vms-risc-v
 title: 'What is WebAssembly (WASM)? A Complete Guide'
 coverImage: 'images/image1.png'
 category: Vm

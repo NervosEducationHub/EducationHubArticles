@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 title: 'What are Sovereign Rollups? A Complete Guide'
 coverImage: 'images/image1.png'
 category:

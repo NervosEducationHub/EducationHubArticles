@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 description: "Examine the case for stablecoins on Bitcoin payment networks, and how multi-asset channels and Fiber could support Bitcoin's use in everyday payments."
 title: "Becoming Money: Stablecoins as the Next Necessary Step in Bitcoin’s Journey"
 coverImage: 'images/image1.png'

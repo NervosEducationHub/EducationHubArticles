@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'Modular vs. Monolithic Blockchains: Key Differences Explained'
 coverImage: 'images/image1.png'
 category: Modular, Blockchain

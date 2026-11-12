@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 description: "Proposer-builder separation splits Ethereum block production into two roles. Examine how PBS works and its implications for MEV and decentralization."
 title: 'What is Proposer-Builder Separation (PBS) in Ethereum?'
 coverImage: 'images/image1.png'

@@ -1,4 +1,5 @@
 ---
+hub: quantum-computing-blockchain-security
 description: "Compare lattice, hash-based, code-based and multivariate post-quantum cryptography by security assumptions, key sizes, performance and practical use."
 title: 'A Complete Comparison of Post-Quantum Cryptographic Algorithms: Lattice, Hash-Based, Code-Based, and Multivariate Approaches'
 coverImage: 'images/image1.png'

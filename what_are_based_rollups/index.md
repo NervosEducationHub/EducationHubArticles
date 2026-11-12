@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 title: 'What Are Based Rollups? A Complete Guide'
 coverImage: 'images/image1.png'
 category: Scaling

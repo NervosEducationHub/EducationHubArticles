@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 description: "Validity proofs use cryptography to verify blockchain state changes. Examine how they work, differ from fraud proofs and support Layer 2 scaling."
 title: 'What Are Validity Proofs in Blockchain?'
 coverImage: 'images/image1.png'

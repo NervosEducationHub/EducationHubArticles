@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 description: "Understand Sybil attacks, how fake identities threaten blockchain networks, and how proof of work and proof of stake provide Sybil resistance."
 title: 'Understanding Sybil Attacks and Consensus Mechanisms in Blockchain'
 coverImage: 'images/image1.png'

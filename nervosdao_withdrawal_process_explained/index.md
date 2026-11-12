@@ -1,4 +1,5 @@
 ---
+hub: nervos-ckb
 description: "Understand the Nervos DAO's two-step withdrawal process, 180-epoch cycles, reward timing and when deposited CKB becomes available to unlock."
 title: 'Nervos DAO — Withdrawal Process Explained'
 coverImage: 'images/image1.png'

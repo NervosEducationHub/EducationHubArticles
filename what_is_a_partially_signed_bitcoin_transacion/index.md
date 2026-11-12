@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 description: "A Partially Signed Bitcoin Transaction (PSBT) is a standard format for creating and signing Bitcoin transactions across multiple parties or devices."
 title: 'What is a Partially Signed Bitcoin Transaction (PSBT)?'
 coverImage: 'images/image1.png'

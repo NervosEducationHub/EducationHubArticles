@@ -1,4 +1,5 @@
 ---
+hub: blockchain-cryptography
 title: 'What is a Multi-Signature (Multisig) Wallet in Blockchain?'
 coverImage: 'images/image1.png'
 category: wallet

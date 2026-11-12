@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 description: "See how Nakamoto consensus combines proof of work, mining incentives and a chain-selection rule to help Bitcoin nodes agree on a shared ledger."
 title: 'What Is Nakamoto Consensus?'
 coverImage: 'images/image1.png'

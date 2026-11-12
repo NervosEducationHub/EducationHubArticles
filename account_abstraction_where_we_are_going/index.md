@@ -1,4 +1,5 @@
 ---
+hub: nervos-ckb
 description: "Account abstraction can improve blockchain onboarding and wallet use. Compare Ethereum's approach with CKB's flexible transaction authorization."
 title: "Where we're going, we don't need Accounts: the Future of Onboarding"
 coverImage: 'images/image3.png'

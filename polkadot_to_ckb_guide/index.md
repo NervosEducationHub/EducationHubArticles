@@ -1,4 +1,5 @@
 ---
+hub: nervos-ckb
 title: 'On CKB, You Drive: A Guide for Polkadot Developers'
 coverImage: 'images/cover.png'
 category: Developer

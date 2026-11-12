@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 description: "Compare miners in proof-of-work networks with validators in proof-of-stake networks, including block production, rewards, energy use and risks."
 title: 'What’s the Difference Between Crypto Miners and Validators?'
 coverImage: 'images/image1.png'

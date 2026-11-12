@@ -1,4 +1,5 @@
 ---
+hub: quantum-computing-blockchain-security
 title: 'Top Quantum Resistant Cryptocurrency Projects in 2026'
 coverImage: 'images/image1.png'
 category: Popular 

@@ -1,4 +1,5 @@
 ---
+hub: nervos-ckb
 title: 'Understanding the Nervos CKB Issuance Model'
 coverImage: 'images/image1.png'
 category: Economics, Guide

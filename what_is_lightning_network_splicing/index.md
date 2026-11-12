@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 title: 'What Is Lightning Network Splicing? Upgrade Bitcoin Channels Without Closing Them'
 coverImage: 'images/image1.png'
 category: Lightning 

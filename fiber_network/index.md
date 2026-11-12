@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 title: 'Fiber Network: An Open Payment Network for the Digital Economy'
 coverImage: 'images/image1.png'
 category: Popular 

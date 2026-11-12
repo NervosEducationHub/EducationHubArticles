@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 title: 'What Are Penalty Transactions in Lightning Network Payment Channels?'
 coverImage: 'images/image1.png'
 category: Lightning

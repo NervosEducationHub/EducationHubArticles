@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'The Nothing-at-Stake Problem: Understanding the Biggest Challenge of Proof-of-Stake'
 coverImage: 'images/image1.png'
 category: Education

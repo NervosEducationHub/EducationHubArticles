@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 description: "Understand Bitcoin Lightning Network fees, including base and proportional routing charges, fee calculations and the costs of opening or closing channels."
 title: 'How Does the Bitcoin Lightning Network Charge Fees? A Simple Guide'
 coverImage: 'images/image1.png'

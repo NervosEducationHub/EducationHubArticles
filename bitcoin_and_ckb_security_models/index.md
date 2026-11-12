@@ -1,4 +1,5 @@
 ---
+hub: nervos-ckb
 description: "Compare Bitcoin and CKB security models, including mining rewards, transaction fees, security budgets and CKB's use of secondary issuance."
 title: 'Bitcoin vs. CKB: Two Approaches to Achieving Sustainable Security'
 coverImage: 'images/image7.png'

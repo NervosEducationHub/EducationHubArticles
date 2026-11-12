@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 description: "Examine the case for RGB++ as a Bitcoin scaling approach, including asset issuance, programmability, transaction folding and UTXO interoperability."
 title: 'The Case For RGB++: A New Approach to Bitcoin Scaling'
 coverImage: 'images/cover.png'

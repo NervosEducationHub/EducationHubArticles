@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 title: 'What Are Native Rollups? A Complete Guide'
 coverImage: 'images/image1.png'
 category: Scaling

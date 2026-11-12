@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 description: "Understand hard forks and soft forks, how they change blockchain rules, and why backward compatibility matters, with Bitcoin upgrade examples."
 title: 'What is a Hard Fork and a Soft Fork in Cryptocurrencies?'
 coverImage: 'images/image1.png'

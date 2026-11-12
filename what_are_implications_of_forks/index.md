@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'What are the Implications of Cryptocurrency Forks?'
 coverImage: 'images/image1.png'
 category:

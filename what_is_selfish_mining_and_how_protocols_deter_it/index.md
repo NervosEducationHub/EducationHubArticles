@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'What Is Selfish Mining and How Protocols Deter It?'
 coverImage: 'images/image1.png'
 category: Mining

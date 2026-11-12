@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 description: "Sharding divides a blockchain's workload across groups of nodes. Examine how it works, its scaling benefits and its coordination and security challenges."
 title: 'What is Sharding in Blockchain? A Complete Guide'
 coverImage: 'images/image1.png'

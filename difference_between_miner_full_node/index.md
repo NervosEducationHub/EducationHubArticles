@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 description: "Miners produce blocks, while full nodes verify transactions and enforce blockchain rules. Understand their distinct roles and how they overlap."
 title: 'What is the Difference Between a Miner and a Full Node?'
 coverImage: 'images/image1.png'

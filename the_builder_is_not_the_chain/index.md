@@ -1,4 +1,5 @@
 ---
+hub: nervos-ckb
 title: "The Builder Is Not the Chain"
 coverImage: 'images/cover.png'
 category: Interoperability

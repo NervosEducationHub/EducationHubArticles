@@ -1,4 +1,5 @@
 ---
+hub: blockchain-cryptography
 description: "ECDSA is a cryptographic algorithm used to generate and verify digital signatures in applications including Bitcoin and Ethereum transactions."
 title: 'ECDSA Explained: The Backbone of Digital Signature Security'
 coverImage: 'images/image1.png'

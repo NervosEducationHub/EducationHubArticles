@@ -1,4 +1,5 @@
 ---
+hub: blockchain-scalability
 title: 'Understanding Bitcoin Layer 2 with RGB++ Protocol'
 coverImage: 'images/image1.jpg'
 category: BTCKB

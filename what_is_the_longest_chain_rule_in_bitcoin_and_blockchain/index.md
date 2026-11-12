@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'What is the Longest Chain Rule in Bitcoin and Blockchain?'
 coverImage: 'images/image1.png'
 category: Bitcoin, Consensus

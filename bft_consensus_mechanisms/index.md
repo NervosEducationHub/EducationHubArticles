@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 description: "Blockchain consensus relies on Byzantine fault tolerance to keep working despite faulty or malicious nodes. Compare BFT mechanisms and trade-offs."
 title: 'A Primer on BFT Consensus Mechanisms in Blockchain'
 coverImage: 'images/image1.png'

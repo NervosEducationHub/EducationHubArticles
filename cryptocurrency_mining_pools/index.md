@@ -1,4 +1,5 @@
 ---
+hub: blockchain-architecture
 title: 'Mining Pools: Boost Your Cryptocurrency Mining Success'
 coverImage: 'images/image1.png'
 category: PoW, mining
