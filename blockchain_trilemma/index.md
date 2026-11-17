@@ -75,7 +75,7 @@ Read the detailed explanation on [Layer 1 vs. Layer 2](https://www.nervos.org/kn
 
 _Nervos’ multi-layer model illustrated_
 
-Nervos utilizes a multi-layer blockchain model. Nervos Layer 1 blockchain, called the [Common Knowledge Base](https://medium.com/nervosnetwork/nervos-ckb-in-a-nutshell-7a4ac8f99e0e), utilizes the Proof-of-Work consensus mechanism, which remains the most battle-tested consensus mechanism when it comes to decentralization and blockchain security. Meanwhile, there are two Nervos Layer 2 blockchains; they are called AXON and [Godwoken](https://godwoken.com), where AXON is a sidechain and Godwoken is an Optimistic Rollup. Both AXON and Godwoken utilize Common Knowledge Base for their security and decentralization.
+Nervos utilizes a multi-layer blockchain model. Nervos Layer 1 blockchain, called the [Common Knowledge Base](https://medium.com/nervosnetwork/nervos-ckb-in-a-nutshell-7a4ac8f99e0e), utilizes the Proof-of-Work consensus mechanism, which remains the most battle-tested consensus mechanism when it comes to decentralization and blockchain security. Meanwhile, there are two Nervos Layer 2 blockchains; they are called AXON and Godwoken, where AXON is a sidechain and Godwoken is an Optimistic Rollup. Both AXON and Godwoken utilize Common Knowledge Base for their security and decentralization.
 
 By using a multi-layer model like this, the idea is to improve scalability in the Nervos ecosystem while still able to maintain a good level of blockchain decentralization and security.
 

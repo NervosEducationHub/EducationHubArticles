@@ -74,7 +74,7 @@ _中心化网络（左）与去中心化网络（右）的比较_
 
 _Nervos 分层架构示意图_
 
-Nervos 使用分层架构的区块链模型。Nervos Layer 1 区块链，称为 [Common Knowledge Base](https://medium.com/nervosnetwork/nervos-ckb-in-a-nutshell-7a4ac8f99e0e)，它采用了在去中心化和区块链安全方面久经考验的 PoW 共识机制。同时，Nervos 有两条 Layer 2 区块链：AXON 和 [Godwoken](https://godwoken.com/)。其中，AXON 是一个侧链，而 Godwoken 是一个 Optimistic Rollup。AXON 和 Godwoken 都利用 Common Knowledge Base 来实现安全性和去中心化。
+Nervos 使用分层架构的区块链模型。Nervos Layer 1 区块链，称为 [Common Knowledge Base](https://medium.com/nervosnetwork/nervos-ckb-in-a-nutshell-7a4ac8f99e0e)，它采用了在去中心化和区块链安全方面久经考验的 PoW 共识机制。同时，Nervos 有两条 Layer 2 区块链：AXON 和 Godwoken。其中，AXON 是一个侧链，而 Godwoken 是一个 Optimistic Rollup。AXON 和 Godwoken 都利用 Common Knowledge Base 来实现安全性和去中心化。
 
 使用这样的分层架构模型，目的是提高 Nervos 生态系统的可扩展性，同时仍然能够保持区块链良好的去中心化和安全水平。
 

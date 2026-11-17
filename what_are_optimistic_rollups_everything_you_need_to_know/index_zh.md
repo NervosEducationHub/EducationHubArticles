@@ -70,4 +70,4 @@ Arbitrum 和 Optimism 是相似的。Arbitrum 在用户想要退出 rollup 时�
 
 Arbitrum 的多轮防欺诈允许验证者仅对特定交易而不是整批交易提出挑战。在进行多轮欺诈证明时有一个权衡，因为多轮会减慢 1 层的交易最终确定性。但与此同时，多轮欺诈证明的交易费用也比单轮欺诈证明低。
 
-Nervos 也有自己的 Layer 2 Optimistic rollup，Godwoken，建立在被称为 Common Knowledge Base 的 Layer 1 区块链上。要了解更多关于 Godwoken 工作原理的信息，请访问其[官网](https://godwoken.com/)。
+Nervos 也有自己的 Layer 2 Optimistic rollup，Godwoken，建立在被称为 Common Knowledge Base 的 Layer 1 区块链上。

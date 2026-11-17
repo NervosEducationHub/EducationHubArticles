@@ -8,7 +8,7 @@ date: '2023-05-25T16:00:00.000Z'
 
 ![alt_text](images/image1.png 'image_tooltip')
 
-在区块链网络中，Layer 1 是指交易最终结算的基础层区块链。而 Layer 2 则是构建在 Layer 1 区块链之上的可扩展性解决方案，旨在提高 Layer 1 的交易吞吐量。常见的 Layer 1 区块链包括比特币、以太坊和 [CKB（Common Knowledge Base，共同知识库）](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain)，而 Layer 2 网络则包括闪电网络和 Optimism。
+在区块链网络中，Layer 1 是指交易最终结算的基础层区块链。而 Layer 2 则是构建在 Layer 1 区块链之上的可扩展性解决方案，旨在提高 Layer 1 的交易吞吐量。常见的 Layer 1 区块链包括比特币、以太坊和 [CKB（Common Knowledge Base，共同知识库）](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain)，而 Layer 2 网络则包括闪电网络、Optimism 和 Nervos 生态的 Godwoken。
 
 可以用现实世界中的 Fedwire 和支付处理商（如PayPal或Stripe）作为类比，来解释 Layer 1 和 Layer 2 的区别。与 Layer 1 一样，Fedwire 对银行转账进行最终的结算，而支付处理商只是处理许多付款的中介，需要将处理后的付款转给银行进行最终的结算。
 
@@ -37,6 +37,8 @@ Layer 2 是一个专业术语，用于描述建立在现有区块链协议之上
 要使用 Optimistic Rollup，用户需要通过跨链桥合约将其原始资产锁定在 Layer 1 上。然后，在 Layer 2 上的智能合约里创建相应的 wrapped token，以 1:1 的比例映射到之前在 Layer 1 上锁定的资产。用户在 Layer 2 上使用这些 wrapped token 进行交易时，交易会捆绑在一起进行批量处理，只有交易数据会回传到 Layer 1。
 
 当用户想要把原始资产从 Layer 1 上取回时，他们需要将之前在 Layer 2 上铸造的 wrapped token 发回智能合约，并等待数天或数周的挑战期。这个挑战期是必要的，以便验证者有足够的时间在主区块链进行不可逆转的结算之前对 rollup 上的可疑交易提出异议。
+
+Nervos 的 Layer 1 区块链，即 CKB，使用名为 Godwoken 的 Optimistic Rollup 来提高 CKB 的可扩展性。
 
 ### ZK Rollup
 
