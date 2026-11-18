@@ -9,7 +9,7 @@ date: '2023-04-09T16:00:00.000Z'
 
 ![alt_text](images/image1.png 'image_tooltip')
 
-Layer 1, in the context of blockchain networks, refers to the base layer chain where transactions are settled with finality. On the other hand, Layer 2 networks are scaling solutions built on top of Layer 1 blockchains with the goal of increasing their transaction throughput. Examples of Layer 1 chains include Bitcoin, Ethereum, and [Common Knowledge Base](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain), whereas examples of Layer 2 networks include the Lightning Network and Optimism.
+Layer 1, in the context of blockchain networks, refers to the base layer chain where transactions are settled with finality. On the other hand, Layer 2 networks are scaling solutions built on top of Layer 1 blockchains with the goal of increasing their transaction throughput. Examples of Layer 1 chains include Bitcoin, Ethereum, and [Common Knowledge Base](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain), whereas examples of Layer 2 networks include the Lightning Network, Optimism, and Godwoken.
 
 An excellent real-world analogy depicting the difference between Layer 1 and Layer 2 networks is the comparison between Fedwire and payment processors like Paypal or Stripe. Like Layer 1s, Fedwire settles bank transfers with finality, whereas payment processors are merely intermediaries that process many payments and then relay them to banks for final settlement.
 
@@ -38,6 +38,8 @@ Multiple types of Layer 2 solutions exist, including Optimistic rollups, ZK-roll
 To use an optimistic rollup, users must lock their original assets on Layer 1 through a smart bridging contract. The smart contract on Layer 2 then creates identical assets, known as wrapped tokens, with a 1-to-1 valuation to the original assets previously locked on Layer 1. When a user makes a transaction on Layer 2 with these wrapped tokens, the transactions are bundled into large batches, and only the transaction data is posted back on Layer 1 as call data.
 
 When users want to withdraw their original asset back to Layer 1, they must send the previously-minted wrapped token on Layer 2 back to the smart contract. However, they must wait for days or weeks during the dispute period before withdrawing their original assets on the main blockchain. This dispute period is necessary to give validators ample time to dispute suspicious transactions on the rollup before they're irreversibly settled on the main blockchain.
+
+Nervos’ Layer 1 blockchain, Common Knowledge Base, uses an optimistic rollup called Godwoken to boost its scalability.
 
 ### ZK-Rollups
 
