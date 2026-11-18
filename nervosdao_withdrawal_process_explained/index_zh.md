@@ -66,7 +66,7 @@ _如此循环下去。_
 
 以下是另外一个例子：
 
-![alt_text](images/image6.gif "image_tooltip")
+![漫画：Kevin 向 Nervos DAO 发起提款请求，随后等待周期结束再解锁存款。](images/image6.gif "image_tooltip")
 
 ### 常见问题
 

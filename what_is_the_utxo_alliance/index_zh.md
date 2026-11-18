@@ -6,7 +6,7 @@ category: 'UTXO'
 date: '2023-05-25T16:00:00.000Z'
 ---
 
-![alt_text](images/image2.png 'image_tooltip')
+![深色背景上以金色文字呈现的 UTXO Alliance 标志。](images/image2.png 'image_tooltip')
 
 UTXO 联盟是一项协作计划，它将个人和组织聚集在一起，致力于让 UTXO（未花费的交易输出）模型更具可扩展性、安全性和互操作性。UTXO 模型是区块链技术中的一个基本概念，UTXO 模型被许多区块链项目所使用，其中包括比特币、Nervos CKB、Cardano、Ergo 和 Fuel。
 

@@ -27,7 +27,7 @@ date: '2024-10-22T16:00:00.000Z'
 
 在不同区块链和 Layer 2 网络之间跨链，本身就很复杂。用户需要找到正确的跨链协议、批准交易、支付 gas 费，有时还要等上五天，才能在目标链收到代币。更麻烦的是，这一切都发生在高度波动的环境中：底层资产价格和每笔交易的成本，都会随着资产及区块空间需求的变化而每秒变动。
 
-![alt_text](images/image2-1.png "image_tooltip")
+![跨链生态图通过桥连接比特币、以太坊、Cosmos、Polkadot 及其他网络。](images/image2-1.png "image_tooltip")
 
 此外，在跨链世界中穿行的用户，还必须了解不同区块链和 Layer 2 网络的技术差异。每个网络都有不同的共识机制、区块空间和[出块时间](https://www.nervos.org/knowledge-base/block_time_in_blockchain)参数，以及交易和智能合约[执行环境](https://www.nervos.org/knowledge-base/comparing_blockchain_virtual_machines)，这些差异决定了不同的安全假设和用户体验预期。
 
@@ -35,11 +35,11 @@ date: '2024-10-22T16:00:00.000Z'
 
 与仅仅把资产从一条链转到另一条链的糟糕体验相比，上述例子还不算什么。假设 Bob 在以太坊上收到一笔 USDT，想转到波场网络，以较低成本给海外的妹妹 Alice 汇款。他必须：（a）先找到支持这项操作的跨链协议，（b）再创建一个波场钱包。随后，他在以太坊上发起跨链交易，用 ETH 支付高昂的 gas 费，并在几小时内于波场账户收到 USDT。
 
-![alt_text](images/image3-1.png "image_tooltip")
+![Bob 将 USDT 从以太坊跨链至 Tron，却因 Tron 钱包没有 TRX 支付手续费而无法转给 Alice。](images/image3-1.png "image_tooltip")
 
 但 Bob 刚在波场上收到 USDT，就发现自己无法给 Alice 转出任何一笔钱，因为他没有 TRX 来支付该网络的交易手续费。Bob 就此陷入困境：在找到获取波场原生代币的方法之前，他无法动用自己的资金。
 
-![alt_text](images/image10.png "image_tooltip")
+![跨链流程到达标有“0 TRX”的 Tron 钱包，导致向 Alice 发送 USDT 的操作受阻。](images/image10.png "image_tooltip")
 
 这个简单场景已经说明了在两条链之间转移资产有多令人沮丧，而在更复杂的用例中，例如在不受支持的链之间兑换代币，或跨链提供流动性，使用障碍还会呈指数级增加。
 
@@ -53,7 +53,7 @@ date: '2024-10-22T16:00:00.000Z'
 链抽象的核心理念是：Web3 用户甚至不应该意识到自己正在使用区块链，更不必在意自己用的是 Layer 1 还是 Rollup，或该选择哪种跨链协议。他们应当像使用 Web2 一样，轻松开始使用、完成交易、探索 dApp、恢复账户以及退出服务。
 
 
-![alt_text](images/image4-1.png "image_tooltip")
+![复杂的跨链桥与 Rollup 流程，与采用单一钱包、意图、求解器及结算的理想流程对比。](images/image4-1.png "image_tooltip")
 
 因此，链抽象应被视为一个目标，而非某项具体技术方案。在实现链抽象的世界里，用户通过指纹或电子邮箱地址开通钱包，无须保管和管理私钥及助记词。
 
@@ -61,7 +61,7 @@ date: '2024-10-22T16:00:00.000Z'
 
 除了期望结果和相关成本，用户并不太关心、也不应需要关心其他细节。实现用户意图所涉及的全部复杂过程，都应当隐藏起来，由其他实体或技术本身处理。这意味着，起始链和目标链、账户、gas 费、跨链桥接及实际执行，都应成为后台细节，与用户基本无关。
 
-![alt_text](images/image9-1.png "image_tooltip")
+![链抽象关键要素（CAKE）框架将应用层、权限层、求解器层和结算层从上到下依次排列。](images/image9-1.png "image_tooltip")
 
 *Frontier Research 的 CAKE 框架。（来源：[frontier.tech](https://frontier.tech/the-cake-framework)）*
 
@@ -104,7 +104,7 @@ Frontier 的 CAKE 框架旨在为构建链抽象产品的开发者提供一种�
 
 用户可以使用 [OpenID](https://en.wikipedia.org/wiki/OpenID) 或其他常见的人脸、指纹识别认证机制，从浏览器或手机访问 CKB dApp。这才是真正的账户抽象：Common Knowledge Base 上的账户（持有资产的对象），可以由任何区块链生态中的签名者来管理。
 
-![alt_text](images/image8-1.png "image_tooltip")
+![CKB 智能合约的输入与输出连接至 Cell，字段包括容量、数据、锁定脚本及可选的类型脚本。](images/image8-1.png "image_tooltip")
 
 除了 CKB-VM，Cell 模型本身也是抽象的。它是比特币 UTXO 模型的泛化版本，Cell 中存储的数据没有被强制规定内部结构，数据布局完全由开发者决定。
 
@@ -134,7 +134,7 @@ CKB 上链抽象的其他实际例子包括 [JoyID](https://joy.id/) 钱包和 [
 
 NEAR 的链签名（chain signatures）技术利用其验证者（validators）网络，允许 NEAR 账户（包括智能合约）签署并执行其他区块链上的交易，无须传统跨链桥即可进行跨链操作。这一创新的强大之处在于，它增强了区块链互操作性，使用户能够更容易地通过一个 NEAR 账户管理多条链上的资产。
 
-![alt_text](images/image6-1.png "image_tooltip")
+![NEAR 账户通过 MPC 合约与服务请求以太坊交易签名，随后发送交易。](images/image6-1.png "image_tooltip")
 *NEAR 链签名示意图（来源：[docs.near.org](https://docs.near.org/chain-abstraction/chain-signatures)）*
 
 流程始于派生路径（derivation paths），即表示其他区块链账户的字符串。用户可以将 NEAR 账户与派生路径结合，在以太坊或比特币等另一条区块链上生成唯一地址。例如，NEAR 账户 *example.near* 可以使用派生路径 *ethereum-1*，生成对应的以太坊地址。这个地址虽然属于以太坊网络，却仍由 NEAR 账户控制。
@@ -161,7 +161,7 @@ NEAR 的元交易允许另一方，即中继者（relayer），代用户承担 g
 
 这笔交易包含所需的全部细节，例如预期操作和相关数据，但用户不预先支付 gas 费，而是在链下将交易发送给中继者，由专门的服务协助处理这些操作。
 
-![alt_text](images/image4-1-1.png "image_tooltip")
+![客户端将已签名交易发送至有资金的中继者，由中继者提交至网络，再返回回执。](images/image4-1-1.png "image_tooltip")
 *NEAR 元交易示意图。（来源：[docs.near.org](https://docs.near.org/protocol/transactions/meta-tx)）*
 
 中继者收到交易后，会在必要时签名，并代表用户提交到 NEAR 区块链。在此过程中，中继者用自己的 NEAR 代币支付所需的 gas 费。作为回报，中继者可能通过多种方式获得补偿，例如收取其他代币、按交易金额收取费用，或参与应用或生态提供的更广泛激励机制。
@@ -179,7 +179,7 @@ NEAR 的元交易允许另一方，即中继者（relayer），代用户承担 g
 
 网络支持广泛的功能，包括[通用账户（universal accounts）](https://developers.particle.network/intro/universal-accounts)、通用流动性（universal liquidity）和[通用 gas（universal gas）](https://developers.particle.network/intro/universal-accounts)，共同服务于实现链抽象的总体目标。
 
-![alt_text](images/image1-1.jpg "image_tooltip")
+![Particle 的 Universal SDK 通过打包者及密钥存储，将用户操作路由至其他链上的钱包合约。](images/image1-1.jpg "image_tooltip")
 
 *Particle Network 通用账户的用户流程。（来源：[developers.particle.network](https://developers.particle.network/intro/universal-accounts)）*
 
@@ -187,7 +187,7 @@ NEAR 的元交易允许另一方，即中继者（relayer），代用户承担 g
 
 通用账户还允许用户选择任意代币支付 gas，而实际的跨链手续费支付过程会在后台完成，对用户隐藏。
 
-![alt_text](images/image3-1-1.png "image_tooltip")
+![Particle Network 流程通过批量跨链操作，使用 Polygon 上的 MATIC 购买 Base 上的 NFT。](images/image3-1-1.png "image_tooltip")
 *使用 Particle Network 执行跨链交易的示例。（来源：[developers.particle.network](https://developers.particle.network/intro/universal-accounts)）*
 
 不深入技术细节的话，这在实践中意味着：Particle Network 通用账户持有者可以管理不同链上的多种资产，无须创建新账户、切换网络、购买 gas 代币，也不必关心流动性碎片化。

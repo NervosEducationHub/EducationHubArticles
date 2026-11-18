@@ -36,7 +36,7 @@ author:
 
 
 
-![alt_text](images/image2.JPG "image_tooltip")
+![一条比特币锁定脚本列出了一系列操作，依次为：OP_DUP、OP_HASH160、公钥哈希、OP_EQUALVERIFY和OP_CHECKSIG。](images/image2.JPG "image_tooltip")
 
 
 在这个脚本中：

@@ -32,7 +32,7 @@ While this implementation certainly has many merits, it has two major downsides:
 Distributed protocols, like Bitcoin or other smart contract platforms, must synchronize across all network nodes. The blockchain is organized into atomic transactions or, more generally, state transitions. The sequence of how these state transitions are applied to the initial (genesis) state must be clearly defined to achieve synchronicity across the network. This is done via a so-called consensus rule or mechanism.
 
 
-![alt_text](images/image2.png "image_tooltip")
+![Transactions drive a state machine from state N to N+1 and then N+2 through a state-transition function.](images/image2.png "image_tooltip")
 
 
 In this sense, a “blockchain” is a specific form utilized by distributed protocols (initially Bitcoin) that leverages a consensus mechanism to organize transactions or state transitions into a time-ordered chain (i.e., a sequence) named a ledger. Therefore, it can be said that a blockchain conceptually consists of two parts: a consensus mechanism (Proof-of-Work Nakamoto Consensus, in Bitcoin’s case) and a transaction ledger whose ordering and finality are governed by that consensus mechanism.
@@ -42,7 +42,7 @@ Now, Peter Todd and the developers behind RGB believe that most of the scalabili
 To that point, RGB completely reimagines the ledger-based blockchain approach by leaning into *client-side validation*. In this approach, all the transactions or state transitions are validated off-chain or locally by the concerned parties, and the Bitcoin base chain is used only for the one task that blockchains excel at: consensus.
 
 
-![alt_text](images/image6.png "image_tooltip")
+![The layout of the RGB architecture shows RGB contracts sitting above client-side validation, Bitcoin commitments, Bitcoin's consensus and transaction ledger.](images/image6.png "image_tooltip")
 *The layout of the RGB architecture. (Source: [blackpaper.rgb.tech](https://blackpaper.rgb.tech/general-information/2.-protocol-design/2.2.-design-overview))*
 
 In RGB, the ledger or transaction data isn’t recorded on a public blockchain or validated by Bitcoin nodes, but rather is validated and stored off-chain by the concerned parties or the state owners. The base or consensus layer keeps only a short cryptographic commitment to the ledger event to be timestamped, serving as an anti-double-spending measure. This approach significantly improves both scalability by reducing the size of the on-chain data and privacy by moving the actual ledger of transactions away from the view of all network participants.
@@ -53,7 +53,7 @@ In RGB, the ledger or transaction data isn’t recorded on a public blockchain o
 Client-side validation is based on the idea that the only thing that matters to a transaction recipient is the directed acyclic graph (DAG) connecting the history of the state transitions from the genesis state to the last state addressed to them—not the whole history of the entire ledger.
 
 
-![alt_text](images/image3.png "image_tooltip")
+![A hash-linked blockchain with a transaction Merkle tree is contrasted with a directed acyclic graph (DAG) of transactions.](images/image3.png "image_tooltip")
 
 
 The idea is that when Bob wants to send Alice bitcoin on the Bitcoin network, he signs a transaction and broadcasts it to the entire network. Then, miners pick up this transaction from the mempool, check whether it's valid, and include it in a block. All the blocks are valid only if the transactions within them are valid. 
@@ -62,7 +62,7 @@ In contrast, when Bob wants to send Alice a token on RGB, he signs a transaction
 
 Now, suppose Alice wants to send David this token. In that case, she will pass to Dave Bob's signature on the previous commitment, as well as her signature to the commitment sending the token to David, and post a commitment to this transaction to the Bitcoin network. If David wants to ensure that the transaction he received from Alice is valid, he must check the entire sequence (Bob to Alice, Alice to David) against their respective commitments, and so on.
 
-![alt_text](images/image4-1.png "image_tooltip")
+![Anchors and single-use seals connect Bitcoin's chain to two graphs of client-validated RGB contract states.](images/image4-1.png "image_tooltip")
  \
 *Several shards can be aggregated in a single Layer 1 transaction. The Anchor structure establishes a link between the contract's client-side data and the single-use seal. (Source: [docs.rgb.info](https://docs.rgb.info/distributed-computing-concepts/client-side-validation))*
 
@@ -82,7 +82,7 @@ In RGB, all of the smart contract data is kept locally by Alice and Bob, and the
 With the groundwork laid out above, we can introduce the second core technology in RGB that works in conjunction with client-side validation: *[single-use seals](https://docs.rgb.info/distributed-computing-concepts/single-use-seals)*. First proposed by Peter Todd in 2016, single-use seals are cryptographic primitives designed to ensure that a specific action or commitment can only be used once. They are analogous to tamper-evident physical seals, which cannot be reused once used.
 
 
-![alt_text](images/image8.png "image_tooltip")
+![A table compares simple commitments, timestamps, and single-use seals for secrecy, timing, and uniqueness proofs.](images/image8.png "image_tooltip")
 
 
 In the context of RGB and Bitcoin, single-use seals and client-side validation work together to ensure data integrity and security. The whole process works in the following way: Suppose Alice has a Bitcoin UTXO linked to some client-side validated data, which only she knows. She informs Bob that spending this UTXOs signifies some event or action.
@@ -90,7 +90,7 @@ In the context of RGB and Bitcoin, single-use seals and client-side validation w
 When Alice spends the UTXO, everyone on the Bitcoin blockchain can see this transaction, but only Bob understands its unique significance. This spending event changes the validated data on Alice's side. By sending the original data to Bob, she can prove that the data referenced by the UTXO commitment is valid because, using the appropriate methods that are part of the client-side validation protocol (e.g., RGB), Bob can verify this data independently.
 
 
-![alt_text](images/image4.png "image_tooltip")
+![Alice spends a UTXO and later shares client-side data so Bob can verify its committed meaning.](images/image4.png "image_tooltip")
 
 
 *The key point of using single-use seals is to securely link data to Bitcoin transactions, which cannot be tampered with once recorded on the blockchain. *
@@ -109,7 +109,7 @@ Regarding RGB smart contracts, each is represented by a genesis state created by
 The asset or smart contract issuer in RGB must define the rules of available contract operation or its business logic in the Genesis state using a so-called [Schema](https://docs.rgb.info/rgb-contract-implementation/schema). In simple terms, a Schema is a declarative piece of code that contains the set of variables, rules, and business logic according to which an RGB contract works. Thus, when a RGB user receives some information about an asset on RGB (data and contract), they must validate it against the Schema distributed by the asset issuer. 
 
 
-![alt_text](images/image5.png "image_tooltip")
+![An RGB schema combines state and operation types, graph rules, strict type libraries, and AluVM validation code.](images/image5.png "image_tooltip")
 
 
 This architectural choice distinguishes RGB contracts from blockchain-based contracts like those implemented on Ethereum. In the latter systems, the contracts are provided as executable code, and the rules governing the contract’s business logic are directly stored on the blockchain. 
@@ -148,7 +148,7 @@ To extend Bitcoin’s programmability capabilities, the [RGB++](https://github.c
 [RGB++](https://www.nervos.org/knowledge-base/understanding_bitcoin_layer2) is a recently released novel Bitcoin scaling solution developed by Cell Studio, a blockchain infrastructure development firm founded by Nervos Network co-founder Cipher Wang. It solves the problems encountered by RGB through a new primitive called isomorphic binding. 
 
 
-![alt_text](images/image5-1.png "image_tooltip")
+![RGB++ maps a Bitcoin UTXO to a CKB Cell, moving off-chain state and scripts into Cell data and scripts.](images/image5-1.png "image_tooltip")
 
 
 As already explained, the two most important components in RGB are the Bitcoin UTXOs used for RGB asset ownership identification and the commitments used for state management and one-time sealing. In RGB++, isomorphic binding is used to map Bitcoin UTXOs one-to-one with CKB cells—the bespoke data model based on generalized UTXOs used by the Common Knowledge Base blockchain. Asset ownership is synchronized using Bitcoin lock script, and the state is managed using cell data and type scripts.

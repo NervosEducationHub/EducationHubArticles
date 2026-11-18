@@ -22,7 +22,7 @@ It's essential to note right off the bat that Ordinal Theory is an entirely soci
 
 In a sense, Ordinal Theory is a way of looking at Bitcoin, or more specifically, individual sats, through a different lens. To the vast majority of Bitcoin users, a sat is a sat, and all sats are of equal value, but to ordinal collectors, some sats are more exotic than others and, therefore, more desirable. 
 
-![alt_text](images/image2.png "image_tooltip")
+![Obverse and reverse of a 1933 U.S. double eagle gold coin, showing Liberty and an eagle.](images/image2.png "image_tooltip")
 
 This is very similar to how numismatists approach coin collecting. While a coin could have a nominal value of $1 (and could be spent as such), its origin, unique design, minting year, and provenance may all play a role in its rarity and perceived value. Hence, it's not uncommon in numismatics for coins to trade for thousands of times more than their nominal value.
 
@@ -55,7 +55,7 @@ This methodology for categorizing sats in Ordinal Theory gives them six rarity l
 
 An example of an epic ordinal is the first sat of each halving epoch, which occurs roughly every four years. So far, only [three epic ordinals](https://ordiscan.com/satribute/epic) have been mined, with the fourth one due on April 22. To make things more concrete, the representations of the first epic ordinal, or the first sat mined following the first Bitcoin halving in 2012, look like this:
 
-![alt_text](images/image2-1.png "image_tooltip")
+![The Ordinal theory overview marks the first sat of block 210,000 as “epic,” with its notations and timestamp.](images/image2-1.png "image_tooltip")
 
 As can be seen, Ordinal Theory leaves collectors lots of room for experimentation and speculation. For example, beyond the rare and legendary sats, the Nervos Foundation would hypothetically be willing to buy the sat with the name "[nervos](https://ordinals.com/sat/nervos)" at a significantly higher price than its nominal price—if that sat weren't due to be mined in the year 2,102.
 
@@ -70,7 +70,7 @@ As previously mentioned, inscribing is a method of inserting arbitrary data like
 
 SegWit, which stands for Segregated Witness, was introduced to Bitcoin via a soft work in 2017 in a bid to improve its scalability. More specifically, SegWit enabled both smaller transactions, allowing miners to pack more transactions inside a fixed amount of block space, and larger blocks (from 1MB to 4MB), enabling even more transactions per block. This was done by separating the signature or witness data from all the other transaction data and moving it as a separate structure at the end of a block, replacing the concept of bytes (data size) with virtual bytes (weight), and recalculating the weight of witness data to count as ¼ of a weight unit. This means that the data in the witness portion of the transaction "weighs" four times less than regular transaction data, therefore also costing that much less in transaction fees to be mined.
 
-![alt_text](images/image3.png "image_tooltip")
+![SegWit and non-SegWit block diagrams contrast how transaction signatures are separated and referenced.](images/image3.png "image_tooltip")
 
 The second upgrade, Taproot, was introduced to Bitcoin via a soft fork in 2021 to enhance Bitcoin's smart contracting capabilities, specifically time-locked contracts (outlined in witness data) used for payment channels in [Layer 2 networks](https://www.nervos.org/knowledge-base/understanding_bitcoin_layer2) like the Lightning Network. It removed the size limit for witness data and allowed for much more complex scripting inside the witness portion of a transaction.
 
@@ -94,7 +94,7 @@ Unlike sending regular Bitcoin transactions—or Ethereum NFTs, for that matter�
 
 The core difference between Bitcoin inscriptions and non-Bitcoin NFTs is precisely their aforementioned fluid or "semi-fungible" nature. From the core protocol's point of view, an inscribed sat or an ordinal is no different from a regular sat, meaning it can be used as part of a regular Bitcoin transaction or as payment for transaction fees, even though the arbitrary data may stay attached. Whether the inscribed ordinal is recognized as a non-fungible coin is left entirely to its owner.
 
-![alt_text](images/image4.png "image_tooltip")
+![A table compares Ethereum NFTs and Bitcoin inscriptions by size, fungibility, and whether it is smart contracts, native asset, and fully on-chain.](images/image4.png "image_tooltip")
 
 The same, on the other hand, doesn't apply to Ethereum NFTs. An Ethereum NFT is a second-class citizen or asset on the Ethereum network and is entirely different from Ether, the chain's native coin. Like all other non-native Ethereum tokens (most of which leverage the ERC-20 token standard), Ethereum NFTs are created by different smart contracts, typically leveraging the ERC-721 or ERC-1155 standards for non-fungible tokens.
 
@@ -109,17 +109,17 @@ The last couple of differences include the file size limits and the management o
 
 Since Ordinal Theory and inscriptions were introduced a little over a year ago, more than 60 million inscriptions in various forms and sizes have been minted on the Bitcoin blockchain. Some of the more popular collections, like Taproot Wizards and Bitcoin Punks, have reached floor prices of upwards of 0.2 BTC, with inscriptions' total trading volume surpassing that of NFTs on chains like Solana and Ethereum on certain days.
 
-![alt_text](images/image6.png "image_tooltip")
+![Daily inscription bars fluctuate as cumulative Bitcoin inscriptions climb toward 60 million during 2023.](images/image6.png "image_tooltip")
 
 As a result of this accelerating trend, new discussions concerning inscriptions' long-term impact on Bitcoin have arisen, including its effects on both the state size and total blockchain size, the security budget, and the transaction fee market and miner operations.
 
 Concerning the first issue, on-chain data shows that since ordinals and inscriptions took off in March last year, the average block size has approximately doubled, jumping from around 1 MB to 2 MB. This means that if this trend continues or even accelerates to where the average block size equals the maximum block size of 4 MB, Bitcoin's blockchain size will grow two to four times faster moving forward. This could significantly slow down the time it takes Bitcoin nodes to fully sync with the blockchain and increase the hardware requirements for running full nodes, potentially impacting the network's decentralization.
 
-![alt_text](images/image4-1.png "image_tooltip")
+![Bitcoin's average block size trends upward from 2010 to 2024, with a sharp increase during 2023.](images/image4-1.png "image_tooltip")
 
 The silver lining to this negative outcome is the impact of inscriptions on miner revenues and, thereby, Bitcoin's security budget. According to Glassnode data, inscriptions have contributed between 15% and 30% of the total transaction fee revenue for miners last year. Interestingly, inscription transactions account for around half of all Bitcoin transactions, paying a meaningful proportion of fees, while consuming a minority share of the blockspace (in bytes) due to SegWit's witness data weight discount.
 
-![alt_text](images/image1-2.png "image_tooltip")
+![An dashboard shows about $306.6 million in total fees above daily and cumulative fee charts.](images/image1-2.png "image_tooltip")
 
 This substantial demand for inscriptions has already significantly impacted miner revenues. If the trend persists, miner economics will meaningfully improve, positively impacting Bitcoin's security budget both amid the fast-approaching fourth halving and on a more long-term time horizon. For the uninitiated, a larger security budget means higher Bitcoin security in absolute terms.
 

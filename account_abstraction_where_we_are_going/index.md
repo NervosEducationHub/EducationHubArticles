@@ -26,7 +26,7 @@ Concerning the concept of "blockchain accounts," on the other, it’s worth clea
 
 
 
-![alt_text](images/image8.png "image_tooltip")
+![An Ethereum private key yields a public key via secp256k1; Keccak-256 hashing leads to the address.](images/image8.png "image_tooltip")
 
 
 The most crucial point here is that accounts in account-based blockchains are more permanent entities that, from users’ point of view, function very much like Web2 accounts, where users typically have one account for each Web2 service or application they use. For example, users have one account to watch Netflix instead of creating new ones whenever they need to log in to the service. However, unlike Web2 accounts, which are typically accessed via email sign-ins or recoverable passwords, blockchain accounts are controlled through private keys, which can’t be recovered when lost.
@@ -41,7 +41,7 @@ There are two types of accounts in account-based blockchains like Ethereum: exte
 
 
 
-![alt_text](images/image7.png "image_tooltip")
+![An externally owned account is controlled by a private key; a smart contract contains code and data.](images/image7.png "image_tooltip")
 
 
 EOAs are user accounts that can initiate transactions and what users simply refer to as “accounts.” They have three properties: (i) a balance representing the amount of cryptocurrency available to the account and necessary to pay transaction fees, (ii) a nonce to ensure that every transaction is unique or legitimate, and (iii) an address to uniquely identify the account on the network.
@@ -51,7 +51,7 @@ Initiating transactions from EOAs obviously requires some authorization because 
 The private key is a secret, randomly generated hexadecimal string (a 256-bit-long number) representing a unique identifier for securing and controlling EOAs. On account-based blockchains like Ethereum, only EOAs can initiate transactions, and doing so requires a signature with a private key. In Web2 terms, the private key is like the password granting users access to applications like bank accounts, where every time they want to make a wire transfer, they need to "sign" transactions using their password. On Ethereum, the private key is never exposed to the network during the signing process, as the signature is generated using cryptographic techniques that don’t reveal the key itself. Like with any other password, it's imperative for blockchain users to keep the private key secret, as it is the only thing separating them from access to the cryptocurrency in their account.
 
 
-![alt_text](images/image4.png "image_tooltip")
+![A key pair diagram links the private key to unsigned data and the public key to signed data.](images/image4.png "image_tooltip")
 
 
 On the other hand, a public key in Ethereum is a 512-bit-long number derived from the private key using elliptic curve cryptography, specifically, the Secp256k1 curve (an Ethereum address is the last 20 bytes of the Keccak-256 hash output of this public key). The public key is used to verify the authenticity of transactions signed with the corresponding private key. When a user initiates a transaction, they sign it with their private key, and the Ethereum network is then able to verify their signature using their public key. Unlike the private key, which—as the name suggests—must be kept private, the public key can be shared openly.
@@ -65,7 +65,7 @@ The main issue with blockchain accounts, or at least with how they’re currentl
 
 
 
-![alt_text](images/image1.png "image_tooltip")
+![Meme picture shows the slogan “Not your keys, not your coins.”](images/image1.png "image_tooltip")
 
 
 That means that losing a private key equals losing an account, which results in a terrible user experience. Hundreds of millions of dollars in cryptocurrency are lost or stolen every year due to the loss or theft of private keys. Managing the private keys, which are stored in crypto wallets, typically means remembering 12, 18, or 24-word-long “[mnemonic](https://en.bitcoin.it/wiki/Seed_phrase)” or “seed” phrases, which represent a human-readable representation of the initial entropy used to generate a private key or a series of private keys in [hierarchical deterministic](https://en.bitcoin.it/wiki/Deterministic_wallet#Type_2:_Hierarchical_deterministic_wallet) (HD) wallets. Mnemonic phrases are an attempt to provide a “user-friendly” way to back up and restore wallets while maintaining the security and privacy of private keys. However, the unfortunate reality is that if users forget their crypto wallet password (which encrypts keys on their device) and haven’t safely stored their mnemonic phrase, they’ll never be able to recover the same wallet or blockchain account.
@@ -81,7 +81,7 @@ On Ethereum, account abstraction has recently been implemented via [ERC-4337](ht
 
 
 
-![alt_text](images/image5.png "image_tooltip")
+![ERC-4337 user operations pass through a mempool and bundler to EntryPoint for validation and execution.](images/image5.png "image_tooltip")
 
 
 Using contract accounts instead of EOAs as user accounts means that crypto wallets can now define their own transaction verification and execution logic, meaning they’re no longer bound to the hard-coded logic of the EVM and can use different cryptographic primitives, including different signature schemes, elliptic curves, and signing protocols. This change alone brings massive user experience benefits to Ethereum accounts, including:
@@ -100,7 +100,7 @@ That being said, the account abstraction upgrades most recently enabled by ERC-4
 
 
 
-![alt_text](images/image6.png "image_tooltip")
+![In Nervos, user keypair controls a smart wallet whose rules include multisig, social recovery, and time locks. This wallet interacts with other smart contracts.](images/image6.png "image_tooltip")
 
 
 Smart contract wallets still need to leverage various tricks and custom infrastructure, including off-chain relayers, alternative mempools, and new third-party entities like bundlers and paymasters to emulate account abstraction properly. All of this means that the underlying logic behind the EVM has remained the same, with EOAs staying first-class citizens and support for “account abstracted” smart contract wallets and decentralized applications remaining only optional.
@@ -124,7 +124,7 @@ Beyond the CKB-VM, the Cell model is also abstract, with no internal structure e
 
 
 
-![alt_text](images/image2.png "image_tooltip")
+![Cell model structure shows that a CKB transaction consumes input cells and creates output cells with capacity, data, and lock fields.](images/image2.png "image_tooltip")
 
 
 That being said, UTXO-based blockchains can support different types of locking scripts (like P2PKH, P2SH, and P2WPKH) that define how the outputs can be spent. In this context, one can think of "account abstraction" as a way to create more flexible and customizable locking scripts, enabling advanced use cases and improved security features when spending or managing UTXOs. 

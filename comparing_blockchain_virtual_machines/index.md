@@ -21,17 +21,17 @@ Conceptually, a computer is a _system_ that performs calculations and processes 
 
 In fact, the earliest computers were mechanical, using gears, levers, and other mechanical components to manipulate data and execute programs. The [Antikythera](https://en.wikipedia.org/wiki/Antikythera_mechanism) mechanism, a hand-powered mechanical model of the Solar System that used gears to predict astronomical positions and eclipses decades in advance, is believed to be the oldest mechanical computer, dating back to around 100 BCE.
 
-![alt_text](images/image2.png "image_tooltip")
+![Corroded fragments of the Antikythera mechanism above an exploded reconstruction of its gears and case.](images/image2.png "image_tooltip")
 
 In the 19th century, Charles Babbage conceptualized and partially built the [Analytical Engine](https://www.britannica.com/technology/Analytical-Engine#:~:text=The%20Analytical%20Engine%20was%20to,alone%20attempted%20to%20build%20one.). It was an attempt at creating a general-purpose mechanical computer, complete with memory, an arithmetic logic unit, and control flow through conditional branching and loops. Historians believe that the first computer program ever written was authored by English mathematician [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace), who detailed in a note a method for calculating [Bernoulli numbers](https://en.wikipedia.org/wiki/Bernoulli_number) using Babbage’s Analytical Engine.
 
-![alt_text](images/image8.png "image_tooltip")
+![A reconstruction of Babbage's Analytical Engine, with columns of gears and a hand crank.](images/image8.png "image_tooltip")
 
 _Reconstruction of Babbage’s Analytical Engine. (Source: [Britannica.com](https://www.britannica.com))_
 
 While Babbage’s machine was never completed in his lifetime, his work laid the groundwork for modern computing, which saw computers transition from mechanical to electronic. The first electronic computers, the [Colossus](https://en.wikipedia.org/wiki/Colossus_computer) and [ENIAC](https://en.wikipedia.org/wiki/ENIAC), were developed during and after World War II. They used vacuum tubes as the primary switching elements and later transistors to perform calculations much faster than their mechanical predecessors.
 
-![alt_text](images/image3.png "image_tooltip")
+![Historical photographs of the Colossus and ENIAC electronic computers.](images/image3.png "image_tooltip")
 
 ### Modern-day Computers and Virtual Machines
 
@@ -45,7 +45,7 @@ One of the benefits of VMs is that they abstract the hardware layer and provide 
 
 The key components of a VM include the [hypervisor](https://en.wikipedia.org/wiki/Hypervisor), the guest operating system (the OS that runs inside the virtual machine), and the host OS (the OS on which the hypervisor runs.) The hypervisor is the software that integrates the host’s physical hardware and the VM's virtual "hardware," managing both to allow multiple VMs or computers to run on the same hardware.
 
-![alt_text](images/image4.png "image_tooltip")
+![Type 1 hypervisors run on infrastructure; Type 2 hypervisors sit above a host operating system.](images/image4.png "image_tooltip")
 
 The hypervisor’s primary role is to divide the host machine's physical resources, like the CPU and memory, among the virtual machines. To the guest operating system running inside the VM, these virtual resources look and act just like real hardware. When the guest operating system and its applications run, they send instructions to the virtual hardware. The hypervisor then intercepts these instructions and translates them into instructions that the host's real hardware can understand and execute.
 
@@ -72,7 +72,7 @@ Executing code natively is problematic in this scenario because computation is a
 
 Consider a scenario where a smart contract is designed to use integer arithmetic (blockchains avoid floating-point arithmetic due to its non-deterministic nature) to calculate a simple token transfer between two accounts. When transferring tokens, a smart contract deducts the number of tokens from the sender’s balance and adds the same amount to the recipient’s balance. An example of such a smart contract written in Solidity might look like this:
 
-![alt_text](images/image5.png "image_tooltip")
+![Solidity transfer code checks the sender's balance, subtracts the amount, and credits the recipient.](images/image5.png "image_tooltip")
 
 This code first checks whether the sender has sufficient tokens to complete the transfer. If the sender's balance is adequate, the function subtracts the specified amount from the sender's balance and adds it to the recipient's balance. These operations—subtraction from the sender and addition to the recipient—are performed using integer arithmetic. This ensures that the transfer is executed precisely, without the rounding errors associated with floating-point arithmetic.
 
@@ -80,7 +80,7 @@ However, if the blockchain network's nodes don't use a VM but instead execute th
 
 Suppose Node A operates on a 32-bit architecture and processes token transfers using 32-bit signed integers (`int32`). If it attempts to process a token transfer where the receiver’s balance is at the maximum value that a signed 32-bit integer can hold, adding tokens could cause an overflow. For instance, if a user’s balance is 2,147,483,647 tokens (or 2^31-1, the maximum for a signed 32-bit integer), and they received one token from an airdrop, their balance should now be 2,147,483,647 + 1 = 2,147,483,648. However, since this number exceeds the maximum value for a 32-bit signed integer, adding 1 to 2,147,483,647 would result in an overflow, causing the balance to wrap around to a large negative number. Due to how binary arithmetic handles signed integers, in a 32-bit signed integer system, this operation wraps around to −2,147,483,648, the minimum value for a 32-bit signed integer.
 
-![alt_text](images/image1-(2).png "image_tooltip")
+![A binary diagram illustrates integer overflow from 32,767 to −32,768.](images/image1-(2).png "image_tooltip")
 
 _https://algodaily.com/lessons/understanding-integer-overflow-and-underflow_
 
@@ -101,7 +101,7 @@ A **_stack-based architecture_** is a type of computer architecture that uses a 
 
 For instance, when executing an addition operation (0x01 ADD), the EVM pops two values from the stack, adds them, and pushes the result back onto the stack (the "push" and "pop" are fundamental stack operations.) This mechanism simplifies the execution model but can introduce inefficiencies compared to other architectures, such as register-based systems (more on that later).
 
-![alt_text](images/image10.png "image_tooltip")
+![Values 1, 2, and 3 are pushed onto a stack; 3 is popped off first.](images/image10.png "image_tooltip")
 
 Important to note here is that the EVM operates with a stack with specific constraints: a maximum depth of 1024 items and a native data size of 256-bit [words](https://en.wikipedia.org/wiki/Word_(computer_architecture)) (standard unit of data for the processor design). The stack depth determines how many items can be held and manipulated during the execution of a smart contract, while the word size defines a standard for the size (in bits/bytes) of each stack item, typically used as an operand for computations or as a temporary result. The native data size of the EVM means that all data items on the stack are represented as 256-bit integers, even if the actual data might be smaller. 
 
@@ -121,7 +121,7 @@ When a smart contract is deployed on Ethereum, its source code (written in a hig
 
 Regarding smart contract execution, the EVM functions as an **_interpreter_** for EVM bytecode, representing another significant drawback. An interpreter is a type of program that executes code directly by reading and performing each instruction line by line without converting it to machine code ahead of time (compilation). Instead of converting the bytecode into native machine code (which is directly executable by the CPU), the EVM reads each opcode, translates it into a series of lower-level operations, and executes these operations using the host machine's resources. Naturally, this interpretation process adds significant overhead and is slower (in some cases, orders of magnitude slower) than native execution.
 
-![alt_text](images/image11.png "image_tooltip")
+![A compiler produces machine code and an executable; an interpreter processes and executes statements in a loop.](images/image11.png "image_tooltip")
 
 Because running EVM nodes is computationally expensive, Ethereum users must pay or compensate Ethereum validators for every resource they consume, including computation, bandwidth, and storage. The computational cost of smart contracts is represented through the fundamental unit called "gas." Gas, or the price of smart contract execution, is calculated before each operation. Every opcode has either a fixed or a dynamic cost, depending on its computational complexity. 
 
@@ -154,7 +154,7 @@ Namely, unlike EVM’s instruction set, which is relatively high-level, abstract
 
 Moreover, unlike the EVM, which operates primarily through interpretive execution (executing each instruction in the bytecode one at a time), WASM VMs can utilize Just-In-Time ([JIT](https://en.wikipedia.org/wiki/Just-in-time_compilation)) and Ahead-Of-Time ([AOT](https://en.wikipedia.org/wiki/Ahead-of-time_compilation)) compilation to convert WASM bytecode into native machine code at runtime. JIT and AOT compilation can offer an order of magnitude faster execution times than line-by-line interpretation. Beyond this, JIT and AOT compilation allows the WASM VM to apply various runtime optimizations—which aren’t possible with interpretation in the EVM— tailoring the machine code to the specific hardware it runs on, which can result in even more efficient execution.
 
-![alt_text](images/image12.png "image_tooltip")
+![A table contrasts ahead-of-time (AOT) compilation at build time with just-in-time (JIT) compilation at runtime.](images/image12.png "image_tooltip")
 
 Furthermore, WASM VMs utilize standard 32 and 64-bit word sizes, which match the capabilities of modern processors. This alignment with native machine word sizes allows WASM to leverage the full power of the host’s CPU, resulting in more efficient memory and storage usage, no stack overflow and underflow issues, and, ultimately, much faster and more efficient smart contract execution. This efficiency also means that WASM VMs don’t have to rely on precompiles like the EVM. Instead, developers can implement and use any algorithms or crypto primitives as smart contracts without needing network-wide permission.
 
@@ -185,7 +185,7 @@ Polkadot conducted an experiment to test whether RISC-V would offer better smart
 
 After running the benchmark smart contract with the RISC-V JIT (which had about 1,000 lines of code), it generated code that was only 2.5 times slower than the Wasmer Singlepass (about 150,000 lines of code, and many years of worth of effort invested into it)—and that is without any optimizations. After some optimizations, the RISC-V-based PolkaVM was already slightly [faster](https://forum.polkadot.network/t/announcing-polkavm-a-new-risc-v-based-vm-for-smart-contracts-and-possibly-more/3811) than the gold standard of WASM Singlepass VMs. Polkadot is now [fully committed](https://wiki.polkadot.network/docs/learn-jam-chain) to switching their WASM VM to RISC-V.
 
-![alt_text](images/image13.png "image_tooltip")
+![An August 2023 benchmark lists PolkaVM 0.1 at 10.7 ms per frame alongside WASM, Solana, and earlier RISC-V VMs.](images/image13.png "image_tooltip")
 
 However, as things currently stand, [CKB](https://www.youtube.com/watch?v=zD9xFpLmkVM) is the longest-running and one of the few blockchains that run a RISC-V-based VM. The benefits of doing so are numerous. For one, RISC-V is an actual CPU ISA, meaning its instructions are designed to be executed directly by a CPU that understands RISC-V. This means that CKB nodes running on RISC-V hardware can execute smart contracts not at native speed but literally natively, without additional layers of interpretation or translation. When the CKB nodes run on x86 hardware, which is typically the case, the CKB-VM can interpret or JIT compile the RISC-V instructions to x86 machine code extremely efficiently. This process is streamlined because RISC-V's simplicity and open design make implementing and optimizing such translations easier, as Polkadot's experiment has shown.
 

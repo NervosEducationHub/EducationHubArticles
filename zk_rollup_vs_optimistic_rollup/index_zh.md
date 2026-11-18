@@ -28,13 +28,13 @@ Optimistic Rollup 中的交易被自动假定为有效，直到证明不是这�
 
 这两种技术之间的另一个区别是它们发布到其底层基础链的数据量。因为 ZK Rollup 在将交易发布到基链之前有一种验证交易的机制，所以它们不需要像 Optimistic 的对等体那样向 1 层传输那么多数据。也就是说，ZK Rollup 只发布有效性证明，以在基链上结算具有最终性的交易，而 Optimistic Rollup 则发布整个交易数据。
 
-![alt_text](images/image2.png 'image_tooltip')
+![Rollup 在 Layer 1 锁定 1 个 ETH 的存款并在 Layer 2 入账；提款需等待争议期结束。](images/image2.png 'image_tooltip')
 \
 _通过 ZK Rollup（左）与 Optimistic Rollup（右)中继到 Layer 1 的数据_
 
 对于用户而言，两种 Rollup 类型之间的关键区别在于提现时间。也就是说，由于 Optimisitc Rollup 依赖于验证者来检查每笔交易，如果他们认为交易无效，则可能会对其提出异议，因此资产的提取时间可能会持续几天到两周不等。虽然各种 Optimistic Rollup 实施的争议期可能会有所不同，但这仍然是必要的，这意味着用户必须始终等待几天才能在基础链上取款。
 
-![alt_text](images/image3.png 'image_tooltip')
+![并排示意图展示向 Layer 1 提交有效性证明，以及通过欺诈证明挑战乐观 Rollup 状态。](images/image3.png 'image_tooltip')
 
 这个争议期是必要的，可以让验证者有足够的时间通过所谓的欺诈证明对可疑交易提出异议。欺诈证明是一种状态转换（即交易）无效的声明，因此应恢复整个批次。验证者可以证明无效交易，因为他们拥有 2 层上所有交易的完整数据，包括当前 Rollup 状态的副本。他们还计算 Rollup 中的后状态根。
 

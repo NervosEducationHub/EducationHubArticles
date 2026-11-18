@@ -28,7 +28,7 @@ Nervos Network 的 Layer 1 被称为 CKB（Common Knowledge Base，共同知识�
 
 
 
-![alt_text](images/triangle.png "image_tooltip")
+![区块链不可能三角图示展示了一个三角形，顶部标注为可扩展性，左下角为去中心化，右下角为安全性。](images/triangle.png "image_tooltip")
 
 因此，所有的区块链在设计时都必须进行架构上的权衡，接受在某一方面的牺牲以换取其他方面的收益。例如，像 Solana 或 BNB Chain 这样的高吞吐量区块链，优化了可扩展性，但在去中心化方面做出了牺牲。考虑到去中心化与安全性的关系，可以说它们在这方面也做出了相当大的牺牲。另一方面，像比特币这样的第一代区块链，非常注重安全性和去中心化，但缺乏足够的可扩展性，这意味着它们在单位时间内只能处理少量的交易。
 
@@ -57,7 +57,7 @@ Nervos Network 的底层是 [CKB](https://github.com/nervosnetwork/rfcs/blob/mas
 
 PoS（权益证明）机制也利用了相同的逻辑，但实现方式有所不同，从而导致结果也不尽相同。与消耗外部资源（如 PoW 案例中的电力资源）不同，PoS 验证者需要参与质押（并冒着被罚没的风险），同时获得相同的加密货币作为验证交易的奖励，从而保证系统安全。
 
-![alt_text](images/pow_pos.png "image_tooltip")
+![矿场照片与插头插回自身的插线板并列，用作 PoW 与 PoS 的类比。](images/pow_pos.png "image_tooltip")
 
 
 _PoW vs. PoS_
@@ -66,7 +66,7 @@ _PoW vs. PoS_
 
 
 
-![alt_text](images/staked_eth.png "image_tooltip")
+![ETH 质押分布图显示，约 52% 的验证权集中在仅有的四家实体手中：去中心化流动性质押协议 Lido、Coinbase、Kraken 和币安。](images/staked_eth.png "image_tooltip")
 
 _以太坊质押分布图（来源： [Dune](https://dune.com/hildobby/eth2-staking)）_
 
@@ -83,7 +83,7 @@ _以太坊质押分布图（来源： [Dune](https://dune.com/hildobby/eth2-stak
 
 说到这里，Nervos CKB 是该领域最灵活和可互操作的区块链。它支持所有当前和未来的密码学原语，因此可作为强大的基础，为使用不同共识机制、编程语言、执行环境和数据可用性存储方案的各种 Layer 2 网络提供安全性。此外，它还可作为中心枢纽或跨链桥，与各种异构区块链进行通信。Nervos 的独特记账模型和基于 RISC-V 指令集的虚拟机，使这种前所未有的灵活性和互操作性成为可能。
 
-![alt_text](images/ckb_circle.png "image_tooltip")
+![CKB Layer 1 与 RISC-V 位于中心，外层 Layer 2 环标有 EVM、CosmWasm、Sealevel、Lua、Move 和 JavaScript。](images/ckb_circle.png "image_tooltip")
 
 ### 记账模型：Cell 模型（通用版的 UTXO）
 
@@ -96,7 +96,7 @@ _以太坊质押分布图（来源： [Dune](https://dune.com/hildobby/eth2-stak
 UTXO 的工作方式类似于现金，其中每个 UTXO 就像一张独特的纸币，用户只能使用一次。在[基于 UTXO 的区块链](https://www.nervos.org/knowledge-base/utxo_vs_account_based)上，每个用户通过将他们拥有的独特 “纸币” 相加来追踪他们的余额。例如，当 Alice 想要向 Bob 发送 13 美元时，她可以递给他两张纸币，一张为 10 美元，另一张为 5 美元。每张 “纸币” 都有唯一的序列号。此外，Alice 将会收到一张 2 美元的零钱，这是一个新的 UTXO。在这个模型中，用户的余额是用户钱包生成的抽象概念，这些钱包记录了不同地址的 UTXO。
 
 
-![alt_text](images/state.png "image_tooltip")
+![分支状 UTXO 图与随连续系统状态变化的账户余额表形成对比。](images/state.png "image_tooltip")
 
 相比之下，账户模型中的账户就像银行账户一样，资金转移被记录为不同用户账户的收支。当 Alice 想要向 Bob 发送 10 美元时，银行会从 Alice 的账户余额中扣除 10 美元，并在 Bob 的账户余额中增加 10 美元。同样的情况也发生在基于账户模型的区块链上，只不过记录的账本分布在许多节点中而已。
 
@@ -120,14 +120,14 @@ Nervos 的许多功能和灵活性来自其交易执行环境的设计：[CKB-VM
 使用 RISC-V 构建的 CKB-VM 还提供了更稳定和可预测的编程环境，并且在交易执行处理方面可以比其他虚拟机更高效。最后，RISC-V 是行业领先的开源标准，可确保 Nervos CKB 能够在数十年内保持灵活性和面向未来。理论上，芯片制造商可以设计专门的 RISC-V CPU 来运行 Nervos 节点，从而将网络的算力提高好几个数量级。这相当于在 Apple 最新的 M2 处理器上运行区块链，而不是在旧的、过时的 Intel 或 AMD 芯片上运行它们。
 
 
-![alt_text](images/features.png "image_tooltip")
+![功能图标标示原生多重签名、RISC-V、默克尔树、密码学灵活性及后量子签名。](images/features.png "image_tooltip")
 
 
 
 
 ## 可扩展性
 
-![alt_text](images/scaling.png "image_tooltip")
+![Nervos 扩容图列出 Rollup、支付通道和侧链三种可能方向。](images/scaling.png "image_tooltip")
 
 
 Nervos 的基本价值主张在于其分层或者说模块化架构。这样的设计使得 Nervos 能够在不牺牲安全性和去中心化的情况下，通过许多不同的 Layer 2 网络来扩展至每秒数百万笔交易。这是因为 Nervos 的 Layer 1，也就是 CKB，专注于状态验证，而 Layer 2 则专注于计算或状态生成。
@@ -174,7 +174,7 @@ CKB采用了充满创新的[代币经济模型](https://www.nervos.org/knowledge
 
 
 
-![alt_text](images/issuance.png "image_tooltip")
+![二级发行分配为挖矿奖励 12.0%、存款补偿 19.4% 和销毁 68.6%。](images/issuance.png "image_tooltip")
 
 _CKB 二级发行的[目前状态](https://explorer.nervos.org/nervosdao)_
 

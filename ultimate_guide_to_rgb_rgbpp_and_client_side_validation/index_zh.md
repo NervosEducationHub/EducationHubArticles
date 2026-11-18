@@ -30,7 +30,7 @@ date: '2024-09-2616:00:00.000Z'
 比特币或其他智能合约平台等分布式协议，必须在所有网络节点之间保持同步。区块链以原子交易，或更一般地说，以状态转换组织起来。要让全网同步，就必须明确定义这些状态转换应用于初始（创世）状态的顺序。这通过所谓的共识规则或共识机制实现。
 
 
-![alt_text](images/image2.png "image_tooltip")
+![交易通过状态转换函数，推动状态机从状态 N 变为 N+1，再变为 N+2。](images/image2.png "image_tooltip")
 
 
 从这个角度看，区块链是分布式协议（最初是比特币）采用的一种具体形式：利用共识机制，将交易或状态转换组织成按时间排序的链，也就是称为账本（ledger）的序列。因此，从概念上说，区块链包含两部分：共识机制（比特币采用基于工作量证明的中本聪共识，Proof-of-Work Nakamoto Consensus），以及排序和最终性（finality）由该机制决定的交易账本。
@@ -40,7 +40,7 @@ date: '2024-09-2616:00:00.000Z'
 为此，RGB 借助*客户端验证（client-side validation）*，彻底重新构想了基于账本的区块链方式。在这种方式下，所有交易或状态转换都由相关方在链下或本地验证，比特币基础链只负责区块链最擅长的一项任务：共识。
 
 
-![alt_text](images/image6.png "image_tooltip")
+![RGB 架构图展示 RGB 合约位于客户端验证、比特币承诺，以及比特币共识和交易账本之上。](images/image6.png "image_tooltip")
 *RGB 架构布局。（来源：[blackpaper.rgb.tech](https://blackpaper.rgb.tech/general-information/2.-protocol-design/2.2.-design-overview)）*
 
 在 RGB 中，账本或交易数据不会记录到公共区块链上，也不由比特币节点验证，而是由相关方或状态所有者在链下验证和存储。基础层，也就是共识层，只保留对需要加盖时间戳的账本事件的一份简短密码学承诺（cryptographic commitment），用于防止双重支付（double-spending）。这种方式减少了链上数据量，显著提高可扩展性；同时将实际交易账本移出全体网络参与者的视野，显著改善隐私。
@@ -51,7 +51,7 @@ date: '2024-09-2616:00:00.000Z'
 客户端验证认为，对交易接收者而言，重要的是串联相关状态转换历史的有向无环图（directed acyclic graph，DAG）：从创世状态一直到自己收到的最新状态，而非整个账本的全部历史。
 
 
-![alt_text](images/image3.png "image_tooltip")
+![带交易默克尔树的哈希链接区块链，与交易有向无环图（DAG）并排对比。](images/image3.png "image_tooltip")
 
 
 当 Bob 想在比特币网络上向 Alice 发送比特币时，他会签署一笔交易并广播给整个网络。随后，矿工从内存池（mempool）取出这笔交易，检查其有效性，并将其纳入区块。只有区块中的交易都有效，区块才有效。
@@ -60,7 +60,7 @@ date: '2024-09-2616:00:00.000Z'
 
 接下来，假设 Alice 想将这个代币发给 David。她会把 Bob 对先前承诺的签名，以及她自己对向 David 发送代币的承诺的签名交给 Dave，并在比特币网络上发布对这笔交易的承诺。如果 David 想确认从 Alice 收到的交易有效，就必须将整个序列（Bob 到 Alice、Alice 到 David）与各自对应的承诺逐一核对，依此类推。
 
-![alt_text](images/image4-1.png "image_tooltip")
+![锚点与一次性密封将比特币链连接至两个经客户端验证的 RGB 合约状态图。](images/image4-1.png "image_tooltip")
 
 *多个分片可以聚合到一笔 Layer 1 交易中。锚点（Anchor）结构将合约的客户端数据与一次性密封（single-use seal）关联起来。（来源：[docs.rgb.info](https://docs.rgb.info/distributed-computing-concepts/client-side-validation)）*
 
@@ -80,7 +80,7 @@ date: '2024-09-2616:00:00.000Z'
 有了以上基础，就可以介绍 RGB 中与客户端验证配合使用的第二项核心技术：*[一次性密封](https://docs.rgb.info/distributed-computing-concepts/single-use-seals)*。一次性密封最初由彼得·托德于 2016 年提出，是一种密码学原语，旨在确保特定操作或承诺只能使用一次。它类似于具有防篡改痕迹的实体封条，一经使用就不能重复使用。
 
 
-![alt_text](images/image8.png "image_tooltip")
+![表格从保密性、时间及唯一性证明三个方面，对比简单承诺、时间戳和一次性密封。](images/image8.png "image_tooltip")
 
 
 在 RGB 和比特币中，一次性密封与客户端验证配合，确保数据完整性和安全性。整个过程如下：假设 Alice 有一个比特币 UTXO，与一些经过客户端验证、只有她知道的数据相关联。她告诉 Bob，花费这个 UTXO 代表某个事件或操作。
@@ -88,7 +88,7 @@ date: '2024-09-2616:00:00.000Z'
 当 Alice 花费该 UTXO 时，比特币区块链上的所有人都能看到这笔交易，但只有 Bob 理解其特殊含义。这次花费事件改变了 Alice 一侧已经验证的数据。Alice 将原始数据发送给 Bob，就能证明 UTXO 承诺所引用的数据有效，因为 Bob 可以使用客户端验证协议（例如 RGB）中的相应方法，独立验证这些数据。
 
 
-![alt_text](images/image4.png "image_tooltip")
+![Alice 花费一个 UTXO，随后分享客户端数据，使 Bob 能验证承诺所代表的含义。](images/image4.png "image_tooltip")
 
 
 *使用一次性密封的关键，是将数据安全地关联到比特币交易，而这些交易一旦记录在区块链上就无法篡改。*
@@ -107,7 +107,7 @@ Alice 花费一个比特币 UTXO 时，就对某些数据作出了承诺。这�
 RGB 中的资产或智能合约发行者必须在创世状态中，使用所谓的 [Schema](https://docs.rgb.info/rgb-contract-implementation/schema)，定义合约可执行操作的规则或业务逻辑。简单来说，Schema 是一段声明式代码，包含 RGB 合约运行所遵循的一组变量、规则和业务逻辑。因此，当 RGB 用户收到有关某项 RGB 资产的信息（数据和合约）时，必须依据资产发行者分发的 Schema 进行验证。
 
 
-![alt_text](images/image5.png "image_tooltip")
+![RGB 模式包含状态类型、操作类型、图演化规则、严格类型库及 AluVM 验证代码。](images/image5.png "image_tooltip")
 
 
 这一架构选择使 RGB 合约有别于以太坊等系统中的链上合约。在后者中，合约以可执行代码的形式提供，管理合约业务逻辑的规则直接存储在区块链上。
@@ -146,7 +146,7 @@ RGB 依赖客户端验证带来的两项最大优势是隐私和抗审查能力�
 [RGB++](https://www.nervos.org/knowledge-base/understanding_bitcoin_layer2) 是最近发布的一种新型比特币扩容方案，由区块链基础设施开发公司 Cell Studio 开发。该公司由 Nervos Network 联合创始人 Cipher Wang 创立。RGB++ 通过一种名为同构绑定（isomorphic binding）的新原语，解决 RGB 遇到的问题。
 
 
-![alt_text](images/image5-1.png "image_tooltip")
+![RGB++ 将比特币 UTXO 映射至CKB Cell，并将链下状态及脚本转移至 Cell 数据和脚本中。](images/image5-1.png "image_tooltip")
 
 
 如前所述，RGB 的两个最重要组成部分，是用于识别 RGB 资产所有权的比特币 UTXO，以及用于状态管理和一次性密封的承诺。在 RGB++ 中，同构绑定将比特币 UTXO 与 CKB Cell 一一映射。Cell 是 Common Knowledge Base 区块链采用的专用数据模型，基于广义 UTXO。资产所有权通过比特币锁定脚本同步，状态则通过 Cell 数据和类型脚本（type scripts）管理。

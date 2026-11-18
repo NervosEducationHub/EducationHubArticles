@@ -20,7 +20,7 @@ Layer 1 和 Layer 2 系统的分类，在加密社区中是一个有理由存在
 
 一般来说，Layer 1 链是拥有自身共识机制和安全预算的主权区块链，无需依赖其他链提供共识、数据可用性（data availability）或执行，就能独立运行。对于 Layer 2 协议的定义，目前则没有明确共识，不同评论者划定的界线各不相同。
 
-![alt_text](images/image9.png "image_tooltip")
+![单体区块链在 Layer 1 集合各项功能；模块化架构将执行功能分离出来作为 Layer 2 。](images/image9.png "image_tooltip")
 
 例如，以太坊基金会将 Layer 2 [定义](https://ethereum.org/en/layer-2/)为“_扩展以太坊并继承以太坊安全保障的独立区块链。_”这意味着，在以太坊基金会看来，任何没有继承另一条链安全性的链或协议，都不能归为 Layer 2。按照这一在以太坊社区广泛接受的严格定义，只有 Rollup 被视为 Layer 2。支付通道（payment channels）、状态通道（state channels）和侧链不在这一范畴内。
 
@@ -39,7 +39,7 @@ Layer 1 和 Layer 2 系统的分类，在加密社区中是一个有理由存在
 
 比特币刻意采用精简、缓慢且难以更改的设计。它的设计理念将安全性和去中心化置于可扩展性之上，将简单性置于架构复杂性之上。保守的架构让它类似于作为结算层的 FedWire，或作为互联网底层通信协议的 TCP/IP：更高层构建在它们之上，增加功能、提升性能，而底层基础设施保持简单和稳健。
 
-![alt_text](images/image2.png "image_tooltip")
+![支付系统从底层结算向上分为授权、路由与目录服务，以及用户界面。](images/image2.png "image_tooltip")
 
 比特币的[出块时间](https://www.nervos.org/knowledge-base/block_time_in_blockchain)为 10 分钟，吞吐量约为每秒 7 笔交易。在 Layer 1 提高速度和吞吐量，会增加运行比特币[全节点（full Bitcoin nodes）](https://www.nervos.org/knowledge-base/difference_between_miner_full_node)所需的硬件配置，损害网络的去中心化、安全性，进而损害抗审查能力，而这正是区块链存在的意义。
 
@@ -53,7 +53,7 @@ Layer 1 和 Layer 2 系统的分类，在加密社区中是一个有理由存在
 闪电网络是一种[支付通道网络](https://www.nervos.org/knowledge-base/ultimate_guide_to_payment_channels)，让用户能够通过支付通道路由支付，以几乎可以忽略的费用完成近乎即时的比特币交易。关于闪电网络如何运作，已有大量文章介绍，这里不再详述，只强调它是历史最久、采用最广泛的比特币 Layer 2，锁定了超过 5,000 BTC。
 
 
-![alt_text](images/image6.png "image_tooltip")
+![WBTC 面板展示了 2021 之前至 2024 年之后的总锁仓价值，约在 2021 年见顶，随后回落并回升。](images/image6.png "image_tooltip")
 _封装比特币（wrapped Bitcoin，wBTC）的总锁定价值。来源：[DefiLlama](https://defillama.com/protocol/wbtc)。_
 
 相比之下，目前在以太坊上流通的 wBTC 超过 154,000 枚。这表明，人们非常希望将 BTC 用于支付以外的用途，把它作为一种能够产生收益的资产，用来出借、借入、抵押，或在 AMM 上做市等。
@@ -65,7 +65,7 @@ _封装比特币（wrapped Bitcoin，wBTC）的总锁定价值。来源：[DefiL
 
 Liquid 是一条主权链，需要许可，因而具有中心化特征。它通过提供更顺畅的 BTC 交易环境来扩展比特币。它的出块时间更短，为一分钟，并在两个区块后实现结算最终性（finality）；其权威证明（proof of authority）共识不允许区块重组。Liquid 还允许经许可发行其他数字资产，包括稳定币和代币化证券。
 
-![alt_text](images/image8.png "image_tooltip")
+![比特币经 Liquid 功能节点完成转入与转出，Liquid 节点则在侧链内交易。](images/image8.png "image_tooltip")
 
 在 Liquid Network 中，交易和区块由区块签名者（blocksigners）组成的联盟通过 [BFT](https://en.wikipedia.org/wiki/Byzantine_fault) 共识算法签名。相比之下，转出（peg-out）交易，即将 BTC 提取回 Layer 1 的交易，由看守者（watchmen）联盟签名。两类角色基本上都来自同一批约 65 个遍布全球的联盟成员，包括加密货币交易所、金融机构和其他专注比特币的公司。
 
@@ -73,7 +73,7 @@ Liquid 是一条主权链，需要许可，因而具有中心化特征。它通�
 
 由于手动转入过程比较繁琐，需要较强的技术能力，并同时运行比特币全节点和 Liquid 节点，大多数用户会通过第三方获取 L-BTC。与转入不同，只有 Liquid 联盟成员才能执行提取。不过，普通用户也可以通过第三方将 L-BTC 换成 BTC，以此转出资金，包括通过中心化交易所或无需依赖可信第三方的 P2P 交换（trustless P2P swaps）。
 
-![alt_text](images/image5.png "image_tooltip")
+![两个三步流程分别展示从比特币钱包转入 Liquid，以及从 Liquid 转回比特币。](images/image5.png "image_tooltip")
 
 最后需要指出，Liquid 不符合以太坊对 Layer 2 的较严格定义，因为它既不继承比特币的安全保障，也不允许用户仅通过一笔 Layer 1 交易无需许可地提取 BTC。
 
@@ -82,7 +82,7 @@ Liquid 是一条主权链，需要许可，因而具有中心化特征。它通�
 
 [Rootstock](https://rootstock.io/) 在许多方面与 Liquid 相反，它更接近 Layer 2 的严格定义，满足两项关键标准中的一项。它是一条兼容 [EVM](https://ethereum.org/en/developers/docs/evm/)、支持智能合约的侧链，通过[合并挖矿（merged mining）](https://rootstock.io/mine-btc-with-rootstock/)部分继承比特币的安全性，并通过联盟管理的双向锚定与比特币连接。
 
-![alt_text](images/image3.png "image_tooltip")
+![Rootstock 统计面板列出市值、联合挖矿份额、锚定的 RBTC 及每月交易数。](images/image3.png "image_tooltip")
 
 Rootstock 比 Liquid 更进一步：它不只试图提升比特币的交易吞吐量，还要扩展其可编程性。借助图灵完备的智能合约，Rootstock 让合成比特币（RBTC）可以用于各种 DeFi 应用。其引擎由 Rootstock 虚拟机（RVM）驱动，这是以太坊虚拟机（EVM）的一个分叉版本，完全兼容以太坊智能合约和工具。这意味着，以太坊开发者几乎无需修改，甚至完全不必修改，就能方便地将 dApp 部署到 Rootstock。
 
@@ -110,12 +110,12 @@ Stacks 是一种不同于侧链的智能合约层，与比特币有着更深、�
 与 Liquid 和 Rootstock 不同，Stacks 拥有自己的原生资产 STX，它是其创新共识机制[转移证明（Proof-of-Transfer）](https://docs.stacks.co/stacks-101/proof-of-transfer)（PoX）的核心。在 PoX 中，Stacks 矿工花费已经挖出的 BTC，获得 STX 奖励，类似于工作量证明（PoW）中比特币矿工消耗电力、获得 BTC 奖励。与 PoW 一样，PoX 采用中本聪式的单一领导者选举：PoX 矿工通过花费 BTC 出价，获得按出价加权的随机中选概率。这里的领导者指被选中挖出 Stacks 区块的矿工。
 
 
-![alt_text](images/image4.png "image_tooltip")
+![Stacks 矿工花费 BTC 竞争 STX 奖励；Stacker 锁定 STX 并获得 BTC。](images/image4.png "image_tooltip")
 _转移证明（PoX）示意图。来源：[docs.stacks.co](https://docs.stacks.co/stacks-101/proof-of-transfer)_
 
 Stacks 共识机制的独特之处，在于它与比特币区块链深度交织。具体来说，通过比特币上的公开竞价流程，系统选出一组 Stacks 矿工，由他们挖出 Stacks 区块，直到下一个比特币区块出现。按比特币平均 10 分钟的出块时间计算，这期间约有 120 个 Stacks 区块。矿工集合选定后，这些矿工以各自 BTC 出价为权重，采用 BFT 风格的法定人数签名（quorum signing），每 5 秒挖出一个 Stacks 区块，直至下一个比特币区块出现，并为此获得 STX 代币奖励。利用 BTC 进行竞价和 Layer 2 矿工选择，让 Stacks 的 PoX 共识机制复用了比特币矿工已完成的工作，无需额外消耗大量电力。
 
-![alt_text](images/image11.png "image_tooltip")
+![Stacks 流程图连接矿工 BTC 出价、出块者选择、Stacker 签名及每个比特币区块间的多个区块。](images/image11.png "image_tooltip")
 
 这意味着，Nakamoto 升级后，Stacks 在 Layer 2 层面有两类区块：（a）快速区块（fast blocks），由 Stacks 矿工通过 BFT 风格的法定人数签名每 5 秒生成；（b）结算区块（settlement blocks），每出现一个比特币区块就生成一次，不包含任何新的 Layer 2 交易，只将 Stacks 链上最近的一串快速区块结算到比特币链上。
 
@@ -139,13 +139,13 @@ Stacks 共识机制的独特之处，在于它与比特币区块链深度交织�
 
 作为比特币的智能合约扩展，RGB 与其他比特币 Layer 2 方案，甚至与非比特币智能合约平台都很不一样。它将智能合约执行和验证完全移到链下，只将比特币用作状态承诺层，将比特币脚本用作所有权控制系统。 
 
-![alt_text](images/image1.png "image_tooltip")
+![RGB 分层架构将合约与客户端验证置于比特币承诺及共识之上。](images/image1.png "image_tooltip")
 
 整个系统建立在[客户端验证（client-side validation）](https://www.rgbfaq.com/glossary/client-side-validation)和[一次性密封（single-use seals）](https://petertodd.org/2017/scalable-single-use-seal-asset-transfer)之上。客户端验证意味着，所有 RGB 智能合约和交易都由交易参与方在链下执行和验证，无需在比特币上发布任何数据。
 
 一次性密封铭刻在比特币或闪电网络的交易输出上，构成 RGB 的安全机制。任何持有智能合约历史记录的参与方，都可以结合链上和链下数据，验证合约执行的完整性。
 
-![alt_text](images/image10.png "image_tooltip")
+![RGB 状态转换连接至充当一次性密封的比特币 UTXO，下方展示 Taproot 承诺。](images/image10.png "image_tooltip")
 
 与其他智能合约平台不同，RGB 将智能合约*发行者（issuers）*、状态*所有者（owners）* 和 *状态转换（state transitions）* 区分开来。具体来说，每个 RGB 智能合约都由智能合约发行者创建的某个创世状态，以及状态转换组成的有向无环图（directed acyclic graph，DAG）表示。这些经客户端验证的数据由 RGB 用户保管，完全位于链下。
 

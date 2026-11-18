@@ -22,7 +22,7 @@ The classification of Layer 1 and Layer 2 systems is a legitimate subject of con
 
 Generally speaking, Layer 1 chains are sovereign blockchains with their own consensus mechanisms and security budgets, that can function independently without relying on any other chain for consensus, data availability, or execution. On the other hand, there is no firm consensus on the definition of Layer 2 protocols, as various pundits draw the line at different points.
 
-![alt_text](images/image9.png "image_tooltip")
+![A monolithic blockchain combines functions in Layer 1; a modular design separates execution in its Layer 2.](images/image9.png "image_tooltip")
 
 For example, the Ethereum Foundation [defines](https://ethereum.org/en/layer-2/) a Layer 2 as a "_separate blockchain that extends Ethereum and inherits the security guarantees of Ethereum._" This means that any chain or protocol that doesn't inherit another chain's security can't be classified as Layer 2 in the eyes of the Ethereum Foundation. Under this strict definition, widely accepted within the Ethereum community, only rollups are considered Layer 2s. Payment channels, state channels and sidechains are left out of the paradigm.
 
@@ -41,7 +41,7 @@ For what it's worth, Bitcoin doesn't necessarily _need_ Layer 2 protocols to sur
 
 Bitcoin has been intentionally built to be minimal, slow, and resistant to change. Its design philosophy prioritizes security and decentralization over scalability, and simplicity over architectural complexity. Its conservative architecture makes it analogous to FedWire as a settlement layer or TCP/IP as the Internet's underlying communications protocol: higher-level layers are built on top of these, adding more functionalities and performance, but the base infrastructure remains simple and robust.
 
-![alt_text](images/image2.png "image_tooltip")
+![Payment-system layers run from settlement through authorization, routing, and directory services to user interfaces.](images/image2.png "image_tooltip")
 
 Bitcoin has a [block time](https://www.nervos.org/knowledge-base/block_time_in_blockchain) of 10 minutes and a throughput of around seven transactions per second. Improving the speed and throughput on Layer 1 would translate into increased hardware requirements for running full Bitcoin [nodes](https://www.nervos.org/knowledge-base/difference_between_miner_full_node), hurting the network's decentralization, security, and, consequently, censorship resistance—the whole point of blockchains.
 
@@ -55,7 +55,7 @@ To this point, following the recent rise in popularity of digital artifacts or N
 The Lightning Network is a [payment channel network](https://www.nervos.org/knowledge-base/ultimate_guide_to_payment_channels) that allows users to route payments across payment channels and make nearly instantaneous Bitcoin transactions with negligible fees. Because much has already been written about how the Lightning Network works, we won’t dwell too much on it beyond highlighting that it’s the oldest and most widely adopted Bitcoin Layer 2, with over 5,000 BTC locked inside it.
 
 
-![alt_text](images/image6.png "image_tooltip")
+![A wBTC dashboard plots total value locked from before 2021 to after 2024, peaking around 2021 before declining and recovering.](images/image6.png "image_tooltip")
  \
 _The total value locked of wrapped Bitcoin (wBTC). Source: [DefiLlama](https://defillama.com/protocol/wbtc)._
 
@@ -68,7 +68,7 @@ The [Liquid Network](https://liquid.net/) is a federated sidechain developed by 
 
 In essence, Liquid is a sovereign, permissioned, and, therefore, centralized chain that extends Bitcoin by creating a smoother environment for transacting BTC. It has faster block times (one minute) and two-block settlement finality (block reorganizations are disallowed under its proof of authority consensus). Liquid also allows permissioned issuance of other digital assets, including stablecoins and tokenized securities.
 
-![alt_text](images/image8.png "image_tooltip")
+![Bitcoin moves through Liquid functionaries for peg-in and peg-out, while Liquid nodes transact on the sidechain.](images/image8.png "image_tooltip")
 
 In the Liquid Network, transactions and blocks are signed by a federation of blocksigners using a [BFT](https://en.wikipedia.org/wiki/Byzantine_fault) consensus algorithm. In contrast, the “peg-out” transactions (BTC withdrawals to Layer 1) are signed by a federation of “watchmen”, essentially drawn from the same pool of about 65 globally distributed federation members, comprising crypto exchanges, financial institutions, and other Bitcoin-focused companies.
 
@@ -76,7 +76,7 @@ The “peg-in” or bridging process of transferring BTC to Liquid involves send
 
 Because the manual peg-in process is somewhat burdensome, requiring considerable technical skills and running both a Bitcoin full node and a Liquid node, most users acquire their L-BTC via third parties. Unlike peg-ins, withdrawals can only be done by Liquid’s federation members. However, regular users can alternatively peg-out by swapping their L-BTC for BTC through third parties, including centralized exchanges or trustless P2P swaps.
 
-![alt_text](images/image5.png "image_tooltip")
+![Two three-step flows trace peg-in from a Bitcoin wallet to Liquid and peg-out back to Bitcoin.](images/image5.png "image_tooltip")
 
 Finally, it’s important to note that Liquid doesn’t meet the stricter Ethereum definition for Layer 2, as it neither inherits Bitcoin’s security guarantees nor allows permissionless BTC withdrawals solely via a Layer 1 transaction. 
 
@@ -85,7 +85,7 @@ Finally, it’s important to note that Liquid doesn’t meet the stricter Ethere
 
 In many ways the opposite of Liquid, [Rootstock](https://rootstock.io/) is significantly closer to the strict definition for Layer 2, meeting one of the two key criteria. It's an [EVM](https://ethereum.org/en/developers/docs/evm/)-compatible smart contract-enabled sidechain that partially inherits Bitcoin's security via [merged mining](https://rootstock.io/mine-btc-with-rootstock/) and links to it via a federated two-way peg.
 
-![alt_text](images/image3.png "image_tooltip")
+![A Rootstock statistics panel lists market cap, merged-mining share, pegged RBTC, and monthly transactions.](images/image3.png "image_tooltip")
 
 Rootstock goes beyond Liquid in that it doesn't seek only to scale Bitcoin's transaction throughput, but also to extend its programmability. With its Turing-complete smart contracts, Rootstock allows for the use of synthetic Bitcoin (RBTC) across various DeFi applications. Its engine is powered by the Rootstock Virtual Machine (RVM), a forked version of the Ethereum Virtual Machine (EVM), which is fully compatible with Ethereum smart contracts and tooling. This means Ethereum developers can conveniently deploy their dApps on Rootstock with little to no modifications.
 
@@ -113,13 +113,13 @@ To this point, Stacks is a different type of smart contract layer compared to a 
 Unlike Liquid and Rootstock, Stacks has its own native asset, STX, which is central to its novel consensus mechanism dubbed [Proof-of-Transfer](https://docs.stacks.co/stacks-101/proof-of-transfer) (PoX). In PoX, Stacks miners spend (already mined) BTC and are rewarded in STX, similar to how Bitcoin miners spend electricity and are rewarded BTC in Proof-of-Work (PoW). Like in PoW, PoX uses a Nakamoto-style single-leader election, where PoX miners bid by spending BTC, and they have a bid-weighted random probability of becoming a leader. In this context, a leader is a miner who’s been selected to mine a Stacks block.
 
 
-![alt_text](images/image4.png "image_tooltip")
+![Stacks miners spend BTC to compete for STX rewards; stackers lock STX and receive BTC.](images/image4.png "image_tooltip")
  \
 _A graphic showcasing Proof-of-Transfer (PoX). Source: [docs.stacks.co](https://docs.stacks.co/stacks-101/proof-of-transfer)_
 
 The unique feature of Stacks’ consensus mechanism is how deeply it’s intertwined with the Bitcoin blockchain. Namely, using an open bidding process on Bitcoin, a group of Stacks miners is elected to mine Stacks blocks until the next Bitcoin block (at a 10-minute average Bitcoin block time, this is approximately 120 Stacks blocks). Once the miner set is elected, these miners use a BFT-style quorum signing, weighted by their BTC bids, to mine Stacks blocks every 5 seconds until the next Bitcoin block, for which they’re rewarded STX tokens. By leveraging BTC for bidding and Layer 2 miner selection, Stacks’ PoX consensus mechanism reuses the work already done by Bitcoin miners without consuming any significant amount of additional electricity.
 
-![alt_text](images/image11.png "image_tooltip")
+![A Stacks flowchart links BTC miner bids, leader selection, stacker signatures, and multiple blocks per Bitcoin block.](images/image11.png "image_tooltip")
 
 This means that post-Nakamoto upgrade, Stacks has two types of blocks at the Layer 2 level: (a) fast blocks, produced by Stacks miners every 5 seconds via a BFT-style quorum signing, and (b) settlement blocks (produced at every Bitcoin block) that don’t contain any new Layer 2 transactions but only settle the recent sequence of fast blocks (from the Stacks chain) on the Bitcoin chain. 
 
@@ -143,13 +143,13 @@ Namely, the sBTC peg is maintained by the Stackers of the PoX consensus protocol
 
 As a smart contracting extension to Bitcoin, RGB is quite different compared to other Bitcoin Layer 2 solutions and even non-Bitcoin smart contract platforms. Namely, it takes smart contracts execution and validation entirely off-chain, using Bitcoin only as a state commitment layer and Bitcoin script as an ownership control system. \
 
-![alt_text](images/image1.png "image_tooltip")
+![RGB's layered architecture places contracts and client-side validation above Bitcoin commitments and consensus.](images/image1.png "image_tooltip")
 
 The entire system is based on [client-side validation](https://www.rgbfaq.com/glossary/client-side-validation) and [single-use seals](https://petertodd.org/2017/scalable-single-use-seal-asset-transfer). Client-side validation means that all RGB smart contracts and transactions are executed and validated by parties to the transactions (off-chain) without posting any data on Bitcoin.
 
 The single-use seals (inscribed over Bitcoin or Lightning Network transaction outputs) represent RGB’s security mechanism, allowing any party holding a smart contract’s history to verify the integrity of its execution by combining on-chain and off-chain data.
 
-![alt_text](images/image10.png "image_tooltip")
+![RGB state transitions link to Bitcoin UTXOs as single-use seals, with Taproot commitments illustrated below.](images/image10.png "image_tooltip")
 
 Unlike other smart contract platforms, RGB separates the concepts of smart contract _issuers_, state _owners_, and _state transitions_. Namely, each RGB smart contract is represented by some genesis state created by the smart contract issuer and a directed acyclic graph (DAG) of state transitions kept as client-validated (entirely off-chain) data by RGB users.
 

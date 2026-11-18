@@ -19,7 +19,7 @@ However, recent years have shown that people want to use Bitcoin as an asset for
 
 The fast rise of [Ordinals and inscriptions](https://www.nervos.org/knowledge-base/guide_to_inscriptions) and the relatively slow growth of the Lightning Network have clearly revealed this. People would much rather pay higher fees to trade other Bitcoin-native assets on the network than pay minimal fees to spend Bitcoin on Lightning. The massive discrepancy between the TVL of wBTC on Ethereum (~130,000 BTC) and the Lightning Network (~5,000 BTC) further demonstrates this.
 
-![alt_text](images/wbtc.png "image_tooltip")
+![Historical TVL charts show about 131,849 BTC in WBTC versus 5,027 BTC in the Lightning Network.](images/wbtc.png "image_tooltip")
 
 People would much rather accept the security trade-offs from using other blockchains to use BTC for things other than spending it, like using it as collateral on decentralized money markets or earning transaction fees for providing liquidity on [automated market makers](https://www.gemini.com/cryptopedia/amm-what-are-automated-market-makers).
 
@@ -40,7 +40,7 @@ Insofar as what we have on mainnet today, most Bitcoin scaling projects besides 
 
 To that point, even the term “[bridge](https://www.nervos.org/knowledge-base/what_are_blockchain_bridges),” widely used by most cross-chain interoperability solutions today, is a misnomer. Bridges that literally transport native assets to other chains don’t actually exist. Instead, two-way pegs employ a burn or lock-mint operational logic where the BTC is locked inside a multi-sig on the Bitcoin network, and a corresponding synthetic asset is minted on the adjacent chain. 
 
-![alt_text](images/bridge.png "image_tooltip")
+![A bridge locks an asset on the source chain and issues a representation on the destination chain.](images/bridge.png "image_tooltip")
 
 
 Theoretically, this synthetic asset can always be redeemed one-to-one for the native BTC locked on the Bitcoin network. However, these are undeniably distinct assets; if the BTC locked on the Bitcoin network somehow disappeared, the synthetic asset representing that BTC on Layer 2 would continue to exist.
@@ -48,7 +48,7 @@ Theoretically, this synthetic asset can always be redeemed one-to-one for the na
 A deeper analysis of each Bitcoin scaling category reveals a variety of unique trade-offs. Namely, as already noted, sidechains are not Layer 2s, meaning they don’t inherit Bitcoin’s unmatched security. They rely on custodial two-way pegs, which centralize and introduce unique security risks independently.
 
 
-![alt_text](images/2waypeg.png "image_tooltip")
+![A federated two-way peg locks mainchain coins to release sidechain coins, and reverses the process for withdrawal.](images/2waypeg.png "image_tooltip")
 
 *Federated two-way peg*
 
@@ -58,12 +58,12 @@ Actual Layer 2 solutions like the Lightning Network have a more symbiotic relati
 
 The more unorthodox asset issuance protocols on Bitcoin, like inscriptions, which many wouldn’t even consider a scaling solution, benefit miners by increasing block space demand and ultimately miner revenue but lead to other issues. Namely, users must rely on third-party indexers to track Ordinals or inscriptions, which introduces an additional element of trust and centralization to the mix.
 
-![alt_text](images/inscribe.png "image_tooltip")
+![An inscription flow places data in a Taproot script, creates a commit transaction, then reveals it on-chain.](images/inscribe.png "image_tooltip")
 
 Furthermore, inscriptions leave a significant footprint, “artificially” pushing the size of Bitcoin blocks to the hard-capped limit of 4MB, which increases the long-term storage burden on full nodes. To that point, inscription-based asset issuance protocols like [BRC-20](https://www.coinbase.com/learn/crypto-glossary/what-are-brc-20-tokens) have generated a large number of useless dust satoshis (the size is typically 546 or 330 satoshis), resulting in the irreversible expansion of the UTXO set. 
 
 
-![alt_text](images/image8.png "image_tooltip")
+![Bitcoin's serialized UTXO set grows gradually until 2023, then rises sharply toward 12 GiB in 2024.](images/image8.png "image_tooltip")
 
 
 As seen in the above chart, the start of the abnormal rapid expansion of the Bitcoin UTXO set perfectly coincides with the launch of the BRC-20 protocol in March 2023. Since then, the UTXO set has more than doubled, growing from around 5 GB to 12 GB. This is one of the most criticized aspects of the BRC20 asset issuance protocol—it wastes node resources. 
@@ -78,7 +78,7 @@ But what if there was a way to scale and extend Bitcoin’s programmability with
 [RGB++](https://www.rgbppfans.com/) is a novel scaling solution that provides Bitcoin with Turing-complete programmability while fully leveraging its decentralization and security guarantees. It’s a genuinely “Bitcoin native” scaling solution that fully aligns and integrates with Bitcoin’s UTXO model. 
 
 
-![alt_text](images/image2.png "image_tooltip")
+![RGB contracts and client-side validation sit above Bitcoin consensus, commitments, and a transaction ledger, while beneath the lightning network layer.](images/image2.png "image_tooltip")
 
 *Design overview of the RGB protocol. (Source: [RGB blackpaper](https://black-paper.rgb.tech/general-information/2.-protocol-design/2.2.-design-overview)).*
 
@@ -94,7 +94,7 @@ To avoid these issues, the RGB++ protocol borrows the concept of single-use seal
 
 The key innovation or technique RGB++ introduces is called “isomorphic binding.” 
 
-![alt_text](images/image9.png "image_tooltip")
+![Isomorphic binding shows a Bitcoin UTXO and RGB commitment map to a CKB Cell containing state data, a type script, and a Bitcoin-linked lock.](images/image9.png "image_tooltip")
 
 
 To break it down, *isomorphism* is a mathematical term that refers to a mapping between two structures that shows a one-to-one correspondence between their elements while preserving their operations and relations. 
@@ -105,7 +105,7 @@ When two structures are isomorphic, they are structurally identical in terms of 
 
 In the context of RGB++, *isomorphic binding* refers to mapping a dust satoshi (Bitcoin UTXO) to a CKB Cell (eUTXO). CKB’s Cells are flexible and abstract data structures capable of storing data and executing scripts, acting like programmable containers for value and state information. Bitcoin’s UTXOs, on the other hand, serve as *single-use seals* that define the asset’s ownership. By binding each UTXO to a specific Cell, RGB++ ensures that ownership and state changes are mirrored on both blockchains, maintaining a consistent and synchronized state. 
 
-![alt_text](images/image6.png "image_tooltip")
+![A Bitcoin transaction commits to a CKB transaction that moves a shadow Cell's lock from one UTXO to another.](images/image6.png "image_tooltip")
 
 
 Whoever can spend the UTXO on Bitcoin also owns and controls the corresponding RGB++ assets. The process resembles a shadow moving along when a body moves; whenever the original UTXO is spent, the corresponding Cell or RGB++ asset is also transferred.
@@ -129,7 +129,7 @@ As opposed to existing inscription-based assets on Bitcoin, UDTs are programmabl
 
 [Cells](https://docs.nervos.org/docs/ckb-fundamentals/cell-model) contain three fields: data, type script, and lock script. The data field stores the balance of the UDT in the first 16 bytes; the type script defines the UDT's operational logic, effectively serving as a smart contract; and the lock script defines the asset’s ownership, ensuring only its owner can spend the UDT.
 
-![alt_text](images/image12.png "image_tooltip")
+![A CKB Cell field table that defines capacity, lock, type, and data above a JSON example with a null type field.](images/image12.png "image_tooltip")
 
 
 The cool thing about the lock script of Cells is that they’re user-defined, meaning the ownership aspect of the UDT is decoupled from the UDT itself. Therefore, the unlocking or spending conditions can be set to, for example, the spending of a Bitcoin UTXO. In fact, this is what RGB++ does with isomorphic binding: it sets the lock script conditions to the spending of a Bitcoin UTXO, thereby effectively transferring the UDT’s ownership over to the Bitcoin Layer 1. 
@@ -143,7 +143,7 @@ RGB++ assets are superior to inscription-based assets like BRC-20 or SRC-20 beca
 
 Every time a specific BRC-20 asset is transferred from one Bitcoin user to another, a new satoshi that remains unspent must be created. As previously mentioned, this process creates significant state bloat by permanently inflating the UTXO set, thereby putting additional and permanent resource pressure on nodes. Inscription-based assets, therefore, effectively resemble a dust attack on the Bitcoin network, hurting its long-term decentralization.
 
-![alt_text](images/image11.png "image_tooltip")
+![A transaction removes a spent Cell from the live Cell set and adds a new Cell with updated data and scripts.](images/image11.png "image_tooltip")
 
 Conversely, in the RGB++ protocol, the dust satoshis act as the keys to the ownership of the RGB++ assets. This means that every time an RGB++ asset is transferred, the corresponding satoshi is spent or destroyed, meaning it doesn’t irreversibly inflate the Bitcoin UTXO set.
 
@@ -151,7 +151,7 @@ Conversely, in the RGB++ protocol, the dust satoshis act as the keys to the owne
 #### Scaling Bitcoin’s Throughput
 
 
-![alt_text](images/image7.png "image_tooltip")
+![RGB++ transaction folding places a series of CKB transactions between two Bitcoin commitment transactions.](images/image7.png "image_tooltip")
 
 *A graphic description of the transaction folding process in RGB++.*
 
@@ -164,7 +164,7 @@ RGB++ allows Bitcoin to leverage the full smart contract stack of the CKB blockc
 
 One example is [UTXOSwap](https://utxoswap.gitbook.io/en), an intent-based decentralized exchange for UTXO-based chain assets. Because UTXO transactions are declarative (as opposed to the imperative nature of account-based blockchain transactions), UTXOSwap users can express their intents directly on-chain, which offers numerous benefits over traditional order books or AMM-based decentralized exchanges.
 
-![alt_text](images/image14.png "image_tooltip")
+![UTXOSwap collects user intents, matches them through an aggregator, and submits a batch transaction.](images/image14.png "image_tooltip")
 
 
 UTXOSwap implements an off-chain matching and on-chain verification process, leveraging the UTXO model's parallelism to improve transaction efficiency. Its intent-based design allows it to support limit orders and TWAP transactions, meaning users can declaratively express their trading intents, i.e., "exchange 0.2 BTC for at least 560 X tokens," instead of simply initiating a swap transaction and passively accepting the market price along with the slippage and MEV that come with it.
@@ -187,7 +187,7 @@ What makes RGB++ truly remarkable and stand out from all other Bitcoin scaling s
 This is possible due to the protocol’s unparalleled interoperability feature, the [Bridgeless Cross-Chain Leap](https://medium.com/@utxostack/the-magic-of-rgb-bridgeless-cross-chain-leap-70ed82bed3ab). It works by applying the same isomorphic binding technique, which works by setting the lock script conditions of RGB++ assets to a Bitcoin UTXO and the UTXOs of other chains.
 
 
-![alt_text](images/image10.png "image_tooltip")
+![An RGB++ Leap changes an asset's isomorphic binding from a Bitcoin UTXO to a Litecoin UTXO.](images/image10.png "image_tooltip")
 
 
 For example, a user can seamlessly transfer an RGB++ asset, say 1,000 RUSD stablecoins from Bitcoin to the Cardano or the Litecoin chain, by first spending the Bitcoin UTXO bound to the corresponding RGB++ asset and then constructing another transaction that changes the unlocking condition of the asset to a Litecoin UTXO. From that point forward, transferring the RUSD tokens would require spending a Litecoin UTXO, meaning that the ownership of the tokens has effectively been transferred to the Litecoin chain.

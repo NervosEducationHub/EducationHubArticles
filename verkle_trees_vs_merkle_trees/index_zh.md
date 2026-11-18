@@ -24,7 +24,7 @@ Merkle 树是一种密码学数据结构，专门用于以最小开销组织和�
 
 顶端的值称为 *Merkle 根（root）*，是对整个数据集的简洁承诺。任何参与者只需一份小证明，就能验证单个数据元素的完整性，而不必访问完整数据集。关键在于，树是递归构建的，所以数据中任何位置的修改都会向上传导，改变 Merkle 根，以极少的计算开销暴露不一致。
 
-![](images/image2.png "a_merkle_tree")
+![八条数据记录经哈希处理，在默克尔树中逐层两两合并，最终形成根哈希。](images/image2.png "a_merkle_tree")
 
 ### Merkle 树为何对区块链重要
 
@@ -54,7 +54,7 @@ Verkle 树是一种较新的数据结构，旨在解决 Merkle 树的扩展局�
 
 Merkle 树依赖递归哈希：证明中的每一步，都需要披露从叶节点到根的路径上的兄弟节点哈希值。Verkle 树用*向量承诺（vector commitments）* 替代这一机制。这是一种更先进的密码学原语，能以单个紧凑结构对整组值作出承诺。Verkle 证明无需沿哈希路径证明成员关系，而是使用简洁的数学论证，展示某个值属于已承诺的向量。
 
-![](images/image3.png "a_verkle_tree")
+![Verkle 树示意图从主干树经扩展节点与后缀树，连接至数据的低位和高位值。](images/image3.png "a_verkle_tree")
 
 *Verkle 树的结构。来源：[ethereum.org](https://ethereum.org/roadmap/verkle-trees/)*
 

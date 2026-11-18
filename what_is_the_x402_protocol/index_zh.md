@@ -79,7 +79,7 @@ x402 在协议层面运行，因此需要开放治理。2025 年底，Coinbase �
 
 **SDK 与中间件**：它们提供预先构建的代码库，用于将 x402 支付集成到现有 Web 服务器中。它们充当 Web 服务器的连接层，拦截 HTTP 请求，并为端点设置价格和收款地址，要求付款后才能访问。
 
-![](images/image2.png "x402_protocol_stack")
+![x402 协议栈包含：HTTP 标头（支付要求、签名、响应标头）、协调者验证，以及应用层（SDK 和中间件）。](images/image2.png "x402_protocol_stack")
 
 ## Fiber 与 x402：扩展机器间商业
 
@@ -87,7 +87,7 @@ x402 协议标准化了 Web 服务器如何通过 HTTP 请求并验证付款，�
 
 Fiber Network 是建立在 Nervos CKB 区块链上的支付通道网络，旨在为未来的微支付、流式支付（streaming payments）和机器间商业提供底层基础设施。它采用支付通道（payment channels）这一链下交易机制，允许双方进行多次转账，而无需将每一笔交易都提交到区块链。
 
-![](images/image3.png "fiber_and_x402")
+![Fiber 上 M2M 支付栈的三层架构：AI 代理通过 x402 HTTP 在应用层进行价格协商，Fiber Network 在链下路由层处理支付，而 Nervos CKB 区块链在链上结算层确保最终确定性。](images/image3.png "fiber_and_x402")
 
 这张图展示了 Fiber 上机器间支付技术栈的三层架构：AI 智能体在应用层通过 x402 HTTP 协商价格，Fiber Network 在链下路由层即时处理稳定币支付，Nervos CKB 区块链则在链上结算层确保安全的密码学最终性。
 

@@ -36,7 +36,7 @@ If a user wants to redeem iCKB for underlying CKB, but no matching DAO deposit i
 
 The chart below illustrates this cumulative effect of CKB's secondary issuance on iCKB value since genesis:
 
-![alt_text](images/image2.png "image_tooltip")
+![The iCKB value chart shows the rise from about 1 CKB in 2019 to 1.17432 CKB per iCKB on July 2, 2025.](images/image2.png "image_tooltip")
 
 The chart illustrates the steady and predictable increase in the value of iCKB relative to CKB from the genesis block in November 2019 to the present. This growth is not the result of variable yield or market activity, but rather the deterministic effect of NervosDAO’s secondary issuance. At each point in time, iCKB represents the same inflation-protected share of the network as it did at the time of its creation. Key milestones, such as the genesis block, the launch of the iCKB protocol, and the current value, highlight how this mechanism works in practice: one iCKB continues to accumulate value compared to one CKB, reflecting over 17% growth since genesis. This consistent upward trend demonstrates why iCKB functions as an inflation-protected derivative of CKB in the NervosDAO, preserving long-term value even as new CKB enters circulation.
 

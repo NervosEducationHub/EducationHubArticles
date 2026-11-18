@@ -16,7 +16,7 @@ Specifically, Dorsey realized that Web3—a vision for a decentralized internet 
 
 He recognized that the reality of Web3 was fundamentally opposed to his vision—it was incompatible with the Web's existing infrastructure and engineered to replace it.
 
-![alt_text](images/image7.png "image_tooltip")
+![A Web5 slide combines Web2 and Web3, highlighting decentralized identifiers, web nodes, and personal data ownership.](images/image7.png "image_tooltip")
 
 *Defining Web5. (Source: [TBD presentation](https://docs.google.com/presentation/d/1SaHGyY9TjPg4a0VNLCsfchoVG1yU3ffTDsPRcU99H1E/edit#slide=id.g12e604c56a9_0_121))*
 
@@ -24,7 +24,7 @@ With decentralization being TBD's professed and uncompromising goal, he sought t
 
 To that end, Dorsey half-jokingly coined the term "Web5," partly as a jab at Web3 and partly as a throwback that pays homage to [HTML5](https://en.wikipedia.org/wiki/HTML5), the basis of today's Internet and the last significant effort to evolve the Web some 15 years ago.
 
-![alt_text](images/image1.png "image_tooltip")
+![TBD's June 10, 2022 post announces “Web5: An extra decentralized web platform.”](images/image1.png "image_tooltip")
 
 Judging by TBD's [whitepaper](https://github.com/TBD54566975/tbdex-whitepaper/blob/main/whitepaper.pdf), Dorsey saw Web5 as a peer-to-peer network that leverages Bitcoin as the base consensus layer and Lightning as a payment network. It centers around three pillars: 1) self-owned decentralized identifiers, 2) verifiable credentials, and 3) decentralized web nodes for storing data and relaying messages.
 
@@ -50,7 +50,7 @@ Moreover, Web5 is not just a semantic "rebrand" or a clever way of cutting throu
 
 We see Web5 as a mesh of peer-to-peer networks connecting various PoW and UTXO-based consensus layers, channel networks, and other systems that have yet to be imagined. To further abstract, we imagine Web5 as a thriving ecosystem of dApps built upon this mesh of peer-to-peer networks.
 
-![alt_text](images/image10.png "image_tooltip")
+![Network diagrams contrast a central hub, several intermediary hubs, and a peer-to-peer mesh with weaker hierarchy.](images/image10.png "image_tooltip")
 
 *Network topologies of decentralized and peer-to-peer networks. (Source: [CKBEcoFund](https://ckbeco.fund/))*
 
@@ -74,7 +74,7 @@ In February 2009, Satoshi [remarked](https://satoshi.nakamotoinstitute.org/posts
 Taking inventory of Ethereum today, "trust" seems to be on the rise. While stake pool operators and block builders aren't necessarily trusted third parties (TTPs) in these systems, they certainly are privileged actors that are getting more influential by the day.
 
 
-![alt_text](images/image9.png "image_tooltip")
+![An ETH staking donut chart shows Lido at 27.8%, Coinbase at 10.9%, and smaller shares for other entities.](images/image9.png "image_tooltip")
 *Percentage of total ETH staked by entities. (Source: [dune.com](https://dune.com))*
 
 Liquid staking protocol [Lido](https://lido.fi/) controls ~28% of total ETH staked while [Coinbase](https://www.coinbase.com/) controls ~11%, raising concerns about the potential concentration of governance and validation rights among a few influential industry players. [Beaverbuild](https://beaverbuild.org/) and [Titan Builder](https://www.titanbuilder.xyz/) are producing[ ~89% of all blocks](https://x.com/nero_eth/status/1846786871998759141) on Ethereum, which raises further concerns regarding censorship resistance and control over maximum extractable value ([MEV](https://cryptobriefing.com/what-is-mev-ethereums-invisible-tax-explained/)).
@@ -84,7 +84,7 @@ Moving on, although Ethereum's base layer is by many measures—and especially c
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Not to give away the full game. But<br><br>Yes start with one and figure out how to make crosschain interop against other chains completely seemless <br><br>Once you do that, if unichain gets too full you just make more copies of it that interop together if/when vertical scaling caps out <a href="https://t.co/rKHzxCj8VJ">https://t.co/rKHzxCj8VJ</a></p>&mdash; Hayden Adams 🦄 (@haydenzadams) <a href="https://twitter.com/haydenzadams/status/1860390973739561032?ref_src=twsrc%5Etfw">November 23, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 These systems rely on centralized infrastructure providers that act as “servers,” while users become clients who depend on these servers for network access and functionality. This mirrors traditional Web2 architectures more than anything, undermining the decentralization that Web3 originally aimed to achieve.
 
-![alt_text](images/image11.png "image_tooltip")
+![Client devices connect to one server on the left; a mesh of peer nodes connects directly on the right.](images/image11.png "image_tooltip")
 
 
 Concerning [rollups](https://www.nervos.org/knowledge-base/zk_rollup_vs_optimistic_rollup) specifically, the reliance on centralized sequencers creates a serious bottleneck. In the best case, a single entity has total control over transaction ordering and inclusion, meaning that users must trust them to behave honestly, which is antithetical to crypto’s trustless ethos. In the worst case, the same entity can halt the chain entirely, as Ethereum Layer 2 Linea demonstrated this year when it [paused its sequencer](https://www.dlnews.com/articles/defi/ethereum-layer-2-linea-pauses-chain-after-velocore-exploit/) in response to an exploit on one of the decentralized exchanges in its ecosystem.
@@ -99,7 +99,7 @@ To that point, in July 2023, the cross-chain protocol Multichain lost more than 
 Beyond the trust and security issues, horizontal scaling (i.e., branching out, or offloading transaction execution to adjacent chains) also causes serious liquidity fragmentation and infrastructure cost issues. Currently, there are several dozen Ethereum Layer 2s, most of which are ghost chains because they couldn’t achieve escape velocity or attract and sustain enough liquidity.
 
 
-![alt_text](images/image2.png "image_tooltip")
+![A Layer 2 value ranking is led by Arbitrum One at $17.61 billion and Base at $14.51 billion.](images/image2.png "image_tooltip")
 
 *The top two Layer 2 chains, Arbitrum and Base, have a total TVL ($32.12B) that exceeds the combined TVL of the remaining 18 chains ($11.43B). (Source: [L2Beat.com](https://l2beat.com))*
 
@@ -197,12 +197,12 @@ We will now analyze some of the considerations informing a hypothesis: **Selecti
 
 The first consideration that informs our hypothesis is the difference in statefulness assumptions between PoW+UTXO and PoS+Account-based chains. 
 
-![alt_text](images/image5.png "image_tooltip")
+![State transition in the UTXO model, where Alice spends a 10 BTC UTXO, creating an 8 BTC output for Bob and 1.999 BTC in change.](images/image5.png "image_tooltip")
 
 
 For instance, in UTXO-based systems, the transactions are stateful, including both inputs and outputs. Each transaction specifies which UTXOs it consumes and which new UTXOs it creates, meaning it carries all the necessary state information to update the ledger. On the other hand, the on-chain environment is effectively stateless. A transaction can only affect the UTXOs it directly references and cannot modify other parts of the ledger's state. 
 
-![alt_text](images/image4.png "image_tooltip")
+![State transition in the account model, where an 8 ETH transfer changes Alice's balance from 10 to 2 and Bob's from 1 to 9; the contract balance stays 3.](images/image4.png "image_tooltip")
 
 
 Conversely, in Account-based systems, transactions are stateless in the sense that they only contain an input—the desired action or method invocation—without explicitly stating the current state of the accounts involved. The on-chain environment is stateful because any transaction can potentially modify the state of any account or contract. For example, a smart contract can interact with multiple accounts and change various state variables, leading to a highly interconnected system state. 
@@ -211,17 +211,17 @@ In UTXO-based systems, users create transactions that specify exactly what ledge
 
 Considering the consensus mechanisms separately, in PoS, the consensus is stateful. Verifying consensus requires access to on-chain data, specifically the current set of validators, their stakes, and randomness. Since the validator set constantly changes, nodes must keep track of this evolving state to validate new blocks. 
 
-![alt_text](images/image-block.png "image_tooltip")
+![A light client receives block headers and requests a transaction and SPV proof from a full node.](images/image-block.png "image_tooltip")
 
 Conversely, the consensus in PoW is effectively stateless in that nodes can reasonably determine the validity of the blockchain by simply checking the block headers, which contain the proofs of work. They don't need additional on-chain state information to verify the longest valid chain; they rely on the accumulated computational work.
 
-![alt_text](images/image-spv.png "image_tooltip")
+![The Bitcoin whitepaper's SPV section links the fourth transaction in that block, tx3, through a Merkle branch to a block header.](images/image-spv.png "image_tooltip")
 
 These different statefulness assumptions, among other things, mean that to verify a transaction in the PoS+Account model, users must keep track of the global state, which necessitates running a full node. 
 
 However, the statefulness of the PoS+Account model significantly increases the overhead in terms of storage and computation for full nodes. Nodes must independently execute all smart contracts to validate transactions, keep track of the current set of validators, their stakes, and any changes to these over time, and process attestations, proposals, and other data related to block validation. This adds extra state information that nodes must compute and store. 
 
-![alt_text](images/image3.png "image_tooltip")
+![Bitcoin blockchain size rises steadily; Ethereum full-sync data rises with two sharp drops, one marked “Pruning.”](images/image3.png "image_tooltip")
 
 To illustrate this through numbers, the minimum requirements for running a full Ethereum node are a 2 TB Solid State Drive, 16 GB of RAM, and an Intel 7th generation processor or higher, whereas running a Bitcoin full node requires a low-tier CPU, 2 GB of RAM, and at least 15 GB of free disk space. Moreover, Ethereum is also facing a [state explosion](https://www.theblock.co/post/258960/solving-state-bloat) issue–with its state growing 3.5 times faster than Bitcoin’s–and it cannot prune old state data, meaning there’s no cap on the state growth.
 
@@ -244,7 +244,7 @@ PoW+UTXO and PoS+Account-based systems differ in how and where aspects of determ
 
 Leader election, block times, and finality are conversely deterministic and non-deterministic in these two systems.
 
-![alt_text](images/image-determinism.png "image_tooltip")
+![A table labels PoS deterministic and PoW nondeterministic for leader election, block time, finality, and consensus set.](images/image-determinism.png "image_tooltip")
 
 In PoS systems, leader election is deterministic. Validators are selected to produce a block based on predefined on-chain criteria, making it predictable who will produce the next block. While this can improve efficiency, it introduces vulnerabilities.
 
@@ -275,7 +275,7 @@ In an industry where every nuance of technological doctrine seems to have a toke
 
 Despite a beginning shrouded in controversy (maybe rgbp2p is a better name), [RGB++](https://talk.nervos.org/t/rgb-protocol-light-paper-translation/7790/59) is leading the charge of Web5, trustlessly integrating the Bitcoin and CKB blockchains without bridges or dubious security mechanisms. [Dogecoin support](https://github.com/ckb-devrel/rust-dogecoin/pull/1) is in the works, and hopefully, other PoW+UTXO blockchains like [Kaspa](https://kaspa.org/) and [Ergo](https://ergoplatform.org/en/) can find ways to plug in soon.
 
-![alt_text](images/image6.png "image_tooltip")
+![The isomorphic binding adopted in RGB++ binds a Bitcoin transaction output to a CKB Cell, with a CKB transaction hash committed on Bitcoin.](images/image6.png "image_tooltip")
 
 On the channel front, the work is even more exciting. The [Fiber Network](https://www.fiber.world) project, which implements Lightning-compatible channels on CKB, has been underway for most of 2024 and is quickly maturing toward mainnet. Lightning is synonymous with challenge, but CKB offers a new computational substrate for a channel network and can be used to test the ocean of ideas for improving Lightning, without requiring any consensus changes.
 

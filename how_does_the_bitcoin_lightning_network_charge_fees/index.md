@@ -48,9 +48,9 @@ To illustrate, if a payment of 100,000 satoshis is routed with a fee rate of 100
 
 When a payment is sent across the Lightning Network, the total fee is the sum of the fees charged by each node along the route. Suppose a payment goes through three intermediate nodes before reaching the receiver; the base and proportional fees from all three will be aggregated into the total cost you pay. This means that even though each fee component is small, the cumulative effect across several hops can be noticeable, especially for larger payments. For example, a Lightning payment of $10 (12.62K sats) may only need to pay 6.785 sats in fees, while a Lightning payment of $10,000 (12.62M sats) needs to pay about 3.79K sats in fees. 
 
-![](images/image2.png "a_lightning_payment_of_$10")
+![A Lightning payment of $10 (12.62K sats) may only need to pay 6.785 sats in fees.](images/image2.png "a_lightning_payment_of_$10")
 
-![](images/image3.png "a_lightning_payment_of_$10000")
+![a Lightning payment of $10,000 (12.62M sats) needs to pay about 3.79K sats in fees.](images/image3.png "a_lightning_payment_of_$10000")
 
 *Fees of a Lightning payment. [Source: [Lightning Network Fee Calculator](https://bitcoincalculator.tools/calculators/lightning)]* 
 

@@ -28,7 +28,7 @@ To get the chance to update the blockchain with the latest block of transactions
 For the uninitiated, a [hash function](https://www.nervos.org/knowledge-base/what_is_a_hash_function) is a mathematical function that converts an arbitrary-length input into a deterministic, fixed-length output—a cryptographic fingerprint of the input. Hash functions are “one-way,” meaning the hash inputs cannot be reverse-engineered from the hash outputs. For any specific input, the resulting hash will always be the same and can be easily calculated and verified by anyone, using the same hash algorithm. 
 
 
-![alt_text](images/image1.png "image_tooltip")
+![Input “I Love Nervos” passes through SHA-256 to produce a hexadecimal hash.](images/image1.png "image_tooltip")
 
 
 The key characteristic of hashing algorithms is that it isn’t possible to find two different inputs that produce the same hash output or pick an input in such a way as to produce a desired output, other than randomly trying different inputs. 
@@ -45,7 +45,7 @@ To better illustrate how this works, let’s assume that miners need to hash the
 
 This means it took 16 attempts to find a valid hash. However, if the target were hypothetically set at four zeros, it would take us tens of thousands of attempts on average to find a suitable hash. At Bitcoin’s current [mining difficulty](https://www.nervos.org/knowledge-base/cryptocurrency_mining_difficulty), miners must collectively try quintillions (a billion billion, or 10^18) of times before finding a nonce that results in a valid hash.
 
-![alt_text](images/image6.png "image_tooltip")
+![Bitcoin mining difficulty trends upward alongside large swings in market price on a historical chart.](images/image6.png "image_tooltip")
  \
 _A chart showing Bitcoin’s price (black line) and the mining difficulty (blue line). (Source: [Blockchain.com](https://www.blockchain.com/explorer/charts/difficulty))_
 
@@ -63,7 +63,7 @@ The block reward lies at the heart of Bitcoin’s cryptoeconomic design. For min
 Basic economic reasoning tells us that honest miners are willing to spend up to but no more than what they’d earn from the block reward. For example, if the Bitcoin block reward is $1,000 per block, collectively miners would be willing to spend (CapEx + OpEx) up to ~$999 to maximize their odds of earning this reward. Since the total amount of money miners are willing to spend is capped by their revenue—which comes from the block rewards—this reward is really what sets Bitcoin’s security level. If miners spend a lot of money to mine Bitcoin, then potential attackers would have to spend a lot to attack it.
 
 
-![alt_text](images/image4.png "image_tooltip")
+![A technician on a scissor lift inspects the ASICs in a large Bitcoin mining farm.](images/image4.png "image_tooltip")
  \
 _A technician inspecting the ASICs at a large-scale Bitcoin mining farm. (Photo: Lars Hagberg/AFP; Getty Images.)_ \
 
@@ -76,7 +76,7 @@ Of course, this is only an example for conceptual understanding. In reality, min
 
  \
 
-![alt_text](images/image8.png "image_tooltip")
+![Bitcoin hash rate rises over time while the price line swings through peaks and declines.](images/image8.png "image_tooltip")
  \
 _A chart representing Bitcoin’s total hash rate (blue line) and Bitcoin’s price (black line). (Source: [Blockchain.com](https://www.blockchain.com/explorer/charts/hash-rate))_
 
@@ -87,14 +87,14 @@ At the moment, Bitcoin’s security budget (considering operational expenses alo
 However, what is important to consider here is the breakdown of the security budget. Namely, roughly 97% of the block reward comes from the block subsidy (144 blocks per day x 6.25 BTC per block at a current price of $27,500 equals $24.8 million), while only 3% comes from transaction fees (average $576,000 per day).
 
 
-![alt_text](images/image3.png "image_tooltip")
+![Transaction fees as a share of Bitcoin block rewards show large spikes around 2017, 2021, and 2023.](images/image3.png "image_tooltip")
  \
 _Fees as a percentage of Bitcoin block rewards. (Source: [Bitbo.io](https://charts.bitbo.io/fees-percent-of-reward/))_
 
 Per Bitcoin’s hard-coded monetary policy, the block subsidy, or the amount of newly minted coins per block, is set to halve or decrease by 50% every four years (or precisely every 210,000 blocks) until all of the 21 million bitcoins are mined in the year 2140. The block subsidy started at 50 bitcoins when the network went live in Jan. 2009 and halved to 25 bitcoins per block in Nov. 2012. It halved to 12.5 bitcoins in July 2016 and then again to 6.25 bitcoins per block in May 2020.
 
 
-![alt_text](images/image5.png "image_tooltip")
+![Bitcoin block subsidies halve from 50 BTC in 2009 to 25, 12.5, 6.25, and 3.125 BTC in 2024.](images/image5.png "image_tooltip")
 
 
 Why is this important? Because, as things currently stand, almost the entirety of miner revenue comes from the block subsidy, which is destined to halve every four years. This puts the Bitcoin network in quite a predicament: for the security budget to stay the same, either (i) the bitcoin price has to double every four years, or (ii) the revenue coming from transaction fees has to increase enough to compensate for the drop in block subsidy.
@@ -129,7 +129,7 @@ In simplistic terms, the optimists—where Satoshi themselves belong—argue tha
 The optimists imagine a future where Bitcoin becomes the primary settlement layer for the financial systems of entire nations. Most of the low-value payments would go through Layer 2 networks like the Lightning Network that only occasionally settle the outcome of a countless number of transactions. On the other hand, the Bitcoin blockchain itself would be exclusively used for closing Lightning channels and the final settlement of high-value transactions between high-net-worth individuals and financial institutions like commercial and central banks. In this case, the fees could easily shoot up to the equivalent of thousands of dollars in purchasing power without hurting block space demand. According to the optimists, this security budget—along with the skin in the game of everyone involved—would be enough to fortify Bitcoin’s security.
 
 
-![alt_text](images/image2.png "image_tooltip")
+![A glowing Bitcoin symbol sits at the center of concentric orange rings and dots.](images/image2.png "image_tooltip")
 
 
 The pessimists, on the other hand, paint a much grimmer picture. While acknowledging Bitcoin’s undisputed status as a supreme store-of-value asset, they doubt the network’s medium-of-exchange capacity or competitiveness as a payments platform. To this point, Bitcoin was purposefully optimized for decentralization, not scalability. Spreading the burden of a security budget over a larger number of transactions would require increasing the block space, shortening the block time, or both. Doing this, however, would significantly raise the hardware requirements for running full nodes, compromising decentralization. Considering that even the optimists don’t advocate for this change, Bitcoin is left with charging a premium for its scarce block space as the only option for securing a sufficient security budget.
@@ -137,7 +137,7 @@ The pessimists, on the other hand, paint a much grimmer picture. While acknowled
 To that point, the pessimists argue that transaction fees are subject to what economists call the “[long-run price elasticity of demand](https://www.khanacademy.org/economics-finance-domain/microeconomics/elasticity-tutorial/price-elasticity-tutorial/a/elasticity-in-the-long-run-and-short-run).” Just because users may want to hold bitcoin, it doesn’t mean they’ll be willing to pay the high transaction fees to transact on Bitcoin. Everything in the economy has been getting significantly cheaper, more elastic, and more competitive every year since forever. One of the biggest drivers of elasticity is time—i.e., over the short term, users can’t search for alternatives and may be willing to pay a premium, but it's the reverse in the long run.
 
 
-![alt_text](images/image9.png "image_tooltip")
+![An elastic demand curve shows blockspace demand rising from 10 to 14 as transaction fees fall from $100 to $80.](images/image9.png "image_tooltip")
 
 
 That is to say, people have a vested interest in innovating and making transacting cheaper, and Bitcoin payments aren’t immune to this. As a payments layer, Bitcoin doesn’t exist in a vacuum but is rather surrounded by competitors, including fiat payment processors, other more scalable cryptocurrencies, and even Layer 2 networks like the Lightning Network. And while users may want to pay a premium to hold bitcoin on a secure network, it doesn’t make sense for them to pay a premium to transact. Bitcoin transactions are immediate, and transactors don’t have a vested interest in the networks’ long-term security. As soon as their payment is settled, they’re done and couldn’t care less about what happens to Bitcoin. On the other hand, long-term bitcoin holders have a long-term vested interest in the network’s security but don’t have a mechanism to pay for it beyond the one-time transaction fees.
@@ -146,7 +146,7 @@ Furthermore, the pessimists point to the lack of empirical evidence that transac
 
 
 
-![alt_text](images/image11.png "image_tooltip")
+![Historical Bitcoin fees per transaction spike intermittently beneath a separate market-price line.](images/image11.png "image_tooltip")
  \
 _Bitcoin fees per transaction (blue bars) and Bitcoin price (black line). (Source: [Blockchain.com](https://www.blockchain.com/explorer/charts/fees-usd-per-transaction))_
 
@@ -184,7 +184,7 @@ Two miners proposing two different valid blocks referencing the same parent bloc
 This means that after a fork occurs, a miner will eventually find a block D referencing one of the two contending blocks (say, block B) at the same height and build on top of it as the parent block. As soon as that happens, the longer of the two contending chains, C>A and C>B>D, will win out and get accepted by the network as the canonical chain. In this case, the C>B>D chain has more blocks, which means it has taken more energy to build it and is therefore accepted as the canonical chain.
 
 
-![alt_text](images/image10.png "image_tooltip")
+![After block A, a four-block branch is selected over a two-block branch in a fork diagram.](images/image10.png "image_tooltip")
 
 
 All of this means that an attacker who controls over 51% of the hash rate can outcompete and mine blocks faster than other miners in the network, granting them monopoly power over the canonical chain. Once they do this, they can hypothetically mine empty blocks or blocks containing only their own transactions and effectively exclude all other network participants from transacting on the network.
@@ -224,7 +224,7 @@ This tokenomics design achieves two goals:
 One, it ensures the network’s long-term sustainability, by tying blockchain security to its utilization as a store of value platform rather than a payments platform. This means that CKB miners aren’t left to rely on unpredictable revenues from transaction fees, but instead can count on the predictable block subsidy rewards from the secondary issuance. Important to highlight here is that the inflation from the secondary emissions targets state occupiers exclusively, as long-term CKB holders can deposit into the inflation shelter and effectively hold a CKB as a scarce, disinflationary asset. Through this inflation tax, state occupiers perpetually compensate miners for the security they enjoy. 
 
 
-![alt_text](images/image12.png "image_tooltip")
+![Nervos Network's solutions to the state explosion problem covers four aspects: local storage limits,  data overhead, resource efficiency, and state rent.](images/image12.png "image_tooltip")
 
 
 This leads us to the second goal, solving the problem of the “tragedy of the commons,” where long-term state occupiers get to use and abuse the network’s storage without appropriately paying for it. Specifically, storing data on the CKB blockchain requires locking a requisite amount of CKB tokens. In this context, CKB tokens effectively represent storage capacity in bytes, where one CKB grants holders the right to store one byte of data on the blockchain. This means that the state space on CKB is effectively privatized, which leads to decreased state bloat, as state occupiers are always incentivized to optimize and occupy as little state as possible to avoid paying excessive state rent.

@@ -70,7 +70,7 @@ Keep in mind that for didactic reasons we assume that every month has 30 days, w
 
 Here’s another example:
 
-![alt_text](images/image6.gif "image_tooltip")
+![Comic: Kevin requests a Nervos DAO withdrawal then waits for cycle end to unlock his deposit.](images/image6.gif "image_tooltip")
 
 ### FAQ
 

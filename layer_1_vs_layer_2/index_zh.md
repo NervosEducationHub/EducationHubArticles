@@ -6,7 +6,7 @@ category: 'Blockchain, Nervos'
 date: '2023-05-25T16:00:00.000Z'
 ---
 
-![alt_text](images/image1.png 'image_tooltip')
+![紫色 Layer 2 三角形位于黑色 Layer 1 底座上方，两层节点之间以连线相接。](images/image1.png 'image_tooltip')
 
 在区块链网络中，Layer 1 是指交易最终结算的基础层区块链。而 Layer 2 则是构建在 Layer 1 区块链之上的可扩展性解决方案，旨在提高 Layer 1 的交易吞吐量。常见的 Layer 1 区块链包括比特币、以太坊和 [CKB（Common Knowledge Base，共同知识库）](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain)，而 Layer 2 网络则包括闪电网络、Optimism 和 Nervos 生态的 Godwoken。
 
@@ -66,7 +66,7 @@ Layer 1 区块链提供了卓越的安全性和最终或者说不可逆的交易
 
 Layer 3 网络，也称为应用链，它运行在 Layer 2 解决方案之上，为特定应用程序或用例提供特定功能和服务。Layer 3 网络可以被看作是 Layer 2 网络的子集，其中 Layer 2 解决了 Layer 1 区块链的可扩展性问题，而 Layer 3 网络构建在 Layer 2 之上，并且提供了额外的服务和功能。
 
-![alt_text](images/image3.png 'image_tooltip')
+![双层与三层架构将 Rollup、隐私方案、Validium和专用应用置于Layer 1之上。](images/image3.png 'image_tooltip')
 
 来源：[https://vitalik.eth.limo/general/2022/09/17/layer_3.html](https://vitalik.eth.limo/general/2022/09/17/layer_3.html)
 

@@ -30,7 +30,7 @@ Blockchains utilize Layer 2 networks to scale because they have very limited tra
 As mentioned, Optimistic rollups are a Layer 2 scaling solution designed to help improve the throughput and efficiency of blockchain networks by moving transactions and computation off the main chain, reducing congestion, and resulting in faster and cheaper transactions on the base chain.
 
 
-![alt_text](images/image1.png "image_tooltip")
+![Rollup states are committed to Layer 1 blocks, with a fraud-proof arrow challenging the latest state.](images/image1.png "image_tooltip")
 
 
 To do this, Optimistic rollups deploy a specific smart contract, called a rollup contract, on the underlying Layer 1, which is responsible for managing the rollup's state, keeping track of user balances, and handling deposits, withdrawals, and dispute resolution. In Optimistic rollups, transactions are collected and aggregated off-chain by "sequencers" or "operators" who bundle multiple transactions together into a single "rollup block." This block contains a summary of the new account state and a cryptographic proof (a Merkle tree root). After that, sequencers submit the rollup block to the main chain by providing the Merkle tree root and additional data, called "calldata," that will be used to verify the rollup block's validity later.
@@ -52,7 +52,7 @@ To transfer a digital asset to an Optimistic rollup, users must lock their funds
 
 
 
-![alt_text](images/image2.png "image_tooltip")
+![Flowchart of an L1-to-L2 bridge. A user's 1 ETH deposit locks in an L1 contract. A sequencer relays this to L2, minting 1 wETH to the user's L2 wallet. A note indicates withdrawals back to L1 take days or weeks.](images/image2.png "image_tooltip")
 
 
 A sequencer, responsible for creating rollup blocks and connecting transaction information between Layer 2 and Layer 1, then assigns the Layer 2 asset representation to the user's wallet address on Layer 2. The user's wallet addresses on Layer 1 and Layer 2 are automatically synchronized. The original asset on Layer 1 remains locked until the user withdraws it, while they can freely transact with the corresponding newly minted asset on the rollup.

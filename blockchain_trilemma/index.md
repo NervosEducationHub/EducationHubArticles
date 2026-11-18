@@ -8,7 +8,7 @@ category: Modular, Nervos, Blockchain, Scaling
 date: '2023-04-09T16:00:00.000Z'
 ---
 
-![alt_text](images/image1.png "image_tooltip")
+![A triangle places scalability, decentralization, and security at its three corners.](images/image1.png "image_tooltip")
 
 
 
@@ -25,7 +25,7 @@ Therefore, the trilemma highlights the trade-offs that all blockchains encounter
 
 Decentralization is a critical aspect of blockchains because it ensures that the network is not controlled by any single entity or group of entities. In a decentralized network, all participants have equal power to validate and verify transactions, making the network more resistant to attacks, capture, and censorship.
 
-![alt_text](images/image2.png "image_tooltip")
+![A bank-centered network on the left contrasts with directly connected decentralized participants on the right.](images/image2.png "image_tooltip")
 
 
 _The comparison between centralized network (left) vs. decentralized network (right)._
@@ -70,7 +70,7 @@ Read the detailed explanation on [Layer 1 vs. Layer 2](https://www.nervos.org/kn
 
 ## How Nervos Solved the Blockchain Trilemma
 
-![alt_text](images/image3.png "image_tooltip")
+![Nervos CKB's cell model and cryptography form the base beneath interoperability components and L1/L2 apps.](images/image3.png "image_tooltip")
 
 
 _Nervos’ multi-layer model illustrated_

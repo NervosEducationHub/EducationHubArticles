@@ -116,17 +116,17 @@ Nervos CKB 的独特之处就在这里。
 
 在大多数区块链上，密码学原语深深嵌入协议中。在 CKB 上，交易授权是可编程的：决定 Cell 能否被花费的逻辑，位于锁定脚本（Lock Script）中，而非固定的原生账户模型、操作码或预编译合约中。
 
-![](images/image3.png "other_blockchains_vs_ckb")
+![对比图将其他链的密码学置于共识规则中，将 CKB 的密码学置于 CKB-VM 锁定脚本中。](images/image3.png "other_blockchains_vs_ckb")
 
 CKB 围绕 Cell 模型设计，它是比特币 UTXO 模型的泛化版本。在比特币中，UTXO 代表可花费的币；在 CKB 中，Cell 是通用的状态容器。与 UTXO 一样，Cell 创建后不可变，不会被就地编辑。要更新状态，交易会消耗现有的活跃 Cell，并创建包含更新后数据的新 Cell。
 
-![](images/image2.png "live_cells")
+![Cell 状态转换消耗旧 Cell 并创建新 Cell，更新活跃集合及所存数据。](images/image2.png "live_cells")
 
 这意味着一笔 CKB 交易就是一次状态转换：旧 Cell 被消耗，新 Cell 被创建，网络验证这一转换是否获准。
 
 CKB 通过执行交易所涉及 Cell 关联的脚本来完成验证。脚本主要有两类：**锁定脚本**和**类型脚本（Type Scripts）**。
 
-![](images/image4.png "cell_lock_script")
+![Cell 的锁定脚本展开为 code_hash、hash_type 与 args，并关联签名逻辑及公钥数据。](images/image4.png "cell_lock_script")
 
 锁定脚本控制所有权，决定 Cell 能否作为交易输入使用。用日常支付的说法，它就是授权层：谁被允许花费这个 Cell？
 

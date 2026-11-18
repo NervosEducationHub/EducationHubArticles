@@ -71,18 +71,18 @@ However, the Ethereum mempool doesn’t support the propagation of intents; it o
 
 For this reason, most intent-based architectures have been designed with separate mempools that allow for the propagation of intents between various nodes in the system. This approach entails outsourcing transaction execution to specialized parties called solvers, who attempt to most closely approximate and execute the users’ preferred desires expressed declaratively.
 
-![alt_text](images/intentpoolmempool.png "image_tooltip")
+![Matchmakers turn user intents in intentpool into transactions in mempool; users can also submit transactions directly.](images/intentpoolmempool.png "image_tooltip")
 
 Suppose someone wanted to trade 0.3 native ETH for an equivalent amount of MEME tokens on Avalanche. Typically, they’d think about creating a transaction to bridge ETH to Avalanche, then finding a DEX that hosts an ETH:MEME liquidity pool, and then finally initiating a swap transaction. 
 
 Suppose, however, that the only token pair available was AVAX:MEME. This would require swapping ETH for AVAX and then AVAX for MEME. Each step of the process will require a separate transaction and fee on the respective chain.
 
-![alt_text](images/transactionmatching.png "image_tooltip")
+![A transaction swaps A for C on Uniswap; intent matching can also choose A-to-B-to-C via Curve and Uniswap.](images/transactionmatching.png "image_tooltip")
 
 
 Understandably, finding the optimal path to an outcome can be challenging for even experienced crypto users, which is why the primitive of intents has been gaining momentum in the past year, with over 26% of Ethereum’s order flow now originating from intent-based protocols.
 
-![alt_text](images/dune.png "image_tooltip")
+![A donut chart indicates that roughly 26% of Ethereum transaction-based orders go through intent-based protocols.](images/dune.png "image_tooltip")
  \
 _Order flow data indicates that roughly 26% of Ethereum transaction-based orders go through intent-based protocols. Source: [Flashbots](https://dune.com/queries/3362105/5642598)._
 
@@ -141,7 +141,7 @@ This declarative property of UTXO chains went largely unnoticed until the primit
 
 The resource model draws heavy inspiration from the UTXO model and functions in much the same way. However, unlike the Bitcoin UTXO model, which sees UTXOs as currency units and is limited in expressivity to that context, the resource model is generalized and provides much greater expressivity.
 
-![alt_text](images/anoma.png "image_tooltip")
+![Comparison between the account, UTXO, and Anoma’s resource data models](images/anoma.png "image_tooltip")
  \
 _Comparison between the account, UTXO, and Anoma’s resource data models. (Source: [Anoma.net](https://anoma.net/blog/rise-of-the-resource-machines#the-role-of-the-arm-in-anoma).)_
 

@@ -14,7 +14,7 @@ author:
 
 Normally, when we analyze the emission model of a coin such as CKB, we usually only consider the theoretical total number of coins issued over time, i.e., the emission curve. However, this does not fully correspond to reality, since the theoretical total number of CKBytes issued and circulating at any given moment should not be confused with the total spendable supply at that moment. This is because coins are continuously lost for multiple reasons, effectively turning them into non-spendable coins.
 
-![alt_text](images/image2.png 'image_tooltip')
+![Stacked bars project CKB supply from genesis, primary issuance, and continuing secondary issuance.](images/image2.png 'image_tooltip')
 
 _This chart only takes into account the emission of new tokens in circulation, not CKBytes lost and unspendable due to deaths, accidents, loss of private keys, etc._
 
@@ -46,11 +46,11 @@ We consider a 0.5% annual rate reasonable, which is in line with Peter Todd's ar
 
 In the following graph we can see how in the long term, the initial supply of CKBytes belonging to the genesis block will eventually be lost over the years.
 
-![alt_text](images/image3.png 'image_tooltip')
+![With assumed annual losses of 0.5%, spendable genesis CKB declines while lost coins increase.](images/image3.png 'image_tooltip')
 
 Similar to genesis, CKBytes from primary issuance tend to be lost over time.
 
-![alt_text](images/image4.png 'image_tooltip')
+![At a modeled 0.5% annual loss rate, spendable primary-issuance CKB rises, peaks, and then declines.](images/image4.png 'image_tooltip')
 
 Just as with Bitcoin's issuance schedule, primary issuance experiences a reduction by half every four years until all primary issuance CKBytes are mined into circulation. For long-term depositors in Nervos DAO, who are only affected by the primary emission, it means that their CKBytes will effectively become deflationary as eventually no new coins will ever enter circulation through the primary issuance, but CKBytes belonging to this emission will continue to be lost steadily over time. In fact, it may become net deflationary long before all the CKBytes from the primary emission are mined.
 
@@ -58,17 +58,17 @@ Thus, for Nervos DAO depositors, their CKBytes not only act as tokens with maxim
 
 In the case of secondary issuance, the fixed supply rate consisting of 1,344,000,000 CKBytes per year will reach an equilibrium point over the years, where the production rate will be equal to the loss rate. In other words, in the long run, the supply of coins belonging to the secondary emission will converge to k/λ (where k is the fixed supply rate, and λ is the coin loss rate), which is the point where coins are created as fast as they are lost.
 
-![alt_text](images/image5.png 'image_tooltip')
+![At 0.5% assumed annual losses, spendable secondary-issuance CKB flattens while cumulative lost coins keep growing.](images/image5.png 'image_tooltip')
 
 Economically this means that secondary issuance converges in the long run to a stable money supply that is neither inflationary nor deflationary. And it also shows how the CKB monetary supply is not really infinite in practice.
 
 This is how the CKB issuance curve would look in the short term, considering the CKByte loss rate:
 
-![alt_text](images/image6.png 'image_tooltip')
+![A 76-year supply model separates spendable genesis, primary, and secondary CKB from coins lost at 0.5% per year.](images/image6.png 'image_tooltip')
 
 While in the long term, it would look like this:
 
-![alt_text](images/image7.png 'image_tooltip')
+![Over 300 modeled years at 0.5% annual losses, genesis and primary CKB shrink as secondary issuance dominates and unspendable CKB increases.](images/image7.png 'image_tooltip')
 
 Keep in mind that for our example we assigned an annual value of 0.5% to λ. If, for example, it were a lower percentage, the trend would remain the same. Genesis CKBytes would eventually be lost, just like those from the primary issuance, creating a deflationary situation for Nervos DAO depositors, and the secondary issuance would reach an equilibrium point at k/λ;  it would just take longer to reach that point.
 
@@ -80,7 +80,7 @@ No matter what value is assigned to λ, as long as CKBytes are continuously lost
 * Regarding primary issuance, as with Bitcoin, the number of coins leaving circulation will eventually exceed the number of coins created through the primary issuance, leading to the same deflationary scenario for all Nervos DAO depositors.
 * As for the secondary issuance, for those network participants who hold their CKBytes outside of the DAO and are thus affected by this targeted tail emission, it converges in the long run to a stable monetary supply that is neither inflationary nor deflationary, being de facto a non-infinite supply.
 
-![alt_text](images/image8.png 'image_tooltip')
+![With 0.5% annual coin losses, modeled spendable CKB supply increasingly consists of secondary-issuance coins.](images/image8.png 'image_tooltip')
 
 As blockchain technology continues to develop and standards improve further every day, it is possible that the rate of private key loss will significantly decrease over time. Among those developments we can highlight multi-signature schemes, social recovery, dead man's switch, and many other developments made possible by [account abstraction](https://www.nervos.org/knowledge-base/account_abstraction_where_we_are_going). Also, the development of good practices and the education of users in the management of their private keys decreases the loss of these keys. 
 

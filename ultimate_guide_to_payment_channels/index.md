@@ -14,13 +14,13 @@ Even then, because fiat money is essentially a [pan-bank liability](https://www.
 
 In other words, even though credit or debit card payments may seem instantaneous to merchants and consumers, they’re far from it. In the background, there’s a slew of processes increasing the costs and time to final settlement abstracted away from the users. The only reason the sluggishness of the traditional financial system remains mostly hidden from the end users is that everyone is mostly transacting on Layer 2s and above.
 
-![alt_text](images/image1.png "image_tooltip")
+![Eight steps trace card payment authorization from the customer through processors and banks back to the merchant.](images/image1.png "image_tooltip")
 
 To that point, this [modular](https://www.nervos.org/knowledge-base/optimizing_layer_1_for_modularity) or layered architecture is even more necessary in the blockchain domain, where protocols are significantly more limited in throughput than their centralized counterparts. Blockchains are public databases updated and replicated across distributed networks of computers, meaning they can’t scale linearly by simply boosting the computational power of their nodes, unlike their centralized counterparts. Blockchains do decentralization by replication of computation, not distribution of it, meaning that the entire network scales at the rate or capacity of a single [node](https://www.nervos.org/knowledge-base/difference_between_miner_full_node). In other words, unlike with centralized payment processors, employing more computers doesn’t imply higher processing power in blockchains.
 
 More importantly, any increase in the hardware requirements for running full blockchain nodes leads to network centralization, effectively destroying the blockchains’ core value proposition of permissionlessness and censorship resistance. For this reason, blockchain architects must be mindful of the [Blockchain Trilemma](https://www.nervos.org/knowledge-base/blockchain_trilemma) and strive to find the right balance between security, scalability, and decentralization. Improving transaction throughput by increasing the block space and/or reducing the block time raises the hardware requirements for full nodes, leading to centralization. On the other hand, keeping the hardware requirements low enables more users to [run nodes](https://www.nervos.org/knowledge-base/ultimate_guide_to_light_clients), but significantly limits the network’s performance.
 
-![alt_text](images/image4.png "image_tooltip")
+![A triangle labels the blockchain trilemma: scalability, security, and decentralization.](images/image4.png "image_tooltip")
 
 To this point, it has become increasingly evident over the last decade that the only way to scale blockchains without hurting decentralization is by moving transaction execution off-chain. As things currently stand, there are several methods of doing this, including rollups and payment and state channels—all commonly referred to as Layer 2 networks. 
 
@@ -51,7 +51,7 @@ However, since funds can be sent back and forth, the channel capacity doesn’t 
 
 The next thing Alice does after sending 10 BTC to the multi-signature address constructed from Alice and Bob’s public keys is create an additional transaction that spends the 10 BTC from the multi-signature address, refunding Alice. Alice then has Bob sign this refund transaction _before_ she broadcasts the first funding transaction to the Bitcoin network. This way, Alice can get a refund or withdraw her 10 BTC from the multi-signature address even if Bob fails to cooperate or becomes unresponsive by simply broadcasting the signed refund transaction.
 
-![alt_text](images/image3.png "image_tooltip")
+![Channel peers exchange open, accept, funding-created, funding-signed, and funding-locked messages over time.](images/image3.png "image_tooltip")
 
 This additional step on Alice’s part is necessary for the payment channels’ security because if Alice were to broadcast the funding transaction without having Bob’s signature for the refund, Bob could refuse to sign a transaction to release the funds from the channel, effectively locking them in the multi-signature address forever.
 
@@ -62,7 +62,7 @@ The payment channel is now established, comprising the funding transaction and t
 
 Commitment transactions are intra-payment channel transactions— i.e., transactions stored locally by the transacting parties and ideally never broadcasted to the blockchain—that pay each channel partner their latest channel balance. 
 
-![alt_text](images/image6.png "image_tooltip")
+![An on-chain funding output links to successive off-chain commitments dividing funds between Alice and Bob.](images/image6.png "image_tooltip")
 
 Commitment transactions are the fundamental invention that allows channel partners to transact without trusting each other. By signing a commitment transaction, each channel partner “commits” to the current channel balance and allows the other party to withdraw their funds whenever they want.
 
@@ -82,7 +82,7 @@ Namely, beyond having at least two outputs paying each channel partner, commitme
 
 This would mean that Bob holds a commitment transaction paying Alice immediately, but his payment is delayed (via the timelock) and revocable, and vice versa; Alice has a commitment transaction paying Bob immediately, but her payment is timelocked. Moreover, they both hold half of the revocation secret, so neither knows the full secret. If Alice shares her half, Bob would have the entire secret and can exercise the revocation condition. Every time the channel parties transact, they share their half of the revocation secret, thereby revoking the previous commitment transaction.
 
-![alt_text](images/image5.png "image_tooltip")
+![Alice and Bob's commitments pair an immediate payout with a delayed output that the counterparty can revoke.](images/image5.png "image_tooltip")
 
 In other words, the channel parties exchange the necessary secret that can be exercised for their own punishment with every new commitment transaction they sign. This makes it unprofitable for them to cheat by broadcasting old commitments, as the other party could revoke them before the timelock (set to a number of blocks up to 2,016, approximately two weeks) for spending the output has expired. Moreover, by exercising the revoke condition, the other party can spend the entire channel’s balance immediately, meaning the cheater would lose all of their money.
 
@@ -135,7 +135,7 @@ The payment channel network protocol leverages HTLCs to ensure that the intermed
 
 For David to enable Alice to route her payment to him using HTLCs, he first generates an invoice containing the payment hash. He then transmits this invoice to Alice through email, a direct message, or a QR code. Upon receiving the invoice, Alice uses the provided payment hash to create an HTLC that locks the payment. This HTLC serves as a secure mechanism, ensuring that the payment can be claimed only by the party who knows the corresponding secret, which in this case is David.
 
-![alt_text](images/image2.png "image_tooltip")
+![Alice requests David's invoice; their payment route runs through Bob and Claire using a shared payment hash.](images/image2.png "image_tooltip")
 
 After creating the HTLC, Alice sends it to Bob, who doesn't know the secret but forwards the payment to Claire using another HTLC locked with the same hash. Claire, following suit, sends the payment to David with an HTLC. The final recipient, David, claims the payment by revealing the secret that matches the hash. This secret is then passed backward through the chain: Claire uses it to claim her payment from Bob, and Bob uses it to claim his payment from Alice. As a result, each participant updates their channel balances, reflecting the completed transactions, making the whole process secure and trustless, efficiently routing a payment through the network without requiring a direct channel between Alice and David.
 

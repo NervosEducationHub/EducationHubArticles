@@ -35,7 +35,7 @@ iCKB 本质上是一种合成代币（synthetic token），代表锁定在 Nervo
 
 下图展示了自创世区块以来，CKB 二级发行对 iCKB 价值产生的累积影响：
 
-![alt_text](images/image2.png "image_tooltip")
+![iCKB 价值走势图显示，其价值从 2019 年的约 1 CKB，上升至 2025 年 7 月 2 日每 iCKB 兑换 1.17432 CKB。](images/image2.png "image_tooltip")
 
 图表显示，从 2019 年 11 月的创世区块到现在，iCKB 相对于 CKB 的价值持续、可预测地增长。这种增长并非来自浮动收益率或市场活动，而是 NervosDAO 二级发行的确定性结果。在每个时点，iCKB 所代表的、受通胀保护的网络份额都与其创建时相同。创世区块、iCKB 协议上线以及当前价值等关键节点，展示了这一机制的实际运作：相对于 1 CKB，1 iCKB 的价值持续累积，自创世区块以来已增长超过 17%。这一稳定向上的趋势说明，为什么 iCKB 能作为 NervosDAO 中受通胀保护的 CKB 衍生品，即使新的 CKB 不断进入流通，也能保持长期价值。
 

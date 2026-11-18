@@ -118,17 +118,17 @@ This is where Nervos CKB stands apart.
 
 On most blockchains, cryptographic primitives are baked deep into the protocol. On CKB, transaction authorization is programmable: the logic that decides whether a Cell can be spent lives in a Lock Script, not in a fixed native account model, opcode, or precompile.
 
-![](images/image3.png "other_blockchains_vs_ckb")
+![A comparison places cryptography in consensus rules on other chains and in CKB-VM Lock Scripts on CKB.](images/image3.png "other_blockchains_vs_ckb")
 
 CKB was designed around the Cell Model, a generalized version of Bitcoin’s UTXO model. In Bitcoin, UTXOs represent spendable coins. In CKB, Cells are generalized state containers. Like UTXOs, Cells are immutable once created: they are not edited in place. To update state, a transaction consumes existing live Cells and creates new Cells with updated data.
 
-![](images/image2.png "live_cells")
+![A Cell transition consumes an old Cell and creates a new one, updating the live set and the stored data.](images/image2.png "live_cells")
 
 This means a CKB transaction is a state transition: old Cells are consumed, new Cells are created, and the network validates whether that transition is allowed.
 
 CKB performs that validation by executing the Scripts associated with the Cells involved in the transaction. There are two main kinds of Scripts: **Lock Scripts** and **Type Scripts**.
 
-![](images/image4.png "cell_lock_script")
+![A Cell's Lock Script expands into code_hash, hash_type, and args, linked to signature logic and public-key data.](images/image4.png "cell_lock_script")
 
 A Lock Script controls ownership. It determines whether a Cell can be used as an input in a transaction. In ordinary payment terms, this is the authorization layer: who is allowed to spend this Cell?
 

@@ -7,7 +7,7 @@ category: 'UTXO, Blockchain'
 date: '2023-04-09T16:00:00.000Z'
 ---
 
-![alt_text](images/image1.png 'image_tooltip')
+![A cash handover represents the UTXO model, while a bank represents the account model.](images/image1.png 'image_tooltip')
 
 _UTXO (left) vs. Account-Based (right) can be imagined like cash transaction vs. bank transfer_
 
@@ -35,7 +35,7 @@ The bookkeeping in the account model works just like bank accounts, where money 
 
 The same happens in account-based blockchains; only the ledger that records the users' balances is distributed among many entities (full nodes). The key point is that account-based blockchains don't track coins but instead balance changes on users' accounts. In this model, the notion of identity is present, and one user is typically associated with a single blockchain account or address.
 
-![alt_text](images/image2.png 'image_tooltip')
+![Alice sends Bob 8 ZEN: her balance falls from 10 to 2, and his rises from 1 to 9.](images/image2.png 'image_tooltip')
 
 ## Key Differences in UTXO vs. Account-based Blockchains
 

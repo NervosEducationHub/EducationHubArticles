@@ -22,7 +22,7 @@ After delving deeper into these related subjects, those who were once skeptical 
 
 At this point, almost every design choice starts to make sense, and every previously perceived flaw becomes seen as a feature. They find that for every “why,” there’s a profound “because,” and for every ensuing “but” there’s a dead protocol, an autopsy record of which demonstrates why Bitcoin has succeeded in a domain where so many have failed.
 
-![alt_text](images/image2.png "image_tooltip")
+![A confidence-versus-competence illustration places an “average person” in a valley between two peaks.](images/image2.png "image_tooltip")
 
 However, escaping the middle of the inverted Dunning-Kruger bell curve can take years of diligent study, which is simply (and understandably) infeasible for most people. Furthermore, there seems to be a strong correlation between knowledge of Bitcoin and conviction in it, which could explain the contrasting panoptic jadedness permeating the “crypto” industry today. 
 
@@ -38,7 +38,7 @@ However, most people, including high-conviction bitcoiners, fail to realize that
 
 Ludwig Wittgenstein once asked a friend, *“Tell me, why do people say it is more natural to think that the sun rotates around the earth than that the earth is rotating?”* The friend said, *“Well, obviously, because it just seems like the sun is going around the earth.”* Wittgenstein replied, “*Well, what would it seem like if it did seem like the earth were rotating?”*
 
-![alt_text](images/image8.png "image_tooltip")
+![A four-panel comic illustrating a philosophical dialogue where a young man's assumption that the sun orbiting the Earth "looks more natural" is shattered by the mind-bending realization that a rotating Earth would look exactly the same.](images/image8.png "image_tooltip")
 
 Building on this anecdote, [Allen Farrington](https://allenfarrington.medium.com/wittgensteins-money-7cac8d0635cf), in his book [Bitcoin is Venice](https://store.bitcoinmagazine.com/products/bitcoin-is-venice), poses the following leading question: *“What would it seem like if it did seem like a global, digital, sound, open-source, programmable money was monetizing from absolute zero?”*
 
@@ -54,7 +54,7 @@ Once this practice becomes prevalent on a large scale, network effects propel th
 
 That said, not all goods that meet these criteria become money. In "[The Origins of Money](https://mises.org/library/book/origins-money)," Austrian economist [Carl Menger](https://en.wikipedia.org/wiki/Carl_Menger) argued that, in a free market, the most *salable* good is ultimately chosen as money, defining salability as the relative ability of a good to be sold in a particular market at the desired time and price.
 
-![alt_text](images/image3.png "image_tooltip")
+![A monetary-evolution diagram moves from store of value to medium of exchange and then unit of account.](images/image3.png "image_tooltip")
 
 *The evolutionary steps monetary goods go through in the process of becoming widely accepted as money. (Source: [The 7th Property](https://epochvc.io/pdf/The-7th-Property-Eric-Yakes-2021.pdf) by Eric Yakes)*
 
@@ -88,7 +88,7 @@ People want to trade and denominate prices using an asset that has a consistentl
 
 However, as it matures and grows bigger, the volatility dampens because the inflow of capital has a smaller impact on the price as it flows into a larger capital base. Supporting data shows that bitcoin's annualized volatility has decreased from 200% in 2010 to about 72% today. 
 
-![alt_text](images/image4.png "image_tooltip")
+![Bitcoin's annualized 30-day volatility fluctuates across a historical time-series chart.](images/image4.png "image_tooltip")
 
 Bitcoin’s annualized 30-day volatility. (Source: [TheBlock](https://www.theblock.co/data/crypto-markets/prices/annualized-btc-volatility-30d))
 
@@ -104,7 +104,7 @@ None of Bitcoin's and Lightning Network's advantages mattered to Salvadorean ent
 
 Stablecoins, as an industry-native product, have achieved the best product-market fit among all crypto asset classes. The annual stablecoin trading volume reached [$27.6 trillion](https://blog.cex.io/ecosystem/stablecoin-landscape-34864), surpassing the combined volume of Visa and Mastercard in 2024 by over 7.68%. For comparison, Bitcoin ended the year with about $19 trillion in value settled on the network. In the same year, the total stablecoin market reached a capitalization of above $200 billion, accounting for 6% of the total crypto market cap and 1% of the total U.S. dollar supply.
 
-![alt_text](images/image5.png "image_tooltip")
+![Stablecoin market capitalization rises, retreats after 2022, and climbs to a new high near $227 billion in 2025.](images/image5.png "image_tooltip")
 
 The total market capitalization of stablecoins. (Source: [DeFiLlama](https://defillama.com/stablecoins))
 
@@ -132,7 +132,7 @@ While using stablecoins on the Lightning Network may be more liberating than sen
 
 Unless we are discussing decentralized, over-collateralized stablecoins—which are significantly more challenging to scale—centralized stablecoin issuers like Tether will certainly still have to comply with regulations, meaning they can censor transactions and must adhere to data collection requirements.
 
-![alt_text](images/image6.png "image_tooltip")
+![A spectrum ranks bank transfers, centralized and decentralized stablecoins, and Bitcoin from least to most free.](images/image6.png "image_tooltip")
 
 There exists a spectrum in this transition, and we cannot expect people to move from one side to the other overnight. Instead, we should recognize that moving towards “freedom money” may take years, and stablecoins could be the necessary catalyst that kickstarts this process.
 
@@ -144,7 +144,7 @@ With innovations like TAP and RGB++, Lightning can transform into a global, inst
 
 For instance, Alice can pay using a dollar-denominated stablecoin, while Bob receives a euro-denominated stablecoin—all within a single atomic transaction. This means merchants and businesses won't have to endure the volatility associated with forex transactions, which is a primary barrier to their adoption of Lightning.
 
-![alt_text](images/image7.jpg "image_tooltip")
+![Alice sends L-USD through Bob and Lightning BTC routing; Yana converts the payment so Zane receives L-EUR.](images/image7.jpg "image_tooltip")
 
 The sender and recipient do not need to transact in the same asset type. (Source [docs.lightning](https://docs.lightning.engineering/the-lightning-network/taproot-assets/taproot-assets-on-lightning)).
 

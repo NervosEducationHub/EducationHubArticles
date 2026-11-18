@@ -6,7 +6,7 @@ category: 'UTXO, Blockchain'
 date: '2023-05-25T16:00:00.000Z'
 ---
 
-![alt_text](images/image1.png 'image_tooltip')
+![现金交接代表 UTXO 模型，银行代表账户模型。](images/image1.png 'image_tooltip')
 
 _UTXO 模型（左） vs. 账户模型（右）可以想像成现金交易与银行转账的区别_
 
@@ -34,7 +34,7 @@ UTXO 的工作方式类似于现金，其中每个 UTXO 就像一张用户可以
 
 基于账户模型的区块链也是如此，不同点在于记录用户余额的分布式账本由许多节点（全节点）来维护。这里的关键点是，基于账户模型的区块链不跟踪代币，而是跟踪用户账户的余额变化。在这个模型中，存在身份的概念，用户通常与区块链账户或地址相关联。
 
-![alt_text](images/image2.png 'image_tooltip')
+![Alice 向 Bob 发送 8 ZEN：她的余额从 10 降至 2，他的余额从 1 增至 9。](images/image2.png 'image_tooltip')
 
 ## UTXO 模型和账户模型的主要区别
 

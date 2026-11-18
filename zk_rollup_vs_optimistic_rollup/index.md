@@ -29,13 +29,13 @@ The main difference between the two rollup types is how they validate proofs.
 
 Another difference between the two technologies is the amount of data they post to their underlying base chains. Because ZK-rollups have a mechanism to validate transactions before posting them to the base chain, they don’t need to transmit as much data as their optimistic counterparts to the Layer 1. Namely, ZK-rollups post only the validity proofs to settle transactions with finality on the base chain, while Optimistic rollups post the entire transaction data.
 
-![alt_text](images/image2.png 'image_tooltip')
+![A rollup bridge locks an ETH deposit on Layer 1 and credits Layer 2; withdrawal waits through a dispute period.](images/image2.png 'image_tooltip')
 \
 _The data relayed to Layer 1 by ZK-rollups (left) vs. Optimistic rollups (right)._
 
 For users, the crucial difference between the two rollup types is the withdrawal time. Namely, because Optimisitc rollups rely on validators to check each transaction and potentially dispute it if they deem it not valid, the withdrawal time for assets can last from several days to up to two weeks. While the dispute period for various Optimistic rollup implementations may vary, it’s nevertheless necessary, meaning that users must always wait a couple of days to withdraw their money on the base chain.
 
-![alt_text](images/image3.png 'image_tooltip')
+![Side-by-side diagrams show a validity proof sent to Layer 1 and an optimistic rollup state challenged by a fraud proof.](images/image3.png 'image_tooltip')
 
 This dispute period is necessary to give verifiers enough time to dispute suspect transactions via so-called fraud proofs. A fraud proof is a claim that a state transition (i.e., transaction) is invalid, and the entire batch should be reverted as a result. The verifiers can prove invalid transactions because they have complete data for all the transactions on Layer 2, including a copy of the current rollup state. They also compute the post-state root in the rollup.
 

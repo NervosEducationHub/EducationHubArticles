@@ -15,7 +15,7 @@ Doing this, while convenient, beats the whole point of disintermediation. Satosh
 
 To that point, the dangers of centralization and reliance on trusted third parties aren't just theoretical or out in the future but have already been materialized today. For example, immediately after OFAC [sanctioned](https://home.treasury.gov/news/press-releases/jy0916) TornadoCash's smart contracts in August 2022, [Alchemy](https://www.alchemy.com/) and [Infura](https://www.infura.io/)—centralized RPC providers hosting over 60% of Ethereum nodes—blocked users from interacting with the privacy protocol. This meant that anyone using the most popular crypto wallet, [MetaMask](https://metamask.io/), under default settings couldn't access what is otherwise a decentralized application running on the largest smart contract platform, Ethereum.
 
-![alt_text](images/eth_nodes.png "image_tooltip")
+![Pie chart of Ethereum node network types, with hosting accounting for 58.6% and residential connections for 39.1%.](images/eth_nodes.png "image_tooltip")
  \
 _Alchemy and Infura exclusively rely on AWS to host their nodes. (Chart: [ethernodes.org](https://www.ethernodes.org/network-types))_
 
@@ -32,7 +32,7 @@ These computers are called _nodes_. They are running computer software called a 
 
 
 
-![alt_text](images/client_server_nodes.jpg "image_tooltip")
+![A central server connects to a laptop, phone, and PC; peer nodes connect directly to one another.](images/client_server_nodes.jpg "image_tooltip")
 
 
 To run a blockchain node, users need to download one of the clients needed to access that specific blockchain. For example, to run a Bitcoin node, users must download the latest version of the [Bitcoin Core](https://bitcoincore.org/) client, whereas to run an Ethereum node, they can choose between several production-level Ethereum clients, the most popular of which currently is [Geth](https://geth.ethereum.org/) (go-ethereum).
@@ -55,7 +55,7 @@ In broad terms, the term “full node” refers to a computer that stores and sy
 
 
 
-![alt_text](images/bitcoin_network_interactions.png "image_tooltip")
+![Bitcoin nodes share blocks and transactions, send pending transactions to miners, and validate miners' new blocks.](images/bitcoin_network_interactions.png "image_tooltip")
 
 
 Because full nodes download, verify, and store each block's full body and state data, running them requires significant storage, memory, and CPU power. For instance, the minimum requirements for [running a full Ethereum node](https://ethereum.org/en/run-a-node/) are a 2 TB SSD, 8 GB of RAM, and an Intel 7th generation processor or higher. For Bitcoin, the full node requirements are much lower and include 2 GB RAM, 500 GB of free disk space, and a low-tier CPU.
@@ -74,13 +74,13 @@ For the uninitiated, a block's structure is broadly divided into a header and a 
 For example, Bitcoin block headers contain only one root, the [Merkle tree](https://en.wikipedia.org/wiki/Merkle_tree) root of all the block's transactions. In cryptography and computer science, a Merkle tree is a [hash-based](https://www.nervos.org/knowledge-base/what_is_a_hash_function) data structure that allows efficient and secure verification of the contents of large data sets. For context, the average Bitcoin transaction is around 250 bytes, with a full block containing a maximum of about 2,000 transactions. In comparison, the total size of a Bitcoin block's header is about 80 bytes, with the Merkle root weighing only 32 bytes.
 
 
-![alt_text](images/merkle_tree.png "image_tooltip")
+![Eight data leaves are hashed and combined in pairs through a Merkle tree to form one root hash.](images/merkle_tree.png "image_tooltip")
 
 
 On the other hand, Ethereum block headers contain two roots, one state and one transaction root, where the former references the root hash of the state tree (a modified version of a Merkle tree), while the latter references the root hash of the transaction tree. The state tree is a compact data structure that stores the current state of the Ethereum network, including contract storage data and the balance and nonce of all accounts, while the transaction tree contains the hashes of all transactions within the block.
 
 
-![alt_text](images/bitcoin_ethereum_blocks.png "image_tooltip")
+![Bitcoin's block and transaction Merkle root versus Ethereum's block, account state, and world-state, transaction, receipt, and account-storage tries.](images/bitcoin_ethereum_blocks.png "image_tooltip")
 
 
 Because the Merkle roots of the respective state and transaction trees contain all of the state and transaction data in a condensed but easily verifiable format, light nodes can independently verify transactions by only downloading the headers. This means that light nodes must still get the block data or headers from some provider, be that a direct connection to a full node (typical in Bitcoin) or an RPC (typical in Ethereum), but don’t have to trust them blindly. Instead, they can independently verify transactions while leveraging a fraction of the storage and computing requirements necessary for running full nodes. Naturally, the security assumptions light nodes must rely on are higher than those of full nodes as they don’t participate directly in the consensus process.
@@ -106,7 +106,7 @@ However, verifying headers in [Proof-of-Stake](https://ethos.dev/beacon-chain)-b
 Verifying a header is trickier than verifying a transaction because part of the data needing verification depends on the previous header. For instance, the previous block's hash can only be known by verifying the previous block's header, and the validator set information can only be verified by verifying the state of the previous block. This means that for a light client to be sure that a specific header is legitimate, it would need to recursively verify all the headers back to the  Genesis block’s header.
 
 
-![alt_text](images/block_header.png "image_tooltip")
+![Four transaction hashes combine in a Merkle tree beneath block 11, alongside headers for blocks 10 and 12.](images/block_header.png "image_tooltip")
 
 
 Even though headers are much smaller than whole blocks, and this process is significantly faster than downloading the entire chain as full nodes do, light clients still can't afford to do this and need to synchronize much faster. For this reason, [new infrastructure](https://github.com/ethereum/annotated-spec/blob/master/altair/sync-protocol.md#introduction) specifically designed to support light clients was introduced with Ethereum's move to Proof-of-Stake. 
@@ -116,7 +116,7 @@ Namely, Ethereum light clients can leverage the Beacon chain's so-called "[sync 
 The sync committee is a randomly selected subset of 512 validators that serve for about 27 hours. The committees sign the headers of recent blocks and include their [aggregated signature](https://eth2book.info/capella/part2/building_blocks/signatures/) in them. The headers also contain a list of validators expected to participate in the following sync committee. This means that when light clients receive a header, they can quickly see that a sync committee has signed it and also check whether the sync committee is genuine by comparing it to the one they were told to expect in the previous block.
 
 
-![alt_text](images/lc_and_pos.png "image_tooltip")
+![A block header root, participating public keys, and an aggregate signature feed into a signature verification algorithm.](images/lc_and_pos.png "image_tooltip")
 
 
 Important to note here is that the sync committee doesn’t hold the same security guarantees as the entire Ethereum validator set, as it was specifically introduced as part of the Light Client Protocol to help reduce the computational costs of verifying the validity of headers. Instead of verifying over 400,000 validator signatures, light clients can verify only the signatures of the 512 randomly selected validators of the rotating sync committees, significantly reducing the computational overhead. However, light clients must assume that most of the sync committee validators are honest, as there’s no slashing for them. To that point, it’s highly statistically improbable that the sync committee would sign off on an invalid block header if a significant portion of the entire Ethereum validator set is honest.
@@ -124,14 +124,14 @@ Important to note here is that the sync committee doesn’t hold the same securi
 This means that if more than two-thirds of the committee sign a given header, it is extremely likely that that block is in the canonical chain. In other words, if a light client knows the makeup of the current sync committee, it can confidently track the head of the chain by asking a provider (a full node or an RPC) for the most recent sync committee signature. However, how do light clients obtain knowledge about the most recent sync committee? They get it from the previous sync committee. 
 
 
-![alt_text](images/shuffled_validators.png "image_tooltip")
+![A shuffled validator list is divided into committees assigned across slots 0 through 31.](images/shuffled_validators.png "image_tooltip")
 
 
 As already explained, every 27 hours, the sync committee changes and passes on the power to sign the latest block to the next sync committee. To get the previous sync committee, light clients need the sync committee before that one, and so on, all the way back to the Merge transition block and the first-ever sync committee. If they start from there, light clients can move up the chain's history 27 hours or one sync committee at a time all the way up to the present sync committee. 
 
 
 
-![alt_text](images/sync_committee.png "image_tooltip")
+![A 512-validator sync committee contributes a SyncAggregate; the block also identifies the next 512-validator committee.](images/sync_committee.png "image_tooltip")
 
 
 The aggregated signature of each sync committee is super small, about 25 kilobytes, meaning it takes clients little storage and effort to sync to the latest block header. To speed up this process even more, light clients can leverage [weak subjectivity checkpoints](https://notes.ethereum.org/@adiasg/weak-subjectvity-eth2) and start synchronizing from a more recent “universal truth”—a block all nodes agree belongs in the canonical chain—instead of the Merge transition block. Theoretically, this method allows light clients to safely and trustlessly sync with the tip of the chain within a few seconds, requiring negligent storage space.

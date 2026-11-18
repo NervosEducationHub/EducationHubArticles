@@ -7,7 +7,7 @@ date: '2023-05-25T16:00:00.000Z'
 ---
 
 
-![alt_text](images/image5.png "image_tooltip")
+![文档经 SHA-256 处理后生成哈希值。](images/image5.png "image_tooltip")
 
 ## 什么是哈希函数？
 
@@ -18,7 +18,7 @@ date: '2023-05-25T16:00:00.000Z'
 比如以下示例：
 
 
-![alt_text](images/image2.png "image_tooltip")
+![SHA-256 生成器将 “let's learn blockchain” 转换为由 64 个十六进制字符组成的哈希值。](images/image2.png "image_tooltip")
 
 
 如上例所示，通过哈希函数运行“let’s learn blockchain”输入会得到以下输出：77db72b12a7667ad73fd33544d1f397268dffe18ca3042e0a09af9f993a8f9c1. 
@@ -27,7 +27,7 @@ date: '2023-05-25T16:00:00.000Z'
 
 
 
-![alt_text](images/image3.png "image_tooltip")
+![给 “let's learn blockchain” 末尾加上句号后，SHA-256哈希值随之改变。](images/image3.png "image_tooltip")
 
 
 此示例是展示哈希函数作为加密机制的强大功能的最佳方式。即使是输入中最细微的变化也会完全改变输出，这意味着（几乎）不可能仅通过分析输出来进行反向解析并找出原始输入。
@@ -64,7 +64,7 @@ Secure Hash Algorithm 1 (SHA-1) 是一种哈希函数，它采用随机长度输
 
 SHA-1 通过将输入分成 “n” 个部分来转换用户数据；每个大小为 448 位，然后加上64位填充，总共 512 位。这 512 位通过压缩函数发送，该函数输出最终的 160 位哈希值。
 
-![alt_text](images/image4.png "image_tooltip")
+![SHA-1 示意图：输入填充、压缩循环，以及160 位哈希值。](images/image4.png "image_tooltip")
 
 ### Secure Hash Algorithm (SHA-2)
 

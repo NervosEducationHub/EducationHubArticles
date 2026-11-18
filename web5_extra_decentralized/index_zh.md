@@ -14,7 +14,7 @@ Twitter 创始人 Jack Dorsey 着手打造的 [TBD](https://tbd.website/) ——
 
 他认识到，Web3 的现实与其愿景存在根本性对立：它与互联网现有基础设施不兼容，且致力于彻底取代后者。  
 
-![alt_text](images/image7.png "image_tooltip")
+![Web5 将 Web2 与 Web3 相结合，强调去中心化标识符、Web 节点及个人数据所有权。](images/image7.png "image_tooltip")
 
 *Web5 的定义 (来源: [TBD PPT](https://docs.google.com/presentation/d/1SaHGyY9TjPg4a0VNLCsfchoVG1yU3ffTDsPRcU99H1E/edit#slide=id.g12e604c56a9_0_121))*
 
@@ -22,7 +22,7 @@ Twitter 创始人 Jack Dorsey 着手打造的 [TBD](https://tbd.website/) ——
 
 为此，Dorsey 半开玩笑地提出了 “Web5” 一词，一方面是对 Web3 的嘲讽，另一方面也是向 [HTML5](https://en.wikipedia.org/wiki/HTML5) 致敬。HTML5 是当今互联网的基础，也是 15 年前推动网络进化的最后一项重大技术尝试。
 
-![alt_text](images/image1.png "image_tooltip")
+![TBD 于 2022 年 6 月 10 日发帖，宣布 “Web5：一个更加去中心化的 Web 平台”。](images/image1.png "image_tooltip")
 
 从 TBD 的[白皮书](https://github.com/TBD54566975/tbdex-whitepaper/blob/main/whitepaper.pdf)来看，Dorsey 将 Web5 视为一个以比特币作为基础共识层、闪电网络作为支付网络的点对点网络。它围绕三大支柱展开：1）自主拥有的去中心化标识符，2）可验证凭证，以及 3）用于存储数据和转发消息的去中心化网络节点。  
 
@@ -48,7 +48,7 @@ Nostr 不依赖单一平台存储用户数据，而是通过独立运营的服�
 
 我们眼中的 Web5 是一个由点对点网络组成的网状结构，连接各类 PoW（工作量证明）和 UTXO 共识层、通道网络以及其他尚未被构想出来的系统。更抽象地说，Web5 是建立在这个点对点网状结构之上的蓬勃发展的去中心化应用（dApp）生态系统。
 
-![alt_text](images/image10.png "image_tooltip")
+![网络图对比单一中心、多个中介枢纽，以及层级性较弱的点对点网状结构。](images/image10.png "image_tooltip")
 
 *去中心化和点对点网络的网络拓扑结构 (来源: [CKB Eco Fund](https://ckbeco.fund/))*
 
@@ -73,7 +73,7 @@ Web5 建立在真正去中心化、点对点拓扑结构的网络之上，这是
 
 观察今天的以太坊，“信任” 似乎有增无减。尽管质押池运营商和区块构建者并非严格意义上的可信第三方（TTP），但他们显然已成为日益重要的特权角色。  
 
-![alt_text](images/image9.png "image_tooltip")
+![ETH 质押环形图显示 Lido 占 27.8%、Coinbase 占 10.9%，其余实体占比较小。](images/image9.png "image_tooltip")
 *各实体质押的 ETH 占总质押的百分比 (来源: [dune.com](https://dune.com))*
 
 流动性质押协议 [Lido](https://lido.fi/) 控制着约 28% 的总质押 ETH，[Coinbase](https://www.coinbase.com/) 控制着约 11%，这引发了对治理权和验证权集中于少数行业巨头的担忧。[Beaverbuild](https://beaverbuild.org/) 和 [Titan Builder](https://www.titanbuilder.xyz/) 生产了以太坊[约 89% 的区块](https://x.com/nero_eth/status/1846786871998759141)，进一步加剧了对抗审查能力和最大可提取价值（[MEV](https://cryptobriefing.com/what-is-mev-ethereums-invisible-tax-explained/)）控制的忧虑。  
@@ -83,7 +83,7 @@ Web5 建立在真正去中心化、点对点拓扑结构的网络之上，这是
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Not to give away the full game. But<br><br>Yes start with one and figure out how to make crosschain interop against other chains completely seemless <br><br>Once you do that, if unichain gets too full you just make more copies of it that interop together if/when vertical scaling caps out <a href="https://t.co/rKHzxCj8VJ">https://t.co/rKHzxCj8VJ</a></p>&mdash; Hayden Adams 🦄 (@haydenzadams) <a href="https://twitter.com/haydenzadams/status/1860390973739561032?ref_src=twsrc%5Etfw">November 23, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 这些系统依赖充当 “服务器” 的中心化基础设施提供商，而用户则成为依赖这些服务器获取网络功能和访问权限的 “客户端”。这种架构与传统 Web2 无异，背离了 Web3 最初追求的去中心化目标。  
 
-![alt_text](images/image11.png "image_tooltip")
+![左侧客户端设备连接同一服务器；右侧对等节点组成直接互连的网状网络。](images/image11.png "image_tooltip")
 
 以 [Rollup](https://www.nervos.org/knowledge-base/zk_rollup_vs_optimistic_rollup) 为例，对中心化排序器的依赖造成了严重瓶颈。最理想情况下，单一实体完全控制交易排序与打包，用户不得不信任其行为诚实 —— 这与加密货币 “无需信任” 的宗旨背道而驰。最糟糕情况下，该实体可彻底停止链的运行，如以太坊 Layer 2 项目 Linea 今年因生态内某去中心化交易所遭攻击而[暂停排序器](https://www.dlnews.com/articles/defi/ethereum-layer-2-linea-pauses-chain-after-velocore-exploit/)。  
 
@@ -97,7 +97,7 @@ Web5 建立在真正去中心化、点对点拓扑结构的网络之上，这是
 除信任与安全问题外，横向扩展（即通过侧链分流交易执行）还导致严重的流动性碎片化和基础设施成本问题。目前存在数十个以太坊 Layer 2，其中多数因无法吸引足够流动性而沦为幽灵链。 
 
 
-![alt_text](images/image2.png "image_tooltip")
+![Layer 2 价值排名中，Arbitrum One 以 176.1 亿美元居首，Base 以 145.1 亿美元紧随其后。](images/image2.png "image_tooltip")
 
 *排名前两位的 Layer 2 项目 Arbitrum 和 Base 的总 TVL（321.2 亿美元）超过了其余 18 家 Layer 2 项目 TVL 的总和（114.3 亿美元）。 (来源: [L2Beat.com](https://l2beat.com))*
 
@@ -195,11 +195,11 @@ PoS+Account 系统和 PoW+UTXO 系统之间存在显著差异，其实现方式�
 
 支持我们假设的第一个维度是 PoW+UTXO 和 PoS+Account 链在状态性假设上的差异。
 
-![alt_text](images/image5.png "image_tooltip")
+![UTXO 模型中的状态转换：Alice 花费一个 10 BTC 的 UTXO，生成给 Bob 的 8 BTC 输出及 1.999 BTC 找零。](images/image5.png "image_tooltip")
 
 例如，在基于 UTXO 的系统中，交易是有状态的，包含输入与输出两个部分。每笔交易明确消耗哪些 UTXO 并生成哪些新 UTXO，即携带更新账本所需的全部状态信息。但链上环境本质上是无状态的，交易仅能影响其直接引用的 UTXO，无法修改账本其他部分。  
 
-![alt_text](images/image4.png "image_tooltip")
+![账户模型中的状态转换：转账 8  ETH 后，Alice 余额从 10 变为2，Bob 从 1 变为 9；合约余额仍为 3。](images/image4.png "image_tooltip")
 
 相反，在基于 Account 的系统中，交易是无状态的 —— 仅包含操作指令（即期望执行的动作或方法调用），而不需要明确说明相关账户的当前状态。链上环境则是有状态的，任何交易均可修改任意账户或合约的状态。例如，一个智能合约可以与多个账户交互并改变各种状态变量，导致系统状态高度互联。
 
@@ -207,17 +207,17 @@ PoS+Account 系统和 PoW+UTXO 系统之间存在显著差异，其实现方式�
 
 就共识机制而言，PoS 共识是有状态的。验证共识需访问链上数据，特别是当前的验证者集合、他们的质押状态及随机数。由于验证者集合动态变化，节点需持续跟踪这些状态以验证新区块。  
 
-![alt_text](images/image-block.png "image_tooltip")
+![轻客户端接收区块头，并向全节点请求交易及 SPV 证明。](images/image-block.png "image_tooltip")
 
 而 PoW 共识本质上是无状态的：节点仅需验证区块头中的工作量证明即可确认区块链有效性，无需额外的链上状态信息。  
 
-![alt_text](images/image-spv.png "image_tooltip")
+![比特币白皮书的 SPV 章节通过默克尔分支，将该区块中的第四笔交易 tx3 链接到区块头](images/image-spv.png "image_tooltip")
 
 这些状态性假设的差异意味着，在 PoS+Account 模型中，用户验证交易需追踪全局状态，这要求运行全节点。  
 
 然而，PoS+ Account 模型的状态性显著增加了全节点的存储与计算负担。节点需独立执行所有智能合约以验证交易，跟踪验证者集合及其质押量的变化，并处理与区块验证相关的认证、提案和其他数据。这导致节点需存储与计算额外的状态信息。  
 
-![alt_text](images/image3.png "image_tooltip")
+![比特币区块链体积持续增长；以太坊全同步数据增长中出现两次陡降，其中一次标为“剪枝”。](images/image3.png "image_tooltip")
 
 数据对比可直观体现差异：运行以太坊全节点的最低要求为 2TB 固态硬盘、16GB 内存、第七代或更高版本的英特尔处理器；而运行比特币全节点仅需低端 CPU、2GB 内存和至少 15GB 的可用磁盘空间。此外，以太坊正面临[状态爆炸](https://www.theblock.co/post/258960/solving-state-bloat)问题 —— 其状态的增长速度是比特币的 3.5 倍，且无法修剪旧状态数据，这意味着状态增长没有上限。
 
@@ -238,7 +238,7 @@ PoS+Account 系统和 PoW+UTXO 系统之间存在显著差异，其实现方式�
 
 PoW+UTXO 与 PoS+Account 系统的确定性表现方式不同，导致网络拓扑上的差异，尤其体现在验证者选举、出块时间与终局性上。  
 
-![alt_text](images/image-determinism.png "image_tooltip")
+![表格将 PoS 的出块者选择、出块时间、最终性和共识集合标为确定性，将 PoW 对应项目标为非确定性。](images/image-determinism.png "image_tooltip")
 
 在 PoS 系统中，验证者选举是确定性的 —— 验证者按预设规则轮流出块。这种方式虽提升效率，却引入了脆弱性：验证者 IP 地址公开，攻击者可针对特定验证者发起 DDoS 攻击，导致其出块时段内网络瘫痪。此外，验证者必须相互了解并配合得当，因为网络的健康依赖于此。
 
@@ -263,7 +263,7 @@ PoW 网络因此更为健壮，没有节点处于有利地位，也没有节点�
 
 尽管开始时充满争议（或许 “rgbp2p” 是一个更好的名字），[RGB++](https://talk.nervos.org/t/rgb-protocol-light-paper-translation/7790/59) 正引领 Web5 浪潮，通过无需信任的方式整合比特币与 Nervos CKB，无需跨链桥或可疑的安全机制。[Dogecoin 的支持](https://github.com/ckb-devrel/rust-dogecoin/pull/1)正在开发中，未来有望接入 [Kaspa](https://kaspa.org/)、[Ergo](https://ergoplatform.org/en/) 等 PoW+UTXO 链。  
 
-![alt_text](images/image6.png "image_tooltip")
+![RGB++ 采用同构绑定将比特币交易输出绑定至 CKB Cell，并在比特币上承诺 CKB交易哈希。](images/image6.png "image_tooltip")
 
 通道网络的进展更令人振奋。2024 年大部分时间，[Fiber Network](https://www.fiber.world) 项目致力于在 CKB 上实现兼容闪电网络的通道，目前正快速迈向主网。尽管闪电网络以高难度著称，CKB 为其提供了新的计算基础，可在无需共识变更的前提下测试闪电网络的各种改进方案。  
 

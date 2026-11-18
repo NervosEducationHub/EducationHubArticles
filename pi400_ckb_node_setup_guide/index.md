@@ -41,37 +41,37 @@ Easiest way is by using the Raspberry Pi Imager, Go to:
 
 [https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/)
 
-![](images/image1.png) download and install the imager for your operating system (Windows, Mac or Linux[ubuntu])
+![The Raspberry Pi software page offers Imager downloads for Ubuntu, Windows, and macOS.](images/image1.png) download and install the imager for your operating system (Windows, Mac or Linux[ubuntu])
 
 If you haven't plugged in and or inserted the micro SD to your PC yet, do that now.
 
-![](images/image2.png)
+![Raspberry Pi Imager opens with “Choose OS,” “Choose Storage,” and an inactive “Write” button.](images/image2.png)
 
 Open the Raspberry Pi Imager you just installed
 
 Select "CHOOSE OS".
 
-![](images/image3.png)
+![“Misc utility images” is highlighted in Raspberry Pi Imager's operating-system menu.](images/image3.png)
 
 Scroll down to "Misc Utility Images"
 
-![](images/image4.png)
+![The “Bootloader” entry is highlighted, with a description about restoring defaults and changing boot priority.](images/image4.png)
 
 in the next menu choose "Bootloader"
 
-![](images/image5.png)
+![“USB Boot” is highlighted, specifying USB boot first and SD-card boot as fallback.](images/image5.png)
 
 then "USB Boot"
 
-![](images/image6.png)
+![Raspberry Pi Imager's storage menu highlights a mass-storage device.](images/image6.png)
 
 Select "CHOOSE STORAGE" and select your micro SD card.
 
-![](images/image7.png)
+![USB Boot and a mass-storage device are selected, enabling the “Write” button.](images/image7.png)
 
 Click Write, you'll get a warning popup about erasing the card, stop and back up the card if you need to now, then a progress bar will appear.
 
-![](images/image8.png)
+![Raspberry Pi Imager shows USB Boot writing in progress at 50%.](images/image8.png)
 
 Success!
 
@@ -81,19 +81,19 @@ If you haven't plugged in the external HDD to your PC yet, do that now.
 
 Again select the "CHOOSE OS" button (Which now says USB BOOT, you might have to click back a couple times to reach the root menu).
 
-![](images/image9.png)
+![A “Write Successful” dialog confirms USB Boot was written and says the SD card can be removed.](images/image9.png)
 
 select "Other General Purpose OS"
 
-![](images/image10.png)
+![“Other general-purpose OS” is highlighted in Raspberry Pi Imager's operating-system menu.](images/image10.png)
 
 choose "Ubuntu"
 
-![](images/image11.png)
+![The operating-system submenu highlights Ubuntu above Apertis and RISC OS Pi.](images/image11.png)
 
 then "Ubuntu Desktop 22.04.2 LTS (64 Bit)"
 
-![](images/image12.png)
+![“Ubuntu Desktop 22.04.2 LTS (64-bit)” is highlighted and marked as cached on the computer.](images/image12.png)
 
 Select "CHOOSE STORAGE" and select your HDD.
 
@@ -107,7 +107,7 @@ Ubuntu 22.04.2LTS Desktop is an open source, fully functional, Graphical Operati
 
  
 ## Connecting the pi
-![](images/image13.png)
+![A Raspberry Pi 400 rear-panel photo labels microSD, dual HDMI, USB-C power, USB 2.0, USB 3.0, and Ethernet.](images/image13.png)
 
 Plug your HDD into a blue USB3.0 port on the Pi, use the a white 2.0 port for the mouse. Connect the micro HDMI cable to a HDMI enabled display/TV. For the first run put the bootloader micro sd card in the slot. Connect the USBA-C cable between the usb C power port on the Pi and the power supply. The pi will power on and should load the bootloader from the micro sd card let this run until the green indicator light begins to flash steadily, this needs to be done once to tell the Pi to check the USB bus first (the external HDD)for a bootable image. After the sequence has finished turn off the pi and remove the SD card, now restart the Pi and it should start to display the boot/initialisation sequence from the external HDD. You'll now need to set up the operating system details, WiFi connection details, timezone, keyboard layout. You also be asked to create a default user for logging into the operating system. All very straight forward.
 
@@ -119,20 +119,20 @@ https://github.com/nervosnetwork/ckb/releases/tag/v0.110.0
 
 Click "tarball" and download the binary
 
-![](images/image14.png)
+![A CKB download table highlights the Linux ARM64 tarball and its glibc and libstdc++ dependencies.](images/image14.png)
 
 Once the download is finished click open file, choose archive manager to open the tarball.
 
-![](images/image15.png)
+![The browser download panel shows the CKB v0.110.0 aarch64 Linux archive, ready to open.](images/image15.png)
 
 Extract to a new folder called "ckb"
 
-![](images/image16.png)
+![An archive extraction dialog creates a folder named “ckb.”](images/image16.png)
 
 This is the part where we need to do some command line work, it's pretty straightforward, you can copy and paste the below where needed.
 
 To bring up a terminal window press: "Ctrl" + "Alt" + "T"
-![](images/image17.png)
+![An Ubuntu terminal is open at an empty shell prompt.](images/image17.png)
 
 First update and upgrade the existing libraries: 
 
@@ -141,11 +141,11 @@ sudo apt-get update
 sudo apt-get upgrade
 
 
-![](images/image18.png)
+![The command “sudo apt-get update” is entered at the terminal prompt.](images/image18.png)
 
 Once Ubuntu determines how many upgrades need to be installed it'll prompt you to confirm installing them, hit "Y" and press enter. There should be about 200 things to upgrade as it's a fresh install, go walk your dog or grab a bite to eat, it'll take about 30-60 minutes depending on your connection. It'll look like this when upgrading.
 
-![](images/image19.png)
+![An Ubuntu terminal downloads package updates and displays transfer progress.](images/image19.png)
 
 Next install the following applications which are essential for linux life. Make and Curl
 
@@ -153,22 +153,22 @@ sudo apt-get install make
 
 sudo apt-get install curl
 
-![](images/image20.png)
+![The terminal reports Make is already installed, with “sudo apt-get install curl” entered next.](images/image20.png)
 
 Next install Rustup, which maintains and updates Rust on your OS.
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-![](images/image21.png)
+![A terminal command downloads and runs the Rustup installer from sh.rustup.rs.](images/image21.png)
 
 You'll be prompted to confirm the installation type "1" then enter to install to in the default method. The install will take a few minutes.
 
-![](images/image22.png)
+![Rustup uses the default installation option and downloads Rust toolchain components.](images/image22.png)
 
 Now install the C++ toolchain and clang
 
 sudo apt-get install -y git gcc libc6-dev pkg-config libssl-dev libclang-dev clang
-![](images/image23.png)
+![An apt-get command installs Git, GCC, development libraries, and Clang.](images/image23.png)
 
 Next install the required Openssl libraries
 
@@ -178,7 +178,7 @@ sudo dpkg -i libssl1.1\_1.1.0g-2ubuntu4\_arm64.deb
 
 wget http://ports.ubuntu.com/pool/main/o/openssl/openssl\_1.1.1f-1ubuntu2\_arm64.deb
 
-sudo dpkg -i openssl\_1.1.1f-1ubuntu2\_arm6d ![](images/image24.png)![](images/image25.png)
+sudo dpkg -i openssl\_1.1.1f-1ubuntu2\_arm6d ![A terminal downloads the ARM64 libssl1.1 Debian package from Ubuntu's package archive.](images/image24.png)![A terminal confirms the ARM64 OpenSSL 1.1.1f Debian package download completed.](images/image25.png)
 
 ## Overclocking and Over Volting
 
@@ -186,7 +186,7 @@ Overclocking isn't necessary and does come with some risk but offers significant
 
 sudo nano /boot/firmware/config.txt
 
-![](images/image26.png)
+![Nano edits a Raspberry Pi config file, with “arm_freq=2000” boxed and labeled “Add this line.”](images/image26.png)
 
 Scroll to the bottom and add the following line
 
@@ -203,13 +203,13 @@ That's all the intensive stuff done. Now all that's left is to initialise the no
 In the terminal type
 
 ./ckb init --chain mainnet
-![](images/image27.png)
+![“./ckb init --chain mainnet” creates CKB configuration files and displays the genesis hash.](images/image27.png)
 
 
 then
 
 ./ckb run
 
-![](images/image28.png)
+![A running CKB node prints peer connections and initial block-download synchronization logs.](images/image28.png)
 
 ## Congratulations! You now have a node running on a Raspberry Pi. In a few days you be synced and contributing to the decentralisation of the Nervos Network.

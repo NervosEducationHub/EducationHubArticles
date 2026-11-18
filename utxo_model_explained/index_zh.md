@@ -6,7 +6,7 @@ category: 'UTXO'
 date: '2023-05-25T16:00:00.000Z'
 ---
 
-![alt_text](images/image2.png 'image_tooltip')
+![钱包插图显示向一个标有 9.5 的钱包向另一钱包支付 1.5；弯曲的返回箭头，提示找回 UTXO 0.09 的纸条。](images/image2.png 'image_tooltip')
 
 UTXO（Unspent Transaction Output，未花费的交易输出） 模型在比特币和其他基于 UTXO 的加密货币中起着至关重要的作用。它能准确跟踪代币所有权的变化，并支持了区块链网络的安全性和完整性。
 

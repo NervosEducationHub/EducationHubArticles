@@ -13,7 +13,7 @@ Nervos is a modular blockchain network built from the ground up to ensure outsta
 This means that unlike most monolithic blockchains that have transaction execution, consensus, and data availability all happen on the same layer, Nervos separates these functions into two different layers: the Layer 1, comprising the Common Knowledge Base (CKB), a secure and decentralized preservation platform, and the Layer 2, made up of different high-throughput networks optimized for scaling.
 
 
-![alt_text](images/image5.png "image_tooltip")
+![A single block doing different tasks altogether with each face; compared with many blocks assembled together, with each block working on its specific tasks in a modular manner.](images/image5.png "image_tooltip")
 
 
 To that point, unlike all other Layer 1 blockchains, whose tokenomics are better suited for transactional (Layer 2) platforms, CKB is the only blockchain with a tokenomic model adequately optimized for a preservation-focused, store-of-value platform. Moreover, it is the only blockchain that has innovated on the tokenomics front to create an incentive system that aligns the interest of all network participants and solves the [state explosion](https://www.nervos.org/knowledge-base/state_bloat_blockchain) problem besetting all blockchains.
@@ -39,7 +39,7 @@ Similar to Bitcoin’s issuance schedule, CKB’s primary token issuance halves 
 This means that over the first four years, 16.8 billion CKB will be mined, putting the initial yearly issuance rate at 4.2 billion. After the first halving cycle, due sometime in November 2023, the issuance rate will drop to 2.1 billion CKB per year, after the second halving to 1.05 billion CKB per year, and so on, until all primary issuance tokens are mined.
 
 
-![alt_text](images/image1.png "image_tooltip")
+![A chart showing cumulative CKB base issuance approaches 33.6 billion after the year of 2043, with the growth rate halving at each marked interval.](images/image1.png "image_tooltip")
 
 
 All primary issuance tokens are awarded to the CKB miners, which are paid a fixed amount of CKBytes per block as an incentive or reward for providing the computer resources needed to process transactions and secure the network. As the Nervos network grows and CKB tokens become more valuable, the nominal reward rate can decrease—and eventually, stop—without negatively affecting the network’s security.
@@ -57,7 +57,7 @@ The precise ratio of the split depends on how the currently circulating CKB toke
 
 Important to understand here is that the inflation from the secondary emissions is narrowly targeted and affects only state occupiers, which means that CKB can simultaneously act as a deflationary token for long-term CKB holders and an inflationary token for the blockchain’s users.
 
-![alt_text](images/image6.png "image_tooltip")
+![A chart showing CKB circulating supply rises faster than the equivalent supply for long-term token holders.](images/image6.png "image_tooltip")
 
 
 This unique two-tiered token emissions model ensures the long-term sustainability of the Nervos Network by making the miner compensation independent of transaction fees and more closely tied to the utilization of the blockchain as a preservation or store-of-value platform. 
@@ -79,7 +79,7 @@ Important to understand here is that the state explosion problem isn’t theoret
 
 On the other hand, Ethereum charges fixed amounts of gas for inserting new values into its state storage and offers fixed amounts of gas as a transaction refund when values are removed. While this is a step in the right direction, it does little to curb state expansion, as the state’s growth rate isn’t bounded in any way. Moreover, Ethereum runs into the same “tragedy of the commons” problem as Bitcoin, as the system charges a one-time fee for expanding the state storage, whereas the miners and full nodes have to bear the costs of storage over time.
 
-![alt_text](images/image8.png "image_tooltip")
+![Pie chart showing the distribution of Ethereum nodes run by web service providers, where Amazon.com the largest slice at 65.0%.](images/image8.png "image_tooltip")
  \
 _Distribution of Ethereum nodes run by web service providers. Source: [Ethernodes](https://ethernodes.org/networkType/Hosting)._
 
@@ -87,7 +87,7 @@ As a result, over 62% of Ethereum's full nodes currently rely on centralized clo
 
 To make things worse, this problem is expected only to worsen as crypto’s popularity grows and blockchains start reaching mass adoption. As things currently stand, most, if not all Layer 1s aside from Common Knowledge Base aren’t prepared to onboard the next billion users without effectively becoming completely centralized at the node level due to the increased burden imposed by state expansion on node runners.
 
-![alt_text](images/image4.png "image_tooltip")
+![A chart showing the chain data size of Ethereum full node (archived) rises from about 2 TB in 2019 to nearly 15 TB in 2023.](images/image4.png "image_tooltip")
 
 
 Another issue related to tokenomics and the state explosion problem worth mentioning here is the lack of value alignment on smart contract platforms like Ethereum. Namely, all multi-asset preservation-focused Layer 1s today can potentially become vulnerable to attacks because their security properties aren’t aligned with the growth of the value they preserve. In other words, the value of the native asset that effectively secures the blockchain isn’t directly tied to the growth in value of the non-native assets stored on the blockchain. This means that multi-asset platforms like Ethereum effectively act as banks that keep adding more gold (secure more non-native assets) to their vaults without increasing security (increasing the value of staked Ether).
@@ -101,7 +101,7 @@ Nervos' tokenomics were designed to solve the state explosion and value alignmen
 
 
 
-![alt_text](images/image2.png "image_tooltip")
+![Nervos Network solves the state explosion problem through four aspects: local storage limitations, data overhead, resource efficiency, and state rent.](images/image2.png "image_tooltip")
 
 
 On the CKB blockchain, state capacity—a measurement unit for state that determines how much data can be stored on the blockchain—is a first-class asset restricted by pre-defined rules. Namely, storing any arbitrary amount of data on the CKB blockchain requires locking a pre-defined amount of CKB tokens. This means that, among other things, CKB tokens effectively represent cell capacity in bytes, where storing one byte of data on the blockchain requires locking up one CKB.
@@ -115,7 +115,7 @@ Furthermore, the fact that the global state is stored in cells—first-class ass
 To that point, state rent is what makes Nervos’ tokenomics special. By introducing targeted inflation on state occupiers, Nervos is able to tax long-term state occupiers and reward the miners that act as long-term state preservers or protectors. Transaction fees are paid once to process and insert a transaction into the blockchain, while state rent is paid continuously to preserve the data until it is removed. This incentive structure both prevents excessive state expansion and ensures the long-term security of the blockchain by guaranteeing a predictable source of income for miners that is independent of transaction volume. 
 
 
-![alt_text](images/image3.png "image_tooltip")
+![A Nervos DAO dashboard shows the state of play, including deposits, compensation, estimated APC, and the split of secondary issuance.](images/image3.png "image_tooltip")
  \
 The state of play of the [NervosDAO](https://explorer.nervos.org/nervosdao).
 

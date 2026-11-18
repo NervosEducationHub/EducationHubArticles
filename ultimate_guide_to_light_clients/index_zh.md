@@ -14,7 +14,7 @@ date: '2023-10-02T16:00:00.000Z'
 
 在这一点上，中心化和依赖可信第三方的危险并不只是理论上或未来才会出现的，而是在今天已经具体化了。例如，在 2022 年 8 月 OFAC [制裁](https://home.treasury.gov/news/press-releases/jy0916)了隐私协议 TornadoCash 后，托管了超过 60% 以太坊节点的中心化 RPC 提供商 [Alchemy](https://www.alchemy.com/) 和 [Infura](https://www.infura.io/) 立即阻止用户与 TornadoCash 进行交互。这意味着，任何使用流行的加密钱包 [MetaMask](https://metamask.io/) 的用户在默认设置下都无法访问运行在最大的智能合约平台以太坊上的去中心化应用程序 TornadoCash。
 
-![alt_text](images/eth_nodes.png "image_tooltip")
+![以太坊节点网络类型饼图：托管占 58.6%，住宅网络连接占 39.1%。](images/eth_nodes.png "image_tooltip")
  _图：Alchemy 和 Infura 完全依赖 AWS 来托管其节点，来源 [ethernodes.org](https://www.ethernodes.org/network-types)_
 
 除了审查之外，依赖中心化的 RPC 访问区块链还会使用户面临数据收集和各种类型的数据篡改攻击，这不仅有碍隐私，还可能导致资金损失。这就是运行一个完整节点如此重要的原因：它能让用户直接、无信任地访问区块链，增强网络和用户的安全性。然而，由于需要大量资源，运行全节点并不总是像听起来那么简单。因此，开发人员投入了大量资源来研究[轻客户端](https://www.nervos.org/knowledge-base/what_is_a_light_client)，并使其尽可能轻量，这也是本文要介绍的内容。
@@ -29,7 +29,7 @@ date: '2023-10-02T16:00:00.000Z'
 
 这些计算机被称为_节点_。它们运行名为_客户端_的计算机软件，该软件允许它们根据协议规则验证数据，并接收和向运行相同客户端的其他节点广播信息，从而形成一个网络。客户端软件是访问区块链网络所必需的，而节点则通过独立执行协议规则来帮助维护网络。
 
-![alt_text](images/client_server_nodes.jpg "image_tooltip")
+![中央服务器连接笔记本电脑、手机和个人电脑；对等节点之间直接互连。](images/client_server_nodes.jpg "image_tooltip")
 
 要运行区块链节点，用户需要下载访问该特定区块链所需的客户端之一。例如，要运行比特币节点，用户必须下载最新版本的 [Bitcoin Core](https://bitcoincore.org/) 客户端，而要运行以太坊节点，用户可以在多个以太坊客户端中进行选择，目前最流行的是 [Geth](https://geth.ethereum.org/) (go-ethereum)。
 
@@ -51,7 +51,7 @@ date: '2023-10-02T16:00:00.000Z'
 
 从广义上讲，"全节点" 是指存储和同步区块链完整副本的计算机，它通过独立验证交易和区块并将其转发给网络中的其他节点来参与共识过程。此外，一些全节点还支持轻节点，允许它们访问点对点网络，并允许它们查询数据和传输交易。
 
-![alt_text](images/bitcoin_network_interactions.png "image_tooltip")
+![比特币节点共享区块和交易，将待处理交易发送给矿工，并验证矿工生成的新区块。](images/bitcoin_network_interactions.png "image_tooltip")
 
 由于完整节点会下载、验证和存储每个区块的全部内容和状态数据，因此运行它们需要大量的存储空间、内存和 CPU 能力。例如，[运行一个以太坊全节点](https://ethereum.org/en/run-a-node/) 的最低要求是 2 TB SSD、8 GB 内存和英特尔第七代或更高的处理器。对于比特币，全节点的要求要低得多，包括 2 GB 内存、500 GB 可用磁盘空间和低级 CPU。
 
@@ -69,12 +69,12 @@ date: '2023-10-02T16:00:00.000Z'
 举个例子，比特币区块头只包含一个根，即所有区块交易的[默克尔树根（Merkle Tree Root）](https://en.wikipedia.org/wiki/Merkle_tree)。在密码学和计算机科学中，默克尔树（Merkle Tree）是一种[基于哈希的](https://www.nervos.org/knowledge-base/what_is_a_hash_function)数据结构，可以高效、安全地验证大型数据集的内容。一笔比特币交易的平均大小约为 250 字节，一个完整的区块最多可包含约 2000 笔交易。相比之下，比特币区块头的总大小约为 80 字节，而默克尔树根的大小仅为 32 字节。
 
 
-![alt_text](images/merkle_tree.png "image_tooltip")
+![八个数据叶节点经哈希处理，在默克尔树中逐层两两合并，最终形成根哈希。](images/merkle_tree.png "image_tooltip")
 
 以太坊区块头包含两个根，一个是状态根，一个是交易根，前者引用状态树（默克尔树的改进版）根哈希值，后者引用交易树根哈希值。状态树是一种紧凑型数据结构，用于存储以太坊网络的当前状态，包括合约存储数据、所有账户的余额和随机数，而交易树则包含区块内所有交易的哈希值。
 
 
-![alt_text](images/bitcoin_ethereum_blocks.png "image_tooltip")
+![对比比特币区块及交易默克尔根与以太坊区块、账户状态，以及世界状态、交易、收据和账户存储的前缀树。](images/bitcoin_ethereum_blocks.png "image_tooltip")
 
 由于状态树和交易树的默克尔根以浓缩但易于验证的格式包含了所有的状态和交易数据，因此轻节点只需下载区块头就能独立验证交易。这意味着，轻节点仍必须从某个提供者那里获取区块数据或区块头，无论是直接连接到全节点（比特币的典型做法）还是 RPC（以太坊的典型做法），但不必盲目信任它们。相反，它们可以独立验证交易，同时只需利用运行全节点所需的一小部分存储和计算要求。当然，由于轻节点不直接参与共识过程，它们必须依赖的安全假设要高于全节点。
 
@@ -99,7 +99,7 @@ date: '2023-10-02T16:00:00.000Z'
 验证区块头比验证交易更棘手，因为需要验证的部分数据取决于前一个区块头。例如，只有通过验证前一个区块的区块头才能知道前一个区块的哈希值，并且验证者集信息只能通过验证前一个块的状态来验证。这就意味着，轻客户端要确定某个特定的区块头是合法的，就需要递归验证所有区块头，直到创世区块的区块头。
 
 
-![alt_text](images/block_header.png "image_tooltip")
+![四笔交易的哈希在区块 11 下方组成默克尔树，两侧为区块 10 和 12 的区块头。](images/block_header.png "image_tooltip")
 
 尽管区块头文件比整个区块小得多，而且这个过程比全节点下载整个链要快得多，但轻客户端仍然无法承受这样做，并且需要更快地同步。因此，在以太坊转向 PoS 时，引入了专门为支持轻客户端而设计的[新基础设施](https://github.com/ethereum/annotated-spec/blob/master/altair/sync-protocol.md#introduction)。
 
@@ -108,20 +108,20 @@ date: '2023-10-02T16:00:00.000Z'
 Sync Committee 是 512 个验证者中随机选出的一个子集，服务时间约为 27 小时。他们签署最近区块的区块头，并在其中包含他们的汇总签名。区块头中还包含一份预计将参加下一个 Sync Committee 的验证者名单。这就意味着，当轻客户端收到一个区块头时，可以很快看到 Sync Committee 已经签署了该区块头，并通过与之前区块给的 Sync Committee 名单进行比较，检查其是否真实。
 
 
-![alt_text](images/lc_and_pos.png "image_tooltip")
+![区块头根哈希、参与签名者的公钥和聚合签名共同输入签名验证算法。](images/lc_and_pos.png "image_tooltip")
 
 这里需要注意的是，Sync Committee 并不像整个以太坊验证者集那样具有安全保证，因为它是作为轻客户端协议的一部分专门引入的，以帮助降低验证区块头有效性的计算成本。轻客户端无需验证超过 40 万个验证者签名，而只需验证轮流 Sync Committee 随机抽取的 512 个验证者的签名，从而大大降低了计算开销。不过，轻客户端必须假定 Sync Committee 的大多数验证者都是诚实的，因为对他们没有任何惩罚。因此，如果整个以太坊验证者集的大部分都是诚实的，那么从统计学角度来看，Sync Committee 签署无效区块头的可能性极低。
 
 这意味着，如果超过三分之二的 Sync Committee 签署了给定的区块头，那么这个区块就极有可能在规范链中。换句话说，如果轻客户端知道当前 Sync Committee 的构成，那么它就可以通过向提供者（全节点或 RPC）询问最新的 Sync Committee 签名，从而有把握地追踪到链尖。然而，轻客户端如何获得有关最新 Sync Committee 的信息呢？它们从之前的 Sync Committee 中获取。
 
 
-![alt_text](images/shuffled_validators.png "image_tooltip")
+![打乱顺序的验证者列表被划分为多个委员会，分配到 0 至 31 位间隙。](images/shuffled_validators.png "image_tooltip")
 
 正如已经解释的那样，每 27 小时，同步委员会就会发生变化，并将签署最新区块的权力传递给下一个同步委员会。为了获得前一个同步委员会，轻客户端需要该同步委员会之前的同步委员会，依此类推，一直回到合并转换块和第一个同步委员会。如果从那里开始，轻客户端可以将链的历史记录向上移动 27 小时，或者一次移动一个同步委员会，一直移动到当前的同步委员会。
 
 如前所述，Sync Committee 每 27 小时更换一次，并将签署最新区块的权力移交给下一个 Sync Committee。要获得上一个 Sync Committee，轻客户端需要该 Sync Committee 之前的 Sync Committee，以此类推，直到合并过渡区块和有史以来第一个 Sync Committee。如果从那里开始，轻客户端可以在链的历史上移动 27 个小时，或者每次移动一个 Sync Committee，直到移动到现在的 Sync Committee。
 
-![alt_text](images/sync_committee.png "image_tooltip")
+![由 512 名验证者组成的同步委员会提供 SyncAggregate；区块还标示下一届由 512 名验证者组成的同步委员会。](images/sync_committee.png "image_tooltip")
 
 每个 Sync Committee 的汇总签名都非常小，大约 25 KB，这意味着客户端只需花费很少的存储空间和精力就能同步到最新的区块头。为了进一步加快这一过程，轻客户端可以利用[弱主观性检查点](https://notes.ethereum.org/@adiasg/weak-subjectvity-eth2)，从最近的 "普遍真理"（所有节点都同意属于规范链的区块）而不是合并过渡区块开始同步。从理论上讲，这种方法可以让轻客户端在几秒钟内安全无误地与链尖同步，所需的存储空间微乎其微。
 

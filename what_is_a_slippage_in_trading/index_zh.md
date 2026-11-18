@@ -95,7 +95,7 @@ author:
 
 
 
-![alt_text](images/image11.png "image_tooltip")
+![示例显示了卖单簿在 30,000 与 30,100  USDT 各挂单 1.5 BTC，在 30,200与 30,300 USDT 各挂单 2 BTC。](images/image11.png "image_tooltip")
 
 
 

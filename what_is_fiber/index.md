@@ -262,7 +262,7 @@ This changes what the watchtower needs to remember. Instead of storing a separat
 
 The result is a constant storage requirement. Lightning-style watchtowers have **O(n)** storage complexity, meaning their data burden grows with every channel update. Daric reduces this to **O(1)**: the amount of data remains constant regardless of how many payments pass through the channel.
 
-![](images/image2.png "comparison_of_different_payment_channels")
+![A comparison table shows the storage complexity varies among different payment channels. Lightning-style watchtowers have O(n) storage complexity, while Daric reduces this to O(1): the amount of data remains constant regardless of how many payments pass through the channel.](images/image2.png "comparison_of_different_payment_channels")
 
 For individual users, that difference may seem invisible. But for watchtowers protecting thousands of busy channels, it can dramatically reduce storage costs and make the infrastructure easier to operate at scale.
 

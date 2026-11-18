@@ -59,7 +59,7 @@ However, this protection is conditional, as spending BTC from these address type
 
 Speaking of attack surface, according to estimates from [Project Eleven](https://www.projecteleven.com/bitcoin-risq-list), roughly 6.9 million BTC currently reside in addresses with exposed public keys. That’s a little more than one-third of all BTC in existence today.
 
-![](images/image2.png "btc_address_vulnerablities")
+![A pie chart divides BTC quantum-risk exposure by address types, including P2WPKH, P2SH, P2PK, and others, and marks address reuse and type-based exposure.](images/image2.png "btc_address_vulnerablities")
 
 *Proportion of quantum vulnerable BTC due to address re-use and address type. [Source: [Project Eleven](https://www.projecteleven.com/bitcoin-risq-list/metrics)]*
 
@@ -67,7 +67,7 @@ To make matters worse, these numbers don’t account for so-called short-range a
 
 This creates a narrow pre-confirmation window, typically \~10 minutes, during which a sufficiently powerful quantum attacker could derive the private key and rebroadcast the same transaction with a higher fee, stealing the coins mid-flight. This scenario remains highly unlikely, at least in the mid-term, as it would require a far more powerful quantum computer than the one needed for long-range attacks.
 
-![](images/image3.png "address_type")
+![A table compares six Bitcoin address types, their wallet support, and short- versus long-range quantum exposure.](images/image3.png "address_type")
 
 To summarize, even if we completely remove short-range attacks from the realm of possibility, roughly one-third of all BTC in circulation is vulnerable to long-range quantum attacks. Three-fourths are due to address reuse, and roughly one-fourth, or 1.7 million BTC, is due to the address type (P2PK). The coins still sitting in these legacy addresses are strongly believed to belong to people who’ve lost access to them in one way or another. For instance, roughly 1.1 million of these are Satoshi’s coins, which haven’t moved since 2010.
 
@@ -173,7 +173,7 @@ At some point over the next several years, a consensus is reached to introduce n
 
 The forecast we outlined above is admittedly optimistic: Bitcoin adds post-quantum signatures by 2028, most active UTXOs migrate within 2031, and it takes another three to five years thereafter to complete the final update to full quantum-resistance. The forecast assumes Bitcoin makes the right call at every turn, faces no technical hiccups along the way, and any contentious decisions converge to consensus within reasonable timeframes.
 
-![](images/image4.png "btc_path_to_quantum_resistance")
+![A proposed Bitcoin quantum-resistance flow moves from core developers' research to signature upgrades, then from migration to decisions on legacy outputs.](images/image4.png "btc_path_to_quantum_resistance")
 
 What could go wrong, right?
 
