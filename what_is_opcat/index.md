@@ -38,7 +38,7 @@ To better illustrate how opcodes work, consider the opcode `OP_CHECKSIG` used in
 
 
 
-![alt_text](images/image2.JPG "image_tooltip")
+![A Bitcoin script listing a sequence of operations: OP_DUP, OP_HASH160, a public-key hash, OP_EQUALVERIFY, and OP_CHECKSIG.](images/image2.JPG "image_tooltip")
 
 
 In this script:

@@ -20,7 +20,7 @@ date: '2025-06-18T16:00:00.000Z'
 
 到了这一步，几乎每一项设计选择都开始变得合理，先前认为的每个缺陷也都成为了特性。他们发现，每个“为什么”背后都有深刻的原因；每次紧随其后的“但是”，都能找到一个已经消亡的协议作为回应。对这些协议的失败复盘，恰好说明了为什么无数尝试折戟，而比特币却能成功。
 
-![alt_text](images/image2.png "image_tooltip")
+![信心与能力关系插图将“普通人”置于两个高峰之间的低谷。](images/image2.png "image_tooltip")
 
 不过，要走出倒置的邓宁—克鲁格钟形曲线中段，可能需要数年勤勉的学习。对大多数人而言，这既不现实，也完全可以理解。此外，对比特币的理解与对它的信念似乎高度相关，这或许能解释，如今‘加密行业’何以反而普遍弥漫着倦怠情绪。
 
@@ -36,7 +36,7 @@ date: '2025-06-18T16:00:00.000Z'
 
 路德维希·维特根斯坦（Ludwig Wittgenstein）曾问一位朋友：*“告诉我，为什么人们说，认为太阳绕着地球转，比认为地球在自转更自然？”* 朋友回答：*“这很明显，因为看起来就是太阳绕着地球转。”* 维特根斯坦又问：“*那么，如果看起来是地球在自转，那会是什么样子呢？”*
 
-![alt_text](images/image8.png "image_tooltip")
+![一幅四格漫画描绘了一段哲学对话：一个年轻人认为太阳绕着地球转“看起来更自然”，但当他意识到地球自转的景象实际上看起来完全一样时，这一假设瞬间被打破，令他大受震撼。](images/image8.png "image_tooltip")
 
 沿着这个故事，[艾伦·法灵顿（Allen Farrington）](https://allenfarrington.medium.com/wittgensteins-money-7cac8d0635cf)在《[Bitcoin is Venice](https://store.bitcoinmagazine.com/products/bitcoin-is-venice)》一书中提出了一个引导性问题：*“如果一种全球性的、数字化的、健全的、开源且可编程的货币，正在从零开始成为货币，那会是什么样子呢？”*
 
@@ -52,7 +52,7 @@ date: '2025-06-18T16:00:00.000Z'
 
 但并不是所有满足这些条件的商品都会成为货币。在《[货币的起源](https://mises.org/library/book/origins-money)》中，奥地利经济学家[卡尔·门格尔（Carl Menger）](https://en.wikipedia.org/wiki/Carl_Menger)指出，在自由市场中，最终会被选为货币的是*适销性*最强的商品。他将适销性（salability）定义为：一种商品在特定市场中，于期望的时间以期望的价格售出的相对能力。
 
-![alt_text](images/image3.png "image_tooltip")
+![货币演化示意图从价值储存，发展为交换媒介，继而成为记账单位。](images/image3.png "image_tooltip")
 
 *货币商品在逐渐被广泛接受为货币的过程中经历的演变阶段。来源：埃里克·耶克斯（Eric Yakes）所著《[The 7th Property](https://epochvc.io/pdf/The-7th-Property-Eric-Yakes-2021.pdf)》*
 
@@ -86,7 +86,7 @@ date: '2025-06-18T16:00:00.000Z'
 
 随着比特币成熟、规模扩大，同样的资金流入面对更大的资金基础，对价格的影响就会减小，波动也会随之缓和。相关数据表明，比特币的年化波动率已经从 2010 年的 200%，降至如今的约 72%。
 
-![alt_text](images/image4.png "image_tooltip")
+![历史时间序列图显示，比特币 30 日年化波动率反复起伏。](images/image4.png "image_tooltip")
 
 比特币 30 日年化波动率。（来源：[TheBlock](https://www.theblock.co/data/crypto-markets/prices/annualized-btc-volatility-30d)）
 
@@ -102,7 +102,7 @@ date: '2025-06-18T16:00:00.000Z'
 
 稳定币是加密行业原生的产品，在所有加密资产类别中，它与市场需求的契合度最高。2024 年，稳定币全年交易量达到 [27.6 万亿美元](https://blog.cex.io/ecosystem/stablecoin-landscape-34864)，比 Visa 和 Mastercard 的合计交易量高出 7.68% 以上。相比之下，比特币网络当年结算的价值约为 19 万亿美元。同年，稳定币总市值突破 2,000 亿美元，占加密市场总市值的 6%，相当于美元总供应量的 1%。
 
-![alt_text](images/image5.png "image_tooltip")
+![稳定币市值先上升，2022 年后回落，并在 2025 年升至约 2270 亿美元的新高。](images/image5.png "image_tooltip")
 
 稳定币总市值。（来源：[DeFiLlama](https://defillama.com/stablecoins)）
 
@@ -130,7 +130,7 @@ date: '2025-06-18T16:00:00.000Z'
 
 除非我们讨论的是去中心化超额抵押稳定币，但这类稳定币扩展规模要困难得多，否则 Tether 等中心化稳定币发行商仍然必须遵守监管规定，也就是说，它们可以审查交易，而且必须遵循数据收集要求。
 
-![alt_text](images/image6.png "image_tooltip")
+![光谱图按自由程度从低到高排列银行转账、中心化稳定币、去中心化稳定币及比特币。](images/image6.png "image_tooltip")
 
 这一转变存在连续的不同阶段，我们不能期待人们一夜之间从一端走到另一端。相反，我们应认识到，转向“自由货币”可能需要数年，而稳定币可能正是启动这一过程所必需的催化剂。
 
@@ -142,7 +142,7 @@ date: '2025-06-18T16:00:00.000Z'
 
 例如，Alice 可以用美元计价的稳定币付款，而 Bob 收到的是欧元计价的稳定币，整个过程在一笔原子交易中完成。这意味着商户和企业不必承受外汇交易带来的波动，而这种波动正是它们采用闪电网络的主要障碍之一。
 
-![alt_text](images/image7.jpg "image_tooltip")
+![Alice 发送 L-USD，经Bob与闪电网络的 BTC 路由，由 Yana 兑换后，Zane 收到 L-EUR。](images/image7.jpg "image_tooltip")
 
 发送方和接收方无需使用同一种资产进行交易。（来源：[docs.lightning](https://docs.lightning.engineering/the-lightning-network/taproot-assets/taproot-assets-on-lightning)）
 

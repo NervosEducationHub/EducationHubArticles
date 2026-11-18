@@ -22,11 +22,11 @@ We consider that it is a fundamental characteristic for a network focused on the
 
 The initial amount of CKBytes issued in the genesis block is 33,600,000,000, of which 25%, or 8,400,000,000 CKBytes, were [effectively burned immediately](https://explorer.nervos.org/address/ckb1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqrzayrmzh9lyl25y5uea0m0p76sawug7xqdksjqr) and therefore will never enter circulation. Thus, the circulating amount of CKBytes in genesis is 25,200,000,000.
 
-![alt_text](images/image2.png 'image_tooltip')
+![Genesis issuance totals 33.6 billion CKBytes, where 25% were burned and therefore will never enter circulation.](images/image2.png 'image_tooltip')
 
 This is important to consider since burning is not the same as not-issued, those 8,400,000,000 CKBytes issued but not circulating (burned) have an impact on secondary issuance, since 15% (5,040,000,000 CKBytes) from that 25% burned in genesis was hard-coded as “occupied” capacity, while the remaining 10% (3,360,000,000 CKBytes) was hard-coded as “liquid”, that is, without occupying state. This way, even if no CKBytes are used to store state, or if all circulating CKBytes are deposited in the [Nervos DAO](https://www.nervos.org/knowledge-base/nervosdao_withdrawal_process_explained), miners and treasury will still receive CKBytes from the secondary issuance
 
-![alt_text](images/image3.png 'image_tooltip')
+![Of total genesis CKBytes, 15% is burned as occupied capacity and 10% as liquid, affecting secondary issuance.](images/image3.png 'image_tooltip')
 
 _Note: it will not always be that 15% of the secondary issuance goes to the miners and 10% goes to the treasury. That number will decrease as more CKBytes are mined. The diagram above says “at least”, which is only accurate at the time the network is started._
 
@@ -144,17 +144,17 @@ The primary issuance is made up of a finite total of 33,600,000,000 CKBytes, and
 
 For example, in the first four years of the network, 4,200,000,000 CKBytes will be issued per year through primary issuance, and after the first halving event in November 2023, the number of CKBytes issued per year will be 2,100. 000,000. As we can see in the following chart, with each halving the speed of CKB extraction through the primary issuance is reduced exactly in half. Consequently, the rate of entry of new CKBytes into the market is also reduced by 50%.
 
-![alt_text](images/image4.png 'image_tooltip')
+![Annual CKBytes primary issuance halves roughly every four years, falling from 4.2 billion toward zero.](images/image4.png 'image_tooltip')
 
 Thus, in the first four years of the network, 16,800,000,000 CKBytes are issued through the primary issuance, which represent 50% of the total supply of 33,600,000,000 CKBytes belonging to this emission. Instead, in the next four years, from 2023 to 2027, 8,400,000,000 CKBytes are issued. Therefore, in the first eight years of the network, 75% of the total primary emission is issued. By the year 2031, twelve years from mainnet launch, 87.5%, or 29,400,000,000 CKBytes, of the primary emission will be issued.
 
-![alt_text](images/image5.png 'image_tooltip')
+![Cumulative primary issuance reaches 50% after four years, 75% after eight, and 87.5% after twelve.](images/image5.png 'image_tooltip')
 
-![alt_text](images/image6.png 'image_tooltip')
+![Bars of cumulative primary issuance rise toward 33.6 billion CKBytes and flatten over time.](images/image6.png 'image_tooltip')
 
 At this point, surely you have realized that in the first years of the network is when there is the greatest amount of token emission and this is reduced rapidly after each halving event. This can easily be seen in the inflation rate. In the first year of the network, the inflation corresponding to the primary issuance is 12.5%, four years later and after the first halving in 2023, it will be 3.765%, and from the fourth halving in 2031 inflation will be 0.663%. Since the primary issuance has a finite total of 33,600,000,000 CKBytes, inflation will reach zero when all CKBytes of the primary emission are issued.
 
-![alt_text](images/image7.png 'image_tooltip')
+![The annualized primary-issuance inflation rate falls sharply at halvings and approaches zero.](images/image7.png 'image_tooltip')
 
 In the following table you can see the evolution of the primary issuance in each halving.
 
@@ -343,7 +343,7 @@ All primary issuance tokens are rewarded to miners as incentives to protect the 
 
 In addition to the base or primary issuance, there is a secondary emission, which is 1,344,000,000 CKBytes per year. Therefore this issuance, unlike the primary one, is not hard cap, that is, it does not have a maximum limit.
 
-![alt_text](images/image8.png 'image_tooltip')
+![Primary issuance halves over time while secondary issuance stays at 1.344 billion CKBytes per year.](images/image8.png 'image_tooltip')
 
 As we can see in the chart, after the second halving, the number of CKBytes issued by the secondary emission will exceed the primary one in each mined block, and therefore the secondary emission will gain more and more importance from the point of view of the mining rewards. When the primary issuance reaches zero, only the rewards from the secondary issuance will remain.
 
@@ -353,7 +353,7 @@ But what happens if you don’t use the state, as is the case with a long-term h
 
 An easy way to understand the secondary issuance is to view it as a tail emission. For example, Monero tail emission allows miners to not be 100% dependent on transaction fees and thus can guarantee a specific income for them, regardless of the fee market and transaction volume. This way block rewards will never reach zero, maintaining the incentives to continue mining the network honestly and therefore maintaining the security of the network in the long term.
 
-![alt_text](images/image9.png 'image_tooltip')
+![Projected CKB secondary-issuance and Monero tail-emission inflation rates comparison.](images/image9.png 'image_tooltip')
 
 _Note: Monero’s tail emission was implemented on its mainnet in late May 2022, while CKB’s secondary issuance has been implemented since the Nervos mainnet launch in November 2019._
 
@@ -363,7 +363,7 @@ In fact, if we look at the [nominal compensation rate](https://explorer.nervos.o
 
 If we compare the inflation of the primary and secondary issuance over the years, we can see how Nervos DAO depositors are only affected by the inflation rate of the primary issuance, which we remember is a hard cap issuance just like Bitcoin, while those that have their CKBytes outside the DAO, either because they are occupying state or because they prefer to keep their CKBytes liquid, are diluted by secondary issuance.
 
-![alt_text](images/image10.png 'image_tooltip')
+![Primary, secondary, and combined CKB inflation rates decline, with primary issuance dropping at halvings.](images/image10.png 'image_tooltip')
 
 <table border="1" align="center"> 
     <tr bgcolor="edf2f2">
@@ -660,7 +660,7 @@ If we compare the inflation of the primary and secondary issuance over the years
 
 In the following chart you can see the number of CKBytes in circulation over the years.
 
-![alt_text](images/image11.png 'image_tooltip')
+![Stacked bars separate genesis, primary, and secondary issuance as projected CKB circulation grows.](images/image11.png 'image_tooltip')
 
 _Note: both the 25,200,000,000 CKBytes of genesis block and the unlock dates are taken into account in the chart and in the table below. All 1,344,000,000 annual CKBytes of the secondary issuance are also counted without considering the burned CKBytes belonging to the treasury. If you want to know how many CKBytes of the secondary issuance have been burned so far you can see it [here](https://explorer.nervos.org/nervosdao)._
 
@@ -1002,7 +1002,7 @@ _Note: both the 25,200,000,000 CKBytes of genesis block and the unlock dates are
 
 CKBytes from secondary issuance are distributed to miners, Nervos DAO depositors, and treasury proportionally depending on how many CKBytes are occupying state on the blockchain, how many CKBytes are deposited in Nervos DAO, and how many CKBytes are liquid, respectively.
 
-![alt_text](images/image12.png 'image_tooltip')
+![Secondary issuance goes to miners, the treasury, or Nervos DAO according to how CKB is held or used.](images/image12.png 'image_tooltip')
 
 Let’s see an example to understand it better, imagine that 50% of all existing CKBytes occupy state, 35% are in Nervos DAO and the remaining 15% are liquid (they do not occupy state or are deposited in Nervos DAO), the distribution would be like this:
 

@@ -18,7 +18,7 @@ date: '2025-01-21T16:00:00.000Z'
 
 [Ordinals 和铭文（inscriptions）](https://www.nervos.org/knowledge-base/guide_to_inscriptions)的快速兴起，以及闪电网络相对缓慢的增长，已经清楚地揭示了这一点。比起支付极低费用在闪电网络上花费比特币，人们更愿意支付较高费用，在比特币网络上交易其他原生资产。以太坊上 wBTC 的总锁定价值（TVL，约 130,000 BTC）与闪电网络（约 5,000 BTC）之间的巨大差距，也进一步说明了这一点。
 
-![alt_text](images/wbtc.png "image_tooltip")
+![历史 TVL 图表显示，WBTC 约锁定 131,849 BTC，闪电网络约锁定 5,027 BTC。](images/wbtc.png "image_tooltip")
 
 人们更愿意接受使用其他区块链所带来的安全取舍，将 BTC 用于支付以外的用途，例如在去中心化货币市场中用作抵押品，或为[自动做市商（automated market makers）](https://www.gemini.com/cryptopedia/amm-what-are-automated-market-makers)提供流动性，赚取交易手续费。
 
@@ -39,7 +39,7 @@ date: '2025-01-21T16:00:00.000Z'
 
 就此而言，如今大多数跨链互操作方案广泛使用的“[桥](https://www.nervos.org/knowledge-base/what_are_blockchain_bridges)”（bridge）一词也名不副实。真正将原生资产搬运到其他链上的桥并不存在。双向锚定采用的其实是销毁，或锁定后铸造的运行逻辑：BTC 被锁定在比特币网络上的多重签名地址中，相应的合成资产则在另一条链上铸造。
 
-![alt_text](images/bridge.png "image_tooltip")
+![跨链桥在源链锁定资产，并在目标链发行对应的资产表示。](images/bridge.png "image_tooltip")
 
 
 理论上，这种合成资产始终可以按一比一比例兑换锁定在比特币网络上的原生 BTC。但两者无疑是不同资产：如果锁定在比特币网络上的 BTC 因某种原因消失，Layer 2 上代表这些 BTC 的合成资产仍会存在。
@@ -47,7 +47,7 @@ date: '2025-01-21T16:00:00.000Z'
 深入分析各类比特币扩容方案，可以发现各自独特的取舍。如前所述，侧链不是 Layer 2，因此不会继承比特币无可匹敌的安全性。它们依赖托管式双向锚定，这会带来中心化，并独立引入特有的安全风险。
 
 
-![alt_text](images/2waypeg.png "image_tooltip")
+![联盟式双向锚定通过锁定主链币释放侧链币，提款时反向操作。](images/2waypeg.png "image_tooltip")
 
 *联盟式双向锚定*
 
@@ -57,12 +57,12 @@ date: '2025-01-21T16:00:00.000Z'
 
 比特币上较不常规的资产发行协议，例如许多人甚至不认为属于扩容方案的铭文，通过提高区块空间需求，最终增加矿工收入，使矿工受益，却也带来其他问题。具体而言，用户必须依赖第三方索引器追踪 Ordinals 或铭文，为系统额外引入了信任和中心化因素。
 
-![alt_text](images/inscribe.png "image_tooltip")
+![铭文流程将数据放入 Taproot 脚本，创建承诺交易，再通过揭示交易在链上公开。](images/inscribe.png "image_tooltip")
 
 此外，铭文会留下显著的数据负担，“人为”地将比特币区块大小推至 4MB 的硬上限，增加全节点的长期存储负担。就此而言，[BRC-20](https://www.coinbase.com/learn/crypto-glossary/what-are-brc-20-tokens) 等基于铭文的资产发行协议产生了大量无用的粉尘聪（通常为 546 或 330 聪），导致 UTXO 集不可逆地膨胀。
 
 
-![alt_text](images/image8.png "image_tooltip")
+![比特币序列化 UTXO 集在 2023 年前缓慢增长，随后快速升至 2024 年的近 12 GiB。](images/image8.png "image_tooltip")
 
 
 如上图所示，比特币 UTXO 集异常快速膨胀的起点，恰好与 BRC-20 协议于 2023 年 3 月推出的时间吻合。此后，UTXO 集已增长一倍以上，从约 5 GB 增至 12 GB。这是 BRC20 资产发行协议最受批评的方面之一：它浪费节点资源。
@@ -77,7 +77,7 @@ date: '2025-01-21T16:00:00.000Z'
 [RGB++](https://www.rgbppfans.com/) 是一种新型扩容方案，在充分利用比特币去中心化特性和安全保障的同时，为其提供图灵完备（Turing-complete）的可编程性。它是真正“比特币原生”的扩容方案，与比特币的 UTXO 模型完全契合并融为一体。
 
 
-![alt_text](images/image2.png "image_tooltip")
+![RGB 合约与客户端验证位于比特币承诺、共识及交易账本之上。](images/image2.png "image_tooltip")
 
 *RGB 协议设计概览。（来源：[RGB 黑皮书](https://black-paper.rgb.tech/general-information/2.-protocol-design/2.2.-design-overview)。）*
 
@@ -93,7 +93,7 @@ RGB++ 深受 [RGB](https://black-paper.rgb.tech/) 协议启发，后者彻底重
 
 RGB++ 引入的关键创新或技术称为同构绑定（isomorphic binding）。
 
-![alt_text](images/image9.png "image_tooltip")
+![同构绑定展示了比特币 UTXO 和 RGB 承诺映射到一个 CKB Cell，该 Cell 包含状态数据、类型脚本以及与比特币关联的锁。](images/image9.png "image_tooltip")
 
 
 拆开来看，*同构*（isomorphism）是一个数学术语，指两个结构之间的一种映射：元素一一对应，同时保留其运算和关系。
@@ -104,7 +104,7 @@ RGB++ 引入的关键创新或技术称为同构绑定（isomorphic binding）�
 
 在 RGB++ 中，*同构绑定*指将粉尘聪（比特币 UTXO）映射到 CKB Cell（eUTXO）。CKB 的 Cell 是灵活、抽象的数据结构，能够存储数据并执行脚本，相当于承载价值和状态信息的可编程容器。比特币 UTXO 则充当定义资产所有权的*一次性密封*。通过将每个 UTXO 绑定到特定 Cell，RGB++ 确保所有权和状态变化在两条区块链上相互映射，维持一致、同步的状态。
 
-![alt_text](images/image6.png "image_tooltip")
+![比特币交易承诺一笔 CKB 交易，后者将影子 Cell的锁定条件从一个 UTXO 变为另一个。](images/image6.png "image_tooltip")
 
 
 谁能花费比特币上的 UTXO，谁就拥有并控制对应的 RGB++ 资产。这个过程如同身体移动时影子也随之移动：原 UTXO 每次被花费，对应的 Cell 或 RGB++ 资产也会一并转移。
@@ -128,7 +128,7 @@ RGB++ 协议支持发行多种资产，包括所谓的[用户自定义代币（U
 
 [Cell](https://docs.nervos.org/docs/ckb-fundamentals/cell-model) 包含三个字段：data、type script 和 lock script。data 字段的前 16 字节存储 UDT 余额；type script 定义 UDT 的运行逻辑，实际上充当智能合约；lock script 则定义资产所有权，确保只有所有者才能花费 UDT。
 
-![alt_text](images/image12.png "image_tooltip")
+![Cell 字段表在 JSON 示例上方定义 capacity、lock、type 和 data，示例中的 type 字段为 null。](images/image12.png "image_tooltip")
 
 
 Cell 锁定脚本的巧妙之处在于，它由用户定义，意味着 UDT 的所有权与 UDT 本身解耦。因此，解锁或花费条件可以设为某个比特币 UTXO 被花费。实际上，这正是 RGB++ 通过同构绑定所做的事情：将锁定脚本的条件设为某个比特币 UTXO 被花费，从而实际上把 UDT 的所有权转移到比特币 Layer 1。
@@ -142,7 +142,7 @@ RGB++ 资产优于 BRC-20 或 SRC-20 等铭文资产，因为它们不会留下�
 
 每次某项 BRC-20 资产从一个比特币用户转移给另一个用户，都必须创建一个保持未花费状态的新聪。如前所述，这个过程永久扩大 UTXO 集，造成显著的状态膨胀（state bloat），从而给节点带来额外且永久的资源压力。因此，基于铭文的资产实际上类似于对比特币网络的粉尘攻击（dust attack），损害其长期去中心化程度。
 
-![alt_text](images/image11.png "image_tooltip")
+![交易从活跃 Cell 集合移除已花费的 Cell，并加入具有更新数据和脚本的新 Cell。](images/image11.png "image_tooltip")
 
 相反，在 RGB++ 协议中，粉尘聪充当 RGB++ 资产所有权的钥匙。这意味着每次转移 RGB++ 资产时，对应的聪都会被花费或销毁，因此不会不可逆地扩大比特币 UTXO 集。
 
@@ -150,7 +150,7 @@ RGB++ 资产优于 BRC-20 或 SRC-20 等铭文资产，因为它们不会留下�
 #### 提升比特币吞吐量
 
 
-![alt_text](images/image7.png "image_tooltip")
+![RGB++ 交易折叠将一系列 CKB 交易置于两笔比特币承诺交易之间。](images/image7.png "image_tooltip")
 
 *RGB++ 交易折叠过程示意图。*
 
@@ -163,7 +163,7 @@ RGB++ 使比特币能够利用 CKB 区块链完整的智能合约技术栈，实
 
 一个例子是 [UTXOSwap](https://utxoswap.gitbook.io/en)，这是面向 UTXO 链资产、基于意图的去中心化交易所。UTXO 交易是声明式的，而基于账户的区块链交易是命令式的，因此 UTXOSwap 用户可以直接在链上表达意图，相比传统订单簿或基于 AMM 的去中心化交易所，这带来多种优势。
 
-![alt_text](images/image14.png "image_tooltip")
+![UTXOSwap 收集用户意图，经聚合器匹配后提交批量交易。](images/image14.png "image_tooltip")
 
 
 UTXOSwap 实行链下匹配、链上验证，利用 UTXO 模型的并行能力提高交易效率。基于意图的设计使其能够支持限价单和 TWAP 交易。用户可以用声明式方式表达交易意图，例如“用 0.2 BTC 换取至少 560 枚 X 代币”，而不是简单发起兑换交易，被动接受市场价格，以及随之而来的滑点和最大可提取价值（MEV）。
@@ -186,7 +186,7 @@ RGB++ 真正引人注目、区别于其他比特币扩容方案之处，是它�
 这得益于协议独特的互操作功能：[无桥跨链跃迁（Bridgeless Cross-Chain Leap）](https://medium.com/@utxostack/the-magic-of-rgb-bridgeless-cross-chain-leap-70ed82bed3ab)。它运用同样的同构绑定技术，将 RGB++ 资产的锁定脚本条件设为比特币 UTXO 或其他链的 UTXO。
 
 
-![alt_text](images/image10.png "image_tooltip")
+![RGB++ Leap 将资产的同构绑定从比特币 UTXO 切换为莱特币 UTXO。](images/image10.png "image_tooltip")
 
 
 例如，用户可以将一项 RGB++ 资产，比如 1,000 枚 RUSD 稳定币，从比特币无缝转移到 Cardano 或莱特币链：先花费与相应 RGB++ 资产绑定的比特币 UTXO，再构建另一笔交易，将该资产的解锁条件改为一个莱特币 UTXO。从此以后，转移这些 RUSD 代币就需要花费一个莱特币 UTXO，意味着代币的所有权实际上已转移到莱特币链。

@@ -26,7 +26,7 @@ The Bitcoin blockchain was originally designed with a straightforward single pur
 
 However, these were still application-specific blockchains with quite limited capabilities, and after losing patience working with the Mastercoin protocol on top of Bitcoin, Vitalik Buterin, creator of Ethereum, set out to create a single, public, “Turing-complete” blockchain—one with general-purpose programmability. In late 2015, Ethereum was born, allowing anybody to create a smart contract—a general purpose program associated with a small database that can only be modified by the program that owns it—on the blockchain.
 
-![alt_text](images/image2.png "image_tooltip")
+![A smart-contract flow moves from predefined terms to a triggering event, execution, and blockchain settlement.](images/image2.png "image_tooltip")
 
 When a smart contract is created on Ethereum (or any other [account-based](https://www.nervos.org/knowledge-base/utxo_vs_account_based) smart contract platform, for that matter), it sets up the initial state of its database and then stops and idles until it's called upon. Users can call the contract into action by sending it a message (using a transaction). Depending on the contract's internal code, it can do all sorts of things, including triggering other contracts, modifying its database, or sending various responses to the caller. The key point to note here is that all of these steps are performed or computed independently on every node in the network, with identical results.
 
@@ -38,7 +38,7 @@ Thus, smart contract platforms solve this issue by introducing transaction fees 
 
 Smart contract platforms like Ethereum face another fundamental issue called concurrency. Concurrency refers to a system's ability to process different tasks out-of-order or in partial order without affecting the outcome. In the context of blockchains, a network with good concurrency can process many transactions in parallel, leading to great benefits in scalability.
 
-![alt_text](images/image7.png "image_tooltip")
+![A UTXO graph branches between assets, while account tables track balances across successive states.](images/image7.png "image_tooltip")
 
 However, smart contracts have a challenge when it comes to concurrency, because they need access to the global state (information stored on the other contracts on the blockchain) to function properly. This means that if two smart contracts are executing simultaneously, and they both try to modify the same piece of data, a conflict can occur. This issue is known as a race condition, and to solve it, smart contract platforms must execute transactions one at a time, in a specific order. This serial execution (opposite of concurrent execution) ensures that all transactions are processed correctly and in the same way and order by all nodes, but it also significantly slows down the blockchain because the network can't process multiple transactions at the same time (this also increases the amount of time it takes for a new user to sync a node).
 
@@ -51,7 +51,7 @@ These issues point to a simple fact that has been well understood in Bitcoin's h
 
 [Verification](https://www.nervos.org/knowledge-base/difference_blockchain_computation_verification), on the other hand, is a deterministic process that involves checking the correctness or validity of a result against a known standard or set of rules, which is significantly less resource-intensive than performing original computations. For example, verifying the validity of a simple blockchain transaction involves checking a digital signature, and verifying the validity of a block involves checking whether the proof of work a miner has broadcasted to the network meets the protocol's current difficulty target. Both are single operations that require very little computation.
 
-![alt_text](images/image4.png "image_tooltip")
+![A meme using the classic IQ bell curve format to argue that the fundamental purpose of a blockchain is state verification rather than heavy on-chain computation.](images/image4.png "image_tooltip")
 
 Complex general-purpose computation simply doesn't make sense in this paradigm because blockchains decentralize things by replication, not by distribution. It would make sense to distribute heavy computational tasks amongst the many nodes in the network by providing them with different bits of the task (this was the premise behind scaling through “sharding,” an idea that has mostly [fallen out of favor](https://ethereum.org/en/roadmap/#what-about-sharding))—but not to make them calculate the same thing altogether—which is precisely what blockchains do. Verification, on the other hand, makes sense because it's not resource-intensive, and replicating this task across the whole network is the only way to ensure trustlessness.
 
@@ -66,7 +66,7 @@ One way of ensuring that no one could be defrauded in a transaction would be for
 
 This analogy perfectly describes how layered blockchains work. Instead of executing and verifying all of the transactions on a single layer, modular blockchains separate these functions into different layers, where the Layer 1 is used for verification and final settlement, and Layer 2’s are used for transaction processing. 
 
-![alt_text](images/image5.png "image_tooltip")
+![A transaction flow runs from mempool and mining to broadcast, full-node re-execution, and chain inclusion.](images/image5.png "image_tooltip")
 
 Namely, blockchains rely on block producers (miners or validators) to bundle transactions into blocks. However, without checks and balances, malicious block producers could include fraudulent transactions in a block (for example, minting tokens out of thin air). To prevent this, blockchains rely on a network of full nodes, to independently determine the validity of a block before adding it to their version of the chain.
 
@@ -85,7 +85,7 @@ By offloading transaction execution almost entirely to Layer 2’s, a Layer 1 ca
 
 The genius of the modular approach is that as long as verification or block validation is sufficiently decentralized, the computation or block production doesn't need to be decentralized. The blocks' size and frequency can be increased, leading to centralization in block producers—but as long as verification is decoupled and performed by different entities on Layer 1, invalid blocks will never be added to the chain. 
 
-![alt_text](images/image6.png "image_tooltip")
+![Layer 2 handles transaction execution above a CKB Layer 1 base labeled consensus and final settlement.](images/image6.png "image_tooltip")
 
 This is precisely what happens with Layer 2 scaling solutions like [optimistic and zero-knowledge rollups](https://www.nervos.org/knowledge-base/zk_rollup_vs_optimistic_rollup), where the resource-intensive task of transaction execution or block production is done by centralized entities called sequencers that bundle (or "roll up") multiple off-chain transactions together in large batches before submitting them for validation and final settlement to the Layer 1.
 

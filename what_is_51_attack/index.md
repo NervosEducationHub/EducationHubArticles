@@ -20,7 +20,7 @@ When an attacker or group of attackers controls over half of the total computati
 
 
 
-![alt_text](images/image2.png "image_tooltip")
+![A competing chain replaces earlier blocks, illustrating a 100 ETC double spend.](images/image2.png "image_tooltip")
 
 
 When nobody controls over half of the hash rate, nobody can alter the transaction and expect the majority will accept it. But if the attackers hold most of the blockchain's hash rate, the honest nodes will have no power to stop it, even if they all suspect it.

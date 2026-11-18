@@ -24,7 +24,7 @@ At the base of the tree are *leaf nodes*, each representing the hash of a discre
 
 This top-level value, known as the *Merkle root*, serves as a succinct commitment to the entire dataset. It allows any participant to verify the integrity of individual data elements using only a small proof, rather than requiring access to the full dataset. Crucially, because the tree is recursively constructed, a modification anywhere in the data propagates upward, altering the Merkle root and exposing inconsistencies with minimal computational effort.
 
-![](images/image2.png "a_merkle_tree")
+![Eight data records are hashed and combined in pairs through a Merkle tree to one root hash.](images/image2.png "a_merkle_tree")
 
 ### Why Merkle Trees Are Important for Blockchains
 
@@ -54,7 +54,7 @@ Verkle trees are a more recent data structure designed to address the scaling li
 
 Merkle trees rely on recursive hashing: each step in the proof requires revealing sibling hashes along a path from the leaf to the root. Verkle trees replace this mechanism with *vector commitments*—a more advanced cryptographic primitive that allows an entire set of values to be committed within a single, compact structure. Instead of proving membership by traversing a path of hashes, Verkle proofs demonstrate that a value is part of a committed vector using succinct mathematical arguments.
 
-![](images/image3.png "a_verkle_tree")
+![A Verkle-tree diagram connects a stem tree through an extension and suffix tree to lower and upper data values.](images/image3.png "a_verkle_tree")
 
 *Structure of a Verkle Tree. [Source: [ethereum.org](https://ethereum.org/roadmap/verkle-trees/)]*
 

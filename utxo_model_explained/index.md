@@ -7,7 +7,7 @@ category: 'UTXO, Blockchain'
 date: '2023-04-09T16:00:00.000Z'
 ---
 
-![alt_text](images/image2.png 'image_tooltip')
+![A wallet illustration shows a 9.5 wallet sends 1.5 payment to another wallet; a curved return arrow shows returned a note labeled UTXO 0.09.](images/image2.png 'image_tooltip')
 
 The Unspent Transaction Output (UTXO) accounting model plays a critical role in the functioning of Bitcoin and other UTXO-based cryptocurrencies. It ensures the accurate tracking of coin ownership changes and supports the security and integrity of blockchain networks.
 

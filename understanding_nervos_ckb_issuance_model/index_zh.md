@@ -23,11 +23,11 @@ Nervos 与比特币有着相同的理念和价值主张，因为 CKB 的一级�
 
 在创世区块中，CKB 的初始发行量为 336 亿，其中的 25%，即 84 亿 CKB，被[立即销毁](https://explorer.nervos.org/address/ckb1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqrzayrmzh9lyl25y5)，永远不会进入流通。因此，创世区块中 CKB 的流通量为 252 亿。
 
-![alt_text](images/image2.png 'image_tooltip')
+![创世发行总量为 336 亿枚 CKBytes，其中 25% 已被销毁，因此永远不会进入流通。](images/image2.png 'image_tooltip')
 
 "销毁" 不等同于 "未发行"，这一点很重要。那些已发行但未流通（销毁）的 84 亿 CKB 会影响二级发行，因为创世区块中销毁的 25%，其中 15%（即 50.4 亿 CKB）被硬编码为 “占用” 容量，而另外的 10%（即 33.6 亿 CKB）被硬编码为 “流动” 的状态，即不占用容量。这意味着，即使没有 CKB 被用来存储状态，或者所有流通的 CKB 都存入了 [Nervos DAO](https://www.nervos.org/knowledge-base/nervosdao_withdrawal_process_explained) 中，矿工和国库仍然会获得二级发行的 CKB。
 
-![alt_text](images/image3.png 'image_tooltip')
+![创世销毁的 CKBytes 分为占总发行量 15% 的占用容量和 10% 的流动容量，影响矿工与国库所得的发行份额。](images/image3.png 'image_tooltip')
 
 _注意：二级发行并不总是 15% 归矿工，10% 归国库。随着越来越多的 CKB 被挖出，这个数字将会减少。上图说的 “至少”，指的是主网上线的那一刻。_ 
 
@@ -146,17 +146,17 @@ _注意：二级发行并不总是 15% 归矿工，10% 归国库。随着越来�
 
 比如，在 Nervos 主网启动后的头四年，每年通过一级发行产生的 CKB 数量为 42 亿，在 2023 年 11 月第一次减半事件之后，一级发行的 CKB 数量将降为每年 21 亿 CKB，直到下一次减半。如下图所示，每次减半，一级发行的 CKB 数量都会减少一半，所以新 CKB 的流入速度也会下降 50%。
 
-![alt_text](images/image4.png 'image_tooltip')
+![CKBytes 年度基础发行量约每四年减半，从 42 亿逐步趋近于零。](images/image4.png 'image_tooltip')
 
 因此，在 Nervos 主网启动后的头四年，一级发行一共产生了 168 亿 CKB，占一级发行总量 336 亿的 50%。在第二个四年里，一级发行将产生 84 亿 CKB，即前八年通过一级发行一共产生的 CKB 将占一级发行总量的 75%。到 2031 年，即主网启动后的第 12 年，通过一级发行产生的 CKB 加起来将达到 294 亿枚，占一级发行总量的 87.5%。
 
-![alt_text](images/image5.png 'image_tooltip')
+![累计基础发行量在四年后达 50%，八年后达 75%，十二年后达 87.5%。](images/image5.png 'image_tooltip')
 
-![alt_text](images/image6.png 'image_tooltip')
+![累计基础发行量柱状图逐渐升至接近 336 亿 CKBytes，增幅随时间放缓。](images/image6.png 'image_tooltip')
 
 至此，你可能已经注意到，在 Nervos 主网启动后的前几年，代币发行量最大，而每次减半事件后，代币发行量都会大幅下降。这也可以从通胀率中很明显地看出：主网启动后的第一年，一级发行的通胀率为 12.5%，四年后，即 2023 年首次减半后，通胀率将降至 3.765%，2031 年第四次减半后，通胀率将降至 0.663%。由于一级发行总量固定，为 336 亿 CKB，因此当一级发行的所有 CKB 都被挖出后，一级发行带来的通胀率也会降为零。
 
-![alt_text](images/image7.png 'image_tooltip')
+![基础发行年化通胀率在减半时显著下降，并逐步趋近于零。](images/image7.png 'image_tooltip')
 
 在下面这张表格中，我们可以看到每次减半后一级发行量的变化。
 
@@ -346,7 +346,7 @@ _[2] 注：指的是会发生第几次减半事件。_
 
 除了一级发行（基础发行）之外，还有二级发行，每年固定发行 13.44 亿 CKB。因此，二级发行与一级发行不同，没有硬顶，即没有最高限额。
 
-![alt_text](images/image8.png 'image_tooltip')
+![基础发行量随减半逐步下降，二级发行量保持每年 13.44 亿 CKBytes。](images/image8.png 'image_tooltip')
 
 从上图中我们可以看出，第二级减半后，每个区块中二级发行的 CKB 数量将超过一级发行的 CKB 数量，因此，从挖矿奖励的角度来看，二级发行将变得越来越重要。当一级发行耗尽时，只剩下二级发行的奖励。
 
@@ -356,7 +356,7 @@ _[2] 注：指的是会发生第几次减半事件。_
 
 一个简单的理解二级发行的方法是把它看作是长尾发行。比如，门罗币的长尾发行方案让矿工不会完全依赖交易费用，因此无论费用市场和交易量如何变化，他们都能保证有一定的收入。这样，区块奖励永远不会为零，从而激励他们持续诚实地挖矿，从而长久地保障网络的安全。
 
-![alt_text](images/image9.png 'image_tooltip')
+![CKB 二级发行与门罗币尾部发行的通胀率对比。](images/image9.png 'image_tooltip')
 
 _注：Monero 的长尾发行方案已于 2022 年 5 月下旬在其主网实施，而 CKB 的二级发行自 2019 年 11 月 Nervos 主网上线以来一直在实施。_
 
@@ -366,7 +366,7 @@ _注：Monero 的长尾发行方案已于 2022 年 5 月下旬在其主网实施
 
 如果我们对比历年来一级发行和二级发行的通胀率，我们可以发现 Nervos DAO 的存款人只受一级发行通胀率的影响，就像比特币一样有硬顶。而那些不在 Nervos DAO 里的 CKB，无论是占用着链上状态，还是处于流通中，都会被二级发行稀释。
 
-![alt_text](images/image10.png 'image_tooltip')
+![CKB 基础发行、二级发行及综合通胀率逐步下降，其中基础发行在减半时阶梯式下降。](images/image10.png 'image_tooltip')
 
 <table border="1" align="center"> 
     <tr bgcolor="edf2f2">
@@ -663,7 +663,7 @@ _注：Monero 的长尾发行方案已于 2022 年 5 月下旬在其主网实施
 
 在下图中你可以看到多年来流通的 CKB 数量。
 
-![alt_text](images/image11.png 'image_tooltip')
+![堆叠柱状图将创世、基础及二级发行分开显示，展示 CKB 流通量的预测增长。](images/image11.png 'image_tooltip')
 
 _注意：上面这张图表和下面这张表格均考虑了创世块的 252 亿 CKB 和解锁日期。每年的二级发行 1.344 亿 CKB 也被计算在内，而不考虑属于国库的已经被销毁的 CKB。如果你想知道到目前为止二级发行有多少 CKB 被销毁了，你可以点击[此处](https://explorer.nervos.org/nervosdao)查看。_
 
@@ -1006,7 +1006,7 @@ _注意：上面这张图表和下面这张表格均考虑了创世块的 252 �
 
 二级发行的 CKB 会按比例分配给矿工、Nervos DAO 存款人和国库，具体比例取决于有多少 CKB 占用链上状态、有多少 CKB 锁在 Nervos DAO 中以及有多少 CKB 处于流通状态。
 
-![alt_text](images/image12.png 'image_tooltip')
+![二级发行依据 CKB 的持有或使用方式，分配给矿工、国库或 Nervos DAO。](images/image12.png 'image_tooltip')
 
 让我们看一个例子来更好地理解它，假设现有 CKB 的 50% 占用链上状态，35% 锁在 Nervos DAO 中，剩下的 15% 是流通的（它们不占用链上状态或者存放在 Nervos DAO 中），则二级发行的 CKB 会这样分配：
 

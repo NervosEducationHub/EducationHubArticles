@@ -58,7 +58,7 @@ SHA-256 等哈希函数的安全性来自抗原像性与抗碰撞性（collision
 
 谈到攻击面，根据 [Project Eleven](https://www.projecteleven.com/bitcoin-risq-list) 的估计，目前约有 690 万 BTC 位于公钥已暴露的地址中，略高于当前全部 BTC 的三分之一。
 
-![](images/image2.png "btc_address_vulnerablities")
+![一张饼图按地址类型（包括 P2WPKH、P2SH、P2PK 等）划分了 BTC 的量子风险敞口，并标记了地址重用以及基于类型的暴露风险。](images/image2.png "btc_address_vulnerablities")
 
 *因地址复用和地址类型而易受量子攻击的 BTC 占比。来源：[Project Eleven](https://www.projecteleven.com/bitcoin-risq-list/metrics)*
 
@@ -66,7 +66,7 @@ SHA-256 等哈希函数的安全性来自抗原像性与抗碰撞性（collision
 
 这会产生一个狭窄的确认前窗口，通常约为 10 分钟。在此期间，足够强大的量子攻击者可以推导出私钥，并以更高的手续费重新广播同一笔交易，在转账途中窃取资金。至少在中期，这种情形仍然极不可能，因为它所需的量子计算机远比长程攻击（long-range attacks）所需的强大。
 
-![](images/image3.png "address_type")
+![表格对比六类比特币地址的钱包支持情况，以及短程与长程量子攻击风险。](images/image3.png "address_type")
 
 综上，即使完全排除短程攻击的可能性，仍有大约三分之一流通中的 BTC 易受长程量子攻击。其中四分之三源于地址复用，约四分之一，即 170 万 BTC，源于地址类型（P2PK）。人们普遍相信，仍留在这些旧式地址中的币，属于那些因各种原因失去访问权限的人。例如，其中约 110 万枚是中本聪（Satoshi）的币，自 2010 年以来就未移动。
 
@@ -172,7 +172,7 @@ CDR 方案假设后量子签名已通过软分叉激活，再通过第二次软�
 
 我们承认，上述预测相当乐观：比特币在 2028 年前加入后量子签名，多数活跃 UTXO 在 2031 年内完成迁移，再经过三至五年，完成通向全面量子抗性的最终更新。这一预测假设比特币每一步都作出正确选择，途中没有技术障碍，任何争议性决定都能在合理时间内达成共识。
 
-![](images/image4.png "btc_path_to_quantum_resistance")
+![一项拟议的比特币抗量子流程从核心开发者的研究推进至签名升级，随后从迁移过渡到对遗留输出的决策。](images/image4.png "btc_path_to_quantum_resistance")
 
 这样还会出什么问题呢？
 

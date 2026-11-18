@@ -7,7 +7,7 @@ category: 'Blockchain, Nervos, Modular, scaling'
 date: '2023-04-09T16:00:00.000Z'
 ---
 
-![alt_text](images/image1.png 'image_tooltip')
+![A purple Layer 2 triangle sits above a black Layer 1 base, with links between their nodes.](images/image1.png 'image_tooltip')
 
 Layer 1, in the context of blockchain networks, refers to the base layer chain where transactions are settled with finality. On the other hand, Layer 2 networks are scaling solutions built on top of Layer 1 blockchains with the goal of increasing their transaction throughput. Examples of Layer 1 chains include Bitcoin, Ethereum, and [Common Knowledge Base](https://www.nervos.org/knowledge-base/nervos_overview_of_a_layered_blockchain), whereas examples of Layer 2 networks include the Lightning Network and Optimism.
 
@@ -65,7 +65,7 @@ In summary, both Layer 1 and Layer 2 blockchains have their own strengths and we
 
 Layer 3 networks, also known as application-specific blockchains, are designed to run on top of Layer 2 solutions and provide specific functionalities and services for a particular application or use case. Layer 3 networks can be considered a subset of Layer 2 networks, where Layer 2 solutions address the scalability issues of Layer 1 blockchains, while Layer 3 networks are built on top of Layer 2 networks to provide additional services and functionalities.
 
-![alt_text](images/image3.png 'image_tooltip')
+![Two- and three-layer designs place rollups, privacy solutions, validiums, and specialized apps above Layer 1.](images/image3.png 'image_tooltip')
 
 Source: [https://vitalik.eth.limo/general/2022/09/17/layer_3.html](https://vitalik.eth.limo/general/2022/09/17/layer_3.html)
 

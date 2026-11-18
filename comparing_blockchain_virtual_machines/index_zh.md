@@ -19,17 +19,17 @@ date: '2024-07-11T16:00:00.000Z'
 
 事实上，最早的计算机是机械式的，通过齿轮、杠杆及其他机械部件处理数据和执行程序。[安提基特拉装置](https://en.wikipedia.org/wiki/Antikythera_mechanism)（Antikythera mechanism）是一种手动驱动的太阳系机械模型，利用齿轮提前数十年预测天体位置和日月食。它被认为是最古老的机械计算机，可追溯至公元前 100 年左右。
 
-![alt_text](images/image2.png "image_tooltip")
+![安提基特拉（Antikythera）机械装置的腐蚀残片下方，展示齿轮与外壳的分解重建图。](images/image2.png "image_tooltip")
 
 19 世纪，查尔斯·巴贝奇（Charles Babbage）构想并部分建造了[分析机](https://www.britannica.com/technology/Analytical-Engine#:~:text=The%20Analytical%20Engine%20was%20to,alone%20attempted%20to%20build%20one.)（Analytical Engine），尝试制造一台通用机械计算机，配备存储器、算术逻辑单元，以及通过条件分支和循环实现的控制流。历史学家认为，英国数学家[阿达·洛夫莱斯](https://en.wikipedia.org/wiki/Ada_Lovelace)（Ada Lovelace）编写了历史上第一个计算机程序。她在一篇笔记中详细介绍了如何使用巴贝奇的分析机计算[伯努利数](https://en.wikipedia.org/wiki/Bernoulli_number)（Bernoulli numbers）。
 
-![alt_text](images/image8.png "image_tooltip")
+![巴贝奇（Babbage）分析机的重建模型，展示成列齿轮及手摇曲柄。](images/image8.png "image_tooltip")
 
 _巴贝奇分析机的重建模型。（来源：[Britannica.com](https://www.britannica.com)）_
 
 虽然巴贝奇生前未能完成这台机器，但他的工作为现代计算奠定了基础，推动计算机从机械式走向电子式。最早的电子计算机 [Colossus](https://en.wikipedia.org/wiki/Colossus_computer) 和 [ENIAC](https://en.wikipedia.org/wiki/ENIAC) 分别诞生于第二次世界大战期间和战后。它们以真空管作为主要开关元件，后来改用晶体管，计算速度远超此前的机械计算机。
 
-![alt_text](images/image3.png "image_tooltip")
+![Colossus 与 ENIAC 电子计算机的历史照片。](images/image3.png "image_tooltip")
 
 ### 现代计算机与虚拟机
 
@@ -43,7 +43,7 @@ _巴贝奇分析机的重建模型。（来源：[Britannica.com](https://www.br
 
 虚拟机的关键组成部分包括[虚拟机监控器（hypervisor）](https://en.wikipedia.org/wiki/Hypervisor)、客户操作系统（运行在虚拟机内部的操作系统）和宿主操作系统（运行虚拟机监控器的操作系统）。虚拟机监控器负责衔接并管理宿主机的物理硬件与虚拟机的虚拟硬件，使多台虚拟机或计算机能够在同一套硬件上运行。
 
-![alt_text](images/image4.png "image_tooltip")
+![1 型虚拟机监控器直接运行于基础设施之上；2 型则位于宿主操作系统之上。](images/image4.png "image_tooltip")
 
 虚拟机监控器的主要作用，是将宿主机的 CPU、内存等物理资源分配给各个虚拟机。对于虚拟机中的客户操作系统，这些虚拟资源的表现和行为与真实硬件一样。客户操作系统及其应用运行时，会向虚拟硬件发送指令。虚拟机监控器随后截获这些指令，将其转换为宿主机真实硬件能够理解和执行的指令。
 
@@ -70,7 +70,7 @@ _巴贝奇分析机的重建模型。（来源：[Britannica.com](https://www.br
 
 设想这样一个场景：智能合约使用整数运算，计算两个账户之间的一笔简单代币转账。区块链会避免使用浮点运算，因为它不具有确定性。转账时，智能合约从发送者余额中扣除相应数量的代币，并将相同数量加到接收者余额中。用 Solidity 编写的此类合约可能如下所示：
 
-![alt_text](images/image5.png "image_tooltip")
+![Solidity 转账代码检查发送方余额，扣除转账金额，再将其记入接收方余额。](images/image5.png "image_tooltip")
 
 这段代码首先检查发送者是否有足够的代币完成转账。如果余额充足，函数就从发送者余额中减去指定数量，再将其加到接收者余额中。从发送者余额中扣减、向接收者余额中增加，这两步都采用整数运算，确保转账计算精确，不会出现浮点运算的舍入误差。
 
@@ -78,7 +78,7 @@ _巴贝奇分析机的重建模型。（来源：[Britannica.com](https://www.br
 
 假设节点 A 采用 32 位架构，并使用 32 位有符号整数（`int32`）处理代币转账。如果它处理一笔转账时，接收者余额已经达到 32 位有符号整数的最大值，再增加代币就可能导致溢出。例如，用户余额为 2,147,483,647 枚代币，即 2^31-1，这是 32 位有符号整数的最大值。如果用户通过空投收到 1 枚代币，余额本应变成 2,147,483,647 + 1 = 2,147,483,648。但这个数超出了 32 位有符号整数的范围，因此给 2,147,483,647 加 1 会发生溢出，使余额回绕为一个很大的负数。由于二进制算术处理有符号整数的方式，在 32 位有符号整数系统中，这个操作会回绕到 −2,147,483,648，也就是其最小值。
 
-![alt_text](images/image1-(2).png "image_tooltip")
+![二进制示意图展示整数从 32,767 溢出为 −32,768。](images/image1-(2).png "image_tooltip")
 
 _https://algodaily.com/lessons/understanding-integer-overflow-and-underflow_
 
@@ -99,7 +99,7 @@ _https://algodaily.com/lessons/understanding-integer-overflow-and-underflow_
 
 例如，执行加法操作（0x01 ADD）时，EVM 从栈中弹出两个值，将它们相加，再把结果压入栈中。压入和弹出是栈的基本操作。这种机制简化了执行模型，但与基于寄存器等其他架构相比，可能降低效率，后文会进一步说明。
 
-![alt_text](images/image10.png "image_tooltip")
+![数值 1、2、3 依次入栈，随后 3 最先出栈。](images/image10.png "image_tooltip")
 
 EVM 使用的栈有明确限制：最大深度为 1024 项，原生数据大小为 256 位的[字](https://en.wikipedia.org/wiki/Word_(computer_architecture))（word），即处理器设计中的标准数据单位。栈深度决定智能合约执行时可以容纳和操作多少项数据，字长则规定每个栈项的大小，通常以位或字节衡量。栈项一般用作计算的操作数或临时结果。EVM 的原生数据大小意味着，即使实际数据较小，栈中所有数据项也都以 256 位整数表示。
 
@@ -119,7 +119,7 @@ EVM 作为状态机，通过解释和执行字节码指令，从一个状态转�
 
 执行智能合约时，EVM 充当 EVM 字节码的***解释器***，这也是其一项明显的不足。解释器是一种直接读取并逐条执行指令的程序，不会事先将代码转换为机器码，也就是进行编译。EVM 不会先把字节码转换成 CPU 可以直接执行的原生机器码，而是读取每个操作码，将其转化为一系列更底层的操作，再利用宿主机资源执行。这种解释过程会增加大量开销，速度慢于原生执行，在某些情况下甚至会慢几个数量级。
 
-![alt_text](images/image11.png "image_tooltip")
+![编译器生成机器码与可执行文件；解释器则循环解释并执行语句。](images/image11.png "image_tooltip")
 
 由于运行 EVM 节点需要消耗大量计算资源，以太坊用户必须为使用的每一项资源向验证者支付费用或补偿，包括计算、带宽和存储。智能合约的计算成本通过一种称为 gas 的基本单位来表示。Gas，也就是智能合约执行的价格，会在每次操作之前计算。每个操作码根据其计算复杂度，具有固定或动态的成本。
 
@@ -152,7 +152,7 @@ EVM 的指令集相对高层，将各种操作抽象为较复杂的指令，解�
 
 EVM 主要采用解释执行，即逐条执行字节码指令；WASM 虚拟机则可以使用即时编译（[JIT](https://en.wikipedia.org/wiki/Just-in-time_compilation)）和提前编译（[AOT](https://en.wikipedia.org/wiki/Ahead-of-time_compilation)），在运行时将 WASM 字节码转换为原生机器码。与逐条解释相比，JIT 和 AOT 编译可将执行速度提升一个数量级。此外，它们还能让 WASM 虚拟机应用多种运行时优化，根据具体硬件调整机器码，进一步提高执行效率，而 EVM 的解释执行无法实现这些优化。
 
-![alt_text](images/image12.png "image_tooltip")
+![表格对比构建时进行的提前编译（AOT）与运行时进行的即时编译(JIT)。](images/image12.png "image_tooltip")
 
 WASM 虚拟机还使用标准的 32 位和 64 位字长，与现代处理器的能力相匹配。字长与原生机器字长一致，使 WASM 能够充分发挥宿主 CPU 的性能，更高效地使用内存和存储，不会出现栈溢出和下溢问题，最终让智能合约的执行更快、更高效。这种效率也意味着，WASM 虚拟机不必像 EVM 一样依赖预编译合约。开发者可以将任何算法或密码学原语（cryptographic primitive）实现为智能合约并加以使用，无需取得全网许可。
 
@@ -183,7 +183,7 @@ Polkadot 做了一项实验，测试 RISC-V 的智能合约执行性能是否优
 
 在智能合约基准测试中，这个约有 1,000 行代码的 RISC-V JIT 编译器生成的代码，执行耗时仅为 Wasmer Singlepass 的 2.5 倍，而后者约有 150,000 行代码，投入了多年的开发工作。这个结果还是在没有任何优化的情况下取得的。经过一些优化后，基于 RISC-V 的 PolkaVM 已经比作为 WASM 单遍虚拟机标杆的实现略[快](https://forum.polkadot.network/t/announcing-polkavm-a-new-risc-v-based-vm-for-smart-contracts-and-possibly-more/3811)。如今，Polkadot 已[全面投入](https://wiki.polkadot.network/docs/learn-jam-chain)从 WASM 虚拟机转向 RISC-V 的工作。
 
-![alt_text](images/image13.png "image_tooltip")
+![2023年8月基准表将 PolkaVM 0.1 的每帧 10.7 毫秒，与 WASM、Solana 及早期 RISC-V 虚拟机并列。](images/image13.png "image_tooltip")
 
 目前，[CKB](https://www.youtube.com/watch?v=zD9xFpLmkVM) 是少数运行基于 RISC-V 的虚拟机的区块链之一，也是其中运行时间最长的。这样做有许多优势。首先，RISC-V 是一种真正的 CPU 指令集架构，其指令被设计为由支持 RISC-V 的 CPU 直接执行。因此，运行在 RISC-V 硬件上的 CKB 节点，执行智能合约时不只是达到原生速度，而是直接原生执行，无需额外的解释或转换层。CKB 节点通常运行在 x86 硬件上，此时 CKB-VM 可以极其高效地解释 RISC-V 指令，或通过 JIT 将其编译为 x86 机器码。RISC-V 的简洁性和开放设计使这种转换更容易实现和优化，Polkadot 的实验也证明了这一点。
 

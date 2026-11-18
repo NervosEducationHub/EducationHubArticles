@@ -128,7 +128,7 @@ Fiber 的 **跨链枢纽（CCH）** 连接 Fiber 与比特币闪电网络之间�
 
 从概念上看，一笔从 Fiber 到闪电网络的支付如下所示：
 
-![](images/image2.png "a_fiber_to_lightning_payment")
+![Alice 在 Fiber 上向跨链枢纽发送代币支付，枢纽再在闪电网络上向 Bob 发送 BTC 支付。](images/image2.png "a_fiber_to_lightning_payment")
 
 枢纽位于两个独立支付网络之间。Alice 在 Fiber 上向枢纽支付，枢纽则用自己在闪电网络上的流动性向 Bob 支付。
 

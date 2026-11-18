@@ -7,7 +7,7 @@ category: Scaling
 date: '2023-05-25T16:00:00.000Z'
 ---
 
-![alt_text](images/image1.png "image_tooltip")
+![三角形的三个顶点分别标示可扩展性、去中心化和安全性。](images/image1.png "image_tooltip")
 
 
 
@@ -24,7 +24,7 @@ date: '2023-05-25T16:00:00.000Z'
 
 去中心化是区块链的重要特性，它确保了网络不受任何单一实体或集团的控制。在去中心化的网络中，所有参与者都具有平等的权力来验证和核实交易，让网络更能抵御攻击、捕获以及审查。
 
-![alt_text](images/image2.png "image_tooltip")
+![左侧以银行为中心的网络，与右侧去中心化参与者直接互连的网络形成对比。](images/image2.png "image_tooltip")
 
 
 _中心化网络（左）与去中心化网络（右）的比较_
@@ -69,7 +69,7 @@ _中心化网络（左）与去中心化网络（右）的比较_
 
 ## Nervos 如何解决区块链不可能三角问题
 
-![alt_text](images/image3.png "image_tooltip")
+![Nervos CKB 的 Cell 模型和密码学构成底层，其上是互操作组件及 L1/L2 应用。](images/image3.png "image_tooltip")
 
 
 _Nervos 分层架构示意图_

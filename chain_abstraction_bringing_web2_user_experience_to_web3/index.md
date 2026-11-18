@@ -27,7 +27,7 @@ Managing crypto accounts is nothing like managing Web2 accounts. It involves sec
 
 Bridging between the different blockchains and Layer 2 networks is itself complex, with users needing to identify the correct bridging protocols, approve the transactions, pay the gas fees, and sometimes wait up to five days to receive their tokens on the destination chain. To make things worse, all of this occurs in a highly volatile environment, where the price of the underlying assets and the costs for each transaction change every second based on asset and blockspace demand.
 
-![alt_text](images/image2-1.png "image_tooltip")
+![A cross-chain ecosystem map connects Bitcoin, Ethereum, Cosmos, Polkadot, and other networks through bridges.](images/image2-1.png "image_tooltip")
 
 Furthermore, the users traversing the cross-chain world must be aware of the technical differences between the blockchains and Layer 2 networks. Every network has different consensus mechanisms, blockspace and [blocktime](https://www.nervos.org/knowledge-base/block_time_in_blockchain) parameters, as well as transaction and smart contract [execution environments](https://www.nervos.org/knowledge-base/comparing_blockchain_virtual_machines)—all of which render different security assumptions and user experience expectations. 
 
@@ -35,11 +35,11 @@ For example, a user accustomed to using wrapped Bitcoin (wBTC) on Ethereum could
 
 These examples pale in comparison to the frustrating user experience that is simply moving assets across chains. Suppose Bob received a USDT payment on Ethereum and wants to move it to the Tron network to send money to his sister Alice overseas inexpensively. To do this, Bob must (a) find a suitable cross-chain protocol that allows him to do this and (b) create a Tron wallet. After he does this, he initiates a bridging transaction on Ethereum, pays the hefty gas fee in ETH, and receives the USDT in his Tron account within a couple of hours. 
 
-![alt_text](images/image3-1.png "image_tooltip")
+![Bob bridges USDT from Ethereum to Tron but cannot send it to Alice because his Tron wallet has no TRX for fees.](images/image3-1.png "image_tooltip")
 
 However, immediately after receiving the USDT on Tron, Bob realizes that he can’t send any of it to Alice because he doesn’t have any TRX to pay the transaction fees on the network. Bob is now stuck, unable to move his money until he finds a way to acquire Tron’s native token.
 
-![alt_text](images/image10.png "image_tooltip")
+![A cross-chain loop ends at a Tron wallet marked “0 TRX,” blocking the USDT transfer to Alice.](images/image10.png "image_tooltip")
 
 While this simple scenario showcases how frustrating moving assets across two chains can be, the frictions escalate exponentially with more complex use cases, including swapping tokens across unsupported chains or providing liquidity cross-chain.
 
@@ -53,7 +53,7 @@ To top it all off, they end up with fragmented liquidity and balances that are d
 The core premise behind chain abstraction is that Web3 users shouldn’t even know they’re using blockchains, let alone care about whether they’re on a Layer 1, a rollup, or which cross-chain protocol to pick. They should be able to onboard, transact, explore dApps, recover their accounts, and offboard effortlessly—just like they do in Web2.
 
 
-![alt_text](images/image4-1.png "image_tooltip")
+![A tangled bridge-and-rollup workflow contrasts with an ideal flow using one wallet, intents, solvers, and settlement.](images/image4-1.png "image_tooltip")
 
 To that point, chain abstraction shouldn’t be viewed as a specific technical solution but as a goal. In a chain-abstracted world, users open a wallet with their fingerprint or email address without needing to secure and manage private keys and mnemonics.
 
@@ -61,7 +61,7 @@ They visit an application, connect their account-abstracted wallet, and declare 
 
 Beyond their desired outcome and the associated costs, users don’t (and shouldn’t) care much about anything else. All complexities associated with fulfilling the user’s intent should be hidden from them and handled either by separate entities or the tech itself. This means that the origin and destination chains, accounts, gas fees, bridging, and the actual execution should all become background details, largely irrelevant to the user.
 
-![alt_text](images/image9-1.png "image_tooltip")
+![A Chain Abstraction Key Elements (CAKE) framework places application layer, permission layer, solver layer, and settlement layers from top to buttom.](images/image9-1.png "image_tooltip")
 
 *The CAKE framework by Frontier Research. (Source: [frontier.tech](https://frontier.tech/the-cake-framework))*
 
@@ -104,7 +104,7 @@ Moreover, CKB dApps can be accessed by a much bigger audience than crypto users,
 
 Using [OpenID](https://en.wikipedia.org/wiki/OpenID) or other popular face and fingerprint recognition authentication mechanisms, they can access CKB dApps from their browsers or mobile phones. This is what proper account abstraction looks like; the account (the object holding the assets) on Common Knowledge Base can be managed using a signer from any blockchain ecosystem.
 
-![alt_text](images/image8-1.png "image_tooltip")
+![CKB smart-contract inputs and outputs connect to Cells with capacity, data, lock, and optional type fields.](images/image8-1.png "image_tooltip")
 
 Beyond the CKB-VM, the Cell model, a generalized version of Bitcoin’s UTXO model, is also abstract. The data stored in cells has no internal structure enforced, and the layout is entirely left to developers.
 
@@ -134,7 +134,7 @@ This means that users can create a wallet in one second using a fingerprint or a
 
 Leveraging its network of validators, NEAR's chain signatures technology allows NEAR accounts, including smart contracts, to sign and execute transactions on other blockchains, enabling cross-chain operations without the need for traditional bridges. This innovation is particularly powerful because it enhances blockchain interoperability, making it easier for users to manage assets across multiple blockchains from a single NEAR account.
 
-![alt_text](images/image6-1.png "image_tooltip")
+![A NEAR account obtains an MPC signature through a contract, then sends the signed transaction to Ethereum.](images/image6-1.png "image_tooltip")
 *Diagram of a chain signature in NEAR (Source: [docs.near.org](https://docs.near.org/chain-abstraction/chain-signatures))*
 
 The process begins with derivation paths, which are strings that represent accounts on foreign blockchains. Users can generate a unique address on another blockchain, such as Ethereum or Bitcoin, by combining a NEAR account with a derivation path. For instance, the NEAR account *example.near* could use the derivation path *ethereum-1* to produce a corresponding Ethereum address. This address, while belonging to the Ethereum network, remains under the control of the NEAR account.
@@ -161,7 +161,7 @@ NEAR’s meta transactions address this issue by enabling another party, known a
 
 This transaction contains all the necessary details, such as the intended operation and relevant data, but the user does not pay the gas fee upfront. Instead, this transaction is sent off-chain to a relayer, a service designed to assist in these operations.
 
-![alt_text](images/image4-1-1.png "image_tooltip")
+![A client sends a signed transaction to a funded relayer, which submits it to the network and returns a receipt.](images/image4-1-1.png "image_tooltip")
 *Diagram of a meta-transaction on NEAR. (Source: [docs.near.org](https://docs.near.org/protocol/transactions/meta-tx))*
 
 The relayer then takes the transaction, signs it if necessary, and submits it to the NEAR blockchain on behalf of the user. During this process, the relayer pays the required gas fee using its own NEAR tokens. In return, the relayer might be compensated in various ways, such as being paid in a different token, receiving a fee from the transaction value, or participating in a broader incentive structure provided by the application or ecosystem.
@@ -179,7 +179,7 @@ The modular Layer 1 blockchain, currently in testnet, provides several component
 
 The network supports a wide range of functionalities, including [universal accounts](https://developers.particle.network/intro/universal-accounts), universal liquidity, and [universal gas](https://developers.particle.network/intro/universal-accounts), all of which contribute to its overarching goal of achieving chain abstraction.
 
-![alt_text](images/image1-1.jpg "image_tooltip")
+![Particle's Universal SDK routes user operations through a bundler and keystore to wallet contracts on other chains.](images/image1-1.jpg "image_tooltip")
 
 *User flow of Particle Network's Universal Accounts. (Source: [developers.particle.network](https://developers.particle.network/intro/universal-accounts))*
 
@@ -187,7 +187,7 @@ Like NEAR’s chain signature technology, Particle Network’s universal account
 
 The universal account also allows users to pay for gas in any token they choose, with the actual cross-chain transaction fee payments being abstracted from them in the background.
 
-![alt_text](images/image3-1-1.png "image_tooltip")
+![A Particle Network flow uses MATIC on Polygon to buy an NFT on Base through bundled cross-chain operations.](images/image3-1-1.png "image_tooltip")
 *Example of cross-chain transaction execution with Particle Network. (Source: [developers.particle.network](https://developers.particle.network/intro/universal-accounts))*
 
 Without going too much into the technical details, what this means in practice is that a Particle Network universal account holder can manage multiple assets on different chains without creating new accounts, switching networks, purchasing gas tokens, or caring about liquidity fragmentation. 

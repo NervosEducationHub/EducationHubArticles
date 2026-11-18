@@ -70,18 +70,18 @@ date: '2024-06-11T16:00:00.000Z'
 
 因此，大多数基于意图的架构都设计了独立的内存池，使意图能够在系统中的不同节点之间传播。这种方式将交易执行外包给称为求解器（solvers）的专业参与方，由他们尽可能贴近并执行用户以声明式方式表达的偏好。
 
-![alt_text](images/intentpoolmempool.png "image_tooltip")
+![撮合者将意图池（intentpool）中的用户意图转化为内存池（mempool）中的交易；用户也可以直接提交交易。](images/intentpoolmempool.png "image_tooltip")
 
 假设有人想用 0.3 枚原生 ETH，兑换 Avalanche 上等值的 MEME 代币。通常，他需要先考虑创建一笔交易，将 ETH 跨链转移到 Avalanche，再寻找提供 ETH:MEME 流动性池（liquidity pool）的 DEX，最后发起兑换交易。
 
 但假设唯一可用的代币交易对是 AVAX:MEME，他就必须先将 ETH 换成 AVAX，再将 AVAX 换成 MEME。流程中的每一步，都需要在相应链上单独发起交易并支付手续费。
 
-![alt_text](images/transactionmatching.png "image_tooltip")
+![一笔交易在 Uniswap 上将 A 兑换为 C；意图撮合也可以选择通过 Curve 和 Uniswap 进行 A-B-C 的兑换路径。](images/transactionmatching.png "image_tooltip")
 
 
 不难理解，即使是经验丰富的加密货币用户，也很难找到通往目标结果的最优路径。这正是意图这一原语在过去一年中日益受到重视的原因，目前以太坊超过 26% 的订单流已来自基于意图的协议。
 
-![alt_text](images/dune.png "image_tooltip")
+![环形图显示，大约 26% 的以太坊基于交易的订单是通过基于意图的协议进行的。](images/dune.png "image_tooltip")
 
 _订单流数据显示，以太坊基于交易的订单中，约 26% 经由基于意图的协议处理。来源：[Flashbots](https://dune.com/queries/3362105/5642598)。_
 
@@ -140,7 +140,7 @@ _订单流数据显示，以太坊基于交易的订单中，约 26% 经由基�
 
 资源模型在很大程度上借鉴了 UTXO 模型，运作方式也十分相似。但比特币 UTXO 模型将 UTXO 视为货币单位，表达能力受限于这一用途；资源模型则经过了泛化，具有强得多的表达能力。
 
-![alt_text](images/anoma.png "image_tooltip")
+![账户、UTXO 与 Anoma 资源数据模型之间的比较。](images/anoma.png "image_tooltip")
  
 _账户模型、UTXO 模型与 Anoma 资源数据模型的比较。（来源：[Anoma.net](https://anoma.net/blog/rise-of-the-resource-machines#the-role-of-the-arm-in-anoma)）_
 

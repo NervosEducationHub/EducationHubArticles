@@ -95,7 +95,7 @@ You want to buy 5 BTC (Bitcoin) using USDT (Tether) on Binance.
 
 
 
-![alt_text](images/image11.png "image_tooltip")
+![A sample sell order book offers 1.5 BTC at 30,000 and 30,100 USDT, then 2 BTC at 30,200 and 30,300 USDT.](images/image11.png "image_tooltip")
 
 
 

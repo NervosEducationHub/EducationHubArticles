@@ -80,7 +80,7 @@ To implement this lifecycle cleanly, the x402 ecosystem relies on specific eleme
 
 **SDKs and Middleware**: They provide the pre-built code libraries necessary to integrate x402 payments into existing web servers. Acting as a bridge for web servers, they intercept HTTP requests to lock endpoints behind a price tag and receiving address.
 
-![](images/image2.png "x402_protocol_stack")
+![The x402 protocol stack contains: HTTP headers (payment requirement , signature, response headers), facilitator verification, and application layer (SDKs and middleware).](images/image2.png "x402_protocol_stack")
 
 ## Fiber and x402: Scaling Machine-to-Machine Commerce
 
@@ -88,7 +88,7 @@ While the x402 protocol standardizes how the web server requests and verifies pa
 
 Fiber Network is a payment channel network built on the Nervos CKB blockchain, designed to serve as the underlying infrastructure for future micropayments, streaming payments, and machine-to-machine commerce. It utilizes payment channels, an off-chain transaction mechanism that allows two parties to conduct multiple transfers without committing every single transaction to the blockchain.
 
-![](images/image3.png "fiber_and_x402")
+![The three-tiered architecture of the machine-to-machine payment stack on Fiber, where AI agents negotiate pricing at the Application Layer via x402 HTTP, Fiber Network processing payments at the Off-Chain Routing Layer, and the Nervos CKB blockchain ensuring finality at the On-Chain Settlement Layer.](images/image3.png "fiber_and_x402")
 
 This diagram illustrates the three-tiered architecture of the machine-to-machine payment stack on Fiber, where AI agents negotiate pricing at the Application Layer via x402 HTTP, the Fiber Network instantly processes stablecoin payments at the Off-Chain Routing Layer, and the Nervos CKB blockchain ensures secure cryptographic finality at the On-Chain Settlement Layer.
 

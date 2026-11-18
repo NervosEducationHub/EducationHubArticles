@@ -27,7 +27,7 @@ Layer 2 是一个通用术语，用于扩展解决方案，这些解决方案在
 如前所述，Optimistic Rollup 是一种 Layer 2扩展解决方案，旨在通过将交易和计算移出主链、减少拥挤，并在基础链上实现更快、更便宜的交易，从而帮助提高区块链网络的吞吐量和效率。
 
 
-![alt_text](images/image1.png "image_tooltip")
+![Rollup 状态被提交至 Layer 1 区块，并带有一个挑战最新状态的欺诈证明箭头。](images/image1.png "image_tooltip")
 
 为此，Optimistic Rollup 在底层 Layer 1 部署了一个特定的智能合约，称为 rollup 合约，该合约负责管理 rollup 的状态，跟踪用户余额，处理存款、取款和争议解决。在 Optimistic Rollup 中，交易由 “排序者” 或 “操作员” 在链下收集和聚合，他们将多个交易捆绑在一起成为一个 “rollup 块”。该块包含新帐户状态的摘要和加密证明（Merkle Tree）。之后，定序器通过提供 Merkle 树根和称为 “calldata” 的附加数据将汇总块提交给主链，这些数据将用于稍后验证 rollup 块的有效性。
 
@@ -46,7 +46,7 @@ Layer 2 是一个通用术语，用于扩展解决方案，这些解决方案在
 
 
 
-![alt_text](images/image2.png "image_tooltip")
+![L1 到 L2 桥接流程图。用户的 1 ETH 存款锁定在 L1 合约中。定序器将此操作中继至 L2，并将 1 wETH 铸造到用户的 L2 钱包中。图中备注指出，退回 L1 的提款需要数天或数周的时间。](images/image2.png "image_tooltip")
 
 
 Sequencer 负责创建 rollup 区块并连接 Layer 2 和 Layer 1 之间的交易信息，然后将 Layer 2 资产表示分配给 Layer 2 上用户的钱包地址。用户在 Layer 1 和 Layer 2 上的钱包地址自动同步。 Layer 1 上的原始资产在用户提取之前一直处于锁定状态，同时他们可以自由地与 rollup 上相应的新铸造资产进行交易。

@@ -46,9 +46,9 @@ author:
 
 通过闪电网络发送支付时，总费用是路由沿途各节点收费之和。假设一笔支付经过三个中间节点才到达接收方，三个节点的基础费和比例费都会计入你支付的总成本。因此，即使每项费用都很小，多跳累积后的影响也可能相当明显，尤其是对于较大金额的支付。例如，一笔 10 美元（12.62K 聪）的闪电支付可能只需支付 6.785 聪手续费，而一笔 10,000 美元（12.62M 聪）的闪电支付则需要约 3.79K 聪手续费。
 
-![](images/image2.png "a_lightning_payment_of_$10")
+![一笔 10 美元（12.62K 聪）的闪电网络付款可能只需支付 6.785 聪的手续费](images/image2.png "a_lightning_payment_of_$10")
 
-![](images/image3.png "a_lightning_payment_of_$10000")
+![一笔 10,000 美元（12.62M 聪）的闪电网络付款则需支付约 3.79K 聪的手续费。](images/image3.png "a_lightning_payment_of_$10000")
 
 *一笔闪电支付的费用。来源：[闪电网络费用计算器](https://bitcoincalculator.tools/calculators/lightning)*
 

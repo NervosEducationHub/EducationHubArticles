@@ -8,7 +8,7 @@ date: '2023-04-09T16:00:00.000Z'
 ---
 
 
-![alt_text](images/image5.png "image_tooltip")
+![A document passes through SHA-256 to produce a hash.](images/image5.png "image_tooltip")
 
 
 
@@ -21,7 +21,7 @@ The key thing to understand about hash functions is that they are one-way functi
 Consider the following example:
 
 
-![alt_text](images/image2.png "image_tooltip")
+![SHA-256 generator hashes "let's learn blockchain" into a 64-character hexadecimal value.](images/image2.png "image_tooltip")
 
 
 As the above example shows, running the “let’s learn blockchain” input through a hash function gives the following output: 77db72b12a7667ad73fd33544d1f397268dffe18ca3042e0a09af9f993a8f9c1. 
@@ -30,7 +30,7 @@ However, adding a single dot to the input, and rerunning it through the hash fun
 
 
 
-![alt_text](images/image3.png "image_tooltip")
+![Adding a period to "let's learn blockchain" produces a different SHA-256 hash.](images/image3.png "image_tooltip")
 
 
 This example is the best way to showcase hash functions’ power as encryption mechanisms. Even the slightest change in the input changes the output completely, meaning that it’s (almost) impossible to reverse-engineer and find out the original input simply by analyzing the output.
@@ -69,7 +69,7 @@ SHA-1 transforms the user’s data by breaking the input into an ‘n’ number 
 
 
 
-![alt_text](images/image4.png "image_tooltip")
+![SHA-1 diagram showing input padding, a compression loop, and a 160-bit hash.](images/image4.png "image_tooltip")
 
 
 

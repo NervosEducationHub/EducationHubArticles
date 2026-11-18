@@ -260,7 +260,7 @@ Fiber 利用 [Daric 协议](https://eprint.iacr.org/2022/1295.pdf)解决这一�
 
 结果是存储需求恒定。闪电网络式瞭望塔的存储复杂度为 **O(n)**，即每次通道更新都会增加数据负担。Daric 将其降为 **O(1)**：无论通道处理多少笔支付，数据量都保持不变。
 
-![](images/image2.png "comparison_of_different_payment_channels")
+![一张对比表显示，不同支付通道的存储复杂度各不相同。闪电网络式的观察塔具有 O(n) 的存储复杂度，而 Daric 将其降至 O(1)：无论有多少笔付款通过该通道，数据量都始终保持不变。](images/image2.png "comparison_of_different_payment_channels")
 
 对单个用户来说，这一区别可能并不显眼。但对于保护数千条繁忙通道的瞭望塔，它可以大幅降低存储成本，让基础设施更容易规模化运行。
 

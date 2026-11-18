@@ -39,7 +39,7 @@ CKB 与其他传统区块链的主要区别在于，后者将密码学原语嵌�
 
 CKB 的虚拟机 CKB-VM 没有预编译，这意味着哈希函数和签名方案不会事先嵌入其中，而是在应用程序级别或与应用程序开发者创建的智能合约相同的环境中运行。CKB 采用的记账模型被称为 Cell 模型，它是比特币 UTXO 模型的更通用版本。存储在 Cell 中的数据没有强制规定的内部结构，完全由开发人员自行决定。Cell 模型具备与以太坊账户模型相同的编程/智能合约功能（并具备更好的扩展能力），但没有任何限制。
 
-![alt_text](images/image2.png 'image_tooltip')
+![CKB Cell 模型将输入 Cell 转换为输出 Cell。每个 Cell 包含容量、数据、锁定脚本及可选的类型脚本。](images/image2.png 'image_tooltip')
 
 CKB 基于 RISC-V 的虚拟机和 Cell 模型具有许多优势。首先，它们的高度泛化或抽象特性为开发者在构建区块链应用程序方面提供了更多选择。CKB-VM 可相对轻松地运行 CosmWasm 或基于 EVM 的虚拟机，使开发者能够在他们已经熟悉的环境中构建可互操作的去中心化应用程序。此外，CKB 支持所有编程语言，这意味着开发者可以使用他们已经掌握的任何语言进行编码。例如，CKB 的开发者最近成功地[将 Lua 5.4 集成到 CKB-VM 中](https://blog.cryptape.com/enhancing-ergonomics-and-extensibility-of-ckb-contract-development-with-lua#heading-introduction)，允许开发者在 CKB 上运行独立的 Lua 编译器或将 Lua 代码嵌入到 CKB 主合约中，大大降低了链上合约的开发门槛。
 

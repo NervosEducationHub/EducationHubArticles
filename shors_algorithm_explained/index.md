@@ -320,7 +320,7 @@ Common estimates are around 6 to 7 million BTC, or roughly 30% of the supply, de
 
 For a precise, real-time look at this vulnerability, we can turn to the [Bitcoin Risk List](https://bitcoin-risq-list.projecteleven.com/) by Project Eleven, a technical database that actively audits the blockchain for exposed public keys. According to their tracking, there are over 14.1 million addresses with non-zero balances and exposed public keys. Together, these vulnerable addresses hold more than 7.05 million BTC, representing over $444 billion in value at risk of a future quantum attack.
 
-![](images/image2.png "btc_at_risk_of_quantum_attack")
+![A Project Eleven dashboard lists 7,057,463 BTC as exposed to quantum-attack risk through visible public keys.](images/image2.png "btc_at_risk_of_quantum_attack")
 
 *Figure: The Project Eleven Bitcoin Risk List dashboard tracking the total BTC and USD value exposed to quantum attacks due to visible public keys.*
 

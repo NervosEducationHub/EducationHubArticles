@@ -319,7 +319,7 @@ Taproot 改善了隐私、效率和脚本灵活性，但没有让比特币具备
 
 要精确、实时地了解这一风险，可以查看 Project Eleven 的 [Bitcoin Risk List](https://bitcoin-risq-list.projecteleven.com/)。这个技术数据库持续审查区块链，寻找已暴露的公钥。根据其追踪数据，超过 1410 万个余额非零的地址已暴露公钥。这些易受攻击的地址合计持有超过 705 万 BTC，价值超过 4440 亿美元，面临未来量子攻击的风险。
 
-![](images/image2.png "btc_at_risk_of_quantum_attack")
+![Project Eleven 将 7,057,463 BTC 列为因公钥可见而面临量子攻击风险的资产。](images/image2.png "btc_at_risk_of_quantum_attack")
 
 *图：Project Eleven 的 Bitcoin Risk List 仪表板，追踪因公钥可见而暴露于量子攻击的 BTC 总量及其美元价值。*
 
