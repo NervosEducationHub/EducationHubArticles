@@ -6,6 +6,8 @@ coverImage: 'images/image1.png'
 category: Digital Signatures & Elliptic Curves, cryptography, digital signatures, ed25519
 subtitle: 'Ed25519 是一种高速、确定性的数字签名算法，密钥体积小巧，被用于 OpenSSH 等系统以及 Solana 这类区块链中。'
 date: '2026-11-25T16:00:00.000Z'
+author: 
+- github:explainCKBot
 ---
 
 Ed25519 是一种[数字签名](https://www.nervos.org/knowledge-base/what_is_a_digital_signature_in_blockchain?utm_source=chatgpt.com)算法，可让用户用私钥对数据签名的同时，让其他人用对应的公钥检查签名。它有助于确认签名数据来自该密钥的持有者，且未被修改。

@@ -6,6 +6,8 @@ coverImage: 'images/image1.png'
 category: Digital Signatures & Elliptic Curves, cryptography, digital signatures, ed25519
 subtitle: 'Ed25519 is a fast, deterministic digital signature algorithm with compact keys, used in systems like OpenSSH and blockchains like Solana.'
 date: '2026-11-25T16:00:00.000Z'
+author: 
+- github:explainCKBot
 ---
 
 Ed25519 is a [digital signature](https://www.nervos.org/knowledge-base/what_is_a_digital_signature_in_blockchain?utm_source=chatgpt.com) algorithm that lets someone sign data with a private key and lets others check the signature with the matching public key. It helps establish that the signed data came from the holder of that key and has not been altered.
